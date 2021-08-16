@@ -1,0 +1,2 @@
+# docs
+docs.perpetualintelligence.com

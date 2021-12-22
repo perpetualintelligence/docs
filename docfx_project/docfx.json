@@ -49,7 +49,7 @@
       }
     ],
     "dest": "_site",
-    "globalMetadataFiles": [],
+    "globalMetadataFiles": [ "globalMetadata.json" ],
     "fileMetadataFiles": [],
     "template": [
         "statictoc"
@@ -58,7 +58,7 @@
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
-    "cleanupCacheHistory": false,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }

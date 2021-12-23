@@ -2,24 +2,21 @@
 
 This is a documentation repository for Perpetual Intelligence L.L.C. managed services, framework, tools and protocols.
 
-> **Note:** The source is maintained in a private repo. This is a ***preview*** release, and it is subject to design changes without any advance notice.
-
 ## Introduction
+Perpetual Intelligence L.L.C. provides a collection of cross-platform services, frameworks, tools, and protocols built on top of the .NET Core layer and includes the modern Web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration and localization in an integrated way.
 
-Perpetual Intelligence L.L.C. provides a collection of cross-platform services, frameworks, tools, and protocols built on top of the .NET Core layer and includes the modern Web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, and localization in a unique and integrated way.
+> **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
-You can use the `protocols` as a common foundation to build your custom implementations or use our default implementations (planned for future release).
+## Repositories
 
-### Key Highlights
 
-* Perpetual Intelligence `imlx` abstraction and its well-known configurations
-* OpenID Connect and OAuth 2.0 abstraction and well-known configurations
-* Event-driven micro-services abstraction
-* Checkers abstraction
-* Custom endpoint handling, and result abstraction that integrates seamlessly with your existing controllers and API
-* Common security abstraction
+|Repo|Description|Info|
+|----|-----------|----|
+|[protocols](https://github.com/perpetualintelligence/protocols)|Cross platform protocols and standards shared across application stack.|[![status: preview](https://img.shields.io/badge/status-preview-yellow)]() [![usage: free](https://img.shields.io/badge/usage-free-green)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Packages
+## Build
+
+
 
 ### `PerpetualIntelligence.Protocols`
 [![status: preview](https://img.shields.io/badge/status-preview-yellow)]()

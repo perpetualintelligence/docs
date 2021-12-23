@@ -1,6 +1,7 @@
-The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) standards and protocol specification documents.
+## Standards
+The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) specifications. The Perpetual Intelligence's [OneImlx](http://localhost:8080/articles/oneimlx.html) framework provides comprehensive support for all specs below.
 
-| Protocol | Standard / Spec | Topic | Area |
+| Protocol |  Specification | Topic | Area |
 |----------|-----------------|------|----------|
 | OAuth 2.0 | [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) | Core Authorization Framework | Authorization |
 | OAuth 2.0 | [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) | Bearer Token Usage | Token |
@@ -12,3 +13,5 @@ The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Con
 | OpenID Connect 1.0 | [Response Types](https://openid.net/specs/oauth-v2-multiple-response-types-1_0.html) | Multiple Response Type Encoding Practices.  | Response Handling |
 | OpenID Connect 1.0 | [Form Post Response Mode](https://openid.net/specs/oauth-v2-form-post-response-mode-1_0.html) | Form Post Response Mode.  | Response Handling |
 
+## Contact
+Submit requests and issues on [GitHub](https://github.com/perpetualintelligence/docs/issues).

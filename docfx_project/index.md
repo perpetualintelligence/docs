@@ -8,11 +8,12 @@ Perpetual Intelligence L.L.C. provides a collection of cross-platform services, 
 > **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
 ## Repositories
-
-
 |Repo|Description|Info|
 |----|-----------|----|
 |[protocols](https://github.com/perpetualintelligence/protocols)|Cross platform protocols and standards shared across application stack.|[![status: preview](https://img.shields.io/badge/status-preview-yellow)]() [![usage: free](https://img.shields.io/badge/usage-free-green)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+|[data](https://github.com/perpetualintelligence/data)|Cross platform data components shared across application stack.|[![status: preview](https://img.shields.io/badge/status-preview-yellow)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+|[ux](https://github.com/perpetualintelligence/ux)|Cross platform UX components shared across application stack.|[![status: preview](https://img.shields.io/badge/status-preview-yellow)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+|[oneimlx](https://github.com/perpetualintelligence/ux)|Cross platform onemlx integrated framework shared across application stack.|[![status: preview](https://img.shields.io/badge/status-preview-yellow)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Build
 

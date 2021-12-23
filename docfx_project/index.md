@@ -1,22 +1,12 @@
 ![fast_banner_github_914.png](https://en.gravatar.com/userimage/152742631/4ab9cb340649391354d65b592b744114.png)
 
-# protocols 
-[![status: preview](https://img.shields.io/badge/status-preview-yellow)]()
-[![src: private](https://img.shields.io/badge/src-private-red)]()
-[![usage: free](https://img.shields.io/badge/usage-free-green)]()
-[![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[![Issues](https://img.shields.io/github/issues/perpetualintelligence/protocols)](https://github.com/perpetualintelligence/protocols/issues)
-![Deployment](https://vsrm.dev.azure.com/perpetualintelligence/_apis/public/Release/badge/4c5f1531-e837-40e9-9e5e-47abaa3fab37/2/2)
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Protocols)](https://www.nuget.org/packages/PerpetualIntelligence.Protocols)
-
-This repository tracks issues, requests and docs for Perpetual Intelligence `protocols` library.
+This is a documentation repository for Perpetual Intelligence L.L.C. managed services, framework, tools and protocols.
 
 > **Note:** The source is maintained in a private repo. This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
 ## Introduction
 
- `protocols` is a collection of cross-platform abstractions built on top of the .NET Core layer and includes the modern Web authorization and authentication standards. This enables you to address website and application design and development challenges, authentication, authorization, licensing, and localization in a standard and integrated way.
+Perpetual Intelligence L.L.C. provides a collection of cross-platform services, frameworks, tools, and protocols built on top of the .NET Core layer and includes the modern Web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, and localization in a unique and integrated way.
 
 You can use the `protocols` as a common foundation to build your custom implementations or use our default implementations (planned for future release).
 

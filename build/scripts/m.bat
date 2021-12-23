@@ -1,0 +1,1 @@
+docfx metadata docfx_project/docfx.json

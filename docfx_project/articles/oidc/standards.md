@@ -1,4 +1,4 @@
-The table below summarizes the OAuth 2.0 and OpenID Connect standards and protocol specification documents.
+The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) standards and protocol specification documents.
 
 | Protocol | Standard / Spec | Topic | Area |
 |----------|-----------------|------|----------|
@@ -6,6 +6,8 @@ The table below summarizes the OAuth 2.0 and OpenID Connect standards and protoc
 | OAuth 2.0 | [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) | Bearer Token Usage | Token |
 | OAuth 2.0 | [RFC 7662](https://datatracker.ietf.org/doc/html/rfc7662.html) | Token Introspection | Token |
 | OAuth 2.0 | [RFC 8707](https://www.rfc-editor.org/info/rfc8707) | Resource Indicators | Resource Protection |
-| OpenID Connect 1.0 | [Core Spec](https://openid.net/specs/openid-connect-core-1_0.html) | Core OpenID Connect functionality.  | Authentication |
-| OpenID Connect 1.0 | [Discovery Spec](https://openid.net/specs/openid-connect-core-1_0.html) | OpenID Connect discovery.  | Authentication |
+| OpenID Connect 1.0 | [Core](https://openid.net/specs/openid-connect-core-1_0.html) | Core OpenID Connect functionality.  | Authentication |
+| OpenID Connect 1.0 | [Discovery](https://openid.net/specs/openid-connect-discovery-1_0.html) | OpenID Connect discovery.  | Authentication |
+| OpenID Connect 1.0 | [Response Types](https://openid.net/specs/oauth-v2-multiple-response-types-1_0.html) | Multiple Response Type Encoding Practices.  | Response Handling |
+| OpenID Connect 1.0 | [Form Post Response Mode](https://openid.net/specs/oauth-v2-form-post-response-mode-1_0.html) | Form Post Response Mode.  | Response Handling |
 

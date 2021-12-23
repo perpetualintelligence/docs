@@ -1,5 +1,5 @@
 The table below summarizes the OAuth 2.0 and OpenID Connect standards and protocol specification documents.
 
-| Standard/Protocol | Topic | Area |
-|-------------------|-------|------|
-|[RFC 8707](https://www.rfc-editor.org/info/rfc8707)         | Resource Indicators for OAuth 2.0 | Resource Protection
+| Standard | Topic | Area | Protocol |
+|----------|-------|------|----------|
+|[RFC 8707](https://www.rfc-editor.org/info/rfc8707)         | Resource Indicators for OAuth 2.0 | Resource Protection | OAuth 2.0

@@ -1,7 +1,7 @@
 ## Standards
 The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) specifications. The Perpetual Intelligence's [OneImlx](http://localhost:8080/articles/oneimlx.html) framework provides comprehensive support for all specs below.
 
-| Protocol |  Specification | Topic | OneImlx Conceptual Area |
+| Protocol |  Specification | Topic | *OneImlx* Article |
 |----------|-----------------|------|----------|
 | OAuth 2.0 | [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) | Core Authorization Framework | Authorization |
 | OAuth 2.0 | [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) | Bearer Token Usage | Tokens |

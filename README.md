@@ -6,7 +6,7 @@ This repository contains the conceptual documentation for Perpetual Intelligence
 
 > **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
-Issues and tasks for documentation are tracked here. We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [Issues policy](https://github.com/perpetualintelligence/terms/blob/main/IssuesPolicy.md) topic.
+Issues and tasks for documentation are tracked here. We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [Issues policy](https://github.com/perpetualintelligence/terms/blob/main/issues-policy.md) topic.
 
 We welcome contributions to help us improve and complete the docs. 
 

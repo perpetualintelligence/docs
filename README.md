@@ -2,8 +2,6 @@
 
 # Perpetual Intelligence Docs [![goto](https://img.shields.io/badge/-https://docs.perpetualintelligence.com-blue)](https://docs.perpetualintelligence.com) 
 
-![Markdownlint](https://github.com/dotnet/docs/workflows/Markdownlint/badge.svg) [![target supported version](https://github.com/dotnet/docs/actions/workflows/version-sweep.yml/badge.svg)](https://github.com/dotnet/docs/actions/workflows/version-sweep.yml) [![Issues](https://img.shields.io/github/issues/perpetualintelligence/docs/issues)](https://github.com/perpetualintelligence/docs/issues)
-
 This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, framework, tools and protocols. The [documentation site](https://docs.perpetualintelligence.com) is built from this repository.
 
 > **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.

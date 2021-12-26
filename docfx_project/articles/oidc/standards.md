@@ -6,6 +6,7 @@ The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Con
 | OAuth 2.0 | [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) | Core Authorization Framework | Authorization |
 | OAuth 2.0 | [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) | Bearer Token Usage | Tokens |
 | OAuth 2.0 | [RFC 7009](https://datatracker.ietf.org/doc/html/rfc7009) | Token Revocation | Tokens |
+| OAuth 2.0 | [RFC 7515](https://www.rfc-editor.org/info/rfc7515) | JSON Web Signature (JWS) | Assertions |
 | OAuth 2.0 | [RFC 7521](https://datatracker.ietf.org/doc/html/rfc7521) | Assertion Framework for Client Authentication and Authorization Grants | Assertions |
 | OAuth 2.0 | [RFC 7522](https://datatracker.ietf.org/doc/html/rfc7522) | Security Assertion Markup Language (SAML) 2.0 Profile for Client Authentication and Authorization Grants | Assertions |
 | OAuth 2.0 | [RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523) | JSON Web Token (JWT) Profile for Client Authentication and Authorization Grants | Assertions |
@@ -17,6 +18,7 @@ The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Con
 | OAuth 2.0 | [RFC 8693](https://www.rfc-editor.org/info/rfc8693) | Token Exchange | Tokens |
 | OAuth 2.0 | [RFC 8705](https://www.rfc-editor.org/info/rfc8705) | Mutual-TLS Client Authentication and Certificate-Bound  Access Tokens | MTLS |
 | OAuth 2.0 | [RFC 8707](https://www.rfc-editor.org/info/rfc8707) | Resource Indicators | Resource Protection |
+| OAuth 2.0 | [RFC 9068](https://www.rfc-editor.org/info/rfc9068) | JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens | Tokens |
 | OpenID Connect 1.0 | [Core](https://openid.net/specs/openid-connect-core-1_0.html) | Core OpenID Connect  | Authentication |
 | OpenID Connect 1.0 | [Discovery](https://openid.net/specs/openid-connect-discovery-1_0.html) | OpenID Connect discovery  | Authentication |
 | OpenID Connect 1.0 | [Session Management](https://openid.net/specs/openid-connect-discovery-1_0.html) | manage OpenID Connect sessions, including postMessage-based logout functionality  | Sessions |

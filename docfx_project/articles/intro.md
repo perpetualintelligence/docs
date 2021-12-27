@@ -1,1 +1,12 @@
-# Add your introductions here!
+## Repositories
+|Repo|Description|Info|Packages|
+|----|-----------|----|--------|
+|[protocols](https://github.com/perpetualintelligence/protocols)|Cross-platform protocol and standard abstractions for the application stack.|[![repo: public](https://img.shields.io/badge/repo-public-green)]() [![usage: free](https://img.shields.io/badge/usage-free-green)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+|[data](https://github.com/perpetualintelligence/data)|Cross platform data components shared across application stack.|[![repo: public](https://img.shields.io/badge/repo-public-yellow)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Terms](https://img.shields.io/badge/License-Terms-blue.svg)](https://perpetualintelligence.azurewebsites.net/legal/terms)
+|[ux](https://github.com/perpetualintelligence/ux)|Cross platform UX components for mobile and web applications.|[![repo: public](https://img.shields.io/badge/repo-public-yellow)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Terms](https://img.shields.io/badge/License-Terms-blue.svg)](https://perpetualintelligence.azurewebsites.net/legal/terms)
+|[oneimlx](https://github.com/perpetualintelligence/oneimlx)|Cross platform onemlx integrated framework shared across application stack.|[![repo: private](https://img.shields.io/badge/repo-private-red)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Terms](https://img.shields.io/badge/License-terms-blue.svg)](https://perpetualintelligence.azurewebsites.net/legal/terms)
+|[cli](https://github.com/perpetualintelligence/cli)|Cross platform cli framework.|[![repo: public](https://img.shields.io/badge/repo-public-green)]() [![usage: paid](https://img.shields.io/badge/usage-paid-red)]() [![License: Terms](https://img.shields.io/badge/License-terms-blue.svg)](https://perpetualintelligence.azurewebsites.net/legal/terms)
+|[docs](https://github.com/perpetualintelligence/docs)|The documentation for all the Perpetual Intelligence  cross-platform services, frameworks, tools, and protocols.|[![repo: public](https://img.shields.io/badge/repo-public-green)]() [![usage: free](https://img.shields.io/badge/usage-free-green)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+
+## Build

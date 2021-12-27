@@ -19,7 +19,7 @@ This documentation website has three main sections:
 3. [REST API](rest/index.html): The REST API endpoints for managed services
 
 ## [Roadmap](ttps://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/roadmap.md)
-This document covers the upcoming release dates
+This [document](articles/roadmap.md) covers the upcoming release dates
 
 ## Contact Us
 * Submit requests and issues on relevant repo on [GitHub](https://github.com/perpetualintelligence/protocols/issues).

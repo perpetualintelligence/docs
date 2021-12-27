@@ -1,5 +1,5 @@
 ## Introduction
-Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity and collaboration platform to create secure applications and API endpoints on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.
+Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity, collaboration and cli platform to create secure applications and API endpoints on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.
 
 > **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
@@ -22,7 +22,7 @@ This documentation website has three main sections:
 This [document](articles/roadmap.md) covers the upcoming release dates
 
 ## Contact Us
-* Submit requests and issues on relevant repo on [GitHub](articles/repo.md).
+* Submit requests and issues on relevant [repo](articles/repo.md).
 * Submit prioritized request at [Support](https://perpetualintelligence.azurewebsites.net/support)
 
 

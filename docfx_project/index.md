@@ -1,9 +1,17 @@
-![fast_banner_github_914.png](https://en.gravatar.com/userimage/152742631/4ab9cb340649391354d65b592b744114.png)
-
 ## Introduction
-Perpetual Intelligence L.L.C. provides a collection of cross-platform services, identity and collaboration frameworks, tools, and protocols built on top of the .NET Core layer and includes the modern web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration, multi-tenancy, role-based access and localization in a unified way.
+Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity and collaboration platform to create secure applications and API on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.
 
 > **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
+
+## Perpetual Intelligence's identity and collaboration platform
+[Perpetual Intelligence L.L.C.](https://perpetualintelligence.azurewebsites.net/) provides a collection of cross-platform frameworks and services for identity, collaboration, and cli. The tools and protocol implementations are built on top of the [.NET Core](https://dotnet.microsoft.com/en-us/) layer and include the modern web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration, multi-tenancy, role-based access, and localization in a unified way.
+
+## Enter [OneImlx](https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/oneimlx/intro.md)
+A unitfied platform for developers and customers for building all your secured, collaborative and multi-tenant apps: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
+
+## Enter [Cli]()
+A unitfied platform for developers and customers for builing all your secured cli applications: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
+
 
 ## Repositories
 |Repo|Description|Info|Packages|

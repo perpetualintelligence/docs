@@ -7,10 +7,10 @@ Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsi
 [Perpetual Intelligence L.L.C.](https://perpetualintelligence.azurewebsites.net/) provides a collection of cross-platform frameworks and services for identity, collaboration, and cli. The tools and protocol implementations are built on top of the [.NET Core](https://dotnet.microsoft.com/en-us/) layer and include the modern web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration, multi-tenancy, role-based access, and localization in a unified way.
 
 ## Enter OneImlx
-[OneImlx](https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/oneimlx/intro.md) is a unified platform for developers and customers for building all your secured, collaborative and multi-tenant apps: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
+[OneImlx](articles/oneimlx/intro.md) is a unified platform for developers and customers for building all your secured, collaborative and multi-tenant apps: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
 
 ## Enter Cli
-[Cli](https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/cli/intro.md) is unified platform for developers and customers for building all your secured cli applications: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
+[Cli](articles/cli/intro.md) is unified platform for developers and customers for building all your secured cli applications: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
 
 ## Navigation
 This documentation website has three main sections:

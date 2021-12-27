@@ -1,2 +1,1 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+The .NET core classes for applications on any platform using C#, F#, and Visual Basic.

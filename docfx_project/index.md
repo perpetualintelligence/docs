@@ -22,7 +22,7 @@ This documentation website has three main sections:
 This [document](articles/roadmap.md) covers the upcoming release dates
 
 ## Contact Us
-* Submit requests and issues on relevant repo on [GitHub](https://github.com/perpetualintelligence/protocols/issues).
+* Submit requests and issues on relevant repo on [GitHub](articles/repo.md).
 * Submit prioritized request at [Support](https://perpetualintelligence.azurewebsites.net/support)
 
 

@@ -18,7 +18,7 @@ This documentation website has three main sections:
 2. [Classes](api/index.md): The .NET core classes for applications on any platform using C#, F#, and Visual Basic
 3. [REST API](rest/index.html): The REST API endpoints for managed services
 
-## [Roadmap](ttps://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/roadmap.md)
+## Roadmap
 This [document](articles/roadmap.md) covers the upcoming release dates
 
 ## Contact Us

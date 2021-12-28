@@ -11,4 +11,4 @@ Use Perpetual Intelligence's [managed-hosting](deployment/managedhosting.md) env
 Use [third-party hosting](deployment/thirdparty.md) environment powered by Perpetual Intelligence's protocol abstractions.
 
 ## Deployment
-Build deployment agnostic secured applications and services, test them in local environments and deploy the production apps and services on-premise, public, private, hybrid or government cloud.
+Build deployment agnostic secured applications and services, test them in local environments and deploy the production apps and services on-premise, cloud (public, private or government) or hybrid.

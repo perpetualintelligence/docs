@@ -1,4 +1,4 @@
-This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, framework, tools and protocols. The [documentation site](https://docs.perpetualintelligence.com) is built using [dicfx](https://dotnet.github.io/docfx/) from this repository.
+This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, framework, tools and protocols. The [documentation site](https://docs.perpetualintelligence.com) is built using [docfx](https://dotnet.github.io/docfx/) from this repository.
 
 Issues and tasks for documentation are tracked here. We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [Issues policy](https://github.com/perpetualintelligence/terms/blob/main/issues-policy.md) topic.
 

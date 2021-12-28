@@ -16,7 +16,7 @@ Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsi
 This documentation website has three main sections:
 1. [Articles](articles/intro.md): The conceptual documentation for all our framework, tools, and services
 2. [Classes](api/index.md): The .NET core classes for applications on any platform using C#, F#, and Visual Basic
-3. [REST API](rest/intro.md): The REST API endpoints for managed services
+3. [REST API](rest/intro.md): The REST API endpoints for our managed services
 
 ## Roadmap
 This [document](articles/roadmap.md) covers the upcoming release dates

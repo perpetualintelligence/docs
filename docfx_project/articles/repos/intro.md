@@ -1,3 +1,5 @@
+The table below summarizes the Perpetual Intelligence's [GitHub](https://github.com/perpetualintelligence) repositories.
+
 |Repo|Description|Info|Packages|
 |----|-----------|----|--------|
 |[protocols](https://github.com/perpetualintelligence/protocols)|Cross-platform protocol and standard abstractions for the application stack.|[![repo: public](https://img.shields.io/badge/repo-public-green)]() [![usage: free](https://img.shields.io/badge/usage-free-green)]() [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)

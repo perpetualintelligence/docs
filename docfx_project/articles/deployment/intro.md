@@ -11,4 +11,4 @@ Use Perpetual Intelligence's managed-hosting environment to host your server wit
 Use third-party managed-hosting environment powered by Perpetual Intelligence's protocol abstractions.
 
 ## Deployment
-Build deployment agnostic secured applications and services and then deploy the production apps and services on on-premise, public cloud, private cloud, hybrid cloud or government cloud.
+Build deployment agnostic secured applications and services, test them in local environments and deploy the production apps and services on-premise, public, private, hybrid or government cloud.

@@ -74,7 +74,7 @@ jobs:
         Write-Host "##vso[task.setvariable variable=PI_LIBRARY_CADENCE]$(PI_LOCAL_CADENCE)"
       failOnStderr: true
   
-   # Install docfx with choco and then build the documentation project
+   # Install docfx with nuget and then build the documentation project
   - task: PowerShell@2
     displayName: Build
     inputs:

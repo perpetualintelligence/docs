@@ -10,8 +10,9 @@ resources:
   - repository: protocols
     type: git
     ref: main
+    name: perpetualintelligence/protocols
 jobs:
-- job: Build Documentation Website
+- job: BuildDocs
   displayName: Hosted Windows
   pool:
     name: Azure Pipelines

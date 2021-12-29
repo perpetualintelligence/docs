@@ -14,8 +14,8 @@
 variables:
 - group: CadenceVariables
 
-# Pipeline name e.g. 2.3.5-rc.21122505
-name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(PI_LOCAL_CADENCE).$(Date:yyMMdd)$(Rev:rr)
+# Pipeline name e.g. 2.3.5-docs.21122505
+name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
 
 # Build jobs
 jobs:

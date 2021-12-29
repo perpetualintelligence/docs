@@ -6,18 +6,23 @@
 #    Additional terms and policies.
 #    https://github.com/perpetualintelligence/terms/blob/main/policies.md
 
-# This is the Azure pipeline yml configuration file to release and publish the documentation site to GitHub pages.
+# This is the Azure pipeline yml configuration file to build and publish the documentation site.
 # The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
 
-# Pipeline name e.g. 2.3.5-docs.21122505
-name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
+# Pipeline name e.g. 2.3.5-rc.21122505
+name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(PI_LOCAL_CADENCE).$(Date:yyMMdd)$(Rev:rr)
 
-# Download the build pipeline artifact
+# Docs require multiple repositories so provide all the repos
+# Endpoint authentication is configured with the Azure DevOps
 resources:
+  repositories:
+  - repository: self
+    type: github
+    ref: main
   pipelines:
   - pipeline: docs-cadence-artifact-id
     source: docs-cadence
-    
+
 # Provide access to cadence variables.
 # PI_LOCAL_CADENCE is specified at runtime while running the pipeline, defualts to 'cross'.
 variables:
@@ -30,9 +35,10 @@ jobs:
   pool:
     vmImage: windows-latest
     name: Azure Pipelines
-
-  # Release pipeline steps  
   steps:
+  # Checkout source
+  - checkout: self
+    clean: true   
 
   # Dump dir
   - task: PowerShell@2
@@ -40,6 +46,7 @@ jobs:
     inputs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : false    
+    enabled : false      
+
 ...
 

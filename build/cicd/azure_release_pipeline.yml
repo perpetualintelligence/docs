@@ -33,12 +33,21 @@ jobs:
 
   # Download the latest build artifact
   - task: DownloadPipelineArtifact@2
+    displayName: Download Site (latest cadence)
     inputs:
       buildType: 'specific'
       project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
       definition: '55'
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'
+
+  # Extract the site .zip files
+  - task: ExtractFiles@1
+    inputs:
+      archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      destinationFolder: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site'
+      cleanDestinationFolder: true
+      overwriteExistingFiles: true  
 
   # Dump dir
   - task: PowerShell@2

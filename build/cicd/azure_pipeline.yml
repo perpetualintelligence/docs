@@ -54,7 +54,7 @@ jobs:
   - task: DotNetCoreCLI@2
     inputs:
       command: 'restore'
-      projects: '**/docs/src/PerpetualIntelligence.Docs.Solution.sln'
+      projects: '**/docs/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln'
       feedsToUse: 'select'
       vstsFeed: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819/225e33e8-c1db-4d60-962b-649dcd7f4c89'
 

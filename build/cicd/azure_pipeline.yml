@@ -1,6 +1,10 @@
 # Variable 'PI_LOCAL_CADENCE' was defined in the Variables tab
 # Variable Group 'Cadence Variables' was defined in the Variables tab
 # Agent Queue 'Azure Pipelines' was used with unrecognized Agent Specification, vmImage property must be specified to determine image - https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software
+
+variables:
+- group: CadenceVariables
+
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(PI_LOCAL_CADENCE).$(Date:yyMMdd)$(Rev:rr)
 resources:
   repositories:

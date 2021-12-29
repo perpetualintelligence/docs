@@ -76,10 +76,11 @@ jobs:
       targetType: inline
       script: Get-ChildItem -Path $(Build.SourcesDirectory)
   
-  # Publish the static docs
+  # Publish the static docs.
+  # Defaut output path for docfx build output is docfx_project/_site
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Pipeline.Workspace)/docs/docfx/_site'
+      targetPath: '$(Pipeline.Workspace)/docs/docfx_project/_site'
       artifact: 'docs'
       publishLocation: 'pipeline'
 ...

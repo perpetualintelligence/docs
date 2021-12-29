@@ -37,4 +37,15 @@ jobs:
           
       # Install docfx. docfx.exe is under folder docfx.console/tools/.
       - name: Install docfx Version 6.0.1
-        run: nuget install docfx.console   
+        run: nuget install docfx.console
+      
+      # Restore project dependencies
+      - name: Install nuget dependencies
+        run: dotnet restore
+        
+      # Build docs
+      - name: Build the docfx project
+        working-directory: docfx_project
+        run: docfx docfx.json
+        continue-on-error: false
+      

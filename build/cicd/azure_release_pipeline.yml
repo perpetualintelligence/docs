@@ -17,6 +17,12 @@ variables:
 # Pipeline name e.g. 2.3.5-docs.21122505
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
 
+# Download the build pipeline artifact
+resources:
+  pipelines:
+  - pipeline: docs-cadence-artifact-id
+    source: docs-cadence
+
 # Build jobs
 jobs:
 - job: Windows

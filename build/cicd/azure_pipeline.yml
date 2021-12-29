@@ -1,12 +1,15 @@
-# Variable 'PI_LOCAL_CADENCE' was defined in the Variables tab
-# Variable Group 'Cadence Variables' was defined in the Variables tab
 # Agent Queue 'Azure Pipelines' was used with unrecognized Agent Specification, vmImage property must be specified to determine image - https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software
 
+# Provide access to cadence variables.
+# PI_LOCAL_CADENCE is specified at runtime while running the pipeline, defualts to cross
 variables:
 - group: CadenceVariables
 
+# Pipeline name e.g. 2.3.5-rc.21122505
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(PI_LOCAL_CADENCE).$(Date:yyMMdd)$(Rev:rr)
 resources:
+  # Docs require multiple repositories so provide all the respository to checkout
+  # Endpoint authentication is configured at the Azure DevOps
   repositories:
   - repository: self
     type: github
@@ -22,31 +25,32 @@ jobs:
   pool:
     name: Azure Pipelines
   steps:
+  # Checkout source
   - checkout: self
+    clean: true
   - checkout: protocols
     clean: true
+    
+  # Download .NET SDK from global.json
   - task: UseDotNet@2
     displayName: Use .NET Core
     inputs:
       useGlobalJson: true
+      
+  # Set the pipeline cadence based on the input or use default.
   - task: PowerShell@2
     displayName: Set Pipeline Cadence
     inputs:
       targetType: inline
       script: >-
         # See https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=classic%2Cbatch for variable expansion
-
         # Set the PI_LIBRARY_CADENCE to either preview, rc or release. This variable is used in downstream *.csproj to restore the NuGet references.
-
-        # PI_TASKGROUP_CADENCE is passed by the parent pipeline
-
-
         Write-Host "##vso[task.setvariable variable=PI_LIBRARY_CADENCE]$(PI_LOCAL_CADENCE)"
       failOnStderr: true
   - task: PowerShell@2
     displayName: Enumerate
     inputs:
       targetType: inline
-      script: Get-ChildItem -Path $(Build.ArtifactStagingDirectory) --
+      script: Get-ChildItem -Path $(Build.ArtifactStagingDirectory) --Recurse
 ...
 

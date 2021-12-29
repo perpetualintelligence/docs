@@ -33,7 +33,7 @@ jobs:
       - name: Install .NET Core Runtime Version 6.0.1
         uses: actions/setup-dotnet@v1
         with: 
-          dotnet-version: 6.0.1
+          dotnet-version: 6.0.x
           
       # Install docfx. docfx.exe is under folder docfx.console/tools/.
       - name: Install docfx Version 6.0.1

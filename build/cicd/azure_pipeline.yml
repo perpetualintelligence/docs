@@ -50,6 +50,7 @@ jobs:
 
   # Setup docfx and build
   - task: DocFxTask@0
+    displayName: Build docfx_project
     inputs:
       solution: 'PerpetualIntelligence.Docs.Solution.sln'
       docfxOptions: 'docfx_project\docfx.json'

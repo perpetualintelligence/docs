@@ -40,14 +40,6 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'
 
-  # Extract the site .zip files
-  - task: ExtractFiles@1
-    inputs:
-      archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
-      destinationFolder: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site'
-      cleanDestinationFolder: true
-      overwriteExistingFiles: true
-    
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate
@@ -65,7 +57,7 @@ jobs:
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'
       tag: '$(Build.BuildNumber)'
-      title: 'Documentation Site'
+      title: '$(Build.BuildNumber)'
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       isDraft: true
       isPreRelease: true

@@ -9,9 +9,11 @@
 # This is the Azure pipeline yml configuration file to build and publish the documentation site.
 # The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
 
-
 # Pipeline name e.g. 2.3.5-rc.21122505
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(PI_LOCAL_CADENCE).$(Date:yyMMdd)$(Rev:rr)
+
+trigger:
+- main
 
 # Docs require multiple repositories so provide all the repos
 # Endpoint authentication is configured with the Azure DevOps

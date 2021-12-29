@@ -9,7 +9,7 @@
 # This is the Azure pipeline yml configuration file to build and publish the documentation site.
 # The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
 
-# Pipeline name e.g. 2.3.5-rc.21122505
+# Pipeline name e.g. 2.3.5-docs.21122505
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
 
 trigger:
@@ -58,12 +58,11 @@ jobs:
       tagSource: 'userSpecifiedTag'
       tag: '$(Build.BuildNumber)'
       title: '$(Build.BuildNumber)'
+      releaseNotesSource: 'inline'
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       isDraft: true
       isPreRelease: true
-      changeLogCompareToRelease: 'lastFullRelease'
-      changeLogType: 'commitBased'
-  
- 
+      addChangeLog: false 
+
 ...
 

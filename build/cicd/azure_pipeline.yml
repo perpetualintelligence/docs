@@ -49,7 +49,14 @@ jobs:
     displayName: Use .NET Core
     inputs:
       useGlobalJson: true
-      
+  
+    # Restore projects to make sure the dependent types are correctly built
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'restore'
+      feedsToUse: 'select'
+      vstsFeed: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819/225e33e8-c1db-4d60-962b-649dcd7f4c89'
+
   # Set the pipeline cadence based on the input or use default.
   - task: PowerShell@2
     displayName: Set Pipeline Cadence
@@ -90,7 +97,7 @@ jobs:
   # Defaut output path for docfx build output is docfx_project/_site
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.$(Build.BuildId).zip'
+      targetPath: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.$(Build.BuildNumber).zip'
       artifact: 'drop'
       publishLocation: 'pipeline'
 ...

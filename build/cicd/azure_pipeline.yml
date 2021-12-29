@@ -81,7 +81,7 @@ jobs:
   # Defaut output path for docfx build output is docfx_project/_site
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Pipeline.Workspace)/docs/docfx_project/_site'
+      targetPath: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
       artifact: 'docs'
       publishLocation: 'pipeline'
 ...

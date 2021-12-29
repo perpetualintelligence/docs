@@ -34,15 +34,6 @@ jobs:
   # Release pipeline steps  
   steps:
 
-  # Download the latest build artifact
-  - task: DownloadPipelineArtifact@2
-    inputs:
-      buildType: 'specific'
-      project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
-      definition: '55'
-      buildVersionToDownload: 'latest'
-      targetPath: '$(Pipeline.Workspace)'
-
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate

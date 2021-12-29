@@ -54,11 +54,11 @@ jobs:
       targetType: 'inline'
       script: |
         nuget install docfx.console -Version 2.58.9       
-        docfx.console/2.58.9/tools/docfx.exe docfx_project/docfx.json
+        
   - task: PowerShell@2
     displayName: Enumerate
     inputs:
       targetType: inline
-      script: Get-ChildItem -Path $(Build.SourcesDirectory)
+      script: Get-ChildItem -Path $(Build.SourcesDirectory) -Recurse
 ...
 

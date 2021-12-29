@@ -46,9 +46,17 @@ jobs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       destinationFolder: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site'
       cleanDestinationFolder: true
-      overwriteExistingFiles: true  
+      overwriteExistingFiles: true
+    
+  # Dump dir
+  - task: PowerShell@2
+    displayName: Enumerate
+    inputs:
+      targetType: inline
+      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
+    enabled : false
  
-    # Create Github release
+  # Create Github release
   - task: GitHubRelease@1
     inputs:
       gitHubConnection: 'githubpta.perpetualintelligence.com'
@@ -64,12 +72,6 @@ jobs:
       changeLogCompareToRelease: 'lastFullRelease'
       changeLogType: 'commitBased'
   
-  # Dump dir
-  - task: PowerShell@2
-    displayName: Enumerate
-    inputs:
-      targetType: inline
-      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : false 
+ 
 ...
 

@@ -51,7 +51,7 @@ jobs:
   # Create Github release
   - task: GitHubRelease@1
     inputs:
-      gitHubConnection: 'githubpta.perpetualintelligence.com'
+      gitHubConnection: '$(PI_GITHUB_PTA_CONNECTION)'
       repositoryName: 'perpetualintelligence/docs'
       action: 'create'
       target: '$(Build.SourceVersion)'

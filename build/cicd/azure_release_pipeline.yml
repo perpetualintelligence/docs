@@ -24,6 +24,8 @@ jobs:
   pool:
     vmImage: windows-latest
     name: Azure Pipelines
+
+  # Release pipeline steps  
   steps:
 
   # Download the latest build artifact

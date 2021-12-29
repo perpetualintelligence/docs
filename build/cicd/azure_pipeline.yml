@@ -58,6 +58,7 @@ jobs:
       projects: '**/docs/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln'
       feedsToUse: 'config'
       nugetConfigPath: '$(Build.SourcesDirectory)/docs/build/config/nuget.config'
+      verbosityRestore: 'Minimal'
 
   # Set the pipeline cadence based on the input or use default.
   - task: PowerShell@2

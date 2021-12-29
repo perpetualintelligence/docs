@@ -53,8 +53,8 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        nuget install docfx.console
-        docfx.console/tools/docfx.exe docfx_project/docfx.json
+        nuget install docfx.console        
+        docfx.console/**/tools/docfx.exe docfx_project/docfx.json
   - task: PowerShell@2
     displayName: Enumerate
     inputs:

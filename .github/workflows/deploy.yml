@@ -1,0 +1,40 @@
+# This is a basic workflow to build and deploy the docfx_project on the GitHub Pages
+# https://github.com/dotnet/docfx/issues/3284
+# https://tehgm.net/blog/docfx-github-actions/
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # Builds the docfx_project using .NET Core and Windows OS
+  # TODO: Check if we can do this on ubuntu or linux
+  build_docs:
+  
+    # Runs on windows for now!
+    runs-on: windows-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Install .NET Runtime
+      - name: Install .NET Core Runtime Version 6.0.1
+        uses: actions/setup-dotnet@v1
+        with: 
+          dotnet-version: 6.0.1
+          
+      # Install docfx. docfx.exe is under folder docfx.console/tools/.
+      - name: Install docfx Version 6.0.1
+        run: nuget install docfx.console   

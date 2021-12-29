@@ -62,7 +62,6 @@ jobs:
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       isDraft: true
       isPreRelease: true
-      addChangeLog: false 
-
+      addChangeLog: false
 ...
 

@@ -5,10 +5,10 @@ name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVE
 resources:
   repositories:
   - repository: self
-    type: git
+    type: github
     ref: main
   - repository: protocols
-    type: git
+    type: github
     ref: main
     name: perpetualintelligence/protocols
 jobs:

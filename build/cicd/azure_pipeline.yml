@@ -77,12 +77,21 @@ jobs:
       script: Get-ChildItem -Path $(Build.SourcesDirectory) -Recurse
     enabled : true    
   
+  # Archive the _site
+  - task: ArchiveFiles@2
+    inputs:
+      rootFolderOrFile: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.$(Build.BuildId).zip'
+      replaceExistingArchive: true  
+
   # Publish the static docs.
   # Defaut output path for docfx build output is docfx_project/_site
   - task: PublishPipelineArtifact@1
     inputs:
-      targetPath: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
-      artifact: 'docs'
+      targetPath: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.$(Build.BuildId).zip'
+      artifact: 'drop'
       publishLocation: 'pipeline'
 ...
 

@@ -47,14 +47,14 @@ jobs:
         # Set the PI_LIBRARY_CADENCE to either preview, rc or release. This variable is used in downstream *.csproj to restore the NuGet references.
         Write-Host "##vso[task.setvariable variable=PI_LIBRARY_CADENCE]$(PI_LOCAL_CADENCE)"
       failOnStderr: true
-
-  # Setup docfx and build
-  - task: DocFxTask@0
-    displayName: Build docfx_project
+  
+   # Install docfx with choco and then build the documentation project
+  - task: PowerShell@2
     inputs:
-      solution: 'PerpetualIntelligence.Docs.Solution.sln'
-      docfxOptions: 'docfx_project\docfx.json'
-
+      targetType: 'inline'
+      script: |
+        choco install docfx -y
+        docfx docfx_project/docfx.json
   - task: PowerShell@2
     displayName: Enumerate
     inputs:

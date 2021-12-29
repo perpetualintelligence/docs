@@ -53,7 +53,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        choco install docfx -y
+        nuget install docfx.console
         docfx docfx_project/docfx.json
   - task: PowerShell@2
     displayName: Enumerate

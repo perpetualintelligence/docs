@@ -23,6 +23,7 @@ jobs:
 - job: BuildDocs
   displayName: Hosted Windows
   pool:
+    vmImage: windows-latest
     name: Azure Pipelines
   steps:
   # Checkout source
@@ -54,7 +55,7 @@ jobs:
       targetType: 'inline'
       script: |
         nuget install docfx.console -Version 2.58.9
-        docfx.console.2.58.9/tools/docfx.exe docfx_project/docfx.json
+        docfx.console.2.58.9/tools/docfx.exe docs/docfx_project/docfx.json
         
   - task: PowerShell@2
     displayName: Enumerate

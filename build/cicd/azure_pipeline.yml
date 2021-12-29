@@ -55,8 +55,8 @@ jobs:
     inputs:
       command: 'restore'
       projects: '**/docs/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln'
-      feedsToUse: 'select'
-      vstsFeed: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819/225e33e8-c1db-4d60-962b-649dcd7f4c89'
+      feedsToUse: 'config'
+      nugetConfigPath: '$(Build.SourcesDirectory)/docs/build/config/nuget.config'
 
   # Set the pipeline cadence based on the input or use default.
   - task: PowerShell@2

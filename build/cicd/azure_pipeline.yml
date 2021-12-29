@@ -46,12 +46,13 @@ jobs:
     
   # Download .NET SDK from global.json
   - task: UseDotNet@2
-    displayName: Use .NET Core
+    displayName: Use SDK
     inputs:
       useGlobalJson: true
   
     # Restore projects to make sure the dependent types are correctly built
   - task: DotNetCoreCLI@2
+    displayName: Restore
     inputs:
       command: 'restore'
       projects: '**/docs/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln'
@@ -71,6 +72,7 @@ jobs:
   
    # Install docfx with choco and then build the documentation project
   - task: PowerShell@2
+    displayName: Build
     inputs:
       targetType: 'inline'
       script: |
@@ -87,6 +89,7 @@ jobs:
   
   # Archive the _site
   - task: ArchiveFiles@2
+    displayName: Archive
     inputs:
       rootFolderOrFile: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
       includeRootFolder: false
@@ -97,6 +100,7 @@ jobs:
   # Publish the static docs.
   # Defaut output path for docfx build output is docfx_project/_site
   - task: PublishPipelineArtifact@1
+    displayName: Publish
     inputs:
       targetPath: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.$(Build.BuildNumber).zip'
       artifact: 'drop'

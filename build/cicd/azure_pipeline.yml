@@ -51,6 +51,6 @@ jobs:
     displayName: Enumerate
     inputs:
       targetType: inline
-      script: Get-ChildItem -Path $(Build.SourcesDirectory) --Recurse
+      script: Get-ChildItem -Path $(Build.SourcesDirectory) -Recurse
 ...
 

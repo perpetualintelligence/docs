@@ -91,6 +91,9 @@ jobs:
         git add --all
         git status
         git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"
+        git checkout master
+        git merge docfx_release_branch
+        git branch -d docfx_release_branch
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
     enabled: true
   

@@ -40,13 +40,27 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'
 
+  # Extract the ducumentation zip
+  - task: ExtractFiles@1
+    inputs:
+      archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      destinationFolder: '$(Pipeline.Workspace)/pushtogithub/docs'
+      cleanDestinationFolder: true
+      overwriteExistingFiles: false
+
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate
     inputs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : false
+    enabled : true
+  
+  # Git push to docs repo
+  - task: CmdLine@2
+    inputs:
+      script: 'git init'
+      workingDirectory: '$(Pipeline.Workspace)/pushtogithub/docs'
  
   # Create Github release
   - task: GitHubRelease@1
@@ -63,5 +77,6 @@ jobs:
       isDraft: true
       isPreRelease: true
       addChangeLog: false
+    enabled: false
 ...
 

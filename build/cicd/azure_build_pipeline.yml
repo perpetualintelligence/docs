@@ -82,6 +82,9 @@ jobs:
       script: |
         nuget install docfx.console -Version 2.58.9
         docfx.console.2.58.9/tools/docfx.exe docs/docfx_project/docfx.json
+        if ($lastexitcode -ne 0){
+          throw ("Error building documentation")
+        }
 
   # Dump dir
   - task: PowerShell@2

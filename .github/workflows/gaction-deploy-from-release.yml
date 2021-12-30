@@ -21,8 +21,11 @@ jobs:
     steps:    
       
       - name: GitHub Auth
-        run: gh auth login --with-token
-                
+        run: |
+          echo "$GITHUB_TOKEN" > .githubtoken          
+          gh auth login --with-token < .githubtoken
+          rm .githubtoken
+                          
       - name: GitHub Auth Status
         run: gh auth status
                 

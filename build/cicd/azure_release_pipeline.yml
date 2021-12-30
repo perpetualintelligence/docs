@@ -32,7 +32,7 @@ jobs:
 
   # Download the latest build artifact
   - task: DownloadPipelineArtifact@2
-    displayName: Download Site (latest cadence)
+    displayName: Download artifact
     inputs:
       buildType: 'specific'
       project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
@@ -45,6 +45,7 @@ jobs:
   # documentation in the /docs folder. In the next step we will add all
   # files in the /docs folder for git commit and put it to the repo.
   - task: ExtractFiles@1
+    displayName: Extract docs
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       destinationFolder: '$(Build.SourcesDirectory)/docs'
@@ -52,9 +53,11 @@ jobs:
       overwriteExistingFiles: false
 
   - task: CmdLine@2
+    displayName: Push docs
     inputs:
       script: |
-        echo git commit -m "Release docfx_project docs %BUILD_BUILDNUMBER% [skip ci]"        
+        echo git commit -m "Release pipeline push docfx_project to docs %BUILD_BUILDNUMBER% [skip ci]"
+        echo git push origin main
       workingDirectory: '$(Build.SourcesDirectory)'
       failOnStderr: true
 

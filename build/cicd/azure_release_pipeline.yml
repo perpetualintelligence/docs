@@ -81,7 +81,7 @@ jobs:
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
         git push -u origin docfx_release_branch
-        git merge docfx_release_branch
+        git merge origin/docfx_release_branch
         git push -d origin docfx_release_branch
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true  

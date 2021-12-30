@@ -79,18 +79,7 @@ jobs:
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
       workingDirectory: '$(Build.SourcesDirectory)'
-    enabled: true
-  
-  # Double check commit
-  - task: ManualIntervention@8
-    displayName: Waiting for approval !
-    inputs:
-      instructions: |
-        Please verify the git commit. Make sure only the docfx_project build artifact 'docs' is added to commit.
-        
-        If OK, approve the validation. Upon approval the changes will be pushed to GitHub.
-      emailRecipients: '$(PI_BUILD_NOTIFY_USERS)'
-      onTimeout: 'reject'
+    enabled: true  
     
   # Dump dir
   - task: PowerShell@2
@@ -98,6 +87,6 @@ jobs:
     inputs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : true
+    enabled : false
 ...
 

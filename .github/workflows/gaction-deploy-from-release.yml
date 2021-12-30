@@ -20,9 +20,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:    
    
-      - name: GitHub Setup
-        run: gh auth setup-git
-       
       - name: GitHub Auth
         run: gh auth login --with-token ${{ secrets.GITHUB_TOKEN }}       
                           
@@ -30,6 +27,5 @@ jobs:
         run: gh auth status
                 
       - name: Download latest release in the docs dir
-        run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
-   
-      
+        run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip'
+        

@@ -40,22 +40,23 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'  
  
-  # Git push to docs repo
-  - task: CmdLine@2
-    inputs:
-      script: |
-        REM GitHub pages looks for docs dir
-        mkdir docs
-      workingDirectory: '$(Build.SourcesDirectory)'
-      failOnStderr: true
-
   # Extract the ducumentation zip
+  # GitHub pages looks for the docs folder so we extract the generated 
+  # documentation in the /docs folder. In the next step we will add all
+  # files in the /docs folder for git commit and put it to the repo.
   - task: ExtractFiles@1
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       destinationFolder: '$(Build.SourcesDirectory)/docs'
       cleanDestinationFolder: true
       overwriteExistingFiles: false
+
+  - task: CmdLine@2
+    inputs:
+      script: |
+        echo git commit -m "Release docfx_project docs %BUILD_BUILDNUMBER% [skip ci]"        
+      workingDirectory: '$(Build.SourcesDirectory)'
+      failOnStderr: true
 
   # Dump dir
   - task: PowerShell@2

@@ -2345,11 +2345,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/howto/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/howto/intro.html",
+          "hash": "xdSljY8lrIgxaCJRPktxRuWSlTxpd60NXE8B6IZlQkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "ywJElwZS3L8w+dPCRxgwKw5ckP5Js0aUGAJARJsIt8U="
+          "hash": "uUEvfS2Qts3wLw7s1rMlGd6peNYTe44THVEi29dHK4k="
         }
       },
       "is_incremental": false,
@@ -2566,7 +2578,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 18,
+          "total_file_count": 19,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

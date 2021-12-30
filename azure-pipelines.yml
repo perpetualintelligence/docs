@@ -64,6 +64,8 @@ jobs:
       targetType: 'inline'
       script: |
         git init
+        git config user.name "${env:PI_GITHUB_USERNAME}"
+        git config global user.email "${env:PI_GITHUB_EMAIL}"
         git switch -c docfx_release_branch
         git status
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'

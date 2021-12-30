@@ -65,7 +65,6 @@ jobs:
       script: |
         git init
         git remote add origin https://github.com/perpetualintelligence/docs
-        git checkout master
         git status
         git branch docfx_release_branch
         git checkout docfx_release_branch

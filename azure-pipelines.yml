@@ -28,51 +28,30 @@ jobs:
     vmImage: windows-latest
     name: Azure Pipelines
 
+  # https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/git-commands?view=azure-devops&tabs=yaml#allow-scripts-to-access-the-system-token
+  # Make sure we allow scripts to access the system token, otherwise scripts cannot execute git push
+  # Make sure to clean up the local repo
+  # Certain kinds of changes to the local repository are not automatically cleaned up by the build pipeline. So make sure to:
+  #   Delete local branches you create.
+  #   Undo git config changes.
+  # If you run into problems using an on-premises agent, make sure the repo is clean:  
   steps:
-  - checkout: none
+  - checkout: self
     persistCredentials: true
     clean: true
 
-  # Download the latest build artifact
+  # Download the latest docfx_project build artifact
+  # For us this is the drop/<artifact>
   - task: DownloadPipelineArtifact@2
     displayName: Download artifact
     inputs:
       buildType: 'specific'
-      project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
-      definition: '55'
+      project: '$(PI_PROJECT_ID)'
+      definition: $(PI_BUILD_DEFINITION)'
       buildVersionToDownload: 'latest'
-      targetPath: '$(Pipeline.Workspace)' 
+      targetPath: '$(Pipeline.Workspace)'   
 
-  # Create a new dir for branch
-  - task: PowerShell@2
-    displayName: Docs branch dir
-    inputs:
-      targetType: 'inline'
-      script: 'mkdir docfx_release_dir'
-      workingDirectory: '$(Pipeline.Workspace)'
-
-   # Dump dir
-  - task: PowerShell@2
-    displayName: Enumerate
-    inputs:
-      targetType: inline
-      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : true
-
-  # New branch
-  # https://www.w3schools.com/git/git_branch.asp?remote=github
-  - task: PowerShell@2
-    displayName: Create docs branch
-    inputs:
-      targetType: 'inline'
-      script: |
-        git config user.name "${env:PI_GITHUB_USERNAME}"
-        git config user.email "${env:PI_GITHUB_EMAIL}"
-        git config core.autocrlf false
-        git status
-      workingDirectory: '$(Build.SourcesDirectory)'
-
-  # Extract the ducumentation zip
+  # Extract the artifact to the $(Build.SourcesDirectory)/docs
   # GitHub pages looks for the docs folder so we extract the generated 
   # documentation in the /docs folder. In the next step we will add all
   # files in the /docs folder for git commit and put it to the repo.
@@ -84,11 +63,18 @@ jobs:
       cleanDestinationFolder: true
       overwriteExistingFiles: false
 
+  # Set the git config, commit and push.
+  # The pipeline checksout all the repo file, but we only commit the docs folder.
+  # PTA anyway will not give access to change all the files such as workflow in the repo.
   - task: PowerShell@2
-    displayName: Commit branch and merge to main
+    displayName: Commit and push to GitHub 
     inputs:
       targetType: 'inline'
       script: |
+        git config user.name "${env:PI_GITHUB_USERNAME}"
+        git config user.email "${env:PI_GITHUB_EMAIL}"
+        git config core.autocrlf false
+        git status
         git checkout -b master
         git add docs --all
         git status
@@ -103,22 +89,5 @@ jobs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
     enabled : true
-
-  # Create Github release
-  - task: GitHubRelease@1
-    inputs:
-      gitHubConnection: 'githubpta.perpetualintelligence.com'
-      repositoryName: 'perpetualintelligence/docs'
-      action: 'create'
-      target: '$(Build.SourceVersion)'
-      tagSource: 'userSpecifiedTag'
-      tag: 'v$(Build.BuildNumber)'
-      title: 'v$(Build.BuildNumber)'
-      releaseNotesSource: 'inline'
-      assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
-      isDraft: true
-      isPreRelease: true
-      addChangeLog: false
-    enabled: false
 ...
 

@@ -6,5 +6,6 @@ The articles of this conceptual documentation have the following grouping areas:
 2. Based on customer use cases or [product market fit](pmf/intro.md) strategy
 3. Based on [hosting and deployment](deployment/intro.md) strategy
 4. Based on working [samples](samples/intro.md)
+5. Based on [FAQ or How To](howto/intro.md) 
 
 See our [roadmap](roadmap.md) for information about upcoming features and capabilities.

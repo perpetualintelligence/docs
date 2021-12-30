@@ -40,12 +40,19 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)' 
 
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: 'mkdir docfxreleasedir'
+      workingDirectory: '$(Pipeline.Workspace)'
+
   # Create a wroking directory for a new git branch docfx_release_branch
   - task: CmdLine@2
     inputs:
       script: 'echo mkdir docfxreleasedir'
       workingDirectory: '$(Pipeline.Workspace)'
       failOnStderr: true
+    enabled: false
 
    # Dump dir
   - task: PowerShell@2

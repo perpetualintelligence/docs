@@ -63,13 +63,11 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        git init
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git switch -c docfx_release_branch
         git status
-      workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
+      workingDirectory: '$(Build.SourcesDirectory)'
 
   # Extract the ducumentation zip
   # GitHub pages looks for the docs folder so we extract the generated 
@@ -79,7 +77,7 @@ jobs:
     displayName: Extract docs
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
-      destinationFolder: '$(Pipeline.Workspace)/docfx_release_dir/docs'
+      destinationFolder: '$(Build.SourcesDirectory)/docs'
       cleanDestinationFolder: true
       overwriteExistingFiles: false
 
@@ -88,13 +86,11 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        git checkout master
         git add --all
         git status
-        git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"
-        git checkout master
-        git merge docfx_release_branch
-        git branch -d docfx_release_branch
-      workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
+        git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"        
+      workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true
   
   # Dump dir

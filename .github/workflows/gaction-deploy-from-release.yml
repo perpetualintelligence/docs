@@ -15,13 +15,15 @@ jobs:
   
     # Runs on windows for now!
     runs-on: windows-latest
+    timeout-minutes: 3
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:    
-         
+      
+      - name: GitHub Auth
+        run: gh auth login --web
+                
       - name: Download latest release in the docs dir
-        run: |
-          gh auth login --web
-          gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
+        run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
    
       

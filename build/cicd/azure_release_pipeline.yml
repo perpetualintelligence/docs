@@ -81,7 +81,7 @@ jobs:
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
         git push -u origin docfx_release_branch
-        git request-pull docfx_release_branch https://github.com/perpetualintelligence/docs main
+        git request-pull docfx_release_branch https://github.com/perpetualintelligence/docs origin
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true  
     

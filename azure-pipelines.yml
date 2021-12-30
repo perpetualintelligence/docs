@@ -58,7 +58,7 @@ jobs:
   - task: ExtractFiles@1
     displayName: Extract docs
     inputs:
-      archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      archiveFilePatterns: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
       destinationFolder: '$(Build.SourcesDirectory)/docs'
       cleanDestinationFolder: true
       overwriteExistingFiles: false
@@ -74,11 +74,11 @@ jobs:
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git status
         git checkout -b master
         git add docs --all
         git status
-        git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"        
+        git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
+        git status
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true
   

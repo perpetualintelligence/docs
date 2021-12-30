@@ -88,6 +88,7 @@ jobs:
       instructions: |
         Please verify the git commit. 
         Make sure only the docfx_project build artifact 'docs' is added to commit.
+        If OK, approve the validation. Upon approval the changes will be pushed to GitHub.
       onTimeout: 'reject'
   
   # Dump dir

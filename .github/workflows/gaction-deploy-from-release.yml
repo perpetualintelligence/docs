@@ -21,7 +21,7 @@ jobs:
          
       - name: Download latest release in the docs dir
         run: |
-          gh auth login
+          gh auth login --web
           gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
    
       

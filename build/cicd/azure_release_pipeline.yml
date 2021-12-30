@@ -10,7 +10,7 @@
 # The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
 
 # Pipeline name e.g. 2.3.5-docs.21122505
-name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
+name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-$(Date:yyMMdd)$(Rev:rr)
 
 # NO CI Trigger, Manual release.
 trigger: none
@@ -56,8 +56,8 @@ jobs:
       action: 'create'
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'
-      tag: 'v$(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)'
-      title: 'v$(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)'
+      tag: 'v$(Build.BuildNumber)'
+      title: 'v$(Build.BuildNumber)'
       releaseNotesSource: 'inline'
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
       isDraft: true

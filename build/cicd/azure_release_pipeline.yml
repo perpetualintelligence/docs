@@ -38,13 +38,22 @@ jobs:
       project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
       definition: '55'
       buildVersionToDownload: 'latest'
-      targetPath: '$(Pipeline.Workspace)'
+      targetPath: '$(Pipeline.Workspace)'  
+ 
+  # Git push to docs repo
+  - task: CmdLine@2
+    inputs:
+      script: |
+        REM GitHub pages looks for docs dir
+        mkdir docs
+      workingDirectory: '$(Build.SourcesDirectory)'
+      failOnStderr: true
 
   # Extract the ducumentation zip
   - task: ExtractFiles@1
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
-      destinationFolder: '$(Pipeline.Workspace)/pushtogithub/docs'
+      destinationFolder: '$(Build.SourcesDirectory)/docs'
       cleanDestinationFolder: true
       overwriteExistingFiles: false
 
@@ -55,13 +64,7 @@ jobs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
     enabled : true
-  
-  # Git push to docs repo
-  - task: CmdLine@2
-    inputs:
-      script: 'git init'
-      workingDirectory: '$(Pipeline.Workspace)/pushtogithub/docs'
- 
+
   # Create Github release
   - task: GitHubRelease@1
     inputs:

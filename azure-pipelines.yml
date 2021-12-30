@@ -81,16 +81,17 @@ jobs:
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true
   
-  # Double check
-  - task: ManualValidation@0
+  # Double check commit
+  - task: ManualIntervention@8
+    displayName: Waiting for approval !
     inputs:
-      notifyUsers: '$(PI_BUILD_NOTIFY_USERS)'
       instructions: |
-        Please verify the git commit. 
-        Make sure only the docfx_project build artifact 'docs' is added to commit.
+        Please verify the git commit. Make sure only the docfx_project build artifact 'docs' is added to commit.
+        
         If OK, approve the validation. Upon approval the changes will be pushed to GitHub.
+      emailRecipients: '$(PI_BUILD_NOTIFY_USERS)'
       onTimeout: 'reject'
-  
+    
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate

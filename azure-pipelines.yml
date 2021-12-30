@@ -29,7 +29,7 @@ jobs:
     name: Azure Pipelines
 
   steps:
-  - checkout: self
+  - checkout: none
     persistCredentials: true
     clean: true
 

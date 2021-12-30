@@ -63,6 +63,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        git init
         git checkout master
         git status
         git branch docfx_release_branch

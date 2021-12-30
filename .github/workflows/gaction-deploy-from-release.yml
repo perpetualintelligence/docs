@@ -19,12 +19,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:    
-      
-      - name: GitHub Auth
-        run: |
-          echo "$GITHUB_TOKEN" > .githubtoken          
-          gh auth login --with-token < .githubtoken
-          rm .githubtoken
+   
+
                           
       - name: GitHub Auth Status
         run: gh auth status

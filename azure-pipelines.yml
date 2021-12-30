@@ -63,9 +63,11 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        git checkout main
+        git checkout master
+        git status
         git branch docfx_release_branch
         git checkout docfx_release_branch
+        git status
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
 
   # Extract the ducumentation zip
@@ -80,7 +82,17 @@ jobs:
       cleanDestinationFolder: true
       overwriteExistingFiles: false
 
-    
+  - task: PowerShell@2
+    displayName: Commit branch and merge to main
+    inputs:
+      targetType: 'inline'
+      script: |
+        git add -all
+        git status
+        git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"
+      workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
+    enabled: false
+  
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate

@@ -85,7 +85,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        git add -all
+        git add --all
         git status
         git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'

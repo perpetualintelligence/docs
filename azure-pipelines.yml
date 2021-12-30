@@ -89,7 +89,7 @@ jobs:
         git status
         git commit -m "docfx_release_branch ${env:BUILD_BUILDNUMBER} [skip ci]"
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
-    enabled: false
+    enabled: true
   
   # Dump dir
   - task: PowerShell@2

@@ -20,6 +20,8 @@ jobs:
     steps:    
          
       - name: Download latest release in the docs dir
-        run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
+        run: |
+          gh auth login
+          gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
    
       

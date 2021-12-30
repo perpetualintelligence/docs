@@ -12,8 +12,8 @@
 # Pipeline name e.g. 2.3.5-docs.21122505
 name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION)-docs.$(Date:yyMMdd)$(Rev:rr)
 
-trigger:
-- main
+# NO CI Trigger, Manual release.
+trigger: none
 
 # Provide access to cadence variables.
 variables:

@@ -69,7 +69,7 @@ jobs:
   # Delete Branch See:
   # https://stackoverflow.com/questions/41492254/deleting-a-local-branch-with-git
   - task: PowerShell@2
-    displayName: Commit and push to GitHub 
+    displayName: Push to GitHub 
     inputs:
       targetType: 'inline'
       script: |

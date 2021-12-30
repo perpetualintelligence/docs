@@ -20,6 +20,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:    
    
+      - name: GitHub Setup
+        run: gh auth setup-git
+       
       - name: GitHub Auth
         run: gh auth login --with-token ${{ secrets.GITHUB_TOKEN }}       
                           

@@ -66,6 +66,8 @@ jobs:
   # Set the git config, commit and push.
   # The pipeline checksout all the repo file, but we only commit the docs folder.
   # PTA anyway will not give access to change all the files such as workflow in the repo.
+  # Delete Branch See:
+  # https://stackoverflow.com/questions/41492254/deleting-a-local-branch-with-git
   - task: PowerShell@2
     displayName: Commit and push to GitHub 
     inputs:

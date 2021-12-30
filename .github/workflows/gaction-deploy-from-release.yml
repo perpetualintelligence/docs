@@ -21,7 +21,7 @@ jobs:
     steps:    
    
       - name: GitHub Auth
-        run: gh auth login --with-token ${GITHUB_TOKEN}       
+        run: gh auth login --with-token ${{ secrets.GITHUB_TOKEN }}       
                           
       - name: GitHub Auth Status
         run: gh auth status

@@ -29,6 +29,8 @@ jobs:
     name: Azure Pipelines
 
   steps:
+  - checkout: self
+    persistCredentials: true
 
   # Download the latest build artifact
   - task: DownloadPipelineArtifact@2

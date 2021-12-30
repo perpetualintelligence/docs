@@ -1,0 +1,107 @@
+#    Copyright 2021 Perpetual Intelligence L.L.C. All Rights Reserved.
+#
+#    Licensed under the Apache License, Version 2.0.
+#    https://github.com/perpetualintelligence/terms/blob/main/LICENSE
+#
+#    Additional terms and policies.
+#    https://github.com/perpetualintelligence/terms/blob/main/policies.md
+
+# This is the Azure pipeline yml configuration file to build and publish the documentation site.
+# The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
+
+# Pipeline name e.g. 2.3.5-docs.21122505
+name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION).$(Date:yyMMdd)$(Rev:rr)
+
+# NO CI Trigger, Manual release.
+trigger: none
+
+# Provide access to cadence variables.
+variables:
+- group: CadenceVariables
+
+# Build jobs
+jobs:
+- job: Windows
+  displayName: Hosted Windows
+
+  pool:
+    vmImage: windows-latest
+    name: Azure Pipelines
+
+  steps:
+
+  # Download the latest build artifact
+  - task: DownloadPipelineArtifact@2
+    displayName: Download artifact
+    inputs:
+      buildType: 'specific'
+      project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
+      definition: '55'
+      buildVersionToDownload: 'latest'
+      targetPath: '$(Pipeline.Workspace)' 
+
+  # Create a wroking directory for a new git branch docfx_release_branch
+  - task: CmdLine@2
+    inputs:
+      script: 'echo mkdir docfxreleasedir'
+      workingDirectory: '$(Pipeline.Workspace)'
+      failOnStderr: true
+
+   # Dump dir
+  - task: PowerShell@2
+    displayName: Enumerate
+    inputs:
+      targetType: inline
+      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
+    enabled : true
+
+  # https://www.w3schools.com/git/git_branch.asp?remote=github
+  - task: CmdLine@2
+    displayName: Push docs
+    inputs:
+      script: |
+        echo git branch docfx_release_branch
+        echo git branch
+        echo git checkout docfx_release_branch
+      workingDirectory: '$(Pipeline.Workspace)/docfxreleasedir'
+      failOnStderr: true
+
+  # Extract the ducumentation zip
+  # GitHub pages looks for the docs folder so we extract the generated 
+  # documentation in the /docs folder. In the next step we will add all
+  # files in the /docs folder for git commit and put it to the repo.
+  - task: ExtractFiles@1
+    displayName: Extract docs
+    inputs:
+      archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      destinationFolder: '$(Pipeline.Workspace)/docfx_release_dir/docs'
+      cleanDestinationFolder: true
+      overwriteExistingFiles: false
+
+    
+  # Dump dir
+  - task: PowerShell@2
+    displayName: Enumerate
+    inputs:
+      targetType: inline
+      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
+    enabled : true
+
+  # Create Github release
+  - task: GitHubRelease@1
+    inputs:
+      gitHubConnection: 'githubpta.perpetualintelligence.com'
+      repositoryName: 'perpetualintelligence/docs'
+      action: 'create'
+      target: '$(Build.SourceVersion)'
+      tagSource: 'userSpecifiedTag'
+      tag: 'v$(Build.BuildNumber)'
+      title: 'v$(Build.BuildNumber)'
+      releaseNotesSource: 'inline'
+      assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      isDraft: true
+      isPreRelease: true
+      addChangeLog: false
+    enabled: false
+...
+

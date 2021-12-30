@@ -61,7 +61,7 @@ jobs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
       destinationFolder: '$(Build.SourcesDirectory)/docs'
       cleanDestinationFolder: true
-      overwriteExistingFiles: false
+      overwriteExistingFiles: true
 
   # Set the git config, commit and push.
   # The pipeline checksout all the repo file, but we only commit the docs folder.

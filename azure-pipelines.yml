@@ -66,6 +66,7 @@ jobs:
         git init
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
+        git config core.autocrlf false
         git switch -c docfx_release_branch
         git status
       workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'

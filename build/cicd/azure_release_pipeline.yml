@@ -38,8 +38,26 @@ jobs:
       project: 'ccddf6d3-d216-4bc2-80cf-2725ac15f819'
       definition: '55'
       buildVersionToDownload: 'latest'
-      targetPath: '$(Pipeline.Workspace)'  
- 
+      targetPath: '$(Pipeline.Workspace)' 
+
+  # Create a wroking directory for a new git branch docfx_release_branch
+  - task: CmdLine@2
+    inputs:
+      script: 'echo mkdir docfx_release_dir'
+      workingDirectory: '$(Pipeline.Workspace)'
+      failOnStderr: true
+
+  # https://www.w3schools.com/git/git_branch.asp?remote=github
+  - task: CmdLine@2
+    displayName: Push docs
+    inputs:
+      script: |
+        echo git branch docfx_release_branch
+        echo git branch
+        echo git checkout docfx_release_branch
+      workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
+      failOnStderr: true
+
   # Extract the ducumentation zip
   # GitHub pages looks for the docs folder so we extract the generated 
   # documentation in the /docs folder. In the next step we will add all
@@ -48,19 +66,11 @@ jobs:
     displayName: Extract docs
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
-      destinationFolder: '$(Build.SourcesDirectory)/docs'
+      destinationFolder: '$(Pipeline.Workspace)/docfx_release_dir/docs'
       cleanDestinationFolder: true
       overwriteExistingFiles: false
 
-  - task: CmdLine@2
-    displayName: Push docs
-    inputs:
-      script: |
-        echo git commit -m "Release pipeline push docfx_project to docs %BUILD_BUILDNUMBER% [skip ci]"
-        echo git push origin main
-      workingDirectory: '$(Build.SourcesDirectory)'
-      failOnStderr: true
-
+    
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate

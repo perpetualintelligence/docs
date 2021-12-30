@@ -21,7 +21,7 @@ jobs:
     steps:    
       
       - name: GitHub Auth
-        run: gh auth login --web
+        run: gh auth login --with-token < ${{secrets.GITHUB_TOKEN}}
                 
       - name: Download latest release in the docs dir
         run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 

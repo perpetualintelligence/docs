@@ -1,0 +1,25 @@
+# This is a basic workflow to build and deploy the docfx_project on the GitHub Pages
+# https://github.com/dotnet/docfx/issues/3284
+# https://tehgm.net/blog/docfx-github-actions/
+
+name: CI
+
+# Controls when the workflow will run
+on: workflow_dispatch
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # Builds the docfx_project using .NET Core and Windows OS
+  # TODO: Check if we can do this on ubuntu or linux
+  deploy_docs:
+  
+    # Runs on windows for now!
+    runs-on: windows-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:    
+         
+      - name: Download latest release in the docs dir
+        run: gh release download --dir docs --pattern 'PerpetualIntelligence.Docs.Site*.zip' 
+   
+      

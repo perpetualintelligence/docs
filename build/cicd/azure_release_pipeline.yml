@@ -76,12 +76,10 @@ jobs:
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git checkout -b docfx_release_branch
         git add docs --all
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
-        git push -u origin docfx_release_branch
-        git request-pull https://github.com/perpetualintelligence/docs docfx_release_branch        
+        git push -u origin main
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true  
     

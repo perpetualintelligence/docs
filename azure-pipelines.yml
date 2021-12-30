@@ -46,7 +46,7 @@ jobs:
     displayName: Download artifact
     inputs:
       buildType: 'specific'
-      project: '$(PI_PROJECT_ID)'
+      project: '$(PI_BUILD_PROJECT_ID)'
       definition: $(PI_BUILD_DEFINITION)'
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'   

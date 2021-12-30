@@ -1,0 +1,858 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IIdentityAccessor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IIdentityAccessor
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Classes">Classes</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.html" title="PerpetualIntelligence.Protocols" class="">PerpetualIntelligence.Protocols</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Constants.html" title="Constants" class="">Constants</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.html" title="PerpetualIntelligence.Protocols.Abstractions" class="">PerpetualIntelligence.Protocols.Abstractions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IChecker-2.html" title="IChecker&lt;TContext, TResult&gt;" class="">IChecker&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IExtractor-2.html" title="IExtractor&lt;TContext, TResult&gt;" class="">IExtractor&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IHandler-2.html" title="IHandler&lt;TContext, TResult&gt;" class="">IHandler&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IMapper-2.html" title="IMapper&lt;TContext, TResult&gt;" class="">IMapper&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.INoResultPublisher-1.html" title="INoResultPublisher&lt;TContext&gt;" class="">INoResultPublisher&lt;TContext&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IPorcessor-1.html" title="IPorcessor&lt;TContext&gt;" class="">IPorcessor&lt;TContext&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IProducer-2.html" title="IProducer&lt;TContext, TResult&gt;" class="">IProducer&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IPublisher-2.html" title="IPublisher&lt;TContext, TResult&gt;" class="">IPublisher&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IRecorder-2.html" title="IRecorder&lt;TContext, TResult&gt;" class="">IRecorder&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IRouter-3.html" title="IRouter&lt;TContext, TResult, THandler&gt;" class="">IRouter&lt;TContext, TResult, THandler&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.IRunner-2.html" title="IRunner&lt;TContext, TResult&gt;" class="">IRunner&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.ISubscriber-2.html" title="ISubscriber&lt;TContext, TResult&gt;" class="">ISubscriber&lt;TContext, TResult&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.AuthServer.html" title="PerpetualIntelligence.Protocols.Abstractions.AuthServer" class="">PerpetualIntelligence.Protocols.Abstractions.AuthServer</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.AuthServer.IAuthServerHandler-2.html" title="IAuthServerHandler&lt;TContext, TResult&gt;" class="">IAuthServerHandler&lt;TContext, TResult&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.Claims.html" title="PerpetualIntelligence.Protocols.Abstractions.Claims" class="">PerpetualIntelligence.Protocols.Abstractions.Claims</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Claims.IClaimComparer.html" title="IClaimComparer" class="">IClaimComparer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.Concurrency.html" title="PerpetualIntelligence.Protocols.Abstractions.Concurrency" class="">PerpetualIntelligence.Protocols.Abstractions.Concurrency</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Concurrency.IThreadLock-1.html" title="IThreadLock&lt;T&gt;" class="">IThreadLock&lt;T&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.Events.html" title="PerpetualIntelligence.Protocols.Abstractions.Events" class="">PerpetualIntelligence.Protocols.Abstractions.Events</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Events.IEvent.html" title="IEvent" class="">IEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Events.IEventPublisher-2.html" title="IEventPublisher&lt;TContext, TResult&gt;" class="">IEventPublisher&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Events.IEventRecorder-2.html" title="IEventRecorder&lt;TContext, TResult&gt;" class="">IEventRecorder&lt;TContext, TResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Events.IEventSubscriber-2.html" title="IEventSubscriber&lt;TContext, TResult&gt;" class="">IEventSubscriber&lt;TContext, TResult&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.html" title="PerpetualIntelligence.Protocols.Abstractions.Stores" class="">PerpetualIntelligence.Protocols.Abstractions.Stores</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.IEntity.html" title="IEntity" class="">IEntity</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.IEntityTenancy.html" title="IEntityTenancy" class="">IEntityTenancy</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.IStore-4.html" title="IStore&lt;TSContext, TMContext, TSResult, TMResult&gt;" class="">IStore&lt;TSContext, TMContext, TSResult, TMResult&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.IStoreMultipleResult-1.html" title="IStoreMultipleResult&lt;TEntity&gt;" class="">IStoreMultipleResult&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.IStoreSingleResult-1.html" title="IStoreSingleResult&lt;TEntity&gt;" class="">IStoreSingleResult&lt;TEntity&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Abstractions.Stores.ITrackedStore-4.html" title="ITrackedStore&lt;TSContext, TMContext, TSResult, TMResult&gt;" class="">ITrackedStore&lt;TSContext, TMContext, TSResult, TMResult&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Cli.html" title="PerpetualIntelligence.Protocols.Cli" class="">PerpetualIntelligence.Protocols.Cli</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Cli.Errors.html" title="Errors" class="">Errors</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Defaults.Claims.html" title="PerpetualIntelligence.Protocols.Defaults.Claims" class="">PerpetualIntelligence.Protocols.Defaults.Claims</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Defaults.Claims.DefaultClaimComparer.html" title="DefaultClaimComparer" class="">DefaultClaimComparer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Defaults.Concurrency.html" title="PerpetualIntelligence.Protocols.Defaults.Concurrency" class="">PerpetualIntelligence.Protocols.Defaults.Concurrency</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Defaults.Concurrency.DefaultSemaphoreSlimThreadLock-1.html" title="DefaultSemaphoreSlimThreadLock&lt;T&gt;" class="">DefaultSemaphoreSlimThreadLock&lt;T&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Defaults.Versioning.html" title="PerpetualIntelligence.Protocols.Defaults.Versioning" class="">PerpetualIntelligence.Protocols.Defaults.Versioning</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Defaults.Versioning.DefaultUrlV1VersionAccessor.html" title="DefaultUrlV1VersionAccessor" class="">DefaultUrlV1VersionAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Defaults.Versioning.DefaultUrlVersionEndpointAccessor.html" title="DefaultUrlVersionEndpointAccessor" class="">DefaultUrlVersionEndpointAccessor</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Oidc.html" title="PerpetualIntelligence.Protocols.Oidc" class="">PerpetualIntelligence.Protocols.Oidc</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.AccessTokens.html" title="AccessTokens" class="">AccessTokens</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.AcrValues.html" title="AcrValues" class="">AcrValues</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Applications.html" title="Applications" class="">Applications</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ClientAssertion.html" title="ClientAssertion" class="">ClientAssertion</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ClientAssertions.html" title="ClientAssertions" class="">ClientAssertions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ClientAuthenticationMethods.html" title="ClientAuthenticationMethods" class="">ClientAuthenticationMethods</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ClientMetadata.html" title="ClientMetadata" class="">ClientMetadata</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.CodeChallengeMethods.html" title="CodeChallengeMethods" class="">CodeChallengeMethods</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.CustomClaimValueTypes.html" title="CustomClaimValueTypes" class="">CustomClaimValueTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Discovery.html" title="Discovery" class="">Discovery</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Displays.html" title="Displays" class="">Displays</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.EndpointIds.html" title="EndpointIds" class="">EndpointIds</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.EndpointNames.html" title="EndpointNames" class="">EndpointNames</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Errors.html" title="Errors" class="">Errors</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Events.html" title="Events" class="">Events</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.GrantTypes.html" title="GrantTypes" class="">GrantTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.JwtClaims.html" title="JwtClaims" class="">JwtClaims</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.JwtHeaderTypes.html" title="JwtHeaderTypes" class="">JwtHeaderTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.LoginMethods.html" title="LoginMethods" class="">LoginMethods</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Parameters.html" title="Parameters" class="">Parameters</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Prompts.html" title="Prompts" class="">Prompts</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ResponseModes.html" title="ResponseModes" class="">ResponseModes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.ResponseTypes.html" title="ResponseTypes" class="">ResponseTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Scopes.html" title="Scopes" class="">Scopes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.Tokens.html" title="Tokens" class="">Tokens</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.TokenTypeHints.html" title="TokenTypeHints" class="">TokenTypeHints</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Oidc.UserCodes.html" title="UserCodes" class="">UserCodes</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.OneImlx.html" title="PerpetualIntelligence.Protocols.OneImlx" class="">PerpetualIntelligence.Protocols.OneImlx</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.ApiConstants.html" title="ApiConstants" class="">ApiConstants</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.ApiVersioningConstants.html" title="ApiVersioningConstants" class="">ApiVersioningConstants</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.ClArgs.html" title="ClArgs" class="">ClArgs</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.HttpClientNames.html" title="HttpClientNames" class="">HttpClientNames</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.ImageProviderTypes.html" title="ImageProviderTypes" class="">ImageProviderTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.LocalStorageKeys.html" title="LocalStorageKeys" class="">LocalStorageKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.Message-1.html" title="Message&lt;TData&gt;" class="">Message&lt;TData&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.OrgConstants.html" title="OrgConstants" class="">OrgConstants</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.RbacApps.html" title="RbacApps" class="">RbacApps</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.RbacPerms.html" title="RbacPerms" class="">RbacPerms</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.RuntimeOptions.html" title="RuntimeOptions" class="">RuntimeOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.Severity.html" title="Severity" class="">Severity</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.OneImlx.UserRoles.html" title="UserRoles" class="">UserRoles</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Security.html" title="PerpetualIntelligence.Protocols.Security" class="">PerpetualIntelligence.Protocols.Security</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Authentication.html" title="Authentication" class="">Authentication</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.ContentSecurityPolicies.html" title="ContentSecurityPolicies" class="">ContentSecurityPolicies</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.HexSaltGenerator.html" title="HexSaltGenerator" class="">HexSaltGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.IdGenerator.html" title="IdGenerator" class="">IdGenerator</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Security.Certificates.X509.html" title="PerpetualIntelligence.Protocols.Security.Certificates.X509" class="">PerpetualIntelligence.Protocols.Security.Certificates.X509</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Certificates.X509.FindMetadata.html" title="FindMetadata" class="">FindMetadata</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Certificates.X509.FindMetadataByStore.html" title="FindMetadataByStore" class="">FindMetadataByStore</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Certificates.X509.FindMetadataByType.html" title="FindMetadataByType" class="">FindMetadataByType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Protocols.Security.Secrets.html" title="PerpetualIntelligence.Protocols.Security.Secrets" class="">PerpetualIntelligence.Protocols.Security.Secrets</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Secrets.ExtractedSecret.html" title="ExtractedSecret" class="">ExtractedSecret</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Secrets.Secret.html" title="Secret" class="">Secret</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Secrets.SecretComparer.html" title="SecretComparer" class="">SecretComparer</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Protocols.Security.Secrets.SecretTypes.html" title="SecretTypes" class="">SecretTypes</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Abstractions.html" title="PerpetualIntelligence.Shared.Abstractions" class="">PerpetualIntelligence.Shared.Abstractions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.ICommunicationSender.html" title="ICommunicationSender" class="">ICommunicationSender</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IComponentIdGenerator.html" title="IComponentIdGenerator" class="">IComponentIdGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IEmailSender.html" title="IEmailSender" class="">IEmailSender</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IEncoder.html" title="IEncoder" class="">IEncoder</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IHttpClientNameAccessor.html" title="IHttpClientNameAccessor" class="">IHttpClientNameAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IIdAccessor.html" title="IIdAccessor" class="">IIdAccessor</a>
+                          </li>
+                          <li class="active">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor.html" title="IIdentityAccessor" class="active">IIdentityAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IIdGenerator.html" title="IIdGenerator" class="">IIdGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IImageDescriptor.html" title="IImageDescriptor" class="">IImageDescriptor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.ILocalizer.html" title="ILocalizer" class="">ILocalizer</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.ILookupNormalizer.html" title="ILookupNormalizer" class="">ILookupNormalizer</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.ILookupSplitter.html" title="ILookupSplitter" class="">ILookupSplitter</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IModeAccessor.html" title="IModeAccessor" class="">IModeAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.INameAccessor.html" title="INameAccessor" class="">INameAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IOneImlxResult.html" title="IOneImlxResult" class="">IOneImlxResult</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IOPAccessor.html" title="IOPAccessor" class="">IOPAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IPropertyAccessor.html" title="IPropertyAccessor" class="">IPropertyAccessor</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.ITextMessageSender.html" title="ITextMessageSender" class="">ITextMessageSender</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Abstractions.IUrlVersionAccessor.html" title="IUrlVersionAccessor" class="">IUrlVersionAccessor</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Attributes.html" title="PerpetualIntelligence.Shared.Attributes" class="">PerpetualIntelligence.Shared.Attributes</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.ActionAttribute.html" title="ActionAttribute" class="">ActionAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.ArchitectureAttribute.html" title="ArchitectureAttribute" class="">ArchitectureAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.ConceptAttribute.html" title="ConceptAttribute" class="">ConceptAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.FutureAttribute.html" title="FutureAttribute" class="">FutureAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.InternalInfrastructureAttribute.html" title="InternalInfrastructureAttribute" class="">InternalInfrastructureAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.MustDoAttribute.html" title="MustDoAttribute" class="">MustDoAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.PerformanceAttribute.html" title="PerformanceAttribute" class="">PerformanceAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.RedundancyAttribute.html" title="RedundancyAttribute" class="">RedundancyAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.RefactorAttribute.html" title="RefactorAttribute" class="">RefactorAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.RenameAttribute.html" title="RenameAttribute" class="">RenameAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.TodoAttribute.html" title="TodoAttribute" class="">TodoAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.WriteApiAttribute.html" title="WriteApiAttribute" class="">WriteApiAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.WriteDocumentationAttribute.html" title="WriteDocumentationAttribute" class="">WriteDocumentationAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.WriteUnitTestAttribute.html" title="WriteUnitTestAttribute" class="">WriteUnitTestAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Attributes.Api.html" title="PerpetualIntelligence.Shared.Attributes.Api" class="">PerpetualIntelligence.Shared.Attributes.Api</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Api.EndpointAttribute.html" title="EndpointAttribute" class="">EndpointAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Api.HiddenPropertyAttribute.html" title="HiddenPropertyAttribute" class="">HiddenPropertyAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Api.ServiceAttribute.html" title="ServiceAttribute" class="">ServiceAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Attributes.Rendering.html" title="PerpetualIntelligence.Shared.Attributes.Rendering" class="">PerpetualIntelligence.Shared.Attributes.Rendering</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Rendering.GroupOrderAttribute.html" title="GroupOrderAttribute" class="">GroupOrderAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Rendering.OverrideDisplayAttribute.html" title="OverrideDisplayAttribute" class="">OverrideDisplayAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Rendering.SubObjectPropertyAttribute.html" title="SubObjectPropertyAttribute" class="">SubObjectPropertyAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Attributes.Validation.html" title="PerpetualIntelligence.Shared.Attributes.Validation" class="">PerpetualIntelligence.Shared.Attributes.Validation</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Validation.EmailListAttribute.html" title="EmailListAttribute" class="">EmailListAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Validation.OneOfAttribute.html" title="OneOfAttribute" class="">OneOfAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Validation.SelectItemAttribute.html" title="SelectItemAttribute" class="">SelectItemAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Validation.StringLengthListAttribute.html" title="StringLengthListAttribute" class="">StringLengthListAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Attributes.Validation.UrlListAttribute.html" title="UrlListAttribute" class="">UrlListAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Exceptions.html" title="PerpetualIntelligence.Shared.Exceptions" class="">PerpetualIntelligence.Shared.Exceptions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.CheckerException.html" title="CheckerException" class="">CheckerException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.LockedException.html" title="LockedException" class="">LockedException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.NotAllowedException.html" title="NotAllowedException" class="">NotAllowedException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.NotFoundException.html" title="NotFoundException" class="">NotFoundException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.NotUniqueException.html" title="NotUniqueException" class="">NotUniqueException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.OneImlxException.html" title="OneImlxException" class="">OneImlxException</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Exceptions.TwoFactorException.html" title="TwoFactorException" class="">TwoFactorException</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Extensions.html" title="PerpetualIntelligence.Shared.Extensions" class="">PerpetualIntelligence.Shared.Extensions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Extensions.IEnumerableExtensions.html" title="IEnumerableExtensions" class="">IEnumerableExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Extensions.ILoggerExtensions.html" title="ILoggerExtensions" class="">ILoggerExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Extensions.JsonElementExtensions.html" title="JsonElementExtensions" class="">JsonElementExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Extensions.StringExtensions.html" title="StringExtensions" class="">StringExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Infrastructure.html" title="PerpetualIntelligence.Shared.Infrastructure" class="">PerpetualIntelligence.Shared.Infrastructure</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.CustomDataTypes.html" title="CustomDataTypes" class="">CustomDataTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.Identity.html" title="Identity" class="">Identity</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.Limits.html" title="Limits" class="">Limits</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.ModeIdentity.html" title="ModeIdentity" class="">ModeIdentity</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.Modes.html" title="Modes" class="">Modes</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxError.html" title="OneImlxError" class="">OneImlxError</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxHttpResult.html" title="OneImlxHttpResult" class="">OneImlxHttpResult</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxHttpResultType.html" title="OneImlxHttpResultType" class="">OneImlxHttpResultType</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxInformation.html" title="OneImlxInformation" class="">OneImlxInformation</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxLoggingOptions.html" title="OneImlxLoggingOptions" class="">OneImlxLoggingOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxResult.html" title="OneImlxResult" class="">OneImlxResult</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxTryResult-1.html" title="OneImlxTryResult&lt;T&gt;" class="">OneImlxTryResult&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.OneImlxWarning.html" title="OneImlxWarning" class="">OneImlxWarning</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Infrastructure.RegexPatterns.html" title="RegexPatterns" class="">RegexPatterns</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Patterns.html" title="PerpetualIntelligence.Shared.Patterns" class="">PerpetualIntelligence.Shared.Patterns</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Patterns.Decorator-1.html" title="Decorator&lt;TObject&gt;" class="">Decorator&lt;TObject&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Patterns.DecoratorService-2.html" title="DecoratorService&lt;TService, TImpl&gt;" class="">DecoratorService&lt;TService, TImpl&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Patterns.DisposableDecorator-1.html" title="DisposableDecorator&lt;TObject&gt;" class="">DisposableDecorator&lt;TObject&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Patterns.DisposableDecoratorService-2.html" title="DisposableDecoratorService&lt;TService, TImpl&gt;" class="">DisposableDecoratorService&lt;TService, TImpl&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Shared.Services.html" title="PerpetualIntelligence.Shared.Services" class="">PerpetualIntelligence.Shared.Services</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Services.IOHelper.html" title="IOHelper" class="">IOHelper</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Shared.Services.UrlSafeBase64Encoder.html" title="UrlSafeBase64Encoder" class="">UrlSafeBase64Encoder</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Test.html" title="PerpetualIntelligence.Test" class="">PerpetualIntelligence.Test</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.OneImlxHttpClientTest.html" title="OneImlxHttpClientTest" class="">OneImlxHttpClientTest</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.OneImlxLogTest.html" title="OneImlxLogTest" class="">OneImlxLogTest</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.OneImlxTest.html" title="OneImlxTest" class="">OneImlxTest</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.OneImlxTestIdAttribute.html" title="OneImlxTestIdAttribute" class="">OneImlxTestIdAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="PerpetualIntelligence.Test.Services.html" title="PerpetualIntelligence.Test.Services" class="">PerpetualIntelligence.Test.Services</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.Services.TestHelper.html" title="TestHelper" class="">TestHelper</a>
+                          </li>
+                          <li class="">
+                            <a href="PerpetualIntelligence.Test.Services.TestLogger.html" title="TestLogger" class="">TestLogger</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor">
+  
+  
+  <h1 id="PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor" data-uid="PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor" class="text-break">Interface IIdentityAccessor
+  </h1>
+  <div class="markdown level0 summary"><p>An abstraction of an identity accessor.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="PerpetualIntelligence.Shared.Abstractions.IIdAccessor.html#PerpetualIntelligence_Shared_Abstractions_IIdAccessor_GetId">IIdAccessor.GetId()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PerpetualIntelligence.Shared.Abstractions.html">PerpetualIntelligence.Shared.Abstractions</a></h6>
+  <h6><strong>Assembly</strong>: PerpetualIntelligence.Shared.dll</h6>
+  <h5 id="PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IIdentityAccessor : IIdAccessor</code></pre>
+  </div>
+  <h5 id="PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The identity accessor returns see <a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.Identity.html">Identity</a> of a target entity. It also implements
+<a class="xref" href="PerpetualIntelligence.Shared.Abstractions.IIdAccessor.html">IIdAccessor</a> to return string representation of an <a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.Identity.html">Identity</a>.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor_GetIdentity.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor.GetIdentity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Shared/Abstractions/IIdentityAccessor.cs/#L28">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor_GetIdentity_" data-uid="PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor.GetIdentity*"></a>
+  <h4 id="PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor_GetIdentity" data-uid="PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor.GetIdentity">GetIdentity()</h4>
+  <div class="markdown level1 summary"><p>Gets the identity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Identity GetIdentity()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.Identity.html">Identity</a></td>
+        <td><p>An identity instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Shared_Abstractions_IIdentityAccessor.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Shared.Abstractions.IIdentityAccessor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Shared/Abstractions/IIdentityAccessor.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

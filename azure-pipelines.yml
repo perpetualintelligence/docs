@@ -40,19 +40,13 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)' 
 
+  # Create a new dir for branch
   - task: PowerShell@2
+    displayName: Docs branch dir
     inputs:
       targetType: 'inline'
-      script: 'mkdir docfxreleasedir'
+      script: 'mkdir docfx_release_dir'
       workingDirectory: '$(Pipeline.Workspace)'
-
-  # Create a wroking directory for a new git branch docfx_release_branch
-  - task: CmdLine@2
-    inputs:
-      script: 'echo mkdir docfxreleasedir'
-      workingDirectory: '$(Pipeline.Workspace)'
-      failOnStderr: true
-    enabled: false
 
    # Dump dir
   - task: PowerShell@2
@@ -62,16 +56,17 @@ jobs:
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
     enabled : true
 
+  # New branch
   # https://www.w3schools.com/git/git_branch.asp?remote=github
-  - task: CmdLine@2
-    displayName: Push docs
+  - task: PowerShell@2
+    displayName: Create docs branch
     inputs:
+      targetType: 'inline'
       script: |
-        echo git branch docfx_release_branch
-        echo git branch
-        echo git checkout docfx_release_branch
-      workingDirectory: '$(Pipeline.Workspace)/docfxreleasedir'
-      failOnStderr: true
+        git checkout main
+        git branch docfx_release_branch
+        git checkout docfx_release_branch
+      workingDirectory: '$(Pipeline.Workspace)/docfx_release_dir'
 
   # Extract the ducumentation zip
   # GitHub pages looks for the docs folder so we extract the generated 

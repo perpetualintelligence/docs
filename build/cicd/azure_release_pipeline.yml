@@ -67,6 +67,7 @@ jobs:
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'
       tag: '$(Build.BuildNumber)'
+      releaseNotesSource: 'inline'
       assets: '$(Pipeline.Workspace)/drop/*.zip'
       isDraft: true
       isPreRelease: true

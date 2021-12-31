@@ -51,15 +51,13 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'   
 
-  # Extract the artifact to the $(Build.SourcesDirectory)/docs
-  # GitHub pages looks for the docs folder so we extract the generated 
-  # documentation in the /docs folder. In the next step we will add all
-  # files in the /docs folder for git commit and put it to the repo.
+  # Extract the artifact to the $(Build.SourcesDirectory)/gitpush/_site
+  # In the next step we will add all _site files to gh-pages branch.
   - task: ExtractFiles@1
     displayName: Extract docs
     inputs:
       archiveFilePatterns: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
-      destinationFolder: '$(Build.SourcesDirectory)/docs'
+      destinationFolder: '$(Build.SourcesDirectory)/gitpush/_site'
       cleanDestinationFolder: true
       overwriteExistingFiles: true
 
@@ -77,7 +75,7 @@ jobs:
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
         git switch -c gh-pages
-        git add docs/* --all
+        git add gitpush/_site/* --all
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
         git push -u --force origin gh-pages

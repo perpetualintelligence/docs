@@ -69,7 +69,7 @@ jobs:
       tagSource: 'userSpecifiedTag'
       tag: '$(Build.BuildNumber)'
       releaseNotesSource: 'inline'
-      assets: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
+      assets: '$(Pipeline.Workspace)/drop/*.zip'
       isDraft: true
       isPreRelease: true
       addChangeLog: false  

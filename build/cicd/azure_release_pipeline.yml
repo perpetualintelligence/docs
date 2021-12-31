@@ -58,8 +58,7 @@ jobs:
       targetType: inline
       script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
     enabled : true
-
-  # Push the zip to GitHub release
+  
   - task: GitHubRelease@1
     inputs:
       gitHubConnection: 'githubpta.perpetualintelligence.com'
@@ -68,10 +67,9 @@ jobs:
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'
       tag: '$(Build.BuildNumber)'
-      releaseNotesSource: 'inline'
       assets: '$(Pipeline.Workspace)/drop/*.zip'
       isDraft: true
       isPreRelease: true
-      addChangeLog: false  
+      addChangeLog: false
 ...
 

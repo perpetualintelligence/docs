@@ -67,10 +67,11 @@ jobs:
       action: 'create'
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'
-      tag: '$(Build.BuildNumber)'
-      title: '$(Build.BuildNumber)'
+      tag: 'v$(Build.BuildNumber)'
+      title: 'v$(Build.BuildNumber)'
       releaseNotesSource: 'inline'
-      assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip'
+      releaseNotesInline: 'The Perpetual Intelligence docfx documentation assets.'
+      assets: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
       isDraft: true
       isPreRelease: true
       addChangeLog: false

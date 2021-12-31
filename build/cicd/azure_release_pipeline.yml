@@ -49,39 +49,23 @@ jobs:
       project: '$(PI_BUILD_PROJECT_ID)'
       definition: '$(PI_BUILD_DEFINITION)'
       buildVersionToDownload: 'latest'
-      targetPath: '$(Pipeline.Workspace)'   
+      targetPath: '$(Pipeline.Workspace)'     
 
-  # Extract the artifact to the $(Build.SourcesDirectory)/gitpush/_site
-  # In the next step we will add all _site files to gh-pages branch.
-  - task: ExtractFiles@1
-    displayName: Extract docs
+  # Push the zip to GitHub release
+  - task: GitHubRelease@1
     inputs:
-      archiveFilePatterns: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
-      destinationFolder: '$(Build.SourcesDirectory)/gitpush/_site'
-      cleanDestinationFolder: true
-      overwriteExistingFiles: true
-
-  # Set the git config, commit and push.
-  # The pipeline checks out all the repo file, but we only commit the docs folder.
-  # PTA anyway will not give access to change all the files such as workflow in the repo.
-  # Delete Branch See:
-  # https://stackoverflow.com/questions/41492254/deleting-a-local-branch-with-git
-  - task: PowerShell@2
-    displayName: Push to GitHub 
-    inputs:
-      targetType: 'inline'
-      script: |
-        git config user.name "${env:PI_GITHUB_USERNAME}"
-        git config user.email "${env:PI_GITHUB_EMAIL}"
-        git config core.autocrlf false
-        git switch --orphan -c gh-pages
-        git add gitpush/_site/\*.*
-        git status
-        git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
-        git push -u --force origin gh-pages
-      workingDirectory: '$(Build.SourcesDirectory)'
-    enabled: true  
-    
+      gitHubConnection: 'githubpta.perpetualintelligence.com'
+      repositoryName: '$(Build.Repository.Name)'
+      action: 'create'
+      target: '$(Build.SourceVersion)'
+      tagSource: 'userSpecifiedTag'
+      tag: '$(Build.BuildNumber)'
+      releaseNotesSource: 'inline'
+      assets: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
+      isDraft: true
+      isPreRelease: true
+      addChangeLog: false
+  
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate

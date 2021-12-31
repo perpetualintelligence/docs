@@ -62,7 +62,7 @@ jobs:
   - task: GitHubRelease@1
     inputs:
       gitHubConnection: 'githubpta.perpetualintelligence.com'
-      repositoryName: '$(Build.Repository.Name)'
+      repositoryName: 'perpetualintelligence/docs'
       action: 'create'
       target: '$(Build.SourceVersion)'
       tagSource: 'userSpecifiedTag'

@@ -1,7 +1,9 @@
-This folder contains the CI/CD pipelines for generating and publishing documentation GitHub pages.
+This folder contains the CI/CD pipelines for generating and publishing documentation to GitHub pages.
 
-The build pipeline ***azure_build_pipeline.yml*** builds the docfx_projects and pushes the generated documentation to the ***private*** staging artifacts directory.
+> The documentation delivery is manual. We build the documentation site utilizing both public and private GitHub repositories. As a result, we cannot have the CD pipeline configured for all contributors.
 
-The release pipeline ***azure_release_pipeline.yml*** downloads from the ***private*** staging artifacts directory and creates a pull request for the /docs folder. The repo admin will merge the pull request to push the docs to the GitHub pages.
+The build pipeline ***build-and-stage.yml*** builds the docfx_projects from public and private repos and stages the generated documentation to the ***private*** staging artifacts directory.
 
-> We build the documentation site utilizing both public and private GitHub repositories. As a result, we cannot have the CD pipeline configured. Documentation delivery is manual.
+The manual triggered release pipeline ***stage-github-release.yml*** downloads the documentation from the ***private*** staging artifacts and creates a GitHub release. 
+
+Finally, the GitHub workflow action will trigger, download the new release and publish the documentation pages to the ***gh-action** branch.

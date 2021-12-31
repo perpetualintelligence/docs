@@ -1,0 +1,117 @@
+#    Copyright 2021 Perpetual Intelligence L.L.C. All Rights Reserved.
+#
+#    Licensed under the Apache License, Version 2.0.
+#    https://github.com/perpetualintelligence/terms/blob/main/LICENSE
+#
+#    Additional terms and policies.
+#    https://github.com/perpetualintelligence/terms/blob/main/policies.md
+
+# This is the Azure pipeline yml configuration file to build and publish the documentation site.
+# The pipeline uses Nuget to install the docfx tool and then builds the docfx_project. 
+
+# Pipeline name e.g. 2.3.5-21122505
+name: $(PI_LIBRARY_MAJORVERSION).$(PI_LIBRARY_MINORVERSION).$(PI_LIBRARY_BUILDVERSION).$(Date:yyMMdd)$(Rev:rr)
+
+trigger:
+- main
+
+# Docs require multiple repositories so provide all the repos
+# Endpoint authentication is configured with the Azure DevOps
+resources:
+  repositories:
+  - repository: self
+    type: github
+    ref: main
+  - repository: protocols
+    type: github
+    endpoint: perpetualintelligence
+    ref: main
+    name: perpetualintelligence/protocols
+
+# Provide access to cadence variables.
+# PI_LOCAL_CADENCE is specified at runtime while running the pipeline, defualts to 'cross'.
+variables:
+- group: CadenceVariables
+
+# Build jobs
+jobs:
+- job: Windows
+  displayName: Hosted Windows
+  pool:
+    vmImage: windows-latest
+    name: Azure Pipelines
+  steps:
+  # Checkout source
+  - checkout: self
+    clean: true
+  - checkout: protocols
+    clean: true
+    
+  # Download .NET SDK from global.json
+  - task: UseDotNet@2
+    displayName: Use SDK
+    inputs:
+      useGlobalJson: true
+  
+    # Restore projects to make sure the dependent types are correctly built
+  - task: DotNetCoreCLI@2
+    displayName: Restore
+    inputs:
+      command: 'restore'
+      projects: '**/docs/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln'
+      feedsToUse: 'config'
+      nugetConfigPath: '$(Build.SourcesDirectory)/docs/build/config/nuget.config'
+      verbosityRestore: 'Minimal'
+
+  # Set the pipeline cadence based on the input or use default.
+  - task: PowerShell@2
+    displayName: Set Pipeline Cadence
+    inputs:
+      targetType: inline
+      script: >-
+        # See https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=classic%2Cbatch for variable expansion
+        # Set the PI_LIBRARY_CADENCE to either preview, rc or release. This variable is used in downstream *.csproj to restore the NuGet references.
+        Write-Host "##vso[task.setvariable variable=PI_LIBRARY_CADENCE]$(PI_LOCAL_CADENCE)"
+      failOnStderr: true
+  
+   # Install docfx with nuget and then build the documentation project
+  - task: PowerShell@2
+    displayName: Build
+    inputs:
+      targetType: 'inline'
+      script: |
+        nuget install docfx.console -Version 2.58.9
+        docfx.console.2.58.9/tools/docfx.exe docs/docfx_project/docfx.json
+        if ($lastexitcode -ne 0){
+          throw ("Error building documentation")
+        }
+
+  # Dump dir
+  - task: PowerShell@2
+    displayName: Enumerate
+    inputs:
+      targetType: inline
+      script: Get-ChildItem -Path $(Build.SourcesDirectory) -Recurse
+    enabled : false    
+  
+  # Archive the _site and create a zip with Build Number
+  # E.g. Format: PerpetualIntelligence.Docs.Site.2.3.5-rc.2512252569
+  - task: ArchiveFiles@2
+    displayName: Archive
+    inputs:
+      rootFolderOrFile: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.Site.$(Build.BuildNumber).zip'
+      replaceExistingArchive: true  
+
+  # Publish the static docs.
+  # Defaut output path for docfx build output is docfx_project/_site
+  - task: PublishPipelineArtifact@1
+    displayName: Publish
+    inputs:
+      targetPath: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.Site.$(Build.BuildNumber).zip'
+      artifact: 'drop'
+      publishLocation: 'pipeline'
+...
+

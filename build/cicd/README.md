@@ -4,4 +4,4 @@ The build pipeline ***azure_build_pipeline.yml*** builds the docfx_projects and 
 
 The release pipeline ***azure_release_pipeline.yml*** downloads from the ***private*** staging artifacts directory and creates a pull request for the /docs folder. The repo admin will merge the pull request to push the docs to the GitHub pages.
 
-> We currently have CI configured but not CD. Documentation delivery is manual.
+> We build the documentation site utilizing both public and private GitHub repositories. As a result, we cannot have the CD pipeline configured. Documentation delivery is manual.

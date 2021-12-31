@@ -51,6 +51,14 @@ jobs:
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'     
 
+  # Dump dir
+  - task: PowerShell@2
+    displayName: Enumerate
+    inputs:
+      targetType: inline
+      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
+    enabled : true
+
   # Push the zip to GitHub release
   - task: GitHubRelease@1
     inputs:
@@ -64,14 +72,6 @@ jobs:
       assets: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
       isDraft: true
       isPreRelease: true
-      addChangeLog: false
-  
-  # Dump dir
-  - task: PowerShell@2
-    displayName: Enumerate
-    inputs:
-      targetType: inline
-      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
-    enabled : true
+      addChangeLog: false  
 ...
 

@@ -74,7 +74,7 @@ jobs:
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git switch --orphan gh-pages
+        git switch --orphan -c gh-pages
         git add gitpush/_site/\*.*
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"

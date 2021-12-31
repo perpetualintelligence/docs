@@ -76,11 +76,11 @@ jobs:
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git switch b gh-pages
+        git switch c gh-pages
         git add docs/* --all
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
-        git push -u origin gh-pages
+        git push -u --force origin gh-pages
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true  
     

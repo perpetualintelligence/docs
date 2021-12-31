@@ -64,7 +64,7 @@ jobs:
       overwriteExistingFiles: true
 
   # Set the git config, commit and push.
-  # The pipeline checksout all the repo file, but we only commit the docs folder.
+  # The pipeline checks out all the repo file, but we only commit the docs folder.
   # PTA anyway will not give access to change all the files such as workflow in the repo.
   # Delete Branch See:
   # https://stackoverflow.com/questions/41492254/deleting-a-local-branch-with-git
@@ -76,11 +76,11 @@ jobs:
         git config user.name "${env:PI_GITHUB_USERNAME}"
         git config user.email "${env:PI_GITHUB_EMAIL}"
         git config core.autocrlf false
-        git checkout -b docfx_release_branch
-        git add docs --all
+        git switch b gh-pages
+        git add docs/* --all
         git status
         git commit -m "docfx_release_docs ${env:BUILD_BUILDNUMBER} [skip ci]"
-        git push -u origin docfx_release_branch
+        git push -u origin gh-pages
       workingDirectory: '$(Build.SourcesDirectory)'
     enabled: true  
     

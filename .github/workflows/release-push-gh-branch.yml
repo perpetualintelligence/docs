@@ -37,10 +37,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           version: latest
           file: PerpetualIntelligence.Docs.Site.zip
-          target: ${{ env.GITHUB_WORKSPACE }}/docfx/PerpetualIntelligence.Docs.Site.zip
+          target: docfx/PerpetualIntelligence.Docs.Site.zip
           
       - name: Show dir
-        run: ls -R ${{ env.GITHUB_WORKSPACE }}
+        run: ls -R
 
       ## Unzip docs
       ## https://github.com/montudor/action-zip

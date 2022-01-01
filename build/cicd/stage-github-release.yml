@@ -50,18 +50,14 @@ jobs:
       definition: '$(PI_BUILD_DEFINITION)'
       buildVersionToDownload: 'latest'
       targetPath: '$(Pipeline.Workspace)'
-      
-  # We are creating github release which already has version id, so we remove the version suffix
-  # Archive the _site and create a zip with Build Number
+
+  # We are creating github release which already has version id, so we remove the version suffix from the artifact.
+  # This helps us to find and donwload the GitHub release asset later.
   # E.g. Format: PerpetualIntelligence.Docs.Site.2.3.5-rc.2512252569 -> PerpetualIntelligence.Docs.Site.zip
-  - task: ArchiveFiles@2
-    displayName: Archive
+  - task: PowerShell@2
     inputs:
-      rootFolderOrFile: '$(Build.SourcesDirectory)/docs/docfx_project/_site'
-      includeRootFolder: false
-      archiveType: 'zip'
-      archiveFile: '$(Build.ArtifactStagingDirectory)/PerpetualIntelligence.Docs.Site.$(Build.BuildNumber).zip'
-      replaceExistingArchive: true 
+      targetType: 'inline'
+      script: ren $(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip PerpetualIntelligence.Docs.Site.zip      
 
   # Dump dir
   - task: PowerShell@2
@@ -83,7 +79,7 @@ jobs:
       title: 'v$(Build.BuildNumber)'
       releaseNotesSource: 'inline'
       releaseNotesInline: 'The Perpetual Intelligence docfx documentation assets.'
-      assets: '$(Pipeline.Workspace)/drop/$(PI_BUILD_DOCS_ARTIFACT)'
+      assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site.zip'
       isDraft: true
       isPreRelease: true
       addChangeLog: false

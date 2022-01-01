@@ -40,7 +40,7 @@ jobs:
           target: docfx/PerpetualIntelligence.Docs.Site.zip
           
       - name: Show dir
-        run: ls ${{ github.workspace }}
+        run: ls -R ${{ github.workspace }}
 
       # Unzip docs
       # https://github.com/montudor/action-zip
@@ -49,4 +49,4 @@ jobs:
           args: unzip -qq docfx/PerpetualIntelligence.Docs.Site.zip -d docfx/_site
       
       - name: Show dir
-        run: ls ${{ github.workspace }}
+        run: ls -R ${{ github.workspace }}

@@ -35,11 +35,10 @@ jobs:
           repository: "perpetualintelligence/docs"
           latest: true
           filename: PerpetualIntelligence.Docs.Site.zip
+          
+      - name: Unzip
+        run: 7z e PerpetualIntelligence.Docs.Site.zip
 
       - name: Show dir
-        run: dir /s
-        working-directory: ${{ env.GITHUB_WORKSPACE }}      
+        run: dir /s   
       
-      - name: Show dir
-        run: dir /s
-        working-directory: ${{ env.GITHUB_WORKSPACE }}

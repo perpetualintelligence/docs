@@ -40,7 +40,7 @@ jobs:
           target: docfx/PerpetualIntelligence.Docs.Site.zip
           
       - name: Show dir
-        run: ls -R
+        run: ls ${{ github.workspace }}
 
       # Unzip docs
       # https://github.com/montudor/action-zip
@@ -49,13 +49,4 @@ jobs:
           args: unzip -qq docfx/PerpetualIntelligence.Docs.Site.zip -d docfx/_site
       
       - name: Show dir
-        run: ls -R
-        working-directory: docfx
-
-      # Push the staged/_site/to GitHub /docs dir 
-      - name: Push
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docfx/_site
-          force_orphan: true        
+        run: ls ${{ github.workspace }}

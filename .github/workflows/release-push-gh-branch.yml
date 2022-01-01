@@ -24,23 +24,21 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       
-      # Download latest release
-      - name: Download release
-        uses: dsaltares/fetch-gh-release-asset@0.06
+      - name: Download
+        uses: robinraju/release-downloader@v1.3
         with:
-          repo: perpetualintelligence/docs
-          token: ${{ secrets.GITHUB_TOKEN }}
-          version: latest
-          file: PerpetualIntelligence.Docs.Site.zip
-          target: ${{ github.workspace }}/docfx/PerpetualIntelligence.Docs.Site.zip
-          
+          repository: "perpetualintelligence/docs"
+          latest: true
+          filename: PerpetualIntelligence.Docs.Site.zip
+
       - name: Show dir
-        run: ls -R ${{ github.workspace }}
+        run: dir /s
+        working-directory: ${{ github.workspace }}
 
       # Unzip docs
       # https://github.com/montudor/action-zip
@@ -49,4 +47,5 @@ jobs:
           args: unzip -qq ${{ github.workspace }}/docfx/PerpetualIntelligence.Docs.Site.zip -d ${{ github.workspace }}/docfx/_site
       
       - name: Show dir
-        run: ls -R ${{ github.workspace }}
+        run: dir /s
+        working-directory: ${{ github.workspace }}

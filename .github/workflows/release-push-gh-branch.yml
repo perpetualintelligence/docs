@@ -38,18 +38,18 @@ jobs:
           repo: perpetualintelligence/docs
           token: ${{ secrets.GITHUB_TOKEN }}
           version: latest
-          file: PerpetualIntelligence.Docs.Site*.zip
+          file: PerpetualIntelligence.Docs.Site.zip
           target: _site/PerpetualIntelligence.Docs.Site.zip
 
       # Extract the release
       - name: Extract some files
         run: unzip -d PerpetualIntelligence.Docs.Site.zip
-        working-directory: staged
+        working-directory: _site
         
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: staged/_site
+          publish_dir: _site/PerpetualIntelligence.Docs.Site
           force_orphan: true

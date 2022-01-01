@@ -43,7 +43,5 @@ jobs:
           cd _site
           tar -xf PerpetualIntelligence.Docs.Site.zip
           del PerpetualIntelligence.Docs.Site.zip
-
-      - name: Show dir
-        run: dir /s   
-      
+          cd ..
+          dir /s    

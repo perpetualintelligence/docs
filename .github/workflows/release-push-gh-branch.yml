@@ -42,7 +42,7 @@ jobs:
           mkdir _site
           mv PerpetualIntelligence.Docs.Site.zip _site
           cd _site
-          tar -xf PerpetualIntelligence.Docs.Site.zip
+          unzip PerpetualIntelligence.Docs.Site.zip
           rm PerpetualIntelligence.Docs.Site.zip
           ls -l
         

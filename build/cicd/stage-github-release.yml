@@ -78,7 +78,7 @@ jobs:
       tag: 'v$(Build.BuildNumber)'
       title: 'v$(Build.BuildNumber)'
       releaseNotesSource: 'inline'
-      releaseNotesInline: 'The Perpetual Intelligence docfx documentation assets.'
+      releaseNotesInline: 'The documentation assets for managed services, frameworks and tools.'
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site.zip'
       isDraft: true
       isPreRelease: true

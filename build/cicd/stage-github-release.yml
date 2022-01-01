@@ -57,14 +57,14 @@ jobs:
   - task: PowerShell@2
     inputs:
       targetType: 'inline'
-      script: ren $(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site*.zip PerpetualIntelligence.Docs.Site.zip      
+      script: ren ${env:PIPELINE_WORKSPACE}/drop/PerpetualIntelligence.Docs.Site*.zip PerpetualIntelligence.Docs.Site.zip      
 
   # Dump dir
   - task: PowerShell@2
     displayName: Enumerate
     inputs:
       targetType: inline
-      script: Get-ChildItem -Path $(Pipeline.Workspace) -Recurse
+      script: Get-ChildItem -Path ${env:PIPELINE_WORKSPACE} -Recurse
     enabled : true
   
   #Create Github release

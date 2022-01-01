@@ -81,7 +81,6 @@ jobs:
       releaseNotesSource: 'inline'
       releaseNotesInline: 'The documentation assets for managed services, frameworks and tools.'
       assets: '$(Pipeline.Workspace)/drop/PerpetualIntelligence.Docs.Site.zip'
-      isDraft: true
       isPreRelease: true
       addChangeLog: false
 ...

@@ -57,7 +57,7 @@ jobs:
   - task: PowerShell@2
     inputs:
       targetType: 'inline'
-      script: ren ${env:PIPELINE_WORKSPACE}/drop/PerpetualIntelligence.Docs.Site*.zip PerpetualIntelligence.Docs.Site.zip      
+      script: Rename-Item -Path "${env:PIPELINE_WORKSPACE}/drop/PerpetualIntelligence.Docs.Site*.zip" -NewName "PerpetualIntelligence.Docs.Site.zip"      
 
   # Dump dir
   - task: PowerShell@2

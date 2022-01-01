@@ -44,7 +44,7 @@ jobs:
       # Extract the release
       - name: Extract some files
         run: unzip -d PerpetualIntelligence.Docs.Site.zip
-        working-directory: _site
+        working-directory: ${{ env.GITHUB_TOKEN }}/_site
         
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push

@@ -1,4 +1,4 @@
-> **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
+> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
 
 ## Introduction
 Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity, collaboration and cli platform to create secure applications and API endpoints on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.

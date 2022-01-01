@@ -8,11 +8,11 @@
 
 # Downloads the latest release, extract and publish documentation to GitHub pages.
 
-name: push-gh-branch
+name: release-push-gh-branch
 
 # Controls when the workflow will run
 on:
-  # Triggers a new release is released. The workflow will no trigger for preview releases.
+  # Triggers a new release is published. The workflow will not trigger for preview releases.
   release:
     types: [ published ]
 
@@ -29,6 +29,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       
+        # Download latest release
       - name: Download
         uses: robinraju/release-downloader@v1.3
         with:
@@ -46,7 +47,7 @@ jobs:
           rm PerpetualIntelligence.Docs.Site.zip
           ls -l
         
-      # Push the _site to the GitHub /docs dir 
+      # Push the _site to the gh-pages branch
       - name: Push
         uses: peaceiris/actions-gh-pages@v3
         with:

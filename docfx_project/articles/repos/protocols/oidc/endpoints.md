@@ -1,6 +1,6 @@
 
 ## Endpoints
-The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) authorization server endpoint implementations. All [OneImlx](http://localhost:8080/articles/oneimlx.html) endpoints implements [IAuthServerHandler<TContext, TResult>](api/PerpetualIntelligence.Protocols.Abstractions.AuthServer.IAuthServerHandler-2.html).
+The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) authorization server endpoint implementations. All [OneImlx](articles/repos/protocols/oneimlx/intro.md) endpoints implements [IAuthServerHandler<TContext, TResult>](xref:PerpetualIntelligence.Protocols.Abstractions.AuthServer.IAuthServerHandler-2).
 
 | Endpoint | OneImlx Endpoint Id | Protocol |
 |----------|-----|----------|

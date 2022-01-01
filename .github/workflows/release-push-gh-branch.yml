@@ -41,10 +41,11 @@ jobs:
           file: PerpetualIntelligence.Docs.Site.zip
           target: docfx/PerpetualIntelligence.Docs.Site.zip
 
-      # Extract the release
-      - name: Extract
-        run: sudo unzip PerpetualIntelligence.Docs.Site.zip -d docfx/_site
-        working-directory: docfx
+      # Unzip docs
+      - name: Unzip
+        uses: TonyBogdanov/zip@1.0
+        with:
+          args: unzip -qq ./docfx/PerpetualIntelligence.Docs.Site.zip -d ./docfx/_site     
         
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push

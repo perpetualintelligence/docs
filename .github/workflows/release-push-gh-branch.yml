@@ -37,7 +37,7 @@ jobs:
           filename: PerpetualIntelligence.Docs.Site.zip
           
       - name: Unzip
-        run: 7z e PerpetualIntelligence.Docs.Site.zip
+        run: tar -x -f PerpetualIntelligence.Docs.Site.2.3.5.22010108.zip
 
       - name: Show dir
         run: dir /s   

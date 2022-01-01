@@ -54,10 +54,11 @@ jobs:
   # We are creating github release which already has version id, so we remove the version suffix from the artifact.
   # This helps us to find and donwload the GitHub release asset later.
   # E.g. Format: PerpetualIntelligence.Docs.Site.2.3.5-rc.2512252569 -> PerpetualIntelligence.Docs.Site.zip
+  # https://stackoverflow.com/questions/34614669/how-to-rename-unknown-filename-to-new-filename
   - task: PowerShell@2
     inputs:
       targetType: 'inline'
-      script: Rename-Item -Path "${env:PIPELINE_WORKSPACE}/drop/PerpetualIntelligence.Docs.Site*.zip" -NewName "PerpetualIntelligence.Docs.Site.zip"      
+      script: Get-ChildItem -Path ${env:PIPELINE_WORKSPACE}/drop/PerpetualIntelligence.Docs.Site*.zip | Rename-Item -NewName {"PerpetualIntelligence.Docs.Site.zip"}       
 
   # Dump dir
   - task: PowerShell@2

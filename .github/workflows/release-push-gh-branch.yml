@@ -36,6 +36,7 @@ jobs:
           latest: true
           filename: PerpetualIntelligence.Docs.Site.zip
           
+      # Unzip the PerpetualIntelligence.Docs.Site.zip and move its contents to _site
       - name: Unzip
         run: |
           mkdir _site
@@ -44,3 +45,11 @@ jobs:
           tar -xf PerpetualIntelligence.Docs.Site.zip
           del PerpetualIntelligence.Docs.Site.zip
           dir
+        
+      # Push the _site to the GitHub /docs dir 
+      - name: Push
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
+          force_orphan: true   

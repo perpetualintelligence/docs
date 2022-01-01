@@ -42,15 +42,15 @@ jobs:
           target: docfx/PerpetualIntelligence.Docs.Site.zip
 
       # Unzip docs
-      - name: Unzip
-        uses: TonyBogdanov/zip@1.0
+      # https://github.com/montudor/action-zip
+      - uses: montudor/action-zip@v1
         with:
-          args: unzip -qq ./docfx/PerpetualIntelligence.Docs.Site.zip -d ./docfx/_site     
-        
+          args: unzip -qq docfx/PerpetualIntelligence.Docs.Site.zip -d docfx/_site
+
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docfx/_site/PerpetualIntelligence.Docs.Site
+          publish_dir: docfx/_site
           force_orphan: true        

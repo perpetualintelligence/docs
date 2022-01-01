@@ -1,7 +1,7 @@
+> **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
+
 ## Introduction
 Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity, collaboration and cli platform to create secure applications and API endpoints on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.
-
-> **Note:** This is a ***preview*** release, and it is subject to design changes without any advance notice.
 
 ## Identity, Collaboration and Cli platform
 [Perpetual Intelligence L.L.C.](https://perpetualintelligence.azurewebsites.net/) provides a collection of cross-platform frameworks and services for identity, collaboration, and cli. The tools and protocol implementations are built on top of the [.NET Core](https://dotnet.microsoft.com/en-us/) layer and include the modern web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration, multi-tenancy, role-based access, and localization in a unified way.

@@ -37,7 +37,12 @@ jobs:
           filename: PerpetualIntelligence.Docs.Site.zip
           
       - name: Unzip
-        run: tar -x -f PerpetualIntelligence.Docs.Site.2.3.5.22010108.zip
+        run: |
+          mkdir _site
+          move PerpetualIntelligence.Docs.Site.zip _site
+          cd _site
+          tar -xf PerpetualIntelligence.Docs.Site.zip
+          del PerpetualIntelligence.Docs.Site.zip
 
       - name: Show dir
         run: dir /s   

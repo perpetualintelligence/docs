@@ -50,6 +50,7 @@ jobs:
       
       - name: Show dir
         run: ls -R
+        working-directory: docfx
 
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push

@@ -43,7 +43,7 @@ jobs:
 
       # Extract the release
       - name: Extract
-        run: unzip PerpetualIntelligence.Docs.Site.zip -d docfx/_site
+        run: sudo unzip PerpetualIntelligence.Docs.Site.zip -d docfx/_site
         working-directory: docfx
         
       # Push the staged/_site/to GitHub /docs dir 

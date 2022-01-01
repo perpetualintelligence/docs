@@ -43,7 +43,8 @@ jobs:
 
       # Extract the release
       - name: Extract
-        run: unzip docfx/PerpetualIntelligence.Docs.Site.zip -d docfx/_site
+        run: unzip PerpetualIntelligence.Docs.Site.zip -d _site
+        working-directory: docfx
         
       # Push the staged/_site/to GitHub /docs dir 
       - name: Push
@@ -51,4 +52,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docfx/_site
-          force_orphan: true
+          force_orphan: true        

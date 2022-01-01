@@ -1,0 +1,55 @@
+#    Copyright 2021 Perpetual Intelligence L.L.C. All Rights Reserved.
+#
+#    Licensed under the Apache License, Version 2.0.
+#    https://github.com/perpetualintelligence/terms/blob/main/LICENSE
+#
+#    Additional terms and policies.
+#    https://github.com/perpetualintelligence/terms/blob/main/policies.md
+
+# Downloads the latest release, extract and publish documentation to GitHub pages.
+
+name: push-gh-branch
+
+# Controls when the workflow will run
+on:
+  # Triggers a new release is released. The workflow will no trigger for preview releases.
+  release:
+    types: [ published ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      # Download latest release
+      - name: Download release
+        uses: dsaltares/fetch-gh-release-asset@0.06
+        with:
+          repo: perpetualintelligence/docs
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          file: PerpetualIntelligence.Docs.Site*.zip
+          target: _site/PerpetualIntelligence.Docs.Site.zip
+
+      # Extract the release
+      - name: Extract some files
+        run: unzip -d PerpetualIntelligence.Docs.Site.zip
+        working-directory: staged
+        
+      # Push the staged/_site/to GitHub /docs dir 
+      - name: Push
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: staged/_site
+          force_orphan: true

@@ -1,6 +1,6 @@
+![Preview](https://img.shields.io/badge/release-preview-orange) 
 [![release-push-gh-branch](https://github.com/perpetualintelligence/docs/actions/workflows/release-push-gh-branch.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/release-push-gh-branch.yml)
 [![pages-build-deployment](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment)
-![Preview](https://img.shields.io/badge/release-preview-orange) 
 
 > **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
 

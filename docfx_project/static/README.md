@@ -1,0 +1,1 @@
+This static folder serves the CNAME file for the gh-pages deployment.

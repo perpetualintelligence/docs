@@ -1,7 +1,7 @@
-> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
-
 [![release-push-gh-branch](https://github.com/perpetualintelligence/docs/actions/workflows/release-push-gh-branch.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/release-push-gh-branch.yml)
 [![pages-build-deployment](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment)
+
+> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
 
 This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, frameworks, tools, and protocols. We build the [documentation site](https://docs.perpetualintelligence.com) using [docfx](https://dotnet.github.io/docfx/) from this repository.
 

@@ -24,7 +24,7 @@ jobs:
     steps:
     
       # Main Repo
-      - name: Checkout
+      - name: Checkout Docs
         uses: actions/checkout@v2
         with:
           path: main
@@ -33,6 +33,7 @@ jobs:
       - name: Checkout Protocols
         uses: actions/checkout@v2
         with:
+          repository: perpetualintelligence/docs
           path: protocols
           
        # Enable cross repo access
@@ -44,7 +45,7 @@ jobs:
       - name: Docfx build
         run: |
           nuget install docfx.console -Version 2.58.9
-          docfx.console.2.58.9/tools/docfx.exe docfx_project/docfx.json
+          docfx.console.2.58.9/tools/docfx.exe docs/docfx_project/docfx.json
         continue-on-error: false
 
       # Push the docs/_site to the GitHub /docs dir 
@@ -53,5 +54,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docfx_project/_site
+          publish_dir: docs/docfx_project/_site
           force_orphan: true

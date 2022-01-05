@@ -40,6 +40,11 @@ jobs:
       - name: Setup cross
         run: echo "PI_CI_REFERENCE=cross" >> $GITHUB_ENV
         continue-on-error: false 
+        
+      # Enable cross repo access
+      - name: Enumerate
+        run: ls -s
+        continue-on-error: false 
 
       # Use Nuget to install docfx and then build the docfx_project
       - name: Docfx build

@@ -45,6 +45,14 @@ jobs:
           ls -R
         shell: bash
         continue-on-error: false 
+        
+      # Setup .Net with global.json
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+      
+      # Restore dependencies
+      - name: Restore
+        run: dotnet restore
 
       # Use Nuget to install docfx and then build the docfx_project
       - name: Docfx build

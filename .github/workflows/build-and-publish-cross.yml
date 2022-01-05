@@ -35,7 +35,7 @@ jobs:
       - name: Checkout Protocols
         uses: actions/checkout@v2
         with:
-          repository: perpetualintelligence/docs
+          repository: perpetualintelligence/protocols
           path: protocols
         
       # Print debug

@@ -1,1 +1,0 @@
-This folder contains the build config files required by Azure DevOps.

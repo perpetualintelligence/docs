@@ -1,0 +1,57 @@
+#    Copyright 2021 Perpetual Intelligence L.L.C. All Rights Reserved.
+#
+#    Licensed under the Apache License, Version 2.0.
+#    https://github.com/perpetualintelligence/terms/blob/main/LICENSE
+#
+#    Additional terms and policies.
+#    https://github.com/perpetualintelligence/terms/blob/main/policies.md
+
+# Build the projects from multiple repos, generates the documentation and publishes static content.
+name: build-and-publis-cross
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+      # Main Repo
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          path: main
+                    
+      # protocols repo
+      - name: Checkout Protocols
+        uses: actions/checkout@v2
+        with:
+          path: protocols
+          
+       # Enable cross repo access
+      - name: Setup cross
+        run: echo "PI_CI_REFERENCE=cross" >> $GITHUB_ENV
+        continue-on-error: false 
+
+      # Use Nuget to install docfx and then build the docfx_project
+      - name: Docfx build
+        run: |
+          nuget install docfx.console -Version 2.58.9
+          docfx.console.2.58.9/tools/docfx.exe docfx_project/docfx.json
+        continue-on-error: false
+
+      # Push the docs/_site to the GitHub /docs dir 
+      - name: Push
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docfx_project/_site
+          force_orphan: true

@@ -27,7 +27,7 @@ jobs:
       - name: Checkout Docs
         uses: actions/checkout@v2
         with:
-          path: main
+          path: docs
                     
       # protocols repo
       - name: Checkout Protocols

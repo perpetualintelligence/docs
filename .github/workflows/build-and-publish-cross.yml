@@ -52,7 +52,7 @@ jobs:
         uses: actions/setup-dotnet@v1
       
       # Restore dependencies
-      - name: Restore
+      - name: Restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln
         run: dotnet restore
 
       # Use Nuget to install docfx and then build the docfx_project

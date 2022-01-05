@@ -1,5 +1,5 @@
 ![Preview](https://img.shields.io/badge/release-preview-orange) 
-[![build-and-publish-cross](https://github.com/perpetualintelligence/docs/actions/workflows/build-and-publish-cross.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/build-and-publish-cross.yml)
+[![build-test-publish](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml)
 [![pages-build-deployment](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment)
 
 > **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
@@ -26,7 +26,7 @@ The workflows folder contains actions for generating and publishing documentatio
 > The documentation delivery is ***manual***. We build the documentation site utilizing both public and private GitHub repositories. As a result, we cannot have the CD pipeline configured for all contributors.
 
 The build and deployment include:
-1. ***build-and-publish-cross***: The manual triggered pipeline builds documentation and pushes the ***_site*** contents to the ***gh-pages*** branch.
+1. ***build-test-publish***: The manual triggered pipeline builds documentation and pushes the ***_site*** contents to the ***gh-pages*** branch.
 2. ***Automated pipeline***: GitHub's automated pipeline builds the ***gh-branch*** and pushes the static content to GitHub pages.
 
 > The build and deployment will trigger an approval.

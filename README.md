@@ -14,6 +14,10 @@ We track the [issues and tasks](https://github.com/perpetualintelligence/docs/is
 This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community.
 See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
 
+## Environments
+- [github-release](https://github.com/perpetualintelligence/docs/deployments/activity_log?environment=github-release): Tracks the publish of documentation assets to ***gh-pages*** branch
+- [github-pages](https://github.com/perpetualintelligence/docs/deployments/activity_log?environment=github-pages): Tracks the deployment of documentation assets to [docs.perpetualintelligence.com](https://docs.perpetualintelligence.com)
+
 ## .github
 
 ### workflows

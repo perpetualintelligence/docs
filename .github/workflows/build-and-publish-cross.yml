@@ -43,7 +43,8 @@ jobs:
         
       # Enable cross repo access
       - name: Enumerate
-        run: echo ls -R
+        run: ls -R
+        shell: bash
         continue-on-error: false 
 
       # Use Nuget to install docfx and then build the docfx_project

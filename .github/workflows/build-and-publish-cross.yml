@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     runs-on: ubuntu-latest
-    environment: release
+    environment: github-release
     env:
       PI_CI_REFERENCE: cross
 

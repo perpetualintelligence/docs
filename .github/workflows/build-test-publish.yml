@@ -18,6 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment: github-release
     env:
       PI_CI_REFERENCE: cross

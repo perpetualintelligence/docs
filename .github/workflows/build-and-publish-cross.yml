@@ -19,6 +19,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    env:
+      PI_CI_REFERENCE=cross
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,15 +37,12 @@ jobs:
         with:
           repository: perpetualintelligence/docs
           path: protocols
-          
-       # Enable cross repo access
-      - name: Setup cross
-        run: echo "PI_CI_REFERENCE=cross" >> $GITHUB_ENV
-        continue-on-error: false 
         
-      # Enable cross repo access
-      - name: Enumerate
-        run: ls -R
+      # Print debug
+      - name: Print
+        run: |
+          env
+          ls -R
         shell: bash
         continue-on-error: false 
 

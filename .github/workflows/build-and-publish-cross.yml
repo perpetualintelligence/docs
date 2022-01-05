@@ -55,8 +55,9 @@ jobs:
           dotnet-version: '6.0.x'
       
       # Restore dependencies
+      # Restore using specified nuget.config
       - name: Restore
-        run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln
+        run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln --configfile main/nuget.config
 
       # Use Nuget to install docfx and then build the docfx_project
       - name: Docfx build

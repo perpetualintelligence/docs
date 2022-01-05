@@ -17,7 +17,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
     environment: release
     env:
@@ -26,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     
-      # Main Repo
+      # docs Repo
       - name: Checkout Docs
         uses: actions/checkout@v2
         with:
@@ -41,6 +40,7 @@ jobs:
         
       # Print debug
       - name: Print
+        if: ${{ false }}  # Debug
         run: |
           env
           ls -R
@@ -49,9 +49,7 @@ jobs:
         
       # Setup .Net with global.json
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
+        uses: actions/setup-dotnet@v1        
       
       # Restore dependencies
       - name: Restore

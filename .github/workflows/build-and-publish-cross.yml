@@ -37,7 +37,7 @@ jobs:
         with:
           repository: perpetualintelligence/protocols
           path: protocols
-        
+     
       # Print debug
       - name: Print
         if: ${{ false }}  # Debug
@@ -47,9 +47,12 @@ jobs:
         shell: bash
         continue-on-error: false 
         
-      # Setup .Net with global.json
+      # Setup .Net
+      # Bug: Looks like the global.json is not getting picked by docfx build, so specify version explicitly
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1        
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
       
       # Restore dependencies
       - name: Restore

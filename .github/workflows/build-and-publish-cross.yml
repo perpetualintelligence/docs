@@ -50,6 +50,8 @@ jobs:
       # Setup .Net with global.json
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
       
       # Restore dependencies
       - name: Restore

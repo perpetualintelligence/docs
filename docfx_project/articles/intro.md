@@ -1,7 +1,8 @@
 ## Introduction
 Welcome to the conceptual documentation for [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity, collaboration, and cli platform.
 
-The articles of this conceptual documentation have the following grouping areas:
+The following grouping organizes the articles of this conceptual documentation:
+1. Based on [concepts](concepts/intro.md)
 1. Based on GitHub [repos](repos/intro.md)
 2. Based on customer use cases or [product market fit](pmf/intro.md) strategy
 3. Based on [hosting and deployment](deployment/intro.md) strategy

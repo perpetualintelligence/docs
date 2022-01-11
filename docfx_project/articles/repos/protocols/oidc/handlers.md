@@ -1,5 +1,5 @@
 
-## Endpoints
+## Handlers Endpoints
 The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://openid.net/developers/specs/) authorization server endpoint implementations. All [OneImlx](articles/repos/protocols/oneimlx/intro.md) endpoints implements [IAuthServerHandler<TContext, TResult>](xref:PerpetualIntelligence.Protocols.Abstractions.AuthServer.IAuthServerHandler-2).
 
 | Endpoint | OneImlx Endpoint Id | Protocol |
@@ -14,4 +14,7 @@ The table below summarizes the [OAuth 2.0](https://oauth.net/2/) and [OpenID Con
 | revoke | `urn:oneimlx:revoke` | [OAuth 2.0 Token Revocation](https://datatracker.ietf.org/doc/html/rfc7009#section-2.1) | 
 | token | `urn:oneimlx:token` | [OAuth 2.0 Authorization Framework](https://datatracker.ietf.org/doc/html/rfc6749#section-3.2) | 
 | user_info | `urn:oneimlx:userinfo` | [OpenID Connect User Info](https://openid.net/specs/openid-connect-core-1_0.html#UserInfo) | 
+
+
+ ![handlers](/images/protocols/oidc/handlers.png)
 

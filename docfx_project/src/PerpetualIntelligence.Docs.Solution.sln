@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerpetualIntelligence.Share
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerpetualIntelligence.Test", "..\..\..\protocols\src\PerpetualIntelligence.Test\PerpetualIntelligence.Test.csproj", "{BCB4F5F6-6D0D-4093-A7F7-51593F6E4CCA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerpetualIntelligence.Cli", "..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj", "{B89BCDBC-4BE6-4734-B672-F46D54973DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BCB4F5F6-6D0D-4093-A7F7-51593F6E4CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB4F5F6-6D0D-4093-A7F7-51593F6E4CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB4F5F6-6D0D-4093-A7F7-51593F6E4CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89BCDBC-4BE6-4734-B672-F46D54973DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89BCDBC-4BE6-4734-B672-F46D54973DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89BCDBC-4BE6-4734-B672-F46D54973DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89BCDBC-4BE6-4734-B672-F46D54973DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

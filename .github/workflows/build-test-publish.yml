@@ -38,6 +38,13 @@ jobs:
         with:
           repository: perpetualintelligence/protocols
           path: protocols
+          
+       # protocols repo
+      - name: Checkout Cli
+        uses: actions/checkout@v2
+        with:
+          repository: perpetualintelligence/cli
+          path: cli
      
       # Print debug
       - name: Print
@@ -51,9 +58,7 @@ jobs:
       # Setup .Net
       # Bug: Looks like the global.json is not getting picked by docfx build, so specify version explicitly
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
+        uses: actions/setup-dotnet@v1        
       
       # Restore dependencies
       # Restore using specified nuget.config

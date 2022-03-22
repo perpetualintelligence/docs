@@ -1,7 +1,7 @@
 # protocols
 
 ![Preview](https://img.shields.io/badge/release-preview-orange) 
-> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
 This repository contains the cross-platform protocols and standards abstraction for Perpetual Intelligence L.L.C. managed services, frameworks, and tools. We build the following NuGet packages from this repository.
 

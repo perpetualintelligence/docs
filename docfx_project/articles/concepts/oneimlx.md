@@ -1,1 +1,0 @@
-Perpetual Intelligence's [OneImlx](/articles/concepts/oneimlx.md) is an authentication and authorization (OAuth and OpenId Connect) system providing fine-grained identity and access management (IAM) to subjects and resources.

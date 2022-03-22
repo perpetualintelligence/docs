@@ -1,10 +1,10 @@
 > **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
 ## Introduction
-Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  cli platform for building command-line systems or interface (CLI) in the .NET ecosystem (C#, F#, Visual Basic). Create CLIs with a few flags or advanced CLIs with organization commands, command groups, and subcommands. "pi-cli" makes it easy to build CLIs for your company, service, or development and testing needs. Browse class reference, sample code, tutorials, and more.
+Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/) framework for building command-line systems or interface (CLI) in the .NET ecosystem (C#, F#, Visual Basic). Create CLIs with a few flags or advanced CLIs with organization commands, command groups, and subcommands. "pi-cli" makes it easy to build CLIs for your company, service, or development and testing needs. Browse class reference, sample code, tutorials, and more.
 
 ## Enter "pi-cli"
-[Cli](articles/repos/cli/intro.md) is cross-platform CLI framework for companies, services and developers and customers for building enterprise grade cli applications.
+[pi-cli](articles/repos/cli/intro.md) is cross-platform CLI framework for companies, services, developers and customers for building enterprise grade cli applications.
 
 ## Navigation
 This documentation website has three main sections:

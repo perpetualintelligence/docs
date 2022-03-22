@@ -1,16 +1,10 @@
-> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
 ## Introduction
-Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  identity, collaboration and cli platform to create secure applications and API endpoints on any platform using C#, F#, and Visual Basic. Browse API reference, sample code, tutorials, and more.
+Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  cli platform for building command-line systems or interface (CLI) in the .NET ecosystem (C#, F#, Visual Basic). Create CLIs with a few flags or advanced CLIs with organization commands, command groups, and subcommands. "pi-cli" makes it easy to build CLIs for your company, service, or development and testing needs. Browse class reference, sample code, tutorials, and more.
 
-## Identity, Collaboration and Cli platform
-[Perpetual Intelligence L.L.C.](https://perpetualintelligence.azurewebsites.net/) provides a collection of cross-platform frameworks and services for identity, collaboration, and cli. The tools and protocol implementations are built on top of the [.NET Core](https://dotnet.microsoft.com/en-us/) layer and include the modern web authorization and authentication standards. It enables you to address website and application design and development challenges, authentication, authorization, licensing, collaboration, multi-tenancy, role-based access, and localization in a unified way.
-
-## Enter OneImlx
-[OneImlx](articles/repos/oneimlx/intro.md) is a unified platform for developers and customers for building all your secured, collaborative and multi-tenant apps: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
-
-## Enter Cli
-[Cli](articles/repos/cli/intro.md) is unified platform for developers and customers for building all your secured cli applications: web, mobile, desktop, gaming, IoT, and more. Supported on Windows, Linux, and macOS.
+## Enter "pi-cli"
+[Cli](articles/repos/cli/intro.md) is cross-platform CLI framework for companies, services and developers and customers for building enterprise grade cli applications.
 
 ## Navigation
 This documentation website has three main sections:

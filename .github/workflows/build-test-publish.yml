@@ -45,6 +45,7 @@ jobs:
         with:
           repository: perpetualintelligence/cli
           path: cli
+          token: ${{ secrets.PI_GITHUB_PAT }}
      
       # Print debug
       - name: Print

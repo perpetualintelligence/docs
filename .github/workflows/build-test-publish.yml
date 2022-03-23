@@ -59,7 +59,9 @@ jobs:
       # Setup .Net
       # Bug: Looks like the global.json is not getting picked by docfx build, so specify version explicitly
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1        
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
       
       # Restore dependencies
       # Restore using specified nuget.config

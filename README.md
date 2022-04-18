@@ -1,7 +1,7 @@
-![Preview](https://img.shields.io/badge/release-preview-orange) 
+![Preview](https://img.shields.io/badge/release-preview-orange)
 [![build-test-publish](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml)
 
-> **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
 ## Introduction
 This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, frameworks, tools, and protocols. We build the [documentation site](https://docs.perpetualintelligence.com) using [docfx](https://dotnet.github.io/docfx/) from this repository.

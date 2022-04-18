@@ -7,10 +7,9 @@ Learn to use [Perpetual Intelligence's](https://perpetualintelligence.azurewebsi
 [pi-cli](articles/repos/cli/intro.md) is cross-platform CLI framework for companies, services, developers and customers for building enterprise grade cli applications.
 
 ## Navigation
-This documentation website has three main sections:
+This documentation website has two main sections:
 1. [Articles](articles/intro.md): The conceptual documentation for all our framework, tools, and services
 2. [Classes](api/index.md): The .NET core classes for applications on any platform using C#, F#, and Visual Basic
-3. [REST API](rest/intro.md): The REST API endpoints for our managed services
 
 ## Roadmap
 This [document](articles/roadmap.md) covers the upcoming release dates
@@ -19,4 +18,6 @@ This [document](articles/roadmap.md) covers the upcoming release dates
 * Submit requests and issues on relevant [repo](articles/repos/intro.md).
 * Submit prioritized request at [Support](https://perpetualintelligence.azurewebsites.net/support)
 
+## Terms
+https://terms.perpetualintelligence.com/
 

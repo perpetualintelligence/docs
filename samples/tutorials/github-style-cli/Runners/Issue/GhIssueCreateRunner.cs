@@ -2,19 +2,19 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace GithubStyleCliTerminal.Runners
+namespace GithubStyleCliTerminal.Runners.Alias
 {
     /// <summary>
-    /// The sample <c>gh</c> command runner.
+    /// The sample <c>gh issue</c> command runner.
     /// </summary>
-    public class GhRunner : CommandRunner
+    public class GhIssueCreateRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhRunner(CliOptions options, ILogger<GhRunner> logger) : base(options, logger)
+        public GhIssueCreateRunner(CliOptions options, ILogger<GhIssueCreateRunner> logger) : base(options, logger)
         {
         }
 
@@ -27,7 +27,10 @@ namespace GithubStyleCliTerminal.Runners
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
-            Console.WriteLine("2.4.1-preview");
+            Console.WriteLine("Options");
+            Console.WriteLine("repo={0}", context.Command.GetRequiredArgumentValue<string>("repo"));
+            Console.WriteLine("title={0}", context.Command.GetRequiredArgumentValue<string>("title"));
+            Console.WriteLine("body={0}", context.Command.GetRequiredArgumentValue<string>("body"));
             return Task.FromResult(new CommandRunnerResult());
         }
     }

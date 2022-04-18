@@ -1,11 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com
-*/
-
-// Note: This sample tutorial uses the minimal hosting model. See
+﻿// Note: This sample tutorial uses the minimal hosting model. See
 // https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information. To
 // use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs
 using GithubStyleCliTerminal;
@@ -38,7 +31,7 @@ IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices).UseSerilog
 // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs. https://stackoverflow.com/questions/51357799/host-net-core-console-application-like-windows-service
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 {
-    await host.RunRouterAsync("_> ", cancellationTokenSource.Token);
+    await host.RunRouterAsync("$ ", cancellationTokenSource.Token);
 }
 
 /// <summary>
@@ -65,12 +58,13 @@ void ConfigureServices(IServiceCollection services)
         options.Checker.StrictTypeChecking = false;
 
         // Licensing
-        options.Licensing.AuthorizedApplicationId = "<<your_app_id>>";
-        options.Licensing.LicenseKey = "<<your_app_lic_file.json>>";
+        options.Licensing.AuthorizedApplicationId = "<your_app_id>";
+        options.Licensing.LicenseKey = "<your_app_lic_file.json>";
         options.Licensing.HttpClientName = "pi-cli";
-        options.Licensing.ConsumerTenantId = "<<your_consumer_tenant_id>>";
-        options.Licensing.Subject = "<<your_subscription_id>>";
+        options.Licensing.ConsumerTenantId = "<your_consumer_tenant_id>";
+        options.Licensing.Subject = "<your_subscription_id>";
         options.Licensing.ProviderId = SaaSProviders.PerpetualIntelligence;
+
     }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
       .AddDescriptorStore<InMemoryCommandDescriptorStore>()

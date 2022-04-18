@@ -1,11 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com
-*/
-
-using GithubStyleCliTerminal.Runners;
+﻿using GithubStyleCliTerminal.Runners;
 using GithubStyleCliTerminal.Runners.Alias;
 using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
@@ -96,6 +89,44 @@ namespace GithubStyleCliTerminal
                 );
                 builder.AddDescriptor<GhAliasSetRunner, CommandChecker>(aliasSet);
             };
+
+            // Issue
+            {
+                // gh issue
+                CommandDescriptor issue = new(
+                    "gh-cli-issue",
+                    "issue",
+                    "gh issue",
+                    "Sample command to work with GitHub issues.",
+                    new ArgumentDescriptors(stringComparison, new[]
+                    {
+                        new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
+                    })
+                );
+                builder.AddDescriptor<GhIssueRunner, CommandChecker>(issue);
+
+
+                // gh issue create
+                CommandDescriptor create = new(
+                    "gh-cli-issue-create",
+                    "create",
+                    "gh issue create",
+                    "Sample command to create GitHub issue.",
+                    new ArgumentDescriptors(stringComparison, new[]
+                    {
+                        new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
+                        new ArgumentDescriptor("assignee", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "a"},
+                        new ArgumentDescriptor("body", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "b"},
+                        new ArgumentDescriptor("body-file", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "F"},
+                        new ArgumentDescriptor("milestone", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "m"},
+                        new ArgumentDescriptor("project", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "p"},
+                        new ArgumentDescriptor("recover", System.ComponentModel.DataAnnotations.DataType.Text),
+                        new ArgumentDescriptor("title", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "t"},
+                        new ArgumentDescriptor("web", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "w"},
+                    })
+                );
+                builder.AddDescriptor<GhIssueCreateRunner, CommandChecker>(create);
+            }
 
             // Exit
             CommandDescriptor exit = new("gh-cli-exit", "exit", "exit", "Exits the CLI terminal.");

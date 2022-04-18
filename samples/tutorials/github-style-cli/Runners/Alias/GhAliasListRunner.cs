@@ -1,11 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com
-*/
-
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
@@ -21,7 +14,7 @@ namespace GithubStyleCliTerminal.Runners.Alias
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhAliasListRunner(CliOptions options, ILogger<GhRunner> logger) : base(options, logger)
+        public GhAliasListRunner(CliOptions options, ILogger<GhAliasListRunner> logger) : base(options, logger)
         {
         }
 

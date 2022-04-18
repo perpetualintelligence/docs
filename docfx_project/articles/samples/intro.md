@@ -1,2 +1,6 @@
 # Samples
-Browse our code samples on [Github](https://github.com/perpetualintelligence)
+Browse our code samples and tutorials on [Github](https://github.com/perpetualintelligence).
+
+| Product or Service | Sample | Description | Source |
+| -------------------|--------|-------------|--------|
+| pi-cli             |

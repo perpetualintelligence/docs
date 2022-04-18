@@ -1,5 +1,5 @@
 # Introduction
-Welcome to the conceptual and class documentation for [Perpetual Intelligence's](https://perpetualintelligence.azurewebsites.net/)  managed services and frameworks.
+Welcome to the conceptual and class documentation for [Perpetual Intelligence's](https://perpetualintelligence.com/)  managed services and frameworks.
 
 The following grouping organizes the articles of this conceptual documentation:
 1. Based on [concepts](concepts/intro.md)

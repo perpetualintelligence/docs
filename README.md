@@ -1,6 +1,5 @@
 ![Preview](https://img.shields.io/badge/release-preview-orange) 
 [![build-test-publish](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/build-test-publish.yml)
-[![pages-build-deployment](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/perpetualintelligence/docs/actions/workflows/pages/pages-build-deployment)
 
 > **Note:** This is a ***preview*** release, not ready for production usage. It is also subject to design changes without any advance notice.
 

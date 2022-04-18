@@ -1,3 +1,2 @@
 # Samples
-
-![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+Browse our code samples on [Github](https://github.com/perpetualintelligence)

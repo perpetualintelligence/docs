@@ -62,7 +62,21 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
 
 ### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
-A <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines a pi-cli command identity and its supported arguments.
+The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.
+
+#### Root Command
+A root command is the top CLI command. It can represent your organization, a product, or a service. E.g., Github CLI defines [gh](https://cli.github.com/manual/gh) as an organization root command. Microsoft, however, uses [dotnet](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet) as a root command for generic driver for the .NET CLI. 
+
+ ![gh](/images/picli/gh_cli_root_command.png)
+ ![dotnet](/images/picli/dotnet_cli_root_command.png) 
+
+
+### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines a command identity and its supported arguments that an end user or an application can use.
+
+
+ The <see cref="Command"/> is a runtime validated representation of an actual command and its
+    /// <see cref="Argument"/> values passed by a user or an application.
 
 ### Descriptors
 

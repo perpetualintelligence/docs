@@ -1,14 +1,16 @@
 ![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
 
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
+
 # Introduction
 "pi-cli" is the Perpetual Intelligence's cross-platform framework for building command-line systems or CLI terminals in the .NET ecosystem. The framework makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, arguments, and options.
 
-_**Take your app or service to the command line with Unicode support and build your front-end CLI in any language.**_
+> _**Take your app or service to the command line with Unicode support and build your front-end CLI in any language.**_
 
 # Craftsmanship
 We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and "pi-cli" directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI applications or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
 
-_**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
+> _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
 # Learn to Use
 To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you need to be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!

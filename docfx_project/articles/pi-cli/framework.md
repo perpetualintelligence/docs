@@ -8,7 +8,7 @@
 # Craftsmanship
 We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and "pi-cli" directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI applications or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.
 
-# Pre-Requistes
+# Pre-Requisites
 We assume you understand the commonly used architecture design patterns. If not, no worries. Here are some valuable links that you should be familiar with as they enable our framework to be extendible, customizable, and remain scalable.
 
 - [Dependency Injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)

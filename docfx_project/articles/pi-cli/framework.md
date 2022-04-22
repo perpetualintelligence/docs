@@ -19,7 +19,7 @@ We assume you understand the commonly used scalable architecture design patterns
 # Hosting
 The pi-cli framework is hosting agnostic, meaning no hosting limitations at all. Application authors can host their CLI apps, terminals or servers on their self-hosting environment, use managed-hosting environment, or rely on third-party to provide a hosting environment. You can configure your server, provide your self-hosting implementations for stores and host in an environment of your choice, for e.g. Windows, Linux, MacOS, Docker, Kubernetes etc.
 
-## Deployment
+# Deployment
 With pi-cli you build deployment agnostic secured CLI applications and services, test them in local environments and deploy the production apps and services on-premise, cloud (public, private, or government), or hybrid. You can also automate the deployment of your apps and services as portable, self-sufficient containers that can run on the cloud or on-premises.
 
 # Deployment

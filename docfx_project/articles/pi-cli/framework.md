@@ -1,19 +1,18 @@
 ![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
 
 # Introduction
-"pi-cli" is the Perpetual Intelligence's cross-platform framework for building command-line systems or CLI applications in the .NET ecosystem. Create CLIs with a few flags or advanced CLIs with organization commands, command groups, and subcommands. "pi-cli" makes it easy to build CLIs for your company, service, or development and testing needs.
+"pi-cli" is the Perpetual Intelligence's cross-platform framework for building command-line systems or CLI terminals in the .NET ecosystem. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, and arguments. "pi-cli" makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs.
 
-Use .NET Core, dependency injection, and options pattern to build a modern and secured CLI applications, configure your server, provide your self-hosting implementations for stores and host in an environment of your choice, e.g., Windows, Linux, Docker, Kubernetes, etc.
-
-Take your app or service to the command line with full Unicode support and build your front-end CLI in any language or your choice.
-
-![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+**_Take your app or service to the command line with Unicode support and build your front-end CLI in any language._**
 
 # Craftsmanship
-We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of DSL tools and languages, and "pi-cli" directly supports the .NET core and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems, apps, services, and developer tools in the entire .NET ecosystem.
+We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and "pi-cli" directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems, apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI applications or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture.
 
-# Fundamentals
-The "pi-cli" framework lets enterprises build ground-up CLI applications or migrate their existing CLI terminals with the modern and scalable micro-services-based architecture.
+# Pre-Requistes
+We assume you understand the commonly used scalable architecture design patterns. If not, no worries. Here are some valuable links that you should be familiar with as they enable our framework to be extendible, customizable, and remain scalable.
+
+- [Dependency Injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
+- [Options Patterns](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
 
 # Architecture
 
@@ -67,12 +66,9 @@ The "pi-cli" framework lets enterprises build ground-up CLI applications or migr
 
 # Support
 
-
-
-
-
-
-
 # Pricing
+
+# References
+- [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)
 
 

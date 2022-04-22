@@ -49,6 +49,12 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 ## 
 
 # Packages
+[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
+
+# OS Platform
+![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
+![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
+![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
 
 
 
@@ -58,6 +64,8 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 A command is a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service. The pi-cli framework defines the following code constructs to describe the command and its runtime behavior.
 
 ### CommandDescriptor
+<xref:id_of_another_file>
+[PerpetualIntelligence.Cli.Commands.CommandDescriptor](xref:id_of_another_file)
 
 
 ### Descriptors

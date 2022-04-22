@@ -64,11 +64,16 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/>
 ### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.
 
-#### Root Command
-A root command is the top CLI command. It can represent your organization, a product, or a service. E.g., Github CLI defines [gh](https://cli.github.com/manual/gh) as an organization root command. Microsoft, however, uses [dotnet](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet) as a root command for generic driver for the .NET CLI. 
+> By default a command is actually a subcommand.
 
- ![gh](/images/picli/gh_cli_root_command.png)
- ![dotnet](/images/picli/dotnet_cli_root_command.png) 
+#### Root Command
+A root command is the top CLI command. It can represent your organization, a product, or a service. For instance, Github CLI [gh](https://cli.github.com/manual/gh) is an example of an organization root command. Microsoft, however, uses [dotnet](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet) as a root command for the .NET CLI. 
+
+#### Grouped Command
+A grouped command provides a context for a set of related sub-commands. For instance, Github CLI [gh auth](https://cli.github.com/manual/gh_auth) is an example of a grouped command to authenticate gh and git with GitHub. 
+
+#### Sub Command
+A subcommand is an indiviual executable command that performs a specific action. For instance, Github CLI [gh auth login](https://cli.github.com/manual/gh_auth_login) is an example of a subcommand that authenticates with GitHub host. [dotnet build](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build) is a sub-command that builds a project and all of its dependencies.
 
 
 ### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)

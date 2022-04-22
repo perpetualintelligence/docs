@@ -13,7 +13,7 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
 # Learn to Use
-To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you need to be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!
+To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you can be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!
 
 ## I want to create my first modern CLI and learn as I go on
 - Please create an account with us at https://www.perpetualintelligence.com
@@ -48,17 +48,25 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 
 ## 
 
+# Packages
+
+
+
 # Concepts
 
 ## Commands
+A command is a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service. The pi-cli framework defines the following code constructs to describe the command and its runtime behavior.
+
+### CommandDescriptor
+
 
 ### Descriptors
 
 ### Runtime
 
-### Routing
+## Routing
 
-### Extractors
+## Extractors
 
 ### Handlers
 

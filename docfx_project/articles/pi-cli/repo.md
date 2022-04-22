@@ -1,4 +1,4 @@
-# cli
+# [pi-cli](https://github.com/perpetualintelligence/cli)
 
 This repository contains the cross-platform "pi-cli" framework. We build the following NuGet packages from this repository.
 

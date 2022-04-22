@@ -59,10 +59,10 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 # Concepts
 
 ## [Commands](xref:PerpetualIntelligence.Cli.Commands)
-The <xref:PerpetualIntelligence.Cli.Commands> namespace defines code constructs to describe command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checking, and finally run the command.
+The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
 
 ### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
-A <xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor> class describes or defines a pi-cli command identity and its supported arguments.
+A <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines a pi-cli command identity and its supported arguments.
 
 ### Descriptors
 

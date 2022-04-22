@@ -1,7 +1,7 @@
 ![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
 
 # Introduction
-"pi-cli" is the Perpetual Intelligence's cross-platform framework for building command-line systems or CLI terminals in the .NET ecosystem. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, and arguments. "pi-cli" makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs.
+"pi-cli" is the Perpetual Intelligence's cross-platform framework for building command-line systems or CLI terminals in the .NET ecosystem. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, and arguments. pi-cli makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs.
 
 **_Take your app or service to the command line with Unicode support and build your front-end CLI in any language._**
 
@@ -17,6 +17,10 @@ We assume you understand the commonly used scalable architecture design patterns
 # Architecture
 
 # Hosting
+The pi-cli framework is hosting agnostic, meaning no hosting limitations at all. Application authors can host their CLI apps, terminals or servers on their self-hosting environment, use managed-hosting environment, or rely on third-party to provide a hosting environment. You can configure your server, provide your self-hosting implementations for stores and host in an environment of your choice, for e.g. Windows, Linux, MacOS, Docker, Kubernetes etc.
+
+## Deployment
+With pi-cli you build deployment agnostic secured CLI applications and services, test them in local environments and deploy the production apps and services on-premise, cloud (public, private, or government), or hybrid. You can also automate the deployment of your apps and services as portable, self-sufficient containers that can run on the cloud or on-premises.
 
 # Deployment
 

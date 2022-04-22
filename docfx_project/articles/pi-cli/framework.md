@@ -32,7 +32,7 @@ Here are some valuable links that you should be familiar with as they enable our
 - [Dependency Injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 - [Dependency Inversion](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion)
 - [Options Patterns](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
-- [Seperation of concerns](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
+- [Separation of concerns](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Single Responsibility](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
 

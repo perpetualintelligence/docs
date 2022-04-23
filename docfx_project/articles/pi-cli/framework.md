@@ -111,7 +111,21 @@ The <a href="xref:PerpetualIntelligence.Cli.Integration.CliHostedService?display
 #### Terminal Lifetime
 You can override the following terminal lifetime methods in your application context.
 
-##### [OnStarted](xref:PerpetualIntelligence.Cli.Integration.OnStarted)
+##### [RegisterHostApplicationEventsAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.RegisterHostApplicationEventsAsync(Microsoft.Extensions.Hosting.IHostApplicationLifetime))
+Allows the application to register its custom events. The default implementation registers OnStarted, OnStopping, and OnStopped events that application authors can override.
+```
+    protected virtual Task RegisterHostApplicationEventsAsync(IHostApplicationLifetime hostApplicationLifetime)
+    {
+        hostApplicationLifetime.ApplicationStarted.Register(OnStarted);
+        hostApplicationLifetime.ApplicationStopping.Register(OnStopping);
+        hostApplicationLifetime.ApplicationStopped.Register(OnStopped);
+        return Task.CompletedTask;
+    }
+```
+
+> **Note:** OnStarted, OnStopping, and OnStopped are not triggered if you override RegisterHostApplicationEventsAsync and register your custom events.
+
+##### [OnStarted](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStarted)
 Triggered when the <c>pi-cli</c> application host has fully started.
 ```
     protected virtual void OnStarted()
@@ -120,7 +134,7 @@ Triggered when the <c>pi-cli</c> application host has fully started.
         Console.WriteLine();
     }
 ```
-##### [OnStopping](xref:PerpetualIntelligence.Cli.Integration.OnStopping)
+##### [OnStopping](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStopping)
 Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.
 ```
     protected virtual void OnStopping()
@@ -128,7 +142,7 @@ Triggered when the <c>pi-cli</c> application host is starting a graceful shutdow
         Console.WriteLine("Stopping server...");
     }
 ```
-##### [OnStopped](xref:PerpetualIntelligence.Cli.Integration.OnStopped)
+##### [OnStopped](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStopped)
 Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.
 ```
     protected virtual void OnStopped()
@@ -140,7 +154,7 @@ Triggered when the <c>pi-cli</c> application host has completed a graceful shutd
 #### Terminal Header
 You can override the following method to print the terminal header in your application context.
 
-##### [PrintHostApplicationHeaderAsync](xref:PerpetualIntelligence.Cli.Integration.PrintHostApplicationHeaderAsync)
+##### [PrintHostApplicationHeaderAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.PrintHostApplicationHeaderAsync)
 Allows the host application to print the custom header.
 ```
     protected virtual Task PrintHostApplicationHeaderAsync()
@@ -159,10 +173,10 @@ Allows the host application to print the custom header.
 #### Terminal Licensing Information
 You can override the following method to print the terminal licensing information in your application context.
 
-##### [PrintHostApplicationLicensingAsync](xref:PerpetualIntelligence.Cli.Integration.PrintHostApplicationLicensingAsync)
+##### [PrintHostApplicationLicensingAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License))
 Allows host application to print custom licensing information.
 ```
-        protected virtual Task PrintHostApplicationLicensingAsync(License license)
+        protected virtual Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
         {
             // Print the license information
             ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"consumer={license.Claims.Name} ({license.Claims.TenantId})");

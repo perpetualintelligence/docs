@@ -16,6 +16,8 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 ## Open Source
 Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
+> _**See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html)**_.
+
 ## OS
 ![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
 ![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
@@ -104,10 +106,90 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fu
 The <a href="xref:PerpetualIntelligence.Cli.Integration?displayProperty=fullName"/> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for [dependency injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and hosts a service to manage terminal lifetime and customization.
 
 ### [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
-You begin with providing a custom implementation of <a href="xref:PerpetualIntelligence.Cli.CliHostedService?displayProperty=fullName"/> to manage the terminal lifetime and UX customization.
+The <a href="xref:PerpetualIntelligence.Cli.Integration.CliHostedService?displayProperty=fullName"/> is a hosted service that manages application lifetime, performs licensing checks, and enables terminal UX customization.
+
+#### Terminal Lifetime
+You can override the following terminal lifetime methods in your application context.
+```
+    /// <summary>
+    /// Triggered when the <c>pi-cli</c> application host has fully started.
+    /// </summary>
+    protected virtual void OnStarted()
+    {
+        Console.WriteLine("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
+        Console.WriteLine();
+    }
+```
+```
+    /// <summary>
+    /// Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.
+    /// </summary>
+    protected virtual void OnStopping()
+    {
+        Console.WriteLine("Stopping server...");
+    }
+```
+```
+    /// <summary>
+    /// Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.
+    /// </summary>
+    protected virtual void OnStopped()
+    {
+        ConsoleHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
+    }
+```  
+
+#### Terminal Header
+You can override the following method to print the terminal header in your application context.
+```
+    /// <summary>
+    /// Allows the host application to print the custom header.
+    /// </summary>
+    protected virtual Task PrintHostApplicationHeaderAsync()
+    {
+        Console.WriteLine("---------------------------------------------------------------------------------------------");
+        Console.WriteLine("Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.");
+        Console.WriteLine("For license, terms, and data policies, go to:");
+        Console.WriteLine("https://terms.perpetualintelligence.com");
+        Console.WriteLine("---------------------------------------------------------------------------------------------");
+
+        Console.WriteLine($"Starting server \"{Protocols.Constants.CliUrn}\" version={typeof(CliHostedService).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion ?? " < none > "}");
+        return Task.CompletedTask;
+    }
+```
+
+#### Terminal Licensing Information
+You can override the following method to print the terminal licensing information in your application context.
+```
+        /// <summary>
+        /// Allows host application to print custom licensing information.
+        /// </summary>
+        /// <param name="license"></param>
+        /// <returns></returns>
+        protected virtual Task PrintHostApplicationLicensingAsync(License license)
+        {
+            // Print the license information
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"consumer={license.Claims.Name} ({license.Claims.TenantId})");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"country={license.Claims.TenantCountry}");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"subject={cliOptions.Licensing.Subject}");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"check={license.CheckMode}");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"usage={license.Usage}");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Green, $"edition={license.Plan}");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_source={cliOptions.Licensing.KeySource}");
+            if (license.LicenseKeySource == SaaSKeySources.JsonFile)
+            {
+                // Don't dump the key, just the lic file path
+                ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_file={license.LicenseKey}");
+            }
+
+            return Task.CompletedTask;
+        }
+```
+
+#### Override 
 
 ### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
-The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the requires and optional services.
+The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the required and optional services.
 
 ## Behind the scenes
 

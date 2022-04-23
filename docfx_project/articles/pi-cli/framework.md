@@ -12,7 +12,7 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
-# OS Platform
+# OS
 ![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
 ![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
@@ -67,6 +67,13 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/>
 ### [CommandString](xref:PerpetualIntelligence.Cli.Commands.CommandString)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandString?displayProperty=fullName"/> class is an immutable Unicode textual form representing the command and its arguments or options that a user or an application wants to execute.
 
+Example:
+> gh issue list
+> 
+> gh issue create --label bug
+> 
+> dotnet build --runtime ubuntu.18.04-x64
+
 ### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.
 
@@ -79,7 +86,7 @@ A grouped command provides a context for a set of related sub-commands. For inst
 #### Sub Command
 A subcommand is an individual executable command that performs a specific action. For instance, Github CLI [gh auth login](https://cli.github.com/manual/gh_auth_login) is an example of a subcommand that authenticates with GitHub host. [dotnet build](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build) is a sub-command that builds a project and all of its dependencies.
 
-> By default a command is actually a subcommand.
+> **Note:** A command is a subcommand unless you designate it as a root or a grouped command.
 
 ### [Command](xref:PerpetualIntelligence.Cli.Commands.Command)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.Command?displayProperty=fullName"/> class is a runtime validated representation of an actual command and its argument values passed by a user or an application. It represents a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service.
@@ -88,7 +95,7 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands.Command?displayProperty=ful
 The <a href="xref:PerpetualIntelligence.Cli.ArgumentDescriptor?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags. An argument <xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.Id> is always unique within a command. By design it implements the default equality <xref:System.IEquatable`1> using <xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.Id> property. Thus, two arguments with the same id are equal irrespective of other property values. This is done to improve performance during lookup and avoid multiple arguments with same identifiers.
 
 ### [Argument](xref:PerpetualIntelligence.Cli.Commands.Argument)
-The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags.
+The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fullName"/> is a runtime validated representation of an actual command argument, option, or a flag and its value passed by a user or an application.
 
 ### Runtime
 

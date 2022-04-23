@@ -12,8 +12,19 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
+# OS Platform
+![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
+![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
+![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
+
 # Learn to Use
 To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you can be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!
+
+## Nuget Packages
+[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
+
+## Classes
+[API and Classes](/api/index.md)
 
 ## I want to create my first modern CLI and learn as I go on
 - Please create an account with us at https://www.perpetualintelligence.com
@@ -46,15 +57,7 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 
 ## Server Deployed CLI Terminals
 
-# Runtime
 
-## Nuget Packages
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
-
-## OS Platform
-![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
-![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
-![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
 
 # Concepts & Code
 
@@ -74,15 +77,15 @@ A root command is the top CLI command. It can represent your organization, a pro
 A grouped command provides a context for a set of related sub-commands. For instance, Github CLI [gh auth](https://cli.github.com/manual/gh_auth) is an example of a grouped command to authenticate gh and git with GitHub. 
 
 #### Sub Command
-A subcommand is an indiviual executable command that performs a specific action. For instance, Github CLI [gh auth login](https://cli.github.com/manual/gh_auth_login) is an example of a subcommand that authenticates with GitHub host. [dotnet build](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build) is a sub-command that builds a project and all of its dependencies.
+A subcommand is an individual executable command that performs a specific action. For instance, Github CLI [gh auth login](https://cli.github.com/manual/gh_auth_login) is an example of a subcommand that authenticates with GitHub host. [dotnet build](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build) is a sub-command that builds a project and all of its dependencies.
 
 > By default a command is actually a subcommand.
 
 ### [Command](xref:PerpetualIntelligence.Cli.Commands.Command)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.Command?displayProperty=fullName"/> class is a runtime validated representation of an actual command and its argument values passed by a user or an application. It represents a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service.
 
-### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor)
-The <a href="xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags. An argument id is always unique within a command. By design <see cref="Argument"/> implements the default equality <see cref="IEquatable{T}"/> and <see cref="GetHashCode()"/> using <see cref="Id"/> property. Thus, two arguments with the same id are equal irrespective of other property values. This is done to improve performance during lookup and avoid multiple arguments with same identifiers.
+### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.ArgumentDescriptor)
+The <a href="xref:PerpetualIntelligence.Cli.ArgumentDescriptor?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags. An argument <xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.Id> is always unique within a command. By design it implements the default equality <xref:System.IEquatable`1> using <xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.Id> property. Thus, two arguments with the same id are equal irrespective of other property values. This is done to improve performance during lookup and avoid multiple arguments with same identifiers.
 
 ### [Argument](xref:PerpetualIntelligence.Cli.Commands.Argument)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags.

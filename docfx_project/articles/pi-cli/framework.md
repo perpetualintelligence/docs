@@ -12,13 +12,15 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
-# OS
+# Open Source
+Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
+
+# Getting Started
+
+## OS
 ![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
 ![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
-
-# Learn to Use
-To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you can be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!
 
 ## Nuget Packages
 [![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
@@ -26,7 +28,10 @@ To build a modern CLI terminal for simple use cases, a CLI terminal that handles
 ## Classes
 [API and Classes](/api/index.md)
 
-## I want to create my first modern CLI and learn as I go on
+## Learn to Use
+To build a modern CLI terminal for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs, you don't have to be a microservices or distributed systems expert. But eventually, you can be :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). We believe in agile development and agile learning. So, pick a learning model that works for you!
+
+### I want to create my first modern CLI and learn as I go on
 - Please create an account with us at https://www.perpetualintelligence.com
 - Pick a pricing plan that works for you. Our community edition is free for educational, research, and non-commercial use. You must have a commercial license to use the service in a non-educational, commercial, or production environment.
 - Browse our code samples [here](https://docs.perpetualintelligence.com/articles/featured_samples.html), clone the [repo](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials)
@@ -34,7 +39,7 @@ To build a modern CLI terminal for simple use cases, a CLI terminal that handles
 - Build, debug make changes and learn the concepts and you go on
 - We cant wait to see the fantastic CLI terminals you build !
 
-## I want to understand the concepts first
+### I want to understand the concepts first
 Continue reading, and we will explain all the concepts. We recommend you get familiar with the common architectural principles first.
 
 # Architectural Principles

@@ -12,10 +12,9 @@ We crafted the "pi-cli" framework to be cross-platform, hosting and deployment a
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
-# Open Source
-Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
-
 # Getting Started
+## Open Source
+Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
 ## OS
 ![macOS](https://img.shields.io/badge/macOS-Catalina%2010.15-blue?style=flat-square&logo=macos)
@@ -40,10 +39,7 @@ To build a modern CLI terminal for simple use cases, a CLI terminal that handles
 - We cant wait to see the fantastic CLI terminals you build !
 
 ### I want to understand the concepts first
-Continue reading, and we will explain all the concepts. We recommend you get familiar with the common architectural principles first.
-
-# Architectural Principles
-Here are some valuable links that you should be familiar with as they enable our framework to be extendible, customizable, and remain scalable.
+Continue reading, and we will explain all the concepts. We recommend you get familiar with the common architectural principles first as they enable our framework to be extendible, customizable, and remain scalable.
 
 - [Dependency Injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 - [Dependency Inversion](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion)
@@ -51,6 +47,7 @@ Here are some valuable links that you should be familiar with as they enable our
 - [Separation of concerns](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Single Responsibility](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
+
 
 # Hosting
 The pi-cli framework is hosting agnostic, meaning no hosting limitations at all. Application authors can host their CLI apps, terminals, or servers on their self-hosting environment, use a managed-hosting environment, or rely on a third party to provide a hosting environment. You can configure your server and provide your self-hosting implementations for stores and host in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc.

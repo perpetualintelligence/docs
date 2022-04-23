@@ -110,29 +110,27 @@ The <a href="xref:PerpetualIntelligence.Cli.Integration.CliHostedService?display
 
 #### Terminal Lifetime
 You can override the following terminal lifetime methods in your application context.
+
+##### [OnStarted](xref:PerpetualIntelligence.Cli.Integration.OnStarted)
+Triggered when the <c>pi-cli</c> application host has fully started.
 ```
-    /// <summary>
-    /// Triggered when the <c>pi-cli</c> application host has fully started.
-    /// </summary>
     protected virtual void OnStarted()
     {
         Console.WriteLine("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
         Console.WriteLine();
     }
 ```
+##### [OnStopping](xref:PerpetualIntelligence.Cli.Integration.OnStopping)
+Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.
 ```
-    /// <summary>
-    /// Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.
-    /// </summary>
     protected virtual void OnStopping()
     {
         Console.WriteLine("Stopping server...");
     }
 ```
+##### [OnStopped](xref:PerpetualIntelligence.Cli.Integration.OnStopped)
+Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.
 ```
-    /// <summary>
-    /// Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.
-    /// </summary>
     protected virtual void OnStopped()
     {
         ConsoleHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
@@ -141,10 +139,10 @@ You can override the following terminal lifetime methods in your application con
 
 #### Terminal Header
 You can override the following method to print the terminal header in your application context.
+
+##### [PrintHostApplicationHeaderAsync](xref:PerpetualIntelligence.Cli.Integration.PrintHostApplicationHeaderAsync)
+Allows the host application to print the custom header.
 ```
-    /// <summary>
-    /// Allows the host application to print the custom header.
-    /// </summary>
     protected virtual Task PrintHostApplicationHeaderAsync()
     {
         Console.WriteLine("---------------------------------------------------------------------------------------------");
@@ -160,12 +158,10 @@ You can override the following method to print the terminal header in your appli
 
 #### Terminal Licensing Information
 You can override the following method to print the terminal licensing information in your application context.
+
+##### [PrintHostApplicationLicensingAsync](xref:PerpetualIntelligence.Cli.Integration.PrintHostApplicationLicensingAsync)
+Allows host application to print custom licensing information.
 ```
-        /// <summary>
-        /// Allows host application to print custom licensing information.
-        /// </summary>
-        /// <param name="license"></param>
-        /// <returns></returns>
         protected virtual Task PrintHostApplicationLicensingAsync(License license)
         {
             // Print the license information
@@ -185,8 +181,6 @@ You can override the following method to print the terminal licensing informatio
             return Task.CompletedTask;
         }
 ```
-
-#### Override 
 
 ### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
 The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the required and optional services.

@@ -56,15 +56,16 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 ![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-2019-blue?style=flat-square&logo=windows)
 
-# Concepts
+# Concepts & Code
 
 ## [Commands](xref:PerpetualIntelligence.Cli.Commands)
 The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
 
-### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
-The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.
+### [CommandString](xref:PerpetualIntelligence.Cli.Commands.CommandString)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandString?displayProperty=fullName"/> class is an immutable Unicode textual form representing the command and its arguments or options that a user or an application wants to execute.
 
-> By default a command is actually a subcommand.
+### [CommandDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.
 
 #### Root Command
 A root command is the top CLI command. It can represent your organization, a product, or a service. For instance, Github CLI [gh](https://cli.github.com/manual/gh) is an example of an organization root command. Microsoft, however, uses [dotnet](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet) as a root command for the .NET CLI. 
@@ -75,17 +76,24 @@ A grouped command provides a context for a set of related sub-commands. For inst
 #### Sub Command
 A subcommand is an indiviual executable command that performs a specific action. For instance, Github CLI [gh auth login](https://cli.github.com/manual/gh_auth_login) is an example of a subcommand that authenticates with GitHub host. [dotnet build](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build) is a sub-command that builds a project and all of its dependencies.
 
+> By default a command is actually a subcommand.
 
-### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor)
-The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandDescriptor?displayProperty=fullName"/> class describes or defines a command identity and its supported arguments that an end user or an application can use.
+### [Command](xref:PerpetualIntelligence.Cli.Commands.Command)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.Command?displayProperty=fullName"/> class is a runtime validated representation of an actual command and its argument values passed by a user or an application. It represents a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service.
 
+### [ArgumentDescriptor](xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.ArgumentDescriptor?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags. An argument id is always unique within a command. By design <see cref="Argument"/> implements the default equality <see cref="IEquatable{T}"/> and <see cref="GetHashCode()"/> using <see cref="Id"/> property. Thus, two arguments with the same id are equal irrespective of other property values. This is done to improve performance during lookup and avoid multiple arguments with same identifiers.
 
- The <see cref="Command"/> is a runtime validated representation of an actual command and its
-    /// <see cref="Argument"/> values passed by a user or an application.
-
-### Descriptors
+### [Argument](xref:PerpetualIntelligence.Cli.Commands.Argument)
+The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fullName"/> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags.
 
 ### Runtime
+
+#### Why Descriptor By Actual Classes
+
+#### Default Values
+
+#### Argument Alias
 
 ## Routing
 

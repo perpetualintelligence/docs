@@ -63,6 +63,9 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 
 # Concepts & Code
 
+## Terminal
+Terminals, also known as command lines, consoles, or CLI applications, allow organizations and users to accomplish and automate tasks on a computer without using a graphical user interface. If a CLI app supports user interaction, the UX is the terminal.
+
 ## [Commands](xref:PerpetualIntelligence.Cli.Commands)
 The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
 
@@ -122,6 +125,18 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fu
 ### Runners
 
 ### Pubishers
+
+## [Integration](xref:PerpetualIntelligence.Cli.Integration)
+The <a href="xref:PerpetualIntelligence.Cli.Integration?displayProperty=fullName"/> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for [dependency injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and hosts a service to manage terminal lifetime and customization.
+
+### [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
+You beign with providing a custom implementation of <a href="xref:PerpetualIntelligence.Cli.CliHostedService?displayProperty=fullName"/>.
+
+### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
+The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the requires and optional serives.
+
+CliHostedService
+
 
 ## Configurations and Customizations
 

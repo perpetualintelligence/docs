@@ -8,7 +8,7 @@
 > _**Take your app or service to the command line with Unicode support and build your front-end CLI in any language.**_
 
 # Craftsmanship
-We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and "pi-cli" directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI applications or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
+We crafted the "pi-cli" framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and "pi-cli" directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI terminals or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with pi-cli.**_
 
@@ -53,13 +53,11 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 The pi-cli framework is hosting agnostic, meaning no hosting limitations at all. Application authors can host their CLI apps, terminals, or servers on their self-hosting environment, use a managed-hosting environment, or rely on a third party to provide a hosting environment. You can configure your server and provide your self-hosting implementations for stores and host in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc.
 
 # Deployment
-With pi-cli, you build deployment agnostic secured CLI applications and services, test them in local environments and deploy the production apps and services on-premise, cloud (public, private, or government), or hybrid. You can also automate the deployment of your apps and services as portable, self-sufficient containers that can run on the cloud or on-premises.
+With pi-cli, you build deployment agnostic secured CLI terminals and services, test them in local environments and deploy the production apps and services on-premise, cloud (public, private, or government), or hybrid. You can also automate the deployment of your apps and services as portable, self-sufficient containers that can run on the cloud or on-premises.
 
 ## Public Client CLI Terminals
 
 ## Server Deployed CLI Terminals
-
-
 
 # Concepts & Code
 
@@ -67,7 +65,7 @@ With pi-cli, you build deployment agnostic secured CLI applications and services
 Terminals, also known as command lines, consoles, or CLI applications, allow organizations and users to accomplish and automate tasks on a computer without using a graphical user interface. If a CLI app supports user interaction, the UX is the terminal.
 
 ## [Commands](xref:PerpetualIntelligence.Cli.Commands)
-The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
+The <a href="xref:PerpetualIntelligence.Cli.Commands?displayProperty=fullName"/> namespace defines all the code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.
 
 ### [CommandString](xref:PerpetualIntelligence.Cli.Commands.CommandString)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.CommandString?displayProperty=fullName"/> class is an immutable Unicode textual form representing the command and its arguments or options that a user or an application wants to execute.
@@ -102,6 +100,17 @@ The <a href="xref:PerpetualIntelligence.Cli.ArgumentDescriptor?displayProperty=f
 ### [Argument](xref:PerpetualIntelligence.Cli.Commands.Argument)
 The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fullName"/> is a runtime validated representation of an actual command argument, option, or a flag and its value passed by a user or an application.
 
+## [Integration](xref:PerpetualIntelligence.Cli.Integration)
+The <a href="xref:PerpetualIntelligence.Cli.Integration?displayProperty=fullName"/> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for [dependency injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and hosts a service to manage terminal lifetime and customization.
+
+### [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
+You begin with providing a custom implementation of <a href="xref:PerpetualIntelligence.Cli.CliHostedService?displayProperty=fullName"/> to manage the terminal lifetime and UX customization.
+
+### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
+The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the requires and optional services.
+
+## Behind the scenes
+
 ### Runtime
 
 #### Why Descriptor By Actual Classes
@@ -126,16 +135,6 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fu
 
 ### Pubishers
 
-## [Integration](xref:PerpetualIntelligence.Cli.Integration)
-The <a href="xref:PerpetualIntelligence.Cli.Integration?displayProperty=fullName"/> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for [dependency injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and hosts a service to manage terminal lifetime and customization.
-
-### [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
-You beign with providing a custom implementation of <a href="xref:PerpetualIntelligence.Cli.CliHostedService?displayProperty=fullName"/>.
-
-### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
-The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the requires and optional serives.
-
-CliHostedService
 
 
 ## Configurations and Customizations

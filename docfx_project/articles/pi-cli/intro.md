@@ -68,7 +68,7 @@ If you want to evaluate the pi-cli framework quickly, you can use our test licen
 
 We recommend creating an account to generate a license for your specific use case. Our community edition is free for educational, research and development, and non-commercial use. You do need a commercial license for a non-educational or production environment.
 
-> **Note:** Our test license feature is under development and will be available soon.
+> **Note:** Our test license feature is under development and will be available soon. See https://github.com/perpetualintelligence/cli/issues/15 for more status.
 
 # Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.

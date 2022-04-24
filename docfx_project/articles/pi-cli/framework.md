@@ -176,29 +176,54 @@ You can override the following method to print the terminal licensing informatio
 ##### [PrintHostApplicationLicensingAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License))
 Allows host application to print custom licensing information.
 ```
-        protected virtual Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
+    protected virtual Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
+    {
+        // Print the license information
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"consumer={license.Claims.Name} ({license.Claims.TenantId})");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"country={license.Claims.TenantCountry}");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"subject={cliOptions.Licensing.Subject}");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"check={license.CheckMode}");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"usage={license.Usage}");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Green, $"edition={license.Plan}");
+        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_source={cliOptions.Licensing.KeySource}");
+        if (license.LicenseKeySource == SaaSKeySources.JsonFile)
         {
-            // Print the license information
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"consumer={license.Claims.Name} ({license.Claims.TenantId})");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"country={license.Claims.TenantCountry}");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"subject={cliOptions.Licensing.Subject}");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"check={license.CheckMode}");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"usage={license.Usage}");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Green, $"edition={license.Plan}");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_source={cliOptions.Licensing.KeySource}");
-            if (license.LicenseKeySource == SaaSKeySources.JsonFile)
-            {
-                // Don't dump the key, just the lic file path
-                ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_file={license.LicenseKey}");
-            }
-
-            return Task.CompletedTask;
+            // Don't dump the key, just the lic file path
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_file={license.LicenseKey}");
         }
+        return Task.CompletedTask;
+    }
 ```
 
 ### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
-The <a href="xref:PerpetualIntelligence.Cli.ICliBuilder?displayProperty=fullName"/> class provides extension methods to register the command descriptors and injects the required and optional services.
+You enable the pi-cli framework to any .NET, .NET Core, or .NET6+ console application by adding the relevant services to the [dependency injection (DI)](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) system.
 
+```
+    public static async Task Main(string[] args)
+    {
+        // The cancellation token routing commands.
+        CancellationTokenSource cancellationTokenSource = new();
+
+        // Setup the host builder
+        IHostBuilder hostBuilder = CreateHostBuilder(args, Startup.ConfigureServices);
+
+        // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
+        using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
+        {
+            // Run the router loop to listen to the user input and process the command string
+            await host.RunRouterAsync("_> ", cancellationTokenSource.Token);
+        }
+    }
+
+    // Add pi-cli to the console app
+    public void ConfigureServices(IServiceCollection services)
+    {
+        ICliBuilder builder = services.AddCli(options => { ... });
+    }
+```
+
+The <a href="xref:PerpetualIntelligence.Cli.Integration.ICliBuilder?displayProperty=fullName"/> provides dependency injection extension methods to register required and optional pi-cli services.
+    
 ## Behind the scenes
 
 ### Runtime

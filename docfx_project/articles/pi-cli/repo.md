@@ -1,4 +1,8 @@
-# [pi-cli](https://github.com/perpetualintelligence/cli)
+![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
+
+# [perpetualintelligence/cli](https://github.com/perpetualintelligence/cli)
 
 This repository contains the cross-platform "pi-cli" framework. We build the following NuGet packages from this repository.
 

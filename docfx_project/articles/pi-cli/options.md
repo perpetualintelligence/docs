@@ -1,3 +1,7 @@
+![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+
+> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
+
 # [CliOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CliOptions)
 The pi-cli framework uses the options pattern to provide strongly typed access to groups of related settings. When configuration settings are isolated by scenario into separate classes, the host CLI terminal adheres to two crucial software engineering principles:
 
@@ -7,19 +11,19 @@ Options also provide a mechanism to validate configuration data. For more inform
 
 This article provides information on all the supported configuration options by the pi-cli framework.
 
-# [AuthenticationOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions)
+## [AuthenticationOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions)
 
-# [CheckerOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions)
+## [CheckerOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions)
 
-# [ExtractorOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions)
+## [ExtractorOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions)
 
-# [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
+## [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
 
-# [HttpOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions)
+## [HttpOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions)
 
-# [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
+## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
 
-# [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
+## [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
 
 # References
 - [Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)

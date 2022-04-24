@@ -58,6 +58,8 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Routing and extraction      | `standard`  | `standard`     | `standard`      |
 | License Check               | `online`    | `online`       | `online`        |
 
+🔜 - Feature planed for future release.
+
 ## Pro Pack
 | Features                    | Enterprise      | ISV             | ISV-U            |
 |-----------------------------|-----------------|-----------------|------------------|

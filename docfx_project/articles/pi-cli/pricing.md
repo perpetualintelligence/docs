@@ -54,7 +54,7 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Strict data type            | NO          | NO             | Yes             |
 | Unicode                     | Yes         | Yes            | Yes             |
 | Error handling              | `standard`  | `standard`     | `standard`      |
-| Stores                      | `in-memory` | `in-memory`    | `in-memory`<br>`json` |
+| Stores                      | `in-memory` | `in-memory`    | `in-memory`<br> 🔜 `json` |
 | Routing and extraction      | `standard`  | `standard`     | `standard`      |
 | License Check               | `online`    | `online`       | `online`        |
 
@@ -77,4 +77,4 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Routing and extraction      | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` |
 | License Check               | `online`<br>🔜 `offline` | `online`<br>🔜 `offline`<br>🔜 `byol` | `online`<br>🔜 `offline`<br>🔜 `byol` |
 
-## Legends
+🔜 - Feature planed for future release.

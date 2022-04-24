@@ -1,4 +1,4 @@
-![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+﻿![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
 
 > **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
@@ -73,8 +73,8 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Strict data type            | Yes             | NO              | Yes              |
 | Unicode                     | Yes             | Yes             | Yes              |
 | Error handling              | `standard`<br>`custom` | `standard`<br>`custom` | `standard`<br>`custom` |
-| Stores                      | `in-memory`<br>`json`<br>`custom` | `in-memory`<br>`json`<br>`custom` | `in-memory`<br>`json`<br>`custom` |
-| Routing and extraction      | `standard`<br>`custom` | `standard`<br>`custom` | `standard`<br>`custom` |
-| License Check               | `online`<br>`offline` | `online`<br>`offline`<br>`byol` | `online`<br>`offline`<br>`byol` |
+| Stores                      | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` |
+| Routing and extraction      | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` |
+| License Check               | `online`<br>🔜 `offline` | `online`<br>🔜 `offline`<br>🔜 `byol` | `online`<br>🔜 `offline`<br>🔜 `byol` |
 
 ## Legends

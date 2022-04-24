@@ -275,14 +275,14 @@ article h4 {
 /* CODE HIGHLIGHT */
 /* https://stackoverflow.com/questions/62642863/horizontal-scrollbar-for-fenced-code-blocks-in-jekyll*/
 pre {
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    background-color: #fffaef;
-    border-radius: 4px;
-    border: none;
-    box-shadow: var(--card-box-shadow);
+    padding: 16px;
     overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    word-wrap:normal;
 }
 
 /* STYLE FOR IMAGES */

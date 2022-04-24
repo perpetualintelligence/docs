@@ -8,7 +8,7 @@
 > _**Take your app or service to the command line with Unicode support and build your front-end CLI in any language.**_
 
 # Craftsmanship
-We crafted the `pi-cli` framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and `pi-cli` directly supports the .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI terminals or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
+We crafted the `pi-cli` framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and `pi-cli` directly supports the .NET (traditional), .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI terminals or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
 
 > _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with `pi-cli`.**_
 
@@ -16,7 +16,7 @@ We crafted the `pi-cli` framework to be cross-platform, hosting and deployment a
 ## Open Source
 Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
-> _**See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html)**_.
+> _**See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html) and [pricing](pricing.md) **_.
 
 ## OS
 Our CICD pipeline builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
@@ -25,15 +25,15 @@ Our CICD pipeline builds the framework with Github [hosted runners](https://docs
 ![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-2022-blue?style=flat-square&logo=windows)
 
-## Build
-The [GitHub](https://github.com/perpetualintelligence/cli) repo contains all the build and release artifacts to build, test and publish the `pi-cli` source.
-
- ![build](/images/picli/framework/build.png)
-
 ## Packaging
 The licensed libraries can be accessed via Nuget:
 
 [![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
+
+## Build
+The [GitHub](https://github.com/perpetualintelligence/cli) repo contains all the build and release artifacts to build, test and publish the `pi-cli` source.
+
+ ![build](/images/picli/framework/build.png)
 
 ## Terminal UX
 The `pi-cli` framework does not enforce any specific terminal or console UX experience because this is always custom to the project. However, we provide you with a starting point for your terminal lifetime and UX customization.
@@ -63,12 +63,15 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 - [Single Responsibility](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
 
-## Test License
+# Test License
 If you want to evaluate the pi-cli framework quickly, you can use our test license with shared limits. 
 
 We recommend creating an account to generate a license for your specific use case. Our community edition is free for educational, research and development, and non-commercial use. You do need a commercial license for a non-educational or production environment.
 
 > **Note:** Our test license feature is under development and will be available soon.
+
+# Issues and feature requests
+Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.
 
 # References
 - [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)

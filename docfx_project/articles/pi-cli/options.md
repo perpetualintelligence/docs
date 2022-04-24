@@ -6,3 +6,21 @@ The pi-cli framework uses the options pattern to provide strongly typed access t
 Options also provide a mechanism to validate configuration data. For more information, see the Options validation section.
 
 This article provides information on all the supported configuration options by the pi-cli framework.
+
+# [AuthenticationOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions)
+
+# [CheckerOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions)
+
+# [ExtractorOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions)
+
+# [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
+
+# [HttpOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions)
+
+# [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
+
+# [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
+
+# References
+[Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
+[Architectural principles](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)

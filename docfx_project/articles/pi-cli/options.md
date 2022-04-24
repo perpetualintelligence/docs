@@ -22,5 +22,5 @@ This article provides information on all the supported configuration options by 
 # [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
 
 # References
-[Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
-[Architectural principles](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)
+- [Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
+- [Architectural principles](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles)

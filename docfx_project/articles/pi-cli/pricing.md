@@ -11,7 +11,6 @@ The community edition is free for educational, research, and non-commercial use.
 
 > NO redistributions are allowed.
 
-
 ## Micro
 The micro edition is a commercial license for solo users or micro-businesses with up to 50 employees. 
 
@@ -59,9 +58,6 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Routing and extraction      | `standard`  | `standard`     | `standard`      |
 | License Check               | `online`    | `online`       | `online`        |
 
-
-
-
 ## Pro Pack
 | Features                    | Enterprise      | ISV             | ISV-U            |
 |-----------------------------|-----------------|-----------------|------------------|
@@ -81,3 +77,4 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Routing and extraction      | `standard`<br>`custom` | `standard`<br>`custom` | `standard`<br>`custom` |
 | License Check               | `online`<br>`offline` | `online`<br>`offline`<br>`byol` | `online`<br>`offline`<br>`byol` |
 
+## Legends

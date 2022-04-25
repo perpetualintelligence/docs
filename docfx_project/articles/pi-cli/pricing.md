@@ -29,43 +29,47 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 # Features
 
 ## Starters Pack
-| Features                    | Community   | Solo or Micro  | SMB             |
-|-----------------------------|-------------|----------------|-----------------|
-| Pricing `$ USD`             | `$ 0`       | `$ 19 / Month`<br>`$ 199 / Year` | `$ 119 / Month`<br>`$ 1209 / Year` |
-| Terminals or Console Apps   | 1           | 1              | 3               |
-| Redistribution              | **NO**      | **NO**         | **1000**        |
-| Root commands               | 1           | 1              | 1               |
-| Grouped commands            | 5           | 5              | 10              |
-| Sub-commands                | 50          | 50             | 100             |
-| Arguments, options or flags | 500         | 500            | 1000            |
-| Argument alias              | NO          | NO             | Yes             |
-| Default argument and value  | NO          | NO             | Yes             |
-| Strict data type            | NO          | NO             | Yes             |
-| Unicode                     | Yes         | Yes            | Yes             |
-| Error handling              | `standard`  | `standard`     | `standard`      |
-| Stores                      | `in-memory` | `in-memory`    | `in-memory`<br> 🔜 `json` |
-| Routing and extraction      | `standard`  | `standard`     | `standard`      |
-| License Check               | `online`    | `online`       | `online`        |
+| Features                                                      | Community   | Solo or Micro  | SMB             |
+|---------------------------------------------------------------|-------------|----------------|-----------------|
+| **Pricing** `$ USD`                                           | `$ 0`       | `$ 19 / Month`<br>`$ 199 / Year` | `$ 119 / Month`<br>`$ 1209 / Year` |
+| **Terminals or Console Apps**                                 | **1**       | **1**          | **3**           |
+| :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down:     |             |                |                 |
+| **Redistribution**                                            | **NO**      | **NO**         | **1000**        |
+| Root commands                                                 | 1           | 1              | 1               |
+| Grouped commands                                              | 5           | 5              | 10              |
+| Sub-commands                                                  | 25          | 25             | 50              |
+| Arguments, options or flags                                   | 500         | 500            | 1000            |
+| Argument alias                                                | NO          | NO             | Yes             |
+| Default argument and value                                    | NO          | NO             | Yes             |
+| Strict data type                                              | NO          | NO             | Yes             |
+| Data type handlers                                            | `default`   | `default`      | `default`       |
+| Unicode handlers                                              | `default`   | `default`      | `default`       |
+| Error handlers                                                | `default`   | `default`      | `default`       |
+| Stores                                                        | `in-memory` | `in-memory`    | `in-memory`<br> 🔜`json` |
+| Services                                                      | `default`   | `default`      | `default`       |
+| Licensing                                                     | `online`    | `online`       | `online`        |
 
 🔜 - Feature planed for future release.
 
 ## Pro Pack
-| Features                    | Enterprise      | ISV             | ISV-U            |
-|-----------------------------|-----------------|-----------------|------------------|
-| Pricing `$ USD`             | `$ 219 / Month`<br>`$ 2309 / Year` | `$ 619 / Month`<br>`$ 6609 / Year` | `$ 1219 / Month`<br>`$ 13109 / Year` |
-| Terminals or Console Apps   | 10              | 25              | UNLIMITED        |
-| Redistribution              | **5000**        | **10000**       | **UNLIMITED**    |
-| Root commands               | 3               | 5               | 10               |
-| Grouped commands            | 50              | 100             | UNLIMITED        |
-| Sub-commands                | 500             | 1000            | UNLIMITED        |
-| Arguments, options or flags | 5000            | 10000           | UNLIMITED        |
-| Argument alias              | Yes             | Yes             | Yes              |
-| Default argument and value  | Yes             | Yes             | Yes              |
-| Strict data type            | Yes             | Yes             | Yes              |
-| Unicode                     | Yes             | Yes             | Yes              |
-| Error handling              | `standard`<br>`custom` | `standard`<br>`custom` | `standard`<br>`custom` |
-| Stores                      | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` |
-| Routing and extraction      | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` | `standard`<br>🔜 `custom` |
-| License Check               | `online`<br>🔜 `offline` | `online`<br>🔜 `offline`<br>🔜 `byol` | `online`<br>🔜 `offline`<br>🔜 `byol` |
+| Features                                                  | Enterprise      | ISV             | ISV-U            |
+|-----------------------------------------------------------|-----------------|-----------------|------------------|
+| **Pricing** `$ USD`                                       | `$ 219 / Month`<br>`$ 2309 / Year` | `$ 619 / Month`<br>`$ 6609 / Year` | `$ 1219 / Month`<br>`$ 13109 / Year` |
+| **Terminals or Console Apps**                             | 5               | 25              | UNLIMITED        |
+| :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down: |                 |                 |                  |
+| Redistribution                                            | **5000**        | **10000**       | **UNLIMITED**    |
+| Root commands                                             | 3               | 5               | UNLIMITED        |
+| Grouped commands                                          | 20              | 50              | UNLIMITED        |
+| Sub-commands                                              | 100             | 250             | UNLIMITED        |
+| Arguments, options or flags                               | 2000            | 5000            | UNLIMITED        |
+| Argument alias                                            | Yes             | Yes             | Yes              |
+| Default argument and value                                | Yes             | Yes             | Yes              |
+| Strict data type                                          | Yes             | Yes             | Yes              |
+| Data type handlers                                        | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
+| Unicode handlers                                          | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
+| Error handlers                                            | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
+| Stores                                                    | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` |
+| Services                                                  | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜 `custom` |
+| Licensing                                                 | `online`<br>🔜`offline` | `online`<br>🔜`offline`<br>🔜`byol` | `online`<br>🔜`offline`<br>🔜`byol` |
 
 🔜 - Feature planed for future release.

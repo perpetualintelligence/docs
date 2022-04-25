@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: windows-latest
     timeout-minutes: 20
-    environment: github-release
+    #environment: github-release
     env:
       PI_CI_REFERENCE: cross
 

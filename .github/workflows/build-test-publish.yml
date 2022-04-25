@@ -69,7 +69,7 @@ jobs:
       # Install chocolatey for PDF generation
       - name: Install wkhtmltopdf
         run: |
-          choco install wkhtmltopdf
+          choco install wkhtmltopdf --no-progress
         
       # Docfx build
       # 1. Install docfx via Nuget

@@ -65,7 +65,7 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 |-----------------------------|-----------------|-----------------|------------------|
 | Pricing `$ USD`             | `$ 219 / Month`<br>`$ 2309 / Year` | `$ 619 / Month`<br>`$ 6609 / Year` | `$ 1219 / Month`<br>`$ 13109 / Year` |
 | Terminals or Console Apps   | 10              | 25              | UNLIMITED        |
-| Redistribution              | 5000            | 10000           | UNLIMITED        |
+| Redistribution              | **5000**        | **10000**       | **UNLIMITED**    |
 | Root commands               | 3               | 5               | 10               |
 | Grouped commands            | 50              | 100             | UNLIMITED        |
 | Sub-commands                | 500             | 1000            | UNLIMITED        |

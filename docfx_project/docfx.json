@@ -71,6 +71,8 @@
         "disableGitFeatures": false
     },
     "pdf": {
+        // https://github.com/dotnet/docfx/pull/4719
+        "noStdin": true,
         "content": [
             {
                 "files": [

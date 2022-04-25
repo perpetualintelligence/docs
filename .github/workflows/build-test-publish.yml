@@ -67,12 +67,16 @@ jobs:
       # Restore using specified nuget.config
       - name: Restore
         run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln --configfile main/nuget.config
-
-      # Use Nuget to install docfx and then build the docfx_project
+        
+      # Docfx build
+      # 1. Install wkhtmltopdf for PDF generation
+      # 2. Install docfx via Nuget
+      # 3. Build
       - name: Docfx build
         run: |
-          nuget install docfx.console -Version 2.58.9
-          docfx.console.2.58.9/tools/docfx.exe main/docfx_project/docfx.json
+          choco install wkhtmltopdf
+          nuget install docfx.console -Version 2.59.2
+          docfx.console.2.59.2/tools/docfx.exe main/docfx_project/docfx.json
         continue-on-error: false
 
       # Push the docs/_site to the GitHub /docs dir 

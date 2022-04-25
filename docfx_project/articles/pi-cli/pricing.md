@@ -7,35 +7,24 @@
 Select a pricing plan that best suits your needs. Go to features for a detailed feature comparison based on a pricing plan.
 
 ## Community
-The community edition is free for educational, research, and non-commercial use. You must have a commercial license to use the service in a non-educational or production environment. 
+The community edition is free for educational, research, and non-commercial use. 
 
-> NO redistributions are allowed.
+> **Note:** You must have a commercial license to use the service in a non-educational or production environment. 
 
 ## Micro
 The micro edition is a commercial license for solo users or micro-businesses with up to 50 employees. 
 
-> NO redistributions are allowed.
-
 ## SMB
 The SMB edition is a commercial license for small and medium businesses with up to 500 employees.
-
-> Up to 500 redistributions are allowed
 
 ## Enterprise
 The enterprise edition is a commercial license for organizations and large businesses with more than 500 employees.
 
-> Up to 1000 redistributions are allowed.
-
 ## ISV
 The ISV (Independent Software Vendor) is a commercial enterprise license for scale and redistribution. It allows internal self-hosting, SaaS, or hosting on behalf of your customers and redistribution to a customer's on-premise or cloud infrastructure. ISV can redistribute the "pi-cli" framework as part of a standard or custom product.
 
-> Up to 10000 redistributions are allowed.
-
 ## ISV-U
 The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise license for massive scale and redistribution. It allows internal self-hosting, SaaS, or hosting on behalf of your customers and redistribution to a customer's on-premise or cloud infrastructure. ISV can redistribute the "pi-cli" framework as part of a standard or custom product.
-
-> UNLIMITED redistributions are allowed.
-
 
 # Features
 

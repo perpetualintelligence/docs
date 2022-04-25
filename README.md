@@ -4,7 +4,7 @@
 > **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
 
 ## Introduction
-This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, frameworks, tools, and protocols. We build the [documentation site](https://docs.perpetualintelligence.com) using [docfx](https://dotnet.github.io/docfx/) from this repository.
+This repository contains the conceptual documentation for Perpetual Intelligence L.L.C. managed services, frameworks, and tools. We build the [documentation site](https://docs.perpetualintelligence.com) using [docfx](https://dotnet.github.io/docfx/) from this repository.
 
 We track the [issues and tasks](https://github.com/perpetualintelligence/docs/issues) here. We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [Issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html) topic.
 
@@ -17,7 +17,7 @@ See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_
 - [github-release](https://github.com/perpetualintelligence/docs/deployments/activity_log?environment=github-release): Tracks the publish of documentation assets to [gh-pages](https://github.com/perpetualintelligence/docs/tree/gh-pages) branch
 - [github-pages](https://github.com/perpetualintelligence/docs/deployments/activity_log?environment=github-pages): Tracks the deployment of documentation assets to [docs.perpetualintelligence.com](https://docs.perpetualintelligence.com)
 
-## Build
+## Build (/build)
 
 ### workflows
 The workflows folder contains actions for generating and publishing documentation.
@@ -30,7 +30,7 @@ The build and deployment include:
 
 > The build and deployment will trigger an approval.
 
-### Scripts
+### Scripts (/build/scripts)
 Put the script files in the same directory where you have extracted the docfx tools and libraries. Ensure that this directory is in the PATH environment variable.
 
 You can now work with docfx within Visual Studio Terminal with handy commands to build(d), generate metadata(m), and start (s, ds) the documentation website on localhost.

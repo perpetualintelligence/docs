@@ -42,7 +42,7 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Argument alias                                                | NO          | NO             | Yes             |
 | Default argument and value                                    | NO          | NO             | Yes             |
 | Strict data type                                              | NO          | NO             | Yes             |
-| Data type handlers                                            | `default`   | `default`      | `default`       |
+| Data type handlers                                            | NO          | NO             | `default`       |
 | Unicode handlers                                              | `default`   | `default`      | `default`       |
 | Error handlers                                                | `default`   | `default`      | `default`       |
 | Stores                                                        | `in-memory` | `in-memory`    | `in-memory`<br> 🔜`json` |

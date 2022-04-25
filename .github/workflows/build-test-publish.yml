@@ -1,10 +1,7 @@
-#    Copyright 2021 Perpetual Intelligence L.L.C. All Rights Reserved.
+#    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
 #
-#    Licensed under the Apache License, Version 2.0.
-#    https://github.com/perpetualintelligence/terms/blob/main/LICENSE
-#
-#    Additional terms and policies.
-#    https://github.com/perpetualintelligence/terms/blob/main/policies.md
+#    For license, terms, and data policies, go to:
+#    https://terms.perpetualintelligence.com
 
 # Build the projects from multiple repos, generates the documentation and publishes static content.
 name: build-test-publish
@@ -16,8 +13,9 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
+  # chocolatey is only available on windows
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 20
     environment: github-release
     env:
@@ -61,20 +59,23 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.101'
+          dotnet-version: '6.0.202'
       
       # Restore dependencies
       # Restore using specified nuget.config
       - name: Restore
         run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln --configfile main/nuget.config
-        
-      # Docfx build
-      # 1. Install wkhtmltopdf for PDF generation
-      # 2. Install docfx via Nuget
-      # 3. Build
-      - name: Docfx build
+
+      # Install chocolatey for PDF generation
+      - name: Install wkhtmltopdf
         run: |
           choco install wkhtmltopdf
+        
+      # Docfx build
+      # 1. Install docfx via Nuget
+      # 2. Build
+      - name: Docfx build
+        run: |
           nuget install docfx.console -Version 2.59.2
           docfx.console.2.59.2/tools/docfx.exe main/docfx_project/docfx.json
         continue-on-error: false

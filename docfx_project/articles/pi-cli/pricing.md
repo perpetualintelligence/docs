@@ -67,12 +67,12 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Terminals or Console Apps   | 10              | 25              | UNLIMITED        |
 | Redistribution              | 5000            | 10000           | UNLIMITED        |
 | Root commands               | 3               | 5               | 10               |
-| Grouped commands            | 100             | 500             | UNLIMITED        |
-| Sub-commands                | 1000            | 50              | UNLIMITED        |
-| Arguments, options or flags | 10000           | 500             | UNLIMITED        |
-| Argument alias              | Yes             | NO              | Yes              |
-| Default argument and value  | Yes             | NO              | Yes              |
-| Strict data type            | Yes             | NO              | Yes              |
+| Grouped commands            | 50              | 100             | UNLIMITED        |
+| Sub-commands                | 500             | 1000            | UNLIMITED        |
+| Arguments, options or flags | 5000            | 10000           | UNLIMITED        |
+| Argument alias              | Yes             | Yes             | Yes              |
+| Default argument and value  | Yes             | Yes             | Yes              |
+| Strict data type            | Yes             | Yes             | Yes              |
 | Unicode                     | Yes             | Yes             | Yes              |
 | Error handling              | `standard`<br>`custom` | `standard`<br>`custom` | `standard`<br>`custom` |
 | Stores                      | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` | `in-memory`<br>🔜 `json`<br>🔜 `custom` |

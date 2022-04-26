@@ -27,15 +27,33 @@ Reserved for future.
 ### [StrictArgumentValueType](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.StrictArgumentValueType)
 Determines whether the checker checks an argument value type. If this option is enabled, the checker will try to map an argument value to its corresponding .NET value type. If the mapping fails, the command will not run.
 
+Example:
+```
+    pi lic gen --lic-edition community --expiry 365 --nbf "26-Apr-2022 14:36:11" --test
+```
+
+In the code example above, let's assume the command `pi lic gen` defines 4 arguments:
+- lic-edition (string)
+- expiry (int)
+- nbf (date and time)
+- test (boolean)
+
+If the strict argument value type check is enabled,  the checker will do an automatic type check and ensure that argument `lic-edition` is a string, `expiry` is an int, `nbf` is a valid date and time, and `test` is a bool. If any check fails, the command will not run.
+
+> **Note:** If this option is not enabled, the checker will allow all the argument values as strings.
+
+
 ## [ExtractorOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions)
 The command and argument checker options.
 
 ### [ArgumentAlias](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentAlias)
 Determines whether the extractor support extracting an argument by alias.
 
+Example:
 ```
-    --configuration Release 
-    -c Release
+    options.Extractor.ArgumentAlias = true;
+    dotnet build --configuration Release 
+    dotnet build -c Release
 ```
 
 Argument alias supports the apps that identify a command argument with an id and an alias string. For modern console apps, we recommend using just an argument identifier. We have optimized the core data model to work with argument id. An app should not identify the same argument with multiple strings. Using an alias will degrade the performance.
@@ -43,45 +61,63 @@ Argument alias supports the apps that identify a command argument with an id and
 ### [ArgumentAliasPrefix](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentAliasPrefix)
 The argument alias prefix if [ArgumentAlias](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentAlias) is enabled. Defaults to `-`.
 
+Example:
 ```
-    -c Release
+    dotnet build -c Release 
+
+    options.Extractor.ArgumentAliasPrefix = ":";
+    dotnet build :c Release 
 ```
 
-> **Note:** The argument alias prefix cannot be `null` or whitespace.
+> **Note:** The argument alias prefix must be a single Unicode character, and it cannot be `null` or whitespace.
 
 ### [ArgumentPrefix](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentPrefix)
 The argument prefix. Defaults to `-`.
 
+Example:
 ```
-    -configuration Release
+    dotnet build -configuration Release 
+
+    options.Extractor.ArgumentPrefix = "--";
+    dotnet build --configuration Release 
 ```
 
-> **Note:** The argument prefix cannot be `null` or whitespace.
+> **Note:** The argument prefix must be a single Unicode character, and it cannot be `null` or whitespace.
 
 ### [ArgumentValueSeparator](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentValueSeparator)
 The argument value separator. Defaults to `=`.
 
+Example:
 ```
-    -configuration=Release
-    -configuration Release
-    -configuration:Release
-    -configuration->Release
+    dotnet build -configuration=Release 
+
+    options.Extractor.ArgumentValueSeparator = " ";
+    dotnet build -configuration Release     
+
+    options.Extractor.ArgumentValueSeparator = ":";
+    dotnet build -configuration:Release     
+
+    options.Extractor.ArgumentValueSeparator = ">";
+    dotnet build -configuration>Release 
 ```
 
-> **Note:** The argument value separator can be an whitespace ` `.
+> **Note:** The argument value separator must be a single Unicode character, and it can be a single whitespace character.
 
 ### [ArgumentValueWithIn](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentValueWithIn)
 An optional token within which to extract an argument value. Default to `null`.
 
+Example:
 ```
-    -message=This is a string without quotes
+    pi print -message=This is a string without quotes
 
     options.Extractor.ArgumentValueWithIn = "\"";
-    -message="This is a string within quotes"
+    pi print -message="This is a string within quotes"
 
     options.Extractor.ArgumentValueWithIn = "~";
-    -message=~This is a string within tilda~
+    pi print -message=~This is a string within tilda~
 ```
+
+> **Note:** The optional argument within token must be a single Unicode character. If set it cannot be `null` or whitespace.
 
 ### [CommandIdRegex](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.CommandIdRegex)
 The Regex pattern for command identifier. Defaults to `^[A-Za-z0-9_-]*$`.
@@ -89,6 +125,7 @@ The Regex pattern for command identifier. Defaults to `^[A-Za-z0-9_-]*$`.
 ### [DefaultArgument](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.DefaultArgument)
 Determines whether command supports default argument.
 
+Example:
 ```
     dotnet restore -p ./projects/app1/app1.csproj
 
@@ -102,6 +139,7 @@ In the code example above, let's assume the command `dotnet restore` has a defau
 ### [DefaultArgumentValue](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.DefaultArgumentValue)
 Determines whether argument support default value.
 
+Example:
 ```
     dotnet build ./projects/app1/app1.csproj -c RELEASE
 
@@ -115,15 +153,20 @@ In the code example above, let's assume the command `dotnet build` has defined a
 ### [Separator](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.Separator)
 The command string separator. Defaults to a single whitespace ` `.
 
+Example:
 ```
     pi gen guid --short
     dotnet publish --framework netcoreapp3.1 --runtime osx.10.11-x64
     डॉटनेट पब्लिश --कॉन्फिग रिलीज --सैंपल हिंदी
 
     options.Extractor.Separator = ":";
+    options.Extractor.ArgumentValueSeparator = " ";
+    dotnet:publish:--framework netcoreapp3.1:--runtime osx.10.11-x64
     pi:gen:guid:--short
 
 ```
+
+> **Note:** The command string separator must be a single Unicode character, and it can be a whitespace character.
 
 ## [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
 

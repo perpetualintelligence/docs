@@ -21,9 +21,12 @@ The following is our roadmap for planned features and future requests.
 * [x] Provide pi-cli consumer fulfillment portal for Microsoft SaaS purchases at https://consumer.perpetualintelligence.com/
 * [ ] Provide pi-cli consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
 * [ ] Provide pi-cli consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
+* [ ] Provide licensing terms
 
 ## pi-cli
 * [x] Publish -preview packages for pi-cli on Nuget
+* [ ] Finalize the pricing :point_left:
+    * [ ] Make perpetualintelligence/cli public under licensig terms :point_left:
 * [ ] Finalyse configuration options :point_left:
 * [ ] Enumerate restricted characters for command extractions and command string
 * [ ] Reserve REGEX patterns for command and argument extraction

@@ -18,6 +18,8 @@ Our entire source code is on [GitHub](https://github.com/perpetualintelligence/c
 
 > ***See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html) and [pricing](pricing.md).***
 
+> **Note**: We are finalizing our systems, the code is scheduled to be made open source on `02-May-2022`.
+
 ## OS
 Our CICD pipeline builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
 

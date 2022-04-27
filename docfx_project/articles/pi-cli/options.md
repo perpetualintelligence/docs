@@ -217,7 +217,7 @@ The hosting and routing command string text handler. Its value can be `unicode` 
 - `unicode` handler supports Unicode command strings.
 - :soon: `ascii` handler supports ASCII command strings.
 
-> By default the value is set to `unicode`.
+> By default the value is set to `unicode`. Currently we only support `left-to-right` languages.
 
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
 The licensing configuration options. Please visit [licensing](licensing.md) to generate license keys and access your identifiers.
@@ -248,6 +248,25 @@ The license SaaS provider id or the provider tenant id. Defaults to @PerpetualIn
 The subject or a licensing context to check the license. Your subscription id or any other domain identifier usually establishes your licensing context.
 
 ## [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
+The logging configuration options.
+
+### [ObscureErrorArgumentString](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions.ObscureErrorArgumentString)
+The string used to obscure error description arguments. The default value is `****`.
+
+Example:
+```
+    // Obscure error args
+    options.Logging.ObsureErrorArguments = true;
+    options.Logging.ObscureErrorArgumentString = "####";
+    [10:49:10 error] The license is not extracted or license is not valid. Please ensure you use the CLI hosted service. service=####
+
+    options.Logging.ObsureErrorArguments = false;
+    options.Logging.ObscureErrorArgumentString = "####";
+    [10:49:10 error] The license is not extracted or license is not valid. Please ensure you use the CLI hosted service. service=PerpetualIntelligence.Cli.Integration.CliHostedService
+```
+
+### [ObsureErrorArguments](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions.ObsureErrorArguments)
+Obscures the arguments in the error description to hide the sensitive data. The default value is `true`.
 
 ## [RouterOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.RouterOptions)
 
@@ -258,8 +277,17 @@ The command router timeout in milliseconds. The default value is `25` seconds. U
 
 > **Note:** A command route starts at a request to execute the command and ends when the command run is complete or at an error.
 
+## [TerminalOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.TerminalOptions)
+
+The terminal configuration options.
+
+> Reserved for future.
+
 ## [AuthenticationOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions)
-Coming :soon:
+
+:soon: The authentication configuration options. 
+
+> Planned for next major release.
 
 # References
 - [Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)

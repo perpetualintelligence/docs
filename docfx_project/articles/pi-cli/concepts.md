@@ -55,11 +55,10 @@ You can override the following terminal lifetime methods in your application con
 ##### [RegisterHostApplicationEventsAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.RegisterHostApplicationEventsAsync(Microsoft.Extensions.Hosting.IHostApplicationLifetime))
 Allows the application to register its custom events. The default implementation registers OnStarted, OnStopping, and OnStopped events that application authors can override.
 ```
-    protected virtual Task RegisterHostApplicationEventsAsync(IHostApplicationLifetime hostApplicationLifetime)
+    protected override Task RegisterHostApplicationEventsAsync(IHostApplicationLifetime hostApplicationLifetime)
     {
-        hostApplicationLifetime.ApplicationStarted.Register(OnStarted);
-        hostApplicationLifetime.ApplicationStopping.Register(OnStopping);
-        hostApplicationLifetime.ApplicationStopped.Register(OnStopped);
+        // Your custom application event registry.
+
         return Task.CompletedTask;
     }
 ```
@@ -69,7 +68,7 @@ Allows the application to register its custom events. The default implementation
 ##### [OnStarted](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStarted)
 Triggered when the <c>pi-cli</c> application host has fully started.
 ```
-    protected virtual void OnStarted()
+    protected override void OnStarted()
     {
         Console.WriteLine("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
         Console.WriteLine();
@@ -78,7 +77,7 @@ Triggered when the <c>pi-cli</c> application host has fully started.
 ##### [OnStopping](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStopping)
 Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.
 ```
-    protected virtual void OnStopping()
+    protected override void OnStopping()
     {
         Console.WriteLine("Stopping server...");
     }
@@ -86,7 +85,7 @@ Triggered when the <c>pi-cli</c> application host is starting a graceful shutdow
 ##### [OnStopped](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.OnStopped)
 Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.
 ```
-    protected virtual void OnStopped()
+    protected override void OnStopped()
     {
         ConsoleHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
     }
@@ -98,15 +97,9 @@ You can override the following method to print the terminal header in your appli
 ##### [PrintHostApplicationHeaderAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.PrintHostApplicationHeaderAsync)
 Allows the host application to print the custom header.
 ```
-    protected virtual Task PrintHostApplicationHeaderAsync()
+    protected override Task PrintHostApplicationHeaderAsync()
     {
-        Console.WriteLine("---------------------------------------------------------------------------------------------");
-        Console.WriteLine("Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.");
-        Console.WriteLine("For license, terms, and data policies, go to:");
-        Console.WriteLine("https://terms.perpetualintelligence.com");
-        Console.WriteLine("---------------------------------------------------------------------------------------------");
-
-        Console.WriteLine($"Starting server \"{Protocols.Constants.CliUrn}\" version={typeof(CliHostedService).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion ?? " < none > "}");
+        Console.WriteLine("Print your CLI terminal header...");
         return Task.CompletedTask;
     }
 ```
@@ -117,21 +110,9 @@ You can override the following method to print the terminal licensing informatio
 ##### [PrintHostApplicationLicensingAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License))
 Allows host application to print custom licensing information.
 ```
-    protected virtual Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
+    protected override Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
     {
-        // Print the license information
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"consumer={license.Claims.Name} ({license.Claims.TenantId})");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"country={license.Claims.TenantCountry}");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"subject={cliOptions.Licensing.Subject}");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"check={license.CheckMode}");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"usage={license.Usage}");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Green, $"edition={license.Plan}");
-        ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_source={cliOptions.Licensing.KeySource}");
-        if (license.LicenseKeySource == SaaSKeySources.JsonFile)
-        {
-            // Don't dump the key, just the lic file path
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, $"key_file={license.LicenseKey}");
-        }
+        Console.WriteLine("Print your CLI terminal licensing info...");
         return Task.CompletedTask;
     }
 ```
@@ -163,7 +144,7 @@ You enable the pi-cli framework to any .NET, .NET Core, or .NET6+ console applic
     }
 ```
 
-Many of the fundamental CLI terminal configuration settings can be set on the options. See the [CliOptions](/articles/pi-cli/options.md) for more details. The <a href="xref:PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions?displayProperty=fullName"/> provides dependency injection extension methods to register required and optional pi-cli services.
+Many of the fundamental CLI terminal configuration settings can be set on the options. See the [CliOptions](options.md) for more details. The <a href="xref:PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions?displayProperty=fullName"/> provides dependency injection extension methods to register required and optional pi-cli services.
 
 
 

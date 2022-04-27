@@ -5,18 +5,18 @@
 # Introducing pi-cli
 `pi-cli` is the cross-platform developer framework for building all your CLI terminals or command-line systems in the .NET ecosystem. The framework makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, arguments, and options.
 
-> _**Take your app or service to the command line with Unicode support and build your front-end CLI in any language.**_
+> ***Take your app or service to the command line with Unicode support and build your CLI terminals in any language.***
 
 # Craftsmanship
 We crafted the `pi-cli` framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and `pi-cli` directly supports the .NET (traditional), .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI terminals or migrate their existing CLI apps and terminals with the modern and scalable micro-services-based architecture. 
 
-> _**In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with `pi-cli`.**_
+> ***In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with `pi-cli`.***
 
 # Getting Started
 ## Open Source
 Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
-> _**See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html) and [pricing](pricing.md) **_.
+> ***See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html) and [pricing](pricing.md).***
 
 ## OS
 Our CICD pipeline builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.

@@ -19,7 +19,7 @@ The command and argument checker options.
 ### [AllowObsoleteArgument](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.AllowObsoleteArgument)
 Determines whether the checker allows a command to run with an obsolete argument.
 
-The obsolete argument value check is done at runtime if a user or an application attempts to run the command and passes an obsolete argument value. This option has no effect if the command has an obsolete argument, but the user did not give its value through command execution.
+The obsolete argument value check is done at runtime only if a user or an application attempts to run the command and passes an obsolete argument value. This option has no effect if the command supports an obsolete argument, but the user did not give its value through the command string.
 
 ### [DataTypeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.DataTypeHandler)
 Reserved for future.
@@ -42,9 +42,8 @@ If the strict argument value type check is enabled,  the checker will do an auto
 
 > **Note:** If this option is not enabled, the checker will allow all the argument values as strings.
 
-
 ## [ExtractorOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions)
-The command and argument checker options.
+The command and argument extraction options.
 
 ### [ArgumentAlias](xref:PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.ArgumentAlias)
 Determines whether the extractor support extracting an argument by alias.
@@ -170,11 +169,36 @@ Example:
 
 ## [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
 
-## [HttpOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions)
+The hosting options.
+
+### [ErrorHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.ErrorHandler)
+The hosting and routing error handler. Its value can be `default` or `custom`.
+
+The command router receives an error or exception during the command routing, extraction, checker, or execution. On error, it forwards it to the @PerpetualIntelligence.Cli.Commands.Handlers.IErrorHandler or @PerpetualIntelligence.Cli.Commands.Handlers.IExceptionHandler. The `default` implementation will print the error information in the CLI terminal. Application authors can define a custom error handler to process and publish the error as per their needs.
+
+### [Services](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.Services)
+The hosting and routing dependency injection services. Its value can be `default` or `custom`. The `custom` service implementations are for future releases.
+
+### [Stores](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.Stores)
+The command and argument store services. Its value can be `in-memory`, `json`, or `custom`. The `json` or `custom` store implementations are for future releases.
+
+### [UnicodeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.UnicodeHandler)
+The hosting and routing Unicode command string handler. Its value can be `default`.
+
+By default the `pi-cli` framework supports Unicode command strings.
 
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
 
 ## [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
+
+## [RouterOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.RouterOptions)
+
+The command router options.
+
+### [Timeout](xref:PerpetualIntelligence.Cli.Configuration.Options.RouterOptions.Timeout)
+The command router timeout in milliseconds. The default value is `25` seconds. Use @System.Threading.Timeout.Infinite for infinite timeout.
+
+> **Note:** A command route starts at a request to execute the command and ends when the command run is complete or at an error.
 
 ## [AuthenticationOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions)
 Coming :soon:

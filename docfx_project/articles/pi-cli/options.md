@@ -222,7 +222,7 @@ The hosting and routing command string text handler. Its value can be `unicode` 
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
 The licensing configuration options. Please visit [licensing](licensing.md) to generate license keys and access your identifiers.
 
-> **Note:** You will require a valid license (community or commercial) and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#test-license).
+> **Note:** You will require a valid license (community or commercial) and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#demo-license).
 
 ### [AuthorizedApplicationId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.AuthorizedApplicationId)
 The authorized application id. This is also the `auth_apps` claim from your license key.

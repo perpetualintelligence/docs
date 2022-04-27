@@ -45,9 +45,9 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Data type handlers                                            | NO          | NO             | `default`       |
 | Unicode handlers                                              | `default`   | `default`      | `default`       |
 | Error handlers                                                | `default`   | `default`      | `default`       |
-| Stores                                                        | `in-memory` | `in-memory`    | `in-memory`<br> 🔜`json` |
-| Services                                                      | `default`   | `default`      | `default`       |
-| Licensing                                                     | `online`    | `online`       | `online`        |
+| Store handlers                                                | `in-memory` | `in-memory`    | `in-memory`<br> 🔜`json` |
+| Service handlers                                              | `default`   | `default`      | `default`       |
+| License handlers                                              | `online`    | `online`       | `online`        |
 
 🔜 - Feature planed for future release.
 
@@ -68,8 +68,8 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 | Data type handlers                                        | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
 | Unicode handlers                                          | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
 | Error handlers                                            | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜`custom` |
-| Stores                                                    | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` |
-| Services                                                  | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜 `custom` |
-| Licensing                                                 | `online`<br>🔜`offline` | `online`<br>🔜`offline`<br>🔜`byol` | `online`<br>🔜`offline`<br>🔜`byol` |
+| Store handlers                                            | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` |
+| Service handlers                                          | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜 `custom` |
+| License handlers                                          | `online`<br>🔜`offline` | `online`<br>🔜`offline`<br>🔜`byol` | `online`<br>🔜`offline`<br>🔜`byol` |
 
 🔜 - Feature planed for future release.

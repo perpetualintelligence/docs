@@ -21,9 +21,6 @@ Determines whether the checker allows a command to run with an obsolete argument
 
 The obsolete argument value check is done at runtime only if a user or an application attempts to run the command and passes an obsolete argument value. This option has no effect if the command supports an obsolete argument, but the user did not give its value through the command string.
 
-### [DataTypeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.DataTypeHandler)
-Reserved for future.
-
 ### [StrictArgumentValueType](xref:PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.StrictArgumentValueType)
 Determines whether the checker checks an argument value type. If this option is enabled, the checker will try to map an argument value to its corresponding .NET value type. If the mapping fails, the command will not run.
 
@@ -167,27 +164,88 @@ Example:
 
 > **Note:** The command string separator must be a single Unicode character, and it can be a whitespace character.
 
-## [HostingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions)
+## [HandlerOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions)
 
 The hosting options.
 
-### [ErrorHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.ErrorHandler)
-The hosting and routing error handler. Its value can be `default` or `custom`.
+### [DataTypeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.DataTypeHandler)
+The data type handler. Its value can be `null`, `default` or `custom`. The `default` and `custom` are reserved for future releases.
 
-The command router receives an error or exception during the command routing, extraction, checker, or execution. On error, it forwards it to the @PerpetualIntelligence.Cli.Commands.Handlers.IErrorHandler or @PerpetualIntelligence.Cli.Commands.Handlers.IExceptionHandler. The `default` implementation will print the error information in the CLI terminal. Application authors can define a custom error handler to process and publish the error as per their needs.
+- `null` indicates no data type handler.
+- :tipping_hand_person: `default` to be defined.
+- :tipping_hand_person: `custom` to be defined.
 
-### [Services](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.Services)
-The hosting and routing dependency injection services. Its value can be `default` or `custom`. The `custom` service implementations are for future releases.
+> By default the value is set to `null`.
 
-### [Stores](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.Stores)
-The command and argument store services. Its value can be `in-memory`, `json`, or `custom`. The `json` or `custom` store implementations are for future releases.
+### [ErrorHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.ErrorHandler)
+The hosting and routing error handler. Its value can be `default` or `custom`. The command router receives an error or exception during the command routing, extraction, checker, or execution. On error, it forwards it to the @PerpetualIntelligence.Cli.Commands.Handlers.IErrorHandler or @PerpetualIntelligence.Cli.Commands.Handlers.IExceptionHandler.
 
-### [UnicodeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HostingOptions.UnicodeHandler)
-The hosting and routing Unicode command string handler. Its value can be `default`.
+- `default` handler prints the error information in the CLI terminal.
+- `custom` handler allows application authors to define a custom error handler to process and publish the error according to their needs. E.g., app authors can publish the errors to a central log or on their cloud backend for audit purposes.
 
-By default the `pi-cli` framework supports Unicode command strings.
+> By default the value is set to `default`.
+
+### [LicenseHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.LicenseHandler)
+The license handler. Its value can be `online`, `offline`, or `byol`. The `offline` or `byol` are reserved for future releases.
+
+- `online` handler checks your license key online. Your CLI terminal needs network access during startup.
+- :soon: `offline` handler checks your license key offline. Your CLI terminal does not need network access during startup.
+- :soon: `boyl` handler allows you to bring you own license certificate to check the license key. Your CLI terminal may need network access during startup.
+
+> By default the value is set to `online`.
+
+### [ServiceHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.ServiceHandler)
+The hosting and routing dependency injection services. Its value can be `default` or `custom`. The `custom` is reserved for future releases.
+
+- `default` handler provides default DI service implementations for command router, extractor, checker and runner.
+- :soon: `custom` handler allows application authors to define a custom DI services implementations.
+
+> By default the value is set to `default`.
+
+### [StoreHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.StoreHandler)
+The command and argument store handler. Its value can be `in-memory`, `json` or `custom`. The `json` or `custom` are reserved for future releases.
+
+- `in-memory` handler provides in memory command and argument descriptions.
+- :soon: `json` handler provides command and argument descriptions in a JSON file.
+- :soon: `custom` handler allows application authors to provide command and argument descriptions from a custom store such as Entity framework or cloud databases REST API.
+
+> By default the value is set to `in-memory`.
+
+### [TextHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.TextHandler)
+The hosting and routing command string text handler. Its value can be `unicode` or `ascii`. The `ascii` is reserved for future releases.
+
+- `unicode` handler supports Unicode command strings.
+- :soon: `ascii` handler supports ASCII command strings.
+
+> By default the value is set to `unicode`.
 
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
+The licensing configuration options. Please visit [licensing](licensing.md) to generate license keys and access your identifiers.
+
+> **Note:** You will require a valid license (community or commercial) and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#test-license).
+
+### [AuthorizedApplicationId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.AuthorizedApplicationId)
+The authorized application id. This is also the `auth_apps` claim from your license key.
+
+### [ConsumerTenantId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.ConsumerTenantId)
+The consumer tenant id.
+
+### [HttpClientName](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.HttpClientName)
+The HTTP client name for online licensing handler.
+
+> **Note:** The HTTP client name must match the name passed to [AddLicensingClient](xref:PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions.AddLicensingClient(PerpetualIntelligence.Cli.Integration.ICliBuilder, string, System.Timespan))
+
+### [KeySource](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.KeySource)
+The license key source. Defaults to @PerpetualIntelligence.Protocols.Licensing.SaaSKeySources.JsonFile.
+
+### [LicenseKey](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.LicenseKey)
+The license key or the file path containing license key.
+
+### [ProviderId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.ProviderId)
+The license SaaS provider id or the provider tenant id. Defaults to @PerpetualIntelligence.Protocols.Licensing.SaaSProviders.PerpetualIntelligence.
+
+### [Subject](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.Subject)
+The subject or a licensing context to check the license. Your subscription id or any other domain identifier usually establishes your licensing context.
 
 ## [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
 

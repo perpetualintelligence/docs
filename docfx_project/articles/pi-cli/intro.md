@@ -66,11 +66,7 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
 
 # Demo License
-If you want to evaluate the pi-cli framework quickly, you can use our demo license with shared limits. 
-
-We recommend creating an account to generate a license for your specific use case. Our community edition is free for educational, research and development, and non-commercial use. You do need a commercial license for a non-educational or production environment.
-
-> **Note:** Our demo license feature is under development and will be available soon. See https://github.com/perpetualintelligence/cli/issues/15 for more status.
+Use our [demo license](articles/pi-demo/intro.md) feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
 
 # Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.

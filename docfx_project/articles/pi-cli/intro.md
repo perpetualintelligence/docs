@@ -35,14 +35,14 @@ The licensed libraries can be accessed via Nuget:
 ## Build
 The [GitHub](https://github.com/perpetualintelligence/cli) repo contains all the build and release artifacts to build, test and publish the `pi-cli` source.
 
- ![build](/images/picli/framework/build.png)
+ ![build](../../images/picli/framework/build.png)
 
 ## Terminal UX
 The `pi-cli` framework does not enforce any specific terminal or console UX experience because this is always custom to the project. However, we provide you with a starting point for your terminal lifetime and UX customization.
 - [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
 
 ## Classes
-[Classes and Object browser](/api/index.html)
+[Classes and Object browser](../../api/index.md)
 
 ## Learn to Use
 With the `pi-cli` framework, you don't have to be a microservices or distributed systems expert to build a modern and scalable CLI terminal. You build and learn as you go on, and eventually, you become an expert :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). You can quickly build CLIs for simple use cases, a CLI terminal that handles authentication, or a CLI terminal that interacts with a complex distributed system via protected APIs. We believe in an agile development and agile learning. So, pick a learning model that works for you!
@@ -66,7 +66,7 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
 
 # Demo License
-Use our [demo license](articles/pi-demo/intro.md) feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
+Use our [demo license](../pi-demo/intro.md) feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
 
 # Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.

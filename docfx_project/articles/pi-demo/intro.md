@@ -12,7 +12,7 @@ You don't need an account to access or use the demo license.
 - Verify the Google - reCAPTCHA
 - Download the `Primary` or `Secondary` demo license keys
 
-![pidemo](/images/pidemo/licensing.png)
+![pidemo](../../images/pidemo/licensing.png)
 
 ## How do I use demo license ?
 You will need to configure your application by specifying the demo identifiers and primary or secondary demo license.

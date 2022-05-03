@@ -219,21 +219,22 @@ The hosting and routing command string text handler. Its value can be `unicode` 
 
 > By default the value is set to `unicode`. Currently we only support `left-to-right` languages.
 
+## [HttpOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions)
+The HTTP configuration options.
+
+### [HttpClientName](xref:PerpetualIntelligence.Cli.Configuration.Options.HttpOptions.HttpClientName)
+The logical name to create and configure @"System.Net.Http.HttpClient" instance. The framework uses @"System.Net.Http.IHttpClientFactory" and the configured name to create an instance of @System.Net.Http.HttpClient.
+
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
 The licensing configuration options. Please visit [licensing](licensing.md) to generate license keys and access your identifiers.
 
-> **Note:** You will require a valid license (community or commercial) and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#demo-license).
+> **Note:** You will require a valid community or commercial license and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#demo-license).
 
 ### [AuthorizedApplicationId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.AuthorizedApplicationId)
 The authorized application id. This is also the `auth_apps` claim from your license key.
 
 ### [ConsumerTenantId](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.ConsumerTenantId)
 The consumer tenant id.
-
-### [HttpClientName](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.HttpClientName)
-The HTTP client name for online licensing handler.
-
-> **Note:** The HTTP client name must match the name passed to [AddLicensingClient](xref:PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions.AddLicensingClient(PerpetualIntelligence.Cli.Integration.ICliBuilder, string, System.Timespan))
 
 ### [KeySource](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.KeySource)
 The license key source. Defaults to @PerpetualIntelligence.Protocols.Licensing.SaaSKeySources.JsonFile.
@@ -250,7 +251,7 @@ The subject or a licensing context to check the license. Your subscription id or
 ## [LoggingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions)
 The logging configuration options.
 
-### [ObscureErrorArgumentString](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions.ObscureErrorArgumentString)
+### [ObscureErrorArgumentString](xref:PerpetualIntelligence.Shared.Infrastructure.LoggingOptions.ObscureErrorArgumentString)
 The string used to obscure error description arguments. The default value is `****`.
 
 Example:
@@ -265,7 +266,7 @@ Example:
     [10:49:10 error] The license is not extracted or license is not valid. Please ensure you use the CLI hosted service. service=PerpetualIntelligence.Cli.Integration.CliHostedService
 ```
 
-### [ObsureErrorArguments](xref:PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions.ObsureErrorArguments)
+### [ObsureErrorArguments](xref:PerpetualIntelligence.Shared.Infrastructure.LoggingOptions.ObsureErrorArguments)
 Obscures the arguments in the error description to hide the sensitive data. The default value is `true`.
 
 ## [RouterOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.RouterOptions)

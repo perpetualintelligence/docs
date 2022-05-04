@@ -31,7 +31,7 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 ## Starters Pack
 | Features                                                  | Community     | Solo or Micro  | SMB             |
 |-----------------------------------------------------------|---------------|----------------|-----------------|
-| **Pricing** `$ USD`                                       | `$ 0`         | `$ 19 / Month`<br>`$ 199 / Year` | `$ 119 / Month`<br>`$ 1209 / Year` |
+| **Pricing** `$ USD`                                       | `$ 0`         | `$ 19 / Month`<br>`$ 199 / Year` | `$ 119 / Month`<br>`$ 1219 / Year` |
 | **Terminals or Console Apps**                             | **1**         | **1**          | **3**           |
 | :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down: |               |                |                 |
 | **Redistribution**                                        | **NO**        | **NO**         | **1000**        |
@@ -56,7 +56,7 @@ The ISV-U (Independent Software Vendor) is an unlimited commercial enterprise li
 ## Pro Pack
 | Features                                                  | Enterprise      | ISV             | ISV-U            |
 |-----------------------------------------------------------|-----------------|-----------------|------------------|
-| **Pricing** `$ USD`                                       | `$ 219 / Month`<br>`$ 2309 / Year` | `$ 619 / Month`<br>`$ 6609 / Year` | `$ 1219 / Month`<br>`$ 13109 / Year` |
+| **Pricing** `$ USD`                                       | `$ 219 / Month`<br>`$ 2319 / Year` | `$ 619 / Month`<br>`$ 6619 / Year` | `$ 1219 / Month`<br>`$ 13119 / Year` |
 | **Terminals or Console Apps**                             | 5               | 25              | UNLIMITED        |
 | :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down: |                 |                 |                  |
 | Redistribution                                            | **5000**        | **10000**       | **UNLIMITED**    |

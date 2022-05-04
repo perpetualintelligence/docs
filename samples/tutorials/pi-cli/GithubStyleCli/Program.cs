@@ -98,7 +98,7 @@ static void InitSerilog()
 {
     Activity.DefaultIdFormat = ActivityIdFormat.W3C;
 
-    Console.Title = PerpetualIntelligence.Protocols.Constants.CliUrn;
+    Console.Title = "gh cli sample";
 
     Log.Logger = new LoggerConfiguration()
         .MinimumLevel.Warning()

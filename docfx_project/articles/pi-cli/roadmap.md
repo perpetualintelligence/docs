@@ -39,7 +39,7 @@ The following is our roadmap for planned features and future requests.
 * [ ] Create test license server for quick on-boarding, [Github Issue](https://github.com/perpetualintelligence/cli/issues/15) :soon: 
 * [ ] Unitest all critical scenarios :point_left:
 * [ ] Integration test for E2E workflow :point_left:
-* [ ] Publish [samples](https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/featured_samples.md) for CLI terminals
+* [ ] Publish [samples](../samples.md) for CLI terminals
     * [ ] Github CLI :point_left:
     * [ ] .NET CLI :point_left:
     * [ ] Custom format CLI :soon:

@@ -50,7 +50,7 @@ With the `pi-cli` framework, you don't have to be a microservices or distributed
 ### I want to create my first modern CLI and learn as I go on
 - Please create an account with us at https://www.perpetualintelligence.com
 - Pick a pricing plan that works for you. Our community edition is free for educational, research, and non-commercial use. You must have a commercial license to use the service in a non-educational, commercial, or production environment.
-- Browse our code samples [here](https://docs.perpetualintelligence.com/articles/featured_samples.html), clone the [repo](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials)
+- Browse our code samples [here](../samples.md), clone the [repo](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials)
 - Set your License Key (a valid license key is required for both community and commercial licenses)
 - Build, debug make changes and learn the concepts and you go on
 - We cant wait to see the fantastic CLI terminals you build !
@@ -67,6 +67,9 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 
 # Demo License
 Use our [demo license](../pi-demo/intro.md) feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
+
+# Samples
+Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!
 
 # Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.

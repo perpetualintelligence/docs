@@ -2,7 +2,7 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace GithubStyleCliTerminal.Runners.Alias
+namespace GithubStyleCli.Runners.Alias
 {
     /// <summary>
     /// The sample <c>gh alias delete</c> command runner.

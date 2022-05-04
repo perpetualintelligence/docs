@@ -1,14 +1,14 @@
 ﻿// Note: This sample tutorial uses the minimal hosting model. See
 // https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information. To
 // use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs
-using GithubStyleCliTerminal;
+using GithubStyleCli;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Extractors;
+using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Mappers;
 using PerpetualIntelligence.Cli.Commands.Providers;
-using PerpetualIntelligence.Cli.Commands.Publishers;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Stores.InMemory;
 using PerpetualIntelligence.Protocols.Licensing;
@@ -51,29 +51,32 @@ void ConfigureServices(IServiceCollection services)
         options.Extractor.DefaultArgumentValue = true;
         options.Extractor.DefaultArgument = true;
         options.Extractor.ArgumentValueWithIn = "\"";
-        options.Extractor.ArgumentSeparator = " ";
+        options.Extractor.ArgumentValueSeparator = " ";
         options.Extractor.Separator = " ";
 
         // Checkers
-        options.Checker.StrictTypeChecking = false;
+        options.Checker.StrictArgumentValueType = false;
+
+        // Http
+        options.Http.HttpClientName = "gh-demo";
 
         // Licensing
-        options.Licensing.AuthorizedApplicationId = "<your_app_id>";
-        options.Licensing.LicenseKey = "<your_app_lic_file.json>";
-        options.Licensing.HttpClientName = "pi-cli";
-        options.Licensing.ConsumerTenantId = "<your_consumer_tenant_id>";
-        options.Licensing.Subject = "<your_subscription_id>";
+        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
+        options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location 
+        options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
+        options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
         options.Licensing.ProviderId = SaaSProviders.PerpetualIntelligence;
 
     }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
       .AddDescriptorStore<InMemoryCommandDescriptorStore>()
-      .AddErrorPublisher<ErrorPublisher, ExceptionPublisher>()
+      .AddErrorHandler<ErrorHandler, ExceptionHandler>()
       .AddStringComparer(StringComparison.Ordinal)
-      .AddLicensingClient("pi-cli", TimeSpan.FromMilliseconds(10000))
       .AddCommandDescriptors();
 
     services.AddHostedService<GhCliHostedService>();
+
+    services.AddHttpClient("gh-demo");
 }
 
 /// <summary>

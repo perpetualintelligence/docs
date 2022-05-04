@@ -10,19 +10,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-    <PackageReference Include="PerpetualIntelligence.Cli" Version="2.4.1-preview.220425741" />
+    <!--<PackageReference Include="PerpetualIntelligence.Cli" Version="2.5.1-rc.220427871" />-->
     <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="LICENSE">
-      <PackagePath>\</PackagePath>
-      <Pack>true</Pack>
-    </None>
-    <None Update="README.md">
-      <PackagePath>\</PackagePath>
-      <Pack>true</Pack>
-    </None>
+    <ProjectReference Include="..\..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj" />
   </ItemGroup>
 
+  
 </Project>

@@ -2,19 +2,19 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace GithubStyleCliTerminal.Runners.Alias
+namespace GithubStyleCli.Runners.Alias
 {
     /// <summary>
     /// The sample <c>gh issue</c> command runner.
     /// </summary>
-    public class GhIssueCreateRunner : CommandRunner
+    public class GhIssueRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhIssueCreateRunner(CliOptions options, ILogger<GhIssueCreateRunner> logger) : base(options, logger)
+        public GhIssueRunner(CliOptions options, ILogger<GhIssueRunner> logger) : base(options, logger)
         {
         }
 
@@ -27,10 +27,8 @@ namespace GithubStyleCliTerminal.Runners.Alias
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
-            Console.WriteLine("Options");
-            Console.WriteLine("repo={0}", context.Command.GetRequiredArgumentValue<string>("repo"));
-            Console.WriteLine("title={0}", context.Command.GetRequiredArgumentValue<string>("title"));
-            Console.WriteLine("body={0}", context.Command.GetRequiredArgumentValue<string>("body"));
+            Console.WriteLine("Option --repo={0}", context.Command.GetRequiredArgumentValue<string>("repo"));
+            Console.WriteLine("Option Alias -R={0}", context.Command.GetRequiredArgumentValue<string>("repo"));
             return Task.FromResult(new CommandRunnerResult());
         }
     }

@@ -4,7 +4,7 @@ using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
 
-namespace GithubStyleCliTerminal
+namespace GithubStyleCli
 {
     /// <summary>
     /// The sample <c>gh cli</c> hosted service. This class enables UX customization for the cli terminal.

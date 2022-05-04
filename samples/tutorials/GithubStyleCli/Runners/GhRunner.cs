@@ -2,19 +2,19 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace GithubStyleCliTerminal.Runners.Alias
+namespace GithubStyleCli.Runners
 {
     /// <summary>
-    /// The sample <c>gh alias set</c> command runner.
+    /// The sample <c>gh</c> command runner.
     /// </summary>
-    public class GhAliasSetRunner : CommandRunner
+    public class GhRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhAliasSetRunner(CliOptions options, ILogger<GhAliasSetRunner> logger) : base(options, logger)
+        public GhRunner(CliOptions options, ILogger<GhRunner> logger) : base(options, logger)
         {
         }
 
@@ -27,7 +27,7 @@ namespace GithubStyleCliTerminal.Runners.Alias
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
-            Console.WriteLine("The sample gh alias set command. alias={0} expand={1}", context.Command.GetRequiredArgumentValue<string>("alias"), context.Command.GetRequiredArgumentValue<string>("expand"));
+            Console.WriteLine("2.4.1-preview");
             return Task.FromResult(new CommandRunnerResult());
         }
     }

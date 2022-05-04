@@ -1,5 +1,5 @@
-﻿using GithubStyleCliTerminal.Runners;
-using GithubStyleCliTerminal.Runners.Alias;
+﻿using GithubStyleCli.Runners;
+using GithubStyleCli.Runners.Alias;
 using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Comparers;
@@ -7,7 +7,7 @@ using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
 
-namespace GithubStyleCliTerminal
+namespace GithubStyleCli
 {
     /// <summary>
     /// The sample <c>gh cli</c> command registry.

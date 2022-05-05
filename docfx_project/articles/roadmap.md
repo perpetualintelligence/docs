@@ -1,3 +1,5 @@
 # Roadmap
 
-![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+See below for our product specific roadmap.
+
+ - Go to pi-cli [roadmap](pi-cli/roadmap.md)

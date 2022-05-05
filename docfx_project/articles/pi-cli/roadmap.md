@@ -21,7 +21,8 @@ The following is our roadmap for planned features and future requests.
 * [x] Provide pi-cli consumer fulfillment portal for Microsoft SaaS purchases at https://consumer.perpetualintelligence.com/
 * [ ] Provide pi-cli consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
 * [ ] Provide pi-cli consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
-* [ ] Provide licensing terms
+* [x] Provide licensing and redistribution terms
+* [ ] Clarify the community edition and have common FAQs 
 
 ## pi-cli
 * [x] Publish -preview packages for pi-cli on Nuget

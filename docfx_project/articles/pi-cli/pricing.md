@@ -1,8 +1,4 @@
-﻿![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
-
-> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
-
-# Pricing Plans
+﻿# Pricing Plans
 
 Select a pricing plan that best suits your needs. Go to features for a detailed feature comparison based on a pricing plan.
 

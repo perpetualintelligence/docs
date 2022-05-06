@@ -27,11 +27,7 @@ public static ICliBuilder AddCli(this IServiceCollection services, IConfiguratio
 public static ICliBuilder AddCli(this IServiceCollection services, Action<CliOptions> setupAction)
 ```
 
-
-
-> **Note**: Please do not add any core services below explicitly, instead use `AddCli`.
-
-### AddCliOptions
+#### AddCliOptions
 
 Adds the configuration options to the DI service collection.
 
@@ -39,7 +35,7 @@ Adds the configuration options to the DI service collection.
 public static ICliBuilder AddCliOptions(this ICliBuilder builder)
 ```
 
-### AddRouter<TRouter, THandler>
+#### AddRouter<TRouter, THandler>
 
 Adds the command router and handler to the DI service collection.
 
@@ -48,13 +44,15 @@ public static ICliBuilder AddRouter<TRouter, THandler>(this ICliBuilder builder)
     where TRouter : class, ICommandRouter where THandler : class, ICommandHandler
 ```
 
-### AddLicensing
+#### AddLicensing
 
 Adds the license extractor and checker to the DI service collection.
 
 ```
 public static ICliBuilder AddLicensing(this ICliBuilder builder)
 ```
+
+> **Note**: Application authors should not explicitly use any core services above; instead, use `AddCli`.
 
 ## Extraction
 Involves extracting commands and arguments from the command string.

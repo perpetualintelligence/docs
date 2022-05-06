@@ -1,8 +1,4 @@
-﻿![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
-
-> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
-
-# [CliOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CliOptions)
+﻿# [CliOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.CliOptions)
 The pi-cli framework uses the options pattern to provide strongly typed access to groups of related settings. When configuration settings are isolated by scenario into separate classes, the host CLI terminal adheres to two crucial software engineering principles:
 
 - [Interface Segregation Principle (ISP) or Encapsulation](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#encapsulation): Scenarios (classes) that depend on configuration settings depend only on the configuration settings that they use.

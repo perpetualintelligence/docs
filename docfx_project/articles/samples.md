@@ -3,6 +3,8 @@
 ## pi-cli
 Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!
 
+### Technology
+
 | Brand                                     | Tutorial                                                                                                          | Description                                                                                                         |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | ![github](../images/brands/github_64.png) | [GithubStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli/GithubStyleCli) | Learn to build modern CLI terminals similar to [Github CLI](https://cli.github.com/)                                |

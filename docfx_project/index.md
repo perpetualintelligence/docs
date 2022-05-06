@@ -1,19 +1,20 @@
-> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
+# Welcome
+This website contains the conceptual documentation for [Perpetual Intelligence L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. We build this documentation site using docfx from our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
-## Introduction
-Learn to use [Perpetual Intelligence's](https://perpetualintelligence.com/) framework for building command-line systems or interface (CLI) in the .NET ecosystem (C#, F#, Visual Basic). Create CLIs with a few flags or advanced CLIs with organization commands, command groups, and subcommands. "pi-cli" makes it easy to build CLIs for your company, service, or development and testing needs. Browse class reference, sample code, tutorials, and more.
+We track the issues and tasks [here](https://github.com/perpetualintelligence/docs/issues). We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html) topic.
 
-## Enter "pi-cli"
-[pi-cli](articles/pi-cli/intro.md) is cross-platform CLI framework for companies, services, developers and customers for building enterprise grade cli applications.
+We welcome contributions to help us improve and complete the docs.
 
-## Navigation
+This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
+
+# Navigation
 This documentation website has two main sections:
 1. [Articles](articles/intro.md): The conceptual documentation for all our framework, tools, and services
-2. [Classes](api/index.md): The .NET core classes for applications on any platform using C#, F#, and Visual Basic
+2. [Classes](api/index.md): The .NET classes for applications on any platform using C#, F#, and Visual Basic
 
-## Contact Us
+# Contact Us
 Submit issues and feature requests on [Github](https://github.com/perpetualintelligence).
 
-## Terms
+# Terms
 Visit our [terms website](https://terms.perpetualintelligence.com/) for terms of use, licensing terms, privacy and data policies.
 

@@ -14,13 +14,10 @@ namespace GithubStyleCli
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
-        /// <param name="host">The host.</param>
-        /// <param name="hostApplicationLifetime">The host application lifetime service.</param>
-        /// <param name="licenseExtractor">The license extractor.</param>
-        /// <param name="licenseChecker">The license checker.</param>
+        /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public GhCliHostedService(IHost host, IHostApplicationLifetime hostApplicationLifetime, ILicenseExtractor licenseExtractor, ILicenseChecker licenseChecker, CliOptions cliOptions, ILogger<CliHostedService> logger) : base(host, hostApplicationLifetime, licenseExtractor, licenseChecker, cliOptions, logger)
+        public GhCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<CliHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 

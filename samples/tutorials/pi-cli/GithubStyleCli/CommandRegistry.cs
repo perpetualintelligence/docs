@@ -2,7 +2,7 @@
 using GithubStyleCli.Runners.Alias;
 using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Comparers;
+using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
@@ -21,9 +21,11 @@ namespace GithubStyleCli
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // Todo: We have to use StringComparisonComparer multiple times. For now, app authors need to make sure the
-            // StringComparisonComparer and AddStringComparer instances are the same.
-            StringComparisonComparer stringComparison = new StringComparisonComparer(StringComparison.Ordinal);
+            // TODO:
+            // - We have to use UnicodeTextHandler multiple times.
+            // - For now, app authors need to make sure the StringComparisonComparer and AddTextHandler instances are
+            //   the same.
+            UnicodeTextHandler unicodeTextHandler = new UnicodeTextHandler();
 
             // gh
             {
@@ -32,7 +34,7 @@ namespace GithubStyleCli
                     "gh",
                     "gh",
                     "Sample description to work seamlessly with GitHub from the command line.",
-                    new ArgumentDescriptors(stringComparison, new[]
+                    new ArgumentDescriptors(unicodeTextHandler, new[]
                     {
                         new ArgumentDescriptor("version", nameof(Boolean), false, "Show gh version") { Alias = "v" }
                     })
@@ -57,7 +59,7 @@ namespace GithubStyleCli
                     "delete",
                     "gh alias delete",
                     "Sample description for delete an alias.",
-                    new ArgumentDescriptors(stringComparison, new[]
+                    new ArgumentDescriptors(unicodeTextHandler, new[]
                     {
                         new ArgumentDescriptor("alias", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias to delete")
                     }),
@@ -80,7 +82,7 @@ namespace GithubStyleCli
                     "set",
                     "gh alias set",
                     "Sample description to set the alias.",
-                 new ArgumentDescriptors(stringComparison, new[]
+                 new ArgumentDescriptors(unicodeTextHandler, new[]
                     {
                         new ArgumentDescriptor("alias", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias to set"),
                         new ArgumentDescriptor("expand", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias expansion may specify additional arguments and flags")
@@ -98,13 +100,12 @@ namespace GithubStyleCli
                     "issue",
                     "gh issue",
                     "Sample command to work with GitHub issues.",
-                    new ArgumentDescriptors(stringComparison, new[]
+                    new ArgumentDescriptors(unicodeTextHandler, new[]
                     {
                         new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
                     })
                 );
                 builder.AddDescriptor<GhIssueRunner, CommandChecker>(issue);
-
 
                 // gh issue create
                 CommandDescriptor create = new(
@@ -112,7 +113,7 @@ namespace GithubStyleCli
                     "create",
                     "gh issue create",
                     "Sample command to create GitHub issue.",
-                    new ArgumentDescriptors(stringComparison, new[]
+                    new ArgumentDescriptors(unicodeTextHandler, new[]
                     {
                         new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
                         new ArgumentDescriptor("assignee", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "a"},

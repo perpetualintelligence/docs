@@ -71,7 +71,7 @@ void ConfigureServices(IServiceCollection services)
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
       .AddDescriptorStore<InMemoryCommandDescriptorStore>()
       .AddErrorHandler<ErrorHandler, ExceptionHandler>()
-      .AddStringComparer(StringComparison.Ordinal)
+      .AddTextHandler<UnicodeTextHandler>()
       .AddCommandDescriptors();
 
     services.AddHostedService<GhCliHostedService>();

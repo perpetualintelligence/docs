@@ -117,6 +117,22 @@ Allows host application to print custom licensing information.
     }
 ```
 
+#### Terminal Options
+You can override the following method to perform the terminal configuration options checks.
+
+##### [CheckHostApplicationConfigurationAsync](xref:PerpetualIntelligence.Cli.Integration.CliHostedService.CheckHostApplicationConfigurationAsync(PerpetualIntelligence.Cli.Configuration.Options.CliOptions))
+Allows the host application to perform additional configuration option checks.
+```
+    protected override Task CheckHostApplicationConfigurationAsync(PerpetualIntelligence.Cli.Configuration.Options.CliOptions options)
+    {
+        // Perform your custom checks here
+        return Task.CompletedTask;
+    }
+```
+
+> **Note:** The `pi-cli` framework performs certain mandatory configuration option checks. Applications cannot customize or change the mandatory configuration option checks, but they can perform additional configuration checks as shown above. For more information see [restrictions](restrictions.md).
+
+
 ### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)
 You enable the pi-cli framework to any .NET, .NET Core, or .NET6+ console application by adding the relevant services to the [dependency injection (DI)](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) system.
 
@@ -144,7 +160,9 @@ You enable the pi-cli framework to any .NET, .NET Core, or .NET6+ console applic
     }
 ```
 
-Many of the fundamental CLI terminal configuration settings can be set on the options. See the [CliOptions](options.md) for more details. The <a href="xref:PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions?displayProperty=fullName"/> provides dependency injection extension methods to register required and optional pi-cli services.
+Many of the fundamental CLI terminal configuration settings can be set on the options. The @"PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions" provides dependency injection extension methods to register required and optional services. For more information see the following:
+- [Configuration options](options.md)
+- [DI Services](services.md)
 
 
 

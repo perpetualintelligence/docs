@@ -8,9 +8,14 @@ The following classes provide extension methods to register the host application
 - @PerpetualIntelligence.Cli.Integration.ICliBuilder
 - @PerpetualIntelligence.Cli.Configuration.Options.CliOptions
 
+We have grouped the extension methods based on the feature they support.
 
-## Initializer
-@PerpetualIntelligence.Cli.Extensions.IServiceCollectionExtensions provide extension methods that return a @PerpetualIntelligence.Cli.Integration.ICliBuilder object which in turn provides extension methods to add `pi-cli` specific services to the host application.
+## Core
+Involves defining and registering the core CLI infrastructure and services.
+
+### AddCli
+
+Adds the core services to the DI service collection. @PerpetualIntelligence.Cli.Extensions.IServiceCollectionExtensions provide extension methods that return a @PerpetualIntelligence.Cli.Integration.ICliBuilder object which in turn provides extension methods to add `pi-cli` specific services to the host application.
 
 ```
 public static ICliBuilder AddCli(this IServiceCollection services)
@@ -22,8 +27,7 @@ public static ICliBuilder AddCli(this IServiceCollection services, IConfiguratio
 public static ICliBuilder AddCli(this IServiceCollection services, Action<CliOptions> setupAction)
 ```
 
-## Core
-The `AddCli` extension method adds the core services to host application.
+
 
 > **Note**: Please do not add any core services below explicitly, instead use `AddCli`.
 

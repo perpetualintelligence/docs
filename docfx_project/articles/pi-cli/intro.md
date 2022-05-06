@@ -1,7 +1,3 @@
-![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
-
-> **Note:** This is a ***preview*** release. It is also subject to design changes without any advance notice.
-
 # Introducing pi-cli
 `pi-cli` is the most flexible cross-platform framework for building modern CLI terminals. The framework makes it easy to build CLIs for your company, product, service, SaaS, or development and testing needs. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, arguments, and options.
 
@@ -18,14 +14,12 @@ Our entire source code is on [GitHub](https://github.com/perpetualintelligence/c
 
 > ***See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html) and [pricing](pricing.md).***
 
-> **Note**: We are finalizing our systems, the code is scheduled to be made open source on `15-May-2022`.
-
 ## OS
 Our CICD pipeline builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
 
-![macOS](https://img.shields.io/badge/macos-11-blue?style=flat-square&logo=macos)
-![ubuntu](https://img.shields.io/badge/linux-ubuntu--20.04-blue?style=flat-square&logo=ubuntu)
-![windows](https://img.shields.io/badge/windows-2022-blue?style=flat-square&logo=windows)
+![macOS](https://img.shields.io/badge/macOS-grey?style=flat-square&logo=macos)
+![ubuntu](https://img.shields.io/badge/ubuntu-grey?style=flat-square&logo=ubuntu)
+![windows](https://img.shields.io/badge/windows-grey?style=flat-square&logo=windows)
 
 ## Packaging
 The licensed libraries can be accessed via Nuget:
@@ -49,8 +43,8 @@ With the `pi-cli` framework, you don't have to be a microservices or distributed
 
 ### I want to create my first modern CLI and learn as I go on
 - Please create an account with us at https://www.perpetualintelligence.com
-- Pick a pricing plan that works for you. Our community edition is free for educational, research, and non-commercial use. You must have a commercial license to use the service in a non-educational, commercial, or production environment.
-- Browse our code samples [here](../samples.md), clone the [repo](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli)
+- Pick a pricing plan that works for you. Our community edition is free for educational, research, and non-commercial use. You must have a commercial license to use the `pi-cli` framework in a non-educational, or production environment
+- Browse our code samples [here](../samples.md)
 - Set your License Key (a valid license key is required for both community and commercial licenses)
 - Build, debug make changes and learn the concepts and you go on
 - We cant wait to see the fantastic CLI terminals you build !

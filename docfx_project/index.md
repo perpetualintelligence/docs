@@ -13,7 +13,7 @@ This documentation website has two main sections:
 2. [Classes](api/index.md): The .NET classes for applications on any platform using C#, F#, and Visual Basic
 
 # Contact Us
-Submit issues and feature requests on [Github](https://github.com/perpetualintelligence).
+Submit issues and feature requests on [Github](https://github.com/perpetualintelligence/docs/issues).
 
 # Terms
 Visit our [terms website](https://terms.perpetualintelligence.com/) for terms of use, licensing terms, privacy and data policies.

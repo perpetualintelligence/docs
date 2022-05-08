@@ -15,4 +15,4 @@ Learn to use the `pi-cli` framework by exploring our working samples on [Github]
 | ![pi](../../../docfx_project/images/brands/pi_64.png)         | [CustomStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli/CustomStyleCli) | Learn to build CLI terminals with your custom style.                                                                |
 
 ## Branding
-[Contact us](https://www.perpetualintelligence.com/branding) to list your brand with CLI sample terminal with us.
+[Contact us](https://www.perpetualintelligence.com/products/pibranding) to list your brand with CLI sample terminal with us.

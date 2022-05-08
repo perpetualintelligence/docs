@@ -7,3 +7,6 @@ We track the [issues and tasks](https://github.com/perpetualintelligence/docs/is
 
 This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community.
 See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
+
+# Samples
+This repository's code samples and tutorials are [here](samples/tutorials/pi-cli). To access and test the samples, you need a [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html).

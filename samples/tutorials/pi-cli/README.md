@@ -1,6 +1,6 @@
 ![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
 
-# Samples
+# Tutorials
 
 ## pi-cli
 Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!

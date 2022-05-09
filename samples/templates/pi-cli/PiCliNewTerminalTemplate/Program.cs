@@ -2,9 +2,9 @@
 // - This sample template uses the new .NET 6 minimal hosting model. See https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information.
 // - To use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs or refer to .NET3.1 sample template
 
-using GithubStyleCli;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Extractors;
 using PerpetualIntelligence.Cli.Commands.Handlers;
@@ -13,21 +13,14 @@ using PerpetualIntelligence.Cli.Commands.Providers;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Stores.InMemory;
 using PerpetualIntelligence.Protocols.Licensing;
-using Serilog;
-using Serilog.Events;
-using Serilog.Sinks.SystemConsole.Themes;
-using System.Diagnostics;
+using PiCliNewTerminalTemplate;
+using PiCliNewTerminalTemplate.Runners.MyOrg.Gen.Id;
 
-// Init Serilog
-InitSerilog();
-
-// Allows cancellation for the
-// <c>pi-cli</c>
-// terminal.
+// Allows cancellation for the terminal.
 CancellationTokenSource cancellationTokenSource = new();
 
 // Setup the host builder.
-IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices).UseSerilog();
+IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 
 // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
@@ -40,6 +33,8 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
+    Console.Title = "pi-cli demo";
+
     services.AddCli(options =>
     {
         // Error info
@@ -59,7 +54,7 @@ void ConfigureServices(IServiceCollection services)
         options.Checker.StrictArgumentValueType = true;
 
         // Http
-        options.Http.HttpClientName = "gh-demo";
+        options.Http.HttpClientName = "pi-demo";
 
         // Licensing
         options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
@@ -74,38 +69,35 @@ void ConfigureServices(IServiceCollection services)
       .AddTextHandler<UnicodeTextHandler>()
       .AddCommandDescriptors();
 
-    services.AddHostedService<GhCliHostedService>();
+    // Add the pi-cli hosted serce for terminal customization
+    services.AddHostedService<MyOrgHostedService>();
 
-    services.AddHttpClient("gh-demo");
+    // Add the HTTP client factory to perform license checks
+    services.AddHttpClient("pi-demo");
+
+    // Add custom DI services
+    services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();
 }
 
 /// <summary>
 /// Creates a host builder.
 /// </summary>
 /// <param name="args">Arguments.</param>
-/// <param name="configureDelegate"></param>
+/// <param name="configurePiCli"></param>
 /// <returns></returns>
-static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureDelegate)
+static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configurePiCli)
 {
-    return Host.CreateDefaultBuilder(args).ConfigureServices(configureDelegate);
-}
+    return Host.CreateDefaultBuilder(args)
 
-/// <summary>
-/// Initialize a Serilog logger.
-/// </summary>
-static void InitSerilog()
-{
-    Activity.DefaultIdFormat = ActivityIdFormat.W3C;
+        // Configure the pi-cli framework
+        .ConfigureServices(configurePiCli)
 
-    Console.Title = "gh cli sample";
-
-    Log.Logger = new LoggerConfiguration()
-        .MinimumLevel.Warning()
-        .MinimumLevel.Override("Microsoft", LogEventLevel.Error)
-        .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Error)
-        .MinimumLevel.Override("System", LogEventLevel.Error)
-        .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Error)
-        .Enrich.FromLogContext()
-        .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:w5}] {Message:lj}{NewLine}{Exception}", theme: AnsiConsoleTheme.Code)
-        .CreateLogger();
+        // Configure terminal logging based on your application need.
+        .ConfigureLogging(logging =>
+        {
+            logging.AddFilter("System", LogLevel.Error);
+            logging.AddFilter("Microsoft", LogLevel.Error);
+            logging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Error);
+            logging.AddFilter("Microsoft.AspNetCore.Authentication", LogLevel.Error);
+        });
 }

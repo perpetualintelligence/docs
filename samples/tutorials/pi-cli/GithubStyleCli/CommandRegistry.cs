@@ -22,9 +22,7 @@ namespace GithubStyleCli
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
             // TODO:
-            // - We have to use UnicodeTextHandler multiple times.
-            // - For now, app authors need to make sure the StringComparisonComparer and AddTextHandler instances are
-            //   the same.
+            // - For now, app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
             UnicodeTextHandler unicodeTextHandler = new UnicodeTextHandler();
 
             // gh
@@ -141,7 +139,7 @@ namespace GithubStyleCli
             CommandDescriptor run = new("gh-cli-run", "run", "run", "Runs an OS command.");
             builder.AddDescriptor<RunRunner, CommandChecker>(run);
 
-            // lic
+            // Show licensing information
             {
                 // Show licensing details.
                 CommandDescriptor licInfo = new("gh-cli-lic", "lic", "lic info", "Displays the licensing information.");

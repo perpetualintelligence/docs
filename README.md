@@ -9,4 +9,4 @@ This project has adopted the code of conduct defined by the Contributor Covenant
 See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
 
 # Samples
-This repository's code samples and tutorials are [here](samples/tutorials/pi-cli). To access and test the samples, you need a valid license. For quick onboarding and evaluation, you can use our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html).
+This repository also contains [sample tutorials](samples/tutorials/pi-cli) and [starter templates]((samples/templates/pi-cli)). To access and test the code samples, you need a valid license. For quick onboarding and evaluation, you can use our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html).

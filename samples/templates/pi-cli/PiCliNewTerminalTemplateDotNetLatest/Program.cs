@@ -13,8 +13,8 @@ using PerpetualIntelligence.Cli.Commands.Providers;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Stores.InMemory;
 using PerpetualIntelligence.Protocols.Licensing;
-using PiCliNewTerminalTemplate;
-using PiCliNewTerminalTemplate.Runners.MyOrg.Gen.Id;
+using PiCliNewTerminalTemplateDotNetLatest;
+using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id;
 
 // Allows cancellation for the terminal.
 CancellationTokenSource cancellationTokenSource = new();

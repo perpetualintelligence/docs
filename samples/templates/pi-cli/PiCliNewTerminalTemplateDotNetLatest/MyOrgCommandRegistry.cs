@@ -4,11 +4,11 @@ using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
-using PiCliNewTerminalTemplate.Runners.MyOrg;
-using PiCliNewTerminalTemplate.Runners.MyOrg.Gen;
-using PiCliNewTerminalTemplate.Runners.MyOrg.Gen.Id;
+using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg;
+using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen;
+using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id;
 
-namespace PiCliNewTerminalTemplate
+namespace PiCliNewTerminalTemplateDotNetLatest
 {
     /// <summary>
     /// The sample command registry. The terminal authors can use this as an example to register all the command and

@@ -5,7 +5,7 @@ using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
 using PerpetualIntelligence.Cli.Services;
 
-namespace PiCliNewTerminalTemplate
+namespace PiCliNewTerminalTemplateDotNetLatest
 {
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.

@@ -1,4 +1,4 @@
-﻿namespace PiCliNewTerminalTemplate.Runners.MyOrg.Gen.Id
+﻿namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The sample id generator service to demonstrate the custom DI injection for CLI terminal.

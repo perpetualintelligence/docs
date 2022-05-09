@@ -2,7 +2,7 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace PiCliNewTerminalTemplate.Runners.MyOrg
+namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg
 {
     /// <summary>
     /// The <c>myorg</c> command runner.

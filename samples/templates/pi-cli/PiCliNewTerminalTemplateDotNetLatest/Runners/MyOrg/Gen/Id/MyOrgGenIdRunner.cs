@@ -3,7 +3,7 @@ using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Shared.Exceptions;
 
-namespace PiCliNewTerminalTemplate.Runners.MyOrg.Gen.Id
+namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The <c>myorg gen id</c> command runner.

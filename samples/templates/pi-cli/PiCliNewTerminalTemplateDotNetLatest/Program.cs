@@ -33,7 +33,7 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
-    Console.Title = "pi-cli demo";
+    Console.Title = "pi-cli demo  (.NET 6)";
 
     services.AddCli(options =>
     {

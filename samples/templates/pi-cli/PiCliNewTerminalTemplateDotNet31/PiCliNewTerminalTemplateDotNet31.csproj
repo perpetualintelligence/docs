@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PerpetualIntelligence.Cli" Version="2.6.1-rc.2205061291" />
+    <!--<PackageReference Include="PerpetualIntelligence.Cli" Version="2.6.1-rc.2205061291" />-->
   </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    </ItemGroup>
 
 </Project>

@@ -111,11 +111,11 @@ public static ICliBuilder AddTextHandler<TTextHandler>(this ICliBuilder builder)
 ## Store
 Involves storing and retrieving the command descriptors.
 
-### AddDescriptorStore<TStore>
+### AddStoreHandler<TStore>
 
-Adds the command descriptor store to the DI service collection. 
+Adds the store handler to the DI service collection. 
 
 ```
-public static ICliBuilder AddDescriptorStore<TStore>(this ICliBuilder builder)
-    where TStore : class, ICommandDescriptorStore
+public static ICliBuilder AddStoreHandler<TStore>(this ICliBuilder builder)
+    where TStore : class, ICommandStoreHandler
 ```

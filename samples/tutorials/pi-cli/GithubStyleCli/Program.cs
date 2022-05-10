@@ -69,7 +69,7 @@ void ConfigureServices(IServiceCollection services)
         options.Licensing.ProviderId = SaaSProviders.PerpetualIntelligence;
     }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
-      .AddDescriptorStore<InMemoryCommandDescriptorStore>()
+      .AddStoreHandler<InMemoryCommandStore>()
       .AddErrorHandler<ErrorHandler, ExceptionHandler>()
       .AddTextHandler<UnicodeTextHandler>()
       .AddCommandDescriptors();

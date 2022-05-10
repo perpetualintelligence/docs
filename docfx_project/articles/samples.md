@@ -15,6 +15,7 @@ Learn to use the `pi-cli` framework by exploring our working samples on [Github]
 ## Branding
 [Contact us](https://www.perpetualintelligence.com/products/pibranding) to list your brand with CLI sample terminal with us.
 
-
+## Support
+Feel free to open a new [feature request](https://github.com/perpetualintelligence/docs/issues) if you would like to see more samples for your use cases.
 
 

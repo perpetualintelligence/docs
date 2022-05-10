@@ -43,7 +43,7 @@ The <a href="xref:PerpetualIntelligence.Cli.Commands.Argument?displayProperty=fu
 The <a href="xref:PerpetualIntelligence.Cli.Integration?displayProperty=fullName"/> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for [dependency injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) and hosts a service to manage terminal lifetime and customization.
 
 ### [CliHostedService](xref:PerpetualIntelligence.Cli.Integration.CliHostedService)
-The <a href="xref:PerpetualIntelligence.Cli.Integration.CliHostedService?displayProperty=fullName"/> is a hosted service that manages application lifetime, performs licensing checks, and enables terminal UX customization.
+The <a href="xref:PerpetualIntelligence.Cli.Integration.CliHostedService?displayProperty=fullName"/> is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
 
 #### Terminal Lifetime
 You can override the following terminal lifetime methods in your application context.

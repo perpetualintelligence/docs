@@ -54,7 +54,7 @@ namespace PiCliNewTerminalTemplateDotNet31
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
             }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
               .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
-              .AddDescriptorStore<InMemoryCommandDescriptorStore>()
+              .AddStoreHandler<InMemoryCommandStore>()
               .AddErrorHandler<ErrorHandler, ExceptionHandler>()
               .AddTextHandler<UnicodeTextHandler>()
               .AddCommandDescriptors();

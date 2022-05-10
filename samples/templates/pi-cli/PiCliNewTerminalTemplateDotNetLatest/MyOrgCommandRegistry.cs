@@ -11,9 +11,9 @@ using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id;
 namespace PiCliNewTerminalTemplateDotNetLatest
 {
     /// <summary>
-    /// The sample command registry. The terminal authors can use this as an example to register all the command and
-    /// argument descriptors. This class can be easily unit tested natively with MSTest, xUnit, or any other test
-    /// framework. You register a command checker and a command runner type for each command.
+    /// The sample command registry. The template contains this file to register all the commands
+    /// and argument descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test
+    /// frameworks. You can register a custom command checker and a command runner type for each command.
     /// </summary>
     public static class MyOrgCommandRegistry
     {

@@ -1,4 +1,11 @@
-﻿using Microsoft.Extensions.Logging;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com
+*/
+
+using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Shared.Exceptions;
@@ -20,8 +27,6 @@ namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
         public MyOrgGenIdRunner(IIdGeneratorSampleService idGeneratorSampleService, CliOptions options, ILogger<MyOrgGenRunner> logger) : base(options, logger)
         {
             this.idGeneratorSampleService = idGeneratorSampleService;
-            this.options = options;
-            this.logger = logger;
         }
 
         /// <summary>
@@ -51,7 +56,5 @@ namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
         }
 
         private readonly IIdGeneratorSampleService idGeneratorSampleService;
-        private readonly ILogger<MyOrgGenRunner> logger;
-        private readonly CliOptions options;
     }
 }

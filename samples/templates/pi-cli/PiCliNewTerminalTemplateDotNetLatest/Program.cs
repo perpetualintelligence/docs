@@ -61,7 +61,7 @@ void ConfigureServices(IServiceCollection services)
         options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
         options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
         options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
-        options.Licensing.ProviderId = SaaSProviders.PerpetualIntelligence;
+        options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
     }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
       .AddDescriptorStore<InMemoryCommandDescriptorStore>()

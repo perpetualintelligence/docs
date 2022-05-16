@@ -11,15 +11,14 @@ You can directly use the [app source link](https://appsource.microsoft.com/en-us
 
 ### Purchase the offer
 You can start free with our `Community` edition for educational, test, and evaluation purposes. For non-educational and production environments, you require a paid commercial license.
-
-![Plans](../../images/buying/msappsource/plans.png)
-
 1. Select `Get it now`
 2. Choose the plan
 3. Set the billing term
 4. Enter your billing address
 5. Enter your payment method (credit card information)
-6. Select `Place order`
+6. Review your order 
+![Review](../../images/buying/msappsource/review.png)
+7. Select `Place order`
 
 For more information go to [Purchase software from AppSource | Microsoft Docs](https://docs.microsoft.com/en-us/marketplace/purchase-software-appsource).
 
@@ -45,8 +44,8 @@ Upon subscription activation you can generate the license keys.
 1. Open the subscription page
 2. Scroll down to `License Keys`
 3. Select `Generate`
-4. Download license file
 ![Generate License](../../images/buying/msappsource/generate-license.png)
+4. Download license file
 ![Download Licese](../../images/buying/msappsource/download-license.png)
 5. Configure your application to use the license keys
  - Configule license keys for [pi-cli framework ](../../articles/pi-cli/licensing.md)

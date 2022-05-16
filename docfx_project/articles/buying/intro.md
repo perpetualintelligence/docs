@@ -16,7 +16,7 @@ You can purchase our SaaS offerings with Microsoft from one of the following onl
 - [Buy on Microsoft AppStore](buyonmsappsource.md)
 - [Buy on Microsoft Azure](buyonmsazure.md)
 
-## Contact Us
+## Support
 - For billing and payment related queries, please contact Microsoft directly.
     - [Azure Marketplace | Microsoft Docs](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/ea-azure-marketplace)
     - [AppSource | Microsoft Docs](https://docs.microsoft.com/en-us/marketplace/appsource-overview)

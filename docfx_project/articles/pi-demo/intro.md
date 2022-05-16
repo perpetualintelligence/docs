@@ -1,9 +1,9 @@
-# pi-demo
+# Demo License
 Use our demo license feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
 
 We recommend creating an account to generate a license for your specific use case. Our community edition is free for educational, research and development, and non-commercial use.
 
-> **Note:** You need a commercial license for non-educational or production environments.
+> **Note:** You need a paid commercial license for non-educational or production environments.
 
 ## How do I access demo license ?
 You don't need an account to access or use the demo license. 

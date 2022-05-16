@@ -126,7 +126,7 @@ Allows the host application to perform additional configuration option checks.
     }
 ```
 
-> **Note:** The `pi-cli` framework performs certain mandatory configuration option checks. Applications cannot customize or change the mandatory configuration option checks, but they can perform additional configuration checks as shown above. For more information see [restrictions](restrictions.md).
+> **Note:** The `pi-cli` framework performs certain mandatory configuration option checks. Applications cannot customize or change the mandatory configuration option checks, but they can perform additional configuration checks as shown above. For more information see [defaults and limits](defaults.md).
 
 
 ### [ICliBuilder](xref:PerpetualIntelligence.Cli.Integration.ICliBuilder)

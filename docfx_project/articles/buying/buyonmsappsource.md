@@ -37,7 +37,6 @@ Upon initiating the configure or activation, you will be redirected to our [SaaS
 1. Login with your Microsoft account
 2. Review your subscription details
 3. Select `Activate my Subscription`
-
 ![Activate](../../images/buying/appsource/activate.png)
 
 ### Generate License Keys
@@ -47,20 +46,7 @@ Upon subscription activation you can generate the license keys.
 2. Scroll down to `License Keys`
 3. Select `Generate`
 4. Download license file
-
 ![Generate License](../../images/buying/appsource/generate-license.png)
-
 ![Download Licese](../../images/buying/appsource/download-license.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
+5. Configure your application to use the license keys
+ - Configule license keys for [pi-cli framework ](../../articles/pi-cli/licensing.md)

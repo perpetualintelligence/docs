@@ -53,4 +53,4 @@ Upon subscription activation you can generate the license keys.
 ![Download Licese](../../images/buying/msazure/download-license.png)
 5. Configure your application to use the license keys
 
-> Configure license keys for [pi-cli framework ](../../articles/pi-cli/licensing.md)
+> Configure license keys for [pi-cli framework ](../../articles/pi-cli/licensing/intro.md)

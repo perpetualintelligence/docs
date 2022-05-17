@@ -222,7 +222,7 @@ The HTTP configuration options.
 The logical name to create and configure @"System.Net.Http.HttpClient" instance. The framework uses @"System.Net.Http.IHttpClientFactory" and the configured name to create an instance of @System.Net.Http.HttpClient.
 
 ## [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions)
-The licensing configuration options. Please visit [licensing](licensing.md) to generate license keys and access your identifiers.
+The licensing configuration options. Please visit [licensing](licensing/intro.md) to generate license keys and access your identifiers.
 
 > **Note:** You will require a valid community or commercial license and identifiers to set the licensing options. To use our test license for quick onboarding and evaluation, please refer to [this link](intro.md#demo-license).
 

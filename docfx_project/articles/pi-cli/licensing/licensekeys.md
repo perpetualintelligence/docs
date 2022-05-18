@@ -37,10 +37,13 @@ You will need an active `pi-cli` subscription to generate the license keys. If y
 7. Specify your usage and license audience claims. 
 ![Audience](../../../images/picli/licensing/generate-audience.png)
 8. Click `Generate` 
-9. Download the primary or secondary license keys
-![Download License Keys](../../../images/picli/licensing/licensekeys.png)
 
 > **Note**: The license expiry is based on your subscription plan. It is `31` days for monthly subscriptions, `365` days for yearly subscriptions, and `90` days for community subscriptions. See https://github.com/perpetualintelligence/cli/issues/20.
+
+## Download
+You can download your license keys with `Download Primary` or `Download Secondary` actions.
+![Download License Keys](../../../images/picli/licensing/licensekeys.png)
+The downloaded file is a JSON file with license audience claims and licenses keys. See [usage](usage.md) to configure your terminal.
 
 ## Check
 You can check your license key with our `Check` license feature.

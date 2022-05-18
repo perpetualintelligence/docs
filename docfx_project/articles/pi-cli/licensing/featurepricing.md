@@ -49,5 +49,3 @@ Select a pricing plan that best suits your needs. Go to [licenses](licenses.md) 
 | License handlers                                          | `online`<br>🔜`offline` | `online`<br>🔜`offline`<br>🔜`byol` | `online`<br>🔜`offline`<br>🔜`byol` |
 
 :soon: - Feature planed for future release.
-
-> **Note**: Currently text handlers only support `left-to-right` languages.

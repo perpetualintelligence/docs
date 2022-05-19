@@ -22,22 +22,22 @@ The following is our roadmap for planned features and future requests.
 
 ## pi-cli
 * [x] Publish -preview packages for pi-cli on Nuget
-* [ ] Finalize the pricing :point_left:
-    * [ ] Make perpetualintelligence/cli public under licensig terms :point_left:
+* [x] Finalize the pricing
+    * [x] Make perpetualintelligence/cli public under licensig terms
 * [ ] Finalyse configuration options :point_left:
 * [ ] Enumerate restricted characters for command extractions and command string
-* [ ] Reserve REGEX patterns for command and argument extraction
+* [x] Reserve REGEX patterns for command and argument extraction
 * [ ] Support JSON and Custom command and argument stores :tipping_hand_person:
 * [ ] Support custom DI servies :tipping_hand_person:
 * [ ] Custom Handler
     * [ ] Data type custom handlers :point_left:
     * [ ] Unicode command and argument handlers :tipping_hand_person:
     * [ ] Custom Error handlers :point_left:
-* [ ] Create test license server for quick on-boarding, [Github Issue](https://github.com/perpetualintelligence/cli/issues/15) :soon: 
+* [x] Create test license server for quick on-boarding, [Github Issue](https://github.com/perpetualintelligence/cli/issues/15) :soon: 
 * [ ] Unitest all critical scenarios :point_left:
 * [ ] Integration test for E2E workflow :point_left:
 * [ ] Publish [samples](../samples.md) for CLI terminals
-    * [ ] Github CLI :point_left:
+    * [x] Github CLI
     * [ ] .NET CLI :point_left:
     * [ ] Custom format CLI :soon:
     * [ ] Non english CLI terminals (e.g. Japanese, Spanish, German, Hindi, Marathi, Chinese) :soon:

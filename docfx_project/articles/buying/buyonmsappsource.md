@@ -1,7 +1,7 @@
 ## Buy on [Microsoft AppSource](https://docs.microsoft.com/en-us/marketplace/purchase-software-appsource)
 
 ### Requirements
-- A Microsoft work or school account. If you don't an account, follow the link to "Sign up for a free account" during the purchase process.
+- A Microsoft work or school account. If you don't have an account, follow the link to "Sign up for a free account" during the purchase process.
 - A valid credit card in the country/region where you are purchasing the offer. Credit cards supported: Visa, Master Card, American Express, and Discover.
 
 ### Search the offer

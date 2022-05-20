@@ -1,11 +1,13 @@
-﻿# Feature Pricing
+﻿# Feature Comparison
+We use feature comparison to track currently supported features and future plans.
 
-Select a pricing plan that best suits your needs. Go to [licenses](licenses.md) for information on available licenses.
+:soon: - Feature planed for future release.
+
+> **Note**: Currently text handlers only support `left-to-right` languages.
 
 ## Starters Pack
 | Features                                                  | Community     | Solo or Micro  | SMB             |
 |-----------------------------------------------------------|---------------|----------------|-----------------|
-| **Pricing** `$ USD`                                       | `$ 0`         | `$ 19 / Month`<br>`$ 199 / Year` | `$ 119 / Month`<br>`$ 1219 / Year` |
 | **Terminals or Console Apps**                             | **1**         | **1**          | **3**           |
 | :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down: |               |                |                 |
 | **Redistribution**                                        | **NO**        | **NO**         | **1000**        |
@@ -23,14 +25,9 @@ Select a pricing plan that best suits your needs. Go to [licenses](licenses.md) 
 | Service handlers                                          | `default`     | `default`      | `default`       |
 | License handlers                                          | `online`      | `online`       | `online`        |
 
-:soon: - Feature planed for future release.
-
-> **Note**: Currently text handlers only support `left-to-right` languages.
-
 ## Pro Pack
 | Features                                                  | Enterprise      | ISV             | ISV-U            |
 |-----------------------------------------------------------|-----------------|-----------------|------------------|
-| **Pricing** `$ USD`                                       | `$ 219 / Month`<br>`$ 2319 / Year` | `$ 619 / Month`<br>`$ 6619 / Year` | `$ 1219 / Month`<br>`$ 13119 / Year` |
 | **Terminals or Console Apps**                             | 5               | 25              | UNLIMITED        |
 | :point_down: *LIMITS BELOW ARE PER TERMINAL* :point_down: |                 |                 |                  |
 | Redistribution                                            | **5000**        | **10000**       | **UNLIMITED**    |
@@ -47,5 +44,3 @@ Select a pricing plan that best suits your needs. Go to [licenses](licenses.md) 
 | Store handlers                                            | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` | `in-memory`<br>🔜`json`<br>🔜`custom` |
 | Service handlers                                          | `default`<br>🔜`custom` | `default`<br>🔜`custom` | `default`<br>🔜 `custom` |
 | License handlers                                          | `online`<br>🔜`offline` | `online`<br>🔜`offline`<br>🔜`byol` | `online`<br>🔜`offline`<br>🔜`byol` |
-
-:soon: - Feature planed for future release.

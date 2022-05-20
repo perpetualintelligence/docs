@@ -162,7 +162,7 @@ Example:
 
 ## [HandlerOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions)
 
-The hosting options.
+The handler options.
 
 ### [DataTypeHandler](xref:PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.DataTypeHandler)
 The data type handler. Its value can be `null`, `default` or `custom`. The `default` and `custom` are reserved for future releases.

@@ -18,14 +18,14 @@ The following is our roadmap for planned features and future requests.
 * [ ] Provide pi-cli consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
 * [ ] Provide pi-cli consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
 * [x] Provide licensing and redistribution terms
-* [ ] Clarify the community edition and have common FAQs 
+* [ ] Clarify the community edition and have common FAQs :soon:
 
 ## pi-cli
 * [x] Publish -preview packages for pi-cli on Nuget
 * [x] Finalize the pricing
     * [x] Make perpetualintelligence/cli public under licensig terms
-* [ ] Finalyse configuration options :point_left:
-* [ ] Enumerate restricted characters for command extractions and command string
+* [x] Finalyse configuration options :point_left:
+* [x] Enumerate restricted characters for command extractions and command string
 * [x] Reserve REGEX patterns for command and argument extraction
 * [ ] Support JSON and Custom command and argument stores :tipping_hand_person:
 * [ ] Support custom DI servies :tipping_hand_person:

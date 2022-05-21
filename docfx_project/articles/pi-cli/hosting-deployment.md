@@ -4,6 +4,6 @@ The `pi-cli` framework is hosting agnostic, meaning no hosting limitations at al
 You can configure your terminal using Dependency Injection(DI services) and options pattern to provide your self-hosting implementations for stores and host in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc.
 
 # Deployment
-The `pi-cli` framework abopts microservices architectural style for building terminal applications that are resilient, highly scalable, independently deployable, and able to evolve quickly. 
+The `pi-cli` framework adopts microservices architectural style for building terminal applications that are resilient, highly scalable, independently deployable, and able to evolve quickly. 
 
-You build the terminal with all dependencies and deployable as a single executable context that can run in any platform supported by the .NET framework. 
+You can build deployment agnostic CLI terminals with all dependencies, test them in local environments and deploy the production terminals on-premise, cloud (public, private, or government), or hybrid.

@@ -2,19 +2,19 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace DotnetStyleCli.Runners.Nuget
+namespace StripeStyleCli.Runners.Login
 {
     /// <summary>
-    /// The sample <c>dotnet nuget push</c> command runner.
+    /// The sample <c>stripe login</c> command runner.
     /// </summary>
-    public class DotNetNugetPushRunner : CommandRunner
+    public class StripeLoginRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public DotNetNugetPushRunner(CliOptions options, ILogger<DotNetNugetPushRunner> logger) : base(options, logger)
+        public StripeLoginRunner(CliOptions options, ILogger<StripeLoginRunner> logger) : base(options, logger)
         {
         }
 

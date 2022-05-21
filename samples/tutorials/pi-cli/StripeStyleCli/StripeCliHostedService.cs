@@ -4,12 +4,12 @@ using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
 
-namespace DotnetStyleCli
+namespace StripeStyleCli
 {
     /// <summary>
-    /// The sample <c>dotnet</c> CLI hosted service. This class enables UX customization for the cli terminal.
+    /// The sample <c>stripe</c> CLI hosted service. This class enables UX customization for the cli terminal.
     /// </summary>
-    public class DotNetCliHostedService : CliHostedService
+    public class StripeCliHostedService : CliHostedService
     {
         /// <summary>
         /// Initialize a new instance.
@@ -17,7 +17,7 @@ namespace DotnetStyleCli
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public DotNetCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public StripeCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<StripeCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 

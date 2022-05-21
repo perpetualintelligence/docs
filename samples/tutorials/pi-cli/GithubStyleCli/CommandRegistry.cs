@@ -10,7 +10,7 @@ using PerpetualIntelligence.Cli.Integration;
 namespace GithubStyleCli
 {
     /// <summary>
-    /// The sample <c>gh cli</c> command registry. This class registers some of sample commands to show how
+    /// The sample <c>gh</c> CLI command registry. This class registers some sample commands to show how
     /// GitHub CLI style console terminals can be build using <c>pi-cli</c> framework.
     /// </summary>
     public static class CommandRegistry
@@ -25,7 +25,7 @@ namespace GithubStyleCli
             // App authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
             UnicodeTextHandler unicodeTextHandler = new ();
 
-            // gh
+            // sample gh
             {
                 CommandDescriptor pi = new(
                     "gh-cli-gh",
@@ -37,10 +37,10 @@ namespace GithubStyleCli
                         new ArgumentDescriptor("version", nameof(Boolean), false, "Show gh version") { Alias = "v" }
                     })
                 );
-                builder.AddDescriptor<GhRunner, CommandChecker>(pi);
+                builder.AddDescriptor<GhRunner, CommandChecker>(pi, isRoot: true, isGroup: true);
             };
 
-            // alias
+            // sample alias
             {
                 // gh alias
                 CommandDescriptor alias = new(
@@ -49,7 +49,7 @@ namespace GithubStyleCli
                     "gh alias",
                     "Sample description for aliases that can be used to make shortcuts for gh commands or to compose multiple commands."
                 );
-                builder.AddDescriptor<GhAliasRunner, CommandChecker>(alias);
+                builder.AddDescriptor<GhAliasRunner, CommandChecker>(alias, isGroup: true);
 
                 // gh alias delete
                 CommandDescriptor aliasDelete = new(
@@ -90,7 +90,7 @@ namespace GithubStyleCli
                 builder.AddDescriptor<GhAliasSetRunner, CommandChecker>(aliasSet);
             };
 
-            // Issue
+            // sample issue
             {
                 // gh issue
                 CommandDescriptor issue = new(
@@ -103,7 +103,7 @@ namespace GithubStyleCli
                         new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
                     })
                 );
-                builder.AddDescriptor<GhIssueRunner, CommandChecker>(issue);
+                builder.AddDescriptor<GhIssueRunner, CommandChecker>(issue, isGroup: true);
 
                 // gh issue create
                 CommandDescriptor create = new(

@@ -2,7 +2,7 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace DotnetStyleCli.Runners
+namespace DotnetStyleCli.Runners.Nuget
 {
     /// <summary>
     /// The sample <c>dotnet nuget</c> command runner.

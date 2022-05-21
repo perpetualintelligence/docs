@@ -2,19 +2,19 @@
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace DotnetStyleCli.Runners.Nuget
+namespace StripeStyleCli.Runners
 {
     /// <summary>
-    /// The sample <c>dotnet nuget push</c> command runner.
+    /// The sample <c>stripe</c> command runner.
     /// </summary>
-    public class DotNetNugetPushRunner : CommandRunner
+    public class StripeRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public DotNetNugetPushRunner(CliOptions options, ILogger<DotNetNugetPushRunner> logger) : base(options, logger)
+        public StripeRunner(CliOptions options, ILogger<StripeRunner> logger) : base(options, logger)
         {
         }
 
@@ -27,8 +27,9 @@ namespace DotnetStyleCli.Runners.Nuget
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
+            Console.WriteLine("The SAMPLE Stripe CLI tutorial");
 
-            if(context.Command.Arguments != null)
+            if (context.Command.Arguments != null)
             {
                 Console.WriteLine("Printing arguments...");
                 foreach (var arg in context.Command.Arguments)
@@ -36,7 +37,7 @@ namespace DotnetStyleCli.Runners.Nuget
                     Console.WriteLine($"{arg.Id}: {arg.Value}");
                 }
             }
-            
+
             return Task.FromResult(new CommandRunnerResult());
         }
     }

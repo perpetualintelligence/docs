@@ -1,7 +1,16 @@
-﻿using DotnetStyleCli.Runners;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com
+*/
+
+using DotnetStyleCli.Runners;
+using DotnetStyleCli.Runners.Nuget;
 using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Handlers;
+using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
 using System.ComponentModel.DataAnnotations;
@@ -9,8 +18,8 @@ using System.ComponentModel.DataAnnotations;
 namespace DotnetStyleCli
 {
     /// <summary>
-    /// The sample <c>dotnet cli</c> command registry. This class registers some of sample commands to show how
-    /// <c>dotnet cli</c> style console terminals can be build using <c>pi-cli</c> framework.
+    /// The sample <c>dotnet</c> CLI command registry. This class registers some sample commands to show how .NET style
+    /// console terminals can be build using <c>pi-cli</c> framework.
     /// </summary>
     public static class CommandRegistry
     {
@@ -24,7 +33,7 @@ namespace DotnetStyleCli
             // app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
             UnicodeTextHandler unicodeTextHandler = new();
 
-            // dotnet
+            // sample dotnet
             {
                 CommandDescriptor dt = new(
                     "dt-cli-dotnet",
@@ -40,10 +49,10 @@ namespace DotnetStyleCli
                         new ArgumentDescriptor("help", nameof(Boolean), false, "Prints out a list of available commands.") {Alias = "h"}
                     })
                 );
-                builder.AddDescriptor<DotNetRunner, CommandChecker>(dt);
+                builder.AddDescriptor<DotNetRunner, CommandChecker>(dt, isRoot: true, isGroup: true);
             };
 
-            // dotnet nuget grouped commands
+            // sample dotnet nuget grouped commands
             {
                 // dotnet nuget
                 CommandDescriptor nuget = new(
@@ -52,9 +61,9 @@ namespace DotnetStyleCli
                     "dotnet nuget",
                     "Sample description for dotnet nuget command"
                     );
-                builder.AddDescriptor<DotNetNugetRunner, CommandChecker>(nuget);
+                builder.AddDescriptor<DotNetNugetRunner, CommandChecker>(nuget, isGroup: true);
 
-                // dotnet nuget push
+                // sample dotnet nuget push
                 CommandDescriptor nugetPush = new(
                     "dt-cli-nuget-push",
                     "push",
@@ -73,6 +82,25 @@ namespace DotnetStyleCli
                 );
                 builder.AddDescriptor<DotNetNugetPushRunner, CommandChecker>(nugetPush);
             };
+
+            // Exit
+            CommandDescriptor exit = new("dotnet-cli-exit", "exit", "exit", "Exits the CLI terminal.");
+            builder.AddDescriptor<ExitRunner, CommandChecker>(exit);
+
+            // Clear screen
+            CommandDescriptor cls = new("dotnet-cli-cls", "cls", "cls", "Clears the CLI terminal screen.");
+            builder.AddDescriptor<ClearScreenRunner, CommandChecker>(cls);
+
+            // Runs an OS command
+            CommandDescriptor run = new("dotnet-cli-run", "run", "run", "Runs an OS command.");
+            builder.AddDescriptor<RunRunner, CommandChecker>(run);
+
+            // Show licensing information
+            {
+                // Show licensing details.
+                CommandDescriptor licInfo = new("dotnet-cli-lic", "lic", "lic info", "Displays the licensing information.");
+                builder.AddDescriptor<LicInfoRunner, CommandChecker>(licInfo);
+            }
 
             return builder;
         }

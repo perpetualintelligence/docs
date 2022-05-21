@@ -7,7 +7,7 @@ using PerpetualIntelligence.Cli.Licensing;
 namespace GithubStyleCli
 {
     /// <summary>
-    /// The sample <c>gh cli</c> hosted service. This class enables UX customization for the cli terminal.
+    /// The sample <c>gh</c> CLI hosted service. This class enables UX customization for the cli terminal.
     /// </summary>
     public class GhCliHostedService : CliHostedService
     {
@@ -17,7 +17,7 @@ namespace GithubStyleCli
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public GhCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<CliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public GhCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<GhCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 

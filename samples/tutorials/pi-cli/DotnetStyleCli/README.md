@@ -14,16 +14,16 @@ The code in `Program.cs` specifies the license key location. You can download th
 The `CommandRegistry.cs` source file contains the `dotnet` CLI sample commands and arguments registration.
 
 ## Hosted Service
-The `DotNetCliHostedService.cs` implement the hosted service to enable terminal lifecycle tracking and UX customization.
+The `DotNetCliHostedService.cs` implement the sample hosted service to enable terminal lifecycle tracking and UX customization.
 
 ## Runners
 The `Runners` folder defines the sample `dotnet` CLI command runners.
 
 Example Run:
 ```
-    $ dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
-    Running sample push command.
-    Printing arguments...
-    root: foo.nupkg
-    api-key: 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
+$ dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
+Running sample push command.
+Printing arguments...
+root: foo.nupkg
+api-key: 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
 ```

@@ -1,20 +1,27 @@
-﻿using Microsoft.Extensions.Logging;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com
+*/
+
+using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Configuration.Options;
 
-namespace DotnetStyleCli.Runners.Nuget
+namespace StripeStyleCli.Runners.Login
 {
     /// <summary>
-    /// The sample <c>dotnet nuget push</c> command runner.
+    /// The sample <c>stripe apikey</c> command runner.
     /// </summary>
-    public class DotNetNugetPushRunner : CommandRunner
+    public class StripeApiKeyRunner : CommandRunner
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public DotNetNugetPushRunner(CliOptions options, ILogger<DotNetNugetPushRunner> logger) : base(options, logger)
+        public StripeApiKeyRunner(CliOptions options, ILogger<StripeApiKeyRunner> logger) : base(options, logger)
         {
         }
 
@@ -28,7 +35,7 @@ namespace DotnetStyleCli.Runners.Nuget
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
 
-            if(context.Command.Arguments != null)
+            if (context.Command.Arguments != null)
             {
                 Console.WriteLine("Printing arguments...");
                 foreach (var arg in context.Command.Arguments)
@@ -36,7 +43,7 @@ namespace DotnetStyleCli.Runners.Nuget
                     Console.WriteLine($"{arg.Id}: {arg.Value}");
                 }
             }
-            
+
             return Task.FromResult(new CommandRunnerResult());
         }
     }

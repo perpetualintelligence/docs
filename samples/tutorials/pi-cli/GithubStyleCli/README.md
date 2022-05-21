@@ -14,18 +14,17 @@ The code in `Program.cs` specifies the license key location. You can download th
 The `CommandRegistry.cs` source file contains the `gh` CLI sample commands and arguments registration.
 
 ## Hosted Service
-The `GhCliHostedService.cs` implement the hosted service to enable terminal lifecycle tracking and UX customization.
+The `GhCliHostedService.cs` implement the sample hosted service to enable terminal lifecycle tracking and UX customization.
 
 ## Runners
 The `Runners` folder defines the sample `gh` CLI command runners.
 
 Example Run:
 ```
-    $ gh issue create --repo samplerepo --title demo title --body test body
-    Running sample create command.
-    Options
-    repo=samplerepo
-    title=demo title
-    body=test body
-
+$ gh issue create --repo samplerepo --title demo title --body test body
+Running sample create command.
+Options
+repo=samplerepo
+title=demo title
+body=test body
 ```

@@ -21,9 +21,8 @@ namespace GithubStyleCli
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // TODO:
-            // - For now, app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
-            UnicodeTextHandler unicodeTextHandler = new UnicodeTextHandler();
+            // App authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
+            UnicodeTextHandler unicodeTextHandler = new ();
 
             // gh
             {

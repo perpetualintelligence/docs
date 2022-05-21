@@ -18,6 +18,9 @@ The following is our roadmap for planned features and future requests.
 * [ ] Provide pi-cli consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
 * [ ] Provide pi-cli consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
 * [x] Provide licensing and redistribution terms
+    * [x] https://terms.perpetualintelligence.com/articles/licensing.html
+    * [x] https://terms.perpetualintelligence.com/articles/redistribution.html
+
 * [ ] Clarify the community edition and have common FAQs :soon:
 
 ## pi-cli
@@ -31,15 +34,17 @@ The following is our roadmap for planned features and future requests.
 * [ ] Support custom DI servies :tipping_hand_person:
 * [ ] Custom Handler
     * [ ] Data type custom handlers :point_left:
-    * [ ] Unicode command and argument handlers :tipping_hand_person:
+    * [X] Unicode command and argument handlers
     * [ ] Custom Error handlers :point_left:
+    * [ ] Text handler for `right-to-left` languages :raising_hand:
 * [x] Create test license server for quick on-boarding, [Github Issue](https://github.com/perpetualintelligence/cli/issues/15) :soon: 
 * [ ] Unitest all critical scenarios :point_left:
 * [ ] Integration test for E2E workflow :point_left:
 * [ ] Publish [samples](../samples.md) for CLI terminals
     * [x] Github CLI
-    * [ ] .NET CLI :point_left:
-    * [ ] Custom format CLI :soon:
+    * [x] .NET CLI
+    * [x] Stripe CLI
+    * [x] Custom format CLI :soon:
     * [ ] Non english CLI terminals (e.g. Japanese, Spanish, German, Hindi, Marathi, Chinese) :soon:
 * [ ] Support CLI Authentication as a separate Nuget package
     * [ ] MSAL :soon:

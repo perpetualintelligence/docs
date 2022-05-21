@@ -12,7 +12,7 @@ We crafted the `pi-cli` framework to be cross-platform, hosting and deployment a
 ## Open Source
 Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
-> ***See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html), [licenses](licensing/licenses.md) and [feature pricing](licensing/featurepricing.md).***
+> ***See our [licensing terms](https://terms.perpetualintelligence.com/articles/licensing.html), [licenses](licensing/intro.md) and [pricing](https://www.perpetualintelligence.com/products/picli#pricing).***
 
 ## OS
 Our CICD pipeline builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.

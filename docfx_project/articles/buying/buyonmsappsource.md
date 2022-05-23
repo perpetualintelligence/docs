@@ -47,6 +47,4 @@ Upon subscription activation you can generate the license keys.
 ![Generate License](../../images/buying/msappsource/generate-license.png)
 4. Download license file
 ![Download Licese](../../images/buying/msappsource/download-license.png)
-5. Configure your application to use the license keys
-
-> Configure license keys for [pi-cli framework ](../../articles/pi-cli/licensing/intro.md)
+5. Configure your application to use the [license keys](../../articles/pi-cli/licensing/usage.md)

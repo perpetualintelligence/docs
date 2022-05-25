@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
+using PerpetualIntelligence.Cli.Services;
 
 namespace CustomStyleCli
 {
@@ -48,7 +49,9 @@ namespace CustomStyleCli
         /// <returns></returns>
         protected override Task PrintHostApplicationHeaderAsync()
         {
-            Console.WriteLine("Printing custom header...");
+            Console.WriteLine("Welcome...");
+            Console.WriteLine("Build Unicode CLI terminal in any custom format...");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, "This sample Unicode CLI terminal showcases the key-value argument pair with root, grouped and sub-command.");
             return Task.CompletedTask;
         }
 
@@ -59,7 +62,6 @@ namespace CustomStyleCli
         /// <returns></returns>
         protected override Task PrintHostApplicationLicensingAsync(License license)
         {
-            Console.WriteLine("Printing custom licensing info...");
             return Task.CompletedTask;
         }
     }

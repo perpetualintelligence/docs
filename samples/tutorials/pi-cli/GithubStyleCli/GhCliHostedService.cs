@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
+using PerpetualIntelligence.Cli.Services;
 
 namespace GithubStyleCli
 {
@@ -48,7 +49,9 @@ namespace GithubStyleCli
         /// <returns></returns>
         protected override Task PrintHostApplicationHeaderAsync()
         {
-            Console.WriteLine("Overriding PrintHostApplicationHeaderAsync to print custom headers... ");
+            Console.WriteLine("Welcome...");
+            Console.WriteLine("Build enterprise-grade Unicode CLI terminal in standard or custom format.");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, "This sample showcases the modern CLI terminal similar to GitHub CLI.");
             return Task.CompletedTask;
         }
 
@@ -59,7 +62,6 @@ namespace GithubStyleCli
         /// <returns></returns>
         protected override Task PrintHostApplicationLicensingAsync(License license)
         {
-            Console.WriteLine("Overriding PrintHostApplicationLicensingAsync to print custom licensing information... ");
             return Task.CompletedTask;
         }
     }

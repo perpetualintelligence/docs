@@ -26,7 +26,7 @@ IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices).UseSerilog
 // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 {
-    await host.RunRouterAsync(">_ ", cancellationTokenSource.Token);
+    await host.RunRouterAsync("> ", cancellationTokenSource.Token);
 }
 
 /// <summary>
@@ -91,7 +91,7 @@ static void InitSerilog()
 {
     Activity.DefaultIdFormat = ActivityIdFormat.W3C;
 
-    Console.Title = "dotnet cli sample";
+    Console.Title = "custom cli sample";
 
     Log.Logger = new LoggerConfiguration()
         .MinimumLevel.Warning()

@@ -4,13 +4,15 @@ using PerpetualIntelligence.Cli.Configuration.Options;
 using PerpetualIntelligence.Cli.Integration;
 using PerpetualIntelligence.Cli.Licensing;
 using PerpetualIntelligence.Cli.Services;
+using System;
+using System.Threading.Tasks;
 
-namespace DotnetStyleCli
+namespace UnicodeCli
 {
     /// <summary>
-    /// The sample <c>dotnet</c> CLI hosted service. This class enables UX customization for the cli terminal.
+    /// The sample <c>unicode</c> CLI hosted service. This class enables UX customization for the cli terminal.
     /// </summary>
-    public class DotNetCliHostedService : CliHostedService
+    public class UnicodeHostedService : CliHostedService
     {
         /// <summary>
         /// Initialize a new instance.
@@ -18,7 +20,7 @@ namespace DotnetStyleCli
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public DotNetCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public UnicodeHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<UnicodeHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 
@@ -50,8 +52,8 @@ namespace DotnetStyleCli
         protected override Task PrintHostApplicationHeaderAsync()
         {
             Console.WriteLine("Welcome...");
-            Console.WriteLine("Build enterprise-grade Unicode CLI terminal in standard or custom format.");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, "This sample showcases the modern CLI terminal similar to dotnet cli.");
+            Console.WriteLine("Build Unicode CLI terminal in any user language like Japanese, Hindi, Marathi, Spanish, French, German, Chinese, etc...");
+            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, "This sample Unicode CLI terminal showcases the Chinese user language...");
             return Task.CompletedTask;
         }
 

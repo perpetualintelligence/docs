@@ -3,12 +3,11 @@
 
 > ***Take your app or service to the command line with Unicode support and build CLI terminals in a user language of your choice.***
 
-# Craftsmanship
+## Craftsmanship
 We crafted the `pi-cli` framework to be cross-platform, hosting and deployment agnostic, and fully customizable. We strongly believe .NET provides a rich set of [DSL](https://docs.microsoft.com/en-us/visualstudio/modeling/about-domain-specific-languages?view=vs-2022) and [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages, and `pi-cli` directly supports the .NET (traditional), .NET core, ASP.NET Core, and NET6+ framework. Thus it is naturally the defacto standard in developing cross-platform CLI systems for your apps, services, and developer tools in the entire .NET ecosystem. It lets enterprises build ground-up CLI terminals or migrate their existing CLI apps and terminals with the modern, scalable and distributed architecture.
 
 > ***In short, if what you want is doable in the .NET ecosystem, it is possible with the `pi-cli` framework.***
 
-# Getting Started
 ## Open Source
 Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
@@ -59,16 +58,16 @@ Continue reading, and we will explain all the concepts. We recommend you get fam
 - [Single Responsibility](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
 - [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
 
-# Demo License
+## Demo License
 Use our [demo license](../pi-demo/intro.md) feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
 
-# Samples
+## Samples
 Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!
 
-# Issues and feature requests
+## Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.
 
-# References
+## References
 - [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)
 - [.NET application architecture](https://docs.microsoft.com/en-us/dotnet/architecture/)
 

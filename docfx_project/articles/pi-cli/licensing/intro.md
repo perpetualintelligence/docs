@@ -1,5 +1,5 @@
 # Introduction
-Our flexible licensing and pricing model fits all. The sections below describe the available licenses for the community, solo entrepreneurs, large enterprises, and service vendors.
+Our flexible licensing and pricing model fits all. The sections below describe the available licenses for the community, solo entrepreneurs, small-medium businesses, large enterprises, and service vendors.
 
 > For your custom license requirements, please [contact us](https://www.perpetualintelligence.com/support).
 
@@ -7,7 +7,7 @@ Our flexible licensing and pricing model fits all. The sections below describe t
 Select a license that best suit your needs. You need an account with us to access a valid license.
 
 ### Community
-The community license is free for educational, research, and non-commercial use. 
+The community license is free for educational, research, and non-production use. 
 
 > **Note:** You require a paid commercial license to use the `pi-cli` framework in a non-educational or production environment. 
 

@@ -4,10 +4,10 @@
 
 Our ready-to-use sample templates allow quick onboarding for application authors to create enterprise-grade modern CLI terminals.
 
-| Version    | End of Support  |
-|-----------------|-----------------|
-| [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) | November 12, 2024 |
-| [.NET 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) | December 13, 2022 |
+| Template        |   .NET Version    | End of Support  |
+|-----------------|-------------------|-----------------|
+| [PiCliNewTerminalTemplateDotNetLatest](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNetLatest) |   [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) | November 12, 2024 |
+| [PiCliNewTerminalTemplateDotNet31](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNet31) | [.NET 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) | December 13, 2022 |
 
 ## Tutorials
 Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!

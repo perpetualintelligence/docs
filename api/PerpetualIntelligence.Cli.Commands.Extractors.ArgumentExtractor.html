@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ArgumentExtractor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ArgumentExtractor
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor">
+  
+  
+  <h1 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor" class="text-break">Class ArgumentExtractor
+  </h1>
+  <div class="markdown level0 summary"><p>The default <a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.IArgumentExtractor.html">IArgumentExtractor</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">ArgumentExtractor</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.IArgumentExtractor.html">IArgumentExtractor</a></div>
+    <div><a class="xref" href="PerpetualIntelligence.Protocols.Abstractions.IExtractor-2.html">IExtractor</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorContext.html">ArgumentExtractorContext</a>, <a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorResult.html">ArgumentExtractorResult</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.html">PerpetualIntelligence.Cli.Commands.Extractors</a></h6>
+  <h6><strong>Assembly</strong>: PerpetualIntelligence.Cli.dll</h6>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[WriteDocumentation]
+public class ArgumentExtractor : IArgumentExtractor, IExtractor&lt;ArgumentExtractorContext, ArgumentExtractorResult&gt;</code></pre>
+  </div>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+The syntax for a separator based argument is <code>{arg}={value}</code> for e.g. <code>name=oneimlx</code>. The syntax has 4 parts:
+<ol><li><code>-</code> is an argument prefix. You can configure it via <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentPrefix">ArgumentPrefix</a></li><li>{arg} is an argument id. For e.g. <code>name</code></li><li><code>=</code> is an argument separator. You can configure it via <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentValueSeparator">ArgumentValueSeparator</a></li><li>{value} is an argument value. For e.g. <code>oneimlx</code></li></ol>
+</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor__ctor_PerpetualIntelligence_Cli_Commands_Handlers_ITextHandler_PerpetualIntelligence_Cli_Configuration_Options_CliOptions_Microsoft_Extensions_Logging_ILogger_PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor__.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.%23ctor(PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler%2CPerpetualIntelligence.Cli.Configuration.Options.CliOptions%2CMicrosoft.Extensions.Logging.ILogger%7BPerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L53">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor__ctor_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.#ctor*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor__ctor_PerpetualIntelligence_Cli_Commands_Handlers_ITextHandler_PerpetualIntelligence_Cli_Configuration_Options_CliOptions_Microsoft_Extensions_Logging_ILogger_PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor__" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.#ctor(PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler,PerpetualIntelligence.Cli.Configuration.Options.CliOptions,Microsoft.Extensions.Logging.ILogger{PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor})">ArgumentExtractor(ITextHandler, CliOptions, ILogger&lt;ArgumentExtractor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArgumentExtractor(ITextHandler textHandler, CliOptions options, ILogger&lt;ArgumentExtractor&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler.html">ITextHandler</a></td>
+        <td><span class="parametername">textHandler</span></td>
+        <td><p>The text handler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.CliOptions.html">CliOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The configuration options.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.html">ArgumentExtractor</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasNoValueRegexPattern.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasNoValueRegexPattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L98">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasNoValueRegexPattern_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasNoValueRegexPattern*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasNoValueRegexPattern" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasNoValueRegexPattern">ArgumentAliasNoValueRegexPattern</h4>
+  <div class="markdown level1 summary"><p>Gets the REGEX pattern to match the argument alias with no value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ArgumentAliasNoValueRegexPattern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasNoValueRegexPattern_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Lets assume that you have configured <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_Separator">Separator</a> as a single whitespace string
+&apos; &apos;, and <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAliasPrefix">ArgumentAliasPrefix</a> as a single dash character string &apos;-&apos;.
+</p>
+<p>
+The default implementation for <a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.html#PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasNoValueRegexPattern">ArgumentAliasNoValueRegexPattern</a> will match using the following criteria:
+</p>
+<ol><li>&apos;^ *(-)+(.+)$&apos;Default example REGEX pattern</li><li>&apos;^&apos;Matches the beginning of the string</li><li>&apos; *&apos;Matches 0 or more <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_Separator">Separator</a></li><li>&apos;(-)+&apos;Create a new capture group and matches 1 or more <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAliasPrefix">ArgumentAliasPrefix</a></li><li>&apos;(.+?)&apos;Create a new capture group and matches characters (1 or more) except line breaks</li><li>&apos;$&apos;Matches the end of the string</li></ol>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasValueRegexPattern.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasValueRegexPattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L109">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasValueRegexPattern_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasValueRegexPattern*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentAliasValueRegexPattern" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentAliasValueRegexPattern">ArgumentAliasValueRegexPattern</h4>
+  <div class="markdown level1 summary"><p>Gets the REGEX pattern to match the argument id and value using <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentPrefix">ArgumentPrefix</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ArgumentAliasValueRegexPattern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdNoValueRegexPattern.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdNoValueRegexPattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L120">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdNoValueRegexPattern_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdNoValueRegexPattern*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdNoValueRegexPattern" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdNoValueRegexPattern">ArgumentIdNoValueRegexPattern</h4>
+  <div class="markdown level1 summary"><p>Gets the REGEX pattern to match the argument alias and value using <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAliasPrefix">ArgumentAliasPrefix</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ArgumentIdNoValueRegexPattern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdValueRegexPattern.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdValueRegexPattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L131">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdValueRegexPattern_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdValueRegexPattern*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentIdValueRegexPattern" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentIdValueRegexPattern">ArgumentIdValueRegexPattern</h4>
+  <div class="markdown level1 summary"><p>Gets the REGEX pattern to match the argument alias and value using <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAliasPrefix">ArgumentAliasPrefix</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ArgumentIdValueRegexPattern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentValueWithinRegexPattern.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentValueWithinRegexPattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L142">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentValueWithinRegexPattern_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentValueWithinRegexPattern*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ArgumentValueWithinRegexPattern" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ArgumentValueWithinRegexPattern">ArgumentValueWithinRegexPattern</h4>
+  <div class="markdown level1 summary"><p>Gets the REGEX pattern to match the argument alias and value using <a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentValueWithIn">ArgumentValueWithIn</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string ArgumentValueWithinRegexPattern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ExtractAsync_PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractorContext_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ExtractAsync(PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L151">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ExtractAsync_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ExtractAsync*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor_ExtractAsync_PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractorContext_" data-uid="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor.ExtractAsync(PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorContext)">ExtractAsync(ArgumentExtractorContext)</h4>
+  <div class="markdown level1 summary"><p>Extracts from a context asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ArgumentExtractorResult&gt; ExtractAsync(ArgumentExtractorContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorContext.html">ArgumentExtractorContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractorResult.html">ArgumentExtractorResult</a>&gt;</td>
+        <td><p>The extractor result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="PerpetualIntelligence.Cli.Commands.Extractors.IArgumentExtractor.html">IArgumentExtractor</a>
+  </div>
+  <div>
+      <a class="xref" href="PerpetualIntelligence.Protocols.Abstractions.IExtractor-2.html">IExtractor&lt;TContext, TResult&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentPrefix">ArgumentPrefix</a></div>
+      <div><a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentValueSeparator">ArgumentValueSeparator</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Extractors_ArgumentExtractor.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Extractors.ArgumentExtractor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Extractors/ArgumentExtractor.cs/#L44" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

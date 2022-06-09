@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CliOptions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="CliOptions ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="clioptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.CliOptions.html">CliOptions</a></h1>
+
+<p>The pi-cli framework uses the options pattern to provide strongly typed access to groups of related settings. When configuration settings are isolated by scenario into separate classes, the host CLI terminal adheres to two crucial software engineering principles:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#encapsulation">Interface Segregation Principle (ISP) or Encapsulation</a>: Scenarios (classes) that depend on configuration settings depend only on the configuration settings that they use.</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns">Separation of Concerns</a>: Settings for different parts of the app aren't dependent or coupled to one another.
+Options also provide a mechanism to validate configuration data. For more information, see the Options validation section.</li>
+</ul>
+<p>This article provides information on all the supported configuration options by the pi-cli framework.</p>
+<h2 id="checkeroptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.html">CheckerOptions</a></h2>
+<p>The command and argument checker options.</p>
+<blockquote>
+<p><strong>Note:</strong> The checker options are not filters. The command execution is blocked if any check fails.</p>
+</blockquote>
+<h3 id="allowobsoleteargument"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_CheckerOptions_AllowObsoleteArgument">AllowObsoleteArgument</a></h3>
+<p>Determines whether the checker allows a command to run with an obsolete argument.</p>
+<p>The obsolete argument value check is done at runtime only if a user or an application attempts to run the command and passes an obsolete argument value. This option has no effect if the command supports an obsolete argument, but the user did not give its value through the command string.</p>
+<h3 id="strictargumentvaluetype"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.CheckerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_CheckerOptions_StrictArgumentValueType">StrictArgumentValueType</a></h3>
+<p>Determines whether the checker checks an argument value type. If this option is enabled, the checker will try to map an argument value to its corresponding .NET value type. If the mapping fails, the command will not run.</p>
+<p>Example:</p>
+<pre><code>    pi lic gen --lic-edition community --expiry 365 --nbf &quot;26-Apr-2022 14:36:11&quot; --test
+</code></pre>
+<p>In the code example above, let's assume the command <code>pi lic gen</code> defines 4 arguments:</p>
+<ul>
+<li>lic-edition (string)</li>
+<li>expiry (int)</li>
+<li>nbf (date and time)</li>
+<li>test (boolean)</li>
+</ul>
+<p>If the strict argument value type check is enabled,  the checker will do an automatic type check and ensure that argument <code>lic-edition</code> is a string, <code>expiry</code> is an int, <code>nbf</code> is a valid date and time, and <code>test</code> is a bool. If any check fails, the command will not run.</p>
+<blockquote>
+<p><strong>Note:</strong> If this option is not enabled, the checker will allow all the argument values as strings.</p>
+</blockquote>
+<h2 id="extractoroptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html">ExtractorOptions</a></h2>
+<p>The command and argument extraction options.</p>
+<h3 id="argumentalias"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAlias">ArgumentAlias</a></h3>
+<p>Determines whether the extractor support extracting an argument by alias.</p>
+<p>Example:</p>
+<pre><code>    options.Extractor.ArgumentAlias = true;
+    dotnet build --configuration Release 
+    dotnet build -c Release
+</code></pre>
+<p>Argument alias supports the apps that identify a command argument with an id and an alias string. For modern console apps, we recommend using just an argument identifier. We have optimized the core data model to work with argument id. An app should not identify the same argument with multiple strings. Using an alias will degrade the performance.</p>
+<h3 id="argumentaliasprefix"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAliasPrefix">ArgumentAliasPrefix</a></h3>
+<p>The argument alias prefix if <a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentAlias">ArgumentAlias</a> is enabled. Defaults to <code>-</code>.</p>
+<p>Example:</p>
+<pre><code>    dotnet build -c Release 
+
+    options.Extractor.ArgumentAliasPrefix = &quot;:&quot;;
+    dotnet build :c Release 
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The argument alias prefix must be a single Unicode character, and it cannot be <code>null</code> or whitespace.</p>
+</blockquote>
+<h3 id="argumentprefix"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentPrefix">ArgumentPrefix</a></h3>
+<p>The argument prefix. Defaults to <code>-</code>.</p>
+<p>Example:</p>
+<pre><code>    dotnet build -configuration Release 
+
+    options.Extractor.ArgumentPrefix = &quot;--&quot;;
+    dotnet build --configuration Release 
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The argument prefix must be a single Unicode character, and it cannot be <code>null</code> or whitespace.</p>
+</blockquote>
+<h3 id="argumentvalueseparator"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentValueSeparator">ArgumentValueSeparator</a></h3>
+<p>The argument value separator. Defaults to <code>=</code>.</p>
+<p>Example:</p>
+<pre><code>    dotnet build -configuration=Release 
+
+    options.Extractor.ArgumentValueSeparator = &quot; &quot;;
+    dotnet build -configuration Release     
+
+    options.Extractor.ArgumentValueSeparator = &quot;:&quot;;
+    dotnet build -configuration:Release     
+
+    options.Extractor.ArgumentValueSeparator = &quot;&gt;&quot;;
+    dotnet build -configuration&gt;Release 
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The argument value separator must be a single Unicode character, and it can be a single whitespace character.</p>
+</blockquote>
+<h3 id="argumentvaluewithin"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_ArgumentValueWithIn">ArgumentValueWithIn</a></h3>
+<p>An optional token within which to extract an argument value. Default to <code>null</code>.</p>
+<p>Example:</p>
+<pre><code>    pi print -message=This is a string without quotes
+
+    options.Extractor.ArgumentValueWithIn = &quot;\&quot;&quot;;
+    pi print -message=&quot;This is a string within quotes&quot;
+
+    options.Extractor.ArgumentValueWithIn = &quot;~&quot;;
+    pi print -message=~This is a string within tilda~
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The optional argument within token must be a single Unicode character. If set it cannot be <code>null</code> or whitespace.</p>
+</blockquote>
+<h3 id="commandidregex"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_CommandIdRegex">CommandIdRegex</a></h3>
+<p>The Regex pattern for command identifier. Defaults to <code>^[A-Za-z0-9_-]*$</code>.</p>
+<h3 id="defaultargument"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_DefaultArgument">DefaultArgument</a></h3>
+<p>Determines whether command supports default argument.</p>
+<p>Example:</p>
+<pre><code>    dotnet restore -p ./projects/app1/app1.csproj
+
+    options.Extractor.DefaultArgument = true;
+    dotnet restore ./projects/app1/app1.csproj
+
+</code></pre>
+<p>In the code example above, let's assume the command <code>dotnet restore</code> has a default argument <code>p</code>. The command string's argument value <code>./projects/app1/app1.csproj</code> is automatically set to the default argument <code>p</code>.</p>
+<h3 id="defaultargumentvalue"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_DefaultArgumentValue">DefaultArgumentValue</a></h3>
+<p>Determines whether argument support default value.</p>
+<p>Example:</p>
+<pre><code>    dotnet build ./projects/app1/app1.csproj -c RELEASE
+
+    options.Extractor.DefaultArgumentValue = true;
+    dotnet build ./projects/app1/app1.csproj
+
+</code></pre>
+<p>In the code example above, let's assume the command <code>dotnet build</code> has defined a required configuration argument <code>c</code> with a default value <code>DEBUG</code>. Even though the command string did not specify any configuration value, the extractor will automatically set the <code>c</code> value to <code>DEBUG</code> during the command run.</p>
+<h3 id="separator"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.ExtractorOptions.html#PerpetualIntelligence_Cli_Configuration_Options_ExtractorOptions_Separator">Separator</a></h3>
+<p>The command string separator. Defaults to a single whitespace <code> </code>.</p>
+<p>Example:</p>
+<pre><code>    pi gen guid --short
+    dotnet publish --framework netcoreapp3.1 --runtime osx.10.11-x64
+    डॉटनेट पब्लिश --कॉन्फिग रिलीज --सैंपल हिंदी
+
+    options.Extractor.Separator = &quot;:&quot;;
+    options.Extractor.ArgumentValueSeparator = &quot; &quot;;
+    dotnet:publish:--framework netcoreapp3.1:--runtime osx.10.11-x64
+    pi:gen:guid:--short
+
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The command string separator must be a single Unicode character, and it can be a whitespace character.</p>
+</blockquote>
+<h2 id="handleroptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html">HandlerOptions</a></h2>
+<p>The handler options.</p>
+<h3 id="datatypehandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_DataTypeHandler">DataTypeHandler</a></h3>
+<p>The data type handler. Its value can be <code>null</code>, <code>default</code> or <code>custom</code>. The <code>default</code> and <code>custom</code> are reserved for future releases.</p>
+<ul>
+<li><code>null</code> indicates no data type handler.</li>
+<li>💁 <code>default</code> to be defined.</li>
+<li>💁 <code>custom</code> to be defined.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>null</code>.</p>
+</blockquote>
+<h3 id="errorhandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_ErrorHandler">ErrorHandler</a></h3>
+<p>The hosting and routing error handler. Its value can be <code>default</code> or <code>custom</code>. The command router receives an error or exception during the command routing, extraction, checker, or execution. On error, it forwards it to the <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Handlers.IErrorHandler.html">IErrorHandler</a> or <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Handlers.IExceptionHandler.html">IExceptionHandler</a>.</p>
+<ul>
+<li><code>default</code> handler prints the error information in the CLI terminal.</li>
+<li><code>custom</code> handler allows application authors to define a custom error handler to process and publish the error according to their needs. E.g., app authors can publish the errors to a central log or on their cloud backend for audit purposes.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>default</code>.</p>
+</blockquote>
+<h3 id="licensehandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_LicenseHandler">LicenseHandler</a></h3>
+<p>The license handler. Its value can be <code>online</code>, <code>offline</code>, or <code>byol</code>. The <code>offline</code> or <code>byol</code> are reserved for future releases.</p>
+<ul>
+<li><code>online</code> handler checks your license key online. Your CLI terminal needs network access during startup.</li>
+<li>🔜 <code>offline</code> handler checks your license key offline. Your CLI terminal does not need network access during startup.</li>
+<li>🔜 <code>boyl</code> handler allows you to bring you own license certificate to check the license key. Your CLI terminal may need network access during startup.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>online</code>.</p>
+</blockquote>
+<h3 id="servicehandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_ServiceHandler">ServiceHandler</a></h3>
+<p>The hosting and routing dependency injection services. Its value can be <code>default</code> or <code>custom</code>. The <code>custom</code> is reserved for future releases.</p>
+<ul>
+<li><code>default</code> handler provides default DI service implementations for command router, extractor, checker and runner.</li>
+<li>🔜 <code>custom</code> handler allows application authors to define a custom DI services implementations.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>default</code>.</p>
+</blockquote>
+<h3 id="storehandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_StoreHandler">StoreHandler</a></h3>
+<p>The command and argument store handler. Its value can be <code>in-memory</code>, <code>json</code> or <code>custom</code>. The <code>json</code> or <code>custom</code> are reserved for future releases.</p>
+<ul>
+<li><code>in-memory</code> handler provides in memory command and argument descriptions.</li>
+<li>🔜 <code>json</code> handler provides command and argument descriptions in a JSON file.</li>
+<li>🔜 <code>custom</code> handler allows application authors to provide command and argument descriptions from a custom store such as Entity framework or cloud databases REST API.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>in-memory</code>.</p>
+</blockquote>
+<h3 id="texthandler"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HandlerOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HandlerOptions_TextHandler">TextHandler</a></h3>
+<p>The hosting and routing command string text handler. Its value can be <code>unicode</code> or <code>ascii</code>. The <code>ascii</code> is reserved for future releases.</p>
+<ul>
+<li><code>unicode</code> handler supports Unicode command strings.</li>
+<li>🔜 <code>ascii</code> handler supports ASCII command strings.</li>
+</ul>
+<blockquote>
+<p>By default the value is set to <code>unicode</code>. Currently we only support <code>left-to-right</code> languages.</p>
+</blockquote>
+<h2 id="httpoptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HttpOptions.html">HttpOptions</a></h2>
+<p>The HTTP configuration options.</p>
+<h3 id="httpclientname"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.HttpOptions.html#PerpetualIntelligence_Cli_Configuration_Options_HttpOptions_HttpClientName">HttpClientName</a></h3>
+<p>The logical name to create and configure <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> instance. The framework uses <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.ihttpclientfactory">IHttpClientFactory</a> and the configured name to create an instance of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a>.</p>
+<h2 id="licensingoptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html">LicensingOptions</a></h2>
+<p>The licensing configuration options. Please visit <a href="licensing/intro.html">licensing</a> to generate license keys and access your identifiers.</p>
+<h3 id="authorizedapplicationid"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_AuthorizedApplicationId">AuthorizedApplicationId</a></h3>
+<p>The authorized application id. This is also the <code>auth_apps</code> claim from your license key.</p>
+<h3 id="consumertenantid"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_ConsumerTenantId">ConsumerTenantId</a></h3>
+<p>The consumer tenant id.</p>
+<h3 id="keysource"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_KeySource">KeySource</a></h3>
+<p>The license key source. Defaults to @PerpetualIntelligence.Protocols.Licensing.SaaSKeySources.JsonFile.</p>
+<h3 id="licensekey"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_LicenseKey">LicenseKey</a></h3>
+<p>The license key or the file path containing license key.</p>
+<h3 id="providerid"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_ProviderId">ProviderId</a></h3>
+<p>The license SaaS provider id or the provider tenant id. Defaults to @PerpetualIntelligence.Protocols.Licensing.SaaSProviders.PerpetualIntelligence.</p>
+<h3 id="subject"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions.html#PerpetualIntelligence_Cli_Configuration_Options_LicensingOptions_Subject">Subject</a></h3>
+<p>The subject or a licensing context to check the license. Your subscription id or any other domain identifier usually establishes your licensing context.</p>
+<h2 id="loggingoptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.LoggingOptions.html">LoggingOptions</a></h2>
+<p>The logging configuration options.</p>
+<h3 id="obscureerrorargumentstring"><a class="xref" href="../../api/PerpetualIntelligence.Shared.Infrastructure.LoggingOptions.html#PerpetualIntelligence_Shared_Infrastructure_LoggingOptions_ObscureErrorArgumentString">ObscureErrorArgumentString</a></h3>
+<p>The string used to obscure error description arguments. The default value is <code>****</code>.</p>
+<p>Example:</p>
+<pre><code>    // Obscure error args
+    options.Logging.ObsureErrorArguments = true;
+    options.Logging.ObscureErrorArgumentString = &quot;####&quot;;
+    [10:49:10 error] The license is not extracted or license is not valid. Please ensure you use the CLI hosted service. service=####
+
+    options.Logging.ObsureErrorArguments = false;
+    options.Logging.ObscureErrorArgumentString = &quot;####&quot;;
+    [10:49:10 error] The license is not extracted or license is not valid. Please ensure you use the CLI hosted service. service=PerpetualIntelligence.Cli.Integration.CliHostedService
+</code></pre>
+<h3 id="obsureerrorarguments"><a class="xref" href="../../api/PerpetualIntelligence.Shared.Infrastructure.LoggingOptions.html#PerpetualIntelligence_Shared_Infrastructure_LoggingOptions_ObsureErrorArguments">ObsureErrorArguments</a></h3>
+<p>Obscures the arguments in the error description to hide the sensitive data. The default value is <code>true</code>.</p>
+<h2 id="routeroptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.RouterOptions.html">RouterOptions</a></h2>
+<p>The command router options.</p>
+<h3 id="timeout"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.RouterOptions.html#PerpetualIntelligence_Cli_Configuration_Options_RouterOptions_Timeout">Timeout</a></h3>
+<p>The command router timeout in milliseconds. The default value is <code>25</code> seconds. Use <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.timeout.infinite">Infinite</a> for infinite timeout.</p>
+<blockquote>
+<p><strong>Note:</strong> A command route starts at a request to execute the command and ends when the command run is complete or at an error.</p>
+</blockquote>
+<h2 id="terminaloptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.TerminalOptions.html">TerminalOptions</a></h2>
+<p>The terminal configuration options.</p>
+<blockquote>
+<p>Reserved for future.</p>
+</blockquote>
+<h2 id="authenticationoptions"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Configuration.Options.AuthenticationOptions.html">AuthenticationOptions</a></h2>
+<p>🔜 The authentication configuration options.</p>
+<blockquote>
+<p>Planned for next major release.</p>
+</blockquote>
+<h1 id="references">References</h1>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/options">Options pattern in .NET</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles">Architectural principles</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/pi-cli/options.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

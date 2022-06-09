@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class InMemoryCommandStore
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class InMemoryCommandStore
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore">
+  
+  
+  <h1 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore" class="text-break">Class InMemoryCommandStore
+  </h1>
+  <div class="markdown level0 summary"><p>The default in-memory <a class="xref" href="PerpetualIntelligence.Cli.Stores.ICommandStoreHandler.html">ICommandStoreHandler</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">InMemoryCommandStore</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="PerpetualIntelligence.Cli.Stores.ICommandStoreHandler.html">ICommandStoreHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PerpetualIntelligence.Cli.Stores.InMemory.html">PerpetualIntelligence.Cli.Stores.InMemory</a></h6>
+  <h6><strong>Assembly</strong>: PerpetualIntelligence.Cli.dll</h6>
+  <h5 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InMemoryCommandStore : ICommandStoreHandler</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore__ctor_PerpetualIntelligence_Cli_Commands_Handlers_ITextHandler_System_Collections_Generic_IEnumerable_PerpetualIntelligence_Cli_Commands_CommandDescriptor__PerpetualIntelligence_Cli_Configuration_Options_CliOptions_Microsoft_Extensions_Logging_ILogger_PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore__.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.%23ctor(PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler%2CSystem.Collections.Generic.IEnumerable%7BPerpetualIntelligence.Cli.Commands.CommandDescriptor%7D%2CPerpetualIntelligence.Cli.Configuration.Options.CliOptions%2CMicrosoft.Extensions.Logging.ILogger%7BPerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L33">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore__ctor_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.#ctor*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore__ctor_PerpetualIntelligence_Cli_Commands_Handlers_ITextHandler_System_Collections_Generic_IEnumerable_PerpetualIntelligence_Cli_Commands_CommandDescriptor__PerpetualIntelligence_Cli_Configuration_Options_CliOptions_Microsoft_Extensions_Logging_ILogger_PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore__" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.#ctor(PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler,System.Collections.Generic.IEnumerable{PerpetualIntelligence.Cli.Commands.CommandDescriptor},PerpetualIntelligence.Cli.Configuration.Options.CliOptions,Microsoft.Extensions.Logging.ILogger{PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore})">InMemoryCommandStore(ITextHandler, IEnumerable&lt;CommandDescriptor&gt;, CliOptions, ILogger&lt;InMemoryCommandStore&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InMemoryCommandStore(ITextHandler textHandler, IEnumerable&lt;CommandDescriptor&gt; commandDescriptors, CliOptions options, ILogger&lt;InMemoryCommandStore&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Handlers.ITextHandler.html">ITextHandler</a></td>
+        <td><span class="parametername">textHandler</span></td>
+        <td><p>The text handler.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a>&gt;</td>
+        <td><span class="parametername">commandDescriptors</span></td>
+        <td><p>The command identities.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Configuration.Options.CliOptions.html">CliOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The configuration options.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.html">InMemoryCommandStore</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByIdAsync_System_String_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByIdAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L42">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByIdAsync_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByIdAsync_System_String_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByIdAsync(System.String)">TryFindByIdAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to finds a <a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a> by its id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TryResultOrError&lt;CommandDescriptor&gt;&gt; TryFindByIdAsync(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The command id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.TryResultOrError-1.html">TryResultOrError</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByNameAsync_System_String_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByNameAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L56">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByNameAsync_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByNameAsync*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByNameAsync_System_String_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByNameAsync(System.String)">TryFindByNameAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to find a a <a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a> by its name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TryResultOrError&lt;CommandDescriptor&gt;&gt; TryFindByNameAsync(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The command name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.TryResultOrError-1.html">TryResultOrError</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByPrefixAsync_System_String_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByPrefixAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L70">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByPrefixAsync_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByPrefixAsync*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryFindByPrefixAsync_System_String_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryFindByPrefixAsync(System.String)">TryFindByPrefixAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to find a a <a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a> by its prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TryResultOrError&lt;CommandDescriptor&gt;&gt; TryFindByPrefixAsync(string prefix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.TryResultOrError-1.html">TryResultOrError</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryMatchByPrefixAsync_System_String_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryMatchByPrefixAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L84">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryMatchByPrefixAsync_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryMatchByPrefixAsync*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore_TryMatchByPrefixAsync_System_String_" data-uid="PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore.TryMatchByPrefixAsync(System.String)">TryMatchByPrefixAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to match a a <a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a> by its prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;TryResultOrError&lt;CommandDescriptor&gt;&gt; TryMatchByPrefixAsync(string prefix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="PerpetualIntelligence.Shared.Infrastructure.TryResultOrError-1.html">TryResultOrError</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="PerpetualIntelligence.Cli.Stores.ICommandStoreHandler.html">ICommandStoreHandler</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Stores_InMemory_InMemoryCommandStore.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Stores.InMemory.InMemoryCommandStore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Stores/InMemory/InMemoryCommandStore.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

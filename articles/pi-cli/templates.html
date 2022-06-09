@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Templates </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Templates ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="templates">Templates</h1>
+
+<p><code>pi-cli</code> makes it easy to build modern CLI terminals for your company, product, service, SaaS, or development and testing needs. Enterprises can create CLIs with few flags or advanced complex CLIs with organization commands, grouped commands, subcommands, arguments, and options.</p>
+<p>Our ready-to-use sample templates allow quick onboarding for application authors to create enterprise-grade modern CLI terminals.</p>
+<h2 id="how-do-i-use-the-templates">How do I use the templates?</h2>
+<p>Clone or download the template on your dev environment.</p>
+<p>We provide 2 read-to-use templates:</p>
+<ul>
+<li><a href="https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNetLatest">.NET 6</a></li>
+<li><a href="https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNet31">.NET 3.1</a></li>
+</ul>
+<p><img src="../../images/picli/templates/dotnet-template.PNG" alt="Hostedservice"></p>
+<p>The templates have <code>pi-cli</code> configured with our <a href="https://www.perpetualintelligence.com/products/pidemo/licensing">demo license</a>. Build the solution <code>PerpetualIntelligence.Cli.Templates.Solution.sln</code>, and you are ready to go!</p>
+<h2 id="details">Details</h2>
+<p>You can use the templates to build new terminals or migrate your legacy console apps and modernize them.</p>
+<p>This section explains the code changes in the templates. To enable <code>pi-cli</code> you need to:</p>
+<ol>
+<li>Install Nuget Package</li>
+<li>Add terminal hosted service</li>
+<li>Add <code>pi-cli</code> and configure the options</li>
+<li>Add descriptors and runners</li>
+<li>Add handlers and checkers</li>
+<li>Start command router</li>
+<li>Stop the router</li>
+</ol>
+<h3 id="install-nuget-package">Install Nuget Package</h3>
+<p>The <code>pi-cli</code> framework is accessible by installing the following Nuget package.</p>
+<p><a href="https://www.nuget.org/packages/PerpetualIntelligence.Cli"><img src="https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli" alt="Nuget"></a></p>
+<h3 id="add-terminal-hosted-service">Add terminal hosted service</h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html">CliHostedService</a> is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.</p>
+<p>This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.</p>
+<p><img src="../../images/picli/templates/add-hosted-service.png" alt="Hostedservice"></p>
+<pre><code>using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Cli.Integration;
+using PerpetualIntelligence.Cli.Licensing;
+using PerpetualIntelligence.Cli.Services;
+
+namespace PiCliNewTerminalTemplateDotNetLatest
+{
+    /// &lt;summary&gt;
+    /// The sample &lt;c&gt;myorg&lt;/c&gt; hosted service. This class enables UX customization for your cli terminal.
+    /// &lt;/summary&gt;
+    public class MyOrgHostedService : CliHostedService
+    {
+        /// &lt;summary&gt;
+        /// Initialize a new instance.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;serviceProvider&quot;&gt;The service provider.&lt;/param&gt;
+        /// &lt;param name=&quot;cliOptions&quot;&gt;The configuration options.&lt;/param&gt;
+        /// &lt;param name=&quot;logger&quot;&gt;The logger.&lt;/param&gt;
+        public MyOrgHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger&lt;CliHostedService&gt; logger) : base(serviceProvider, cliOptions, logger)
+        {
+        }
+
+        /// &lt;summary&gt;
+        /// Perform custom configuration option checks at startup.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;options&quot;&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        protected override Task CheckHostApplicationConfigurationAsync(CliOptions options)
+        {
+            return Task.CompletedTask;
+        }
+
+        /// &lt;summary&gt;
+        /// The &lt;see cref=&quot;IHostApplicationLifetime.ApplicationStarted&quot;/&gt; handler.
+        /// &lt;/summary&gt;
+        protected override void OnStarted()
+        {
+            Console.WriteLine(&quot;Server started on {0}.&quot;, DateTime.UtcNow.ToLocalTime().ToString());
+            Console.WriteLine();
+        }
+
+        /// &lt;summary&gt;
+        /// The &lt;see cref=&quot;IHostApplicationLifetime.ApplicationStopped&quot;/&gt; handler.
+        /// &lt;/summary&gt;
+        protected override void OnStopped()
+        {
+            ConsoleHelper.WriteLineColor(ConsoleColor.Red, &quot;Server stopped on {0}.&quot;, DateTime.UtcNow.ToLocalTime().ToString());
+        }
+
+        /// &lt;summary&gt;
+        /// The &lt;see cref=&quot;IHostApplicationLifetime.ApplicationStopping&quot;/&gt; handler.
+        /// &lt;/summary&gt;
+        protected override void OnStopping()
+        {
+            Console.WriteLine(&quot;Stopping server...&quot;);
+        }
+
+        /// &lt;summary&gt;
+        /// Print &lt;c&gt;cli&lt;/c&gt; terminal header.
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        protected override Task PrintHostApplicationHeaderAsync()
+        {
+            Console.WriteLine(&quot;---------------------------------------------------------------------------------------------&quot;);
+            Console.WriteLine(&quot;Copyright (c) My Organization. All Rights Reserved.&quot;);
+            Console.WriteLine(&quot;For license, terms, and data policies, go to:&quot;);
+            Console.WriteLine(&quot;https://sampleyourorgurl.com&quot;);
+            Console.WriteLine(&quot;---------------------------------------------------------------------------------------------&quot;);
+
+            Console.WriteLine($&quot;Starting server myorg version=2.6.1-sample&quot;);
+            return Task.CompletedTask;
+        }
+
+        /// &lt;summary&gt;
+        /// Print host application licensing information.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;license&quot;&gt;The extracted license.&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        protected override async Task PrintHostApplicationLicensingAsync(License license)
+        {
+            // Print custom licensing info or remove it completely.
+            await base.PrintHostApplicationLicensingAsync(license);
+        }
+    }
+}
+
+</code></pre>
+<h3 id="add-pi-cli-and-configure-the-options">Add <code>pi-cli</code> and configure the options</h3>
+<p>You enable <code>pi-cli</code> framework by adding the DI services in your <code>Program.cs</code> file. This example code shows the default configuration when you run the template.</p>
+<pre><code>/// &lt;summary&gt;
+/// Configures the required &lt;c&gt;pi-cli&lt;/c&gt; services.
+/// &lt;/summary&gt;
+void ConfigureServices(IServiceCollection services)
+{
+    Console.Title = &quot;pi-cli demo  (.NET 6)&quot;;
+
+    services.AddCli(options =&gt;
+    {
+        // Error info
+        options.Logging.ObsureErrorArguments = false;
+
+        // Commands, arguments and options
+        options.Extractor.ArgumentAlias = true;
+        options.Extractor.ArgumentPrefix = &quot;--&quot;;
+        options.Extractor.ArgumentAliasPrefix = &quot;-&quot;;
+        options.Extractor.DefaultArgumentValue = true;
+        options.Extractor.DefaultArgument = true;
+        options.Extractor.ArgumentValueWithIn = &quot;\&quot;&quot;;
+        options.Extractor.ArgumentValueSeparator = &quot; &quot;;
+        options.Extractor.Separator = &quot; &quot;;
+
+        // Checkers
+        options.Checker.StrictArgumentValueType = true;
+
+        // Http
+        options.Http.HttpClientName = &quot;pi-demo&quot;;
+
+        // Licensing
+        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
+        options.Licensing.LicenseKey = &quot;D:\\lic\\demo_lic.json&quot;; // Download the license file in this location or specify your location
+        options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
+        options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
+        options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
+    }).AddExtractor&lt;CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider&gt;()
+      .AddArgumentChecker&lt;DataAnnotationsArgumentDataTypeMapper, ArgumentChecker&gt;()
+      .AddStoreHandler&lt;InMemoryCommandStore&gt;()
+      .AddErrorHandler&lt;ErrorHandler, ExceptionHandler&gt;()
+      .AddTextHandler&lt;UnicodeTextHandler&gt;()
+      .AddCommandDescriptors();
+
+    // Add the pi-cli hosted serce for terminal customization
+    services.AddHostedService&lt;MyOrgHostedService&gt;();
+
+    // Add the HTTP client factory to perform license checks
+    services.AddHttpClient(&quot;pi-demo&quot;);
+
+    // Add custom DI services
+    services.AddScoped&lt;IIdGeneratorSampleService, DefaultIdGeneratorSampleService&gt;();
+}
+</code></pre>
+<h3 id="add-descriptors-and-runners">Add descriptors and runners</h3>
+<p>The template contains a <code>MyOrgCommandRegistry.cs</code> file to register all the commands and argument descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test frameworks.</p>
+<blockquote>
+<p><strong>Note</strong>: A command descriptor has a command runner type and an optional custom command checker.</p>
+</blockquote>
+<p>For runners, we recommend you create the <code>Runners</code> folder and place all your command runners in a subdirectory as per their command prefix.</p>
+<p>Example:
+<code>myorg gen id</code>  command string has a runner in <code>\Runners\MyOrg\Gen\Id</code> folder. It enables having a clear separation of concerns for each command, and you can also have custom services for your command at the same place.</p>
+<p><img src="../../images/picli/templates/runners.PNG" alt="Hostedservice"></p>
+<h3 id="add-handlers-and-checkers">Add handlers and checkers</h3>
+<p>The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see <a href="details/handlers.html">handlers</a> and <a href="details/checkers.html">checkers</a>.</p>
+<pre><code>.AddArgumentChecker&lt;DataAnnotationsArgumentDataTypeMapper, ArgumentChecker&gt;()
+.AddStoreHandler&lt;InMemoryCommandStore&gt;()
+.AddErrorHandler&lt;ErrorHandler, ExceptionHandler&gt;()
+.AddTextHandler&lt;UnicodeTextHandler&gt;()
+</code></pre>
+<p>By default, the <code>pi-cli</code> terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported <code>left-to-right</code> langauge.</p>
+<h3 id="start-command-router">Start command router</h3>
+<p>The last step is to start the command router in the <code>Main</code> method to receive and run the user commands.</p>
+<p><img src="../../images/picli/templates/start-router.png" alt="Hostedservice"></p>
+<pre><code>private static async Task Main(string[] args)
+{
+    // Allows cancellation for the terminal.
+    CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+
+    // Setup the host builder.
+    IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
+
+    // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
+    using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
+    {
+        await host.RunRouterAsync(&quot;$ &quot;, cancellationTokenSource.Token);
+    }
+}
+</code></pre>
+<h3 id="stop-command-router">Stop command router</h3>
+<p>You can stop the command router explicitly or programmatically in the following ways:</p>
+<ul>
+<li>User can send the standard <code>CNTRL+C</code> signal to the hosted service</li>
+<li>User can use the <code>exit</code> command to issue a cancellation token</li>
+<li>Application can programmatically issue a cancellation token</li>
+</ul>
+<p><img src="../../images/picli/templates/stop-router.png" alt="Hostedservice"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/pi-cli/templates.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

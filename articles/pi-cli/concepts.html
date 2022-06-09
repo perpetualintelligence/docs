@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Concepts </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Concepts ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="concepts">Concepts</h1>
+
+<h2 id="terminal"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Terminal.html">Terminal</a></h2>
+<p>Terminals, also known as command lines, consoles, or CLI applications, allow organizations and users to accomplish and automate tasks on a computer without using a graphical user interface. If a CLI app supports user interaction, the UX is the terminal.</p>
+<h2 id="commands"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.html">Commands</a></h2>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.html">PerpetualIntelligence.Cli.Commands</a> namespace defines all the code constructs to describe the command and its arguments, extract command from the command string, route to the registered command handler, perform data type and strict type checks, and finally run the command.</p>
+<h3 id="commandstring"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.CommandString.html">CommandString</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.CommandString.html">PerpetualIntelligence.Cli.Commands.CommandString</a> class is an immutable Unicode textual form representing the command and its arguments or options that a user or an application wants to execute.</p>
+<p>Example:</p>
+<blockquote>
+<p>gh issue list</p>
+<p>gh issue create --label bug</p>
+<p>dotnet build --runtime ubuntu.18.04-x64</p>
+</blockquote>
+<h3 id="commanddescriptor"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">CommandDescriptor</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.CommandDescriptor.html">PerpetualIntelligence.Cli.Commands.CommandDescriptor</a> class defines the command identity and its supported arguments that an end-user or an application can use. You can also describe the command behavior, such as whether the command is a root, grouped, or subcommand.</p>
+<h4 id="root-command">Root Command</h4>
+<p>A root command is the top CLI command. It can represent your organization, a product, or a service. For instance, Github CLI <a href="https://cli.github.com/manual/gh">gh</a> is an example of an organization root command. Microsoft, however, uses <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet">dotnet</a> as a root command for the .NET CLI.</p>
+<h4 id="grouped-command">Grouped Command</h4>
+<p>A grouped command provides a context for a set of related sub-commands. For instance, Github CLI <a href="https://cli.github.com/manual/gh_auth">gh auth</a> is an example of a grouped command to authenticate gh and git with GitHub.</p>
+<h4 id="sub-command">Sub Command</h4>
+<p>A subcommand is an individual executable command that performs a specific action. For instance, Github CLI <a href="https://cli.github.com/manual/gh_auth_login">gh auth login</a> is an example of a subcommand that authenticates with GitHub host. <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build">dotnet build</a> is a sub-command that builds a project and all of its dependencies.</p>
+<blockquote>
+<p><strong>Note:</strong> A command is a subcommand unless you designate it as a root or a grouped command.</p>
+</blockquote>
+<h3 id="command"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Command.html">Command</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Command.html">PerpetualIntelligence.Cli.Commands.Command</a> class is a runtime validated representation of an actual command and its argument values passed by a user or an application. It represents a specific action or a set of actions that a user or an application requests the underlying system to perform. It can be a simple action such as invoking a system method or an OS command or representing a complex operation that calls a set of protected APIs over the internal or external network. A command can virtually do anything in the context of your application or service.</p>
+<h3 id="argumentdescriptor"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.html">ArgumentDescriptor</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.html">PerpetualIntelligence.Cli.Commands.ArgumentDescriptor</a> class defines the command argument identity, data type, and data validation behavior. We also refer to arguments as command options or command flags. An argument <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.html#PerpetualIntelligence_Cli_Commands_ArgumentDescriptor_Id">Id</a> is always unique within a command. By design it implements the default equality <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a> using <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.html#PerpetualIntelligence_Cli_Commands_ArgumentDescriptor_Id">Id</a> property. Thus, two arguments with the same id are equal irrespective of other property values. This is done to improve performance during lookup and avoid multiple arguments with same identifiers.</p>
+<h3 id="argument"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Commands.Argument.html">PerpetualIntelligence.Cli.Commands.Argument</a> is a runtime validated representation of an actual command argument, option, or a flag and its value passed by a user or an application.</p>
+<h2 id="integration"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.html">Integration</a></h2>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.html">PerpetualIntelligence.Cli.Integration</a> namespace defines all the code constructs to integrate your CLI terminal with the pi-cli framework. It provides a service builder for <a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection">dependency injection</a> and hosts a service to manage terminal lifetime and customization.</p>
+<h3 id="clihostedservice"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html">CliHostedService</a></h3>
+<p>The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html">PerpetualIntelligence.Cli.Integration.CliHostedService</a> is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.</p>
+<h4 id="terminal-lifetime">Terminal Lifetime</h4>
+<p>You can override the following terminal lifetime methods in your application context.</p>
+<h5 id="registerhostapplicationeventsasync"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_RegisterHostApplicationEventsAsync_Microsoft_Extensions_Hosting_IHostApplicationLifetime_">RegisterHostApplicationEventsAsync</a></h5>
+<p>Allows the application to register its custom events. The default implementation registers OnStarted, OnStopping, and OnStopped events that application authors can override.</p>
+<pre><code>    protected override Task RegisterHostApplicationEventsAsync(IHostApplicationLifetime hostApplicationLifetime)
+    {
+        // Your custom application event registry.
+
+        return Task.CompletedTask;
+    }
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> OnStarted, OnStopping, and OnStopped are not triggered if you override RegisterHostApplicationEventsAsync and register your custom events.</p>
+</blockquote>
+<h5 id="onstarted"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_OnStarted">OnStarted</a></h5>
+<p>Triggered when the <c>pi-cli</c> application host has fully started.</p>
+<pre><code>    protected override void OnStarted()
+    {
+        Console.WriteLine(&quot;Server started on {0}.&quot;, DateTime.UtcNow.ToLocalTime().ToString());
+        Console.WriteLine();
+    }
+</code></pre>
+<h5 id="onstopping"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_OnStopping">OnStopping</a></h5>
+<p>Triggered when the <c>pi-cli</c> application host is starting a graceful shutdown. Shutdown will block until all callbacks registered on this token have completed.</p>
+<pre><code>    protected override void OnStopping()
+    {
+        Console.WriteLine(&quot;Stopping server...&quot;);
+    }
+</code></pre>
+<h5 id="onstopped"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_OnStopped">OnStopped</a></h5>
+<p>Triggered when the <c>pi-cli</c> application host has completed a graceful shutdown. The application will not exit until all callbacks registered on this token have completed.</p>
+<pre><code>    protected override void OnStopped()
+    {
+        ConsoleHelper.WriteLineColor(ConsoleColor.Red, &quot;Server stopped on {0}.&quot;, DateTime.UtcNow.ToLocalTime().ToString());
+    }
+</code></pre>
+<h4 id="terminal-header">Terminal Header</h4>
+<p>You can override the following method to print the terminal header in your application context.</p>
+<h5 id="printhostapplicationheaderasync"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_PrintHostApplicationHeaderAsync">PrintHostApplicationHeaderAsync</a></h5>
+<p>Allows the host application to print the custom header.</p>
+<pre><code>    protected override Task PrintHostApplicationHeaderAsync()
+    {
+        Console.WriteLine(&quot;Print your CLI terminal header...&quot;);
+        return Task.CompletedTask;
+    }
+</code></pre>
+<h4 id="terminal-licensing-information">Terminal Licensing Information</h4>
+<p>You can override the following method to print the terminal licensing information in your application context.</p>
+<h5 id="printhostapplicationlicensingasync"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_PrintHostApplicationLicensingAsync_PerpetualIntelligence_Cli_Licensing_License_">PrintHostApplicationLicensingAsync</a></h5>
+<p>Allows host application to print custom licensing information.</p>
+<pre><code>    protected override Task PrintHostApplicationLicensingAsync(PerpetualIntelligence.Cli.Licensing.License license)
+    {
+        Console.WriteLine(&quot;Print your CLI terminal licensing info...&quot;);
+        return Task.CompletedTask;
+    }
+</code></pre>
+<h4 id="terminal-options">Terminal Options</h4>
+<p>You can override the following method to perform the terminal configuration options checks.</p>
+<h5 id="checkhostapplicationconfigurationasync"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.CliHostedService.html#PerpetualIntelligence_Cli_Integration_CliHostedService_CheckHostApplicationConfigurationAsync_PerpetualIntelligence_Cli_Configuration_Options_CliOptions_">CheckHostApplicationConfigurationAsync</a></h5>
+<p>Allows the host application to perform additional configuration option checks.</p>
+<pre><code>    protected override Task CheckHostApplicationConfigurationAsync(PerpetualIntelligence.Cli.Configuration.Options.CliOptions options)
+    {
+        // Perform your custom checks here
+        return Task.CompletedTask;
+    }
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> The <code>pi-cli</code> framework performs certain mandatory configuration option checks. Applications cannot customize or change the mandatory configuration option checks, but they can perform additional configuration checks as shown above. For more information see <a href="defaults.html">defaults and limits</a>.</p>
+</blockquote>
+<h3 id="iclibuilder"><a class="xref" href="../../api/PerpetualIntelligence.Cli.Integration.ICliBuilder.html">ICliBuilder</a></h3>
+<p>You enable the pi-cli framework to any .NET, .NET Core, or .NET6+ console application by adding the relevant services to the <a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection">dependency injection (DI)</a> system.</p>
+<pre><code>    public static async Task Main(string[] args)
+    {
+        // The cancellation token routing commands.
+        CancellationTokenSource cancellationTokenSource = new();
+
+        // Setup the host builder
+        IHostBuilder hostBuilder = CreateHostBuilder(args, Startup.ConfigureServices);
+
+        // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
+        using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
+        {
+            // Run the router loop to listen to the user input and process the command string
+            await host.RunRouterAsync(&quot;_&gt; &quot;, cancellationTokenSource.Token);
+        }
+    }
+
+    // Add pi-cli to the console app
+    public void ConfigureServices(IServiceCollection services)
+    {
+        ICliBuilder builder = services.AddCli(options =&gt; { ... });
+    }
+</code></pre>
+<p>Many of the fundamental CLI terminal configuration settings can be set on the options. The <a class="xref" href="../../api/PerpetualIntelligence.Cli.Extensions.ICliBuilderExtensions.html">ICliBuilderExtensions</a> provides dependency injection extension methods to register required and optional services. For more information see the following:</p>
+<ul>
+<li><a href="options.html">Configuration options</a></li>
+<li><a href="services.html">DI Services</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/pi-cli/concepts.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

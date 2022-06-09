@@ -1,0 +1,615 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IAppIdentifiers
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IAppIdentifiers
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers">
+  
+  
+  <h1 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers" class="text-break">Interface IAppIdentifiers
+  </h1>
+  <div class="markdown level0 summary"><p>An abstractions of application identifiers.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.html">PerpetualIntelligence.Protocols.Authorization</a></h6>
+  <h6><strong>Assembly</strong>: PerpetualIntelligence.Protocols.dll</h6>
+  <h5 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAppIdentifiers</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_DefaultAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.DefaultAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L25">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_DefaultAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.DefaultAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_DefaultAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.DefaultAsync(System.Security.Claims.ClaimsPrincipal)">DefaultAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.html">IAppIdentifiers</a> service from the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a>. For client apps this
+can be used for singleton state container. For server apps this can be a no-ops as the service
+implementation will be transient or scoped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DefaultAsync(ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L31">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppIdAsync">GetAppIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the client app id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetAppIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppTypeAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppTypeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L37">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppTypeAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppTypeAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetAppTypeAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetAppTypeAsync">GetAppTypeAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the client app type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetAppTypeAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerObjectIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerObjectIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L43">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerObjectIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerObjectIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerObjectIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerObjectIdAsync">GetConsumerObjectIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the login tenant id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetConsumerObjectIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerTenantIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerTenantIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L49">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerTenantIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerTenantIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetConsumerTenantIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetConsumerTenantIdAsync">GetConsumerTenantIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the login tenant id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetConsumerTenantIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginObjectIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginObjectIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L55">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginObjectIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginObjectIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginObjectIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginObjectIdAsync">GetLoginObjectIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the login object id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetLoginObjectIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginTenantIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginTenantIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L61">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginTenantIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginTenantIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetLoginTenantIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetLoginTenantIdAsync">GetLoginTenantIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the login tenant id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetLoginTenantIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetProviderTenantIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetProviderTenantIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L67">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetProviderTenantIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetProviderTenantIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetProviderTenantIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetProviderTenantIdAsync">GetProviderTenantIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the provider tenant id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetProviderTenantIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetPublisherTenantIdAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetPublisherTenantIdAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L73">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetPublisherTenantIdAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetPublisherTenantIdAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_GetPublisherTenantIdAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.GetPublisherTenantIdAsync">GetPublisherTenantIdAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets the publisher tenant id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;string&gt; GetPublisherTenantIdAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_InitializeAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.InitializeAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L82">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_InitializeAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.InitializeAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_InitializeAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.InitializeAsync(System.Security.Claims.ClaimsPrincipal)">InitializeAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>Initializes the <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.html">IAppIdentifiers</a> service from the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a>. For client
+apps this can be used for singleton state container. For server apps this can be a no-ops as the service
+implementation will be transient or scoped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task InitializeAsync(ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td><p>The claims principal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_IsInitializedAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.IsInitializedAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L88">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_IsInitializedAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.IsInitializedAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_IsInitializedAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.IsInitializedAsync(System.Security.Claims.ClaimsPrincipal)">IsInitializedAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.html">IAppIdentifiers</a> is initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; IsInitializedAsync(ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_PopulateAsync_System_Security_Claims_ClaimsPrincipal_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.PopulateAsync(System.Security.Claims.ClaimsPrincipal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L94">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_PopulateAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.PopulateAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_PopulateAsync_System_Security_Claims_ClaimsPrincipal_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.PopulateAsync(System.Security.Claims.ClaimsPrincipal)">PopulateAsync(ClaimsPrincipal)</h4>
+  <div class="markdown level1 summary"><p>Populates the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a> with claims from <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.html">IAppIdentifiers</a> service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PopulateAsync(ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></td>
+        <td><span class="parametername">claimsPrincipal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_ResetAsync.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.ResetAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L100">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_ResetAsync_" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.ResetAsync*"></a>
+  <h4 id="PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers_ResetAsync" data-uid="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.ResetAsync">ResetAsync()</h4>
+  <div class="markdown level1 summary"><p>Resets the <a class="xref" href="PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers.html">IAppIdentifiers</a> service for the next login.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ResetAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/protocols/new/main/apiSpec/new?filename=PerpetualIntelligence_Protocols_Authorization_IAppIdentifiers.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Protocols.Authorization.IAppIdentifiers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/protocols/blob/main/src/PerpetualIntelligence.Protocols/Authorization/IAppIdentifiers.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

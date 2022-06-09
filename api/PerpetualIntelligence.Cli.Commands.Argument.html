@@ -1,0 +1,803 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Argument
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Argument
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.ico" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PerpetualIntelligence.Cli.Commands.Argument">
+  
+  
+  <h1 id="PerpetualIntelligence_Cli_Commands_Argument" data-uid="PerpetualIntelligence.Cli.Commands.Argument" class="text-break">Class Argument
+  </h1>
+  <div class="markdown level0 summary"><p>The <a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a> class is a runtime validated representation of an actual command argument and its
+value passed by a user or an application.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Argument</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PerpetualIntelligence.Cli.Commands.html">PerpetualIntelligence.Cli.Commands</a></h6>
+  <h6><strong>Assembly</strong>: PerpetualIntelligence.Cli.dll</h6>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Argument_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Argument : IEquatable&lt;Argument&gt;</code></pre>
+  </div>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Argument_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+An argument id is always unique within a command. By design <a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a> implements the default
+equality <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a> and <a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html#PerpetualIntelligence_Cli_Commands_Argument_GetHashCode">GetHashCode()</a> using <a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html#PerpetualIntelligence_Cli_Commands_Argument_Id">Id</a> property. Thus, two
+arguments with the same id are equal irrespective of other property values. This is done to improve performance
+during lookup and avoid multiple arguments with same identifiers.
+</p>
+<p>
+The arguments can have same ids across multiple commands. Each <a class="xref" href="PerpetualIntelligence.Cli.Commands.Command.html">Command</a> has
+<a class="xref" href="PerpetualIntelligence.Cli.Commands.ArgumentDescriptors.html">ArgumentDescriptors</a> collection that contains arguments with unique ids.
+</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument__ctor_PerpetualIntelligence_Cli_Commands_ArgumentDescriptor_System_Object_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.%23ctor(PerpetualIntelligence.Cli.Commands.ArgumentDescriptor%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L39">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument__ctor_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument__ctor_PerpetualIntelligence_Cli_Commands_ArgumentDescriptor_System_Object_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor(PerpetualIntelligence.Cli.Commands.ArgumentDescriptor,System.Object)">Argument(ArgumentDescriptor, Object)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Argument(ArgumentDescriptor argumentDescriptor, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.ArgumentDescriptor.html">ArgumentDescriptor</a></td>
+        <td><span class="parametername">argumentDescriptor</span></td>
+        <td><p>The argument descriptor.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The argument value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument__ctor_System_String_System_Object_System_ComponentModel_DataAnnotations_DataType_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.%23ctor(System.String%2CSystem.Object%2CSystem.ComponentModel.DataAnnotations.DataType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L70">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument__ctor_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument__ctor_System_String_System_Object_System_ComponentModel_DataAnnotations_DataType_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor(System.String,System.Object,System.ComponentModel.DataAnnotations.DataType)">Argument(String, Object, DataType)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Argument(string id, object value, DataType dataType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The argument id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The argument value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.dataannotations.datatype">DataType</a></td>
+        <td><span class="parametername">dataType</span></td>
+        <td><p>The argument data type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument__ctor_System_String_System_Object_System_String_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.%23ctor(System.String%2CSystem.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L56">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument__ctor_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument__ctor_System_String_System_Object_System_String_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.#ctor(System.String,System.Object,System.String)">Argument(String, Object, String)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Argument(string id, object value, string customDataType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The argument id.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The argument value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">customDataType</span></td>
+        <td><p>The argument custom data type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Alias.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Alias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L80">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Alias_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Alias*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Alias" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Alias">Alias</h4>
+  <div class="markdown level1 summary"><p>The argument alias.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Alias { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_CustomDataType.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.CustomDataType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L86">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_CustomDataType_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.CustomDataType*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_CustomDataType" data-uid="PerpetualIntelligence.Cli.Commands.Argument.CustomDataType">CustomDataType</h4>
+  <div class="markdown level1 summary"><p>The argument custom data type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;custom_data_type&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public string CustomDataType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Argument_CustomDataType_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This custom data type is used only if the <a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html#PerpetualIntelligence_Cli_Commands_Argument_DataType">DataType</a> property is set to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.dataannotations.datatype#system-componentmodel-dataannotations-datatype-custom">Custom</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_DataType.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.DataType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L93">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_DataType_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.DataType*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_DataType" data-uid="PerpetualIntelligence.Cli.Commands.Argument.DataType">DataType</h4>
+  <div class="markdown level1 summary"><p>The argument data type. Defaults to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.dataannotations.datatype#system-componentmodel-dataannotations-datatype-text">Text</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;data_type&quot;)]
+public DataType DataType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.dataannotations.datatype">DataType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Description.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L99">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Description_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Description*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Description" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Description">Description</h4>
+  <div class="markdown level1 summary"><p>The argument description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;description&quot;)]
+public string Description { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Id.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L106">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Id_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Id*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Id" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Id">Id</h4>
+  <div class="markdown level1 summary"><p>The argument id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;id&quot;)]
+public string Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="PerpetualIntelligence_Cli_Commands_Argument_Id_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The argument id is unique with in a command.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Properties.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Properties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L112">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Properties_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Properties*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Properties" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Properties">Properties</h4>
+  <div class="markdown level1 summary"><p>The argument custom properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;properties&quot;)]
+[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+public Dictionary&lt;string, object&gt; Properties { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Value.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L119">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Value_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Value*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Value" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The argument value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;value&quot;)]
+public object Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Equals_PerpetualIntelligence_Cli_Commands_Argument_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Equals(PerpetualIntelligence.Cli.Commands.Argument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L159">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Equals_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Equals*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Equals_PerpetualIntelligence_Cli_Commands_Argument_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Equals(PerpetualIntelligence.Cli.Commands.Argument)">Equals(Argument)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current argument is equal to another argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Argument other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current argument is equal to the other argument; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_Equals_System_Object_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L149">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_Equals_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Equals*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_Equals_System_Object_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current argument is equal to another argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The other argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current argument is equal to the other argument; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_GetHashCode.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L169">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_GetHashCode_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.GetHashCode*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_GetHashCode" data-uid="PerpetualIntelligence.Cli.Commands.Argument.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for this argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_op_Equality_PerpetualIntelligence_Cli_Commands_Argument_PerpetualIntelligence_Cli_Commands_Argument_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.op_Equality(PerpetualIntelligence.Cli.Commands.Argument%2CPerpetualIntelligence.Cli.Commands.Argument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L139">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_op_Equality_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.op_Equality*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_op_Equality_PerpetualIntelligence_Cli_Commands_Argument_PerpetualIntelligence_Cli_Commands_Argument_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.op_Equality(PerpetualIntelligence.Cli.Commands.Argument,PerpetualIntelligence.Cli.Commands.Argument)">Equality(Argument, Argument)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current argument is equal to another argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Argument left, Argument right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current argument is equal to the other argument; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument_op_Inequality_PerpetualIntelligence_Cli_Commands_Argument_PerpetualIntelligence_Cli_Commands_Argument_.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument.op_Inequality(PerpetualIntelligence.Cli.Commands.Argument%2CPerpetualIntelligence.Cli.Commands.Argument)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L128">View Source</a>
+  </span>
+  <a id="PerpetualIntelligence_Cli_Commands_Argument_op_Inequality_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.op_Inequality*"></a>
+  <h4 id="PerpetualIntelligence_Cli_Commands_Argument_op_Inequality_PerpetualIntelligence_Cli_Commands_Argument_PerpetualIntelligence_Cli_Commands_Argument_" data-uid="PerpetualIntelligence.Cli.Commands.Argument.op_Inequality(PerpetualIntelligence.Cli.Commands.Argument,PerpetualIntelligence.Cli.Commands.Argument)">Inequality(Argument, Argument)</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the current argument is not equal to another argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Argument left, Argument right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PerpetualIntelligence.Cli.Commands.Argument.html">Argument</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current argument is not equal to the other argument; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="PerpetualIntelligence.Cli.Commands.Command.html">Command</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/new/main/apiSpec/new?filename=PerpetualIntelligence_Cli_Commands_Argument.md&amp;value=---%0Auid%3A%20PerpetualIntelligence.Cli.Commands.Argument%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/perpetualintelligence/cli/blob/main/src/PerpetualIntelligence.Cli/Commands/Argument.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2021 (c) Perpetual Intelligence L.L.C. All Rights Reserved
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

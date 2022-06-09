@@ -34,5 +34,5 @@ Based on your purchased license and redistribution limit, you can develop your e
 
 > You are responsible for tracking the redistribution limit for your purchased license.
 
-See our [pricing page](https://perpetualintelligence/products/picli#pricing) for redistribution limits.
+See our [pricing page](https://perpetualintelligence.com/products/picli#pricing) for redistribution limits.
 

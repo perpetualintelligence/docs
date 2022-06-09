@@ -81,7 +81,7 @@ Our [ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/
 ## Licensing and Pricing
 The software license and pricing model is flexible and fits all, whether you are a community member, solo entrepreneur, small-medium business, large enterprise, or a service vendor.
 - [Licensing](licensing/intro.md)
-- [Pricing](https://perpetualintelligence/products/picli#pricing)
+- [Pricing](https://perpetualintelligence.com/products/picli#pricing)
 
 ## Issues and feature requests
 Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.

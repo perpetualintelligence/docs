@@ -7,7 +7,21 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-        <PackageReference Include="PerpetualIntelligence.Cli" Version="2.6.1-rc.2205101451" />
     </ItemGroup>
 
+    <!--
+        CI CONFIG:
+    -->
+    <Choose>
+        <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
+            <ItemGroup>
+                <ProjectReference Include="..\..\..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj" />
+            </ItemGroup>
+        </When>
+        <Otherwise>
+            <ItemGroup>
+                <PackageReference Include="PerpetualIntelligence.Cli" Version="2.6.1-rc.2205101451" />
+            </ItemGroup>
+        </Otherwise>
+    </Choose>
 </Project>

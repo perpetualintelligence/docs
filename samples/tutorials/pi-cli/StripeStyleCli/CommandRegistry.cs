@@ -22,7 +22,7 @@ namespace StripeStyleCli
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
             // Sample stripe root command
-            builder.DefineCommand<CommandChecker, StripeRunner>("stripe-cli-org", "stripe", "stripe", "Sample stripe CLI root command.")
+            builder.DefineCommand<CommandChecker, StripeRunner>("stripe-cli-org", "stripe", "stripe", "Sample stripe CLI root command.", isGroup:true, isRoot:true)
                    .DefineArgument("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
                    .Add();
 

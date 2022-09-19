@@ -15,6 +15,7 @@
         CI CONFIG:
     -->
     <Choose>
+        <!--NOTE: cross is only used for Perpetual Intelligence L.L.C. internal development. Do not use it in your application code.-->
         <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
             <ItemGroup>
                 <ProjectReference Include="..\..\..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj" />

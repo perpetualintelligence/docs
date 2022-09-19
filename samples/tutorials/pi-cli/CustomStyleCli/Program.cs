@@ -1,4 +1,8 @@
-﻿using CustomStyleCli;
+﻿// Note:
+// - This sample template uses the new .NET 6 minimal hosting model. See https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information.
+// - To use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs or refer to .NET3.1 sample template
+
+using CustomStyleCli;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PerpetualIntelligence.Cli.Commands.Checkers;
@@ -100,6 +104,6 @@ static void InitSerilog()
         .MinimumLevel.Override("System", LogEventLevel.Error)
         .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Error)
         .Enrich.FromLogContext()
-        .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:w5}] {Message:lj}{NewLine}{Exception}", theme: AnsiConsoleTheme.Code)
+        .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:w4}] {Message:lj}{NewLine}{Exception}", theme: AnsiConsoleTheme.Code)
         .CreateLogger();
 }

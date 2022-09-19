@@ -15,6 +15,8 @@ Migrating from version 2 to version requires you to upgrade your account and you
 
 #### Declarative
 
+#### Fallback Licensing Check
+
 ### Issue Description
 Depending on your network speed, browsers such as Firefox, Chrome, or Edge may give you an error when you load our websites for the first time. We are aware of this issue and working with Microsoft to resolve it as soon as possible.
 

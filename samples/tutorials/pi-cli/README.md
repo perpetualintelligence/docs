@@ -1,7 +1,7 @@
 # `pi-cli` Tutorials
 Learn to use the `pi-cli` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!
 
-### Technology
+## Technology
 
 | Brand                                     | Tutorial                                                                                                          | Description                                                                                                                             |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -10,7 +10,7 @@ Learn to use the `pi-cli` framework by exploring our working samples on [Github]
 | ![pi](../../../docfx_project/images/brands/pi_64.png)         | [CustomStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli/CustomStyleCli) | Learn to build CLI terminals with your custom style.                                                                |
 | ![pi](../../../docfx_project/images/brands/pi_64.png)         | [UnicodeCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli/CustomStyleCli)     | Learn to build [Unicode](https://home.unicode.org/) CLI terminals with any user language.                           |
 
-### Payment Platforms
+## Payment Platforms
 | Brand                                     | Tutorial                                                                                                          | Description                                                                                                         |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | ![stripe](../../../docfx_project/images/brands/stripe_64.png) | [StripeStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli/StripeStyleCli) | Learn to build modern CLI terminals similar to [Stripe CLI](https://stripe.com/docs/stripe-cli) |

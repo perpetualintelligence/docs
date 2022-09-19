@@ -1,7 +1,6 @@
-﻿using CustomStyleCli.Runners.Custom.Test;
-using PerpetualIntelligence.Cli.Commands;
+﻿using CustomStyleCli.Runners.Custom;
+using CustomStyleCli.Runners.Custom.Test;
 using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
@@ -22,76 +21,35 @@ namespace CustomStyleCli
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
-            UnicodeTextHandler unicodeTextHandler = new();
+            // Custom root command
+            builder.DefineCommand<CommandChecker, CustomRunner>("ct-cli-root", "custom", "custom", "Sample description for custom root command.", isGroup: true, isRoot: true).Add();
 
-            // custom root command
-            {
-                CommandDescriptor ct = new(
-                    "aab63b52-ec5c-4e19-8c62-b9514351deca",
-                    "custom",
-                    "custom",
-                    "Sample description for custom root command."
-                );
-                builder.AddDescriptor<CustomTestRunner, CommandChecker>(ct, isRoot: true, isGroup: true);
-            };
+            // Custom grouped command
+            builder.DefineCommand<CommandChecker, CustomTestRunner>("ct-cli-group", "test", "custom test", "Custom test grouped command", isGroup: true)
+                   .DefineArgument("arg1", nameof(Boolean), "Arg1 description").Add()
+                   .DefineArgument("arg2", DataType.Text, "Arg2 description").Add()
+                   .DefineArgument("arg3", DataType.Date, "Arg3 description").Add()
+                   .DefineArgument("arg4", nameof(Int32), "Arg4 description").Add()
+                   .DefineArgument("arg5", nameof(Double), "Arg5 description", alias: "h").Add()
+                   .Add();
 
-            // custom test grouped command
-            {
-                // custom test
-                CommandDescriptor customTest = new(
-                    "custom-test-id",
-                    "test",
-                    "custom test",
-                    "Custom test grouped command",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("arg1", nameof(Boolean), false, "Arg1 description"),
-                        new ArgumentDescriptor("arg2", DataType.Text, false, "Arg2 description"),
-                        new ArgumentDescriptor("arg3", DataType.Date, false, "Arg3 description"),
-                        new ArgumentDescriptor("arg4", nameof(Int32), false, "Arg4 description"),
-                        new ArgumentDescriptor("arg5", nameof(Double), false, "Arg5 description") {Alias = "h"}
-                    })
-                    );
-                builder.AddDescriptor<CustomTestRunner, CommandChecker>(customTest, isGroup: true);
+            // Custom random sub-command
+            builder.DefineCommand<CommandChecker, CustomTestRandomRunner>("ct-cli-random", "random", "custom test random", "Custom test random description").Add();
 
-                // test random
-                CommandDescriptor randomRunner = new(
-                    "custom-test-random",
-                    "random",
-                    "custom test random",
-                    "Custom test random description"
-                );
-                builder.AddDescriptor<CustomTestRandomRunner, CommandChecker>(randomRunner);
+            // Custom guid sub-command
+            builder.DefineCommand<CommandChecker, CustomTestRandomRunner>("ct-cli-guid", "guid", "custom test guid", "Custom test guid description").Add();
 
-                // test guid
-                CommandDescriptor guidRunner = new(
-                    "custom-test-guid",
-                    "guid",
-                    "custom test guid",
-                    "Custom test guid description"
-                );
-                builder.AddDescriptor<CustomTestGuidRunner, CommandChecker>(guidRunner);
-            };
+            // Exit sub-command
+            builder.DefineCommand<CommandChecker, ExitRunner>("ct-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
 
-            // Exit
-            CommandDescriptor exit = new("ct-cli-exit", "exit", "exit", "Exits the CLI terminal.");
-            builder.AddDescriptor<ExitRunner, CommandChecker>(exit);
+            // Clear screen sub-command
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("ct-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
 
-            // Clear screen
-            CommandDescriptor cls = new("ct-cli-cls", "cls", "cls", "Clears the CLI terminal screen.");
-            builder.AddDescriptor<ClearScreenRunner, CommandChecker>(cls);
+            // OS sub-command
+            builder.DefineCommand<CommandChecker, RunRunner>("ct-cli-run", "run", "run", "Runs an OS command.").Add();
 
-            // Runs an OS command
-            CommandDescriptor run = new("ct-cli-run", "run", "run", "Runs an OS command.");
-            builder.AddDescriptor<RunRunner, CommandChecker>(run);
-
-            // Show licensing information
-            {
-                // Show licensing details.
-                CommandDescriptor licInfo = new("ct-cli-lic", "lic", "lic info", "Displays the licensing information.");
-                builder.AddDescriptor<LicInfoRunner, CommandChecker>(licInfo);
-            }
+            // Licensing details sub-command
+            builder.DefineCommand<CommandChecker, LicInfoRunner>("ct-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
 
             return builder;
         }

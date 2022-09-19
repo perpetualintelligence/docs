@@ -1,11 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com
-*/
-
-using PerpetualIntelligence.Cli.Commands.Checkers;
+﻿using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
@@ -44,17 +37,14 @@ namespace PiCliNewTerminalTemplateDotNetLatest
                     DefineArgument("type", DataType.Text, "Id type", alias: "t", required: true).Add().
                     Add();
 
-            // OOTB command runner
-            {
-                // Exit
-                builder.DefineCommand<CommandChecker, ExitRunner>("myorg-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
+            // Exit
+            builder.DefineCommand<CommandChecker, ExitRunner>("myorg-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
 
-                // Clear screen
-                builder.DefineCommand<CommandChecker, ClearScreenRunner>("myorg-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
+            // Clear screen
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("myorg-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
 
-                // Show licensing details.
-                builder.DefineCommand<CommandChecker, LicInfoRunner>("myorg-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
-            }
+            // Show licensing details.
+            builder.DefineCommand<CommandChecker, LicInfoRunner>("myorg-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
 
             return builder;
         }

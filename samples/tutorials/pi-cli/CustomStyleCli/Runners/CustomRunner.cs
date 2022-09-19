@@ -26,7 +26,7 @@ namespace CustomStyleCli.Runners.Custom
         /// <exception cref="NotImplementedException"></exception>
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
-            Console.WriteLine($"Running {context.Command.Name} command.");
+            Console.WriteLine($"Running {context.Command.Name} root command.");
 
             if (context.Command.Arguments != null)
             {

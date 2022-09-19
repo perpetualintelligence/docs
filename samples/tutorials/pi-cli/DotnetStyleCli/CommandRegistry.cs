@@ -1,8 +1,6 @@
 ﻿using DotnetStyleCli.Runners;
 using DotnetStyleCli.Runners.Nuget;
-using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
@@ -23,77 +21,39 @@ namespace DotnetStyleCli
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
-            UnicodeTextHandler unicodeTextHandler = new();
-
             // sample dotnet
-            {
-                CommandDescriptor dt = new(
-                    "dt-cli-dotnet",
-                    "dotnet",
-                    "dotnet",
-                    "Sample description for dotnet driver.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("info", nameof(Boolean), false, "Prints out detailed information about a .NET installation and the machine environment, such as the current operating system, and commit SHA of the .NET version."),
-                        new ArgumentDescriptor("version", nameof(Boolean), false, "Prints out the version of the .NET SDK used by dotnet commands. Includes the effects of any global.json"),
-                        new ArgumentDescriptor("list-runtimes", nameof(Boolean), false, "Prints out a list of the installed .NET runtimes. An x86 version of the SDK lists only x86 runtimes, and an x64 version of the SDK lists only x64 runtimes."),
-                        new ArgumentDescriptor("list-sdks", nameof(Boolean), false, "Prints out a list of the installed .NET SDKs."),
-                        new ArgumentDescriptor("help", nameof(Boolean), false, "Prints out a list of available commands.") {Alias = "h"}
-                    })
-                );
-                builder.AddDescriptor<DotNetRunner, CommandChecker>(dt, isRoot: true, isGroup: true);
-            };
+            builder.DefineCommand<CommandChecker, DotNetRunner>("dt-cli-dotnet", "dotnet", "dotnet", "Sample description for dotnet driver.", isGroup: true, isRoot: true)
+                   .DefineArgument("info", nameof(Boolean), "Prints out detailed information about a .NET installation and the machine environment, such as the current operating system, and commit SHA of the .NET version.").Add()
+                   .DefineArgument("version", nameof(Boolean), "Prints out the version of the .NET SDK used by dotnet commands. Includes the effects of any global.json").Add()
+                   .DefineArgument("list-runtimes", nameof(Boolean), "Prints out a list of the installed .NET runtimes. An x86 version of the SDK lists only x86 runtimes, and an x64 version of the SDK lists only x64 runtimes.").Add()
+                   .DefineArgument("list-sdks", nameof(Boolean), "Prints out a list of the installed .NET SDKs.").Add()
+                   .DefineArgument("help", nameof(Boolean), "Prints out a list of available commands.", alias: "h").Add()
+                   .Add();
 
             // sample dotnet nuget grouped commands
-            {
-                // dotnet nuget
-                CommandDescriptor nuget = new(
-                    "dt-cli-nuget",
-                    "nuget",
-                    "dotnet nuget",
-                    "Sample description for dotnet nuget command"
-                    );
-                builder.AddDescriptor<DotNetNugetRunner, CommandChecker>(nuget, isGroup: true);
+            builder.DefineCommand<CommandChecker, DotNetNugetRunner>("dt-cli-nuget", "nuget", "dotnet nuget", "Sample description for dotnet nuget command", isGroup: true).Add();
 
-                // sample dotnet nuget push
-                CommandDescriptor nugetPush = new(
-                    "dt-cli-nuget-push",
-                    "push",
-                    "dotnet nuget push",
-                    "Sample description for dotnet nuget push command",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("root", DataType.Text, false, "Specifies the file path to the package to be pushed."),
-                        new ArgumentDescriptor("disable-buffering", nameof(Boolean), false, "Disables buffering when pushing to an HTTP(S) server to reduce memory usage.") {Alias = "d"},
-                        new ArgumentDescriptor("force-english-output", nameof(Boolean), false, "Forces the application to run using an invariant, English-based culture."),
-                        new ArgumentDescriptor("interactive", nameof(Boolean), false, "Allows the command to stop and wait for user input or action. For example, to complete authentication. Available since .NET Core 3.0 SDK."),
-                        new ArgumentDescriptor("api-key", DataType.Text, false, "The API key for the server.") {Alias = "k"},
-                        new ArgumentDescriptor("help", nameof(Boolean), false, "Prints out a description of how to use the command.") {Alias = "h"}
-                    }),
-                    defaultArgument: "root"
-                );
-                builder.AddDescriptor<DotNetNugetPushRunner, CommandChecker>(nugetPush);
-            };
+            // sample dotnet nuget push
+            builder.DefineCommand<CommandChecker, DotNetNugetPushRunner>("dt-cli-nuget-push", "push", "dotnet nuget push", "Sample description for dotnet nuget push command")
+                   .DefineArgument("root", DataType.Text, "Specifies the file path to the package to be pushed.").Add()
+                   .DefineArgument("disable-buffering", nameof(Boolean), "Disables buffering when pushing to an HTTP(S) server to reduce memory usage.", alias: "d").Add()
+                   .DefineArgument("force-english-output", nameof(Boolean), "Forces the application to run using an invariant, English-based culture.").Add()
+                   .DefineArgument("interactive", nameof(Boolean), "Allows the command to stop and wait for user input or action. For example, to complete authentication. Available since .NET Core 3.0 SDK.").Add()
+                   .DefineArgument("api-key", DataType.Text, "The API key for the server.", alias: "k").Add()
+                   .DefineArgument("help", nameof(Boolean), "Prints out a description of how to use the command.", alias: "h").Add()
+                   .Add();
 
-            // Exit
-            CommandDescriptor exit = new("dotnet-cli-exit", "exit", "exit", "Exits the CLI terminal.");
-            builder.AddDescriptor<ExitRunner, CommandChecker>(exit);
+            // Exit sub-command
+            builder.DefineCommand<CommandChecker, ExitRunner>("dt-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
 
-            // Clear screen
-            CommandDescriptor cls = new("dotnet-cli-cls", "cls", "cls", "Clears the CLI terminal screen.");
-            builder.AddDescriptor<ClearScreenRunner, CommandChecker>(cls);
+            // Clear screen sub-command
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("dt-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
 
-            // Runs an OS command
-            CommandDescriptor run = new("dotnet-cli-run", "run", "run", "Runs an OS command.");
-            builder.AddDescriptor<RunRunner, CommandChecker>(run);
+            // OS sub-command
+            builder.DefineCommand<CommandChecker, RunRunner>("dt-cli-run", "run", "run", "Runs an OS command.").Add();
 
-            // Show licensing information
-            {
-                // Show licensing details.
-                CommandDescriptor licInfo = new("dotnet-cli-lic", "lic", "lic info", "Displays the licensing information.");
-                builder.AddDescriptor<LicInfoRunner, CommandChecker>(licInfo);
-            }
+            // Licensing details sub-command
+            builder.DefineCommand<CommandChecker, LicInfoRunner>("dt-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
 
             return builder;
         }

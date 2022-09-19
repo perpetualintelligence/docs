@@ -1,11 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com
-*/
-
-using GithubStyleCli.Runners;
+﻿using GithubStyleCli.Runners;
 using GithubStyleCli.Runners.Alias;
 using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Runners;
@@ -37,7 +30,7 @@ namespace GithubStyleCli
 
             // sample gh alias delete
             builder.DefineCommand<CommandChecker, GhAliasDeleteRunner>("gh-cli-alias-delete", "delete", "gh alias delete", "Sample description for delete an alias.", defaultArgument: "alias")
-                   .DefineArgument("alias", System.ComponentModel.DataAnnotations.DataType.Text, "The alias to delete").Add()
+                   .DefineArgument("alias", System.ComponentModel.DataAnnotations.DataType.Text, "The alias to delete", required: true).Add()
                    .Add();
 
             // sample gh alias list
@@ -50,7 +43,7 @@ namespace GithubStyleCli
                    .Add();
 
             // sample gh issue
-            builder.DefineCommand<CommandChecker, GhIssueRunner>("gh-cli-issue", "issue", "gh issue", "Sample command to work with GitHub issues.")
+            builder.DefineCommand<CommandChecker, GhIssueRunner>("gh-cli-issue", "issue", "gh issue", "Sample command to work with GitHub issues.", isGroup:true)
                    .DefineArgument("repo", System.ComponentModel.DataAnnotations.DataType.Text, "Repo argument", required: true, alias: "R").Add()
                    .Add();
 

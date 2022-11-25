@@ -26,20 +26,20 @@ jobs:
     
       # docs Repo
       - name: Checkout Docs
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: main
                     
       # protocols repo
       - name: Checkout Protocols
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: perpetualintelligence/protocols
           path: protocols
           
        # protocols repo
       - name: Checkout Cli
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: perpetualintelligence/cli
           path: cli
@@ -57,9 +57,9 @@ jobs:
       # Setup .Net
       # Bug: Looks like the global.json is not getting picked by docfx build, so specify version explicitly
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.300'
+          dotnet-version: '7.0.100'
       
       # Restore dependencies
       # Restore using specified nuget.config
@@ -76,8 +76,8 @@ jobs:
       # 2. Build
       - name: Docfx build
         run: |
-          nuget install docfx.console -Version 2.59.2
-          docfx.console.2.59.2/tools/docfx.exe main/docfx_project/docfx.json
+          nuget install docfx.console -Version 2.59.4
+          docfx.console.2.59.4/tools/docfx.exe main/docfx_project/docfx.json
         continue-on-error: false
 
       # Push the docs/_site to the GitHub /docs dir 

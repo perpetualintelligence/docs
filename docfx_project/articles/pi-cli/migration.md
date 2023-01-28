@@ -1,5 +1,7 @@
 # Migration
 
+![in-progress](https://img.shields.io/badge/status-in--progress-yellow)
+
 ## v2.0.3 to v3.0.*
 Migrating from version 2 to version requires you to upgrade your account and your license keys.
 

@@ -76,8 +76,8 @@ jobs:
       # 2. Build
       - name: Docfx build
         run: |
-          nuget install docfx.console -Version 2.60.2
-          docfx.console.2.60.2/tools/docfx.exe main/docfx_project/docfx.json
+          nuget install docfx.console -Version 2.59.4
+          docfx.console.2.59.4/tools/docfx.exe main/docfx_project/docfx.json
         continue-on-error: false
 
       ## Install DocFx and build

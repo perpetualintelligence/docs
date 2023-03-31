@@ -31,11 +31,11 @@ jobs:
           path: main
                     
       # protocols repo
-      - name: Checkout Protocols
+      - name: Checkout Shared
         uses: actions/checkout@v3
         with:
-          repository: perpetualintelligence/protocols
-          path: protocols
+          repository: perpetualintelligence/shared
+          path: shared
           
        # protocols repo
       - name: Checkout Cli

@@ -59,7 +59,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.102'
+          dotnet-version: '7.0.202'
       
       # Restore dependencies
       # Restore using specified nuget.config

@@ -37,7 +37,7 @@ Our CICD pipeline builds the framework with Github [hosted runners](https://docs
 ## Packaging
 The licensed libraries can be accessed via Nuget:
 
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
+[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
 
 ## Build
 The [GitHub](https://github.com/perpetualintelligence/cli) repo contains all the build and release artifacts to build, test and publish the `pi-cli` source.

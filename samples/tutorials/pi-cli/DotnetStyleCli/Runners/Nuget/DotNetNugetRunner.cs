@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace DotnetStyleCli.Runners.Nuget
 {
     /// <summary>
     /// The sample <c>dotnet nuget</c> command runner.
     /// </summary>
-    public class DotNetNugetRunner : CommandRunner
+    public class DotNetNugetRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public DotNetNugetRunner(CliOptions options, ILogger<DotNetNugetRunner> logger) : base(options, logger)
+        public DotNetNugetRunner(TerminalOptions options, ILogger<DotNetNugetRunner> logger)
         {
         }
 

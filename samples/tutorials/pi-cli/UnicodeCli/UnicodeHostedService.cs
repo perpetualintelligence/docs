@@ -1,9 +1,16 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Configuration.Options;
-using PerpetualIntelligence.Cli.Integration;
-using PerpetualIntelligence.Cli.Licensing;
-using PerpetualIntelligence.Cli.Services;
+using PerpetualIntelligence.Terminal.Configuration.Options;
+using PerpetualIntelligence.Terminal.Hosting;
+using PerpetualIntelligence.Terminal.Licensing;
+using PerpetualIntelligence.Terminal.Services;
 using System;
 using System.Threading.Tasks;
 
@@ -12,7 +19,7 @@ namespace UnicodeCli
     /// <summary>
     /// The sample <c>unicode</c> CLI hosted service. This class enables UX customization for the cli terminal.
     /// </summary>
-    public class UnicodeHostedService : CliHostedService
+    public class UnicodeHostedService : TerminalHostedService
     {
         /// <summary>
         /// Initialize a new instance.
@@ -20,7 +27,7 @@ namespace UnicodeCli
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public UnicodeHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<UnicodeHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public UnicodeHostedService(IServiceProvider serviceProvider, TerminalOptions cliOptions, ILogger<UnicodeHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 

@@ -1,8 +1,15 @@
-﻿using GithubStyleCli.Runners.Alias;
-using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Extensions;
-using PerpetualIntelligence.Cli.Integration;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using GithubStyleCli.Runners.Alias;
+using PerpetualIntelligence.Terminal.Commands.Checkers;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Hosting;
 using System;
 using UnicodeCli.Runners;
 
@@ -17,9 +24,9 @@ namespace UnicodeCli
         /// <summary>
         /// Adds the cli commands to the service collection.
         /// </summary>
-        /// <param name="builder">The <see cref="ICliBuilder"/> builder.</param>
-        /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
-        public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
+        /// <param name="builder">The <see cref="ITerminalBuilder"/> builder.</param>
+        /// <returns>The <see cref="ITerminalBuilder"/> instance.</returns>
+        public static ITerminalBuilder AddCommandDescriptors(this ITerminalBuilder builder)
         {
             // Sample Unicode root command
             builder.DefineCommand<CommandChecker, UnicodeRootRunner>("uc-cli-root", "統一碼", "統一碼", "示例根命令描述", isGroup: true, isRoot: true).Add();
@@ -29,10 +36,10 @@ namespace UnicodeCli
 
             // unicode test chinese
             builder.DefineCommand<CommandChecker, UnicodeTestChineseRunner>("uc-cli-sub", "打印", "統一碼 測試 打印", "測試命令")
-                   .DefineArgument("第一的", System.ComponentModel.DataAnnotations.DataType.Text, "第一個命令參數").Add()
-                   .DefineArgument("第二", nameof(Boolean), "第二個命令參數").Add()
-                   .DefineArgument("第三", System.ComponentModel.DataAnnotations.DataType.Text, "第三個命令參數").Add()
-                   .DefineArgument("第四", nameof(Double), "第四個命令參數").Add()
+                   .DefineOption("第一的", System.ComponentModel.DataAnnotations.DataType.Text, "第一個命令參數").Add()
+                   .DefineOption("第二", nameof(Boolean), "第二個命令參數").Add()
+                   .DefineOption("第三", System.ComponentModel.DataAnnotations.DataType.Text, "第三個命令參數").Add()
+                   .DefineOption("第四", nameof(Double), "第四個命令參數").Add()
                    .Add();
 
             // Exit sub - command

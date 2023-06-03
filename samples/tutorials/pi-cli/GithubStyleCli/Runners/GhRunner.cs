@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace GithubStyleCli.Runners
 {
     /// <summary>
     /// The sample <c>gh</c> command runner.
     /// </summary>
-    public class GhRunner : CommandRunner
+    public class GhRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhRunner(CliOptions options, ILogger<GhRunner> logger) : base(options, logger)
+        public GhRunner(TerminalOptions options, ILogger<GhRunner> logger)
         {
         }
 

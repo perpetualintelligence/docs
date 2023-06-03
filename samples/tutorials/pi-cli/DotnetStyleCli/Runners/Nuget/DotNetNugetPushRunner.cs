@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace DotnetStyleCli.Runners.Nuget
 {
     /// <summary>
     /// The sample <c>dotnet nuget push</c> command runner.
     /// </summary>
-    public class DotNetNugetPushRunner : CommandRunner
+    public class DotNetNugetPushRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public DotNetNugetPushRunner(CliOptions options, ILogger<DotNetNugetPushRunner> logger) : base(options, logger)
+        public DotNetNugetPushRunner(TerminalOptions options, ILogger<DotNetNugetPushRunner> logger)
         {
         }
 
@@ -28,10 +28,10 @@ namespace DotnetStyleCli.Runners.Nuget
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
 
-            if(context.Command.Arguments != null)
+            if(context.Command.Options != null)
             {
                 Console.WriteLine("Printing arguments...");
-                foreach (var arg in context.Command.Arguments)
+                foreach (var arg in context.Command.Options)
                 {
                     Console.WriteLine($"{arg.Id}: {arg.Value}");
                 }

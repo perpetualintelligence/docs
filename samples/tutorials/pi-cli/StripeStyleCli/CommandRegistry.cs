@@ -1,7 +1,14 @@
-﻿using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Extensions;
-using PerpetualIntelligence.Cli.Integration;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using PerpetualIntelligence.Terminal.Commands.Checkers;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Hosting;
 using StripeStyleCli.Runners;
 using StripeStyleCli.Runners.Login;
 using System.ComponentModel.DataAnnotations;
@@ -17,26 +24,26 @@ namespace StripeStyleCli
         /// <summary>
         /// Adds the cli commands to the service collection.
         /// </summary>
-        /// <param name="builder">The <see cref="ICliBuilder"/> builder.</param>
-        /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
-        public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
+        /// <param name="builder">The <see cref="ITerminalBuilder"/> builder.</param>
+        /// <returns>The <see cref="ITerminalBuilder"/> instance.</returns>
+        public static ITerminalBuilder AddCommandDescriptors(this ITerminalBuilder builder)
         {
             // Sample stripe root command
-            builder.DefineCommand<CommandChecker, StripeRunner>("stripe-cli-org", "stripe", "stripe", "Sample stripe CLI root command.", isGroup:true, isRoot:true)
-                   .DefineArgument("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
+            builder.DefineCommand<CommandChecker, StripeRunner>("stripe-cli-org", "stripe", "stripe", "Sample stripe CLI root command.", isGroup: true, isRoot: true)
+                   .DefineOption("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
                    .Add();
 
             // Sample stripe login command
             builder.DefineCommand<CommandChecker, StripeLoginRunner>("stripe-cli-login", "login", "stripe login", "Authenticates the stripe cli session")
-                   .DefineArgument("interactive", nameof(Boolean), "Authenticate without an existing API secret key or restricted key").Add()
-                   .DefineArgument("api-key", DataType.Text, "Authenticate with an existing API secret key").Add()
-                   .DefineArgument("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
+                   .DefineOption("interactive", nameof(Boolean), "Authenticate without an existing API secret key or restricted key").Add()
+                   .DefineOption("api-key", DataType.Text, "Authenticate with an existing API secret key").Add()
+                   .DefineOption("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
                    .Add();
 
             // Sample stripe api key command
             builder.DefineCommand<CommandChecker, StripeApiKeyRunner>("stripe-cli-apikey", "apikey", "stripe apikey", "Authenticates the stripe cli session")
-                   .DefineArgument("api-key", DataType.Text, "Authenticate with an existing API secret key").Add()
-                   .DefineArgument("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
+                   .DefineOption("api-key", DataType.Text, "Authenticate with an existing API secret key").Add()
+                   .DefineOption("help", nameof(Boolean), "help for Stripe", alias: "h").Add()
                    .Add();
 
             // Exit sub - command

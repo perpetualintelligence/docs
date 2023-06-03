@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace StripeStyleCli.Runners.Login
 {
     /// <summary>
     /// The sample <c>stripe login</c> command runner.
     /// </summary>
-    public class StripeLoginRunner : CommandRunner
+    public class StripeLoginRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public StripeLoginRunner(CliOptions options, ILogger<StripeLoginRunner> logger) : base(options, logger)
+        public StripeLoginRunner(TerminalOptions options, ILogger<StripeLoginRunner> logger)
         {
         }
 
@@ -28,10 +28,10 @@ namespace StripeStyleCli.Runners.Login
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
 
-            if(context.Command.Arguments != null)
+            if(context.Command.Options != null)
             {
                 Console.WriteLine("Printing arguments...");
-                foreach (var arg in context.Command.Arguments)
+                foreach (var arg in context.Command.Options)
                 {
                     Console.WriteLine($"{arg.Id}: {arg.Value}");
                 }

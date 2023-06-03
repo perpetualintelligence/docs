@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace GithubStyleCli.Runners.Alias
 {
     /// <summary>
     /// The sample <c>gh alias set</c> command runner.
     /// </summary>
-    public class GhAliasSetRunner : CommandRunner
+    public class GhAliasSetRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhAliasSetRunner(CliOptions options, ILogger<GhAliasSetRunner> logger) : base(options, logger)
+        public GhAliasSetRunner(TerminalOptions options, ILogger<GhAliasSetRunner> logger)
         {
         }
 
@@ -27,7 +27,7 @@ namespace GithubStyleCli.Runners.Alias
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
-            Console.WriteLine("The sample gh alias set command. alias={0} expand={1}", context.Command.GetRequiredArgumentValue<string>("alias"), context.Command.GetRequiredArgumentValue<string>("expand"));
+            Console.WriteLine("The sample gh alias set command. alias={0} expand={1}", context.Command.GetRequiredOptionValue<string>("alias"), context.Command.GetRequiredOptionValue<string>("expand"));
             return Task.FromResult(new CommandRunnerResult());
         }
     }

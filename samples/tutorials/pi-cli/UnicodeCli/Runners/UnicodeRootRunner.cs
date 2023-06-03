@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 using System;
 using System.Threading.Tasks;
 
@@ -9,9 +9,9 @@ namespace UnicodeCli.Runners
     /// <summary>
     /// This is the sample <c>unicode</c> root command runner.
     /// </summary>
-    public class UnicodeRootRunner : CommandRunner
+    public class UnicodeRootRunner : CommandRunner<CommandRunnerResult>
     {
-        public UnicodeRootRunner(CliOptions options, ILogger<UnicodeRootRunner> logger) : base(options, logger)
+        public UnicodeRootRunner(TerminalOptions options, ILogger<UnicodeRootRunner> logger)
         {
         }
 

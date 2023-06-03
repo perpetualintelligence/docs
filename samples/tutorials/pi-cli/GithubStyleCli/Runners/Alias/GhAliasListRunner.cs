@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
 namespace GithubStyleCli.Runners.Alias
 {
     /// <summary>
     /// The sample <c>gh alis list</c> command runner.
     /// </summary>
-    public class GhAliasListRunner : CommandRunner
+    public class GhAliasListRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public GhAliasListRunner(CliOptions options, ILogger<GhAliasListRunner> logger) : base(options, logger)
+        public GhAliasListRunner(TerminalOptions options, ILogger<GhAliasListRunner> logger)
         {
         }
 

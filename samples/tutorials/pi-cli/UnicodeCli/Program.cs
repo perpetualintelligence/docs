@@ -1,14 +1,22 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Extractors;
-using PerpetualIntelligence.Cli.Commands.Handlers;
-using PerpetualIntelligence.Cli.Commands.Mappers;
-using PerpetualIntelligence.Cli.Commands.Providers;
-using PerpetualIntelligence.Cli.Extensions;
-using PerpetualIntelligence.Cli.Stores.InMemory;
-using PerpetualIntelligence.Protocols.Licensing;
+using PerpetualIntelligence.Shared.Licensing;
+using PerpetualIntelligence.Terminal.Commands.Checkers;
+using PerpetualIntelligence.Terminal.Commands.Extractors;
+using PerpetualIntelligence.Terminal.Commands.Handlers;
+using PerpetualIntelligence.Terminal.Commands.Mappers;
+using PerpetualIntelligence.Terminal.Commands.Providers;
+using PerpetualIntelligence.Terminal.Commands.Routers;
+using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Stores.InMemory;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,23 +35,23 @@ namespace UnicodeCli
             Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.OutputEncoding = System.Text.Encoding.Unicode;
 
-            services.AddCli(options =>
+            services.AddTerminal(options =>
             {
                 // Error info
-                options.Logging.ObsureErrorArguments = false;
+                options.Logging.ObsureInvalidOptions = false;
 
                 // Commands, arguments and options
-                options.Extractor.ArgumentAlias = true;
-                options.Extractor.ArgumentPrefix = "--";
-                options.Extractor.ArgumentAliasPrefix = "-";
-                options.Extractor.DefaultArgumentValue = true;
-                options.Extractor.DefaultArgument = true;
-                options.Extractor.ArgumentValueWithIn = "\"";
-                options.Extractor.ArgumentValueSeparator = " ";
+                options.Extractor.OptionAlias = true;
+                options.Extractor.OptionPrefix = "--";
+                options.Extractor.OptionAliasPrefix = "-";
+                options.Extractor.DefaultOptionValue = true;
+                options.Extractor.DefaultOption = true;
+                options.Extractor.OptionValueWithIn = "\"";
+                options.Extractor.OptionValueSeparator = " ";
                 options.Extractor.Separator = " ";
 
                 // Checkers
-                options.Checker.StrictArgumentValueType = true;
+                options.Checker.StrictOptionValueType = true;
 
                 // Http
                 options.Http.HttpClientName = "unicode-demo";
@@ -54,8 +62,9 @@ namespace UnicodeCli
                 options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
                 options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-            }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
-              .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
+            }).AddRoutingService<ConsoleRoutingService>()
+              .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
+              .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddErrorHandler<ErrorHandler, ExceptionHandler>()
               .AddTextHandler<UnicodeTextHandler>()
@@ -69,7 +78,7 @@ namespace UnicodeCli
         /// <summary>
         /// Creates a host builder.
         /// </summary>
-        /// <param name="args">Arguments.</param>
+        /// <param name="args">Options.</param>
         /// <param name="configurePiCli"></param>
         /// <returns></returns>
         private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configurePiCli)
@@ -100,7 +109,7 @@ namespace UnicodeCli
             // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
             using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
             {
-                await host.RunRouterAsync("$ ", cancellationTokenSource.Token);
+                await host.RunRouterAsTerminalAsync(new RoutingServiceContext(cancellationTokenSource.Token));
             }
         }
     }

@@ -1,16 +1,23 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿/*
+    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Configuration.Options;
-using PerpetualIntelligence.Cli.Integration;
-using PerpetualIntelligence.Cli.Licensing;
-using PerpetualIntelligence.Cli.Services;
+using PerpetualIntelligence.Terminal.Configuration.Options;
+using PerpetualIntelligence.Terminal.Hosting;
+using PerpetualIntelligence.Terminal.Licensing;
+using PerpetualIntelligence.Terminal.Services;
 
 namespace DotnetStyleCli
 {
     /// <summary>
     /// The sample <c>dotnet</c> CLI hosted service. This class enables UX customization for the cli terminal.
     /// </summary>
-    public class DotNetCliHostedService : CliHostedService
+    public class DotNetCliHostedService : TerminalHostedService
     {
         /// <summary>
         /// Initialize a new instance.
@@ -18,7 +25,7 @@ namespace DotnetStyleCli
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public DotNetCliHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public DotNetCliHostedService(IServiceProvider serviceProvider, TerminalOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 

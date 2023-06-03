@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 using System;
 using System.Threading.Tasks;
 
@@ -9,14 +9,14 @@ namespace GithubStyleCli.Runners.Alias
     /// <summary>
     /// The sample <c>unicode test</c> grouped command runner.
     /// </summary>
-    public class UnicodeTestRunner : CommandRunner
+    public class UnicodeTestRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public UnicodeTestRunner(CliOptions options, ILogger<UnicodeTestRunner> logger) : base(options, logger)
+        public UnicodeTestRunner(TerminalOptions options, ILogger<UnicodeTestRunner> logger)
         {
         }
 

@@ -6,26 +6,9 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+    
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-        <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+        <PackageReference Include="PerpetualIntelligence.Terminal" Version="4.5.1-rc.30523651" />
     </ItemGroup>
-
-    <!--
-        CI CONFIG:
-    -->
-    <Choose>
-        <!--NOTE: cross is only used for Perpetual Intelligence L.L.C. internal development. Do not use it in your application code.-->
-        <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
-            <ItemGroup>
-                <ProjectReference Include="..\..\..\..\..\cli\src\PerpetualIntelligence.Cli\PerpetualIntelligence.Cli.csproj" />
-            </ItemGroup>
-        </When>
-        <Otherwise>
-            <ItemGroup>
-                <PackageReference Include="PerpetualIntelligence.Cli" Version="2.6.1-rc.2205101451" />
-            </ItemGroup>
-        </Otherwise>
-    </Choose>
 </Project>

@@ -16,7 +16,9 @@ using PerpetualIntelligence.Terminal.Commands.Mappers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Commands.Routers;
 using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
+using Serilog;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -81,21 +83,22 @@ namespace UnicodeCli
         /// <param name="args">Options.</param>
         /// <param name="configurePiCli"></param>
         /// <returns></returns>
-        private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configurePiCli)
+        /// <summary>
+        /// Creates a host builder.
+        /// </summary>
+        /// <param name="args">Options.</param>
+        /// <param name="configureDelegate"></param>
+        /// <returns></returns>
+        static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureDelegate)
         {
             return Host.CreateDefaultBuilder(args)
-
-                // Configure the pi-cli framework
-                .ConfigureServices(configurePiCli)
-
-                // Configure terminal logging based on your application need.
-                .ConfigureLogging(logging =>
-                {
-                    logging.AddFilter("System", LogLevel.Error);
-                    logging.AddFilter("Microsoft", LogLevel.Error);
-                    logging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Error);
-                    logging.AddFilter("Microsoft.AspNetCore.Authentication", LogLevel.Error);
-                });
+                       .UseSerilog()
+                       .ConfigureServices(configureDelegate)
+                       .ConfigureLogging(options =>
+                       {
+                           options.ClearProviders();
+                           options.AddTerminalLogger<TerminalConsoleLogger>();
+                       });
         }
 
         private static async Task Main(string[] args)

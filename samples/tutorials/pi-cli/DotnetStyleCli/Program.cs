@@ -96,6 +96,7 @@ void ConfigureServices(IServiceCollection services)
 static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureDelegate)
 {
     return Host.CreateDefaultBuilder(args)
+               .UseSerilog()
                .ConfigureServices(configureDelegate)
                .ConfigureLogging(options =>
                {

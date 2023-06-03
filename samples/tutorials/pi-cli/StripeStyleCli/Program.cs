@@ -10,6 +10,7 @@
 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
 using PerpetualIntelligence.Terminal.Commands.Checkers;
 using PerpetualIntelligence.Terminal.Commands.Extractors;
@@ -18,6 +19,7 @@ using PerpetualIntelligence.Terminal.Commands.Mappers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Commands.Routers;
 using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
 using Serilog;
 using Serilog.Events;
@@ -94,7 +96,14 @@ void ConfigureServices(IServiceCollection services)
 /// <returns></returns>
 static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureDelegate)
 {
-    return Host.CreateDefaultBuilder(args).ConfigureServices(configureDelegate);
+    return Host.CreateDefaultBuilder(args)
+               .UseSerilog()
+               .ConfigureServices(configureDelegate)
+               .ConfigureLogging(options =>
+               {
+                   options.ClearProviders();
+                   options.AddTerminalLogger<TerminalConsoleLogger>();
+               });
 }
 
 /// <summary>

@@ -41,7 +41,7 @@ namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
             else
             {
                 // Custom error message
-                throw new ErrorException("custom_error", "Invalid id type custom error message");
+                throw new ErrorException("custom_error", "Custom error message. Invalid type. Please use suid or luid.");
             }
 
             // Terminal authors can return custom result.

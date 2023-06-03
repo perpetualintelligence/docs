@@ -1,19 +1,18 @@
-﻿using PerpetualIntelligence.Cli.Commands;
-using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Handlers;
+﻿using PerpetualIntelligence.Cli.Commands.Checkers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
 using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg;
 using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen;
 using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id;
+using System.ComponentModel.DataAnnotations;
 
 namespace PiCliNewTerminalTemplateDotNetLatest
 {
     /// <summary>
-    /// The sample command registry. The template contains this file to register all the commands
-    /// and argument descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test
-    /// frameworks. You can register a custom command checker and a command runner type for each command.
+    /// The sample command registry. The template contains this file to register all the commands and argument
+    /// descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test frameworks. You can
+    /// register a custom command checker and a command runner type for each command.
     /// </summary>
     public static class MyOrgCommandRegistry
     {
@@ -24,67 +23,28 @@ namespace PiCliNewTerminalTemplateDotNetLatest
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // TODO:
-            // - For now, app authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI
-            // service are the same.
-            UnicodeTextHandler unicodeTextHandler = new();
-
             // Root command (myorg)
-            {
-                CommandDescriptor myorg = new(
-                    "myorg-root",
-                    "myorg",
-                    "myorg",
-                    "Sample myorg root command.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("version", nameof(Boolean), false, "Show myorg version") { Alias = "v" }
-                    })
-                );
-                builder.AddDescriptor<MyOrgRunner, CommandChecker>(myorg);
-            };
+            builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg", "myorg", "Sample myorg root command").
+                    DefineArgument("version", nameof(Boolean), "Show myorg version", alias: "v", required: false).Add().
+                    Add();
 
             // Grouped command (myorg gen)
-            {
-                // myorg gen group
-                CommandDescriptor myOrgGen = new(
-                    "myorg-gen-id",
-                    "gen",
-                    "myorg gen",
-                    "Sample generator grouped command."
-                );
-                builder.AddDescriptor<MyOrgGenRunner, CommandChecker>(myOrgGen);
+            builder.DefineCommand<CommandChecker, MyOrgGenRunner>("myorg-gen", "gen", "myorg gen", "Sample generator grouped command.").
+                    Add();
 
-                // myorg gen id subcommand
-                CommandDescriptor myOrgGenId = new(
-                    "myorg-gen",
-                    "id",
-                    "myorg gen id",
-                    "Sample id generator sub command.",
-                    new ArgumentDescriptors(unicodeTextHandler, new [] {
-                        new ArgumentDescriptor("type", System.ComponentModel.DataAnnotations.DataType.Text, true, "Id type") { Alias = "t" }
-                    })
-                );
-                builder.AddDescriptor<MyOrgGenIdRunner, CommandChecker>(myOrgGenId);
-            };
+            // Subcommand (myorg gen id)
+            builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("myorg-gen-id", "id", "myorg gen id", "Sample id generator sub command.").
+                    DefineArgument("type", DataType.Text, "Id type", alias: "t", required: true).Add().
+                    Add();
 
-            // OOTB command runner
-            {
-                // Exit
-                CommandDescriptor exit = new("myorg-cli-exit", "exit", "exit", "Exits the CLI terminal.");
-                builder.AddDescriptor<ExitRunner, CommandChecker>(exit);
+            // Exit
+            builder.DefineCommand<CommandChecker, ExitRunner>("myorg-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
 
-                // Clear screen
-                CommandDescriptor cls = new("myorg-cli-cls", "cls", "cls", "Clears the CLI terminal screen.");
-                builder.AddDescriptor<ClearScreenRunner, CommandChecker>(cls);
+            // Clear screen
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("myorg-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
 
-                // Show licensing information
-                {
-                    // Show licensing details.
-                    CommandDescriptor licInfo = new("myorg-cli-lic", "lic", "lic info", "Displays the licensing information.");
-                    builder.AddDescriptor<LicInfoRunner, CommandChecker>(licInfo);
-                }
-            }
+            // Show licensing details.
+            builder.DefineCommand<CommandChecker, LicInfoRunner>("myorg-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
 
             return builder;
         }

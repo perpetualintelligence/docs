@@ -1,8 +1,6 @@
 ﻿using GithubStyleCli.Runners;
 using GithubStyleCli.Runners.Alias;
-using PerpetualIntelligence.Cli.Commands;
 using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Handlers;
 using PerpetualIntelligence.Cli.Commands.Runners;
 using PerpetualIntelligence.Cli.Extensions;
 using PerpetualIntelligence.Cli.Integration;
@@ -10,8 +8,8 @@ using PerpetualIntelligence.Cli.Integration;
 namespace GithubStyleCli
 {
     /// <summary>
-    /// The sample <c>gh</c> CLI command registry. This class registers some sample commands to show how
-    /// GitHub CLI style console terminals can be build using <c>pi-cli</c> framework.
+    /// The sample <c>gh</c> CLI command registry. This class registers some sample commands to show how GitHub CLI
+    /// style console terminals can be build using <c>pi-cli</c> framework.
     /// </summary>
     public static class CommandRegistry
     {
@@ -22,129 +20,57 @@ namespace GithubStyleCli
         /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
         public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
         {
-            // App authors need to make sure the UnicodeTextHandler used here and in AddTextHandler DI service are the same.
-            UnicodeTextHandler unicodeTextHandler = new ();
-
             // sample gh
-            {
-                CommandDescriptor pi = new(
-                    "gh-cli-gh",
-                    "gh",
-                    "gh",
-                    "Sample description to work seamlessly with GitHub from the command line.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("version", nameof(Boolean), false, "Show gh version") { Alias = "v" }
-                    })
-                );
-                builder.AddDescriptor<GhRunner, CommandChecker>(pi, isRoot: true, isGroup: true);
-            };
+            builder.DefineCommand<CommandChecker, GhRunner>("gh-cli-gh", "gh", "gh", "Sample description to work seamlessly with GitHub from the command line.", isGroup: true, isRoot: true)
+                   .DefineArgument("version", nameof(Boolean), "Show gh version", alias: "v").Add()
+                   .Add();
 
-            // sample alias
-            {
-                // gh alias
-                CommandDescriptor alias = new(
-                    "gh-cli-alias",
-                    "alias",
-                    "gh alias",
-                    "Sample description for aliases that can be used to make shortcuts for gh commands or to compose multiple commands."
-                );
-                builder.AddDescriptor<GhAliasRunner, CommandChecker>(alias, isGroup: true);
+            // sample gh alias
+            builder.DefineCommand<CommandChecker, GhAliasRunner>("gh-cli-alias", "alias", "gh alias", "Sample description for aliases that can be used to make shortcuts for gh commands or to compose multiple commands.", isGroup: true).Add();
 
-                // gh alias delete
-                CommandDescriptor aliasDelete = new(
-                    "gh-cli-alias-delete",
-                    "delete",
-                    "gh alias delete",
-                    "Sample description for delete an alias.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("alias", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias to delete")
-                    }),
-                    defaultArgument: "alias"
-                );
-                builder.AddDescriptor<GhAliasDeleteRunner, CommandChecker>(aliasDelete);
+            // sample gh alias delete
+            builder.DefineCommand<CommandChecker, GhAliasDeleteRunner>("gh-cli-alias-delete", "delete", "gh alias delete", "Sample description for delete an alias.", defaultArgument: "alias")
+                   .DefineArgument("alias", System.ComponentModel.DataAnnotations.DataType.Text, "The alias to delete", required: true).Add()
+                   .Add();
 
-                // gh alias list
-                CommandDescriptor aliasList = new(
-                    "gh-cli-alias-list",
-                    "list",
-                    "gh alias list",
-                    "Sample description to list all aliases."
-                );
-                builder.AddDescriptor<GhAliasListRunner, CommandChecker>(aliasList);
+            // sample gh alias list
+            builder.DefineCommand<CommandChecker, GhAliasListRunner>("gh-cli-alias-list", "list", "gh alias list", "Sample description to list all aliases.").Add();
 
-                // gh alias set
-                CommandDescriptor aliasSet = new(
-                    "gh-cli-alias-set",
-                    "set",
-                    "gh alias set",
-                    "Sample description to set the alias.",
-                 new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("alias", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias to set"),
-                        new ArgumentDescriptor("expand", System.ComponentModel.DataAnnotations.DataType.Text, true, "The alias expansion may specify additional arguments and flags")
-                    }),
-                    defaultArgument: "alias"
-                );
-                builder.AddDescriptor<GhAliasSetRunner, CommandChecker>(aliasSet);
-            };
+            // sample gh alias set
+            builder.DefineCommand<CommandChecker, GhAliasSetRunner>("gh-cli-alias-set", "set", "gh alias set", "Sample description to set the alias.", defaultArgument: "alias")
+                   .DefineArgument("alias", System.ComponentModel.DataAnnotations.DataType.Text, "The alias to set", required: true).Add()
+                   .DefineArgument("expand", System.ComponentModel.DataAnnotations.DataType.Text, "The alias expansion may specify additional arguments and flags", required: true).Add()
+                   .Add();
 
-            // sample issue
-            {
-                // gh issue
-                CommandDescriptor issue = new(
-                    "gh-cli-issue",
-                    "issue",
-                    "gh issue",
-                    "Sample command to work with GitHub issues.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
-                    })
-                );
-                builder.AddDescriptor<GhIssueRunner, CommandChecker>(issue, isGroup: true);
+            // sample gh issue
+            builder.DefineCommand<CommandChecker, GhIssueRunner>("gh-cli-issue", "issue", "gh issue", "Sample command to work with GitHub issues.", isGroup:true)
+                   .DefineArgument("repo", System.ComponentModel.DataAnnotations.DataType.Text, "Repo argument", required: true, alias: "R").Add()
+                   .Add();
 
-                // gh issue create
-                CommandDescriptor create = new(
-                    "gh-cli-issue-create",
-                    "create",
-                    "gh issue create",
-                    "Sample command to create GitHub issue.",
-                    new ArgumentDescriptors(unicodeTextHandler, new[]
-                    {
-                        new ArgumentDescriptor("repo", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "R"},
-                        new ArgumentDescriptor("assignee", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "a"},
-                        new ArgumentDescriptor("body", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "b"},
-                        new ArgumentDescriptor("body-file", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "F"},
-                        new ArgumentDescriptor("milestone", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "m"},
-                        new ArgumentDescriptor("project", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "p"},
-                        new ArgumentDescriptor("recover", System.ComponentModel.DataAnnotations.DataType.Text),
-                        new ArgumentDescriptor("title", System.ComponentModel.DataAnnotations.DataType.Text, required: true) { Alias = "t"},
-                        new ArgumentDescriptor("web", System.ComponentModel.DataAnnotations.DataType.Text) { Alias = "w"},
-                    })
-                );
-                builder.AddDescriptor<GhIssueCreateRunner, CommandChecker>(create);
-            }
+            // sample gh issue create
+            builder.DefineCommand<CommandChecker, GhIssueCreateRunner>("gh-cli-issue-create", "create", "gh issue create", "Sample command to create GitHub issue.")
+                   .DefineArgument("repo", System.ComponentModel.DataAnnotations.DataType.Text, "", required: true, alias: "R").Add()
+                   .DefineArgument("assignee", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "a").Add()
+                   .DefineArgument("body", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "b").Add()
+                   .DefineArgument("body-file", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "F").Add()
+                   .DefineArgument("milestone", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "m").Add()
+                   .DefineArgument("project", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "p").Add()
+                   .DefineArgument("recover", System.ComponentModel.DataAnnotations.DataType.Text, "").Add()
+                   .DefineArgument("title", System.ComponentModel.DataAnnotations.DataType.Text, "", required: true, alias: "t").Add()
+                   .DefineArgument("web", System.ComponentModel.DataAnnotations.DataType.Text, "", alias: "w").Add()
+                   .Add();
 
-            // Exit
-            CommandDescriptor exit = new("gh-cli-exit", "exit", "exit", "Exits the CLI terminal.");
-            builder.AddDescriptor<ExitRunner, CommandChecker>(exit);
+            // Exit sub-command
+            builder.DefineCommand<CommandChecker, ExitRunner>("gh-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
 
-            // Clear screen
-            CommandDescriptor cls = new("gh-cli-cls", "cls", "cls", "Clears the CLI terminal screen.");
-            builder.AddDescriptor<ClearScreenRunner, CommandChecker>(cls);
+            // Clear screen sub-command
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("gh-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
 
-            // Runs an OS command
-            CommandDescriptor run = new("gh-cli-run", "run", "run", "Runs an OS command.");
-            builder.AddDescriptor<RunRunner, CommandChecker>(run);
+            // OS sub-command
+            builder.DefineCommand<CommandChecker, RunRunner>("gh-cli-run", "run", "run", "Runs an OS command.").Add();
 
-            // Show licensing information
-            {
-                // Show licensing details.
-                CommandDescriptor licInfo = new("gh-cli-lic", "lic", "lic info", "Displays the licensing information.");
-                builder.AddDescriptor<LicInfoRunner, CommandChecker>(licInfo);
-            }
+            // Licensing details sub-command
+            builder.DefineCommand<CommandChecker, LicInfoRunner>("gh-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
 
             return builder;
         }

@@ -1,8 +1,4 @@
-﻿// Note:
-// - This sample template uses the new .NET 6 minimal hosting model. See https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information.
-// - To use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs or refer to .NET3.1 sample template
-
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Cli.Commands.Checkers;
@@ -31,7 +27,7 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 /// <summary>
 /// Configures the required <c>pi-cli</c> services.
 /// </summary>
-void ConfigureServices(IServiceCollection services)
+static void ConfigureServices(IServiceCollection services)
 {
     Console.Title = "pi-cli demo  (.NET 6)";
 

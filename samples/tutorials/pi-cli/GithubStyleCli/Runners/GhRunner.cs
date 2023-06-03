@@ -27,7 +27,7 @@ namespace GithubStyleCli.Runners
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             Console.WriteLine($"Running sample {context.Command.Name} command.");
-            Console.WriteLine("2.4.1-preview");
+            Console.WriteLine("3.0.1-preview");
             return Task.FromResult(new CommandRunnerResult());
         }
     }

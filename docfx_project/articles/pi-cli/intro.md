@@ -48,7 +48,7 @@ The [GitHub](https://github.com/perpetualintelligence/cli) repo contains the art
  ![repo](../../images/picli/framework/repo.png)
 
 ## Terminal UX
-The `pi-cli` framework does not enforce any specific terminal or console UX experience because this is always custom to the project. However, we provide you with a starting point for your terminal lifetime and UX customization.
+The `pi-cli` framework does not enforce any specific terminal UX experience because this is always custom to the project. However, we provide you with a hosted service to manage the terminal application lifetime and UX customization.
 - [TerminalHostedService](xref:PerpetualIntelligence.Terminal.Hosting.TerminalHostedService)
 
 ## Classes
@@ -62,9 +62,9 @@ With the `pi-cli` framework, you don't have to be a microservices or distributed
 - No account is needed
 
 ### I want to create my first modern terminal
-- Start by [subscribing or buying](../buying/intro.md) the `pi-cli` SaaS service.
+- Start by [subscribing or buying](../buying/intro.md) the `pi-cli` framework.
 - Pick a pricing plan that works for you.
-- Activate your subscription on our [SaaS Consumer Portal](https://consumer.perpetualintelligence.com/).
+- Activate your subscription on our [Consumer Portal](https://consumer.perpetualintelligence.com/).
 - Generate your online, offline, dev, or on-premise [license keys](licensing/licensekeys.md).
 - Browse our [read-to-use templates and tutorials](../samples.md).
 - Build, debug, and learn the concepts as you go.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net481.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The default <see cref="IIdGeneratorSampleService"/>.

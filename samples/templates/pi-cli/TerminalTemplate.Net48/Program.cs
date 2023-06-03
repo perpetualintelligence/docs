@@ -1,20 +1,21 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Extractors;
-using PerpetualIntelligence.Cli.Commands.Handlers;
-using PerpetualIntelligence.Cli.Commands.Mappers;
-using PerpetualIntelligence.Cli.Commands.Providers;
-using PerpetualIntelligence.Cli.Extensions;
-using PerpetualIntelligence.Cli.Stores.InMemory;
-using PerpetualIntelligence.Protocols.Licensing;
-using PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id;
+using PerpetualIntelligence.Shared.Licensing;
+using PerpetualIntelligence.Terminal.Commands.Checkers;
+using PerpetualIntelligence.Terminal.Commands.Extractors;
+using PerpetualIntelligence.Terminal.Commands.Handlers;
+using PerpetualIntelligence.Terminal.Commands.Mappers;
+using PerpetualIntelligence.Terminal.Commands.Providers;
+using PerpetualIntelligence.Terminal.Commands.Routers;
+using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Stores.InMemory;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using TerminalTemplate.Net481.Runners.MyOrg.Gen.Id;
 
-namespace PiCliNewTerminalTemplateDotNet31
+namespace TerminalTemplate.Net481
 {
     internal class Program
     {
@@ -23,25 +24,25 @@ namespace PiCliNewTerminalTemplateDotNet31
         /// </summary>
         private static void ConfigureServices(IServiceCollection services)
         {
-            Console.Title = "pi-cli demo (.NET 3.1)";
+            Console.Title = "pi-cli demo (.NET 481)";
 
-            services.AddCli(options =>
+            services.AddTerminal(options =>
             {
                 // Error info
-                options.Logging.ObsureErrorArguments = false;
+                options.Logging.ObsureInvalidOptions = false;
 
                 // Commands, arguments and options
-                options.Extractor.ArgumentAlias = true;
-                options.Extractor.ArgumentPrefix = "--";
-                options.Extractor.ArgumentAliasPrefix = "-";
-                options.Extractor.DefaultArgumentValue = true;
-                options.Extractor.DefaultArgument = true;
-                options.Extractor.ArgumentValueWithIn = "\"";
-                options.Extractor.ArgumentValueSeparator = " ";
+                options.Extractor.OptionAlias = true;
+                options.Extractor.OptionPrefix = "--";
+                options.Extractor.OptionAliasPrefix = "-";
+                options.Extractor.DefaultOptionValue = true;
+                options.Extractor.DefaultOption = true;
+                options.Extractor.OptionValueWithIn = "\"";
+                options.Extractor.OptionValueSeparator = " ";
                 options.Extractor.Separator = " ";
 
                 // Checkers
-                options.Checker.StrictArgumentValueType = true;
+                options.Checker.StrictOptionValueType = true;
 
                 // Http
                 options.Http.HttpClientName = "pi-demo";
@@ -52,8 +53,9 @@ namespace PiCliNewTerminalTemplateDotNet31
                 options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
                 options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-            }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
-              .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
+            }).AddRoutingService<ConsoleRoutingService>()
+              .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
+              .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddErrorHandler<ErrorHandler, ExceptionHandler>()
               .AddTextHandler<UnicodeTextHandler>()
@@ -95,7 +97,7 @@ namespace PiCliNewTerminalTemplateDotNet31
         private static async Task Main(string[] args)
         {
             // Allows cancellation for the terminal.
-            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            CancellationTokenSource cancellationTokenSource = new();
 
             // Setup the host builder.
             IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
@@ -103,7 +105,7 @@ namespace PiCliNewTerminalTemplateDotNet31
             // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
             using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
             {
-                await host.RunRouterAsync("$ ", cancellationTokenSource.Token);
+                await host.RunRouterAsTerminalAsync(new(cancellationTokenSource.Token));
             }
         }
     }

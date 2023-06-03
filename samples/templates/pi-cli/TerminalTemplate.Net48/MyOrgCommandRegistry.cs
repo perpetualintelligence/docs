@@ -1,13 +1,14 @@
-﻿using PerpetualIntelligence.Cli.Commands.Checkers;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Extensions;
-using PerpetualIntelligence.Cli.Integration;
-using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg;
-using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen;
-using PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen.Id;
+﻿using PerpetualIntelligence.Terminal.Commands.Checkers;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Hosting;
+using System;
 using System.ComponentModel.DataAnnotations;
+using TerminalTemplate.Net481.Runners.MyOrg;
+using TerminalTemplate.Net481.Runners.MyOrg.Gen;
+using TerminalTemplate.Net481.Runners.MyOrg.Gen.Id;
 
-namespace PiCliNewTerminalTemplateDotNetLatest
+namespace TerminalTemplate.Net481
 {
     /// <summary>
     /// The sample command registry. The template contains this file to register all the commands and argument
@@ -19,13 +20,13 @@ namespace PiCliNewTerminalTemplateDotNetLatest
         /// <summary>
         /// Adds the cli commands to the service collection.
         /// </summary>
-        /// <param name="builder">The <see cref="ICliBuilder"/> builder.</param>
-        /// <returns>The <see cref="ICliBuilder"/> instance.</returns>
-        public static ICliBuilder AddCommandDescriptors(this ICliBuilder builder)
+        /// <param name="builder">The <see cref="ITerminalBuilder"/> builder.</param>
+        /// <returns>The <see cref="ITerminalBuilder"/> instance.</returns>
+        public static ITerminalBuilder AddCommandDescriptors(this ITerminalBuilder builder)
         {
             // Root command (myorg)
             builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg", "myorg", "Sample myorg root command").
-                    DefineArgument("version", nameof(Boolean), "Show myorg version", alias: "v", required: false).Add().
+                    DefineOption("version", nameof(Boolean), "Show myorg version", alias: "v", required: false).Add().
                     Add();
 
             // Grouped command (myorg gen)
@@ -34,7 +35,7 @@ namespace PiCliNewTerminalTemplateDotNetLatest
 
             // Subcommand (myorg gen id)
             builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("myorg-gen-id", "id", "myorg gen id", "Sample id generator sub command.").
-                    DefineArgument("type", DataType.Text, "Id type", alias: "t", required: true).Add().
+                    DefineOption("type", DataType.Text, "Id type", alias: "t", required: true).Add().
                     Add();
 
             // Exit

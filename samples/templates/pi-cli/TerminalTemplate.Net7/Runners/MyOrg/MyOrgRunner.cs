@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 
-namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg
+namespace TerminalTemplate.Net702.Runners.MyOrg
 {
     /// <summary>
     /// The <c>myorg</c> command runner.
     /// </summary>
-    public class MyOrgRunner : CommandRunner
+    public class MyOrgRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initializes a new instance of <c>myorg</c> command runner. App authors can add more DI services here.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public MyOrgRunner(CliOptions options, ILogger<MyOrgRunner> logger) : base(options, logger)
+        public MyOrgRunner(TerminalOptions options, ILogger<MyOrgRunner> logger)
         {
         }
 
@@ -26,7 +26,7 @@ namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             // Get the passed argument value
-            bool? showVersion = context.Command.GetOptionalArgumentValue<bool>("version");
+            bool? showVersion = context.Command.GetOptionalOptionValue<bool>("version");
             if (showVersion.GetValueOrDefault())
             {
                 Console.WriteLine("Version=2.6.1-demo");

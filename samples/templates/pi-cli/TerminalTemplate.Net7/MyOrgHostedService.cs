@@ -1,18 +1,16 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Configuration.Options;
-using PerpetualIntelligence.Cli.Integration;
-using PerpetualIntelligence.Cli.Licensing;
-using PerpetualIntelligence.Cli.Services;
-using System;
-using System.Threading.Tasks;
+using PerpetualIntelligence.Terminal.Configuration.Options;
+using PerpetualIntelligence.Terminal.Hosting;
+using PerpetualIntelligence.Terminal.Licensing;
+using PerpetualIntelligence.Terminal.Services;
 
-namespace PiCliNewTerminalTemplateDotNet31
+namespace TerminalTemplate.Net702
 {
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.
     /// </summary>
-    public class MyOrgHostedService : CliHostedService
+    public class MyOrgHostedService : TerminalHostedService
     {
         /// <summary>
         /// Initialize a new instance.
@@ -20,7 +18,7 @@ namespace PiCliNewTerminalTemplateDotNet31
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public MyOrgHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<CliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public MyOrgHostedService(IServiceProvider serviceProvider, TerminalOptions cliOptions, ILogger<TerminalHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
         }
 
@@ -29,7 +27,7 @@ namespace PiCliNewTerminalTemplateDotNet31
         /// </summary>
         /// <param name="options"></param>
         /// <returns></returns>
-        protected override Task CheckHostApplicationConfigurationAsync(CliOptions options)
+        protected override Task CheckHostApplicationConfigurationAsync(TerminalOptions options)
         {
             return Task.CompletedTask;
         }

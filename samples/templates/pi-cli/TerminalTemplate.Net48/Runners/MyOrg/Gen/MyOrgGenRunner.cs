@@ -1,20 +1,22 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
+using System;
+using System.Threading.Tasks;
 
-namespace PiCliNewTerminalTemplateDotNetLatest.Runners.MyOrg.Gen
+namespace TerminalTemplate.Net481.Runners.MyOrg.Gen
 {
     /// <summary>
     /// The <c>myorg gen</c> command runner.
     /// </summary>
-    public class MyOrgGenRunner : CommandRunner
+    public class MyOrgGenRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initializes a new instance of <c>myorg gen</c> command runner. App authors can add more DI services here.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public MyOrgGenRunner(CliOptions options, ILogger<MyOrgGenRunner> logger) : base(options, logger)
+        public MyOrgGenRunner(TerminalOptions options, ILogger<MyOrgGenRunner> logger)
         {
         }
 

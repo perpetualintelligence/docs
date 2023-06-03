@@ -1,25 +1,25 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Commands.Runners;
-using PerpetualIntelligence.Cli.Configuration.Options;
+using PerpetualIntelligence.Terminal.Commands.Runners;
+using PerpetualIntelligence.Terminal.Configuration.Options;
 using PerpetualIntelligence.Shared.Exceptions;
-using System;
-using System.Threading.Tasks;
 
-namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net702.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The <c>myorg gen id</c> command runner.
     /// </summary>
-    public class MyOrgGenIdRunner : CommandRunner
+    public class MyOrgGenIdRunner : CommandRunner<CommandRunnerResult>
     {
         /// <summary>
         /// Initializes a new instance of <c>myorg gen</c> command runner. App authors can add more DI services here.
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public MyOrgGenIdRunner(IIdGeneratorSampleService idGeneratorSampleService, CliOptions options, ILogger<MyOrgGenRunner> logger) : base(options, logger)
+        public MyOrgGenIdRunner(IIdGeneratorSampleService idGeneratorSampleService, TerminalOptions options, ILogger<MyOrgGenRunner> logger)
         {
             this.idGeneratorSampleService = idGeneratorSampleService;
+            this.options = options;
+            this.logger = logger;
         }
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
         /// <returns></returns>
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
-            string type = context.Command.GetRequiredArgumentValue<string>("type");
+            string type = context.Command.GetRequiredOptionValue<string>("type");
             if (type == "suid")
             {
                 Console.WriteLine(idGeneratorSampleService.GenerateSuid());
@@ -49,5 +49,7 @@ namespace PiCliNewTerminalTemplateDotNet31.Runners.MyOrg.Gen.Id
         }
 
         private readonly IIdGeneratorSampleService idGeneratorSampleService;
+        private readonly ILogger<MyOrgGenRunner> logger;
+        private readonly TerminalOptions options;
     }
 }

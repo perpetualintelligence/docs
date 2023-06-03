@@ -1,13 +1,13 @@
 # Templates
 
-Our ready-to-use sample templates allow quick onboarding for application authors to create enterprise-grade modern CLI terminals.
+Our ready-to-use sample templates allow quick onboarding for application authors to create enterprise-grade modern terminals.
 
 ## How do I use the templates?
 Clone or download the template on your dev environment.
 
 We provide 2 read-to-use templates:
-- [.NET 6](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNetLatest)
-- [.NET 3.1](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/PiCliNewTerminalTemplateDotNet31)
+- [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net48)
+- [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net7)
 
 ![Hostedservice](../../images/picli/templates/dotnet-template.png)
 

@@ -12,11 +12,12 @@ Start with simple terminal apps with a few flags or build advanced terminals wit
 ## Craftsmanship
 We crafted the `pi-cli` framework to be cross-platform, modular,  deployment agnostic, and fully customizable. [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) provides a rich set of [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages. `pi-cli` directly supports the .NET (traditional), .NET Standard, .NET6+ (.NET Core), and ASP.NET Core. It lets enterprises build ground-up terminals or migrate their existing console apps to terminals. Thus it is the de-facto standard in developing cross-platform terminals for your apps, services, and developer tools in the entire .NET ecosystem.
 
-- Build and configure your CLI terminal using microservices-based architecture principles, Dependency Injection(DI services), and options pattern.
+- Build and configure your terminal using microservices-based architecture principles, Dependency Injection(DI services), and options pattern.
 - Use default handlers or provide custom implementations to handle terminal UX, command parsing, error handling, command validations, storage, and type checking.
+- Use default console routing, defualt TCP/IP client-server routing, or define your custom HTTP, Named-Pipes, or gRPC routing.
 - Provide self-hosting implementations for stores and hosts in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc. 
 - Build deployment agnostic terminals with all dependencies, test them in local environments, and deploy the production terminals on-premise, cloud (public, private, or government), or hybrid.
-- Enable enterprise-grade secured CLI applications for your products and services similar to [Github CLI](https://cli.github.com/), [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/), [Stripe CLI](https://stripe.com/docs/stripe-cli) or CLI terminals with custom formats.
+- Enable enterprise-grade secured terminal applications for your products and services similar to [Github CLI](https://cli.github.com/), [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/), [Stripe CLI](https://stripe.com/docs/stripe-cli) or terminals with custom formats.
 - Collaborate in an open-source environment, troubleshoot issues, and provide your feedback on the features and documentation
 - Use [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on GitHub. No account is needed.
 
@@ -60,7 +61,7 @@ With the `pi-cli` framework, you don't have to be a microservices or distributed
 - Use our [demo license](../pi-demo/intro.md) for quick onboarding, evaluation, and testing sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples)
 - No account is needed
 
-### I want to create my first modern CLI
+### I want to create my first modern terminal
 - Start by [subscribing or buying](../buying/intro.md) the `pi-cli` SaaS service.
 - Pick a pricing plan that works for you.
 - Activate your subscription on our [SaaS Consumer Portal](https://consumer.perpetualintelligence.com/).

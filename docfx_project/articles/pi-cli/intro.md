@@ -14,7 +14,7 @@ We crafted the `pi-cli` framework to be cross-platform, modular,  deployment agn
 
 - Build and configure your terminal using microservices-based architecture principles, Dependency Injection(DI services), and options pattern.
 - Use default handlers or provide custom implementations to handle terminal UX, command parsing, error handling, command validations, storage, and type checking.
-- Use default console routing, defualt TCP/IP client-server routing, or define your custom HTTP, Named-Pipes, or gRPC routing.
+- Use default console routing, default TCP/IP client-server routing, or define your custom HTTP, Named-Pipes, or gRPC routing.
 - Provide self-hosting implementations for stores and hosts in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc. 
 - Build deployment agnostic terminals with all dependencies, test them in local environments, and deploy the production terminals on-premise, cloud (public, private, or government), or hybrid.
 - Enable enterprise-grade secured terminal applications for your products and services similar to [Github CLI](https://cli.github.com/), [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/), [Stripe CLI](https://stripe.com/docs/stripe-cli) or terminals with custom formats.
@@ -49,7 +49,7 @@ The [GitHub](https://github.com/perpetualintelligence/cli) repo contains the art
 
 ## Terminal UX
 The `pi-cli` framework does not enforce any specific terminal or console UX experience because this is always custom to the project. However, we provide you with a starting point for your terminal lifetime and UX customization.
-- [TerminalHostedService](xref:PerpetualIntelligence.Cli.Integration.TerminalHostedService)
+- [TerminalHostedService](xref:PerpetualIntelligence.Terminal.Hosting.TerminalHostedService)
 
 ## Classes
 [Classes and Object browser](../../api/index.md)

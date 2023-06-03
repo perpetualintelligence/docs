@@ -4,11 +4,11 @@ using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Hosting;
 using System;
 using System.ComponentModel.DataAnnotations;
-using TerminalTemplate.Net481.Runners.MyOrg;
-using TerminalTemplate.Net481.Runners.MyOrg.Gen;
-using TerminalTemplate.Net481.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net48.Runners.MyOrg;
+using TerminalTemplate.Net48.Runners.MyOrg.Gen;
+using TerminalTemplate.Net48.Runners.MyOrg.Gen.Id;
 
-namespace TerminalTemplate.Net481
+namespace TerminalTemplate.Net48
 {
     /// <summary>
     /// The sample command registry. The template contains this file to register all the commands and argument

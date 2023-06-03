@@ -1,13 +1,13 @@
 ﻿using PerpetualIntelligence.Terminal.Commands.Checkers;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Extensions;
-using TerminalTemplate.Net702.Runners.MyOrg;
-using TerminalTemplate.Net702.Runners.MyOrg.Gen;
-using TerminalTemplate.Net702.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net7.Runners.MyOrg;
+using TerminalTemplate.Net7.Runners.MyOrg.Gen;
+using TerminalTemplate.Net7.Runners.MyOrg.Gen.Id;
 using System.ComponentModel.DataAnnotations;
 using PerpetualIntelligence.Terminal.Hosting;
 
-namespace TerminalTemplate.Net702
+namespace TerminalTemplate.Net7
 {
     /// <summary>
     /// The sample command registry. The template contains this file to register all the commands and argument

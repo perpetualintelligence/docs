@@ -1,4 +1,4 @@
-﻿namespace TerminalTemplate.Net481.Runners.MyOrg.Gen.Id
+﻿namespace TerminalTemplate.Net48.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The sample id generator service to demonstrate the custom DI injection for CLI terminal.

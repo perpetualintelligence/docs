@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TerminalTemplate.Net481.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net48.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The default <see cref="IIdGeneratorSampleService"/>.

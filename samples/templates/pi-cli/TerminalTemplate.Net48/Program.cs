@@ -13,9 +13,9 @@ using PerpetualIntelligence.Terminal.Stores.InMemory;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using TerminalTemplate.Net481.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net48.Runners.MyOrg.Gen.Id;
 
-namespace TerminalTemplate.Net481
+namespace TerminalTemplate.Net48
 {
     internal class Program
     {

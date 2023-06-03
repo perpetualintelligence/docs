@@ -10,8 +10,8 @@ using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Commands.Routers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
-using TerminalTemplate.Net702;
-using TerminalTemplate.Net702.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net7;
+using TerminalTemplate.Net7.Runners.MyOrg.Gen.Id;
 
 // Allows cancellation for the terminal.
 CancellationTokenSource cancellationTokenSource = new();

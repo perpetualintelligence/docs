@@ -5,7 +5,7 @@ using PerpetualIntelligence.Terminal.Hosting;
 using PerpetualIntelligence.Terminal.Licensing;
 using PerpetualIntelligence.Terminal.Services;
 
-namespace TerminalTemplate.Net702
+namespace TerminalTemplate.Net7
 {
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.

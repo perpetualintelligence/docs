@@ -5,7 +5,7 @@ using PerpetualIntelligence.Shared.Exceptions;
 using System;
 using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net481.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net48.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The <c>myorg gen id</c> command runner.

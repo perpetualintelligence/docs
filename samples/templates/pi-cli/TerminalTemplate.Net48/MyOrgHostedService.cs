@@ -7,7 +7,7 @@ using PerpetualIntelligence.Terminal.Services;
 using System;
 using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net481
+namespace TerminalTemplate.Net48
 {
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.

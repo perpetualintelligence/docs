@@ -3,7 +3,7 @@ using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 using PerpetualIntelligence.Shared.Exceptions;
 
-namespace TerminalTemplate.Net702.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
 {
     /// <summary>
     /// The <c>myorg gen id</c> command runner.

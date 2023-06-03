@@ -2,7 +2,7 @@
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 
-namespace TerminalTemplate.Net702.Runners.MyOrg.Gen
+namespace TerminalTemplate.Net7.Runners.MyOrg.Gen
 {
     /// <summary>
     /// The <c>myorg gen</c> command runner.

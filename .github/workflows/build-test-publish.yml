@@ -64,9 +64,9 @@ jobs:
       # Install chocolatey for PDF generation
       - name: Install wkhtmltopdf
         run: choco install wkhtmltopdf --no-progress
-        continue-on-error: false
 
       # Install docfx
+      - name: 
       - run: dotnet tool update -g docfx
         continue-on-error: false
   

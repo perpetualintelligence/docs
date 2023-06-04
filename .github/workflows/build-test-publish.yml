@@ -3,25 +3,20 @@
 #    For license, terms, and data policies, go to:
 #    https://terms.perpetualintelligence.com
 
-# Build the projects from multiple repos, generates the documentation and publishes static content.
 name: build-test-publish
 
-# Controls when the workflow will run
 on:
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   # chocolatey is only available on windows
   build:
     runs-on: windows-latest
     timeout-minutes: 20
-    #environment: github-release
+
     env:
       PI_CI_REFERENCE: cross
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     
       # docs Repo

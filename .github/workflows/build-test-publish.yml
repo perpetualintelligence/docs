@@ -64,14 +64,16 @@ jobs:
       # Install chocolatey for PDF generation
       - name: Install wkhtmltopdf
         run: choco install wkhtmltopdf --no-progress
+        continue-on-error: false
 
       # Install docfx
-      - name: 
-      - run: dotnet tool update -g docfx
+      - name: Setup docfc
+        run: dotnet tool update -g docfx
         continue-on-error: false
   
       # Build docfx_project
-      - run: docfx main/docfx_project/docfx.json
+      - name: Build
+        run: docfx main/docfx_project/docfx.json
         continue-on-error: false
 
       # Push the docs/_site to the GitHub /docs dir 

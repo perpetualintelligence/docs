@@ -9,29 +9,29 @@ We provide 2 read-to-use templates:
 - [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net48)
 - [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net7)
 
-![Hostedservice](../../images/picli/templates/dotnet-template.png)
+![DotnetTemplate](../../images/picli/templates/dotnet-template.png)
 
-The templates have `pi-cli` configured with our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing). Build the solution `PerpetualIntelligence.Cli.Templates.Solution.sln`, and you are ready to go!
+The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing). Build the solution `PerpetualIntelligence.Cli.Templates.Solution.sln`, and you are ready to go!
 
 ## Details
 You can use the templates to build new terminals or migrate your legacy console apps and modernize them. 
 
 This section explains the code changes in the templates. To enable `pi-cli` you need to:
-1. Install Nuget Package
+1. Install NuGet Package
 2. Add terminal hosted service
-3. Add `pi-cli` and configure the options
-4. Add descriptors and runners
-5. Add handlers and checkers
+3. Configure your terminal options
+4. Add a routing service
+5. Add handler, 
 6. Start command router
 7. Stop the router
 
-### Install Nuget Package
+### Install NuGet Package
 The `pi-cli` framework is accessible by installing the following Nuget package.
 
 [![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
 
 ### Add terminal hosted service
-The @PerpetualIntelligence.Cli.Integration.CliHostedService is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
+The @PerpetualIntelligence.Terminal.Integration.TerminalHostedService is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
 
 This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.
 

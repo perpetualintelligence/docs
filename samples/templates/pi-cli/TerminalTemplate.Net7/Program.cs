@@ -55,7 +55,7 @@ static void ConfigureServices(IServiceCollection services)
 
         // Licensing
         options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
-        options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
+        options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
         options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
         options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
         options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;

@@ -48,7 +48,7 @@ namespace TerminalTemplate.Net48
         /// </summary>
         protected override void OnStopped()
         {
-            ConsoleHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
+            TerminalHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
         }
 
         /// <summary>

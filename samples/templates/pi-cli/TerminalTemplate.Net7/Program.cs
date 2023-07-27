@@ -7,8 +7,8 @@ using PerpetualIntelligence.Terminal.Commands.Extractors;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
 using PerpetualIntelligence.Terminal.Commands.Mappers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
-using PerpetualIntelligence.Terminal.Commands.Routers;
 using PerpetualIntelligence.Terminal.Extensions;
+using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
 using TerminalTemplate.Net7;
 using TerminalTemplate.Net7.Runners.MyOrg.Gen.Id;
@@ -22,7 +22,8 @@ IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 {
-    await host.RunRouterAsTerminalAsync(new RoutingServiceContext(cancellationTokenSource.Token));
+    TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
+    await host.RunConsoleRoutingAsync(new ConsoleRoutingContext(startContext));
 }
 
 /// <summary>
@@ -59,7 +60,7 @@ static void ConfigureServices(IServiceCollection services)
         options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
         options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
         options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-    }).AddRoutingService<ConsoleRoutingService>()
+    }).AddTerminalRouting<ConsoleRouting, ConsoleRoutingContext, ConsoleRoutingResult>()
       .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
       .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
       .AddStoreHandler<InMemoryCommandStore>()

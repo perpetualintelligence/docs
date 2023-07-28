@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 using PerpetualIntelligence.Terminal.Hosting;
 using PerpetualIntelligence.Terminal.Licensing;
-using PerpetualIntelligence.Terminal.Services;
+using PerpetualIntelligence.Terminal.Runtime;
 
 namespace TerminalTemplate.Net7
 {
@@ -12,14 +12,17 @@ namespace TerminalTemplate.Net7
     /// </summary>
     public class MyOrgHostedService : TerminalHostedService
     {
+        private readonly ITerminalConsole terminalConsole;
+
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public MyOrgHostedService(IServiceProvider serviceProvider, TerminalOptions cliOptions, ILogger<TerminalHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public MyOrgHostedService(IServiceProvider serviceProvider, ITerminalConsole terminalConsole, TerminalOptions cliOptions, ILogger<TerminalHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
+            this.terminalConsole = terminalConsole;
         }
 
         /// <summary>
@@ -37,8 +40,10 @@ namespace TerminalTemplate.Net7
         /// </summary>
         protected override void OnStarted()
         {
-            Console.WriteLine("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
-            Console.WriteLine();
+            Task.WaitAll(
+                terminalConsole.WriteLineAsync("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString()),
+                terminalConsole.WriteLineAsync()
+                );
         }
 
         /// <summary>
@@ -46,7 +51,7 @@ namespace TerminalTemplate.Net7
         /// </summary>
         protected override void OnStopped()
         {
-            TerminalHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
+            terminalConsole.WriteLineColorAsync(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString()).Wait();
         }
 
         /// <summary>
@@ -54,23 +59,22 @@ namespace TerminalTemplate.Net7
         /// </summary>
         protected override void OnStopping()
         {
-            Console.WriteLine("Stopping server...");
+            terminalConsole.WriteLineAsync("Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString()).Wait();
         }
 
         /// <summary>
         /// Print <c>cli</c> terminal header.
         /// </summary>
         /// <returns></returns>
-        protected override Task PrintHostApplicationHeaderAsync()
+        protected override async Task PrintHostApplicationHeaderAsync()
         {
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
-            Console.WriteLine("Copyright (c) My Organization. All Rights Reserved.");
-            Console.WriteLine("For license, terms, and data policies, go to:");
-            Console.WriteLine("https://sampleyourorgurl.com");
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
+            await terminalConsole.WriteLineAsync("---------------------------------------------------------------------------------------------");
+            await terminalConsole.WriteLineAsync("Copyright (c) My Organization. All Rights Reserved.");
+            await terminalConsole.WriteLineAsync("For license, terms, and data policies, go to:");
+            await terminalConsole.WriteLineAsync("https://sampleyourorgurl.com");
+            await terminalConsole.WriteLineAsync("---------------------------------------------------------------------------------------------");
 
-            Console.WriteLine($"Starting server myorg version=2.6.1-sample");
-            return Task.CompletedTask;
+            await terminalConsole.WriteLineAsync($"Starting server myorg version=2.6.1-sample");
         }
 
         /// <summary>

@@ -54,6 +54,7 @@ namespace TerminalTemplate.Net48
                 options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
             }).AddTerminalRouting<ConsoleRouting, ConsoleRoutingContext, ConsoleRoutingResult>()
+              .AddTerminalConsole<TerminalSystemConsole>()
               .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
               .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
               .AddStoreHandler<InMemoryCommandStore>()

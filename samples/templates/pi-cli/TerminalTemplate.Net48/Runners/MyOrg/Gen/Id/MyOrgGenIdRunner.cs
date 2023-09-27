@@ -29,7 +29,7 @@ namespace TerminalTemplate.Net48.Runners.MyOrg.Gen.Id
         /// <returns></returns>
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
-            string type = context.Command.GetRequiredOptionValue<string>("type");
+            context.Command.TryGetOptionValue("type", out string? type);
             if (type == "suid")
             {
                 Console.WriteLine(idGeneratorSampleService.GenerateSuid());

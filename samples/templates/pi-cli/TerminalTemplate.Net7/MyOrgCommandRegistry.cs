@@ -4,8 +4,8 @@ using PerpetualIntelligence.Terminal.Extensions;
 using TerminalTemplate.Net7.Runners.MyOrg;
 using TerminalTemplate.Net7.Runners.MyOrg.Gen;
 using TerminalTemplate.Net7.Runners.MyOrg.Gen.Id;
-using System.ComponentModel.DataAnnotations;
 using PerpetualIntelligence.Terminal.Hosting;
+using PerpetualIntelligence.Terminal.Commands;
 
 namespace TerminalTemplate.Net7
 {
@@ -21,30 +21,30 @@ namespace TerminalTemplate.Net7
         /// </summary>
         /// <param name="builder">The <see cref="ITerminalBuilder"/> builder.</param>
         /// <returns>The <see cref="ITerminalBuilder"/> instance.</returns>
-        public static ITerminalBuilder AddCommands(this ITerminalBuilder builder)
+        public static ITerminalBuilder AddCommandDescriptors(this ITerminalBuilder builder)
         {
             // Root command (myorg)
-            builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg", "myorg", "Sample myorg root command").
-                    DefineOption("version", nameof(Boolean), "Show myorg version", alias: "v", required: false).Add().
+            builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg name", "Sample myorg root command", CommandType.Root, CommandFlags.None).
+                    DefineOption("version", nameof(Boolean), "Show myorg version", OptionFlags.None, alias: "v").Add().
                     Add();
 
             // Grouped command (myorg gen)
-            builder.DefineCommand<CommandChecker, MyOrgGenRunner>("myorg-gen", "gen", "myorg gen", "Sample generator grouped command.").
+            builder.DefineCommand<CommandChecker, MyOrgGenRunner>("gen", "gen name", "Sample generator grouped command.", CommandType.Group, CommandFlags.None).
                     Add();
 
             // Subcommand (myorg gen id)
-            builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("myorg-gen-id", "id", "myorg gen id", "Sample id generator sub command.").
-                    DefineOption("type", DataType.Text, "Id type", alias: "t", required: true).Add().
+            builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("id", "id name", "Sample id generator sub command.", CommandType.SubCommand, CommandFlags.None).
+                    DefineOption("type", nameof(String), "Id type", OptionFlags.Required, alias: "t").Add().
                     Add();
 
             // Exit
-            builder.DefineCommand<CommandChecker, ExitRunner>("myorg-cli-exit", "exit", "exit", "Exits the CLI terminal.").Add();
+            builder.DefineCommand<CommandChecker, ExitRunner>("exit", "exit name", "Exits the CLI terminal.", CommandType.SubCommand, CommandFlags.None).Add();
 
             // Clear screen
-            builder.DefineCommand<CommandChecker, ClearScreenRunner>("myorg-cli-cls", "cls", "cls", "Clears the CLI terminal screen.").Add();
+            builder.DefineCommand<CommandChecker, ClearScreenRunner>("cls", "cls name", "Clears the CLI terminal screen.", CommandType.SubCommand, CommandFlags.None).Add();
 
             // Show licensing details.
-            builder.DefineCommand<CommandChecker, LicInfoRunner>("myorg-cli-lic", "lic", "lic info", "Displays the licensing information.").Add();
+            builder.DefineCommand<CommandChecker, LicenseInfoRunner>("lic", "lic name", "Displays the licensing information.", CommandType.SubCommand, CommandFlags.None).Add();
 
             return builder;
         }

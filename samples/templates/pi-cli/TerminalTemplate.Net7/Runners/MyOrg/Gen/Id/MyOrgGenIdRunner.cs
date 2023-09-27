@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using PerpetualIntelligence.Shared.Exceptions;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
-using PerpetualIntelligence.Shared.Exceptions;
 
 namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
 {
@@ -29,7 +29,7 @@ namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
         /// <returns></returns>
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
-            string type = context.Command.GetRequiredOptionValue<string>("type");
+            context.Command.TryGetOptionValue("type", out string? type);
             if (type == "suid")
             {
                 Console.WriteLine(idGeneratorSampleService.GenerateSuid());

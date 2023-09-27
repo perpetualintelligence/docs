@@ -2,11 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
-using PerpetualIntelligence.Terminal.Commands.Checkers;
-using PerpetualIntelligence.Terminal.Commands.Extractors;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
-using PerpetualIntelligence.Terminal.Commands.Mappers;
-using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
@@ -26,25 +22,25 @@ namespace TerminalTemplate.Net48
         {
             Console.Title = "pi-cli demo (.NET 481)";
 
-            services.AddTerminal(options =>
+            services.AddTerminalDefault(options =>
             {
+                // Terminal Identifier
+                options.Id = "my-terminal-id";
+
                 // Error info
                 options.Logging.ObsureInvalidOptions = false;
 
                 // Commands, arguments and options
-                options.Extractor.OptionAlias = true;
                 options.Extractor.OptionPrefix = "--";
                 options.Extractor.OptionAliasPrefix = "-";
-                options.Extractor.DefaultOptionValue = true;
-                options.Extractor.DefaultOption = true;
-                options.Extractor.OptionValueWithIn = "\"";
+                options.Extractor.ValueDelimiter = "\"";
                 options.Extractor.OptionValueSeparator = " ";
                 options.Extractor.Separator = " ";
 
                 // Checkers
-                options.Checker.StrictOptionValueType = true;
+                options.Checker.StrictValueType = true;
 
-                // Http
+                // HTTP
                 options.Http.HttpClientName = "pi-demo";
 
                 // Licensing
@@ -53,16 +49,13 @@ namespace TerminalTemplate.Net48
                 options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
                 options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-            }).AddTerminalRouting<ConsoleRouting, ConsoleRoutingContext, ConsoleRoutingResult>()
+            }).AddTerminalRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext, TerminalConsoleRoutingResult>()
               .AddTerminalConsole<TerminalSystemConsole>()
-              .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
-              .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
               .AddStoreHandler<InMemoryCommandStore>()
-              .AddErrorHandler<ErrorHandler, ExceptionHandler>()
               .AddTextHandler<UnicodeTextHandler>()
               .AddCommandDescriptors();
 
-            // Add the pi-cli hosted serce for terminal customization
+            // Add the hosted serce for terminal customization
             services.AddHostedService<MyOrgHostedService>();
 
             // Add the HTTP client factory to perform license checks
@@ -82,7 +75,7 @@ namespace TerminalTemplate.Net48
         {
             return Host.CreateDefaultBuilder(args)
 
-                // Configure the pi-cli framework
+                // Configure the framework
                 .ConfigureServices(configurePiCli)
 
                 // Configure terminal logging based on your application need.

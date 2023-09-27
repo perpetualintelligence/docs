@@ -26,10 +26,10 @@ namespace TerminalTemplate.Net7.Runners.MyOrg
         public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
         {
             // Get the passed argument value
-            bool? showVersion = context.Command.GetOptionalOptionValue<bool>("version");
+            context.Command.TryGetOptionValue("version", out bool? showVersion);
             if (showVersion.GetValueOrDefault())
             {
-                Console.WriteLine("Version=2.6.1-demo");
+                Console.WriteLine("Version=5.x-demo");
             }
             else
             {

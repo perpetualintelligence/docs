@@ -8,7 +8,7 @@ We welcome contributions to help us improve and complete the docs.
 This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
 
 # Products
-### [pi-cli](articles/pi-cli/intro.md): The most flexible cross-platform framework for building modern CLI terminals.
+[pi-cli](articles/pi-cli/intro.md): The most flexible cross-platform framework for building modern CLI terminals.
 
 # Navigation
 This documentation website has two main sections:
@@ -16,7 +16,7 @@ This documentation website has two main sections:
 2. [Classes](api/index.md): The .NET classes for applications on any platform using C#, F#, and Visual Basic
 
 # Contact Us
-Submit issues and feature requests on [Github](https://github.com/perpetualintelligence/docs/issues).
+Submit issues and feature requests on [GitHub](https://github.com/perpetualintelligence/docs/issues).
 
 # Terms
 Visit our [terms website](https://terms.perpetualintelligence.com/) for terms of use, licensing terms, privacy and data policies.

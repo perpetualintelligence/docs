@@ -26,7 +26,7 @@ The framework handles the entire terminal infrastructure, so your focus is build
 > ***In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with `pi-cli`.***
 
 ## Open Source
-Our entire source code is on [GitHub](https://github.com/perpetualintelligence/cli). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
+Our entire source code is on [GitHub](https://github.com/perpetualintelligence/terminal). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
 
 > ***See our [licenses](licensing/intro.md) and [pricing](https://www.perpetualintelligence.com/products/picli#pricing).***
 
@@ -43,7 +43,7 @@ The licensed libraries can be accessed via Nuget:
 [![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
 
 ## Repo
-The [GitHub](https://github.com/perpetualintelligence/cli) repo contains the artifacts to build, test and publish the `pi-cli` source.
+The [GitHub](https://github.com/perpetualintelligence/terminal) repo contains the artifacts to build, test and publish the `pi-cli` source.
 
  ![repo](../../images/picli/framework/repo.png)
 
@@ -89,7 +89,7 @@ The software license and pricing model is flexible and fits all, whether you are
 - [Pricing](https://perpetualintelligence.com/products/picli#pricing)
 
 ## Issues and feature requests
-Please report [issue or feature request](https://github.com/perpetualintelligence/cli/issues) directly on our official github repo.
+Please report [issue or feature request](https://github.com/perpetualintelligence/terminal/issues) directly on our official github repo.
 
 ## References
 - [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)

@@ -24,4 +24,4 @@ Once you activate the commercial subscription,
 See [samples](../samples.md) for our [ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli) and [tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli).
 
 ## Support
-Please use our official [GitHub](https://github.com/perpetualintelligence/cli/issues) account to report issues and feature requests.
+Please use our official [GitHub](https://github.com/perpetualintelligence/terminal/issues) account to report issues and feature requests.

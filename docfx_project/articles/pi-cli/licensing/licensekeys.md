@@ -38,7 +38,7 @@ You will need an active `pi-cli` subscription to generate the license keys. If y
 ![Audience](../../../images/picli/licensing/generate-audience.png)
 8. Click `Generate` 
 
-> **Note**: The license expiry is based on your subscription plan. It is `31` days for monthly subscriptions, `365` days for yearly subscriptions, and `90` days for community subscriptions. See https://github.com/perpetualintelligence/cli/issues/20.
+> **Note**: The license expiry is based on your subscription plan. It is `31` days for monthly subscriptions, `365` days for yearly subscriptions, and `90` days for community subscriptions. See https://github.com/perpetualintelligence/terminal/issues/20.
 
 ## Download
 You can download your license keys with `Download Primary` or `Download Secondary` actions.
@@ -64,14 +64,14 @@ The reset allows you to regenerate primary or secondary keys and replace them in
 
 > **Note**: You cannot update your license audience claims during reset. You need to delete the license keys and generate new keys to change your license audience claims.
 
-Currently, Reset will require redeploying your terminal. The fix is in progress, and it will enable customers to reset license keys without redeploying their terminals. See GitHub issue https://github.com/perpetualintelligence/cli/issues/22 that tracks this issue.
+Currently, Reset will require redeploying your terminal. The fix is in progress, and it will enable customers to reset license keys without redeploying their terminals. See GitHub issue https://github.com/perpetualintelligence/terminal/issues/22 that tracks this issue.
 
 ## Delete
 The `Delete` action will permanently remove your Primary and Secondary license keys. ***YOU CAN NOT UNDO THIS ACTION.***
 
 > **Note**: Deleting your keys will affect your deployed terminals. The license check will fail, and the application will not start till you generate the keys and update your application configuration to you use the new keys.
 
-See GitHub issue https://github.com/perpetualintelligence/cli/issues/21 that will show a warning message before deleting.
+See GitHub issue https://github.com/perpetualintelligence/terminal/issues/21 that will show a warning message before deleting.
 
 
 

@@ -23,7 +23,7 @@ namespace TerminalTemplate.Net7.Runners.MyOrg
         /// </summary>
         /// <param name="context">The run context.</param>
         /// <returns></returns>
-        public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
+        public override Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
         {
             // Get the passed argument value
             context.Command.TryGetOptionValue("version", out bool? showVersion);

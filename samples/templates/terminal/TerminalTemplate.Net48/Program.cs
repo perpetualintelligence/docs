@@ -6,8 +6,12 @@ using PerpetualIntelligence.Terminal.Commands.Handlers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
-using PerpetualIntelligence.Terminal.Stores.InMemory;
+using PerpetualIntelligence.Terminal.Stores;
+using Serilog.Events;
+using Serilog.Sinks.SystemConsole.Themes;
+using Serilog;
 using System;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using TerminalTemplate.Net48.Runners.MyOrg.Gen.Id;
@@ -28,9 +32,6 @@ namespace TerminalTemplate.Net48
                 // Terminal Identifier
                 options.Id = "my-terminal-id";
 
-                // Error info
-                options.Logging.ObsureInvalidOptions = false;
-
                 // Commands, arguments and options
                 options.Extractor.OptionPrefix = "--";
                 options.Extractor.OptionAliasPrefix = "-";
@@ -45,13 +46,12 @@ namespace TerminalTemplate.Net48
                 options.Http.HttpClientName = "pi-demo";
 
                 // Licensing
-                options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
-                options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-                options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
-                options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
-                options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-            }).AddTerminalRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext, TerminalConsoleRoutingResult>()
-              .AddTerminalConsole<TerminalSystemConsole>()
+                options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
+                options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
+                options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
+                options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
+            }).AddRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext>()
+              .AddConsole<TerminalSystemConsole>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddTextHandler<UnicodeTextHandler>()
               .AddHelpProvider<HelpLoggerProvider>()
@@ -87,13 +87,19 @@ namespace TerminalTemplate.Net48
                     logging.AddFilter("Microsoft", LogLevel.Error);
                     logging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Error);
                     logging.AddFilter("Microsoft.AspNetCore.Authentication", LogLevel.Error);
-                });
+                })
+
+                // Enable Serilog
+                .UseSerilog();
         }
 
         private static async Task Main(string[] args)
         {
             // Allows cancellation for the terminal.
             CancellationTokenSource cancellationTokenSource = new();
+
+            // Init Serilog
+            InitSerilog();
 
             // Setup the host builder.
             IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
@@ -102,8 +108,25 @@ namespace TerminalTemplate.Net48
             using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
             {
                 TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
-                await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext, TerminalConsoleRoutingResult>(new(startContext));
+                await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext>(new(startContext));
             }
+        }
+
+        static void InitSerilog()
+        {
+            Activity.DefaultIdFormat = ActivityIdFormat.W3C;
+
+            Console.Title = PerpetualIntelligence.Shared.Constants.TerminalUrn;
+
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Error)
+                .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Error)
+                .MinimumLevel.Override("System", LogEventLevel.Error)
+                .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Error)
+                .Enrich.FromLogContext()
+                .WriteTo.Console(outputTemplate: "[{Timestamp:yy-MM-dd HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}", theme: AnsiConsoleTheme.Code)
+                .CreateLogger();
         }
     }
 }

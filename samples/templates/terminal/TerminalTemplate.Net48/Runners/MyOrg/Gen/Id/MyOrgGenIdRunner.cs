@@ -27,7 +27,7 @@ namespace TerminalTemplate.Net48.Runners.MyOrg.Gen.Id
         /// </summary>
         /// <param name="context">The run context.</param>
         /// <returns></returns>
-        public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
+        public override Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
         {
             context.Command.TryGetOptionValue("type", out string? type);
             if (type == "suid")

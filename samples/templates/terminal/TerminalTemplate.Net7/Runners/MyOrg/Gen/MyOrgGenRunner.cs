@@ -23,7 +23,7 @@ namespace TerminalTemplate.Net7.Runners.MyOrg.Gen
         /// </summary>
         /// <param name="context">The run context.</param>
         /// <returns></returns>
-        public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
+        public override Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
         {
             Console.WriteLine("Running the sample grouped command  \"myorg gen\"");
 

@@ -18,12 +18,12 @@
     <Choose>
         <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
             <ItemGroup>
-                <ProjectReference Include="..\..\..\..\..\cli\src\PerpetualIntelligence.Terminal\PerpetualIntelligence.Terminal.csproj" />
+                <ProjectReference Include="..\..\..\..\..\oneterminal\src\PerpetualIntelligence.Terminal\PerpetualIntelligence.Terminal.csproj" />
             </ItemGroup>
         </When>
         <Otherwise>
             <ItemGroup>
-                <PackageReference Include="PerpetualIntelligence.Terminal" Version="5.1.1-rc.27723961" />
+                <PackageReference Include="PerpetualIntelligence.Terminal" Version="5.3.1" />
             </ItemGroup>
         </Otherwise>
     </Choose>

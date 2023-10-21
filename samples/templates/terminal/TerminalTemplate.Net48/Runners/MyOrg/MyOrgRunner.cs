@@ -1,4 +1,11 @@
-﻿using Microsoft.Extensions.Logging;
+﻿/*
+    Copyright (c) 2023 Perpetual Intelligence L.L.C. All Rights Reserved.
+
+    For license, terms, and data policies, go to:
+    https://terms.perpetualintelligence.com/articles/intro.html
+*/
+
+using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 using System;
@@ -25,7 +32,7 @@ namespace TerminalTemplate.Net48.Runners.MyOrg
         /// </summary>
         /// <param name="context">The run context.</param>
         /// <returns></returns>
-        public override Task<CommandRunnerResult> RunAsync(CommandRunnerContext context)
+        public override Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
         {
             // Get the passed argument value
             context.Command.TryGetOptionValue("version", out bool? showVersion);

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
+using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
@@ -19,7 +20,7 @@ IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 {
     TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
-    await host.RunConsoleRoutingAsync(new(startContext));
+    await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext, TerminalConsoleRoutingResult>(new(startContext));
 }
 
 /// <summary>
@@ -60,9 +61,10 @@ static void ConfigureServices(IServiceCollection services)
       .AddTerminalConsole<TerminalSystemConsole>()
       .AddStoreHandler<InMemoryCommandStore>()
       .AddTextHandler<UnicodeTextHandler>()
+      .AddHelpProvider<HelpLoggerProvider>()
       .AddCommandDescriptors();
 
-    // Add the hosted serce for terminal customization
+    // Add the hosted service for terminal customization
     services.AddHostedService<MyOrgHostedService>();
 
     // Add the HTTP client factory to perform license checks

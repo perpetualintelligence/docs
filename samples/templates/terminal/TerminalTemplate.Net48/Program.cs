@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
+using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores.InMemory;
@@ -53,6 +54,7 @@ namespace TerminalTemplate.Net48
               .AddTerminalConsole<TerminalSystemConsole>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddTextHandler<UnicodeTextHandler>()
+              .AddHelpProvider<HelpLoggerProvider>()
               .AddCommandDescriptors();
 
             // Add the hosted serce for terminal customization
@@ -100,7 +102,7 @@ namespace TerminalTemplate.Net48
             using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
             {
                 TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
-                await host.RunConsoleRoutingAsync(new(startContext));
+                await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext, TerminalConsoleRoutingResult>(new(startContext));
             }
         }
     }

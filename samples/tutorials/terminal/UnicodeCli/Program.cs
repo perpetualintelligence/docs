@@ -28,7 +28,7 @@ namespace UnicodeCli
     internal class Program
     {
         /// <summary>
-        /// Configures the required <c>pi-cli</c> services.
+        /// Configures the required <c>terminal</c> services.
         /// </summary>
         private static void ConfigureServices(IServiceCollection services)
         {
@@ -59,10 +59,10 @@ namespace UnicodeCli
                 options.Http.HttpClientName = "unicode-demo";
 
                 // Licensing
-                options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
+                options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
                 options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-                options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
-                options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
+                options.Licensing.ConsumerTenantId = DemoIdentifiers.terminalDemoConsumerTenantId;
+                options.Licensing.Subject = DemoIdentifiers.terminalDemoSubject;
                 options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
             }).AddRoutingService<ConsoleRoutingService>()
               .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
@@ -81,7 +81,7 @@ namespace UnicodeCli
         /// Creates a host builder.
         /// </summary>
         /// <param name="args">Options.</param>
-        /// <param name="configurePiCli"></param>
+        /// <param name="configureterminal"></param>
         /// <returns></returns>
         /// <summary>
         /// Creates a host builder.
@@ -103,7 +103,7 @@ namespace UnicodeCli
 
         private static async Task Main(string[] args)
         {
-            // Allows cancellation for the pi-cli terminal.
+            // Allows cancellation for the terminal terminal.
             CancellationTokenSource cancellationTokenSource = new();
 
             // Setup the host builder.

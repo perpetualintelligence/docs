@@ -17,7 +17,7 @@ namespace DotnetStyleCli
 {
     /// <summary>
     /// The sample <c>dotnet</c> CLI command registry. This class registers some sample commands to show how .NET style
-    /// console terminals can be build using <c>pi-cli</c> framework.
+    /// console terminals can be build using <c>terminal</c> framework.
     /// </summary>
     public static class CommandRegistry
     {

@@ -17,7 +17,7 @@ namespace UnicodeCli
 {
     /// <summary>
     /// The sample <c>unicode</c> CLI command registry. This class registers some sample Unicode commands to show how
-    /// GitHub CLI style console terminals can be build using <c>pi-cli</c> framework.
+    /// GitHub CLI style console terminals can be build using <c>terminal</c> framework.
     /// </summary>
     public static class CommandRegistry
     {

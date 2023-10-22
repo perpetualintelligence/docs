@@ -58,4 +58,4 @@ Example:
 ```
 
 ## See also
-- [Options](../pi-cli/options.md)
+- [Options](../terminal/options.md)

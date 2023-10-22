@@ -1,6 +1,6 @@
 # Usage and Authorization
 
-You authorize your terminal or application to use the `pi-cli` framework by configuring the [LicensingOptions](xref:PerpetualIntelligence.Cli.Configuration.Options.LicensingOptions).
+You authorize your terminal or application to use the `terminal` framework by configuring the [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions).
 
 # Identifiers
 The identifiers help identify and configure your terminal or application correctly.
@@ -8,12 +8,12 @@ The identifiers help identify and configure your terminal or application correct
 1. Go to our [Consumer Portal](https://consumer.perpetualintelligence.com/)
 2. **Login** to your account
 3. Go to **Identifiers** in your accounts menu
-![Identifiers](../../../images/picli/licensing/profile-identifiers.png)
+![Identifiers](../../../images/terminal/licensing/profile-identifiers.png)
 4. Scroll down to **Consumer** section
-![Licensing](../../../images/picli/licensing/identifiers-consumers.png)
+![Licensing](../../../images/terminal/licensing/identifiers-consumers.png)
 5. Copy `Consumer Tenant Id`
 6. Scroll down to **Licensing** section
-![Licensing](../../../images/picli/licensing/identifiers-licensing.png)
+![Licensing](../../../images/terminal/licensing/identifiers-licensing.png)
 7. Copy `Subject Id (Subscription Id)`
 8. Copy `Authorized Application Id`
 9. Configure the copied identifiers in your CLI terminal options
@@ -35,4 +35,4 @@ Download your primary or secondary license key as explained in the [License Keys
 ```
 
 ## See also
-- [Options](../../pi-cli/options.md)
+- [Options](../../terminal/options.md)

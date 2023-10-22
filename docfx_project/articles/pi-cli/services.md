@@ -1,12 +1,12 @@
 # Services (Dependency Injection)
-`pi-cli` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](options.md) and [logging](logging.md). A dependency is an object that another object depends on.
+`terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](options.md) and [logging](logging.md). A dependency is an object that another object depends on.
 
 ## Extension Methods
-The following classes provide extension methods to register the host application's `pi-cli` DI services.
+The following classes provide extension methods to register the host application's `terminal` DI services.
 
-- @PerpetualIntelligence.Cli.Extensions.IServiceCollectionExtensions
-- @PerpetualIntelligence.Cli.Integration.ICliBuilder
-- @PerpetualIntelligence.Cli.Configuration.Options.CliOptions
+- @PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions
+- @PerpetualIntelligence.Terminal.Integration.ICliBuilder
+- @PerpetualIntelligence.Terminal.Configuration.Options.CliOptions
 
 We have grouped the extension methods based on the feature they support.
 
@@ -15,7 +15,7 @@ Involves defining and registering the core CLI infrastructure and services.
 
 ### AddCli
 
-Adds the core services to the DI service collection. @PerpetualIntelligence.Cli.Extensions.IServiceCollectionExtensions provide extension methods that return a @PerpetualIntelligence.Cli.Integration.ICliBuilder object which in turn provides extension methods to add `pi-cli` specific services to the host application.
+Adds the core services to the DI service collection. @PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions provide extension methods that return a @PerpetualIntelligence.Terminal.Integration.ICliBuilder object which in turn provides extension methods to add `terminal` specific services to the host application.
 
 ```
 public static ICliBuilder AddCli(this IServiceCollection services)

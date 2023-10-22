@@ -31,7 +31,7 @@ using System.Diagnostics;
 InitSerilog();
 
 // Allows cancellation for the
-// <c>pi-cli</c>
+// <c>terminal</c>
 // terminal.
 CancellationTokenSource cancellationTokenSource = new();
 
@@ -45,7 +45,7 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 }
 
 /// <summary>
-/// Configures the required <c>pi-cli</c> services.
+/// Configures the required <c>terminal</c> services.
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
@@ -71,10 +71,10 @@ void ConfigureServices(IServiceCollection services)
         options.Http.HttpClientName = "stripe-demo";
 
         // Licensing
-        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
+        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
         options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-        options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
-        options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
+        options.Licensing.ConsumerTenantId = DemoIdentifiers.terminalDemoConsumerTenantId;
+        options.Licensing.Subject = DemoIdentifiers.terminalDemoSubject;
         options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
     }).AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
       .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()

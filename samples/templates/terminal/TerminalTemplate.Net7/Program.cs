@@ -31,11 +31,11 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 }
 
 /// <summary>
-/// Configures the required <c>pi-cli</c> services.
+/// Configures the required <c>terminal</c> services.
 /// </summary>
 static void ConfigureServices(IServiceCollection services)
 {
-    Console.Title = "pi-cli demo  (.NET 7)";
+    Console.Title = "terminal demo  (.NET 7)";
 
     services.AddTerminalDefault(options =>
     {
@@ -81,7 +81,7 @@ static void ConfigureServices(IServiceCollection services)
 /// Creates a host builder.
 /// </summary>
 /// <param name="args">Arguments.</param>
-/// <param name="configurePiCli"></param>
+/// <param name="configureterminal"></param>
 /// <returns></returns>
 static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureTerminal)
 {

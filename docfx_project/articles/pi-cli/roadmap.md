@@ -11,20 +11,20 @@ The following is our roadmap for planned features and future requests.
 :raising_hand: Help wanted
 
 ## General
-* [x] Publish the pi-cli SaaS solution on Microsoft SaaS Marketplace
+* [x] Publish the terminal SaaS solution on Microsoft SaaS Marketplace
 * [x] Publish the -preview docs at https://docs.perpetualintelligence.com/
-* [ ] Provide pi-cli native pricing options and purchase experience :soon:
-* [x] Provide pi-cli consumer fulfillment portal for Microsoft SaaS purchases at https://consumer.perpetualintelligence.com/
-* [ ] Provide pi-cli consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
-* [ ] Provide pi-cli consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
+* [ ] Provide terminal native pricing options and purchase experience :soon:
+* [x] Provide terminal consumer fulfillment portal for Microsoft SaaS purchases at https://consumer.perpetualintelligence.com/
+* [ ] Provide terminal consumer fulfillment portal for AWS SaaS purchases :tipping_hand_person:
+* [ ] Provide terminal consumer fulfillment portal for Google Cloud SaaS purchases :tipping_hand_person:
 * [x] Provide licensing and redistribution terms
     * [x] https://terms.perpetualintelligence.com/articles/licensing.html
     * [x] https://terms.perpetualintelligence.com/articles/redistribution.html
 
 * [ ] Clarify the community edition and have common FAQs :soon:
 
-## pi-cli
-* [x] Publish -preview packages for pi-cli on Nuget
+## terminal
+* [x] Publish -preview packages for terminal on Nuget
 * [x] Finalize the pricing
     * [x] Make perpetualintelligence/terminal public under licensig terms
 * [x] Finalyse configuration options :point_left:

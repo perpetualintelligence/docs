@@ -1,8 +1,8 @@
 # License Keys
 
-The license keys authorize your use of the `pi-cli` framework against a valid license. The keys are signed JWT assertions with header, payload, and signature. 
+The license keys authorize your use of the `terminal` framework against a valid license. The keys are signed JWT assertions with header, payload, and signature. 
 
-The license keys are associated with your tenant account and an active subscription for the `pi-cli` framework.
+The license keys are associated with your tenant account and an active subscription for the `terminal` framework.
 
 For each subscription, our system generates two keys. The two keys allow you to replace one while still using the other.
 - Primary License Key
@@ -15,7 +15,7 @@ The license keys are public signed keys with a `public-private` key pair. They *
 For more information, see [JWT](https://jwt.io/introduction).
 
 ## License Audience Claims
-The mandatory license audience claims to identify the valid license holder for the `pi-cli` framework.
+The mandatory license audience claims to identify the valid license holder for the `terminal` framework.
 - `aud` claim identifies the recipients of the license keys. It is usually the person's name, organization or business name, or an educational institute name.
 - `subject` claim identifies your subscription identifier
 - `tid` claim identifies your consumer tenant identifier
@@ -24,41 +24,41 @@ The mandatory license audience claims to identify the valid license holder for t
 > **Note**: Do not specify any sensitive information such as a secret, api keys, etc., in your license audience claims.
 
 ## Generate
-You will need an active `pi-cli` subscription to generate the license keys. If you do not have an active subscription, please visit [buying](../../buying/intro.md).
+You will need an active `terminal` subscription to generate the license keys. If you do not have an active subscription, please visit [buying](../../buying/intro.md).
 
 1. Go to our [Consumer Portal](https://consumer.perpetualintelligence.com/)
 2. `Login` to your account
 3. Browse `Subscriptions.`
-![Subscription](../../../images/picli/licensing/subscriptions.png)
+![Subscription](../../../images/terminal/licensing/subscriptions.png)
 4. Select and open the subscription for which you want to generate the license keys
 5. Scroll down to the `License Keys` section
-![Generate License Keys](../../../images/picli/licensing/generate.png)
+![Generate License Keys](../../../images/terminal/licensing/generate.png)
 6. Select `Generate`
 7. Specify your usage and license audience claims. 
-![Audience](../../../images/picli/licensing/generate-audience.png)
+![Audience](../../../images/terminal/licensing/generate-audience.png)
 8. Click `Generate` 
 
 > **Note**: The license expiry is based on your subscription plan. It is `31` days for monthly subscriptions, `365` days for yearly subscriptions, and `90` days for community subscriptions. See https://github.com/perpetualintelligence/terminal/issues/20.
 
 ## Download
 You can download your license keys with `Download Primary` or `Download Secondary` actions.
-![Download License Keys](../../../images/picli/licensing/licensekeys.png)
+![Download License Keys](../../../images/terminal/licensing/licensekeys.png)
 The downloaded file is a JSON file with license audience claims and licenses keys. See [usage](usage.md) to configure your terminal.
 
 ## Check
 You can check your license key with our `Check` license feature.
 1. Select `Check`
 2. Select `Primary` or `Secondary` license keys
-![Check](../../../images/picli/licensing/check-license.png)
+![Check](../../../images/terminal/licensing/check-license.png)
 3. Click `Check` button
 4. Please allow a few seconds to check and present your license key status
 
 ## Reset
 The reset allows you to regenerate primary or secondary keys and replace them in your application based on your deployment strategy while still using the other key.
 1. Select one of the `Reset Primary` or `Reset Secondary` options
-![Reset Options](../../../images/picli/licensing/licensekeys.png)
+![Reset Options](../../../images/terminal/licensing/licensekeys.png)
 2. Confirm you license audience claims
-![Reset License](../../../images/picli/licensing/reset-license.png)
+![Reset License](../../../images/terminal/licensing/reset-license.png)
 3. Click `Reset Primary` or `Reset Secondary` button
 4. Please allow a few seconds to reset your license key
 

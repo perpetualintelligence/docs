@@ -1,6 +1,6 @@
 # Defaults and Limits
 
-`pi-cli` defaults to following values and configuration restrictions to avoid parsing and performance bottlenecks.
+`terminal` defaults to following values and configuration restrictions to avoid parsing and performance bottlenecks.
 
 ## Regex
 
@@ -43,7 +43,7 @@ The following restrictions apply to the configuration options while parsing the 
 
 ## Licensing
 
-The `pi-cli` hosted service will print the following mandatory messsage in the terminal for `community` and `demo` licenses.
+The `terminal` hosted service will print the following mandatory messsage in the terminal for `community` and `demo` licenses.
 
 ### Community Education
 ```

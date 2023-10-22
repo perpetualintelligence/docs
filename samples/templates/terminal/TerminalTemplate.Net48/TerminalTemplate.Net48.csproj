@@ -19,7 +19,7 @@
     <Choose>
         <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
             <ItemGroup>
-                <ProjectReference Include="..\..\..\..\..\oneterminal\src\PerpetualIntelligence.Terminal\PerpetualIntelligence.Terminal.csproj" />
+                <ProjectReference Include="..\..\..\..\..\terminal\src\PerpetualIntelligence.Terminal\PerpetualIntelligence.Terminal.csproj" />
             </ItemGroup>
         </When>
         <Otherwise>

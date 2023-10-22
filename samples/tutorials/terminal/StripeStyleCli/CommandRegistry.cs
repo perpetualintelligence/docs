@@ -17,7 +17,7 @@ namespace StripeStyleCli
 {
     /// <summary>
     /// The sample <c>stripe</c> CLI command registry. This class registers some sample commands to show how Stripe CLI
-    /// style console terminals can be build using <c>pi-cli</c> framework.
+    /// style console terminals can be build using <c>terminal</c> framework.
     /// </summary>
     public static class CommandRegistry
     {

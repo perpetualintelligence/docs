@@ -14,14 +14,14 @@ Start by subscribing to the Commercial edition:
 
 Once you activate the commercial subscription, 
 1. Generate the [license keys](licensing/licensekeys.md)
-2. Download the [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli)
+2. Download the [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal)
 3. Configure the terminal with [options](options.md)
 4. Configure the [template](templates.md) usage
 5. Add your command runners
 6. Test and run your terminal
 
 ## Code Samples and Tutorials
-See [samples](../samples.md) for our [ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli) and [tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/pi-cli).
+See [samples](../samples.md) for our [ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) and [tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal).
 
 ## Support
 Please use our official [GitHub](https://github.com/perpetualintelligence/terminal/issues) account to report issues and feature requests.

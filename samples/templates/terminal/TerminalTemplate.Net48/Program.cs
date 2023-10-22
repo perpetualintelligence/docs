@@ -21,11 +21,11 @@ namespace TerminalTemplate.Net48
     internal class Program
     {
         /// <summary>
-        /// Configures the required <c>pi-cli</c> services.
+        /// Configures the required <c>terminal</c> services.
         /// </summary>
         private static void ConfigureServices(IServiceCollection services)
         {
-            Console.Title = "pi-cli demo (.NET 481)";
+            Console.Title = "terminal demo (.NET 481)";
 
             services.AddTerminalDefault(options =>
             {
@@ -71,14 +71,14 @@ namespace TerminalTemplate.Net48
         /// Creates a host builder.
         /// </summary>
         /// <param name="args">Arguments.</param>
-        /// <param name="configurePiCli"></param>
+        /// <param name="configureterminal"></param>
         /// <returns></returns>
-        private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configurePiCli)
+        private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureterminal)
         {
             return Host.CreateDefaultBuilder(args)
 
                 // Configure the framework
-                .ConfigureServices(configurePiCli)
+                .ConfigureServices(configureterminal)
 
                 // Configure terminal logging based on your application need.
                 .ConfigureLogging(logging =>

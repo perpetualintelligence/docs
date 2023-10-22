@@ -6,17 +6,17 @@ Our ready-to-use sample templates allow quick onboarding for application authors
 Clone or download the template on your dev environment.
 
 We provide 2 read-to-use templates:
-- [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net48)
-- [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli/TerminalTemplate.Net7)
+- [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net48)
+- [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net7)
 
-![DotnetTemplate](../../images/picli/templates/dotnet-template.png)
+![DotnetTemplate](../../images/terminal/templates/dotnet-template.png)
 
-The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing). Build the solution `PerpetualIntelligence.Cli.Templates.Solution.sln`, and you are ready to go!
+The templates have `terminal` framework configured with our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing). Build the solution `PerpetualIntelligence.Terminal.Templates.Solution.sln`, and you are ready to go!
 
 ## Details
 You can use the templates to build new terminals or migrate your legacy console apps and modernize them. 
 
-This section explains the code changes in the templates. To enable `pi-cli` you need to:
+This section explains the code changes in the templates. To enable `terminal` you need to:
 1. Install NuGet Package
 2. Add terminal hosted service
 3. Configure your terminal options
@@ -26,26 +26,26 @@ This section explains the code changes in the templates. To enable `pi-cli` you 
 7. Stop the router
 
 ### Install NuGet Package
-The `pi-cli` framework is accessible by installing the following Nuget package.
+The `terminal` framework is accessible by installing the following Nuget package.
 
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Cli?label=PerpetualIntelligence.Cli)](https://www.nuget.org/packages/PerpetualIntelligence.Cli)
+[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
 
 ### Add terminal hosted service
 The @PerpetualIntelligence.Terminal.Integration.TerminalHostedService is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
 
 This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.
 
-![Hostedservice](../../images/picli/templates/add-hosted-service.png)
+![Hostedservice](../../images/terminal/templates/add-hosted-service.png)
 
 ```
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Cli.Configuration.Options;
-using PerpetualIntelligence.Cli.Integration;
-using PerpetualIntelligence.Cli.Licensing;
-using PerpetualIntelligence.Cli.Services;
+using PerpetualIntelligence.Terminal.Configuration.Options;
+using PerpetualIntelligence.Terminal.Integration;
+using PerpetualIntelligence.Terminal.Licensing;
+using PerpetualIntelligence.Terminal.Services;
 
-namespace PiCliNewTerminalTemplateDotNetLatest
+namespace terminalNewTerminalTemplateDotNetLatest
 {
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.
@@ -128,16 +128,16 @@ namespace PiCliNewTerminalTemplateDotNetLatest
 
 ```
 
-### Add `pi-cli` and configure the options
-You enable `pi-cli` framework by adding the DI services in your `Program.cs` file. This example code shows the default configuration when you run the template.
+### Add `terminal` and configure the options
+You enable `terminal` framework by adding the DI services in your `Program.cs` file. This example code shows the default configuration when you run the template.
 
 ```
 /// <summary>
-/// Configures the required <c>pi-cli</c> services.
+/// Configures the required <c>terminal</c> services.
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
-    Console.Title = "pi-cli demo  (.NET 6)";
+    Console.Title = "terminal demo  (.NET 6)";
 
     services.AddCli(options =>
     {
@@ -161,10 +161,10 @@ void ConfigureServices(IServiceCollection services)
         options.Http.HttpClientName = "pi-demo";
 
         // Licensing
-        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.PiCliDemoAuthorizedApplicationId;
+        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
         options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-        options.Licensing.ConsumerTenantId = DemoIdentifiers.PiCliDemoConsumerTenantId;
-        options.Licensing.Subject = DemoIdentifiers.PiCliDemoSubject;
+        options.Licensing.ConsumerTenantId = DemoIdentifiers.terminalDemoConsumerTenantId;
+        options.Licensing.Subject = DemoIdentifiers.terminalDemoSubject;
         options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
     }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
       .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
@@ -173,7 +173,7 @@ void ConfigureServices(IServiceCollection services)
       .AddTextHandler<UnicodeTextHandler>()
       .AddCommandDescriptors();
 
-    // Add the pi-cli hosted serce for terminal customization
+    // Add the terminal hosted serce for terminal customization
     services.AddHostedService<MyOrgHostedService>();
 
     // Add the HTTP client factory to perform license checks
@@ -193,11 +193,11 @@ For runners, we recommend you create the `Runners` folder and place all your com
 Example:
 `myorg gen id`  command string has a runner in `\Runners\MyOrg\Gen\Id` folder. It enables having a clear separation of concerns for each command, and you can also have custom services for your command at the same place.
 
-![Hostedservice](../../images/picli/templates/runners.png)
+![Hostedservice](../../images/terminal/templates/runners.png)
 
 
 ### Add handlers and checkers
-The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see [handlers](../../articles/pi-cli/details/handlers.md) and [checkers](../../articles/pi-cli/details/checkers.md).
+The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see [handlers](../../articles/terminal/details/handlers.md) and [checkers](../../articles/terminal/details/checkers.md).
 ```
 .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
 .AddStoreHandler<InMemoryCommandStore>()
@@ -205,12 +205,12 @@ The template will register various default handlers and checkers. You can provid
 .AddTextHandler<UnicodeTextHandler>()
 ```
 
-By default, the `pi-cli` terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported `left-to-right` langauge.
+By default, the `terminal` terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported `left-to-right` langauge.
 
 ### Start command router
 The last step is to start the command router in the `Main` method to receive and run the user commands. 
 
-![Hostedservice](../../images/picli/templates/start-router.png)
+![Hostedservice](../../images/terminal/templates/start-router.png)
 
 ```
 private static async Task Main(string[] args)
@@ -235,5 +235,5 @@ You can stop the command router explicitly or programmatically in the following 
 - User can use the `exit` command to issue a cancellation token
 - Application can programmatically issue a cancellation token 
 
-![Hostedservice](../../images/picli/templates/stop-router.png)
+![Hostedservice](../../images/terminal/templates/stop-router.png)
 

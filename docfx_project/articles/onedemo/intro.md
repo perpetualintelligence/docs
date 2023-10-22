@@ -8,11 +8,11 @@ We recommend creating an account to generate a license for your specific use cas
 ## How do I access demo license ?
 You don't need an account to access or use the demo license. 
 
-- Go to our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing) web page
+- Go to our [demo license](https://www.perpetualintelligence.com/products/onedemo/licensing) web page
 - Verify the Google - reCAPTCHA
 - Download the `Primary` or `Secondary` demo license keys
 
-![pidemo](../../images/pidemo/licensing.png)
+![onedemo](../../images/onedemo/licensing.png)
 
 ## How do I use demo license ?
 You will need to configure your application by specifying the demo identifiers and primary or secondary demo license.

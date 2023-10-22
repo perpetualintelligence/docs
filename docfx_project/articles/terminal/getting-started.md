@@ -1,7 +1,7 @@
 # Getting Started
 
 ## For test and evaluation
-You can use our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
+You can use our [demo license](https://docs.perpetualintelligence.com/articles/onedemo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
 
 > No account is needed.
 

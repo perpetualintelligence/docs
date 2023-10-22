@@ -19,7 +19,7 @@ We crafted the `terminal` framework to be cross-platform, modular,  deployment a
 - Build deployment agnostic terminals with all dependencies, test them in local environments, and deploy the production terminals on-premise, cloud (public, private, or government), or hybrid.
 - Enable enterprise-grade secured terminal applications for your products and services similar to [Github CLI](https://cli.github.com/), [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/), [Stripe CLI](https://stripe.com/docs/stripe-cli) or terminals with custom formats.
 - Collaborate in an open-source environment, troubleshoot issues, and provide your feedback on the features and documentation
-- Use [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on GitHub. No account is needed.
+- Use [demo license](https://docs.perpetualintelligence.com/articles/onedemo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on GitHub. No account is needed.
 
 The framework handles the entire terminal infrastructure, so your focus is building modern terminal apps and services.
 
@@ -58,7 +58,7 @@ The `terminal` framework does not enforce any specific terminal UX experience be
 With the `terminal` framework, you don't have to be a microservices or distributed systems expert to build a modern and scalable terminal apps. You create and learn as you go on, and eventually, you become an expert :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). Build terminals for simple use cases, terminals that provides complex commands or options, or terminals that interact with a complex distributed system via protected APIs. We believe in agile development and agile learning. So, pick a learning model that works for you!
 
 ### I want to explore the samples on GitHub
-- Use our [demo license](../pi-demo/intro.md) for quick onboarding, evaluation, and testing sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples)
+- Use our [demo license](../onedemo/intro.md) for quick onboarding, evaluation, and testing sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples)
 - No account is needed
 
 ### I want to create my first modern terminal

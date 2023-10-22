@@ -43,7 +43,7 @@ namespace TerminalTemplate.Net48
                 options.Checker.StrictValueType = true;
 
                 // HTTP
-                options.Http.HttpClientName = "pi-demo";
+                options.Http.HttpClientName = "onedemo";
 
                 // Licensing
                 options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
@@ -61,7 +61,7 @@ namespace TerminalTemplate.Net48
             services.AddHostedService<MyOrgHostedService>();
 
             // Add the HTTP client factory to perform license checks
-            services.AddHttpClient("pi-demo");
+            services.AddHttpClient("onedemo");
 
             // Add custom DI services
             services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();

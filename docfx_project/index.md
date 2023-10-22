@@ -1,23 +1,24 @@
 # Welcome
-This website contains the conceptual documentation for [Perpetual Intelligence L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. We build this documentation site using docfx from our [GitHub repository](https://github.com/perpetualintelligence/docs).
+This website hosts the conceptual documentation for [Perpetual Intelligence® L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. The documentation site is constructed using docfx, with its source available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
-We track the issues and tasks [here](https://github.com/perpetualintelligence/docs/issues). We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html) topic.
+We monitor and address issues and tasks, which are tracked [here](https://github.com/perpetualintelligence/docs/issues). We are committed to providing timely responses to issues. For detailed information on our issue classification and resolution procedures, please refer to our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html).
 
-We welcome contributions to help us improve and complete the docs.
+We encourage contributions to enhance and complete our documentation.
 
-This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
+To establish clear expectations for community behavior, this project adheres to the code of conduct defined by the Contributor Covenant. You can review our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
 
 # Products
-[terminal](articles/terminal/intro.md): The most flexible cross-platform framework for building modern CLI terminals.
+[oneterminal](articles/terminal/intro.md): The most flexible cross-platform framework for building modern CLI applications and terminals.
 
 # Navigation
-This documentation website has two main sections:
-1. [Articles](articles/intro.md): The conceptual documentation for all our framework, tools, and services
-2. [Classes](api/index.md): The .NET classes for applications on any platform using C#, F#, and Visual Basic
 
-# Contact Us
-Submit issues and feature requests on [GitHub](https://github.com/perpetualintelligence/docs/issues).
+# Navigation
+This documentation website is divided into two main sections:
+1. [Articles](articles/intro.md): Conceptual documentation encompassing all our frameworks, tools, and services.
+2. [Classes](api/index.md): Detailed information on .NET classes for developing applications across any platform using C#, F#, and Visual Basic.
+
+# Feedback
+For issues and feature requests, please submit them on [GitHub](https://github.com/perpetualintelligence/docs/issues).
 
 # Terms
-Visit our [terms website](https://terms.perpetualintelligence.com/) for terms of use, licensing terms, privacy and data policies.
-
+Please visit our [terms website](https://terms.perpetualintelligence.com/) to explore our terms of use, licensing terms, and privacy and data policies.

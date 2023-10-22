@@ -11,7 +11,7 @@ We provide 2 read-to-use templates:
 
 ![DotnetTemplate](../../images/terminal/templates/dotnet-template.png)
 
-The templates have `terminal` framework configured with our [demo license](https://www.perpetualintelligence.com/products/pidemo/licensing). Build the solution `PerpetualIntelligence.Terminal.Templates.Solution.sln`, and you are ready to go!
+The templates have `terminal` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo/licensing). Build the solution `PerpetualIntelligence.Terminal.Templates.Solution.sln`, and you are ready to go!
 
 ## Details
 You can use the templates to build new terminals or migrate your legacy console apps and modernize them. 
@@ -158,7 +158,7 @@ void ConfigureServices(IServiceCollection services)
         options.Checker.StrictArgumentValueType = true;
 
         // Http
-        options.Http.HttpClientName = "pi-demo";
+        options.Http.HttpClientName = "onedemo";
 
         // Licensing
         options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
@@ -177,7 +177,7 @@ void ConfigureServices(IServiceCollection services)
     services.AddHostedService<MyOrgHostedService>();
 
     // Add the HTTP client factory to perform license checks
-    services.AddHttpClient("pi-demo");
+    services.AddHttpClient("onedemo");
 
     // Add custom DI services
     services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();

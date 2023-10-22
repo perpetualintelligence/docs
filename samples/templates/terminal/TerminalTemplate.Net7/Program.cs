@@ -53,7 +53,7 @@ static void ConfigureServices(IServiceCollection services)
         options.Checker.StrictValueType = true;
 
         // Http
-        options.Http.HttpClientName = "pi-demo";
+        options.Http.HttpClientName = "onedemo";
 
         // Licensing
         options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
@@ -71,7 +71,7 @@ static void ConfigureServices(IServiceCollection services)
     services.AddHostedService<MyOrgHostedService>();
 
     // Add the HTTP client factory to perform license checks
-    services.AddHttpClient("pi-demo");
+    services.AddHttpClient("onedemo");
 
     // Add custom DI services
     services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();

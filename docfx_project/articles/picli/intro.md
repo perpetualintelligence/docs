@@ -1,95 +1,76 @@
 # Overview
 
-## What is terminal?
-`pi-cli` is the most flexible cross-platform framework for building modern terminals. 
+## Introduction
+`pi-cli` (oneTerminal) is a cross-platform adaptable framework designed for building modern CLI and terminal apps. It empowers software teams to create enterprise-grade Unicode terminals tailored to specific needs, from simple CLI apps with basic flags to advanced terminals with complex command structures.
 
-Build enterprise-grade unicode terminals for your company, product, service, or developer tools. We support customers across engineering, manufacturing, semiconductors, technology, hardware, software, automation, digital industries, artificial intelligence, machine learning, finance, media, and creative design. 
+> ***Take Your App to the Command Line:*** Easily build CLI and terminal applications with Unicode support.
 
-Start with simple terminal apps with a few flags or build advanced terminals with groups, sub-commands, arguments, and options.
+Crafted with modularity and customization in mind, `pi-cli` supports a wide range of .NET platforms including .NET (traditional), .NET Standard, .NET6+ (.NET Core), and ASP.NET Core. This allows for seamless development of terminals from scratch or migration of existing console apps to more sophisticated terminals.
 
-> ***Take your app or service to the command line with Unicode support and build terminals in a user language of your choice.***
+- Utilize microservices architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.
+- Access built-in features or develop your own solutions for terminal UX, input parsing, error handling, command validation, data storage, and type verification.
+- Opt for high-performance in-memory command storage or integrate with remote storage solutions.
+- Compatible with Windows, Linux, macOS, Docker, Kubernetes, and more.
+- Create deployment-agnostic CLI terminals, test locally, and deploy on-premise, cloud (public, private, or government), or in hybrid environments.
+- Build secure enterprise-level CLI or terminal applications.
+- Engage with our open-source community to resolve issues and contribute to feature enhancements and documentation.
+- Quickly onboard, evaluate, and test with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and ready samples on GitHub, no signup required.
 
-## Craftsmanship
-We crafted the `pi-cli` framework to be cross-platform, modular,  deployment agnostic, and fully customizable. [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) provides a rich set of [DDD](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) tools and languages. `pi-cli` directly supports the .NET (traditional), .NET Standard, .NET6+ (.NET Core), and ASP.NET Core. It lets enterprises build ground-up terminals or migrate their existing console apps to terminals. Thus it is the de-facto standard in developing cross-platform terminals for your apps, services, and developer tools in the entire .NET ecosystem.
+`pi-cli` cuts through infrastructure complexity, letting you concentrate on crafting your CLI applications. Quickly dive in with our [templates and tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli).
 
-- Build and configure your terminal using microservices-based architecture principles, Dependency Injection(DI services), and options pattern.
-- Use default handlers or provide custom implementations to handle terminal UX, command parsing, error handling, command validations, storage, and type checking.
-- Use default console routing, default TCP/IP client-server routing, or define your custom HTTP, Named-Pipes, or gRPC routing.
-- Provide self-hosting implementations for stores and hosts in an environment of your choice, e.g., Windows, Linux, macOS, Docker, Kubernetes, etc. 
-- Build deployment agnostic terminals with all dependencies, test them in local environments, and deploy the production terminals on-premise, cloud (public, private, or government), or hybrid.
-- Enable enterprise-grade secured terminal applications for your products and services similar to [Github CLI](https://cli.github.com/), [.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/), [Stripe CLI](https://stripe.com/docs/stripe-cli) or terminals with custom formats.
-- Collaborate in an open-source environment, troubleshoot issues, and provide your feedback on the features and documentation
-- Use [demo license](https://docs.perpetualintelligence.com/articles/onedemo/intro.html) for quick onboarding, testing, and evaluating ready-to-use samples on GitHub. No account is needed.
-
-The framework handles the entire terminal infrastructure, so your focus is building modern terminal apps and services.
-
-> ***In short, if what you want to achieve is doable in the .NET ecosystem, it is possible with `pi-cli`.***
+> ***Transform any .NET ecosystem feature into a CLI or terminal app with ease.***
 
 ## Open Source
-Our entire source code is on [GitHub](https://github.com/perpetualintelligence/terminal). It enables community collaboration, troubleshoot issues, and helps get us your feedback on the features and documentation. It also promotes a better understanding of architecture and design.
+`pi-cli` framework is fully open-source, with the entire source code available on [GitHub](https://github.com/perpetualintelligence/terminal). This encourages community collaboration and feedback.
 
-> ***See our [licenses](licensing/intro.md) and [pricing](https://www.perpetualintelligence.com/products/terminal#pricing).***
+![repo](../../images/picli/framework/repo.png)
 
-## OS
 Our DevOps builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
 
 ![macOS](https://img.shields.io/badge/macOS-grey?style=flat-square&logo=macos)
 ![ubuntu](https://img.shields.io/badge/ubuntu-grey?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-grey?style=flat-square&logo=windows)
 
-## Packaging
 The licensed libraries can be accessed via Nuget:
 
 [![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
 
-## Repo
-The [GitHub](https://github.com/perpetualintelligence/terminal) repo contains the artifacts to build, test and publish the `pi-cli` source.
+## User Experience (UX)
 
- ![repo](../../images/picli/framework/repo.png)
+`pi-cli` decouples the terminal's backend logic from the frontend, providing a scalable and flexible framework that caters to developers looking to integrate command-line functionalities into various applications.
 
-## Terminal UX
-The `pi-cli` framework does not enforce any specific terminal UX experience because this is always custom to the project. However, we provide you with a hosted service to manage the terminal application lifetime and UX customization.
-- [TerminalHostedService](xref:PerpetualIntelligence.Terminal.Hosting.TerminalHostedService)
+### Native Integration with .NET Ecosystem
 
-## Classes
-[Classes and Object browser](../../api/index.md)
+`pi-cli` seamlessly integrates with the .NET stack, offering a native experience for developing terminal applications.
 
-## Learn to Use
-With the `pi-cli` framework, you don't have to be a microservices or distributed systems expert to build a modern and scalable terminal apps. You create and learn as you go on, and eventually, you become an expert :) similar to an [eventually-consistent system](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/distributed-data-management). Build terminals for simple use cases, terminals that provides complex commands or options, or terminals that interact with a complex distributed system via protected APIs. We believe in agile development and agile learning. So, pick a learning model that works for you!
+- **Console Applications**: Embed `pi-cli` directly to enhance command handling in console applications.
+- **Servers and Backend Services**: Utilize `pi-cli` in backend services, ensuring robust terminal operations and efficient communication via native TCP/IP support.
+- **ASP.NET Core and Blazor**: Directly integrate with ASP.NET Core and Blazor for responsive user interfaces, with backend terminal operations handled by `pi-cli`.
 
-### I want to explore the samples on GitHub
-- Use our [demo license](../onedemo/intro.md) for quick onboarding, evaluation, and testing sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples)
-- No account is needed
+This native integration ensures a smooth development workflow and full debugging capabilities within the .NET environment.
 
-### I want to create my first modern terminal
-- Start by [subscribing or buying](../buying/intro.md) the `pi-cli` framework.
-- Pick a pricing plan that works for you.
-- Activate your subscription on our [Consumer Portal](https://consumer.perpetualintelligence.com/).
-- Generate your online, offline, dev, or on-premise [license keys](licensing/licensekeys.md).
-- Browse our [read-to-use templates and tutorials](../samples.md).
-- Build, debug, and learn the concepts as you go.
-- We can't wait to see the fantastic terminals you build!
+### Integration and Protocol Support
 
-### I want to understand the concepts first
-Continue reading, and we will explain all the concepts. We recommend you get familiar with the typical architectural principles first. They enable our framework to be extensible, customizable and remain scalable.
+With `pi-cli`, you have the freedom to create a terminal frontend in various programming languages and frameworks, communicating seamlessly with the backend terminal server.
 
-- [Dependency Injection](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
-- [Dependency Inversion](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion)
-- [Options Patterns](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)
-- [Separation of concerns](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
-- [Single Responsibility](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns)
-- [Bounded Context](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#bounded-contexts)
+- **Web Applications**: Use JavaScript frameworks like React or Vue.js for web integration.
+- **Desktop Applications**: Build cross-platform desktop applications with Electron or other technologies.
+- **Server-Side Applications**: Choose server-side languages like Python, Java, or C# for backend integration.
 
-## Code Samples and Tutorials
-Our [ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) and [sample tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal) will get you started in no time.
+The `pi-cli` backend currently supports TCP/IP, with plans to expand to gRPC, Named Pipes, and HTTP for diverse communication needs.
 
-## Licensing and Pricing
-The software license and pricing model is flexible and fits all, whether you are a developer, solo entrepreneur, small-medium business, large enterprise, or a service vendor.
-- [Licensing](licensing/intro.md)
-- [Pricing](https://perpetualintelligence.com/products/terminal#pricing)
+### Flexible Deployment Options
 
-## Issues and feature requests
-Please report [issue or feature request](https://github.com/perpetualintelligence/picli/issues) directly on our official github repo.
+Deploy the backend terminal server according to your needs:
+
+- **On-Premise**: For full control and adherence to internal policies.
+- **Cloud**: To leverage the scalability of cloud infrastructure.
+- **Containerized Environments**: For simplified deployment and scaling.
+
+By separating terminal functionalities from the frontend, `pi-cli` provides flexibility, ensuring you can choose the best tools for your use case while maintaining a robust backend.
+
+## Feedback
+Submit [issues or feature requests](https://github.com/perpetualintelligence/oneterminal/issues) directly on GitHub.
 
 ## References
 - [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)

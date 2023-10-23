@@ -1,22 +1,26 @@
 # Welcome
-This website hosts the conceptual documentation for [Perpetual Intelligence&reg; L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. The documentation site is constructed using docfx, with its source available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
-We monitor and address issues and tasks, which are tracked [here](https://github.com/perpetualintelligence/docs/issues). We are committed to providing timely responses to issues. For detailed information on our issue classification and resolution procedures, please refer to our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html).
+Welcome to the documentation site for [Perpetual Intelligence&reg; L.L.C.](https://perpetualintelligence.com/). Here, we provide extensive guides and information on our managed services, cross-platform frameworks, and developer tools. This documentation is built using docfx, and the source is available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
-We encourage contributions to enhance and complete our documentation.
+## Issue Tracking and Contributions
+We manage and track issues [here](https://github.com/perpetualintelligence/docs/issues). To learn about how we handle issues, please see our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html).
 
-To establish clear expectations for community behavior, this project adheres to the code of conduct defined by the Contributor Covenant. You can review our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
+We welcome contributions to improve and expand our documentation.
 
-# Products
-[oneterminal](articles/terminal/intro.md): The most flexible cross-platform framework for building modern CLI applications and terminals.
+## Community and Conduct
+We follow the Contributor Covenant's code of conduct to create a respectful and inclusive community. Read our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
 
-# Navigation
-This documentation website is divided into two main sections:
-1. [Articles](articles/intro.md): Conceptual documentation encompassing all our frameworks, tools, and services.
-2. [Classes](api/index.md): Detailed information on .NET classes for developing applications across any platform using C#, F#, and Visual Basic.
+## Explore Our Products
+- [terminal](articles/terminal/intro.md): An adaptable cross-platform applications and terminal framework.
+- [oneimlx](https://github.com/perpetualintelligence/oneimlx): An adaptable cross-platform access management and licensing framework. ***[Coming Soon...]***
 
-# Feedback
-For issues and feature requests, please submit them on [GitHub](https://github.com/perpetualintelligence/docs/issues).
+## Navigate Through Our Documentation
+Our documentation is divided into two main sections:
+1. [Articles](articles/intro.md): Conceptual documentation for all our frameworks, tools, and services.
+2. [Classes](api/index.md): .NET classes documentation for developing applications on various platforms using C#, F#, and Visual Basic.
 
-# Terms
-Please visit our [terms website](https://terms.perpetualintelligence.com/) to explore our terms of use, licensing terms, and privacy and data policies.
+## We Want Your Feedback
+For issues, suggestions, or feature requests, please visit our [GitHub issues page](https://github.com/perpetualintelligence/docs/issues).
+
+## Terms and Policies
+Visit our [terms website](https://terms.perpetualintelligence.com/) for information on our terms of use, licensing, and privacy and data policies.

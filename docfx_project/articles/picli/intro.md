@@ -1,7 +1,7 @@
 # Overview
 
 ## Introduction
-`pi-cli` (oneTerminal) is a cross-platform adaptable framework designed for building modern CLI and terminal apps. It empowers software teams to create enterprise-grade Unicode terminals tailored to specific needs, from simple CLI apps with basic flags to advanced terminals with complex command structures.
+`pi-cli` (oneterminal) is a cross-platform adaptable framework designed for building modern CLI and terminal apps. It empowers software teams to create enterprise-grade Unicode terminals tailored to specific needs, from simple CLI apps with basic flags to advanced terminals with complex command structures.
 
 > ***Take Your App to the Command Line:*** Easily build CLI and terminal applications with Unicode support.
 
@@ -14,14 +14,14 @@ Crafted with modularity and customization in mind, `pi-cli` supports a wide rang
 - Create deployment-agnostic CLI terminals, test locally, and deploy on-premise, cloud (public, private, or government), or in hybrid environments.
 - Build secure enterprise-level CLI or terminal applications.
 - Engage with our open-source community to resolve issues and contribute to feature enhancements and documentation.
-- Quickly onboard, evaluate, and test with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and ready samples on GitHub, no signup required.
+- Quickly onboard, evaluate, and test with our [demo license](../onedemo/intro.md). Dive in with our [samples](../samples.md).
 
-`pi-cli` cuts through infrastructure complexity, letting you concentrate on crafting your CLI applications. Quickly dive in with our [templates and tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/pi-cli).
+`pi-cli` cuts through infrastructure complexity, letting you concentrate on crafting your CLI applications.
 
 > ***Transform any .NET ecosystem feature into a CLI or terminal app with ease.***
 
 ## Open Source
-`pi-cli` framework is fully open-source, with the entire source code available on [GitHub](https://github.com/perpetualintelligence/terminal). This encourages community collaboration and feedback.
+`pi-cli` framework is fully open-source, with the entire source code available on [GitHub](https://github.com/perpetualintelligence/oneterminal). This encourages community collaboration and feedback.
 
 ![repo](../../images/picli/framework/repo.png)
 

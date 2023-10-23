@@ -1,33 +1,30 @@
 # Samples
 
 ## Templates
+Quickly start your application development with our ready-to-use templates, designed for authors looking to create modern, enterprise-grade terminals.
 
-Our ready-to-use templates allow quick on-boarding for application authors to create enterprise-grade modern terminals.
-
-| Template        |   .NET Version    | End of Support  |
-|-----------------|-------------------|-----------------|
-| [TerminalTemplate.Net7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net7) |   [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) | May 14, 2024 |
-| [TerminalTemplate.Net48](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net48) | [.NET 4.8](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework) |  |
+| Template | .NET Version | End of Support |
+|----------|--------------|----------------|
+| [TerminalTemplate.Net7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net7) | [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) | May 14, 2024 |
+| [TerminalTemplate.Net48](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net48) | [.NET 4.8](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework) | Indefinite |
 
 ## Tutorials
-Learn to use the `terminal` framework by exploring our working samples on [Github](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal). Just clone the Visual Studio solution, update the configuration options with your license key, and start exploring!
+Enhance your skills and learn how to use the `terminal` framework through our interactive tutorials and working samples available on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal). Simply clone the Visual Studio solution, update the configuration options with your license key, and start your learning journey!
 
 ### Technology
-
-| Brand                                     | Tutorial                                                                                                          | Description                                                                                                                             |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| ![github](../images/brands/github_64.png) | [GithubStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/GithubStyleCli) | Learn to build modern terminals similar to [Github CLI](https://cli.github.com/)                                |
-| ![dotnet](../images/brands/dotnet_64.png) | [DotnetStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/DotnetStyleCli) | Learn to build modern terminals similar to [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/) |
-| ![pi](../images/brands/pi_64.png)         | [UnicodeCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/UnicodeCli)     | Learn to build [Unicode](https://home.unicode.org/) terminals with any user language.                           |
+| Brand | Tutorial | Description |
+|-------|----------|-------------|
+| ![GitHub](../images/brands/github_64.png) | [GithubStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/GithubStyleCli) | A guide to building modern terminals akin to [GitHub CLI](https://cli.github.com/). |
+| ![.NET](../images/brands/dotnet_64.png) | [DotnetStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/DotnetStyleCli) | A tutorial for creating modern terminals that resemble the [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/). |
+| ![Perpetual Intelligence](../images/brands/pi_64.png) | [UnicodeCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/UnicodeCli) | Learn how to build [Unicode](https://home.unicode.org/) terminals supporting various user languages. |
 
 ### Payment Platforms
-| Brand                                     | Tutorial                                                                                                          | Description                                                                                                         |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| ![stripe](../images/brands/stripe_64.png) | [StripeStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/StripeStyleCli) | Learn to build modern terminals similar to [Stripe CLI](https://stripe.com/docs/stripe-cli) |
+| Brand | Tutorial | Description |
+|-------|----------|-------------|
+| ![Stripe](../images/brands/stripe_64.png) | [StripeStyleCli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/StripeStyleCli) | Discover how to create modern terminals that mirror the functionality of [Stripe CLI](https://stripe.com/docs/stripe-cli). |
 
 ## Branding
-[Contact us](https://www.perpetualintelligence.com/products/pibranding) to list your brand and sample terminal with us.
+Interested in featuring your brand and sample terminal here? [Get in touch with us](https://www.perpetualintelligence.com/products/pibranding).
 
 ## Support
-Feel free to open a new [feature request](https://github.com/perpetualintelligence/docs/issues) if you would like to see more samples for your use cases.
-
+If there are additional samples you would like to see or if you have specific use cases in mind, feel free to initiate a [feature request](https://github.com/perpetualintelligence/docs/issues).

@@ -1,5 +1,5 @@
 # Welcome
-This website hosts the conceptual documentation for [Perpetual Intelligence® L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. The documentation site is constructed using docfx, with its source available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
+This website hosts the conceptual documentation for [Perpetual Intelligence&reg; L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. The documentation site is constructed using docfx, with its source available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
 We monitor and address issues and tasks, which are tracked [here](https://github.com/perpetualintelligence/docs/issues). We are committed to providing timely responses to issues. For detailed information on our issue classification and resolution procedures, please refer to our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html).
 
@@ -9,8 +9,6 @@ To establish clear expectations for community behavior, this project adheres to 
 
 # Products
 [oneterminal](articles/terminal/intro.md): The most flexible cross-platform framework for building modern CLI applications and terminals.
-
-# Navigation
 
 # Navigation
 This documentation website is divided into two main sections:

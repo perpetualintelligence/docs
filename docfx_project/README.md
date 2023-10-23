@@ -1,35 +1,37 @@
 # Readme
-This [docfx](https://dotnet.github.io/docfx/) project generates the [documentation website](https://docs.perpetualintelligence.com) for our managed services, cross-platform frameworks, and developer tools. 
+This [DocFX](https://dotnet.github.io/docfx/) project powers the creation of the [documentation website](https://docs.perpetualintelligence.com) for our managed services, cross-platform frameworks, and developer tools.
 
-# Local Machine
+# Audience
+This documentation is intended for developers.
 
-Follow the steps below to setup the docfx on your local development machine. We do not use pre-release or preview versions for third-party tools.
+# Setting Up Locally
+To set up DocFX on your local development machine, follow these steps. Please note that we only use stable releases of third-party tools, not pre-release or preview versions.
 
-> Note: As a prerequisite, you must download the source repos before the docfx setup.
+> **Prerequisite**: Make sure you have downloaded the source repositories before proceeding with the DocFX setup.
 
-1. Go to [docfx](https://dotnet.github.io/docfx/).
-2. Click on [Download](https://github.com/dotnet/docfx/releases) and get the latest released installer (e.g. Version 2.59.4).
-3. Save the docfx.zip file, extract it to a folder (this is your docfx root location).
-4. Copy all scripts from `../build/scripts` folder to your root location.
-5. Add the root location to your `%PATH%` environment variable.
-6. Download and install the latest released [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) installer.
-7. Add the executable folder (e.g. `C:\Program Files\wkhtmltopdf\bin`) to `%PATH%` environment variable.
+1. Visit [DocFX's official website](https://dotnet.github.io/docfx/).
+2. Navigate to the [Download](https://github.com/dotnet/docfx/releases) page and select the latest stable release (e.g., Version 2.59.4).
+3. Download the `docfx.zip` file and extract its contents to a designated folder, which will become your DocFX root directory.
+4. Copy all scripts from the `../build/scripts` folder to your DocFX root directory.
+5. Add your DocFX root directory to your system's `%PATH%` environment variable.
+6. Download and install the latest stable release of [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
+7. Add the wkhtmltopdf executable's folder (e.g., `C:\Program Files\wkhtmltopdf\bin`) to your `%PATH%` environment variable.
 
-You can now work with docfx within Visual Studio Terminal with commands to build (b), generate metadata (m), start (s), build and start (bs) the documentation website on localhost.
+You can now use DocFX commands within Visual Studio's Terminal to build (b), generate metadata (m), start a local server (s), or build and start (bs) the documentation website on your localhost.
 
-> The scripts assume that your documentation project is within ***docfx_project*** directory.
+> **Note**: These scripts assume that your documentation project resides within the ***docfx_project*** directory.
 
 # CICD
 
-The `../.github/workflows` folder contains actions for generating and publishing documentation.
+The `../.github/workflows` directory contains actions for building and publishing the documentation.
 
-> Note: The documentation deployment is ***manual***. We build the documentation site from both public and private GitHub repositories. As a result, we cannot have the CICD pipeline configured for all contributors.
+> **Important**: Deploying the documentation is a ***manual*** process. We build the documentation site from both public and private GitHub repositories. Consequently, we cannot configure a CICD pipeline that accommodates all contributors.
 
-The build and deployment include:
-1. *build-test-publish*: The manual triggered pipeline builds documentation and pushes the **_site** contents to the [gh-pages](https://github.com/perpetualintelligence/docs/tree/gh-pages) branch
-2. *Automated pipeline*: GitHub's automated pipeline builds the [gh-pages](https://github.com/perpetualintelligence/docs/tree/gh-pages) branch and pushes the static content to [docs.perpetualintelligence.com](https://docs.perpetualintelligence.com).
+The build and deployment processes include:
+1. **build-test-publish**: This manually triggered pipeline builds the documentation and pushes the contents of the **_site** directory to the [gh-pages](https://github.com/perpetualintelligence/docs/tree/gh-pages) branch.
+2. **Automated Pipeline**: GitHub's automated pipeline builds from the [gh-pages](https://github.com/perpetualintelligence/docs/tree/gh-pages) branch and deploys the static content to [docs.perpetualintelligence.com](https://docs.perpetualintelligence.com).
 
-> The build and deployment will trigger an approval.
+> Each build and deployment will trigger an approval process.
 
-# Contact
-Submit issues and feature requests on [Github](https://github.com/perpetualintelligence/docs/issues).
+# Feedback
+For any issues, suggestions, or feature requests, please submit them via our [GitHub issues page](https://github.com/perpetualintelligence/docs/issues).

@@ -1,17 +1,18 @@
 # Known Issues
 
-## First-time load error
+## First-time Load Error
 
 ### Issue Description
-Depending on your network speed, browsers such as Firefox, Chrome, or Edge may give you an error when you load our websites for the first time. We are aware of this issue and working with Microsoft to resolve it as soon as possible.
+Some users may experience an error when loading our websites for the first time, especially when using browsers like Firefox, Chrome, or Edge. This issue is influenced by network speed. We are actively working with Microsoft to find a resolution as quickly as possible.
 
 ### Impacted Sites
-- https://www.perpetualintelligence.com/
-- https://consumer.perpetualintelligence.com/
+- [Main Website](https://www.perpetualintelligence.com/)
+- [Consumer Portal](https://www.consumer.perpetualintelligence.com/)
 
 ### Workaround
-- Do a refresh or hard reload on the same browser tab after you get an error on your first time load.
-    - `F5` regular refresh
-    - `Cntrl + R` hard reload
-    - `Cntrl + Shift + R` hard reload
-- If you continue to see the load error, please raise an issue [here](https://github.com/perpetualintelligence/requests).
+If you encounter this issue, try the following steps:
+- Refresh the page or perform a hard reload in the same browser tab. You can use:
+  - `F5` for a regular refresh.
+  - `Ctrl + R` or `Cmd + R` (on Mac) for a hard reload.
+  - `Ctrl + Shift + R` or `Cmd + Shift + R` (on Mac) for a hard reload.
+- If the problem persists, please report it by creating an issue [here](https://github.com/perpetualintelligence/requests).

@@ -58,4 +58,4 @@ Example:
 ```
 
 ## See also
-- [Options](../terminal/options.md)
+- [Options](../picli/options.md)

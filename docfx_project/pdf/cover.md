@@ -1,6 +1,6 @@
 # Perpetual Intelligence&reg;
 
-## terminal
+## pi-cli
 The most flexible cross-platform framework for building modern CLI and terminal apps.
 
 ## Documentation

@@ -11,7 +11,7 @@ We welcome contributions to improve and expand our documentation.
 We follow the Contributor Covenant's code of conduct to create a respectful and inclusive community. Read our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
 
 ## Explore Our Products
-- [terminal](articles/terminal/intro.md): An adaptable cross-platform applications and terminal framework.
+- [pi-cli](articles/picli/intro.md): An adaptable cross-platform applications and terminal framework.
 - [oneimlx](https://github.com/perpetualintelligence/oneimlx): An adaptable cross-platform access management and licensing framework. ***[Coming Soon...]***
 
 ## Navigate Through Our Documentation

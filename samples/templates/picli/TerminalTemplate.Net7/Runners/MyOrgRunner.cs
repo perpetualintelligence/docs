@@ -1,8 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
+using System;
+using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net7.Runners.MyOrg
+namespace TerminalTemplate.Net7.Runners
 {
     /// <summary>
     /// The <c>myorg</c> command runner.

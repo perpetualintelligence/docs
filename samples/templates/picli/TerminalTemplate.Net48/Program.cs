@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
@@ -14,7 +13,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using TerminalTemplate.Net48.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net48.Runners;
 
 namespace TerminalTemplate.Net48
 {
@@ -25,7 +24,7 @@ namespace TerminalTemplate.Net48
         /// </summary>
         private static void ConfigureServices(IServiceCollection services)
         {
-            Console.Title = "terminal demo (.NET 481)";
+            Console.Title = "Terminal Demo (.NET 481)";
 
             services.AddTerminalDefault(options =>
             {
@@ -50,43 +49,41 @@ namespace TerminalTemplate.Net48
                 options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
                 options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
                 options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
+
             }).AddRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext>()
               .AddConsole<TerminalSystemConsole>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddTextHandler<UnicodeTextHandler>()
-              .AddHelpProvider<HelpLoggerProvider>()
+              .AddHelpProvider<HelpConsoleProvider>()
+              .AddEventHandler<EventHandler>()
               .AddCommandDescriptors();
 
             // Add the hosted serce for terminal customization
-            services.AddHostedService<MyOrgHostedService>();
+            services.AddHostedService<HostedService>();
 
             // Add the HTTP client factory to perform license checks
             services.AddHttpClient("onedemo");
 
             // Add custom DI services
-            services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();
+            services.AddScoped<ISampleService, DefaultSampleService>();
         }
 
         /// <summary>
         /// Creates a host builder.
         /// </summary>
         /// <param name="args">Arguments.</param>
-        /// <param name="configureterminal"></param>
+        /// <param name="configureTerminal"></param>
         /// <returns></returns>
-        private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureterminal)
+        private static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> configureTerminal)
         {
             return Host.CreateDefaultBuilder(args)
 
                 // Configure the framework
-                .ConfigureServices(configureterminal)
+                .ConfigureServices(configureTerminal)
 
                 // Configure terminal logging based on your application need.
                 .ConfigureLogging(logging =>
                 {
-                    logging.AddFilter("System", LogLevel.Error);
-                    logging.AddFilter("Microsoft", LogLevel.Error);
-                    logging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Error);
-                    logging.AddFilter("Microsoft.AspNetCore.Authentication", LogLevel.Error);
                 })
 
                 // Enable Serilog

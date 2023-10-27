@@ -12,7 +12,7 @@ namespace TerminalTemplate.Net48
     /// <summary>
     /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.
     /// </summary>
-    public class MyOrgHostedService : TerminalHostedService
+    public class HostedService : TerminalHostedService
     {
         private readonly ITerminalConsole terminalConsole;
 
@@ -22,7 +22,7 @@ namespace TerminalTemplate.Net48
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public MyOrgHostedService(IServiceProvider serviceProvider, ITerminalConsole terminalConsole, TerminalOptions cliOptions, ILogger<TerminalHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public HostedService(IServiceProvider serviceProvider, ITerminalConsole terminalConsole, TerminalOptions cliOptions, ILogger<TerminalHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
             this.terminalConsole = terminalConsole;
         }

@@ -1,9 +1,9 @@
-﻿namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
+﻿namespace TerminalTemplate.Net7.Runners
 {
     /// <summary>
     /// The sample id generator service to demonstrate the custom DI injection for CLI terminal.
     /// </summary>
-    public interface IIdGeneratorSampleService
+    public interface ISampleService
     {
         /// <summary>
         /// Generates a long GUID.

@@ -1,9 +1,11 @@
-﻿namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
+﻿using System;
+
+namespace TerminalTemplate.Net48.Runners
 {
     /// <summary>
-    /// The default <see cref="IIdGeneratorSampleService"/>.
+    /// The default <see cref="ISampleService"/>.
     /// </summary>
-    public class DefaultIdGeneratorSampleService : IIdGeneratorSampleService
+    public class DefaultSampleService : ISampleService
     {
         /// <inheritdoc/>
         public string GenerateLuid()

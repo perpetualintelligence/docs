@@ -4,9 +4,7 @@ using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Hosting;
 using System;
-using TerminalTemplate.Net48.Runners.MyOrg;
-using TerminalTemplate.Net48.Runners.MyOrg.Gen;
-using TerminalTemplate.Net48.Runners.MyOrg.Gen.Id;
+using TerminalTemplate.Net48.Runners;
 
 namespace TerminalTemplate.Net48
 {
@@ -15,7 +13,7 @@ namespace TerminalTemplate.Net48
     /// descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test frameworks. You can
     /// register a custom command checker and a command runner type for each command.
     /// </summary>
-    public static class MyOrgCommandRegistry
+    public static class CommandRegistry
     {
         /// <summary>
         /// Adds the cli commands to the service collection.

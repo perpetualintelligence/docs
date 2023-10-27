@@ -1,11 +1,10 @@
-﻿using PerpetualIntelligence.Terminal.Commands.Checkers;
+﻿using PerpetualIntelligence.Terminal.Commands;
+using PerpetualIntelligence.Terminal.Commands.Checkers;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Extensions;
-using TerminalTemplate.Net7.Runners.MyOrg;
-using TerminalTemplate.Net7.Runners.MyOrg.Gen;
-using TerminalTemplate.Net7.Runners.MyOrg.Gen.Id;
 using PerpetualIntelligence.Terminal.Hosting;
-using PerpetualIntelligence.Terminal.Commands;
+using System;
+using TerminalTemplate.Net7.Runners;
 
 namespace TerminalTemplate.Net7
 {
@@ -14,7 +13,7 @@ namespace TerminalTemplate.Net7
     /// descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test frameworks. You can
     /// register a custom command checker and a command runner type for each command.
     /// </summary>
-    public static class MyOrgCommandRegistry
+    public static class CommandRegistry
     {
         /// <summary>
         /// Adds the cli commands to the service collection.

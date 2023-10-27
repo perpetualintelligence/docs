@@ -1,19 +1,19 @@
 # Getting Started
-
 This document provides a guide to get you started with the `pi-cli` framework.
 
 ## For Educational and Evaluation
 If you're looking to quickly onboard, test, and evaluate the `pi-cli` framework, you can take advantage of our [demo license](demo.md):
 
-- Access all features for free, for educational and evaluation purposes.
-- Start using `pi-cli` right away without any account creation.
+- Access all features for free, for educational purposes.
+- Start using `pi-cli` right away using [demo license](demo.md) without any account creation.
 - Explore and use our ready-to-use samples available on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
 
 ## For Release or Production Use
-For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors. Learn about our licenses and pricing [here](licensing/intro.md).
+For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.
 
+> **Note:** Refer to our comprehensive [licensing documentation](licensing/intro.md).
 
-### Steps to Get Started:
+### Get a commercial license:
 1. **Purchase a Microsoft Subscription**: 
    - [Microsoft AppStore](../buying/buyonmsappsource.md)
    - [Microsoft Azure](../buying/buyonmsazure.md)

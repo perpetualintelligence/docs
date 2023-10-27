@@ -1,44 +1,56 @@
 # Demo License
-Use our demo license feature for quick onboarding, evaluation, and testing our sample code base on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials).
 
-We recommend creating an account to generate a license for your specific use case. Our community edition is free for educational, research and development, and non-commercial use.
+Utilize our demo license for quick onboarding, evaluation, and testing of our [samples](samples.md). While the demo license is freely accessible for educational, research, and non-production purposes, we suggest creating an account to obtain a license that best suits your specific requirements.
 
-> **Note:** You need a paid commercial license for non-educational or production environments.
+> **Note:** Educational institutions are eligible for a complimentary full-featured license for non-commercial purposes. To initiate the registration process, please [contact us](https://github.com/perpetualintelligence/support/issues).
 
-## How do I access demo license ?
-You don't need an account to access or use the demo license. 
 
-- Go to our [demo license](https://www.perpetualintelligence.com/products/onedemo/licensing) web page
-- Verify the Google - reCAPTCHA
-- Download the `Primary` or `Secondary` demo license keys
 
-![onedemo](../../images/onedemo/licensing.png)
+## How do I get a demo license?
+You don't need an account to access or use the demo license.
 
-## How do I use demo license ?
-You will need to configure your application by specifying the demo identifiers and primary or secondary demo license.
+1. Navigate to the [demo license page](https://www.perpetualintelligence.com/products/onedemo).
+2. Complete the form with the required basic information.
+3. Verify your identity with Google reCAPTCHA.
+4. Click `Get Demo License` to generate your demo license.
+
+![onedemo](../../images/onedemo/filldetails.png)
+
+5. Download your demo license keys, choosing either `Download Primary` or `Download Secondary`.
+
+![onedemo](../../images/onedemo/download.png)
+
+## How do I use the demo license?
+To incorporate the demo license into your application, you'll need to configure several settings.
+
+You'll first need to specify the demo identifiers using the [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions). The required demo identifiers are available under the following namespace:
+
+```csharp
+using PerpetualIntelligence.Shared.Licensing;
+```
 
 ### Demo Authorized Application
 This is your authorized application identifier or `auth_apps` claim for demo purposes. Copy it and specify it in your application configuration.
 
 Example:
-```
-    options.Licensing.AuthorizedApplicationId = "da7fa6f5-3127-49f3-9682-2f7412d3f48c";
+```csharp
+    options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
 ```
 
 ### Demo Subject
-This is your subject or subscription id `sub` claim for demo purposes. Copy it and specify it in your application configuration.
+This is your subscription id or `sub` claim for demo purposes. Copy it and specify it in your application configuration.
 
 Example:
-```
-    options.Licensing.Subject = "f296bf8f-e951-4c9b-a8ba-ee912a574cfc";
+```csharp
+    options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
 ```
 
 ### Demo Consumer Tenant
-This is your consumer tenant id `tid` claim for demo purposes. Copy it and specify it in your application configuration.
+This is your consumer tenant id or `tid` claim for demo purposes. Copy it and specify it in your application configuration.
 
 Example:
-```
-    options.Licensing.ConsumerTenantId = "abaf803b-3f24-4087-b18f-192ed279b01e";
+```csharp
+    options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
 ```
 
 ### Demo License Key
@@ -47,15 +59,17 @@ These are your primary or secondary license keys for demo purposes. Download the
 > **Note:** You need to specify either primary or secondary.
 
 Example:
-```
-    options.Licensing.KeySource = SaaSKeySources.JsonFile;
-    options.Licensing.LicenseKey = "D:\\lic\\demo_primary.json"
+```csharp
+    // Download the license file in this location or specify your location
+    options.Licensing.LicenseKey = "C:\\lic\\demo_primary.json"; 
 ```
 
-```
-    options.Licensing.KeySource = SaaSKeySources.JsonFile;
-    options.Licensing.LicenseKey = "D:\\lic\\demo_secondary.json"
+Or
+
+```csharp
+    // Download the license file in this location or specify your location
+    options.Licensing.LicenseKey = "C:\\lic\\demo_secondary.json";
 ```
 
 ## See also
-- [Options](../picli/options.md)
+- [Terminal Options](../picli/options.md)

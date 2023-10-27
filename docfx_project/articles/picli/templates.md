@@ -1,5 +1,4 @@
 # Templates
-
 Our ready-to-use sample templates allow quick onboarding for application authors to create enterprise-grade modern terminals.
 
 ## How do I use the templates?

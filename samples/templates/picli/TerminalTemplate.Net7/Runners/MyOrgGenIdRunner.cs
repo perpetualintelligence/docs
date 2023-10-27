@@ -1,9 +1,11 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Shared.Exceptions;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
+using PerpetualIntelligence.Shared.Exceptions;
+using System;
+using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
+namespace TerminalTemplate.Net7.Runners
 {
     /// <summary>
     /// The <c>myorg gen id</c> command runner.
@@ -15,11 +17,9 @@ namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public MyOrgGenIdRunner(IIdGeneratorSampleService idGeneratorSampleService, TerminalOptions options, ILogger<MyOrgGenRunner> logger)
+        public MyOrgGenIdRunner(ISampleService idGeneratorSampleService, TerminalOptions options, ILogger<MyOrgGenRunner> logger)
         {
             this.idGeneratorSampleService = idGeneratorSampleService;
-            this.options = options;
-            this.logger = logger;
         }
 
         /// <summary>
@@ -48,8 +48,6 @@ namespace TerminalTemplate.Net7.Runners.MyOrg.Gen.Id
             return Task.FromResult(new CommandRunnerResult());
         }
 
-        private readonly IIdGeneratorSampleService idGeneratorSampleService;
-        private readonly ILogger<MyOrgGenRunner> logger;
-        private readonly TerminalOptions options;
+        private readonly ISampleService idGeneratorSampleService;
     }
 }

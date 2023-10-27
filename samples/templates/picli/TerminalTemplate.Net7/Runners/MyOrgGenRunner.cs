@@ -4,7 +4,7 @@ using PerpetualIntelligence.Terminal.Configuration.Options;
 using System;
 using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net48.Runners.MyOrg.Gen
+namespace TerminalTemplate.Net7.Runners
 {
     /// <summary>
     /// The <c>myorg gen</c> command runner.

@@ -11,7 +11,7 @@ using PerpetualIntelligence.Terminal.Configuration.Options;
 using System;
 using System.Threading.Tasks;
 
-namespace TerminalTemplate.Net48.Runners.MyOrg
+namespace TerminalTemplate.Net48.Runners
 {
     /// <summary>
     /// The <c>myorg</c> command runner.

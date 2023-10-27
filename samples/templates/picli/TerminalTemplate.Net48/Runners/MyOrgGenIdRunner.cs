@@ -2,8 +2,8 @@
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 using PerpetualIntelligence.Shared.Exceptions;
-using System;
 using System.Threading.Tasks;
+using PerpetualIntelligence.Terminal.Runtime;
 
 namespace TerminalTemplate.Net48.Runners
 {
@@ -17,8 +17,9 @@ namespace TerminalTemplate.Net48.Runners
         /// </summary>
         /// <param name="options"></param>
         /// <param name="logger"></param>
-        public MyOrgGenIdRunner(ISampleService idGeneratorSampleService, TerminalOptions options, ILogger<MyOrgGenRunner> logger)
+        public MyOrgGenIdRunner(ITerminalConsole terminalConsole, ISampleService idGeneratorSampleService, TerminalOptions options, ILogger<MyOrgGenRunner> logger)
         {
+            this.terminalConsole = terminalConsole;
             this.idGeneratorSampleService = idGeneratorSampleService;
         }
 
@@ -27,16 +28,16 @@ namespace TerminalTemplate.Net48.Runners
         /// </summary>
         /// <param name="context">The run context.</param>
         /// <returns></returns>
-        public override Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
+        public override async Task<CommandRunnerResult> RunCommandAsync(CommandRunnerContext context)
         {
             context.Command.TryGetOptionValue("type", out string? type);
             if (type == "suid")
             {
-                Console.WriteLine(idGeneratorSampleService.GenerateSuid());
+                await terminalConsole.WriteLineAsync(idGeneratorSampleService.GenerateSuid());
             }
             else if (type == "luid")
             {
-                Console.WriteLine(idGeneratorSampleService.GenerateLuid());
+                await terminalConsole.WriteLineAsync(idGeneratorSampleService.GenerateLuid());
             }
             else
             {
@@ -44,10 +45,10 @@ namespace TerminalTemplate.Net48.Runners
                 throw new ErrorException("custom_error", "Custom error message. Invalid type. Please use suid or luid.");
             }
 
-            // Terminal authors can return custom result.
-            return Task.FromResult(new CommandRunnerResult());
+            return new CommandRunnerResult();
         }
 
+        private readonly ITerminalConsole terminalConsole;
         private readonly ISampleService idGeneratorSampleService;
     }
 }

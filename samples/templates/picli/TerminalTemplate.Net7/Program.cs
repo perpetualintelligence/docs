@@ -44,7 +44,7 @@ namespace TerminalTemplate.Net7
         /// </summary>
         private static void ConfigureServices(IServiceCollection services)
         {
-            Console.Title = "terminal demo  (.NET 7)";
+            Console.Title = "Terminal Demo  (.NET 7)";
 
             services.AddTerminalDefault(options =>
             {
@@ -74,7 +74,7 @@ namespace TerminalTemplate.Net7
               .AddConsole<TerminalSystemConsole>()
               .AddStoreHandler<InMemoryCommandStore>()
               .AddTextHandler<UnicodeTextHandler>()
-              .AddHelpProvider<HelpLoggerProvider>()
+              .AddHelpProvider<HelpConsoleProvider>()
               .AddEventHandler<EventHandler>()
               .AddCommandDescriptors();
 

@@ -1,5 +1,5 @@
 # Concepts
-This section introduces the basic concepts within the `pi-cli` terminal framework. It covers fundamental components and their roles in command processing, routing and execution. For a comprehensive understanding and in-depth details, refer to the [detailed section](details/intro.md) in the documentation.
+This section introduces the basic concepts within the `pi-cli` terminal framework. It covers fundamental components and their roles in command processing, routing and execution.
 
 ## [Terminal](xref:PerpetualIntelligence.Terminal.Runtime.Terminal)
 A terminal is a Unicode text-based construct designed for executing commands, automating workflows, and processing scripts. Each terminal session is uniquely identified, allowing for clear differentiation and management of multiple instances.
@@ -90,4 +90,4 @@ Events play an important role in extending and customizing the behavior of the t
 - `AfterCommandCheckAsync`: Called after a command's integrity check completes.
 
 ## [Hosting](xref:PerpetualIntelligence.Terminal.Hosting)
-The framework deploys dependency injection at its core to setup and run the terminal host. Developers can utilize the `TerminalHostedService` to configure services, customize terminal behavior, and ensure smooth execution throughout the terminal's lifecycle. For details refer to [configuration options](options.md), and [services](services.md).
+The framework deploys dependency injection at its core to setup and run the terminal host. Developers can utilize the `TerminalHostedService` to configure services, customize terminal behavior, and ensure smooth execution throughout the terminal's lifecycle. For details refer to [configuration options](../configuration-options.md), and [services](../services.md).

@@ -8,9 +8,9 @@ We provide 2 read-to-use templates:
 - [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli/TerminalTemplate.Net48)
 - [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli/TerminalTemplate.Net7)
 
-![DotnetTemplate](../../images/picli/templates/dotnet-template.png)
+![DotnetTemplate](../../../images/picli/templates/dotnet-template.png)
 
-The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo/licensing). Build the solution `PerpetualIntelligence.Terminal.Templates.Solution.sln`, and you are ready to go!
+The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo). Build the solution `Templates.Solution.sln`, and you are ready to go!
 
 ## Details
 You can use the templates to build new terminals or migrate your legacy console apps and modernize them. 
@@ -34,7 +34,7 @@ The @PerpetualIntelligence.Terminal.Integration.TerminalHostedService is a hoste
 
 This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.
 
-![Hostedservice](../../images/picli/templates/add-hosted-service.png)
+![Hostedservice](../../../images/picli/templates/add-hosted-service.png)
 
 ```
 using Microsoft.Extensions.Hosting;
@@ -192,11 +192,11 @@ For runners, we recommend you create the `Runners` folder and place all your com
 Example:
 `myorg gen id`  command string has a runner in `\Runners\MyOrg\Gen\Id` folder. It enables having a clear separation of concerns for each command, and you can also have custom services for your command at the same place.
 
-![Hostedservice](../../images/picli/templates/runners.png)
+![Hostedservice](../../../images/picli/templates/runners.png)
 
 
 ### Add handlers and checkers
-The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see [handlers](../../articles/picli/details/handlers.md) and [checkers](../../articles/picli/details/checkers.md).
+The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see [handlers](../concepts/handlers.md) and [checkers](../concepts/checkers.md).
 ```
 .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
 .AddStoreHandler<InMemoryCommandStore>()
@@ -209,7 +209,7 @@ By default, the `pi-cli` terminal supports Unicode text handler. You can build y
 ### Start command router
 The last step is to start the command router in the `Main` method to receive and run the user commands. 
 
-![Hostedservice](../../images/picli/templates/start-router.png)
+![Hostedservice](../../../images/picli/templates/start-router.png)
 
 ```
 private static async Task Main(string[] args)
@@ -234,5 +234,5 @@ You can stop the command router explicitly or programmatically in the following 
 - User can use the `exit` command to issue a cancellation token
 - Application can programmatically issue a cancellation token 
 
-![Hostedservice](../../images/picli/templates/stop-router.png)
+![Hostedservice](../../../images/picli/templates/stop-router.png)
 

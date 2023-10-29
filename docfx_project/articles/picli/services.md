@@ -1,5 +1,33 @@
 # Services (Dependency Injection)
-`pi-cli` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](options.md) and [logging](logging.md). A dependency is an object that another object depends on.
+`pi-cli` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](configuration-options.md) and [logging](logging.md). A dependency is an object that another object depends on.
+
+## Extension Methods
+The following classes provide extension methods to register the host application's `pi-cli` DI services.
+
+- [IHostExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IHostExtensions): Provides extension method to run the terminal routing.
+- [IServiceCollectionExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions): Provides extension methods to register the host applications `pi-cli` DI services.
+- [ITerminalBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ITerminalBuilderExtensions): 
+- [ICommandBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ICommandBuilderExtensions): 
+- [IOptionBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IOptionBuilderExtensions): 
+- [TerminalOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions)
+
+
+We have grouped the extension methods based on the feature they support.
+
+## Core
+Involves defining and registering the core CLI infrastructure and services.
+
+### AddTerminal
+
+Adds the core services to the DI service collection. @PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions provide extension methods that return a @PerpetualIntelligence.Terminal.Hosting.ITerminalBuilder object which in turn provides extension methods to add `pi-cli` specific services to the host application.
+
+```csharp
+public static ITerminalBuilder AddTerminal(this IServiceCollection services)
+```
+
+
+# Services (Dependency Injection)
+`pi-cli` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](configuration-options.md) and [logging](logging.md). A dependency is an object that another object depends on.
 
 ## Extension Methods
 The following classes provide extension methods to register the host application's `pi-cli` DI services.

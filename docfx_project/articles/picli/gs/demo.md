@@ -14,11 +14,11 @@ You don't need an account to access or use the demo license.
 3. Verify your identity with Google reCAPTCHA.
 4. Click `Get Demo License` to generate your demo license.
 
-![onedemo](../../images/onedemo/filldetails.png)
+![onedemo](../../../images/onedemo/filldetails.png)
 
 5. Download your demo license keys, choosing either `Download Primary` or `Download Secondary`.
 
-![onedemo](../../images/onedemo/download.png)
+![onedemo](../../../images/onedemo/download.png)
 
 ## How do I use the demo license?
 To incorporate the demo license into your application, you'll need to configure several settings.
@@ -72,4 +72,6 @@ Or
 ```
 
 ## See also
-- [Terminal Options](../picli/options.md)
+- [Configuration Options](../configuration-options.md)
+- [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions)
+- [DemoIdentifiers](xref:PerpetualIntelligence.Shared.Licensing.DemoIdentifiers)

@@ -11,18 +11,18 @@ If you're looking to quickly onboard, test, and evaluate the `pi-cli` framework,
 ## For Release or Production Use
 For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.
 
-> **Note:** Refer to our comprehensive [licensing documentation](licensing/intro.md).
+> **Note:** Refer to our comprehensive [licensing documentation](../licensing/intro.md).
 
 ### Get a commercial license:
 1. **Purchase a Microsoft Subscription**: 
-   - [Microsoft AppStore](../buying/buyonmsappsource.md)
-   - [Microsoft Azure](../buying/buyonmsazure.md)
+   - [Microsoft AppStore](../../buying/buyonmsappsource.md)
+   - [Microsoft Azure](../../buying/buyonmsazure.md)
 2. **Activate Your Subscription**: 
    - Proceed to our [consumer portal](https://www.consumer.perpetualintelligence.com/) to activate your commercial subscription.
 3. **Set Up Your Environment**: 
-   1. Generate your [license keys](licensing/licensekeys.md).
+   1. Generate your [license keys](../licensing/licensekeys.md).
    2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) or start from scratch.
-   3. Configure your terminal with [options](options.md).
+   3. Configure your terminal with [options](../configuration-options.md).
    4. Set up the [template](templates.md) execution.
    5. Register your commands, arguments, and options.
    6. Add your custom command runners.

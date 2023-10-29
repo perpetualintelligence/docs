@@ -1,6 +1,4 @@
-# Overview
-
-## Introduction
+# Introduction
 `pi-cli` (oneterminal) is a cross-platform adaptable framework designed for building modern CLI and terminal apps. It empowers software teams to create enterprise-grade Unicode terminals tailored to specific needs, from simple CLI apps with basic flags to advanced terminals with complex command structures.
 
 > ***Take Your App to the Command Line:*** Easily build CLI and terminal applications with Unicode support.
@@ -14,7 +12,7 @@ Crafted with modularity and customization in mind, `pi-cli` supports a wide rang
 - Create deployment-agnostic CLI terminals, test locally, and deploy on-premise, cloud (public, private, or government), or in hybrid environments.
 - Build secure enterprise-level CLI or terminal applications.
 - Engage with our open-source community to resolve issues and contribute to feature enhancements and documentation.
-- Quickly onboard, evaluate, and test with our [demo license](../onedemo/intro.md). Dive in with our [samples](../samples.md).
+- Quickly onboard, evaluate, and test with our [demo license](gs/demo.md). Dive in with our [samples](gs/samples.md).
 
 `pi-cli` cuts through infrastructure complexity, letting you concentrate on crafting your CLI applications.
 

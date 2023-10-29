@@ -14,14 +14,14 @@ Explore the `pi-cli` framework through our examples, showcasing popular CLI patt
 ### Technology
 | Brand | Example | Description |
 |-------|---------|-------------|
-| ![GitHub](../../images/brands/github_64.png) | [GitHub - gh](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/GithubStyleCli) | Build a CLI similar to [GitHub CLI](https://cli.github.com/). |
-| ![.NET](../../images/brands/dotnet_64.png) | [.NET - dotnet](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/DotnetStyleCli) | Build a CLI similar to [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/). |
-| ![Perpetual Intelligence](../../images/brands/pi_64.png) | [Unicode - pi-cli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/UnicodeCli) | Example [Unicode](https://home.unicode.org/) terminals supporting the `Hindi` language. |
+| ![GitHub](../../../images/brands/github_64.png) | [GitHub - gh](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/GithubStyleCli) | Build a CLI similar to [GitHub CLI](https://cli.github.com/). |
+| ![.NET](../../../images/brands/dotnet_64.png) | [.NET - dotnet](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/DotnetStyleCli) | Build a CLI similar to [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/). |
+| ![Perpetual Intelligence](../../../images/brands/pi_64.png) | [Unicode - pi-cli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/UnicodeCli) | Example [Unicode](https://home.unicode.org/) terminals supporting the `Hindi` language. |
 
 ### Payment Platforms
 | Brand | Example | Description |
 |-------|---------|-------------|
-| ![Stripe](../../images/brands/stripe_64.png) | [Stripe - stripe](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/StripeStyleCli) | Build a CLI similar to [Stripe CLI](https://stripe.com/docs/stripe-cli). |
+| ![Stripe](../../../images/brands/stripe_64.png) | [Stripe - stripe](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli/StripeStyleCli) | Build a CLI similar to [Stripe CLI](https://stripe.com/docs/stripe-cli). |
 
 ## Branding
 Want to showcase your brand and terminal example here? [Contact us](https://www.perpetualintelligence.com/products/pibranding).

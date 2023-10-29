@@ -35,4 +35,4 @@ Download your primary or secondary license key as explained in the [License Keys
 ```
 
 ## See also
-- [Options](../../picli/options.md)
+- [Options](../../picli/configuration-options.md)

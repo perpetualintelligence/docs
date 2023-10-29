@@ -1,4 +1,4 @@
-# Introduction
+# Terminal Framework
 `pi-cli` (oneterminal) is a cross-platform adaptable framework designed for building modern CLI and terminal apps. It empowers software teams to create enterprise-grade Unicode terminals tailored to specific needs, from simple CLI apps with basic flags to advanced terminals with complex command structures.
 
 > ***Take Your App to the Command Line:*** Easily build CLI and terminal applications with Unicode support.

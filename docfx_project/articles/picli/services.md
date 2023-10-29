@@ -4,13 +4,12 @@
 ## Extension Methods
 The following classes provide extension methods to register the host application's `pi-cli` DI services.
 
-- [IHostExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IHostExtensions): Provides extension method to run the terminal routing.
-- [IServiceCollectionExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions): Provides extension methods to register the host applications `pi-cli` DI services.
-- [ITerminalBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ITerminalBuilderExtensions): 
-- [ICommandBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ICommandBuilderExtensions): 
-- [IOptionBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IOptionBuilderExtensions): 
-- [TerminalOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions)
-
+- [IHostExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IHostExtensions): Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.
+- [IServiceCollectionExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `pi-cli` services within the host application's dependency injection container.
+- [ITerminalBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ITerminalBuilderExtensions): Enhances the terminal builder with additional configuration and customization options.
+- [ICommandBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ICommandBuilderExtensions): Provides extension methods to aid in the configuration and creation of commands in the terminal application.
+- [IOptionBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IOptionBuilderExtensions): Offers methods for defining and configuring command options, ensuring their proper integration and validation.
+- [TerminalOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `pi-cli` terminal application, allowing for customization of its behavior.
 
 We have grouped the extension methods based on the feature they support.
 

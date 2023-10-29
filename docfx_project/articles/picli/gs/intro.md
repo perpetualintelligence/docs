@@ -1,33 +1,44 @@
 # Getting Started
-This document provides a guide to get you started with the `pi-cli` framework.
+This document provides guidelines to get you started with the `pi-cli` framework.
 
-## For Educational and Evaluation
-If you're looking to quickly onboard, test, and evaluate the `pi-cli` framework, you can take advantage of our [demo license](demo.md):
+## For Educational or Evaluation Purposes
 
-- Access all features for free, for educational purposes.
-- Start using `pi-cli` right away using [demo license](demo.md) without any account creation.
-- Explore and use our ready-to-use samples available on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
+Educational institutions and community developers can use the `pi-cli` framework to build and deploy terminal applications for free, provided they are not used for commercial or production purposes. The [demo license](demo.md) supports this use case:
 
-## For Release or Production Use
-For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.
+- It provides full access to all features without charge.
+- You can start using `pi-cli` immediately, no account registration needed.
+- Explore ready-to-use samples on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
 
-> **Note:** Refer to our comprehensive [licensing documentation](../licensing/intro.md).
+> NOTE:
+> -  **Commercial Use**: Engaging in activities with the intention of earning revenue or other material benefits.
+> - **Production Use**: Deploying an application in a live setting where it is accessible by end-users or other systems, indicating that it is fully operational.
 
-### Get a commercial license:
-1. **Purchase a Microsoft Subscription**: 
-   - [Microsoft AppStore](../../buying/buyonmsappsource.md)
-   - [Microsoft Azure](../../buying/buyonmsazure.md)
+While this setup is ideal for education, community work, and initial evaluations, it's crucial to note that the demo license is not meant for any commercial or production deployment. However, educational institutions are allowed to deploy applications for internal production use, as long as they are not for commercial purposes.
+
+If you create a custom template or a sample application using the `pi-cli` framework, we encourage you to contribute and share it back with the community. Your contributions help in building a rich ecosystem around the `pi-cli` framework, benefiting everyone involved.
+
+## For Commercial or Production Use
+For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.  Refer to our comprehensive [licensing documentation](../licensing/intro.md).
+
+### Acquire a Commercial License
+1. **Purchase a Subscription through the Microsoft Commercial Marketplace**:    
+   - Follow the purchase guide for [Microsoft Azure](../../buying/buyonmsazure.md).
+   - Follow the purchase guide for [Microsoft AppStore](../../buying/buyonmsappsource.md).
+
+**Note**: During the purchase process, Microsoft will prompt you to activate your subscription.
+
 2. **Activate Your Subscription**: 
-   - Proceed to our [consumer portal](https://www.consumer.perpetualintelligence.com/) to activate your commercial subscription.
-3. **Set Up Your Environment**: 
-   1. Generate your [license keys](../licensing/licensekeys.md).
-   2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) or start from scratch.
-   3. Configure your terminal with [options](../configuration-options.md).
-   4. Set up the [template](templates.md) execution.
-   5. Register your commands, arguments, and options.
-   6. Add your custom command runners.
-   7. Test and run your terminal.
+   - Respond to Microsoft's prompt to begin the activation process.
+   - Proceed to our [consumer portal](https://www.consumer.perpetualintelligence.com/) as directed, to complete the activation of your commercial subscription.
 
+3. **Configure Your Environment**: 
+   1. Generate your [license keys](../licensing/licensekeys.md).
+   2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli) or start from scratch.
+   3. Configure the terminal [options](../configuration-options.md) as necessary.
+   4. Set up the [template](templates.md) for execution.
+   5. Register the required commands, arguments, and options.
+   6. Implement any command runners.
+   7. Build and run your amazing terminal apps!
 
 ## Samples
 To help you get started, we provide a variety of [samples](samples.md), including:

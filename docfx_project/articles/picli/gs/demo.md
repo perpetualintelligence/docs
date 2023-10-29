@@ -1,10 +1,6 @@
 # Demo License
 
-Utilize our demo license for quick onboarding, evaluation, and testing of our [samples](samples.md). While the demo license is freely accessible for educational, research, and non-production purposes, we suggest creating an account to obtain a license that best suits your specific requirements.
-
-> **Note:** Educational institutions are eligible for a complimentary full-featured license for non-commercial purposes. To initiate the registration process, please [contact us](https://github.com/perpetualintelligence/support/issues).
-
-
+Utilize our demo license for quick onboarding, evaluation, and testing of our [samples](samples.md).
 
 ## How do I get a demo license?
 You don't need an account to access or use the demo license.

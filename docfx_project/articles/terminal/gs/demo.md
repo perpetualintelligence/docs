@@ -19,7 +19,7 @@ You don't need an account to access or use the demo license.
 ## How do I use the demo license?
 To incorporate the demo license into your application, you'll need to configure several settings.
 
-You'll first need to specify the demo identifiers using the [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions). The required demo identifiers are available under the following namespace:
+You'll first need to specify the demo identifiers using the [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions). The required demo identifiers are available under the following namespace:
 
 ```csharp
 using PerpetualIntelligence.Shared.Licensing;
@@ -69,5 +69,5 @@ Or
 
 ## See also
 - [Configuration Options](../configuration-options.md)
-- [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions)
+- [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
 - [DemoIdentifiers](xref:PerpetualIntelligence.Shared.Licensing.DemoIdentifiers)

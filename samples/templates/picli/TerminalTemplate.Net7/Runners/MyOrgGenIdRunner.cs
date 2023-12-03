@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Infrastructure;
-using PerpetualIntelligence.Terminal.Commands.Runners;
-using PerpetualIntelligence.Terminal.Configuration.Options;
-using PerpetualIntelligence.Terminal.Runtime;
+using OneImlx.Terminal.Commands.Runners;
+using OneImlx.Terminal.Configuration.Options;
+using OneImlx.Terminal.Runtime;
 using System.Threading.Tasks;
 
 namespace TerminalTemplate.Net7.Runners

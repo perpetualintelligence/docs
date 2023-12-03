@@ -1,6 +1,6 @@
 # Usage and Authorization
 
-You authorize your terminal or application to use the `pi-cli` framework by configuring the [LicensingOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.LicensingOptions).
+You authorize your terminal or application to use the `pi-cli` framework by configuring the [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions).
 
 # Identifiers
 The identifiers help identify and configure your terminal or application correctly.

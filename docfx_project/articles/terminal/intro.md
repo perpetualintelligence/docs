@@ -31,7 +31,7 @@ Our DevOps builds the framework with Github [hosted runners](https://docs.github
 
 The licensed libraries can be accessed via Nuget:
 
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
+[![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
 
 ## User Experience (UX)
 

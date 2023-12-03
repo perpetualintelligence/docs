@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Terminal.Commands;
-using PerpetualIntelligence.Terminal.Commands.Checkers;
-using PerpetualIntelligence.Terminal.Commands.Routers;
-using PerpetualIntelligence.Terminal.Commands.Runners;
-using PerpetualIntelligence.Terminal.Events;
-using PerpetualIntelligence.Terminal.Runtime;
+using OneImlx.Terminal.Commands;
+using OneImlx.Terminal.Commands.Checkers;
+using OneImlx.Terminal.Commands.Routers;
+using OneImlx.Terminal.Commands.Runners;
+using OneImlx.Terminal.Events;
+using OneImlx.Terminal.Runtime;
 using System.Threading.Tasks;
 
 namespace TerminalTemplate.Net7

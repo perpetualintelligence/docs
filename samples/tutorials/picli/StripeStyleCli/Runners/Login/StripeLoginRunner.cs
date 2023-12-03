@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Terminal.Commands.Runners;
-using PerpetualIntelligence.Terminal.Configuration.Options;
+using OneImlx.Terminal.Commands.Runners;
+using OneImlx.Terminal.Configuration.Options;
 
 namespace StripeStyleCli.Runners.Login
 {

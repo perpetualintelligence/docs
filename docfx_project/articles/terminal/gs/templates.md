@@ -27,10 +27,10 @@ This section explains the code changes in the templates. To enable `pi-cli` you 
 ### Install NuGet Package
 The `pi-cli` framework is accessible by installing the following Nuget package.
 
-[![Nuget](https://img.shields.io/nuget/vpre/PerpetualIntelligence.Terminal?label=PerpetualIntelligence.Terminal)](https://www.nuget.org/packages/PerpetualIntelligence.Terminal)
+[![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
 
 ### Add terminal hosted service
-The @PerpetualIntelligence.Terminal.Integration.TerminalHostedService is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
+The @OneImlx.Terminal.Integration.TerminalHostedService is a hosted service that manages application lifetime, performs licensing and configuration checks, and enables terminal UX customization.
 
 This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.
 
@@ -39,10 +39,10 @@ This example shows the default view when you run the template. You can customize
 ```
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Terminal.Configuration.Options;
-using PerpetualIntelligence.Terminal.Integration;
-using PerpetualIntelligence.Terminal.Licensing;
-using PerpetualIntelligence.Terminal.Services;
+using OneImlx.Terminal.Configuration.Options;
+using OneImlx.Terminal.Integration;
+using OneImlx.Terminal.Licensing;
+using OneImlx.Terminal.Services;
 
 namespace terminalNewTerminalTemplateDotNetLatest
 {

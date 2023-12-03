@@ -4,14 +4,14 @@
 ## Extension Methods
 The following classes provide extension methods to register the host application's `pi-cli` DI services.
 
-- [IServiceCollectionExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `pi-cli` services within the host application's dependency injection container.
-- [IHostExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IHostExtensions): Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.
-- [ITerminalBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ITerminalBuilderExtensions): Enhances the terminal builder with additional configuration and customization options.
-- [ICommandBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ICommandBuilderExtensions): Provides extension methods to aid in the configuration and creation of commands in the terminal application.
-- [IOptionBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IOptionBuilderExtensions): Offers methods for defining and configuring command options, ensuring their proper integration and validation.
-- [TerminalOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `pi-cli` terminal application, allowing for customization of its behavior.
+- [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `pi-cli` services within the host application's dependency injection container.
+- [IHostExtensions](xref:OneImlx.Terminal.Extensions.IHostExtensions): Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.
+- [ITerminalBuilderExtensions](xref:OneImlx.Terminal.Extensions.ITerminalBuilderExtensions): Enhances the terminal builder with additional configuration and customization options.
+- [ICommandBuilderExtensions](xref:OneImlx.Terminal.Extensions.ICommandBuilderExtensions): Provides extension methods to aid in the configuration and creation of commands in the terminal application.
+- [IOptionBuilderExtensions](xref:OneImlx.Terminal.Extensions.IOptionBuilderExtensions): Offers methods for defining and configuring command options, ensuring their proper integration and validation.
+- [TerminalOptions](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `pi-cli` terminal application, allowing for customization of its behavior.
 
-## [IServiceCollectionExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IServiceCollectionExtensions)
+## [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions)
 This section provides guidance on integrating the `pi-cli` terminal framework into your .NET application using the available extension methods.
 
 ### AddTerminal
@@ -20,7 +20,7 @@ This section provides guidance on integrating the `pi-cli` terminal framework in
 ```csharp
 services.AddTerminal<ICommandStore, ITextHandler>();
 ```
-- ICommandStore: A store to lookup a [CommandDescriptor](xref:PerpetualIntelligence.Terminal.Commands.CommandDescriptor).
+- ICommandStore: A store to lookup a [CommandDescriptor](xref:OneImlx.Terminal.Commands.CommandDescriptor).
 - ITextHandler: An abstraction to handle all textual operations.
 
 #### Setup with Configuration Options
@@ -105,7 +105,7 @@ The `AddTerminal` methods return an instance of ITerminalBuilder, providing addi
 public static ICliBuilder AddCliOptions(this ICliBuilder builder)
 ```
 
-## [IHostExtensions](xref:PerpetualIntelligence.Terminal.Extensions.IHostExtensions)
+## [IHostExtensions](xref:OneImlx.Terminal.Extensions.IHostExtensions)
 `IHostExtensions` provides methods to run the terminal framework within the host application's runtime.
 
 ### RunTerminalRoutingAsync
@@ -117,7 +117,7 @@ await host.RunTerminalRoutingAsync<TRouting, TContext>(context);
 ```
 > **Note**: `RunTerminalRoutingAsync` blocks the calling thread until a cancellation request.
 
-## [ITerminalBuilderExtensions](xref:PerpetualIntelligence.Terminal.Extensions.ITerminalBuilderExtensions)
+## [ITerminalBuilderExtensions](xref:OneImlx.Terminal.Extensions.ITerminalBuilderExtensions)
 `ITerminalBuilderExtensions` provides methods to customize the terminal framework execution services for commands.
 
 ### AddOptionChecker

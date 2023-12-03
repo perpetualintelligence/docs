@@ -1,8 +1,8 @@
-﻿using PerpetualIntelligence.Terminal.Commands;
-using PerpetualIntelligence.Terminal.Commands.Checkers;
-using PerpetualIntelligence.Terminal.Commands.Runners;
-using PerpetualIntelligence.Terminal.Extensions;
-using PerpetualIntelligence.Terminal.Hosting;
+﻿using OneImlx.Terminal.Commands;
+using OneImlx.Terminal.Commands.Checkers;
+using OneImlx.Terminal.Commands.Runners;
+using OneImlx.Terminal.Extensions;
+using OneImlx.Terminal.Hosting;
 using System;
 using TerminalTemplate.Net7.Runners;
 

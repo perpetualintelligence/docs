@@ -7,10 +7,10 @@
 
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerpetualIntelligence.Terminal.Configuration.Options;
-using PerpetualIntelligence.Terminal.Hosting;
-using PerpetualIntelligence.Terminal.Licensing;
-using PerpetualIntelligence.Terminal.Services;
+using OneImlx.Terminal.Configuration.Options;
+using OneImlx.Terminal.Hosting;
+using OneImlx.Terminal.Licensing;
+using OneImlx.Terminal.Services;
 
 namespace StripeStyleCli
 {

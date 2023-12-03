@@ -1,8 +1,4 @@
-# Terminal Framework | OneImlx.Terminal
-
-***Open. Flexible. Cross-Platform. Secured***
-
-> **The most flexible cross-platform framework for building modern and secured terminal apps.**
+# Terminal Framework
 
 `OneImlx.Terminal` is the cross-platform adaptable framework designed for crafting modern CLI and terminal applications. We cut through the terminal infrastructure complexity, letting you concentrate on building enterprise grade terminal applications with Unicode support, and extensive command hierarchies.
 

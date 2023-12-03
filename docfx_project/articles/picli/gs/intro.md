@@ -33,7 +33,7 @@ For production use, `pi-cli` provides commercial options suitable for individual
 
 3. **Configure Your Environment**: 
    1. Generate your [license keys](../licensing/licensekeys.md).
-   2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli) or start from scratch.
+   2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) or start from scratch.
    3. Configure the terminal [options](../configuration-options.md) as necessary.
    4. Set up the [template](templates.md) for execution.
    5. Register the required commands, arguments, and options.
@@ -43,7 +43,7 @@ For production use, `pi-cli` provides commercial options suitable for individual
 ## Samples
 To help you get started, we provide a variety of [samples](samples.md), including:
 
-- [Ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli)
-- [In-depth tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/picli)
+- [Ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal)
+- [In-depth tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal)
 
 These resources are designed to give you hands-on experience and guide you through the process of creating terminal applications with `pi-cli`.

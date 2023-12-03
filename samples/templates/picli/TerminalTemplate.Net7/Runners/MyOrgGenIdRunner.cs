@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
+using PerpetualIntelligence.Shared.Infrastructure;
 using PerpetualIntelligence.Terminal.Commands.Runners;
 using PerpetualIntelligence.Terminal.Configuration.Options;
-using PerpetualIntelligence.Shared.Exceptions;
-using System.Threading.Tasks;
 using PerpetualIntelligence.Terminal.Runtime;
+using System.Threading.Tasks;
 
 namespace TerminalTemplate.Net7.Runners
 {

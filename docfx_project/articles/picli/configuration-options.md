@@ -22,7 +22,7 @@ This `TerminalOptions` outlines all the configuration options supported by the t
 - [`Driver`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Driver): Configuration options for the terminal's driver (reserved for future versions).
 - [`Authentication`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Authentication): Configuration options for authentication (reserved for future versions).
 - [`Checker`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Checker): Configuration options for command, argument and option validation.
-- [`Extractor`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Extractor): Configuration options for extracting command arguments and options from the input string.
+- [`Parser`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Parser): Configuration options for extracting command arguments and options from the input string.
 - [`Handler`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Handler): Configuration options for command handlers.
 - [`Http`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Http): Configuration options related to HTTP interactions.
 - [`Licensing`](xref:PerpetualIntelligence.Terminal.Configuration.Options.TerminalOptions.Licensing): Configuration options for licensing.
@@ -75,75 +75,75 @@ Specifies the name of the terminal driver program. This option is of type `strin
 
 > **Note:** These configuration options are reserved for future development and enhancements of the terminal framework.
 
-## [ExtractorOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions)
-Configuration options for extracting command and argument strings.
+## [ParserOptions](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions)
+Configuration options for parsing command and argument strings.
 
-### [OptionAliasPrefix](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.OptionAliasPrefix)
+### [OptionAliasPrefix](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.OptionAliasPrefix)
 Specifies the prefix for option aliases, defaulting to `-`. It cannot be `null` or whitespace.
 
 ```csharp
 // Example
-options.Extractor.OptionAliasPrefix = "-";
+options.Parser.OptionAliasPrefix = "-";
 dotnet build -c Release
 ```
 
 In the example above, -c is recognized as an option alias.
 
-### [OptionPrefix](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.OptionPrefix)
+### [OptionPrefix](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.OptionPrefix)
 Defines the prefix for options, with a default of `--`. Like `OptionAliasPrefix`, it cannot be null or whitespace.
 
 ```csharp
 // Example
-options.Extractor.OptionPrefix = "--";
+options.Parser.OptionPrefix = "--";
 dotnet run --configuration Debug
 ```
 
 In the example above, `--configuration` is recognized as an option.
 
-### [OptionValueSeparator](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.OptionValueSeparator)
+### [OptionValueSeparator](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.OptionValueSeparator)
 Sets the separator between an option and its value, defaulting to a space ` `. It must be a single Unicode character but can be whitespace.
 
 ```csharp
 // Example
-options.Extractor.OptionValueSeparator = " ";
+options.Parser.OptionValueSeparator = " ";
 dotnet run --framework netcoreapp3.1
 ```
 
 In this case, the space between `--framework` and `netcoreapp3.1` is the option value separator.
 
-### [ValueDelimiter](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.ValueDelimiter)
+### [ValueDelimiter](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.ValueDelimiter)
 Specifies a delimiter for enclosing argument or option values, with a default of `"`.
 
 ```csharp
 // Example
-options.Extractor.ValueDelimiter = "\"";
+options.Parser.ValueDelimiter = "\"";
 dotnet run --project "My Project"
 ```
 
 The quotes around My Project are the value delimiters..
 
 
-### [Separator](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.Separator)
+### [Separator](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.Separator)
 Determines the separator for the command string, defaulting to a single space ` `. It must be a single Unicode character and can be whitespace.
 
 ```csharp
 // Example
-options.Extractor.Separator = " ";
+options.Parser.Separator = " ";
 dotnet publish --runtime linux-x64
 ```
 
 The spaces between the command and options are the separators.
 
-### [ParseHierarchy](xref:PerpetualIntelligence.Terminal.Configuration.Options.ExtractorOptions.ParseHierarchy)
+### [ParseHierarchy](xref:PerpetualIntelligence.Terminal.Configuration.Options.ParserOptions.ParseHierarchy)
 Indicates whether to parse the command hierarchy, which is optional and defaults to null. A command hierarchy includes the command route from root to executing command, through any nested groups.
 
 ```csharp
 // Example
-options.Extractor.ParseHierarchy = true;
+options.Parser.ParseHierarchy = true;
 dotnet publish --configuration Release --runtime linux-x64
 ```
 
-In this example, if ParseHierarchy is enabled, the extractor will parse the entire command hierarchy.
+In this example, if ParseHierarchy is enabled, the parser will parse the entire command hierarchy.
 
 > **Note**: Parsing the command hierarchy is generally not required for production use cases.
 

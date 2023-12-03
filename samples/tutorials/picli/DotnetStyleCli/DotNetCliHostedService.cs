@@ -1,16 +1,9 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com/articles/intro.html
-*/
-
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Terminal.Configuration.Options;
 using PerpetualIntelligence.Terminal.Hosting;
 using PerpetualIntelligence.Terminal.Licensing;
-using PerpetualIntelligence.Terminal.Services;
+using PerpetualIntelligence.Terminal.Runtime;
 
 namespace DotnetStyleCli
 {
@@ -19,14 +12,17 @@ namespace DotnetStyleCli
     /// </summary>
     public class DotNetCliHostedService : TerminalHostedService
     {
+        private readonly ITerminalConsole terminalConsole;
+
         /// <summary>
         /// Initialize a new instance.
         /// </summary>
         /// <param name="serviceProvider">The service provider.</param>
         /// <param name="cliOptions">The configuration options.</param>
         /// <param name="logger">The logger.</param>
-        public DotNetCliHostedService(IServiceProvider serviceProvider, TerminalOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public DotNetCliHostedService(IServiceProvider serviceProvider, ITerminalConsole terminalConsole, TerminalOptions cliOptions, ILogger<DotNetCliHostedService> logger) : base(serviceProvider, cliOptions, logger)
         {
+            this.terminalConsole = terminalConsole;
         }
 
         /// <summary>
@@ -54,12 +50,11 @@ namespace DotnetStyleCli
         /// Print <c>cli</c> terminal header.
         /// </summary>
         /// <returns></returns>
-        protected override Task PrintHostApplicationHeaderAsync()
+        protected override async Task PrintHostApplicationHeaderAsync()
         {
-            Console.WriteLine("Welcome...");
-            Console.WriteLine("Build enterprise-grade Unicode CLI terminal in standard or custom format.");
-            ConsoleHelper.WriteLineColor(ConsoleColor.Cyan, "This sample showcases the modern CLI terminal similar to dotnet cli.");
-            return Task.CompletedTask;
+            await terminalConsole.WriteLineAsync("Welcome...");
+            await terminalConsole.WriteLineAsync("Build enterprise-grade Unicode CLI terminal in standard or custom format.");
+            await terminalConsole.WriteLineColorAsync(ConsoleColor.Cyan, "This sample showcases the modern CLI terminal similar to dotnet cli.");
         }
 
         /// <summary>

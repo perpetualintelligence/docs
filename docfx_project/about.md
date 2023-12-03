@@ -10,6 +10,6 @@ Perpetual Intelligence&reg; is a team of developers and designers committed to p
 Your input is invaluable to us and the wider development community. For questions, feedback, or support, feel free to raise an issue or submit a feature request on our [GitHub repository](https://github.com/perpetualintelligence/docs/issues).
 
 ---
-Copyright &copy; 2023 Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+Copyright &copy; 2021 Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
 
 [Terms](https://terms.perpetualintelligence.com/articles/intro.html) | [Website](https://www.perpetualintelligence.com/) | [Consumer Portal](https://www.consumer.perpetualintelligence.com/)

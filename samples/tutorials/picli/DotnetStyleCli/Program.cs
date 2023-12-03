@@ -1,10 +1,4 @@
-﻿/*
-    Copyright (c) Perpetual Intelligence L.L.C. All Rights Reserved.
-
-    For license, terms, and data policies, go to:
-    https://terms.perpetualintelligence.com/articles/intro.html
-*/
-// Note:
+﻿// Note:
 // - This sample template uses the new .NET 6 minimal hosting model. See https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60-samples?view=aspnetcore-6.0 for more information.
 // - To use the traditional Startup and Program classes, just move this code below in the Main method of the Program.cs or refer to .NET3.1 sample template
 
@@ -13,15 +7,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
-using PerpetualIntelligence.Terminal.Commands.Checkers;
-using PerpetualIntelligence.Terminal.Commands.Extractors;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
-using PerpetualIntelligence.Terminal.Commands.Mappers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
-using PerpetualIntelligence.Terminal.Commands.Routers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
-using PerpetualIntelligence.Terminal.Stores.InMemory;
+using PerpetualIntelligence.Terminal.Stores;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
@@ -39,7 +29,7 @@ IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
 using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 {
-    await host.RunRouterAsTerminalAsync(new RoutingServiceContext(cancellationTokenSource.Token));
+    await host.RunTerminalRoutingAsync <TerminalConsoleRouting, TerminalConsoleRoutingContext> (new ( new TerminalStartContext( new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token)));
 }
 
 /// <summary>
@@ -47,40 +37,27 @@ using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
-    services.AddTerminal(options =>
+    services.AddTerminalConsole<InMemoryCommandStore, AsciiTextHandler, HelpConsoleProvider, TerminalSystemConsole>(options =>
     {
-        // Error info
-        options.Logging.ObsureInvalidOptions = false;
-
         // Commands, arguments and options
-        options.Extractor.OptionAlias = true;
-        options.Extractor.OptionPrefix = "--";
-        options.Extractor.OptionAliasPrefix = "-";
-        options.Extractor.DefaultOptionValue = true;
-        options.Extractor.DefaultOption = true;
-        options.Extractor.OptionValueWithIn = "\"";
-        options.Extractor.OptionValueSeparator = " ";
-        options.Extractor.Separator = " ";
+        options.Parser.OptionPrefix = "--";
+        options.Parser.OptionAliasPrefix = "-";
+        options.Parser.ValueDelimiter = "\"";
+        options.Parser.OptionValueSeparator = " ";
+        options.Parser.Separator = " ";
 
         // Checkers
-        options.Checker.StrictOptionValueType = true;
+        options.Checker.StrictValueType = true;
 
         // Http
         options.Http.HttpClientName = "dt-demo";
 
         // Licensing
-        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
+        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
         options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-        options.Licensing.ConsumerTenantId = DemoIdentifiers.terminalDemoConsumerTenantId;
-        options.Licensing.Subject = DemoIdentifiers.terminalDemoSubject;
-        options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-    }).AddRoutingService<ConsoleRoutingService>()
-      .AddExtractor<CommandExtractor, OptionExtractor, DefaultOptionProvider, DefaultOptionValueProvider>()
-      .AddOptionChecker<DataAnnotationsOptionDataTypeMapper, OptionChecker>()
-      .AddStoreHandler<InMemoryCommandStore>()
-      .AddErrorHandler<ErrorHandler, ExceptionHandler>()
-      .AddTextHandler<UnicodeTextHandler>()
-      .AddCommandDescriptors();
+        options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
+        options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
+    }).AddCommandDescriptors();
 
     services.AddHostedService<DotNetCliHostedService>();
 
@@ -101,7 +78,6 @@ static IHostBuilder CreateHostBuilder(string[] args, Action<IServiceCollection> 
                .ConfigureLogging(options =>
                {
                    options.ClearProviders();
-                   options.AddTerminalLogger<TerminalConsoleLogger>();
                });
 }
 

@@ -12,7 +12,7 @@ namespace TerminalTemplate.Net7
     /// <summary>
     /// The example terminal event handler.
     /// </summary>
-    public class EventHandler : IAsyncEventHandler
+    public class EventHandler : ITerminalEventHandler
     {
         private readonly ITerminalConsole terminalConsole;
         private readonly ILogger<EventHandler> logger;

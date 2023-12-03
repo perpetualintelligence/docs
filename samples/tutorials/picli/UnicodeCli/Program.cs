@@ -43,14 +43,14 @@ namespace UnicodeCli
                 options.Logging.ObsureInvalidOptions = false;
 
                 // Commands, arguments and options
-                options.Extractor.OptionAlias = true;
-                options.Extractor.OptionPrefix = "--";
-                options.Extractor.OptionAliasPrefix = "-";
-                options.Extractor.DefaultOptionValue = true;
-                options.Extractor.DefaultOption = true;
-                options.Extractor.OptionValueWithIn = "\"";
-                options.Extractor.OptionValueSeparator = " ";
-                options.Extractor.Separator = " ";
+                options.Parser.OptionAlias = true;
+                options.Parser.OptionPrefix = "--";
+                options.Parser.OptionAliasPrefix = "-";
+                options.Parser.DefaultOptionValue = true;
+                options.Parser.DefaultOption = true;
+                options.Parser.OptionValueWithIn = "\"";
+                options.Parser.OptionValueSeparator = " ";
+                options.Parser.Separator = " ";
 
                 // Checkers
                 options.Checker.StrictOptionValueType = true;

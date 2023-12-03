@@ -47,4 +47,4 @@ Upon subscription activation you can generate the license keys.
 ![Generate License](../../images/buying/msappsource/generate-license.png)
 4. Download license file
 ![Download Licese](../../images/buying/msappsource/download-license.png)
-5. Configure your application to use the [license keys](../../articles/picli/licensing/usage.md)
+5. Configure your application to use the [license keys](../../articles/terminal/licensing/usage.md)

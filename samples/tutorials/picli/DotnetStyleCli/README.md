@@ -1,7 +1,7 @@
 # Welcome
 This sample tutorial shows how to build modern CLI terminals similar to [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/).
 
-The "terminal" framework handles the entire CLI infrastructure,  so your focus is on building modern CLI apps and services. For more details, see our [documentation](https://docs.perpetualintelligence.com/articles/picli/intro.html).
+The "terminal" framework handles the entire CLI infrastructure,  so your focus is on building modern CLI apps and services. For more details, see our [documentation](https://docs.perpetualintelligence.com/articles/terminal/intro.html).
 
 The tutorial uses our [demo license](https://docs.perpetualintelligence.com/articles/onedemo/intro.html).
 The code in `Program.cs` specifies the license key location. You can download the license key file in that location or set your path.

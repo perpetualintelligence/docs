@@ -6,9 +6,9 @@ using PerpetualIntelligence.Terminal.Commands.Providers;
 using PerpetualIntelligence.Terminal.Extensions;
 using PerpetualIntelligence.Terminal.Runtime;
 using PerpetualIntelligence.Terminal.Stores;
+using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
-using Serilog;
 using System;
 using System.Diagnostics;
 using System.Threading;
@@ -26,37 +26,24 @@ namespace TerminalTemplate.Net48
         {
             Console.Title = "Terminal Demo (.NET 481)";
 
-            services.AddTerminalDefault(options =>
-            {
-                // Terminal Identifier
-                options.Id = "my-terminal-id";
+            services.AddTerminalConsole<InMemoryMutableCommandStore, AsciiTextHandler, HelpConsoleProvider, TerminalSystemConsole>(
+                new AsciiTextHandler(),
+                options =>
+                {
+                    // Terminal Identifier
+                    options.Id = "my-terminal-id";
 
-                // Commands, arguments and options
-                options.Extractor.OptionPrefix = "--";
-                options.Extractor.OptionAliasPrefix = "-";
-                options.Extractor.ValueDelimiter = "\"";
-                options.Extractor.OptionValueSeparator = " ";
-                options.Extractor.Separator = " ";
+                    // Checkers
+                    options.Checker.StrictValueType = true;
 
-                // Checkers
-                options.Checker.StrictValueType = true;
-
-                // HTTP
-                options.Http.HttpClientName = "onedemo";
-
-                // Licensing
-                options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
-                options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-                options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
-                options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
-
-            }).AddRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext>()
-              .AddConsole<TerminalSystemConsole>()
-              .AddStoreHandler<InMemoryCommandStore>()
-              .AddTextHandler<UnicodeTextHandler>()
-              .AddHelpProvider<HelpConsoleProvider>()
-              .AddEventHandler<EventHandler>()
-              .AddCommandDescriptors();
+                    // Licensing
+                    options.Licensing.HttpClientName = "onedemo";
+                    options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
+                    options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
+                    options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
+                    options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
+                }).AddEventHandler<EventHandler>()
+                  .AddCommandDescriptors();
 
             // Add the hosted serce for terminal customization
             services.AddHostedService<HostedService>();
@@ -93,7 +80,8 @@ namespace TerminalTemplate.Net48
         private static async Task Main(string[] args)
         {
             // Allows cancellation for the terminal.
-            CancellationTokenSource cancellationTokenSource = new();
+            CancellationTokenSource terminalTokenSource = new();
+            CancellationTokenSource commandTokenSource = new();
 
             // Init Serilog
             InitSerilog();
@@ -102,14 +90,14 @@ namespace TerminalTemplate.Net48
             IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 
             // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
-            using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
+            using (var host = await hostBuilder.StartAsync(terminalTokenSource.Token))
             {
-                TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
-                await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext>(new(startContext));
+                TerminalStartContext startContext = new(TerminalStartMode.Console, terminalTokenSource.Token, commandTokenSource.Token);
+                await host.RunTerminalRouterAsync<TerminalConsoleRouter, TerminalConsoleRouterContext>(new(startContext));
             }
         }
 
-        static void InitSerilog()
+        private static void InitSerilog()
         {
             Activity.DefaultIdFormat = ActivityIdFormat.W3C;
 

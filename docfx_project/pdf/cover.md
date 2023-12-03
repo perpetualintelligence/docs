@@ -1,4 +1,5 @@
-# Perpetual Intelligence&reg;
+# Microsoft Partner
+## Perpetual Intelligence &reg; L.L.C.
 
 ## pi-cli
 The most flexible cross-platform framework for building modern CLI and terminal apps.

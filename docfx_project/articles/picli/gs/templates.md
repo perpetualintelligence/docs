@@ -5,10 +5,10 @@ Our ready-to-use sample templates allow quick onboarding for application authors
 Clone or download the template on your dev environment.
 
 We provide 2 read-to-use templates:
-- [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli/TerminalTemplate.Net48)
-- [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/picli/TerminalTemplate.Net7)
+- [.NET 4.8](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net48)
+- [.NET 7](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net7)
 
-![DotnetTemplate](../../../images/picli/templates/dotnet-template.png)
+![DotnetTemplate](../../../images/terminal/templates/dotnet-template.png)
 
 The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo). Build the solution `Templates.Solution.sln`, and you are ready to go!
 
@@ -34,7 +34,7 @@ The @PerpetualIntelligence.Terminal.Integration.TerminalHostedService is a hoste
 
 This example shows the default view when you run the template. You can customize it by overriding the methods shown in the template code below.
 
-![Hostedservice](../../../images/picli/templates/add-hosted-service.png)
+![Hostedservice](../../../images/terminal/templates/add-hosted-service.png)
 
 ```
 using Microsoft.Extensions.Hosting;
@@ -144,14 +144,14 @@ void ConfigureServices(IServiceCollection services)
         options.Logging.ObsureErrorArguments = false;
 
         // Commands, arguments and options
-        options.Extractor.ArgumentAlias = true;
-        options.Extractor.ArgumentPrefix = "--";
-        options.Extractor.ArgumentAliasPrefix = "-";
-        options.Extractor.DefaultArgumentValue = true;
-        options.Extractor.DefaultArgument = true;
-        options.Extractor.ArgumentValueWithIn = "\"";
-        options.Extractor.ArgumentValueSeparator = " ";
-        options.Extractor.Separator = " ";
+        options.Parser.ArgumentAlias = true;
+        options.Parser.ArgumentPrefix = "--";
+        options.Parser.ArgumentAliasPrefix = "-";
+        options.Parser.DefaultArgumentValue = true;
+        options.Parser.DefaultArgument = true;
+        options.Parser.ArgumentValueWithIn = "\"";
+        options.Parser.ArgumentValueSeparator = " ";
+        options.Parser.Separator = " ";
 
         // Checkers
         options.Checker.StrictArgumentValueType = true;
@@ -192,7 +192,7 @@ For runners, we recommend you create the `Runners` folder and place all your com
 Example:
 `myorg gen id`  command string has a runner in `\Runners\MyOrg\Gen\Id` folder. It enables having a clear separation of concerns for each command, and you can also have custom services for your command at the same place.
 
-![Hostedservice](../../../images/picli/templates/runners.png)
+![Hostedservice](../../../images/terminal/templates/runners.png)
 
 
 ### Add handlers and checkers
@@ -209,7 +209,7 @@ By default, the `pi-cli` terminal supports Unicode text handler. You can build y
 ### Start command router
 The last step is to start the command router in the `Main` method to receive and run the user commands. 
 
-![Hostedservice](../../../images/picli/templates/start-router.png)
+![Hostedservice](../../../images/terminal/templates/start-router.png)
 
 ```
 private static async Task Main(string[] args)
@@ -234,5 +234,5 @@ You can stop the command router explicitly or programmatically in the following 
 - User can use the `exit` command to issue a cancellation token
 - Application can programmatically issue a cancellation token 
 
-![Hostedservice](../../../images/picli/templates/stop-router.png)
+![Hostedservice](../../../images/terminal/templates/stop-router.png)
 

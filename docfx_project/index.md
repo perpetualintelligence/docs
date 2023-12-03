@@ -8,7 +8,7 @@ We manage and track issues [here](https://github.com/perpetualintelligence/docs/
 We follow the Contributor Covenant's code of conduct to create a respectful and inclusive community. Read our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
 
 ## Navigate
-- [pi-cli](articles/picli/intro.md): An adaptable cross-platform applications and terminal framework.
+- [pi-cli](articles/terminal/intro.md): An adaptable cross-platform applications and terminal framework.
 - [oneimlx](https://github.com/perpetualintelligence/oneimlx): :soon: An adaptable cross-platform access management and licensing framework.
 
 Our documentation is divided into two main sections:

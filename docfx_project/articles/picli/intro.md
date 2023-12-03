@@ -21,7 +21,7 @@ Crafted with modularity and customization in mind, `pi-cli` supports a wide rang
 ## Open Source
 `pi-cli` framework is fully open-source, with the entire source code available on [GitHub](https://github.com/perpetualintelligence/oneterminal). This encourages community collaboration and feedback.
 
-![repo](../../images/picli/framework/repo.png)
+![repo](../../images/terminal/framework/repo.png)
 
 Our DevOps builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
 

@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using PerpetualIntelligence.Shared.Licensing;
 using PerpetualIntelligence.Terminal.Commands.Handlers;
 using PerpetualIntelligence.Terminal.Commands.Providers;
@@ -23,7 +22,8 @@ namespace TerminalTemplate.Net7
         private static async Task Main(string[] args)
         {
             // Allows cancellation for the terminal.
-            CancellationTokenSource cancellationTokenSource = new();
+            CancellationTokenSource terminalTokenSource = new();
+            CancellationTokenSource commandTokenSource = new();
 
             // Init Serilog
             InitSerilog();
@@ -32,10 +32,10 @@ namespace TerminalTemplate.Net7
             IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
 
             // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
-            using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
+            using (var host = await hostBuilder.StartAsync(terminalTokenSource.Token))
             {
-                TerminalStartContext startContext = new(new TerminalStartInfo(TerminalStartMode.Console), cancellationTokenSource.Token);
-                await host.RunTerminalRoutingAsync<TerminalConsoleRouting, TerminalConsoleRoutingContext>(new(startContext));
+                TerminalStartContext startContext = new(TerminalStartMode.Console, terminalTokenSource.Token, commandTokenSource.Token);
+                await host.RunTerminalRouterAsync<TerminalConsoleRouter, TerminalConsoleRouterContext>(new(startContext));
             }
         }
 
@@ -46,36 +46,23 @@ namespace TerminalTemplate.Net7
         {
             Console.Title = "Terminal Demo  (.NET 7)";
 
-            services.AddTerminalDefault(options =>
+            services.AddTerminalConsole<InMemoryMutableCommandStore, AsciiTextHandler, HelpConsoleProvider, TerminalSystemConsole>(
+            new AsciiTextHandler(),
+            options =>
             {
                 // Terminal Identifier
                 options.Id = "my-terminal-id";
 
-                // Commands, arguments and options
-                options.Extractor.OptionPrefix = "--";
-                options.Extractor.OptionAliasPrefix = "-";
-                options.Extractor.ValueDelimiter = "\"";
-                options.Extractor.OptionValueSeparator = " ";
-                options.Extractor.Separator = " ";
-
                 // Checkers
                 options.Checker.StrictValueType = true;
 
-                // Http
-                options.Http.HttpClientName = "onedemo";
-
                 // Licensing
+                options.Licensing.HttpClientName = "onedemo";
                 options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
                 options.Licensing.LicenseKey = "C:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
                 options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
                 options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
-
-            }).AddRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext>()
-              .AddConsole<TerminalSystemConsole>()
-              .AddStoreHandler<InMemoryCommandStore>()
-              .AddTextHandler<UnicodeTextHandler>()
-              .AddHelpProvider<HelpConsoleProvider>()
-              .AddEventHandler<EventHandler>()
+            }).AddEventHandler<EventHandler>()
               .AddCommandDescriptors();
 
             // Add the hosted service for terminal customization
@@ -104,12 +91,6 @@ namespace TerminalTemplate.Net7
                 // Configure terminal logging based on your application need.
                 .ConfigureLogging(logging =>
                 {
-                    logging.SetMinimumLevel(LogLevel.Information);
-                    logging.ClearProviders();
-                    logging.AddFilter("System", LogLevel.Error);
-                    logging.AddFilter("Microsoft", LogLevel.Error);
-                    logging.AddFilter("Microsoft.Hosting.Lifetime", LogLevel.Error);
-                    logging.AddFilter("Microsoft.AspNetCore.Authentication", LogLevel.Error);
                 })
 
                // Enable Serilog
@@ -123,7 +104,7 @@ namespace TerminalTemplate.Net7
             Console.Title = PerpetualIntelligence.Shared.Constants.TerminalUrn;
 
             Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Information()
+                .MinimumLevel.Debug()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Error)
                 .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Error)
                 .MinimumLevel.Override("System", LogEventLevel.Error)

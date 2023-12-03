@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31606.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerpetualIntelligence.Shared", "..\..\..\shared\src\PerpetualIntelligence.Shared\PerpetualIntelligence.Shared.csproj", "{102E335C-A6D3-4946-B647-471A7398AE72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "..\..\..\shared\src\Shared\Shared.csproj", "{C4EF3677-393C-4424-9C74-F70F3CE790B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerpetualIntelligence.Terminal", "..\..\..\oneterminal\src\PerpetualIntelligence.Terminal\PerpetualIntelligence.Terminal.csproj", "{F19EA8E0-9E67-4618-9776-820E9AC71FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneImlx.Terminal", "..\..\..\terminal\src\OneImlx.Terminal\OneImlx.Terminal.csproj", "{A6238540-B2AE-4B22-B23B-52D49420F55E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneImlx.Terminal.Authentication", "..\..\..\terminal\src\OneImlx.Terminal.Authentication\OneImlx.Terminal.Authentication.csproj", "{305228FE-5ADC-4579-98DC-29FC0AC8E064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{102E335C-A6D3-4946-B647-471A7398AE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{102E335C-A6D3-4946-B647-471A7398AE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{102E335C-A6D3-4946-B647-471A7398AE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{102E335C-A6D3-4946-B647-471A7398AE72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F19EA8E0-9E67-4618-9776-820E9AC71FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F19EA8E0-9E67-4618-9776-820E9AC71FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F19EA8E0-9E67-4618-9776-820E9AC71FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F19EA8E0-9E67-4618-9776-820E9AC71FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EF3677-393C-4424-9C74-F70F3CE790B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EF3677-393C-4424-9C74-F70F3CE790B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EF3677-393C-4424-9C74-F70F3CE790B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EF3677-393C-4424-9C74-F70F3CE790B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6238540-B2AE-4B22-B23B-52D49420F55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6238540-B2AE-4B22-B23B-52D49420F55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6238540-B2AE-4B22-B23B-52D49420F55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6238540-B2AE-4B22-B23B-52D49420F55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305228FE-5ADC-4579-98DC-29FC0AC8E064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305228FE-5ADC-4579-98DC-29FC0AC8E064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305228FE-5ADC-4579-98DC-29FC0AC8E064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305228FE-5ADC-4579-98DC-29FC0AC8E064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -50,7 +50,7 @@ Consider executing the command `dotnet build test.csproj --configuration Release
 3. Parse Arguments and Options: The framework parses these arguments and options.
 4. Execute Command: Ultimately, the `build` command is executed with the specified project file and configuration.
 
-> **Note**: This feature is an enhancement and being tracked by [github issue](https://github.com/perpetualintelligence/oneterminal/issues/107).
+> **Note**: This feature is an enhancement and being tracked by [github issue](https://github.com/perpetualintelligence/terminal/issues/107).
 
 ## [Argument](xref:OneImlx.Terminal.Commands.Argument)
 Arguments within the raw command string are provided directly as values, following a specific sequence when the command supports multiple arguments. Unlike options, which are defined as key-value pairs, arguments are enumerated plainly without keys.
@@ -76,7 +76,7 @@ The command router orchestrates the workflow of command processing. It routes ra
 ## [Command Runner](xref:OneImlx.Terminal.Commands.Runners.CommandRunner`1)
 The command runner is where developers implement how commands are executed. It operates asynchronously to handle commands that might take a while to process. The framework routes each parsed command to its specific runner, helping to organize and manage the command execution logic within your application.
 
-## [Events](xref:OneImlx.Terminal.Events.IAsyncEventHandler)
+## [Events](xref:OneImlx.Terminal.Events.ITerminalEventHandler)
 Events play an important role in extending and customizing the behavior of the terminal to meet specific application requirements. Events are hooks that allow developers to inject custom logic and asynchronous operations at various stages of command routing.
 
 - `BeforeCommandRouteAsync`: Called before the command routing process begins.

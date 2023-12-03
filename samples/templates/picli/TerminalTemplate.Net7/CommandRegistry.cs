@@ -23,18 +23,20 @@ namespace TerminalTemplate.Net7
         public static ITerminalBuilder AddCommandDescriptors(this ITerminalBuilder builder)
         {
             // Root command (myorg)
-            builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg name", "Sample myorg root command", CommandType.Root, CommandFlags.None).
-                    DefineOption("version", nameof(Boolean), "Show myorg version", OptionFlags.None, alias: "v").Add().
-                    Add();
+            builder.DefineCommand<CommandChecker, MyOrgRunner>("myorg", "myorg name", "Sample myorg root command", CommandType.Root, CommandFlags.None)
+                   .DefineOption("version", nameof(Boolean), "Show myorg version", OptionFlags.None, alias: "v").Add()
+                   .Add();
 
             // Grouped command (myorg gen)
-            builder.DefineCommand<CommandChecker, MyOrgGenRunner>("gen", "gen name", "Sample generator grouped command.", CommandType.Group, CommandFlags.None).
-                    Add();
+            builder.DefineCommand<CommandChecker, MyOrgGenRunner>("gen", "gen name", "Sample generator grouped command.", CommandType.Group, CommandFlags.None)
+                   .Owners(new OwnerIdCollection("myorg"))
+                   .Add();
 
             // Subcommand (myorg gen id)
-            builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("id", "id name", "Sample id generator sub command.", CommandType.SubCommand, CommandFlags.None).
-                    DefineOption("type", nameof(String), "Id type", OptionFlags.Required, alias: "t").Add().
-                    Add();
+            builder.DefineCommand<CommandChecker, MyOrgGenIdRunner>("id", "id name", "Sample id generator sub command.", CommandType.SubCommand, CommandFlags.None)
+                   .Owners(new OwnerIdCollection("gen"))
+                   .DefineOption("type", nameof(String), "Id type", OptionFlags.Required, alias: "t").Add()
+                   .Add();
 
             // Exit
             builder.DefineCommand<CommandChecker, ExitRunner>("exit", "exit name", "Exits the CLI terminal.", CommandType.SubCommand, CommandFlags.None).Add();

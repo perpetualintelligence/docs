@@ -1,4 +1,4 @@
-# [perpetualintelligence/oneterminal](https://github.com/perpetualintelligence/oneterminal)
+# [perpetualintelligence/terminal](https://github.com/perpetualintelligence/terminal)
 
 This repository contains our cross-platform terminal framework. We build the following NuGet packages from this repository.
 
@@ -10,4 +10,4 @@ This project has adopted the code of conduct defined by the Contributor Covenant
 See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
 
 ## Change Log
-For the latest updates and changes, please refer to the [Change Log](https://github.com/perpetualintelligence/oneterminal/blob/main/CHANGE_LOG.md) on the GitHub repository.
+For the latest updates and changes, please refer to the [Change Log](https://github.com/perpetualintelligence/terminal/blob/main/CHANGE_LOG.md) on the GitHub repository.

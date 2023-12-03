@@ -104,7 +104,7 @@ namespace TerminalTemplate.Net48
             Console.Title = PerpetualIntelligence.Shared.Constants.TerminalUrn;
 
             Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Information()
+                .MinimumLevel.Warning()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Error)
                 .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Error)
                 .MinimumLevel.Override("System", LogEventLevel.Error)

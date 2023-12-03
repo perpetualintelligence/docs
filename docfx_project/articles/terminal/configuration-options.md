@@ -202,14 +202,6 @@ This property defines a description for the help option, with a default setting 
 
 `OptionAlias` sets a shorthand alias for the help option, defaulting to `h`. It is important to maintain the uniqueness of this alias across all options and commands to ensure clarity for the end-users.
 
-## [HttpOptions](xref:OneImlx.Terminal.Configuration.Options.HttpOptions)
-
-`HttpOptions` is designed to configure HTTP-related settings within a terminal application.
-
-### [HttpClientName](xref:OneImlx.Terminal.Configuration.Options.HttpOptions.HttpClientName)
-
-The `HttpClientName` property specifies the logical name used to create and configure an instance of `HttpClient`. Utilizing the `IHttpClientFactory.CreateClient(string)` method, the framework uses this configured name to instantiate `HttpClient`. Setting this property helps in associating a specific `HttpClient` configuration, promoting the use of named clients for various HTTP operations in the application.
-
 ## [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
 
 `LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](licensing/intro.md).

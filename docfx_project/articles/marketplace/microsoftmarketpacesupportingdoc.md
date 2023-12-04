@@ -32,7 +32,6 @@
 [![OneImlx.Terminal](https://img.shields.io/badge/OneImlx.Terminal-Go%20to%20NuGet-blue)](https://www.nuget.org/packages/OneImlx.Terminal/)
 [![OneImlx.Terminal.Authentication](https://img.shields.io/badge/OneImlx.Terminal.Authentication-Go%20to%20NuGet-blue)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication/)
 
-
 ### Announcements
 [https://docs.perpetualintelligence.com/articles/announcements.html](https://docs.perpetualintelligence.com/articles/announcements.html)
 

@@ -35,4 +35,4 @@ Download your primary or secondary license key as explained in the [License Keys
 ```
 
 ## See also
-- [Options](../../terminal/configuration-options.md)
+- [Options](../../terminal/configurationoptions.md)

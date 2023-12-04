@@ -1,8 +1,8 @@
 # Announcements
 
-## Package Migration
+## Migrations
 
-### PerpetualIntelligence.Terminal
+### OneImlx.Terminal
 The `PerpetualIntelligence.Terminal` Nuget package is obsolete in favor of `OneImlx.Terminal`. Please migrate your terminal applications to use [`OneImlx.Terminal`](https://www.nuget.org/packages/OneImlx.Terminal) Nuget package.
 
 ## Known Issues

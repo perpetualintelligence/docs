@@ -87,4 +87,4 @@ Events play an important role in extending and customizing the behavior of the t
 - `AfterCommandCheckAsync`: Called after a command's integrity check completes.
 
 ## [Hosting](xref:OneImlx.Terminal.Hosting)
-The framework deploys dependency injection at its core to setup and run the terminal host. Developers can utilize the `TerminalHostedService` to configure services, customize terminal behavior, and ensure smooth execution throughout the terminal's lifecycle. For details refer to [configuration options](../configuration-options.md), and [services](../services.md).
+The framework deploys dependency injection at its core to setup and run the terminal host. Developers can utilize the `TerminalHostedService` to configure services, customize terminal behavior, and ensure smooth execution throughout the terminal's lifecycle. For details refer to [configuration options](../configurationoptions.md), and [services](../services.md).

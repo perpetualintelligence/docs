@@ -68,6 +68,6 @@ Or
 ```
 
 ## See also
-- [Configuration Options](../configuration-options.md)
+- [Configuration Options](../configurationoptions.md)
 - [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
 - [DemoIdentifiers](xref:PerpetualIntelligence.Shared.Licensing.DemoIdentifiers)

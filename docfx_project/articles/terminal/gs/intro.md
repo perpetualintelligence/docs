@@ -34,7 +34,7 @@ For production use, `OneImlx.Terminal` provides commercial options suitable for 
 3. **Configure Your Environment**: 
    1. Generate your [license keys](../licensing/licensekeys.md).
    2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) or start from scratch.
-   3. Configure the terminal [options](../configuration-options.md) as necessary.
+   3. Configure the terminal [options](../configurationoptions.md) as necessary.
    4. Set up the [template](templates.md) for execution.
    5. Register the required commands, arguments, and options.
    6. Implement any command runners.

@@ -33,11 +33,11 @@ jobs:
           path: shared
           
        # protocols repo
-      - name: Checkout Cli
+      - name: Checkout Terminal
         uses: actions/checkout@v3
         with:
-          repository: perpetualintelligence/cli
-          path: cli
+          repository: perpetualintelligence/terminal
+          path: terminal
           token: ${{ secrets.PI_GITHUB_PAT }}
      
       # Print debug
@@ -59,7 +59,7 @@ jobs:
       # Restore dependencies
       # Restore using specified nuget.config
       - name: Restore
-        run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln --configfile main/nuget.config
+        run: dotnet restore main/docfx_project/src/Documentation.Solution.sln --configfile main/nuget.config
 
       # Install chocolatey for PDF generation
       - name: Install wkhtmltopdf

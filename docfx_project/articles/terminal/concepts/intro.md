@@ -1,5 +1,5 @@
 # Concepts
-This document introduces all the technical concepts within the `pi-cli` terminal framework. It covers fundamental components and their roles in command parsing, routing and execution.
+This document introduces all the technical concepts within the `OneImlx.Terminal` terminal framework. It covers fundamental components and their roles in command parsing, routing and execution.
 
 ```mermaid
 stateDiagram

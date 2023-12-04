@@ -10,12 +10,12 @@ We provide 2 read-to-use templates:
 
 ![DotnetTemplate](../../../images/terminal/templates/dotnet-template.png)
 
-The templates have `pi-cli` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo). Build the solution `Templates.Solution.sln`, and you are ready to go!
+The templates have `OneImlx.Terminal` framework configured with our [demo license](https://www.perpetualintelligence.com/products/onedemo). Build the solution `Templates.Solution.sln`, and you are ready to go!
 
 ## Details
 You can use the templates to build new terminals or migrate your legacy console apps and modernize them. 
 
-This section explains the code changes in the templates. To enable `pi-cli` you need to:
+This section explains the code changes in the templates. To enable `OneImlx.Terminal` you need to:
 1. Install NuGet Package
 2. Add terminal hosted service
 3. Configure your terminal options
@@ -25,7 +25,7 @@ This section explains the code changes in the templates. To enable `pi-cli` you 
 7. Stop the router
 
 ### Install NuGet Package
-The `pi-cli` framework is accessible by installing the following Nuget package.
+The `OneImlx.Terminal` framework is accessible by installing the following Nuget package.
 
 [![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
 
@@ -127,12 +127,12 @@ namespace terminalNewTerminalTemplateDotNetLatest
 
 ```
 
-### Add `pi-cli` and configure the options
-You enable `pi-cli` framework by adding the DI services in your `Program.cs` file. This example code shows the default configuration when you run the template.
+### Add `OneImlx.Terminal` and configure the options
+You enable `OneImlx.Terminal` framework by adding the DI services in your `Program.cs` file. This example code shows the default configuration when you run the template.
 
 ```
 /// <summary>
-/// Configures the required <c>pi-cli</c> services.
+/// Configures the required <c>OneImlx.Terminal</c> services.
 /// </summary>
 void ConfigureServices(IServiceCollection services)
 {
@@ -204,7 +204,7 @@ The template will register various default handlers and checkers. You can provid
 .AddTextHandler<UnicodeTextHandler>()
 ```
 
-By default, the `pi-cli` terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported `left-to-right` langauge.
+By default, the `OneImlx.Terminal` terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported `left-to-right` langauge.
 
 ### Start command router
 The last step is to start the command router in the `Main` method to receive and run the user commands. 

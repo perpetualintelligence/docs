@@ -8,7 +8,7 @@ Furthermore, options offer a method for validating configuration data, ensuring 
 
 ## Configurability
 ### [Command Options](concepts/options.md)
-Command options or simply options in `pi-cli` are specified directly in the command string as flags or key-value pairs, influencing the behavior of a specific command. They are defined within the command descriptor, parsed, and validated at runtime, allowing users to tailor the command's behavior to their specific needs. An example is `update-profile --username=johndoe --email=johndoe@example.com`, where `--username` and `--email` are command options providing values for the `update-profile` command.
+Command options or simply options in `OneImlx.Terminal` are specified directly in the command string as flags or key-value pairs, influencing the behavior of a specific command. They are defined within the command descriptor, parsed, and validated at runtime, allowing users to tailor the command's behavior to their specific needs. An example is `update-profile --username=johndoe --email=johndoe@example.com`, where `--username` and `--email` are command options providing values for the `update-profile` command.
 
 ### [Configuration Options](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
 Configuration options, conversely, configure the overall application behavior and are a part of the [Options Design Pattern](https://docs.microsoft.com/en-us/dotnet/core/extensions/options) in .NET. They are generally set in configuration files like `appsettings.json` or through environment variables, and are loaded at startup, offering a structured way to manage settings across multiple commands or the entire application.

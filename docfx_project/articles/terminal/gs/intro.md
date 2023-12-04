@@ -1,12 +1,12 @@
 # Getting Started
-This document provides guidelines to get you started with the `pi-cli` framework.
+This document provides guidelines to get you started with the `OneImlx.Terminal` framework.
 
 ## For Educational or Evaluation Purposes
 
-Educational institutions and community developers can use the `pi-cli` framework to build and deploy terminal applications for free, provided they are not used for commercial or production purposes. The [demo license](demo.md) supports this use case:
+Educational institutions and community developers can use the `OneImlx.Terminal` framework to build and deploy terminal applications for free, provided they are not used for commercial or production purposes. The [demo license](demo.md) supports this use case:
 
 - It provides full access to all features without charge.
-- You can start using `pi-cli` immediately, no account registration needed.
+- You can start using `OneImlx.Terminal` immediately, no account registration needed.
 - Explore ready-to-use samples on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
 
 > NOTE:
@@ -15,10 +15,10 @@ Educational institutions and community developers can use the `pi-cli` framework
 
 While this setup is ideal for education, community work, and initial evaluations, it's crucial to note that the demo license is not meant for any commercial or production deployment. However, educational institutions are allowed to deploy applications for internal production use, as long as they are not for commercial purposes.
 
-If you create a custom template or a sample application using the `pi-cli` framework, we encourage you to contribute and share it back with the community. Your contributions help in building a rich ecosystem around the `pi-cli` framework, benefiting everyone involved.
+If you create a custom template or a sample application using the `OneImlx.Terminal` framework, we encourage you to contribute and share it back with the community. Your contributions help in building a rich ecosystem around the `OneImlx.Terminal` framework, benefiting everyone involved.
 
 ## For Commercial or Production Use
-For production use, `pi-cli` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.  Refer to our comprehensive [licensing documentation](../licensing/intro.md).
+For production use, `OneImlx.Terminal` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.  Refer to our comprehensive [licensing documentation](../licensing/intro.md).
 
 ### Acquire a Commercial License
 1. **Purchase a Subscription through the Microsoft Commercial Marketplace**:    
@@ -46,4 +46,4 @@ To help you get started, we provide a variety of [samples](samples.md), includin
 - [Ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal)
 - [In-depth tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal)
 
-These resources are designed to give you hands-on experience and guide you through the process of creating terminal applications with `pi-cli`.
+These resources are designed to give you hands-on experience and guide you through the process of creating terminal applications with `OneImlx.Terminal`.

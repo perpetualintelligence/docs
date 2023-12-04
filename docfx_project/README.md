@@ -2,7 +2,7 @@
 This [DocFX](https://dotnet.github.io/docfx/) project powers the creation of the [documentation website](https://docs.perpetualintelligence.com) for our managed services, cross-platform frameworks, and developer tools.
 
 # Audience
-This documentation is intended for developers.
+This `README.md` documentation is intended for developers.
 
 # Setting Up Locally
 To set up DocFX on your local development machine, follow these steps. Please note that we only use stable releases of third-party tools, not pre-release or preview versions.

@@ -1,8 +1,8 @@
 # License Keys
 
-The license keys authorize your use of the `pi-cli` framework against a valid license. The keys are signed JWT assertions with header, payload, and signature. 
+The license keys authorize your use of the `OneImlx.Terminal` framework against a valid license. The keys are signed JWT assertions with header, payload, and signature. 
 
-The license keys are associated with your tenant account and an active subscription for the `pi-cli` framework.
+The license keys are associated with your tenant account and an active subscription for the `OneImlx.Terminal` framework.
 
 For each subscription, our system generates two keys. The two keys allow you to replace one while still using the other.
 - Primary License Key
@@ -15,7 +15,7 @@ The license keys are public signed keys with a `public-private` key pair. They *
 For more information, see [JWT](https://jwt.io/introduction).
 
 ## License Audience Claims
-The mandatory license audience claims to identify the valid license holder for the `pi-cli` framework.
+The mandatory license audience claims to identify the valid license holder for the `OneImlx.Terminal` framework.
 - `aud` claim identifies the recipients of the license keys. It is usually the person's name, organization or business name, or an educational institute name.
 - `subject` claim identifies your subscription identifier
 - `tid` claim identifies your consumer tenant identifier
@@ -24,7 +24,7 @@ The mandatory license audience claims to identify the valid license holder for t
 > **Note**: Do not specify any sensitive information such as a secret, api keys, etc., in your license audience claims.
 
 ## Generate
-You will need an active `pi-cli` subscription to generate the license keys. If you do not have an active subscription, please visit [buying](../../buying/intro.md).
+You will need an active `OneImlx.Terminal` subscription to generate the license keys. If you do not have an active subscription, please visit [buying](../../buying/intro.md).
 
 1. Go to our [Consumer Portal](https://consumer.perpetualintelligence.com/)
 2. `Login` to your account

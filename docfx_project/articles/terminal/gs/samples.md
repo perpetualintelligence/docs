@@ -9,14 +9,14 @@ Quickly bootstrap your application development with our ready-to-use templates.
 | [TerminalTemplate.Net48](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal/TerminalTemplate.Net48) | [.NET 4.8](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework) | Not Defined |
 
 ## Examples
-Explore the `pi-cli` framework through our examples, showcasing popular CLI patterns, available on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal). Clone the Visual Studio project, insert your license key in the configuration, and start experimenting.
+Explore the `OneImlx.Terminal` framework through our examples, showcasing popular CLI patterns, available on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal). Clone the Visual Studio project, insert your license key in the configuration, and start experimenting.
 
 ### Technology
 | Brand | Example | Description |
 |-------|---------|-------------|
 | ![GitHub](../../../images/brands/github_64.png) | [GitHub - gh](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/GithubStyleCli) | Build a CLI similar to [GitHub CLI](https://cli.github.com/). |
 | ![.NET](../../../images/brands/dotnet_64.png) | [.NET - dotnet](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/DotnetStyleCli) | Build a CLI similar to [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/). |
-| ![Perpetual Intelligence](../../../images/brands/pi_64.png) | [Unicode - pi-cli](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/UnicodeCli) | Example [Unicode](https://home.unicode.org/) terminals supporting the `Hindi` language. |
+| ![Perpetual Intelligence](../../../images/brands/pi_64.png) | [Unicode - OneImlx.Terminal](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal/UnicodeCli) | Example [Unicode](https://home.unicode.org/) terminals supporting the `Hindi` language. |
 
 ### Payment Platforms
 | Brand | Example | Description |

@@ -1,21 +1,21 @@
 # Services (Dependency Injection)
-`pi-cli` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](configuration-options.md) and [logging](logging.md). A dependency is an object that another object depends on.
+`OneImlx.Terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](configuration-options.md) and [logging](logging.md). A dependency is an object that another object depends on.
 
 ## Extension Methods
-The following classes provide extension methods to register the host application's `pi-cli` DI services.
+The following classes provide extension methods to register the host application's `OneImlx.Terminal` DI services.
 
-- [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `pi-cli` services within the host application's dependency injection container.
+- [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `OneImlx.Terminal` services within the host application's dependency injection container.
 - [IHostExtensions](xref:OneImlx.Terminal.Extensions.IHostExtensions): Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.
 - [ITerminalBuilderExtensions](xref:OneImlx.Terminal.Extensions.ITerminalBuilderExtensions): Enhances the terminal builder with additional configuration and customization options.
 - [ICommandBuilderExtensions](xref:OneImlx.Terminal.Extensions.ICommandBuilderExtensions): Provides extension methods to aid in the configuration and creation of commands in the terminal application.
 - [IOptionBuilderExtensions](xref:OneImlx.Terminal.Extensions.IOptionBuilderExtensions): Offers methods for defining and configuring command options, ensuring their proper integration and validation.
-- [TerminalOptions](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `pi-cli` terminal application, allowing for customization of its behavior.
+- [TerminalOptions](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `OneImlx.Terminal` terminal application, allowing for customization of its behavior.
 
 ## [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions)
-This section provides guidance on integrating the `pi-cli` terminal framework into your .NET application using the available extension methods.
+This section provides guidance on integrating the `OneImlx.Terminal` terminal framework into your .NET application using the available extension methods.
 
 ### AddTerminal
-`AddTerminal` integrates `pi-cli` into your application, configuring necessary services and setting up command store and text handling functionalities.
+`AddTerminal` integrates `OneImlx.Terminal` into your application, configuring necessary services and setting up command store and text handling functionalities.
 
 ```csharp
 services.AddTerminal<ICommandStore, ITextHandler>();
@@ -41,7 +41,7 @@ services.AddTerminal<ICommandStore, ITextHandler>(Configuration.GetSection("Term
 ```
 
 ### Default Services
-`pi-cli` offers methods to add default services commonly required for terminal applications.
+`OneImlx.Terminal` offers methods to add default services commonly required for terminal applications.
 
 #### AddTerminalDefault
 Adds terminal services along with default implementations for command handling, argument checking, option checking, and help providing.

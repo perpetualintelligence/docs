@@ -1,5 +1,5 @@
 # Introduction
-This directory contains branding and marketing documentation in integrating the `pi-cli` framework with marketplace platforms like Microsoft Azure Marketplace.
+This section contains branding and marketing documentation in integrating the `OneImlx.Terminal` framework with marketplace platforms like Microsoft Azure Marketplace.
 
 ![in-progress](https://img.shields.io/badge/audience-internal-yellow)
 

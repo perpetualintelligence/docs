@@ -1,70 +1,78 @@
 # Terminal Framework
-
-`OneImlx.Terminal` is the cross-platform adaptable framework designed for crafting modern CLI and terminal applications. We cut through the terminal infrastructure complexity, letting you concentrate on building enterprise grade terminal applications with Unicode support, and extensive command hierarchies.
+`OneImlx.Terminal` is a cross-platform, adaptable framework designed for developing modern and secured terminal applications. It simplifies terminal infrastructure complexity, enabling developers to focus on building enterprise-grade terminal applications with Unicode support and extensive command hierarchies.
 
 - Utilize microservices architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.
 - Access built-in features or develop your own solutions for terminal UX, input parsing, error handling, command validation, data storage, and type verification.
-- Opt for high-performance in-memory command storage or integrate with remote storage solutions.
-- Compatible with Windows, Linux, macOS, Docker, Kubernetes, and more.
-- Create deployment-agnostic CLI terminals, test locally, and deploy on-premise, cloud (public, private, or government), or in hybrid environments.
-- Develop enterprise-level CLI and terminal applications with secure, zero-trust architecture, complying with OAuth and OpenID Connect (OIDC) standards.
-- Engage with our open-source community to resolve issues and contribute to feature enhancements and documentation.
-- Quickly onboard, evaluate, and test with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and ready samples on GitHub, no signup required.
+- Choose high-performance in-memory command storage or integrate with remote storage solutions.
+- Ensure compatibility with Windows, Linux, macOS, Docker, Kubernetes, and more.
+- Create deployment-agnostic CLI terminals, testing locally, and deploying on-premise, in the cloud, or in hybrid environments.
+- Develop secure, enterprise-level CLI and terminal applications, adhering to OAuth and OpenID Connect (OIDC) standards.
+- Engage with our open-source community for issue resolution, feature enhancements, and documentation contributions.
+- Quickly onboard with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and GitHub samples, no signup required.
 
-> ***Transform any .NET ecosystem feature into a modern Unicode terminal app with ease.***
+> ***Easily transform any .NET ecosystem feature into a modern Unicode terminal app.***
 
 ## Open Source
-The terminal framework is fully open-source, with the entire source code available on [GitHub](https://github.com/perpetualintelligence/terminal). This encourages community collaboration and feedback.
+
+The terminal framework is fully open-source, with all source code available on [GitHub](https://github.com/perpetualintelligence/terminal), encouraging community collaboration and feedback.
 
 ![repo](../../images/terminal/framework/repo.png)
 
-Our DevOps builds the framework with Github [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for the following OS platform. However, it supports all the additional platforms that .NET supports.
+Our DevOps builds the framework with GitHub [hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) for various OS platforms, supporting all platforms compatible with .NET.
 
 ![macOS](https://img.shields.io/badge/macOS-grey?style=flat-square&logo=macos)
 ![ubuntu](https://img.shields.io/badge/ubuntu-grey?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-grey?style=flat-square&logo=windows)
 
-The licensed packages can be accessed via Nuget:
+Access licensed packages via Nuget:
 
 ![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal?label=OneImlx.Terminal)
 ![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal.Authentication?label=OneImlx.Terminal.Authentication)
 
-## User Experience (UX)
-`OneImlx.Terminal` decouples the terminal's backend logic from the frontend, providing a scalable and flexible framework that caters to developers looking to integrate command-line functionalities into various applications.
+## Integration
 
-### Native Integration with .NET Ecosystem
-`OneImlx.Terminal` seamlessly integrates with the .NET stack, offering a native experience for developing terminal applications.
+`OneImlx.Terminal` provides a scalable, flexible framework, decoupling the terminal's backend logic from the frontend, ideal for developers integrating command-line functionalities into various applications.
 
-- **Console Applications**: Embed `OneImlx.Terminal` directly to enhance command handling in console applications.
-- **Servers and Backend Services**: Utilize `OneImlx.Terminal` in backend services, ensuring robust terminal operations and efficient communication via native TCP/IP support.
-- **ASP.NET Core and Blazor Server**: Directly integrate with ASP.NET Core and Blazor for responsive user interfaces, with backend terminal operations handled by `OneImlx.Terminal`.
-- **Blazor Webassembly (WASM)**: Directly integrate with Blazor Webassembly and MSAL for responsive user interfaces, with a secured terminal operations handled by `OneImlx.Terminal`.
+### Enhanced Integration with .NET Ecosystem
 
-This native integration ensures a smooth development workflow and full debugging capabilities within the .NET environment.
+`OneImlx.Terminal` ensures seamless integration with the .NET stack, streamlining the development of different terminal application types:
 
-### Integration and Protocol Support
+#### Console Applications
+Enhance console applications with advanced command handling by incorporating `OneImlx.Terminal`.
 
-With `OneImlx.Terminal`, you have the freedom to create a terminal frontend in various programming languages and frameworks, communicating seamlessly with the backend terminal server.
+#### Custom UX Implementations
+Utilize ASP.NET Core, Blazor, and Blazor WebAssembly (WASM) with `OneImlx.Terminal` to craft custom, responsive terminal user interfaces. The framework, acting as a comprehensive terminal parsing and execution engine, allows developers to create dynamic UX for server-side and client-side terminal applications. It handles complex command executions efficiently and adapts to various .NET frameworks, supporting flexible command execution syntax for sophisticated, secure terminal applications.
 
-- **Web Applications**: Use JavaScript frameworks like React or Vue.js for web integration.
-- **Desktop Applications**: Build cross-platform desktop applications with Electron or other technologies.
-- **Server-Side Applications**: Choose server-side languages like Python, Java, or C# for backend integration.
+#### Backend Services Integration
+Incorporate `OneImlx.Terminal` in your backend API projects for uniform command syntax across all APIs, relaying commands to the backend terminal server for execution. Ideal for developing server-side terminal applications, it facilitates command processing and communication with backend microservices. Operating in secure server-side environments, `OneImlx.Terminal` supports modern terminal applications with secure access. Developers can enhance security with a Zero Trust model for each command execution, thereby streamlining command processing and bolstering application security.
 
-The `OneImlx.Terminal` backend currently supports TCP/IP, with plans to expand to gRPC, Named Pipes, and HTTP for diverse communication needs.
+#### On-Premise Server Applications
+`OneImlx.Terminal` excels in on-premise server applications, aligning with internal policies and infrastructure. It offers tools and flexibility for managing and deploying terminal applications in secure, controlled environments.
 
-### Flexible Deployment Options
+### Other Frontend Integration
+Develop various frontend terminal applications using technologies like React, Vue.js, Electron, or MAUI, communicating with a .NET-based terminal server for command processing and execution.
 
-Deploy the backend terminal server according to your needs:
+#### Web and Cloud Native Applications
+Create web and cloud native terminal applications using JavaScript frameworks, interacting with a .NET-based terminal server for command execution.
 
-- **On-Premise**: For full control and adherence to internal policies.
-- **Cloud**: To leverage the scalability of cloud infrastructure.
-- **Containerized Environments**: For simplified deployment and scaling.
+#### Server Applications in Other Languages
+Build server-side applications in Python, Java, or other languages, integrating with the .NET-based terminal server for robust command execution.
 
-By separating terminal functionalities from the frontend, `OneImlx.Terminal` provides flexibility, ensuring you can choose the best tools for your use case while maintaining a robust backend.
+Note: `OneImlx.Terminal` supports TCP/IP for client-server communication within terminal apps, with future plans to add gRPC and HTTP, enhancing communication protocol versatility.
+
+#### Flexible Deployment Options
+
+Deploy the backend terminal server as needed:
+
+- **On-Premise**: Maintain full control and comply with internal policies.
+- **Cloud**: Leverage cloud infrastructure scalability.
+- **Containerized Environments**: Simplify deployment and scaling.
+
+`OneImlx.Terminal` ensures flexibility in choosing tools while maintaining a robust backend.
 
 ## Feedback
 Submit [issues or feature requests](https://github.com/perpetualintelligence/terminal/issues) directly on GitHub.
 
 ## References
 - [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)
-- [.NET application architecture](https://docs.microsoft.com/en-us/dotnet/architecture/)
+- [.NET Application Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/).

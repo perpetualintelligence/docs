@@ -1,6 +1,6 @@
 # Microsoft Partner
 
-![repo](../images/brands/dotnet-original.png)
+![dotnet](../images/brands/dotnet-original.png)
 
 ## OneImlx.Terminal
 The most flexible cross-platform framework for building modern and secured terminal apps.
@@ -16,4 +16,4 @@ Your input is invaluable to us and the wider development community. For question
 ---
 Copyright &copy; 2023 Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
 
-[Terms](https://terms.perpetualintelligence.com/articles/intro.html) | [Website](https://www.perpetualintelligence.com/) | [Consumer Portal](https://www.consumer.perpetualintelligence.com/)- | [GitHub](https://github.com/perpetualintelligence/terminal)
+[Terms](https://terms.perpetualintelligence.com/articles/intro.html) | [Website](https://www.perpetualintelligence.com/) | [Consumer Portal](https://www.consumer.perpetualintelligence.com/) | [GitHub](https://github.com/perpetualintelligence/terminal)

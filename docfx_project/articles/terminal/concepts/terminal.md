@@ -32,7 +32,7 @@ For applications requiring complex command structures, the parser supports hiera
 > **Note**: While it is designed to handle a wide range of parsing scenarios, developers have the option to implement custom parsers for unique applicaiton requirements.
 
 ## [Command](xref:OneImlx.Terminal.Commands.Command)
-A command in the context of the `pi-cli` framework represents a specific requested action or a set of actions to be performed by the system. It is immutable, ensuring consistency and stability once defined. Commands can range from simple actions like invoking a system method or an operating system command, to more complex operations involving calls to protected APIs across internal or external networks. Essentially, a command has the potential to perform any operation within the context of your application or service.
+A command in the context of the `OneImlx.Terminal` framework represents a specific requested action or a set of actions to be performed by the system. It is immutable, ensuring consistency and stability once defined. Commands can range from simple actions like invoking a system method or an operating system command, to more complex operations involving calls to protected APIs across internal or external networks. Essentially, a command has the potential to perform any operation within the context of your application or service.
 
 The [`CommandDescriptor`](xref:OneImlx.Terminal.Commands.CommandDescriptor) define the command's identity and its supported options available for end-users or applications. The `CommandDescriptor` also allows for the description of the command's behavior, indicating whether it is a root command, grouped command, or a subcommand.
 

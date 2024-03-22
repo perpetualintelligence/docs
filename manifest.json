@@ -1,0 +1,3184 @@
+{
+  "sitemap": {
+    "baseUrl": "https://docs.perpetualintelligence.com/",
+    "changefreq": "weekly",
+    "priority": 0.1
+  },
+  "source_base_path": "D:/a/docs/docs/main/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "about.md",
+      "output": {
+        ".html": {
+          "relative_path": "about.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ActionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ActionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ArchitectureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ArchitectureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ConceptAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ConceptAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.FutureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.FutureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.InternalInfrastructureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.InternalInfrastructureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.MustDoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.MustDoAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.PerformanceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.PerformanceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.RedundancyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.RedundancyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.RefactorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.RefactorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.RenameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.RenameAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.TodoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.TodoAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.EmailListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.EmailListAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.SelectItemAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.SelectItemAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.StringLengthListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.StringLengthListAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.UrlListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.UrlListAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteApiAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteApiAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteDocumentationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteDocumentationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteIntegrationTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteIntegrationTestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteUnitTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteUnitTestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Authorization.AuthEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Authorization.AuthEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Authorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Authorization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Extensions.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.Error.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.ErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.ErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.MultiErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.MultiErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.TryResultOrError-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.TryResultOrError-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Json.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseClaims.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseClaims.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseUsage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Security.Certificates.X509Store.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Security.Certificates.X509Store.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Security.Certificates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Security.Certificates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Extensions.ITerminalBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Extensions.ITerminalBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Argument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Arguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Arguments.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IArgumentChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IArgumentChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ICommandChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ICommandChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IOptionChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IOptionChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandRoute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandRoute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandRunnerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandRunnerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.IDeclarativeTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.IDeclarativeTarget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.AsciiTextHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.AsciiTextHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandlerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandlerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandlerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ExceptionHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ExceptionHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ExceptionHandlerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.IExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.IExceptionHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ITextHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ITextHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.UnicodeTextHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.UnicodeTextHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.IKeyAsId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.IKeyAsId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.IValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.IValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.KeyAsIdCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.KeyAsIdCollection-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapper-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapperContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapperContext-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapperResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Mappers.DataTypeMapperResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Mappers.IDataTypeMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Mappers.IDataTypeMapper-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Mappers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Option.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OwnerIdCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OwnerIdCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParserContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParserContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParserResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParserResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandRouteParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandRouteParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandRouteParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandRouteParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedSplit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedSplit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpConsoleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpConsoleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpLoggerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpLoggerProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpProviderContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Providers.HelpProviderContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Providers.IHelpProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Providers.IHelpProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Providers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Root.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Root.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Routers.CommandRouterResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Routers.ICommandRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Routers.ICommandRouter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Routers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Routers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.ClearScreenRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.ClearScreenRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.ExitRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.ExitRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.SubCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.SubCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.TagIdCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.TagIdCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.CheckerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.CheckerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.DriverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.DriverOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.HelpOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.HelpOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.LicensingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.ParserOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.ParserOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.RouterOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.RouterOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.TerminalOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Events.ITerminalEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Events.ITerminalEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IArgumentBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IArgumentBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IHostExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IHostExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.TerminalOptionsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.TerminalOptionsExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ArgumentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.CommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.CommandBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.IArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.IArgumentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ICommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ICommandBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.IOptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.IOptionBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.OptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.OptionBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.TerminalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.TerminalBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.TerminalHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.TerminalHostedService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSource-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSourceAssemblyLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSourceAssemblyLoader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSourceChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.ITerminalCommandSourceChecker-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.PublishedAssemblyLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.PublishedAssemblyLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.PublishedCommandSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.PublishedCommandSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.PublishedCommandSourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.PublishedCommandSourceContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Integration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Integration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseDebugger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.License.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.License.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseChecker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseDebugger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicensePrice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicensePrice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRouter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRouter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.Terminal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.Terminal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalSystemConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalSystemConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouterContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.IImmutableCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.IImmutableCommandStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.IMutableCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.IMutableCommandStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.InMemoryImmutableCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.InMemoryImmutableCommandStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.InMemoryMutableCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.InMemoryMutableCommandStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.TerminalErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.TerminalErrors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.TerminalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.TerminalException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.TerminalHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.TerminalHandlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.TerminalIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.TerminalIdentifiers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.TypeFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.TypeFluentAssertions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/announcements.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/announcements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/buyonmsappsource.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/buyonmsappsource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/buyonmsazure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/buyonmsazure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/buying/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/buying/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/marketplace/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/marketplace/microsoftmarketpacesupportingdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/microsoftmarketpacesupportingdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/marketplace/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/marketplace/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/samples/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/samples/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/samples/oneimlxterminal/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/samples/oneimlxterminal/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/samples/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/samples/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/samples/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/checkers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/checkers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/handlers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/handlers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/options.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/terminal.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/terminal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/concepts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/concepts/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configurationoptions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configurationoptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/deployment.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/deployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/samples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/templates.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/gs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/gs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/hostingdeployment.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/hostingdeployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/featurecomparison.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/featurecomparison.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/licensekeys.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/licensekeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/licensing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/licensing/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/limits.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/limits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/repo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/repo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/services.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/dotnet-original.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/dotnet-original.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/dotnet_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/dotnet_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/github_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/github_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/pi_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/pi_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/stripe_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/stripe_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/activate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/activate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/download-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/download-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/generate-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/generate-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/listing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/listing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/review.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/review.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/activate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/activate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/download-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/download-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/generate-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/generate-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/listing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/listing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/review.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/review.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/dotnetfoundation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/dotnetfoundation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/microsoft.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/microsoft.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/siemens.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/siemens.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/stripe.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/stripe.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/onedemo/download.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/onedemo/download.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/onedemo/filldetails.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/onedemo/filldetails.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/onedemo/licensing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/onedemo/licensing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/dotnet_cli_root_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/dotnet_cli_root_command.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/framework/repo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/framework/repo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/gh_cli_root_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/gh_cli_root_command.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/check-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/check-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/generate-audience.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/generate-audience.PNG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/generate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/generate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/identifiers-consumers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/identifiers-consumers.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/identifiers-licensing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/identifiers-licensing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/licensekeys.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/licensekeys.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/profile-identifiers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/profile-identifiers.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/reset-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/reset-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/subscriptions.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/subscriptions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/templates/add-hosted-service.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/templates/add-hosted-service.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/templates/dotnet-template.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/templates/dotnet-template.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/templates/runners.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/templates/runners.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/templates/start-router.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/templates/start-router.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/templates/stop-router.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/templates/stop-router.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

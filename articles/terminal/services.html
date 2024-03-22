@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Services (Dependency Injection) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Services (Dependency Injection) ">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/services.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="services-dependency-injection">Services (Dependency Injection)</h1>
+
+<p><code>OneImlx.Terminal</code> supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with <a href="configurationoptions.html">configuration options</a> and <a href="logging.html">logging</a>. A dependency is an object that another object depends on.</p>
+<h2 id="extension-methods">Extension Methods</h2>
+<p>The following classes provide extension methods to register the host application's <code>OneImlx.Terminal</code> DI services.</p>
+<ul>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.html">IServiceCollectionExtensions</a>: Offers extension methods to register and configure <code>OneImlx.Terminal</code> services within the host application's dependency injection container.</li>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Extensions.IHostExtensions.html">IHostExtensions</a>: Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.</li>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html">ITerminalBuilderExtensions</a>: Enhances the terminal builder with additional configuration and customization options.</li>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.html">ICommandBuilderExtensions</a>: Provides extension methods to aid in the configuration and creation of commands in the terminal application.</li>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.html">IOptionBuilderExtensions</a>: Offers methods for defining and configuring command options, ensuring their proper integration and validation.</li>
+<li><a class="xref" href="../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html">TerminalOptions</a>: Represents the configurable options for the <code>OneImlx.Terminal</code> terminal application, allowing for customization of its behavior.</li>
+</ul>
+<h2 id="iservicecollectionextensions"><a class="xref" href="../../api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.html">IServiceCollectionExtensions</a></h2>
+<p>This section provides guidance on integrating the <code>OneImlx.Terminal</code> terminal framework into your .NET application using the available extension methods.</p>
+<h3 id="addterminal">AddTerminal</h3>
+<p><code>AddTerminal</code> integrates <code>OneImlx.Terminal</code> into your application, configuring necessary services and setting up command store and text handling functionalities.</p>
+<pre><code class="lang-csharp">services.AddTerminal&lt;ICommandStore, ITextHandler&gt;();
+</code></pre>
+<ul>
+<li>ICommandStore: A store to lookup a <a class="xref" href="../../api/OneImlx.Terminal.Commands.CommandDescriptor.html">CommandDescriptor</a>.</li>
+<li>ITextHandler: An abstraction to handle all textual operations.</li>
+</ul>
+<h4 id="setup-with-configuration-options">Setup with Configuration Options</h4>
+<p>This variant allows for direct configuration of <code>TerminalOptions</code> within your setup.</p>
+<pre><code class="lang-csharp">services.AddTerminal&lt;ICommandStore, ITextHandler&gt;(options =&gt;
+{
+    // Configure options here
+});
+</code></pre>
+<h4 id="setup-with-iconfiguration-binding">Setup with IConfiguration Binding</h4>
+<p>This variant enables binding <code>TerminalOptions</code> to a configuration section, allowing for configuration via app settings or other configuration providers.</p>
+<pre><code class="lang-csharp">services.AddTerminal&lt;ICommandStore, ITextHandler&gt;(Configuration.GetSection(&quot;Terminal&quot;));
+</code></pre>
+<h3 id="default-services">Default Services</h3>
+<p><code>OneImlx.Terminal</code> offers methods to add default services commonly required for terminal applications.</p>
+<h4 id="addterminaldefault">AddTerminalDefault</h4>
+<p>Adds terminal services along with default implementations for command handling, argument checking, option checking, and help providing.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddTerminalDefault&lt;TStore, TText, THelp&gt;(this IServiceCollection services, Action&lt;TerminalOptions&gt; setupAction)
+            where TStore : class, ICommandStore
+            where TText : class, ITextHandler
+            where THelp : class, IHelpProvider
+{
+    if (services == null)
+    {
+        throw new ArgumentNullException(nameof(services));
+    }
+
+    if (setupAction == null)
+    {
+        throw new ArgumentNullException(nameof(setupAction));
+    }
+
+    return services.AddTerminal&lt;TStore, TText&gt;(setupAction)
+                   .AddCommandRouter&lt;CommandRouter, CommandHandler&gt;()
+                   .AddCommandExtractor&lt;CommandExtractor, CommandRouteParser&gt;()
+                   .AddOptionChecker&lt;DataTypeMapper&lt;Option&gt;, OptionChecker&gt;()
+                   .AddArgumentChecker&lt;DataTypeMapper&lt;Argument&gt;, ArgumentChecker&gt;()
+                   .AddExceptionHandler&lt;ExceptionHandler&gt;()
+                   .AddHelpProvider&lt;THelp&gt;();
+}
+</code></pre>
+<h4 id="addterminalconsole">AddTerminalConsole</h4>
+<p>Designed specifically for console applications, this method configures terminal services and additional console-specific services.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddTerminalConsole&lt;TStore, TText, THelp, TConsole&gt;(this IServiceCollection services, Action&lt;TerminalOptions&gt; setupAction)
+    where TStore : class, ICommandStore
+    where TText : class, ITextHandler
+    where THelp : class, IHelpProvider
+    where TConsole : class, ITerminalConsole
+{
+    if (services == null)
+    {
+        throw new ArgumentNullException(nameof(services));
+    }
+
+    if (setupAction == null)
+    {
+        throw new ArgumentNullException(nameof(setupAction));
+    }
+
+    return services.AddTerminalDefault&lt;TStore, TText, THelp&gt;(setupAction)
+                   .AddRouting&lt;TerminalConsoleRouting, TerminalConsoleRoutingContext&gt;()
+                   .AddConsole&lt;TConsole&gt;();
+}
+</code></pre>
+<h3 id="further-configuration">Further Configuration</h3>
+<p>The <code>AddTerminal</code> methods return an instance of ITerminalBuilder, providing additional extension methods for more advanced configuration and service registration.</p>
+<pre><code>public static ICliBuilder AddCliOptions(this ICliBuilder builder)
+</code></pre>
+<h2 id="ihostextensions"><a class="xref" href="../../api/OneImlx.Terminal.Extensions.IHostExtensions.html">IHostExtensions</a></h2>
+<p><code>IHostExtensions</code> provides methods to run the terminal framework within the host application's runtime.</p>
+<h3 id="runterminalroutingasync">RunTerminalRoutingAsync</h3>
+<p><code>RunTerminalRoutingAsync</code> is an extension method for <code>IHost</code>, designed to asynchronously execute terminal routing.</p>
+<pre><code class="lang-csharp">await host.RunTerminalRoutingAsync&lt;TRouting, TContext&gt;(context);
+</code></pre>
+<blockquote>
+<p><strong>Note</strong>: <code>RunTerminalRoutingAsync</code> blocks the calling thread until a cancellation request.</p>
+</blockquote>
+<h2 id="iterminalbuilderextensions"><a class="xref" href="../../api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html">ITerminalBuilderExtensions</a></h2>
+<p><code>ITerminalBuilderExtensions</code> provides methods to customize the terminal framework execution services for commands.</p>
+<h3 id="addoptionchecker">AddOptionChecker</h3>
+<p>This extension method is used to add option checking functionality to the terminal builder. It registers a custom option mapper and a custom option checker to the services collection.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddOptionChecker&lt;TMapper, TChecker&gt;(this ITerminalBuilder builder) 
+    where TMapper : class, IDataTypeMapper&lt;Option&gt; 
+    where TChecker : class, IOptionChecker
+{
+    builder.Services.AddTransient&lt;IDataTypeMapper&lt;Option&gt;, TMapper&gt;();
+    builder.Services.AddTransient&lt;IOptionChecker, TChecker&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addargumentchecker">AddArgumentChecker</h3>
+<p>This method enhances the terminal builder by introducing argument checking capabilities. It does so by adding a specific argument mapper and argument checker to the service collection.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddArgumentChecker&lt;TMapper, TChecker&gt;(this ITerminalBuilder builder) 
+    where TMapper : class, IDataTypeMapper&lt;Argument&gt; 
+    where TChecker : class, IArgumentChecker
+{
+    builder.Services.AddTransient&lt;IDataTypeMapper&lt;Argument&gt;, TMapper&gt;();
+    builder.Services.AddTransient&lt;IArgumentChecker, TChecker&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addeventhandler">AddEventHandler</h3>
+<p>Adds an asynchronous event handler to the terminal builder's services.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddEventHandler&lt;TEventHandler&gt;(this ITerminalBuilder builder) 
+    where TEventHandler : class, IAsyncEventHandler
+{
+    builder.Services.AddSingleton&lt;IAsyncEventHandler, TEventHandler&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addconfigurationoptions">AddConfigurationOptions</h3>
+<p>This extension method configures the terminal options and adds them to the service collection. It also registers a configuration options checker.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddConfigurationOptions(this ITerminalBuilder builder)
+{
+    builder.Services.AddOptions();
+    builder.Services.AddSingleton(resolver =&gt; resolver.GetRequiredService&lt;IOptions&lt;TerminalOptions&gt;&gt;().Value);
+    builder.Services.AddSingleton&lt;IConfigurationOptionsChecker, ConfigurationOptionsChecker&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addstartcontext">AddStartContext</h3>
+<p>Adds a start context to the terminal builder, allowing for the configuration of the terminal's startup behavior.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddStartContext(this ITerminalBuilder builder, TerminalStartContext terminalStartContext)
+{
+    builder.Services.AddSingleton(terminalStartContext);
+    return builder;
+}
+</code></pre>
+<h3 id="addhelpprovider">AddHelpProvider</h3>
+<p>Registers a custom help provider to the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddHelpProvider&lt;THelpProvider&gt;(this ITerminalBuilder builder) 
+    where THelpProvider : class, IHelpProvider
+{
+    builder.Services.AddSingleton&lt;IHelpProvider, THelpProvider&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="adddeclarativeassembly">AddDeclarativeAssembly</h3>
+<p>Scans an assembly for declarative targets and adds them to the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddDeclarativeAssembly(this ITerminalBuilder builder, Type assemblyType)
+{
+    IEnumerable&lt;Type&gt; declarativeTypes = assemblyType.Assembly.GetTypes()
+        .Where(e =&gt; typeof(IDeclarativeTarget).IsAssignableFrom(e));
+
+    foreach (Type type in declarativeTypes)
+    {
+        AddDeclarativeTarget(builder, type);
+    }
+
+    return builder;
+}
+</code></pre>
+<h3 id="adddeclarativeassembly-1">AddDeclarativeAssembly</h3>
+<p>A generic version of AddDeclarativeAssembly, allowing for type-safe assembly scanning.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddDeclarativeAssembly&lt;TType&gt;(this ITerminalBuilder builder)
+{
+    return AddDeclarativeAssembly(builder, typeof(TType));
+}
+</code></pre>
+<h3 id="addexceptionhandler">AddExceptionHandler</h3>
+<p>Registers a custom exception handler to the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddExceptionHandler&lt;THandler&gt;(this ITerminalBuilder builder) 
+    where THandler : class, IExceptionHandler
+{
+    builder.Services.AddTransient&lt;IExceptionHandler, THandler&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addcommandparser">AddCommandParser</h3>
+<p>Registers command extraction and parsing capabilities to the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddCommandExtractor&lt;TCommand, TParser&gt;(this ITerminalBuilder builder) 
+    where TCommand : class, ICommandExtractor 
+    where TParser : class, ICommandRouteParser
+{
+    builder.Services.AddTransient&lt;ICommandExtractor, TCommand&gt;();
+    builder.Services.AddTransient&lt;ICommandRouteParser, TParser&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addlicensing">AddLicensing</h3>
+<p>Registeres licensing services into the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
+{
+    builder.Services.AddSingleton&lt;ILicenseDebugger, LicenseDebugger&gt;();
+    builder.Services.AddSingleton&lt;ILicenseExtractor, LicenseExtractor&gt;();
+    builder.Services.AddSingleton&lt;ILicenseChecker, LicenseChecker&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addrouter">AddRouter</h3>
+<p>Registeres licensing services into the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
+{
+    builder.Services.AddSingleton&lt;ILicenseDebugger, LicenseDebugger&gt;();
+    builder.Services.AddSingleton&lt;ILicenseExtractor, LicenseExtractor&gt;();
+    builder.Services.AddSingleton&lt;ILicenseChecker, LicenseChecker&gt;();
+    return builder;
+}
+</code></pre>
+<h3 id="addrouter-1">AddRouter</h3>
+<p>Registeres licensing services into the terminal builder.</p>
+<pre><code class="lang-csharp">public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
+{
+    builder.Services.AddSingleton&lt;ILicenseDebugger, LicenseDebugger&gt;();
+    builder.Services.AddSingleton&lt;ILicenseExtractor, LicenseExtractor&gt;();
+    builder.Services.AddSingleton&lt;ILicenseChecker, LicenseChecker&gt;();
+    return builder;
+}
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/services.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; Perpetual Intelligence&reg; L.L.C. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

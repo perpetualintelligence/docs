@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Demo License </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Demo License ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/gs/demo.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="demo-license">Demo License</h1>
+
+<p>Utilize our demo license for quick onboarding, evaluation, and testing of our <a href="samples.html">samples</a>.</p>
+<h2 id="how-do-i-get-a-demo-license">How do I get a demo license?</h2>
+<p>You don't need an account to access or use the demo license.</p>
+<ol>
+<li>Navigate to the <a href="https://www.perpetualintelligence.com/products/onedemo">demo license page</a>.</li>
+<li>Complete the form with the required basic information.</li>
+<li>Verify your identity with Google reCAPTCHA.</li>
+<li>Click <code>Get Demo License</code> to generate your demo license.</li>
+</ol>
+<p><img src="../../../images/onedemo/filldetails.png" alt="onedemo"></p>
+<ol start="5">
+<li>Download your demo license keys, choosing either <code>Download Primary</code> or <code>Download Secondary</code>.</li>
+</ol>
+<p><img src="../../../images/onedemo/download.png" alt="onedemo"></p>
+<h2 id="how-do-i-use-the-demo-license">How do I use the demo license?</h2>
+<p>To incorporate the demo license into your application, you'll need to configure several settings.</p>
+<p>You'll first need to specify the demo identifiers using the <a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html">LicensingOptions</a>. The required demo identifiers are available under the following namespace:</p>
+<pre><code class="lang-csharp">using PerpetualIntelligence.Shared.Licensing;
+</code></pre>
+<h3 id="demo-authorized-application">Demo Authorized Application</h3>
+<p>This is your authorized application identifier or <code>auth_apps</code> claim for demo purposes. Copy it and specify it in your application configuration.</p>
+<p>Example:</p>
+<pre><code class="lang-csharp">    options.Licensing.AuthorizedApplicationId = DemoIdentifiers.TerminalDemoAuthorizedApplicationId;
+</code></pre>
+<h3 id="demo-subject">Demo Subject</h3>
+<p>This is your subscription id or <code>sub</code> claim for demo purposes. Copy it and specify it in your application configuration.</p>
+<p>Example:</p>
+<pre><code class="lang-csharp">    options.Licensing.Subject = DemoIdentifiers.TerminalDemoSubject;
+</code></pre>
+<h3 id="demo-consumer-tenant">Demo Consumer Tenant</h3>
+<p>This is your consumer tenant id or <code>tid</code> claim for demo purposes. Copy it and specify it in your application configuration.</p>
+<p>Example:</p>
+<pre><code class="lang-csharp">    options.Licensing.ConsumerTenantId = DemoIdentifiers.TerminalDemoConsumerTenantId;
+</code></pre>
+<h3 id="demo-license-key">Demo License Key</h3>
+<p>These are your primary or secondary license keys for demo purposes. Download the primary or secondary file and specify its location in your application configuration.</p>
+<blockquote>
+<p><strong>Note:</strong> You need to specify either primary or secondary.</p>
+</blockquote>
+<p>Example:</p>
+<pre><code class="lang-csharp">    // Download the license file in this location or specify your location
+    options.Licensing.LicenseKey = &quot;C:\\lic\\demo_primary.json&quot;; 
+</code></pre>
+<p>Or</p>
+<pre><code class="lang-csharp">    // Download the license file in this location or specify your location
+    options.Licensing.LicenseKey = &quot;C:\\lic\\demo_secondary.json&quot;;
+</code></pre>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../configurationoptions.html">Configuration Options</a></li>
+<li><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html">LicensingOptions</a></li>
+<li><a href="xref:PerpetualIntelligence.Shared.Licensing.DemoIdentifiers">DemoIdentifiers</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/gs/demo.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; Perpetual Intelligence&reg; L.L.C. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

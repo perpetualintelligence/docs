@@ -1,23 +1,22 @@
 # Welcome
-This website contains the conceptual documentation for [Perpetual Intelligence L.L.C.](https://perpetualintelligence.com/)'s managed services, cross-platform frameworks, and developer tools. We build this documentation site using docfx from our [GitHub repository](https://github.com/perpetualintelligence/docs).
+Welcome to the documentation site for [Perpetual Intelligence&reg; L.L.C.](https://perpetualintelligence.com/). Here, we provide extensive guides and information on our managed services, cross-platform frameworks, and developer tools. This documentation is built using docfx, and the source is available in our [GitHub repository](https://github.com/perpetualintelligence/docs).
 
-We track the issues and tasks [here](https://github.com/perpetualintelligence/docs/issues). We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html) topic.
+We manage and track issues [here](https://github.com/perpetualintelligence/docs/issues). To learn about how we handle issues, please see our [issues policy](https://terms.perpetualintelligence.com/articles/issues_policy.html).
 
-We welcome contributions to help us improve and complete the docs.
+> We welcome contributions to improve and expand our documentation.
 
-This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. See the [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html).
+We follow the Contributor Covenant's code of conduct to create a respectful and inclusive community. Read our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more details.
 
-# Products
-### [pi-cli](articles/pi-cli/intro.md): The most flexible cross-platform framework for building modern CLI terminals.
+## Navigate
+- [oneimlx-terminal](articles/terminal/intro.md): The most flexible cross-platform framework for building modern and secured CLI and terminal apps.
+- [oneimlx](https://github.com/perpetualintelligence/oneimlx): :soon: An adaptable cross-platform access management and licensing framework.
 
-# Navigation
-This documentation website has two main sections:
-1. [Articles](articles/intro.md): The conceptual documentation for all our framework, tools, and services
-2. [Classes](api/index.md): The .NET classes for applications on any platform using C#, F#, and Visual Basic
+Our documentation is divided into two main sections:
+- [Articles](articles/intro.md): Conceptual documentation for all our frameworks, tools, and services.
+- [Classes](api/index.md): .NET classes documentation for developing applications on various platforms using C#, F#, and Visual Basic.
 
-# Contact Us
-Submit issues and feature requests on [Github](https://github.com/perpetualintelligence/docs/issues).
+## Feedback
+For issues, suggestions, or feature requests, please visit our [GitHub issues page](https://github.com/perpetualintelligence/docs/issues).
 
-# Terms
-Visit our [terms website](https://terms.perpetualintelligence.com/) for terms of use, licensing terms, privacy and data policies.
-
+## Terms
+Visit our [terms website](https://terms.perpetualintelligence.com/) for information on our terms of use, licensing, and privacy and data policies.

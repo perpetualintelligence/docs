@@ -4,7 +4,7 @@
             "src": [
                 {
                     "files": [
-                        "src/PerpetualIntelligence.Docs.Solution.sln"
+                        "src/Documentation.Solution.sln"
                     ]
                 }
             ],
@@ -14,6 +14,11 @@
         }
     ],
     "build": {
+        "sitemap": {
+            "baseUrl": "https://docs.perpetualintelligence.com",
+            "priority": 0.1,
+            "changefreq": "weekly"
+        },
         "content": [
             {
                 "files": [
@@ -54,11 +59,16 @@
             }
         ],
         "dest": "_site",
-        "globalMetadataFiles": [ "globalMetadata.json" ],
+        "globalMetadata": {
+            "_appFooter": "Copyright &copy; Perpetual Intelligence&reg; L.L.C. All Rights Reserved",
+            "_appLogoPath": "images/logo.ico",
+            "_appFaviconPath": "images/favicon.ico",
+            "_enableSearch": true
+        },
         "fileMetadataFiles": [],
         "template": [
             "default",
-            "templates/material"
+            "modern"
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
@@ -129,10 +139,6 @@
         "wkhtmltopdf": {
             "additionalArguments": "--enable-local-file-access"
         },
-        "dest": "_site_pdf",
-        "template": [
-            "pdf.default",
-            "pluginPackages/rest.tagpage.2.59.2/content"
-        ]
+        "dest": "_site_pdf"
     }
 }

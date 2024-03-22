@@ -3,25 +3,20 @@
 #    For license, terms, and data policies, go to:
 #    https://terms.perpetualintelligence.com
 
-# Build the projects from multiple repos, generates the documentation and publishes static content.
 name: build-test-publish
 
-# Controls when the workflow will run
 on:
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   # chocolatey is only available on windows
   build:
     runs-on: windows-latest
     timeout-minutes: 20
-    #environment: github-release
+
     env:
       PI_CI_REFERENCE: cross
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     
       # docs Repo
@@ -38,11 +33,11 @@ jobs:
           path: shared
           
        # protocols repo
-      - name: Checkout Cli
+      - name: Checkout Terminal
         uses: actions/checkout@v3
         with:
-          repository: perpetualintelligence/cli
-          path: cli
+          repository: perpetualintelligence/terminal
+          path: terminal
           token: ${{ secrets.PI_GITHUB_PAT }}
      
       # Print debug
@@ -59,32 +54,27 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.202'
+          dotnet-version: '8.0.203'
       
       # Restore dependencies
       # Restore using specified nuget.config
       - name: Restore
-        run: dotnet restore main/docfx_project/src/PerpetualIntelligence.Docs.Solution.sln --configfile main/nuget.config
+        run: dotnet restore main/docfx_project/src/Documentation.Solution.sln --configfile main/nuget.config
 
       # Install chocolatey for PDF generation
       - name: Install wkhtmltopdf
-        run: |
-          choco install wkhtmltopdf --no-progress
-        
-      # Docfx build
-      # 1. Install docfx via Nuget
-      # 2. Build
-      - name: Docfx build
-        run: |
-          nuget install docfx.console -Version 2.59.4
-          docfx.console.2.59.4/tools/docfx.exe main/docfx_project/docfx.json
+        run: choco install wkhtmltopdf --no-progress
         continue-on-error: false
 
-      ## Install DocFx and build
-      #- name: Install DocFx
-      #  run: |
-      #    dotnet install -g docfx
-      #    docfx main/docfx_project/docfx.json
+      # Install docfx
+      - name: Setup docfc
+        run: dotnet tool update -g docfx
+        continue-on-error: false
+  
+      # Build docfx_project
+      - name: Build
+        run: docfx main/docfx_project/docfx.json
+        continue-on-error: false
 
       # Push the docs/_site to the GitHub /docs dir 
       - name: Push

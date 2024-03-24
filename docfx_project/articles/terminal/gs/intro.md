@@ -6,14 +6,16 @@ This document provides guidelines to get you started with the `OneImlx.Terminal`
 Educational institutions and community developers can use the `OneImlx.Terminal` framework to build and deploy terminal applications for free, provided they are not used for commercial or production purposes. The [demo license](demo.md) supports this use case:
 
 - It provides full access to all features without charge.
-- You can start using `OneImlx.Terminal` immediately, no account registration needed.
-- Explore ready-to-use samples on [GitHub](https://github.com/perpetualintelligence/docs/tree/main/samples).
+- You can start using `OneImlx.Terminal` immediately, no payment needed.
+- Explore the sample test applications on [GitHub](https://github.com/perpetualintelligence/terminal/tree/main/apps).
 
 > NOTE:
-> -  **Commercial Use**: Engaging in activities with the intention of earning revenue or other material benefits.
+> - **Commercial Use**: Engaging in activities with the intention of earning revenue or other benefits.
 > - **Production Use**: Deploying an application in a live setting where it is accessible by end-users or other systems, indicating that it is fully operational.
 
-While this setup is ideal for education, community work, and initial evaluations, it's crucial to note that the demo license is not meant for any commercial or production deployment. However, educational institutions are allowed to deploy applications for internal production use, as long as they are not for commercial purposes.
+While this setup is ideal for education, community work, and initial evaluations, it's crucial to note that the demo license is not meant for any commercial or production deployment.
+
+*However*, educational institutions are allowed to deploy applications for internal production use, as long as they are not for commercial purposes.
 
 If you create a custom template or a sample application using the `OneImlx.Terminal` framework, we encourage you to contribute and share it back with the community. Your contributions help in building a rich ecosystem around the `OneImlx.Terminal` framework, benefiting everyone involved.
 
@@ -39,11 +41,3 @@ For production use, `OneImlx.Terminal` provides commercial options suitable for 
    5. Register the required commands, arguments, and options.
    6. Implement any command runners.
    7. Build and run your amazing terminal apps!
-
-## Samples
-To help you get started, we provide a variety of [samples](samples.md), including:
-
-- [Ready-to-use templates](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal)
-- [In-depth tutorials](https://github.com/perpetualintelligence/docs/tree/main/samples/tutorials/terminal)
-
-These resources are designed to give you hands-on experience and guide you through the process of creating terminal applications with `OneImlx.Terminal`.

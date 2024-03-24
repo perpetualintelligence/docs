@@ -3,12 +3,11 @@
 
 - Utilize microservices architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.
 - Access built-in features or develop your own solutions for terminal UX, input parsing, error handling, command validation, data storage, and type verification.
-- Choose high-performance in-memory command storage or integrate with remote storage solutions.
-- Ensure compatibility with Windows, Linux, macOS, Docker, Kubernetes, and more.
-- Create deployment-agnostic CLI terminals, testing locally, and deploying on-premise, in the cloud, or in hybrid environments.
-- Develop secure, enterprise-level CLI and terminal applications, adhering to OAuth and OpenID Connect (OIDC) standards.
+- Choose in-memory command storage or integrate with your custom storage solutions.
+- Create platform and deployment agnostic terminals, servers, and custom applications for on-premise, cloud, hybrid, highly-secured OSAT, or factory environments.
+- Integrate with OAuth and OpenID Connect (OIDC) standard authentication providers
 - Engage with our open-source community for issue resolution, feature enhancements, and documentation contributions.
-- Quickly onboard with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and GitHub samples, no signup required.
+- Quickly onboard with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and GitHub samples, no payment required.
 
 > ***Easily transform any .NET ecosystem feature into a modern Unicode terminal app.***
 

@@ -1,27 +1,19 @@
 # Demo License
-Utilize our demo license for quick onboarding, evaluation, and educational purposes.
+Use the demo license for quick onboarding, evaluation, and developer training.
 
-## How do I get a demo license?
-You will need an account to access or use the demo license.
+## Acquiring a Demo License
+Create an account on our [Consumer Portal](https://www.consumer.perpetualintelligence.com) to get your demo license.
 
->Note: You need to create an application first by navigating to the `Applications` menu and clicking on the `Add Application` button.
+1. **Sign In**: Go to your [account](https://www.consumer.perpetualintelligence.com/licenses).
+2. **License Access**: Choose `Licenses` > `Add Demo License`.
+3. **License Creation**: Enter the required details and select `Add License`.
+   - ![Procedure to fill in details](../../../images/demo/filldetails.png)
+4. **Download License**: Download the license file to your system.
+   - ![Steps to download the license](../../../images/demo/download.png)
+5. **Integration**: Configure your terminal application with the demo license using the licensing configuration settings.
 
-1. Login with our [Consumer Portal](https://www.consumer.perpetualintelligence.com/licenses)
-2. Navigate to `Licenses` menu
-3. Click on `Add Demo License` button
+**Note:** Link each license to one or more applications. For creating an application for your terminal, visit [Applications](https://www.consumer.perpetualintelligence.com/applications) and click `Add Application`.
 
-4. Provide the required information
-5. Click `Add License` button
-
-![filldetails](../../../images/demo/filldetails.png)
-
-6. Download the license file
-
-![download](../../../images/demo/download.png)
-
-7. Incorporate the demo license into your terminal application, by configuring licensing options.
-
-## See also
+## Additional Resources
 - [Configuration Options](../configurationoptions.md)
-- [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
-- [DemoIdentifiers](xref:PerpetualIntelligence.Shared.Licensing.DemoIdentifiers)
+- [Licensing Options](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)

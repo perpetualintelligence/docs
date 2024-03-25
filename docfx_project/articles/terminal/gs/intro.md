@@ -1,43 +1,39 @@
 # Getting Started
-This document provides guidelines to get you started with the `OneImlx.Terminal` framework.
+This document outlines how to start with the `OneImlx.Terminal` framework.
 
 ## For Educational or Evaluation Purposes
 
-Educational institutions and community developers can use the `OneImlx.Terminal` framework to build and deploy terminal applications for free, provided they are not used for commercial or production purposes. The [demo license](demo.md) supports this use case:
-
-- It provides full access to all features without charge.
-- You can start using `OneImlx.Terminal` immediately, no payment needed.
-- Explore the sample test applications on [GitHub](https://github.com/perpetualintelligence/terminal/tree/main/apps).
+Educational institutions and community developers may build and deploy terminal applications using the `OneImlx.Terminal` framework for free, as long as these are not for commercial or production purposes. The [demo license](demo.md) facilitates this by:
+- Offering full feature access at no cost.
+- Allowing immediate use of `OneImlx.Terminal` without payment.
+- Providing access to sample test applications on [GitHub](https://github.com/perpetualintelligence/terminal/tree/main/apps).
 
 > NOTE:
-> - **Commercial Use**: Engaging in activities with the intention of earning revenue or other benefits.
-> - **Production Use**: Deploying an application in a live setting where it is accessible by end-users or other systems, indicating that it is fully operational.
+> - **Commercial Use**: Activities aimed at generating revenue or benefits.
+> - **Production Use**: Deploying applications in live settings for end-user or system access, indicating full operational status.
 
-While this setup is ideal for education, community work, and initial evaluations, it's crucial to note that the demo license is not meant for any commercial or production deployment.
-
-*However*, educational institutions are allowed to deploy applications for internal production use, as long as they are not for commercial purposes.
-
-If you create a custom template or a sample application using the `OneImlx.Terminal` framework, we encourage you to contribute and share it back with the community. Your contributions help in building a rich ecosystem around the `OneImlx.Terminal` framework, benefiting everyone involved.
+The demo license is strictly for non-commercial and non-production use. However, educational institutions may use it for internal, non-commercial purposes, including in-house production deployments.
 
 ## For Commercial or Production Use
-For production use, `OneImlx.Terminal` provides commercial options suitable for individuals, small businesses, large enterprises, and service vendors.  Refer to our comprehensive [licensing documentation](../licensing/intro.md).
+`OneImlx.Terminal` provides a range of commercial plans to accommodate individual developers, SMBs, and Enterprises. For detailed information on the various licensing terms and how to select the right one for your needs, refer to our [licensing documentation](../licensing/intro.md).
 
-### Acquire a Commercial License
-1. **Purchase a Subscription through the Microsoft Commercial Marketplace**:    
-   - Follow the purchase guide for [Microsoft Azure](../../buying/buyonmsazure.md).
-   - Follow the purchase guide for [Microsoft AppStore](../../buying/buyonmsappsource.md).
+### Acquiring a Commercial License
+1. **Purchase a Subscription**:    
+   - Via [Microsoft Azure](../../buying/buyonmsazure.md).
+   - Via [Microsoft AppStore](../../buying/buyonmsappsource.md).
 
-**Note**: During the purchase process, Microsoft will prompt you to activate your subscription.
+**Note**: During the purchase process, Microsoft will prompt you to activate your subscription with our consumer portal.
 
 2. **Activate Your Subscription**: 
-   - Respond to Microsoft's prompt to begin the activation process.
-   - Proceed to our [consumer portal](https://www.consumer.perpetualintelligence.com/) as directed, to complete the activation of your commercial subscription.
+   - Follow Microsoft's instructions to start activation.
+   - Complete activation on our [consumer portal](https://www.consumer.perpetualintelligence.com/).
 
 3. **Configure Your Environment**: 
-   1. Generate your [license keys](../licensing/licensekeys.md).
-   2. Download a [ready-to-use template](https://github.com/perpetualintelligence/docs/tree/main/samples/templates/terminal) or start from scratch.
-   3. Configure the terminal [options](../configurationoptions.md) as necessary.
-   4. Set up the [template](templates.md) for execution.
-   5. Register the required commands, arguments, and options.
-   6. Implement any command runners.
-   7. Build and run your amazing terminal apps!
+   1. Add [applications](apps.md) for your terminal.
+   2. Choose between a [demo or commercial license](../licensing/licensekeys.md).
+   3. Utilize our test apps or create from scratch.
+   4. Set up terminal [options](../configurationoptions.md).
+   5. Establish a hosted service for your terminal.
+   6. Configure commands, arguments, and options.
+   7. Implement command runners.
+   8. Develop and launch your terminal applications!

@@ -1,16 +1,10 @@
-# License Keys
+# License
 
-The license keys authorize your use of the `OneImlx.Terminal` framework against a valid license. The keys are signed JWT assertions with header, payload, and signature. 
+The license file authorize your use of the `OneImlx.Terminal` framework against a valid license. An [Application](..\gs\apps.md) connects a license with your end terminal app, ensuring that only authorized applications can use the OneImlx.Terminal framework's capabilities.
 
-The license keys are associated with your tenant account and an active subscription for the `OneImlx.Terminal` framework.
+The license file are public signed keys with a `public-private` key pair. They ***do not*** grant any permissions such as creating, deleting, or modifying your data.
 
-For each subscription, our system generates two keys. The two keys allow you to replace one while still using the other.
-- Primary License Key
-- Secondary License Key
-
-The license keys are public signed keys with a `public-private` key pair. They ***do not*** grant any permissions such as creating, deleting, or modifying your data. You can use the license keys in your public CLI terminals, and we use them only to check the license claims.
-
-> The license keys ***are not*** API keys or access_tokens.
+> The license file ***does not*** contain API keys or access_tokens.
 
 For more information, see [JWT](https://jwt.io/introduction).
 

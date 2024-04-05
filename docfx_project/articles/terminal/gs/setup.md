@@ -4,24 +4,22 @@ Ensure you have your license file ready. Follow these steps to set up your termi
 ## TestApp Setup
 The TestApp demonstrates the `OneImlx.Terminal` framework. It's suitable for learning and building terminal applications.
 
-### Steps
-1. **Visit GitHub**: Go to the TestApp repository.
-   [Browse TestApp on GitHub](https://github.com/perpetualintelligence/terminal/apps)
-
-2. **Update License**: Replace the internal development license with your demo or commercial license.
-
-3. **Build**: After updating the license, build the TestApp. Your setup is now complete, and you can start development.
+### Steps:
+1. **GitHub**: Browse TestApp on [GitHub](https://github.com/perpetualintelligence/terminal/apps)
+2. **License**: Clone the `apps` folder and replace our internal development license with your demo or commercial license.
+3. **Nuget**: Remove the conditional check in .csproj and use Nuget packages directly.
+3. **Build**: Build the TestApp and you can start terminal development.
 
 ## Details
 You can use the test app to build new terminals or migrate your legacy console apps and modernize them. 
 
-This section explains the code changes in the templates. To enable `OneImlx.Terminal` you need to:
+This section explains the code changes in the `TestApp`. To enable `OneImlx.Terminal` you need to:
 1. Install NuGet Package
 2. Add terminal hosted service
-3. Configure your terminal options
-4. Add a routing service
-5. Add handler, 
-6. Start command router
+3. Add terminal service
+4. Configure your terminal options
+5. Use default terminal routing service or implement your custom routing service
+6. Add command runners
 7. Stop the router
 
 ### Install NuGet Package
@@ -30,9 +28,29 @@ The `OneImlx.Terminal` framework is accessible by installing the following Nuget
 [![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
 [![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal.Authentication)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication)
 
-Apart from that you will need the following nuget packges 
+Apart from that you will need the following nuget packges
+
 [![Nuget](https://img.shields.io/nuget/v/Microsoft.Extensions.Hosting?label=Microsoft.Extensions.Hosting)](https://www.nuget.org/packages/Microsoft.Extensions.Hosting)
 
+> **Note**: Remove this section from the the .csproj file and add our Nuget package directly. This project reference is used
+> only for our development purposes.
+```
+    <!--
+        DEV CONFIG: REMOVE THIS SECTION IN YOUR APP AND ONLY ADD NUGET PACKAGE REFERENCE
+    -->
+    <Choose>
+        <When Condition="'$(PI_CI_REFERENCE)'=='cross'">
+            <ItemGroup>
+                <ProjectReference Include="..\..\src\OneImlx.Terminal.Authentication\OneImlx.Terminal.Authentication.csproj" />
+            </ItemGroup>
+        </When>
+        <Otherwise>
+            <ItemGroup>
+                <PackageReference Include="OneImlx.Terminal.Authentication" Version="5.8.5-rc.253242921" />
+            </ItemGroup>
+        </Otherwise>
+    </Choose>
+```
 
 ### Add Terminal Hosted Service
 The @OneImlx.Terminal.Hosting.TerminalHostedService is a hosted service that manages application lifetime, performs licensing, configuration checks, and enables terminal UX customization.
@@ -45,24 +63,29 @@ The example below shows the default console view when you run the `TestApp`. You
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using OneImlx.Terminal.Configuration.Options;
-using OneImlx.Terminal.Integration;
+using OneImlx.Terminal.Hosting;
 using OneImlx.Terminal.Licensing;
-using OneImlx.Terminal.Services;
+using OneImlx.Terminal.Runtime;
 
-namespace terminalNewTerminalTemplateDotNetLatest
+namespace OneImlx.Terminal.Apps.TestApp
 {
     /// <summary>
-    /// The sample <c>myorg</c> hosted service. This class enables UX customization for your cli terminal.
+    /// The <see cref="TerminalHostedService"/> for the test app.
     /// </summary>
-    public class MyOrgHostedService : CliHostedService
+    public sealed class TestAppHostedService : TerminalHostedService
     {
         /// <summary>
-        /// Initialize a new instance.
+        /// Initializes a new instance.
         /// </summary>
-        /// <param name="serviceProvider">The service provider.</param>
-        /// <param name="cliOptions">The configuration options.</param>
+        /// <param name="serviceProvider">The DI service provider.</param>
+        /// <param name="options">The terminal configuration options.</param>
+        /// <param name="terminalConsole">The terminal console.</param>
         /// <param name="logger">The logger.</param>
-        public MyOrgHostedService(IServiceProvider serviceProvider, CliOptions cliOptions, ILogger<CliHostedService> logger) : base(serviceProvider, cliOptions, logger)
+        public TestAppHostedService(
+            IServiceProvider serviceProvider,
+            TerminalOptions options,
+            ITerminalConsole terminalConsole,
+            ILogger<TerminalHostedService> logger) : base(serviceProvider, options, terminalConsole, logger)
         {
         }
 
@@ -71,7 +94,7 @@ namespace terminalNewTerminalTemplateDotNetLatest
         /// </summary>
         /// <param name="options"></param>
         /// <returns></returns>
-        protected override Task CheckHostApplicationConfigurationAsync(CliOptions options)
+        protected override Task CheckHostApplicationConfigurationAsync(TerminalOptions options)
         {
             return Task.CompletedTask;
         }
@@ -81,8 +104,8 @@ namespace terminalNewTerminalTemplateDotNetLatest
         /// </summary>
         protected override void OnStarted()
         {
-            Console.WriteLine("Server started on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
-            Console.WriteLine();
+            // These are async calls, but we are blocking here for as the  of the test.
+            TerminalConsole.WriteLineAsync("Application started on {0}.", DateTime.UtcNow.ToLocalTime().ToString()).Wait();
         }
 
         /// <summary>
@@ -90,7 +113,7 @@ namespace terminalNewTerminalTemplateDotNetLatest
         /// </summary>
         protected override void OnStopped()
         {
-            ConsoleHelper.WriteLineColor(ConsoleColor.Red, "Server stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString());
+            TerminalConsole.WriteLineColorAsync(ConsoleColor.Red, "Application stopped on {0}.", DateTime.UtcNow.ToLocalTime().ToString()).Wait();
         }
 
         /// <summary>
@@ -98,23 +121,22 @@ namespace terminalNewTerminalTemplateDotNetLatest
         /// </summary>
         protected override void OnStopping()
         {
-            Console.WriteLine("Stopping server...");
+            TerminalConsole.WriteLineAsync("Stopping application...").Wait();
         }
 
         /// <summary>
         /// Print <c>cli</c> terminal header.
         /// </summary>
         /// <returns></returns>
-        protected override Task PrintHostApplicationHeaderAsync()
+        protected override async Task PrintHostApplicationHeaderAsync()
         {
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
-            Console.WriteLine("Copyright (c) My Organization. All Rights Reserved.");
-            Console.WriteLine("For license, terms, and data policies, go to:");
-            Console.WriteLine("https://sampleyourorgurl.com");
-            Console.WriteLine("---------------------------------------------------------------------------------------------");
+            await TerminalConsole.WriteLineAsync("---------------------------------------------------------------------------------------------");
+            await TerminalConsole.WriteLineAsync("Copyright (c) Test App. All Rights Reserved.");
+            await TerminalConsole.WriteLineAsync("For license, terms, and data policies, go to:");
+            await TerminalConsole.WriteLineAsync("https://mytestapp.com");
+            await TerminalConsole.WriteLineAsync("---------------------------------------------------------------------------------------------");
 
-            Console.WriteLine($"Starting server myorg version=2.6.1-sample");
-            return Task.CompletedTask;
+            await TerminalConsole.WriteLineAsync($"Starting application...");
         }
 
         /// <summary>
@@ -122,14 +144,13 @@ namespace terminalNewTerminalTemplateDotNetLatest
         /// </summary>
         /// <param name="license">The extracted license.</param>
         /// <returns></returns>
-        protected override async Task PrintHostApplicationLicensingAsync(License license)
+        protected override Task PrintHostApplicationLicensingAsync(License license)
         {
             // Print custom licensing info or remove it completely.
-            await base.PrintHostApplicationLicensingAsync(license);
+            return base.PrintHostApplicationLicensingAsync(license);
         }
     }
 }
-
 ```
 
 ### Add `OneImlx.Terminal` and configure the options

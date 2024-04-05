@@ -23,7 +23,6 @@ This `TerminalOptions` outlines all the configuration options supported by the t
 - [`Authentication`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Authentication): Configuration options for authentication (reserved for future versions).
 - [`Checker`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Checker): Configuration options for command, argument and option validation.
 - [`Parser`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Parser): Configuration options for extracting command arguments and options from the input string.
-- [`Handler`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Handler): Configuration options for command handlers.
 - [`Licensing`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Licensing): Configuration options for licensing.
 - [`Router`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Router): Configuration options for the command router.
 - [`Help`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Help): Configuration options related to the help system.
@@ -146,42 +145,6 @@ In this example, if ParseHierarchy is enabled, the parser will parse the entire 
 
 > **Note**: Parsing the command hierarchy is generally not required for production use cases.
 
-## [HandlerOptions](xref:OneImlx.Terminal.Configuration.Options.HandlerOptions)
-
-`HandlerOptions` offer a variety of settings to configure the behavior of different handlers in your application, allowing you to tailor their functionality to better suit your specific requirements and operational contexts.
-
-### [LicenseHandler](xref:OneImlx.Terminal.Configuration.Options.HandlerOptions.LicenseHandler)
-
-The `LicenseHandler` property influences how the terminal handles license validation:
-
-- `online-license`: Suitable for applications with reliable internet access. This setting enables real-time license key validation directly with the licensing server.
-
-- `offline-license`: Designed for environments with limited or no internet access. With this setting, the license key is validated locally, allowing for operation in isolated environments. Periodic updates from a secure network are necessary to maintain license validity.
-
-- `onpremise-license`: Specifically tailored for development and testing phases, particularly when debugging. In this mode, license verification occurs only when the terminal is running in a development environment and is attached to a debugger. It facilitates a smoother development process by simplifying license management. However, once the software is deployed to a production environment, especially in highly secured facilities with no internal internet access (like a high-tech factory), the license check is bypassed. 
-
-> **Note**: It is crucial to note that continuing to run or deploy the terminal in an offline or on-premise production environment without a valid commercial subscription is a violation of the licensing terms.
-
-### [ServiceHandler](xref:OneImlx.Terminal.Configuration.Options.HandlerOptions.ServiceHandler)
-
-The `ServiceHandler` property determines the strategy used for hosting and routing dependency injection services:
-
-- `default`: Provides out-of-the-box service implementations for functionalities like command routing, extraction, and handling, facilitating a quick setup.
-
-- `custom`: Reserved for future releases, this option will enable the use of custom service implementations, providing greater flexibility for advanced configurations.
-
-### [StoreHandler](xref:OneImlx.Terminal.Configuration.Options.HandlerOptions.StoreHandler)
-
-The `StoreHandler` property configures how command and option descriptions are stored and accessed:
-
-- `in-memory`: Stores descriptions directly in memory for quick access, requiring all descriptions to be loaded at startup.
-
-- `json`: (Reserved for future releases) Allows for storing descriptions in a JSON file, offering a balance between performance and configurability.
-
-- `custom`: Enables integration with custom storage solutions, such as databases or cloud services, for dynamic loading and updating of command descriptions.
-
-These configuration options collectively enable extensive customization of the terminal's behavior, ensuring adaptability to a wide range of deployment scenarios and application needs.
-
 ## [HelpOptions](xref:OneImlx.Terminal.Configuration.Options.HelpOptions)
 
 `HelpOptions` configures the help functionality within a terminal application, allowing customization of how help information is presented and accessible to users.
@@ -206,33 +169,17 @@ This property defines a description for the help option, with a default setting 
 
 `LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](licensing/intro.md).
 
-### [AuthorizedApplicationId](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.AuthorizedApplicationId)
+### [LicenseFile](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseFile)
 
-This is the authorized application ID, corresponding to the `auth_apps` claim in your license key.
-
-### [ConsumerTenantId](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.ConsumerTenantId)
-
-This represents the license consumer tenant ID.
-
-### [LicenseKeySource](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseKeySource)
-
-The source of the license key, defaulting to a JSON file. The value is configured to be one of the options provided by [LicenseSources](xref:PerpetualIntelligence.Shared.Licensing.LicenseSources).
-
-### [LicenseKey](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseKey)
-
-The license key itself, or a path to the file containing the license key. If `LicenseKeySource` is set to [JsonFile](xref:PerpetualIntelligence.Shared.Licensing.LicenseSources.JsonFile), this option must be a valid file path.
-
-### [Subject](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.Subject)
-
-The subject or licensing context for license checking. This is typically your subscription ID.
+The path to the file containing the license key.
 
 ### [LicensePlan](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicensePlan)
 
 The license plan for the terminal, defaulting to the [Demo](xref:PerpetualIntelligence.Shared.Licensing.TerminalLicensePlans.Demo) plan. The value should be one of the options provided by [TerminalLicensePlans](xref:PerpetualIntelligence.Shared.Licensing.TerminalLicensePlans).
 
-### [OnPremiseDeployment](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.OnPremiseDeployment)
+### [Deployment](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.Deployment)
 
-A flag indicating whether the terminal is deployed in a secured, offline environment. If set to `true`, the `ILicenseExtractor` will bypass the license checking. This option is crucial for hardware-centric or factory environments where software configurations are locked down. Ensure you have a valid active license plan to comply with licensing terms.
+The deployment value indicating whether the terminal is deployed in a secured, offline environment. If set to `true`, the `ILicenseExtractor` will bypass the license checking. This option is crucial for hardware-centric or factory environments where software configurations are locked down. Ensure you have a valid active license plan to comply with licensing terms.
 
 ## [RouterOptions](xref:OneImlx.Terminal.Configuration.Options.RouterOptions)
 

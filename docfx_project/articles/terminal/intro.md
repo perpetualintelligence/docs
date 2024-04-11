@@ -43,7 +43,7 @@ Enhance console applications with advanced command handling by incorporating `On
 Utilize ASP.NET Core, Blazor, and Blazor WebAssembly (WASM) with `OneImlx.Terminal` to craft custom, responsive terminal user interfaces. The framework, acting as a comprehensive terminal parsing and execution engine, allows developers to create dynamic UX for server-side and client-side terminal applications. It handles complex command executions efficiently and adapts to various .NET frameworks, supporting flexible command execution syntax for sophisticated, secure terminal applications.
 
 #### Backend Services Integration
-Incorporate `OneImlx.Terminal` in your backend API projects for uniform command syntax across all APIs, relaying commands to the backend terminal server for execution. Ideal for developing server-side terminal applications, it facilitates command processing and communication with backend microservices. Operating in secure server-side environments, `OneImlx.Terminal` supports modern terminal applications with secure access. Developers can enhance security with a Zero Trust model for each command execution, thereby streamlining command processing and bolstering application security.
+Incorporate `OneImlx.Terminal` as your backend server for uniform command syntax across all APIs, relaying commands to the backend terminal server for execution. Ideal for developing server-side terminal applications, it facilitates command processing and communication with backend microservices. Operating in secure server-side environments, `OneImlx.Terminal` supports modern terminal applications with secure access. Developers can enhance security with a Zero Trust model for each command execution, thereby streamlining command processing and bolstering application security.
 
 #### On-Premise Server Applications
 `OneImlx.Terminal` excels in on-premise server applications, aligning with internal policies and infrastructure. It offers tools and flexibility for managing and deploying terminal applications in secure, controlled environments.
@@ -57,21 +57,19 @@ Create web and cloud native terminal applications using JavaScript frameworks, i
 #### Server Applications in Other Languages
 Build server-side applications in Python, Java, or other languages, integrating with the .NET-based terminal server for robust command execution.
 
-Note: `OneImlx.Terminal` supports TCP/IP for client-server communication within terminal apps, with future plans to add gRPC and HTTP, enhancing communication protocol versatility.
+> Note: `OneImlx.Terminal` supports TCP/IP and UDP for client-server communication within your terminal apps, with future plans to add gRPC and HTTP.
 
 #### Flexible Deployment Options
 
-Deploy the backend terminal server as needed:
+Deploy the terminal server and apps as needed:
 
 - **On-Premise**: Maintain full control and comply with internal policies.
-- **Cloud**: Leverage cloud infrastructure scalability.
+- **Cloud**: Leverage cloud infrastructure.
 - **Containerized Environments**: Simplify deployment and scaling.
-
-`OneImlx.Terminal` ensures flexibility in choosing tools while maintaining a robust backend.
 
 ## Feedback
 Submit [issues or feature requests](https://github.com/perpetualintelligence/terminal/issues) directly on GitHub.
 
 ## References
-- [Microservices](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)
+- [Microservices Architecture](https://github.com/dotnet/docs/tree/main/docs/architecture/microservices)
 - [.NET Application Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/).

@@ -1,23 +1,13 @@
 # License
+The license file enables the use of the `OneImlx.Terminal` framework under a valid license and contains signed JWT keys, which expose claims tied to your pricing plan. It does not extend permissions for creating, deleting, or modifying data, nor does it include API keys or access tokens.
 
-The license file authorize your use of the `OneImlx.Terminal` framework against a valid license. An [Application](..\gs\apps.md) connects a license with your end terminal app, ensuring that only authorized applications can use the OneImlx.Terminal framework's capabilities.
+> For more information, see [JWT](https://jwt.io/introduction).
 
-The license file are public signed keys with a `public-private` key pair. They ***do not*** grant any permissions such as creating, deleting, or modifying your data.
+## Generating a license
 
-> The license file ***does not*** contain API keys or access_tokens.
+### Demo License
 
-For more information, see [JWT](https://jwt.io/introduction).
-
-## License Audience Claims
-The mandatory license audience claims to identify the valid license holder for the `OneImlx.Terminal` framework.
-- `aud` claim identifies the recipients of the license keys. It is usually the person's name, organization or business name, or an educational institute name.
-- `subject` claim identifies your subscription identifier
-- `tid` claim identifies your consumer tenant identifier
-- `tenant_ctry` claim identifies your consumer tenant country
-
-> **Note**: Do not specify any sensitive information such as a secret, api keys, etc., in your license audience claims.
-
-## Generate
+### Commerical License
 You will need an active `OneImlx.Terminal` subscription to generate the license keys. If you do not have an active subscription, please visit [buying](../../buying/intro.md).
 
 1. Go to our [Consumer Portal](https://consumer.perpetualintelligence.com/)

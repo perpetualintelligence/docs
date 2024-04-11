@@ -3,7 +3,7 @@ To use the `OneImlx.Terminal` framework, tenants must first create an `Applicati
 
 An `Application` connects a license with your end terminal app, ensuring that only authorized applications can use the `OneImlx.Terminal` framework's capabilities.
 
-> Application -> License -> Terminal App -> `OneImlx.Terminal` features
+> Application -> License -> **Your Terminal App** -> `OneImlx.Terminal` features
 
 ## Creating an Application
 Follow these steps to create an Application:

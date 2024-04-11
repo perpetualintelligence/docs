@@ -3,4 +3,4 @@ Welcome to the conceptual and class documentation for [Perpetual Intelligence&re
 
 - Browse our [NuGet packages](https://www.nuget.org/profiles/perpetualintelligencellc)
 - Browse our [source code](https://github.com/perpetualintelligence)
-- Browse our [code samples](https://github.com/perpetualintelligence/docs/tree/main/samples)
+- Browse our [test apps](https://github.com/perpetualintelligence/terminal/tree/main/apps)

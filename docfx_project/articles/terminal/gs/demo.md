@@ -1,5 +1,5 @@
 # Demo License
-Use the demo license for quick onboarding, evaluation, and developer training.
+Use the demo license for quick onboarding, community or educational purposes.
 
 ## Acquiring a Demo License
 Create an account on our [Consumer Portal](https://www.consumer.perpetualintelligence.com) to get your demo license.
@@ -10,7 +10,7 @@ Create an account on our [Consumer Portal](https://www.consumer.perpetualintelli
    - ![Procedure to fill in details](../../../images/demo/filldetails.png)
 4. **Download License**: Download the license file to your system.
    - ![Steps to download the license](../../../images/demo/download.png)
-5. **Integration**: Configure your terminal application with the demo license using the licensing configuration settings.
+5. **Integration**: Configure your terminal application with the demo license.
 
 **Note:** Link each license to one or more applications. For creating an application for your terminal, visit [Applications](https://www.consumer.perpetualintelligence.com/applications) and click `Add Application`.
 

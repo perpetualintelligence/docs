@@ -28,12 +28,12 @@ The `OneImlx.Terminal` framework is accessible by installing the following Nuget
 [![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
 [![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal.Authentication)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication)
 
-Apart from that you will need the following nuget packges
+Apart from that you will need the following nuget packges:
 
 [![Nuget](https://img.shields.io/nuget/v/Microsoft.Extensions.Hosting?label=Microsoft.Extensions.Hosting)](https://www.nuget.org/packages/Microsoft.Extensions.Hosting)
 
-> **Note**: Remove this section from the the .csproj file and add our Nuget package directly. This project reference is used
-> only for our development purposes.
+> **Note**: Remove the `DEV CONFIG:` from the the .csproj file and add our Nuget package directly. This project reference is for our internal development.
+
 ```
     <!--
         DEV CONFIG: REMOVE THIS SECTION IN YOUR APP AND ONLY ADD NUGET PACKAGE REFERENCE

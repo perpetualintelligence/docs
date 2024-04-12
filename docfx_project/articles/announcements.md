@@ -8,8 +8,6 @@ The `PerpetualIntelligence.Terminal` Nuget package is obsolete in favor of `OneI
 ## Known Issues
 
 ### First-time Website Load Error
-
-#### Issue Description
 Some users may experience an error when loading our websites for the first time, especially when using chromium browsers. This issue is influenced by network speed of your region. We are actively working with Microsoft to find a resolution as quickly as possible.
 
 >Note: This issue does not impact our Nuget package usage, only the website.

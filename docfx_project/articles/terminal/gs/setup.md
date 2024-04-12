@@ -1,38 +1,29 @@
 # Setup
 Ensure you have your license file ready. Follow these steps to set up your terminal application with the `OneImlx.Terminal` framework.
 
-## TestApp Setup
-The TestApp demonstrates the `OneImlx.Terminal` framework. It's suitable for learning and building terminal applications.
+## Test Application
+Our test application demonstrates the `OneImlx.Terminal` framework. It's suitable for learning and building terminal applications.
 
-### Steps:
-1. **GitHub**: Browse TestApp on [GitHub](https://github.com/perpetualintelligence/terminal/apps)
-2. **License**: Clone the `apps` folder and replace our internal development license with your demo or commercial license.
-3. **Nuget**: Remove the conditional check in .csproj and use Nuget packages directly.
-3. **Build**: Build the TestApp and you can start terminal development.
+### Summary
+1. Browse [test application](https://github.com/perpetualintelligence/terminal/apps)
+2. Clone the `apps` folder
+3. Replace our internal development license with your demo or commercial license.
+4. Remove the conditional `<ProjectReference>` in .csproj and use NuGet `<PackageReference>`.
+5. Build and test the code
 
 ## Details
-You can use the test app to build new terminals or migrate your legacy console apps and modernize them. 
 
-This section explains the code changes in the `TestApp`. To enable `OneImlx.Terminal` you need to:
-1. Install NuGet Package
-2. Add terminal hosted service
-3. Add terminal service
-4. Configure your terminal options
-5. Use default terminal routing service or implement your custom routing service
-6. Add command runners
-7. Stop the router
+### 1. Install NuGet Packages
+You install the framework through NuGet packages. The core functionality is available via the `OneImlx.Terminal` package. For scenarios requiring secured command execution, the `OneImlx.Terminal.Authentication` package extends the framework with authentication capabilities. You may choose either package based on your needs.
 
-### Install NuGet Package
-The `OneImlx.Terminal` framework is accessible by installing the following Nuget package.
+[![NuGet](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
+[![NuGet](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal.Authentication)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication)
 
-[![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
-[![Nuget](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal.Authentication)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication)
+Apart from that you will need the following NuGet packages:
 
-Apart from that you will need the following nuget packges:
+[![NuGet](https://img.shields.io/nuget/v/Microsoft.Extensions.Hosting?label=Microsoft.Extensions.Hosting)](https://www.nuget.org/packages/Microsoft.Extensions.Hosting)
 
-[![Nuget](https://img.shields.io/nuget/v/Microsoft.Extensions.Hosting?label=Microsoft.Extensions.Hosting)](https://www.nuget.org/packages/Microsoft.Extensions.Hosting)
-
-> **Note**: Remove the `DEV CONFIG:` from the the .csproj file and add our Nuget package directly. This project reference is for our internal development.
+> **Note**: Remove the entire `DEV CONFIG:` from the the .csproj file and add our NuGet package directly. The `<ProjectReference>` is for our internal development.
 
 ```
     <!--
@@ -46,19 +37,19 @@ Apart from that you will need the following nuget packges:
         </When>
         <Otherwise>
             <ItemGroup>
-                <PackageReference Include="OneImlx.Terminal.Authentication" Version="5.8.5-rc.253242921" />
+                <PackageReference Include="OneImlx.Terminal.Authentication" Version="5.10.1-rc.114243041" />
             </ItemGroup>
         </Otherwise>
     </Choose>
 ```
 
-### Add Terminal Hosted Service
-The @OneImlx.Terminal.Hosting.TerminalHostedService is a hosted service that manages application lifetime, performs licensing, configuration checks, and enables terminal UX customization.
+### 2. Add Hosted Service
+The @OneImlx.Terminal.Hosting.TerminalHostedService is a hosted service that manages terminal lifetime, performs licensing and configuration checks, and enables terminal UX customization.
 
-The example below shows the default console view when you run the `TestApp`. You can customize it by overriding the methods shown below.
+The below image shows the default console view when you run the test application.
+![HostedService](../../../images/terminal/apps/add-hosted-service.png)
 
-![Hostedservice](../../../images/terminal/templates/add-hosted-service.png)
-
+You can customize the terminal behavior by overriding the methods from @OneImlx.Terminal.Hosting.TerminalHostedService.
 ```
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -136,7 +127,7 @@ namespace OneImlx.Terminal.Apps.TestApp
             await TerminalConsole.WriteLineAsync("https://mytestapp.com");
             await TerminalConsole.WriteLineAsync("---------------------------------------------------------------------------------------------");
 
-            await TerminalConsole.WriteLineAsync($"Starting application...");
+            await TerminalConsole.WriteLineAsync("Starting application...");
         }
 
         /// <summary>
@@ -153,112 +144,122 @@ namespace OneImlx.Terminal.Apps.TestApp
 }
 ```
 
-### Add `OneImlx.Terminal` and configure the options
-You enable `OneImlx.Terminal` framework by adding the DI services in your `Program.cs` file. This example code shows the default configuration when you run the template.
+### 3. Setup Program.cs
 
-```
-/// <summary>
-/// Configures the required <c>OneImlx.Terminal</c> services.
-/// </summary>
-void ConfigureServices(IServiceCollection services)
-{
-    Console.Title = "terminal demo  (.NET 6)";
-
-    services.AddCli(options =>
-    {
-        // Error info
-        options.Logging.ObsureErrorArguments = false;
-
-        // Commands, arguments and options
-        options.Parser.ArgumentAlias = true;
-        options.Parser.ArgumentPrefix = "--";
-        options.Parser.ArgumentAliasPrefix = "-";
-        options.Parser.DefaultArgumentValue = true;
-        options.Parser.DefaultArgument = true;
-        options.Parser.ArgumentValueWithIn = "\"";
-        options.Parser.ArgumentValueSeparator = " ";
-        options.Parser.Separator = " ";
-
-        // Checkers
-        options.Checker.StrictArgumentValueType = true;
-
-        // Http
-        options.Http.HttpClientName = "onedemo";
-
-        // Licensing
-        options.Licensing.AuthorizedApplicationId = DemoIdentifiers.terminalDemoAuthorizedApplicationId;
-        options.Licensing.LicenseKey = "D:\\lic\\demo_lic.json"; // Download the license file in this location or specify your location
-        options.Licensing.ConsumerTenantId = DemoIdentifiers.terminalDemoConsumerTenantId;
-        options.Licensing.Subject = DemoIdentifiers.terminalDemoSubject;
-        options.Licensing.ProviderId = LicenseProviders.PerpetualIntelligence;
-    }).AddExtractor<CommandExtractor, ArgumentExtractor, DefaultArgumentProvider, DefaultArgumentValueProvider>()
-      .AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
-      .AddStoreHandler<InMemoryCommandStore>()
-      .AddErrorHandler<ErrorHandler, ExceptionHandler>()
-      .AddTextHandler<UnicodeTextHandler>()
-      .AddCommandDescriptors();
-
-    // Add the terminal hosted serce for terminal customization
-    services.AddHostedService<MyOrgHostedService>();
-
-    // Add the HTTP client factory to perform license checks
-    services.AddHttpClient("onedemo");
-
-    // Add custom DI services
-    services.AddScoped<IIdGeneratorSampleService, DefaultIdGeneratorSampleService>();
-}
-```
-### Add descriptors and runners
-The template contains a `MyOrgCommandRegistry.cs` file to register all the commands and argument descriptors. This class can be easily unit tested natively with MSTest, xUnit, or other test frameworks.
-
-> **Note**: A command descriptor has a command runner type and an optional custom command checker.
-
-For runners, we recommend you create the `Runners` folder and place all your command runners in a subdirectory as per their command prefix.
-
-Example:
-`myorg gen id`  command string has a runner in `\Runners\MyOrg\Gen\Id` folder. It enables having a clear separation of concerns for each command, and you can also have custom services for your command at the same place.
-
-![Hostedservice](../../../images/terminal/templates/runners.png)
-
-
-### Add handlers and checkers
-The template will register various default handlers and checkers. You can provide custom handler implementations as per your application needs. For more information see [handlers](../concepts/handlers.md) and [checkers](../concepts/checkers.md).
-```
-.AddArgumentChecker<DataAnnotationsArgumentDataTypeMapper, ArgumentChecker>()
-.AddStoreHandler<InMemoryCommandStore>()
-.AddErrorHandler<ErrorHandler, ExceptionHandler>()
-.AddTextHandler<UnicodeTextHandler>()
-```
-
-By default, the `OneImlx.Terminal` terminal supports Unicode text handler. You can build your CLI terminals for any Unicode supported `left-to-right` langauge.
-
-### Start command router
-The last step is to start the command router in the `Main` method to receive and run the user commands. 
-
-![Hostedservice](../../../images/terminal/templates/start-router.png)
+The Main method in Program.cs sets up the `OneImlx.Terminal` framework and initiates the default console router, which then asynchronously processes and executes user-issued commands. It also configures cancellation tokens to terminate specific commands or the entire application as needed.
 
 ```
 private static async Task Main(string[] args)
 {
-    // Allows cancellation for the terminal.
-    CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+    // Allow cancellation for the entire terminal or individual commands.
+    CancellationTokenSource terminaTokenSource = new();
+    CancellationTokenSource commandTokenSource = new();
 
-    // Setup the host builder.
-    IHostBuilder hostBuilder = CreateHostBuilder(args, ConfigureServices);
+    // Setup and start the host builder.
+    // Note: The host should only start, the terminal framework will run the router separately.
+    IHostBuilder hostBuilder = CreateHostBuilder(args);
+    hostBuilder.ConfigureServices(ConfigureServicesDelegate);
+    hostBuilder.ConfigureLogging(ConfigureLoggingDelegate);
+    IHost host = hostBuilder.Start();
 
-    // Start the host. We don't call Run as it will block the thread. We want to listen to user inputs.
-    using (var host = await hostBuilder.StartAsync(cancellationTokenSource.Token))
-    {
-        await host.RunRouterAsync("$ ", cancellationTokenSource.Token);
-    }
+    // Setup the terminal context and run the console router indefinitely.
+    TerminalStartContext terminalStartContext = new(TerminalStartMode.Console, terminaTokenSource.Token, commandTokenSource.Token);
+    TerminalConsoleRouterContext consoleRouterContext = new(terminalStartContext);
+    await host.RunTerminalRouterAsync<TerminalConsoleRouter, TerminalConsoleRouterContext>(consoleRouterContext);
 }
 ```
 
-### Stop command router
-You can stop the command router explicitly or programmatically in the following ways:
-- User can send the standard `CNTRL+C` signal to the hosted service 
-- User can use the `exit` command to issue a cancellation token
-- Application can programmatically issue a cancellation token 
+> Note: 
+You can also configure your terminal as a server that employs TCP or UDP routers to process and execute commands in a service-to-service architecture.
 
-![Hostedservice](../../../images/terminal/templates/stop-router.png)
+### 4. Configure Services and Options
+The `OneImlx.Terminal` framework leverages the modern Dependency Injection (DI) and Options pattern to streamline setup and customization.
 
+#### Configure Logging
+`ConfigureLoggingDelegate` acts as a customizable method for setting up logging. Below is an example showing how to configure [Serilog](https://serilog.net/) as the logging solution.
+
+```
+private static void ConfigureLoggingDelegate(HostBuilderContext context, ILoggingBuilder builder)
+{
+    // Clear all providers
+    builder.ClearProviders();
+
+    // Configure logging of your choice, here we are configuring Serilog
+    var loggerConfig = new LoggerConfiguration();
+    loggerConfig.MinimumLevel.Error();
+    loggerConfig.WriteTo.Console();
+    Log.Logger = loggerConfig.CreateLogger();
+    builder.AddSerilog(Log.Logger);
+}
+```
+
+#### Configure Services
+`ConfigureServicesDelegate` acts as a customizable method for integrating all necessary services for your terminal application. To specifically configure the `OneImlx.Terminal` framework, utilize the `ConfigureOneImlxTerminal` method.
+
+```
+private static void ConfigureServicesDelegate(HostBuilderContext context, IServiceCollection services)
+{
+    // Disable hosting status message
+    services.Configure<ConsoleLifetimeOptions>(options =>
+    {
+        options.SuppressStatusMessages = true;
+    });
+
+    // Configure OneImlx.Terminal services
+    ConfigureOneImlxTerminal(services);
+            
+    // Configure other services
+}
+```
+
+#### Configure Framework
+`ConfigureOneImlxTerminal` configures the `OneImlx.Terminal` framework for console mode with a demo license. It registers a hosted service to manage the terminal's lifecycle, initializes HTTP client for demo license, and sets the licensed application identifier, license file path, and command prompt symbol.
+
+> **Note:** Please ensure you set your application identifier and the path to your demo license.
+
+For more information, see all the supported [terminal services](../services.md), [configuration options](../configurationoptions.md) and [terminal routers](../routers.md)
+
+```
+private static void ConfigureOneImlxTerminal(IServiceCollection collection)
+{
+    // Configure the hosted service
+    collection.AddHostedService<TestAppHostedService>();
+
+    // We are using online license so configure HTTP client
+    collection.AddHttpClient("demo-http");
+
+    // Specific your demo or commercial license file.
+    // Note: Replace with your license file.
+    ITerminalBuilder terminalBuilder = collection.AddTerminalConsole<TerminalInMemoryCommandStore, TerminalUnicodeTextHandler, TerminalHelpConsoleProvider, TerminalSystemConsole>(new TerminalUnicodeTextHandler(),
+        options =>
+        {
+            options.Id = TerminalIdentifiers.TestApplicationId;
+            options.Licensing.LicenseFile = "C:\\lic\\demo.json";
+            options.Router.Caret = "> ";
+        }
+    );
+
+    // Add commands using declarative syntax
+    terminalBuilder.AddDeclarativeAssembly<TestRunner>();
+}
+```
+
+### 5. Add Descriptors and Runners
+The test application includes a Runners folder that defines all the runners. Each runner defines a command descriptor, arguments, and options or flags.
+
+You can use declarative syntax to define the descriptor's attributes directly on each command runner, or you can use explicit extension methods to register the command descriptor and runners.
+
+![Runners](../../../images/terminal/apps/runners.png)
+
+### 6. Start Terminal Router
+Building and launching the test application with the terminal console router completes the setup, a task already accomplished in the Main method.
+
+The following image displays executing a test command from the user-entered command string.
+
+![StartRouter](../../../images/terminal/apps/start-router.png)
+
+### 7. Stop Terminal Router
+You have several methods to stop the terminal router, either explicitly or programmatically:
+- Send the standard `CTRL+C` signal to the hosted service/console.
+- Define an `exit` command that triggers cancellation.
+- Issue a cancellation token programmatically from within the application.

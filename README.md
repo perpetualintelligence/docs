@@ -7,8 +7,5 @@ We keep track of [issues and tasks](https://github.com/perpetualintelligence/doc
 
 We follow the Contributor Covenant's code of conduct to ensure a welcoming and inclusive community. Check out our [Code of Conduct](https://terms.perpetualintelligence.com/articles/CODE_OF_CONDUCT.html) for more information.
 
-# Samples
-Browse our [tutorials](samples/tutorials/terminal) and [templates](samples/templates/terminal) in this repository. You can use our [demo license](https://docs.perpetualintelligence.com/articles/onedemo/intro.html) for free access to test and evaluate our frameworks and services.
-
 # Feedback
 If you have any issues or feature requests, please submit them on [GitHub](https://github.com/perpetualintelligence/docs/issues).

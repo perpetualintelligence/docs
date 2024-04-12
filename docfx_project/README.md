@@ -1,16 +1,17 @@
-# Readme
-This [DocFX](https://dotnet.github.io/docfx/) project powers the creation of the [documentation website](https://docs.perpetualintelligence.com) for our managed services, cross-platform frameworks, and developer tools.
+# README
+The [DocFX](https://dotnet.github.io/docfx/) project powers the creation of the [documentation website](https://docs.perpetualintelligence.com) for our managed services, cross-platform frameworks, and developer tools.
 
 # Audience
-This `README.md` documentation is intended for developers.
+This `README.md` documentation is intended for our internal developers.
 
-# Setting Up Locally
-To set up DocFX on your local development machine, follow these steps. Please note that we only use stable releases of third-party tools, not pre-release or preview versions.
+# Setup
 
-> **Prerequisite**: Make sure you have downloaded the source repositories before proceeding with the DocFX setup.
+> Download the source repositories before proceeding with the DocFX setup.
+
+To set up DocFX on your local development machine, follow these steps.
 
 1. Visit [DocFX's official website](https://dotnet.github.io/docfx/).
-2. Navigate to the [Download](https://github.com/dotnet/docfx/releases) page and select the latest stable release (e.g., Version 2.59.4).
+2. Navigate to the [Download](https://github.com/dotnet/docfx/releases) page and select the latest stable release (e.g., Version 2.70.x).
 3. Download the `docfx.zip` file and extract its contents to a designated folder, which will become your DocFX root directory.
 4. Copy all scripts from the `../build/scripts` folder to your DocFX root directory.
 5. Add your DocFX root directory to your system's `%PATH%` environment variable.

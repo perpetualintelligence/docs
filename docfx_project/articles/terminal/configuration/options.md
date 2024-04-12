@@ -7,7 +7,7 @@ The terminal framework utilizes the options pattern, facilitating strongly typed
 Furthermore, options offer a method for validating configuration data, ensuring that your application runs smoothly with correct and valid configurations.
 
 ## Configurability
-### [Command Options](concepts/options.md)
+### [Command Options](../concepts/options.md)
 Command options or simply options in `OneImlx.Terminal` are specified directly in the command string as flags or key-value pairs, influencing the behavior of a specific command. They are defined within the command descriptor, parsed, and validated at runtime, allowing users to tailor the command's behavior to their specific needs. An example is `update-profile --username=johndoe --email=johndoe@example.com`, where `--username` and `--email` are command options providing values for the `update-profile` command.
 
 ### [Configuration Options](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
@@ -167,7 +167,7 @@ This property defines a description for the help option, with a default setting 
 
 ## [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
 
-`LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](licensing/intro.md).
+`LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](../licensing/intro.md).
 
 ### [LicenseFile](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseFile)
 
@@ -175,7 +175,7 @@ The path to the file containing the license key.
 
 ### [LicensePlan](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicensePlan)
 
-The license plan for the terminal, defaulting to the [Demo](xref:PerpetualIntelligence.Shared.Licensing.TerminalLicensePlans.Demo) plan. The value should be one of the options provided by [TerminalLicensePlans](xref:PerpetualIntelligence.Shared.Licensing.TerminalLicensePlans).
+The license plan for the terminal, defaulting to the [Demo](xref:OneImlx.Shared.Licensing.TerminalLicensePlans.Demo) plan. The value should be one of the options provided by [TerminalLicensePlans](xref:OneImlx.Shared.Licensing.TerminalLicensePlans).
 
 ### [Deployment](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.Deployment)
 

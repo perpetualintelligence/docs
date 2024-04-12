@@ -25,7 +25,7 @@ The identifiers help identify and configure your terminal or application correct
 ```
 
 ## License Keys
-Download your primary or secondary license key as explained in the [License Keys](licensekeys.md) topic. The downloaded file is a JSON file with license audience claims and licenses keys.
+Download your primary or secondary license key as explained in the [License](license.md) topic. The downloaded file is a JSON file with license audience claims and licenses keys.
 
 > **Note:** You need to specify either primary or secondary.
 
@@ -35,4 +35,4 @@ Download your primary or secondary license key as explained in the [License Keys
 ```
 
 ## See also
-- [Options](../../terminal/configurationoptions.md)
+- [Options](../configuration/options.md)

@@ -217,7 +217,7 @@ private static void ConfigureServicesDelegate(HostBuilderContext context, IServi
 
 > **Note:** Please ensure you set your application identifier and the path to your demo license.
 
-For more information, see all the supported [terminal services](../services.md), [configuration options](../configurationoptions.md) and [terminal routers](../routers.md)
+For more information, see all the supported [terminal services](../configuration/services.md), [configuration options](../configuration/options.md) and [terminal routers](../routers.md)
 
 ```
 private static void ConfigureOneImlxTerminal(IServiceCollection collection)

@@ -1,5 +1,5 @@
 # Services (Dependency Injection)
-`OneImlx.Terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](configurationoptions.md) and [logging](logging.md). A dependency is an object that another object depends on.
+`OneImlx.Terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](options.md) and [logging](logging.md). A dependency is an object that another object depends on.
 
 ## Extension Methods
 The following classes provide extension methods to register the host application's `OneImlx.Terminal` DI services.

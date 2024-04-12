@@ -27,7 +27,7 @@ Educational institutions and community developers may build and deploy terminal 
    1. Add an [application](apps.md) for your terminal on our consumer portal
    2. Add a [demo or commercial license](../licensing/license.md).
    3. Reference our [test apps](https://github.com/perpetualintelligence/terminal/tree/main/apps) or create from scratch.
-   4. Set up terminal [configuration options](../configurationoptions.md).
+   4. Set up terminal [configuration options](../configuration/options.md).
    5. Create a hosted service for your terminal.
    6. Configure commands, arguments, and options.
    7. Implement command runners.

@@ -7,7 +7,7 @@ stateDiagram
     classDef Event fill:#f9f9f9,stroke:#333,stroke-width:1px,font-style:italic,fill:#e6e6e6
 
     Terminal : Terminal Application
-    HostedService : Hosted Service
+    HostedService : Terminal Hosted Service
     TerminalRouter : Terminal Router
     CommandRouter : Command Router
     PreRouteEvent : Pre-Route

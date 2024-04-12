@@ -15,5 +15,5 @@ Create an account on our [Consumer Portal](https://www.consumer.perpetualintelli
 **Note:** Link each license to one or more applications. For creating an application for your terminal, visit [Applications](https://www.consumer.perpetualintelligence.com/applications) and click `Add Application`.
 
 ## Additional Resources
-- [Configuration Options](../configurationoptions.md)
+- [Configuration Options](../configuration/options.md)
 - [Licensing Options](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)

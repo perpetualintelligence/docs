@@ -14,6 +14,9 @@
         }
     ],
     "build": {
+        "xref": [
+            "https://learn.microsoft.com/en-us/dotnet/.xrefmap.json"
+        ],
         "sitemap": {
             "baseUrl": "https://docs.perpetualintelligence.com",
             "priority": 0.1,
@@ -63,16 +66,16 @@
             "_appFooter": "Copyright &copy; Perpetual Intelligence&reg; L.L.C. All Rights Reserved",
             "_appLogoPath": "images/logo.ico",
             "_appFaviconPath": "images/favicon.ico",
-            "_enableSearch": true
+            "_enableSearch": true,
+            "pdf": false,
+            "pdfTocPage": true,
+            "pdfCoverPage": "pdf/cover.html"
         },
         "fileMetadataFiles": [],
         "template": [
             "default",
             "modern",
             "templates/material"
-        ],
-        "xrefService": [
-            "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
         "postProcessors": [],
         "markdownEngineName": "markdig",
@@ -104,7 +107,6 @@
                 "exclude": [
                     "**/bin/**",
                     "**/obj/**",
-                    "_site_pdf/**",
                     "**/toc.yml",
                     "**/toc.md"
                 ]
@@ -120,8 +122,7 @@
                 ],
                 "exclude": [
                     "**/bin/**",
-                    "**/obj/**",
-                    "_site_pdf/**"
+                    "**/obj/**"
                 ]
             }
         ],
@@ -132,14 +133,9 @@
                 ],
                 "exclude": [
                     "**/bin/**",
-                    "**/obj/**",
-                    "_site_pdf/**"
+                    "**/obj/**"
                 ]
             }
-        ],
-        "wkhtmltopdf": {
-            "additionalArguments": "--enable-local-file-access"
-        },
-        "dest": "_site_pdf"
+        ]
     }
 }

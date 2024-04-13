@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # HTTP Router
 
 The `TerminalHttpRouter` is designed to facilitate HTTP-based communication within .NET applications, offering a simplified abstraction for handling HTTP requests and responses. This router abstracts the complexities of HTTP server setup and request routing, enabling developers to focus on business logic and application functionality.

@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # TerminalMqttRouter: Conceptual Guide
 
 The `TerminalMqttRouter` facilitates MQTT integration, a lightweight messaging protocol designed for low-bandwidth, high-latency environments common in IoT scenarios.

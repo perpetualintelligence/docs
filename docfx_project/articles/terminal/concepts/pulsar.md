@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # Apache Pulsar Router
 
 The `TerminalPulsarRouter` streamlines the integration of Apache Pulsar with .NET applications, offering a simplified abstraction layer for both publishing and subscribing to messages in a distributed messaging and streaming platform.

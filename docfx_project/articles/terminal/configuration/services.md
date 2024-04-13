@@ -1,8 +1,8 @@
 # Services (Dependency Injection)
-`OneImlx.Terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies, along with [configuration options](options.md) and [logging](logging.md). A dependency is an object that another object depends on.
+`OneImlx.Terminal` supports the dependency injection (DI) software design pattern, a technique for achieving Inversion of Control (IoC) between classes and their dependencies. This framework allows for easy integration with [configuration options](options.md) and [logging](logging.md) to create robust, maintainable, and scalable terminal applications.
 
 ## Extension Methods
-The following classes provide extension methods to register the host application's `OneImlx.Terminal` DI services.
+To facilitate the integration of `OneImlx.Terminal` services into a host application's dependency injection container, the following classes offer extension methods:
 
 - [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions): Offers extension methods to register and configure `OneImlx.Terminal` services within the host application's dependency injection container.
 - [IHostExtensions](xref:OneImlx.Terminal.Extensions.IHostExtensions): Provides an extension method to run the terminal routing, enabling the execution of commands within the terminal application.
@@ -11,280 +11,129 @@ The following classes provide extension methods to register the host application
 - [IOptionBuilderExtensions](xref:OneImlx.Terminal.Extensions.IOptionBuilderExtensions): Offers methods for defining and configuring command options, ensuring their proper integration and validation.
 - [TerminalOptions](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions): Represents the configurable options for the `OneImlx.Terminal` terminal application, allowing for customization of its behavior.
 
-## [IServiceCollectionExtensions](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions)
-This section provides guidance on integrating the `OneImlx.Terminal` terminal framework into your .NET application using the available extension methods.
-
-### AddTerminal
-`AddTerminal` integrates `OneImlx.Terminal` into your application, configuring necessary services and setting up command store and text handling functionalities.
+## Hosted Service
+You need to register a @OneImlx.Terminal.Hosting.TerminalHostedService using standard .NET extension method [`AddHostedService`](xref:Microsoft.Extensions.DependencyInjection.ServiceCollectionHostedServiceExtensions.AddHostedService`1). This will enable you to define and customize terminal startup and lifetime behavior.
 
 ```csharp
-services.AddTerminal<ICommandStore, ITextHandler>();
-```
-- ICommandStore: A store to lookup a [CommandDescriptor](xref:OneImlx.Terminal.Commands.CommandDescriptor).
-- ITextHandler: An abstraction to handle all textual operations.
-
-#### Setup with Configuration Options
-This variant allows for direct configuration of `TerminalOptions` within your setup.
-
-```csharp
-services.AddTerminal<ICommandStore, ITextHandler>(options =>
-{
-    // Configure options here
-});
+collection.AddHostedService<TestAppHostedService>();
 ```
 
-#### Setup with IConfiguration Binding
-This variant enables binding `TerminalOptions` to a configuration section, allowing for configuration via app settings or other configuration providers.
-    
+## HTTP Client
+If you are using an online license then you will need to register the HttpClient service in your application. This service is used to communicate with the our licensing server to validate the license. 
+
 ```csharp
-services.AddTerminal<ICommandStore, ITextHandler>(Configuration.GetSection("Terminal"));
+collection.AddHttpClient("demo-http");
 ```
 
-### Default Services
-`OneImlx.Terminal` offers methods to add default services commonly required for terminal applications.
+The `demo-http` is the name of the HTTP client instance. You can use any name you like. The HTTP client registration is required only if you are using an online license.
 
-#### AddTerminalDefault
-Adds terminal services along with default implementations for command handling, argument checking, option checking, and help providing.
+## Integrate Framework
+Integrating the `OneImlx.Terminal` framework into a .NET application is straightforward with two standard methods designed for most use cases. These methods facilitate the registration of terminal services within your application's Dependency Injection (DI) service collection. For advanced scenarios, the framework also allows for more granular control by using individual services. 
+
+### AddTerminalDefault
+The [`AddTerminalDefault`](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions.AddTerminalDefault```3) method adds essential terminal functionalities to your application, such as command handling, text processing, and help provider. It registers the foundational terminal services in your project, allowing customization through setup actions.
 
 ```csharp
-public static ITerminalBuilder AddTerminalDefault<TStore, TText, THelp>(this IServiceCollection services, Action<TerminalOptions> setupAction)
-            where TStore : class, ICommandStore
-            where TText : class, ITextHandler
-            where THelp : class, IHelpProvider
-{
-    if (services == null)
+ITerminalBuilder terminalBuilder = collection.AddTerminalDefault<TerminalInMemoryCommandStore, TerminalUnicodeTextHandler, TerminalHelpLoggerProvider>(new TerminalUnicodeTextHandler(),
+    options =>
     {
-        throw new ArgumentNullException(nameof(services));
+        options.Id = TerminalIdentifiers.TestApplicationId;
+        options.Licensing.LicenseFile = "C:\\this\\perpetualintelligence\\tools\\lic\\oneimlx-terminal-demo-test.json";
+        options.Router.Caret = "> ";
     }
+);
+```
 
-    if (setupAction == null)
+### AddTerminalConsole
+The [`AddTerminalConsole`](xref:OneImlx.Terminal.Extensions.IServiceCollectionExtensions.AddTerminalConsole````4) method extends `AddTerminalDefault` by adding console-specific functionalities. This method integrates additional services tailored for console applications, building on the foundational terminal services.
+
+```csharp
+ITerminalBuilder terminalBuilder = collection.AddTerminalConsole<TerminalInMemoryCommandStore, TerminalUnicodeTextHandler, TerminalHelpConsoleProvider, TerminalSystemConsole>(new TerminalUnicodeTextHandler(),
+    options =>
     {
-        throw new ArgumentNullException(nameof(setupAction));
+        options.Id = TerminalIdentifiers.TestApplicationId;
+        options.Licensing.LicenseFile = "C:\\this\\perpetualintelligence\\tools\\lic\\oneimlx-terminal-demo-test.json";
+        options.Router.Caret = "> ";
     }
+);
+```
 
-    return services.AddTerminal<TStore, TText>(setupAction)
-                   .AddCommandRouter<CommandRouter, CommandHandler>()
-                   .AddCommandExtractor<CommandExtractor, CommandRouteParser>()
-                   .AddOptionChecker<DataTypeMapper<Option>, OptionChecker>()
-                   .AddArgumentChecker<DataTypeMapper<Argument>, ArgumentChecker>()
-                   .AddExceptionHandler<ExceptionHandler>()
-                   .AddHelpProvider<THelp>();
+### Advanced Use Cases
+For more detailed control and customization, developers can use specific services from the OneImlx.Terminal framework. This option supports creating tailored terminal experiences for unique application needs, offering flexibility for intricate setups.
+
+## Add Descriptors
+The [`ITerminalBuilder`](xref:OneImlx.Terminal.Extensions.ITerminalBuilderExtensions) extensions offer both explicit and declarative syntaxes for registering command, argument and option descriptors within the service collection.
+
+When deciding between explicit and declarative syntax for command registration, consider both usability and performance implications. Explicit syntax is more efficient as it avoids reflection, unlike declarative syntax, which may be more resource-intensive due to its use of reflection. However, for applications with intricate command hierarchies, the straightforward usability of declarative syntax could be appealing despite potential performance costs. Given that command registration is a startup activity, the performance impact primarily affects initial load time, not runtime. Developers should assess these factors based on their application's specific needs and performance requirements.
+
+### Explicit Syntax
+The explicit syntax method for command registration in the framework is a direct and controlled approach to integrating command functionalities into your .NET application. This method primarily revolves around the use of hosting builders, which are sophisticated tools provided by the framework to manually define and register command descriptors with the service collection.
+
+```csharp
+private static void RegisterCommands(ITerminalBuilder terminalBuilder)
+{
+    terminalBuilder.DefineCommand<TestChecker, TestRunner>("test", "Test command", "Test Description", Commands.CommandType.Root, Commands.CommandFlags.None)
+                        .DefineArgument(1, "arg1", nameof(String), "The first argument", Commands.ArgumentFlags.None)
+                            .Add()
+                        .DefineArgument(2, "arg2", nameof(Int32), "The second argument", Commands.ArgumentFlags.None)
+                            .Add()
+                        .DefineOption("version", nameof(String), "The version option", Commands.OptionFlags.None, "v")
+                            .Add()
+                    .Add();
 }
 ```
 
-#### AddTerminalConsole
-Designed specifically for console applications, this method configures terminal services and additional console-specific services.
+
+>Note: In the explicit syntax for command registration, the `Add()` method is necessary for finalizing and registering commands, arguments or options. It commits an element definition and adds the command descriptor to the service collection.
+
+### Declarative Syntax
+Alternatively, descriptors can also be defined directly on command runners using [declarative attributes](xref:OneImlx.Terminal.Commands.Declarative).
 
 ```csharp
-public static ITerminalBuilder AddTerminalConsole<TStore, TText, THelp, TConsole>(this IServiceCollection services, Action<TerminalOptions> setupAction)
-    where TStore : class, ICommandStore
-    where TText : class, ITextHandler
-    where THelp : class, IHelpProvider
-    where TConsole : class, ITerminalConsole
-{
-    if (services == null)
+[CommandDescriptor("test", "Test App", "Test application description.", Commands.CommandType.Root, Commands.CommandFlags.None)]
+[OptionDescriptor("version", nameof(String), "Test version description", Commands.OptionFlags.None, "v")]
+[CommandChecker(typeof(CommandChecker))]
+public class TestRunner : CommandRunner<CommandRunnerResult>, IDeclarativeRunner
     {
-        throw new ArgumentNullException(nameof(services));
+        ...
     }
-
-    if (setupAction == null)
-    {
-        throw new ArgumentNullException(nameof(setupAction));
-    }
-
-    return services.AddTerminalDefault<TStore, TText, THelp>(setupAction)
-                   .AddRouting<TerminalConsoleRouting, TerminalConsoleRoutingContext>()
-                   .AddConsole<TConsole>();
 }
 ```
 
-### Further Configuration
-The `AddTerminal` methods return an instance of ITerminalBuilder, providing additional extension methods for more advanced configuration and service registration.
-
-```
-public static ICliBuilder AddCliOptions(this ICliBuilder builder)
-```
-
-## [IHostExtensions](xref:OneImlx.Terminal.Extensions.IHostExtensions)
-`IHostExtensions` provides methods to run the terminal framework within the host application's runtime.
-
-### RunTerminalRoutingAsync
-
-`RunTerminalRoutingAsync` is an extension method for `IHost`, designed to asynchronously execute terminal routing.
+The framework automatically discovers and registers these command descriptors through the `AddDeclarative...` extension methods.
 
 ```csharp
-await host.RunTerminalRoutingAsync<TRouting, TContext>(context);
+// Add all the commands in the assembly using declarative syntax.
+terminalBuilder.AddDeclarativeAssembly<TestRunner>();
 ```
-> **Note**: `RunTerminalRoutingAsync` blocks the calling thread until a cancellation request.
 
-## [ITerminalBuilderExtensions](xref:OneImlx.Terminal.Extensions.ITerminalBuilderExtensions)
-`ITerminalBuilderExtensions` provides methods to customize the terminal framework execution services for commands.
+> Note: For declarative syntax it is necessrary to implement @OneImlx.Terminal.Commands.IDeclarativeRunner interface in the command runner class.
 
-### AddOptionChecker
-This extension method is used to add option checking functionality to the terminal builder. It registers a custom option mapper and a custom option checker to the services collection.
+## Complete Integration Example
+Below is an example showing the `AddTerminalConsole` method in action, configuring the terminal framework for a console application with an online demo license.
 
 ```csharp
-public static ITerminalBuilder AddOptionChecker<TMapper, TChecker>(this ITerminalBuilder builder) 
-    where TMapper : class, IDataTypeMapper<Option> 
-    where TChecker : class, IOptionChecker
+ private static void ConfigureOneImlxTerminal(IServiceCollection collection)
 {
-    builder.Services.AddTransient<IDataTypeMapper<Option>, TMapper>();
-    builder.Services.AddTransient<IOptionChecker, TChecker>();
-    return builder;
-}
-```
+    // Configure the hosted service
+    collection.AddHostedService<TestAppHostedService>();
 
-### AddArgumentChecker
-This method enhances the terminal builder by introducing argument checking capabilities. It does so by adding a specific argument mapper and argument checker to the service collection.
+    // We are using online license so configure HTTP
+    collection.AddHttpClient("demo-http");
 
-```csharp
-public static ITerminalBuilder AddArgumentChecker<TMapper, TChecker>(this ITerminalBuilder builder) 
-    where TMapper : class, IDataTypeMapper<Argument> 
-    where TChecker : class, IArgumentChecker
-{
-    builder.Services.AddTransient<IDataTypeMapper<Argument>, TMapper>();
-    builder.Services.AddTransient<IArgumentChecker, TChecker>();
-    return builder;
-}
-```
+    // NOTE:
+    // Specify your demo or commercial license file.
+    // Specify your application id.
+    ITerminalBuilder terminalBuilder = collection.AddTerminalConsole<TerminalInMemoryCommandStore, TerminalUnicodeTextHandler, TerminalHelpConsoleProvider, TerminalSystemConsole>(new TerminalUnicodeTextHandler(),
+        options =>
+        {
+            options.Id = TerminalIdentifiers.TestApplicationId;
+            options.Licensing.LicenseFile = "C:\\this\\perpetualintelligence\\tools\\lic\\oneimlx-terminal-demo-test.json";
+            options.Router.Caret = "> ";
+        }
+    );
 
-### AddEventHandler
-Adds an asynchronous event handler to the terminal builder's services.
-
-```csharp
-public static ITerminalBuilder AddEventHandler<TEventHandler>(this ITerminalBuilder builder) 
-    where TEventHandler : class, IAsyncEventHandler
-{
-    builder.Services.AddSingleton<IAsyncEventHandler, TEventHandler>();
-    return builder;
-}
-```
-
-### AddConfigurationOptions
-This extension method configures the terminal options and adds them to the service collection. It also registers a configuration options checker.
-
-```csharp
-public static ITerminalBuilder AddConfigurationOptions(this ITerminalBuilder builder)
-{
-    builder.Services.AddOptions();
-    builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<TerminalOptions>>().Value);
-    builder.Services.AddSingleton<IConfigurationOptionsChecker, ConfigurationOptionsChecker>();
-    return builder;
-}
-```
-
-### AddStartContext
-Adds a start context to the terminal builder, allowing for the configuration of the terminal's startup behavior.
-
-```csharp
-public static ITerminalBuilder AddStartContext(this ITerminalBuilder builder, TerminalStartContext terminalStartContext)
-{
-    builder.Services.AddSingleton(terminalStartContext);
-    return builder;
-}
-```
-
-### AddHelpProvider
-Registers a custom help provider to the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddHelpProvider<THelpProvider>(this ITerminalBuilder builder) 
-    where THelpProvider : class, IHelpProvider
-{
-    builder.Services.AddSingleton<IHelpProvider, THelpProvider>();
-    return builder;
-}
-```
-
-### AddDeclarativeAssembly
-Scans an assembly for declarative targets and adds them to the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddDeclarativeAssembly(this ITerminalBuilder builder, Type assemblyType)
-{
-    IEnumerable<Type> declarativeTypes = assemblyType.Assembly.GetTypes()
-        .Where(e => typeof(IDeclarativeTarget).IsAssignableFrom(e));
-
-    foreach (Type type in declarativeTypes)
-    {
-        AddDeclarativeTarget(builder, type);
-    }
-
-    return builder;
-}
-```
-
-### AddDeclarativeAssembly
-A generic version of AddDeclarativeAssembly, allowing for type-safe assembly scanning.
-
-```csharp
-public static ITerminalBuilder AddDeclarativeAssembly<TType>(this ITerminalBuilder builder)
-{
-    return AddDeclarativeAssembly(builder, typeof(TType));
-}
-```
-
-### AddExceptionHandler
-Registers a custom exception handler to the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddExceptionHandler<THandler>(this ITerminalBuilder builder) 
-    where THandler : class, IExceptionHandler
-{
-    builder.Services.AddTransient<IExceptionHandler, THandler>();
-    return builder;
-}
-```
-
-### AddCommandParser
-Registers command extraction and parsing capabilities to the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddCommandExtractor<TCommand, TParser>(this ITerminalBuilder builder) 
-    where TCommand : class, ICommandExtractor 
-    where TParser : class, ICommandRouteParser
-{
-    builder.Services.AddTransient<ICommandExtractor, TCommand>();
-    builder.Services.AddTransient<ICommandRouteParser, TParser>();
-    return builder;
-}
-```
-
-### AddLicensing
-Registeres licensing services into the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
-{
-    builder.Services.AddSingleton<ILicenseDebugger, LicenseDebugger>();
-    builder.Services.AddSingleton<ILicenseExtractor, LicenseExtractor>();
-    builder.Services.AddSingleton<ILicenseChecker, LicenseChecker>();
-    return builder;
-}
-```
-
-### AddRouter
-Registeres licensing services into the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
-{
-    builder.Services.AddSingleton<ILicenseDebugger, LicenseDebugger>();
-    builder.Services.AddSingleton<ILicenseExtractor, LicenseExtractor>();
-    builder.Services.AddSingleton<ILicenseChecker, LicenseChecker>();
-    return builder;
-}
-```
-
-### AddRouter
-Registeres licensing services into the terminal builder.
-
-```csharp
-public static ITerminalBuilder AddLicensing(this ITerminalBuilder builder)
-{
-    builder.Services.AddSingleton<ILicenseDebugger, LicenseDebugger>();
-    builder.Services.AddSingleton<ILicenseExtractor, LicenseExtractor>();
-    builder.Services.AddSingleton<ILicenseChecker, LicenseChecker>();
-    return builder;
+    // Add commands using declarative syntax.
+    terminalBuilder.AddDeclarativeAssembly<TestRunner>();
 }
 ```

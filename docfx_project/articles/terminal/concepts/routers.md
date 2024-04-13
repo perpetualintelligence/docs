@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # Communication Protocol Routers Overview
 
 This overview summarizes specialized routers designed to abstract and simplify the integration of various communication protocols within .NET applications.

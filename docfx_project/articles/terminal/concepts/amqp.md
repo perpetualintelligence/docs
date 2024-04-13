@@ -1,3 +1,6 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
+
 # TerminalAmqpRouter: Conceptual Guide
 
 `TerminalAmqpRouter` streamlines integration with AMQP, a protocol enabling interoperable messaging between systems, focusing on message orientation, queuing, routing, reliability, and security.

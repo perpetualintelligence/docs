@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # TCP/IP Router
 
 The `TerminalTcpRouter` provides a streamlined approach to building TCP/IP server applications in .NET. This component abstracts the complexities of network programming, allowing developers to focus on application logic rather than the nuances of network communication.

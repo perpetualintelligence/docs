@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # UDP Router
 
 The `TerminalUdpRouter` streamlines the integration of UDP communication in .NET applications, abstracting the complexities associated with low-level UDP socket management. This router enables efficient handling of datagrams, facilitating both one-to-many and one-to-one communication patterns inherent in UDP.

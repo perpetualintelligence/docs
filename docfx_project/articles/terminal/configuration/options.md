@@ -1,5 +1,5 @@
 ﻿# Configuration Options
-The terminal framework utilizes the options pattern, facilitating strongly typed access to groups of related settings. By isolating configuration settings into separate classes based on scenarios, the host CLI or terminal app upholds two fundamental software engineering principles:
+The `OneImlx.Terminal` framework utilizes the options pattern, facilitating strongly typed access to groups of related settings. By isolating configuration settings into separate classes based on scenarios, the host CLI or terminal app upholds two fundamental software engineering principles:
 
 - [Interface Segregation Principle (ISP) or Encapsulation](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#encapsulation): Classes dependent on configuration settings are only reliant on the settings they actually use, promoting clean and maintainable code.
 - [Separation of Concerns](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns): Settings for different components of the application are isolated from each other, ensuring that changes in one area do not affect the others.
@@ -7,25 +7,31 @@ The terminal framework utilizes the options pattern, facilitating strongly typed
 Furthermore, options offer a method for validating configuration data, ensuring that your application runs smoothly with correct and valid configurations.
 
 ## Configurability
+The framework enhances flexibility through `Command Options` and `Configuration Options`, empowering developers to tailor applications to specific requirements.
+
 ### [Command Options](../concepts/options.md)
-Command options or simply options in `OneImlx.Terminal` are specified directly in the command string as flags or key-value pairs, influencing the behavior of a specific command. They are defined within the command descriptor, parsed, and validated at runtime, allowing users to tailor the command's behavior to their specific needs. An example is `update-profile --username=johndoe --email=johndoe@example.com`, where `--username` and `--email` are command options providing values for the `update-profile` command.
+`Command Options` are flags or key-value pairs within command strings that modify command behavior. Defined in the command descriptor and processed at runtime, these options allow for the customization of commands. For instance, `update profile --username=johndoe --email=johndoe@example.com` demonstrates how `--username` and `--email` define the `profile` command.
 
 ### [Configuration Options](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
-Configuration options, conversely, configure the overall application behavior and are a part of the [Options Design Pattern](https://docs.microsoft.com/en-us/dotnet/core/extensions/options) in .NET. They are generally set in configuration files like `appsettings.json` or through environment variables, and are loaded at startup, offering a structured way to manage settings across multiple commands or the entire application.
-
+`Configuration Options` set the application's overall behavior, as defined by the [Options Design Pattern](https://docs.microsoft.com/en-us/dotnet/core/extensions/options) in .NET. Typically specified in `appsettings.json` or via environment variables, these options are loaded at startup. This structure provides a systematic approach to managing application settings, enhancing control over multiple commands or the entire application's behavior.
 
 ## [TerminalOptions](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions)
 This `TerminalOptions` outlines all the configuration options supported by the terminal framework, providing you with the information you need to effectively configure and optimize your application.
 
+| Option           | Description                                                                      | Reserved for Future |
+|------------------|----------------------------------------------------------------------------------|---------------------|
+| [`Id`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Id)             | A unique identifier for the terminal instance.                                   |                     |
+| [`Authentication`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Authentication) | Configuration options for authentication.                                        | Yes                 |
+| [`Checker`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Checker)        | Configuration options for command, argument, and option validation.              |                     |
+| [`Driver`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Driver)         | Configuration options for the terminal's driver.                                 | Yes                 |
+| [`Help`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Help)           | Configuration options related to the help system.                                |                     |
+| [`Licensing`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Licensing)      | Configuration options for licensing.                                             |                     |
+| [`Parser`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Parser)         | Configuration options for extracting command arguments and options from input.   |                     |
+| [`Router`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Router)         | Configuration options for the command router.                                    |                     |
 
-- [`Id`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Id): A unique identifier for the terminal instance.
-- [`Driver`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Driver): Configuration options for the terminal's driver (reserved for future versions).
-- [`Authentication`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Authentication): Configuration options for authentication (reserved for future versions).
-- [`Checker`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Checker): Configuration options for command, argument and option validation.
-- [`Parser`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Parser): Configuration options for extracting command arguments and options from the input string.
-- [`Licensing`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Licensing): Configuration options for licensing.
-- [`Router`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Router): Configuration options for the command router.
-- [`Help`](xref:OneImlx.Terminal.Configuration.Options.TerminalOptions.Help): Configuration options related to the help system.
+## [AuthenticationOptions](xref:OneImlx.Terminal.Configuration.Options.AuthenticationOptions)
+
+> Planned for next major release.
 
 ## [CheckerOptions](xref:OneImlx.Terminal.Configuration.Options.CheckerOptions)
 The command, argument, and option checker configuration options. The checker options are not filters. The command execution is blocked if any check fails.
@@ -72,6 +78,42 @@ Determines if the terminal functions as a native driver program, allowing execut
 Specifies the name of the terminal driver program. This option is of type `string?`.
 
 > **Note:** These configuration options are reserved for future development and enhancements of the terminal framework.
+
+## [HelpOptions](xref:OneImlx.Terminal.Configuration.Options.HelpOptions)
+
+`HelpOptions` configures the help functionality within a terminal application, allowing customization of how help information is presented and accessible to users.
+
+### [Disabled](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.Disabled)
+
+This property determines whether the global help functionality is active. When set to `true`, the help functionality is disabled across the application.
+
+### [OptionId](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionId)
+
+`OptionId` provides a unique identifier for the help option, defaulting to `help`. It is crucial to ensure that this identifier is unique across all commands and options within the application.
+
+### [OptionDescription](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionDescription)
+
+This property defines a description for the help option, with a default setting of "The command help". This description can be modified to better align with the application's context.
+
+### [OptionAlias](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionAlias)
+
+`OptionAlias` sets a shorthand alias for the help option, defaulting to `h`. It is important to maintain the uniqueness of this alias across all options and commands to ensure clarity for the end-users.
+
+## [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
+
+`LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](../licensing/intro.md).
+
+### [LicenseFile](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseFile)
+
+The path to the file containing the license key.
+
+### [LicensePlan](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicensePlan)
+
+The license plan for the terminal, defaulting to the [Demo](xref:OneImlx.Shared.Licensing.TerminalLicensePlans.Demo) plan. The value should be one of the options provided by [TerminalLicensePlans](xref:OneImlx.Shared.Licensing.TerminalLicensePlans).
+
+### [Deployment](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.Deployment)
+
+The deployment value indicating whether the terminal is deployed in a secured, offline environment. If set to `true`, the `ILicenseExtractor` will bypass the license checking. This option is crucial for hardware-centric or factory environments where software configurations are locked down. Ensure you have a valid active license plan to comply with licensing terms.
 
 ## [ParserOptions](xref:OneImlx.Terminal.Configuration.Options.ParserOptions)
 Configuration options for parsing command and argument strings.
@@ -145,42 +187,6 @@ In this example, if ParseHierarchy is enabled, the parser will parse the entire 
 
 > **Note**: Parsing the command hierarchy is generally not required for production use cases.
 
-## [HelpOptions](xref:OneImlx.Terminal.Configuration.Options.HelpOptions)
-
-`HelpOptions` configures the help functionality within a terminal application, allowing customization of how help information is presented and accessible to users.
-
-### [Disabled](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.Disabled)
-
-This property determines whether the global help functionality is active. When set to `true`, the help functionality is disabled across the application.
-
-### [OptionId](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionId)
-
-`OptionId` provides a unique identifier for the help option, defaulting to `help`. It is crucial to ensure that this identifier is unique across all commands and options within the application.
-
-### [OptionDescription](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionDescription)
-
-This property defines a description for the help option, with a default setting of "The command help". This description can be modified to better align with the application's context.
-
-### [OptionAlias](xref:OneImlx.Terminal.Configuration.Options.HelpOptions.OptionAlias)
-
-`OptionAlias` sets a shorthand alias for the help option, defaulting to `h`. It is important to maintain the uniqueness of this alias across all options and commands to ensure clarity for the end-users.
-
-## [LicensingOptions](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions)
-
-`LicensingOptions` helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit [licensing](../licensing/intro.md).
-
-### [LicenseFile](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicenseFile)
-
-The path to the file containing the license key.
-
-### [LicensePlan](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.LicensePlan)
-
-The license plan for the terminal, defaulting to the [Demo](xref:OneImlx.Shared.Licensing.TerminalLicensePlans.Demo) plan. The value should be one of the options provided by [TerminalLicensePlans](xref:OneImlx.Shared.Licensing.TerminalLicensePlans).
-
-### [Deployment](xref:OneImlx.Terminal.Configuration.Options.LicensingOptions.Deployment)
-
-The deployment value indicating whether the terminal is deployed in a secured, offline environment. If set to `true`, the `ILicenseExtractor` will bypass the license checking. This option is crucial for hardware-centric or factory environments where software configurations are locked down. Ensure you have a valid active license plan to comply with licensing terms.
-
 ## [RouterOptions](xref:OneImlx.Terminal.Configuration.Options.RouterOptions)
 
 `RouterOptions` provides a range of settings that determine how command routing is handled within the terminal application.
@@ -206,10 +212,6 @@ This property specifies the maximum length of a single message, with a default l
 The `MessageDelimiter` is used to identify the end of a complete message, especially while streaming a long command string from a remote source, such as a network stream. The default delimiter is `$EOM$`.
 
 These options collectively provide a comprehensive way to configure how commands are routed and handled within the terminal, offering flexibility and control to the developers.
-
-## [AuthenticationOptions](xref:OneImlx.Terminal.Configuration.Options.AuthenticationOptions)
-
-> Planned for next major release.
 
 # References
 - [Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)

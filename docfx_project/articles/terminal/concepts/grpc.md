@@ -1,3 +1,5 @@
+![in-progress](https://img.shields.io/badge/status-under--review-yellow)
+
 # gRPC Router
 
 The `TerminalGrpcRouter` enhances .NET applications by integrating gRPC, a modern open source high performance Remote Procedure Call (RPC) framework, that enables client and server applications to communicate transparently, and simplifies the building of connected systems.

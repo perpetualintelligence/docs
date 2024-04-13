@@ -66,7 +66,7 @@ Represents a notional sub-command within a `Group`. A `SubCommand` always has a 
 ## [Data Mapper](xref:OneImlx.Terminal.Commands.Mappers.DataTypeMapper`1)
 The framework provides a data type mapping interface for converting configuration options into their correct data types, crucial for executing commands. The default `DataTypeMapper<TValue>` supports common data types such as integers, strings, and dates. Developers can also create custom mappers to handle specific or complex data types, enhancing the framework's flexibility and command processing precision.
 
-## [Command Router](xref:OneImlx.Terminal.Commands.Routers.CommandRouter)
+## Parsing & Routing
 
 ```mermaid
     stateDiagram
@@ -83,18 +83,19 @@ The framework provides a data type mapping interface for converting configuratio
         CommandRouting --> [*]
 ```
 
+### [Command Router](xref:OneImlx.Terminal.Commands.Routers.CommandRouter)
 The command router orchestrates the workflow of command processing. It routes raw command string through several steps such as parsing the command string to understand its structure, extracting any arguments and options provided, checking for licensing requirements, and validating the integrity of the command. Once these steps are completed, the command router then automatically invokes the corresponding command runner to execute the command. This entire process is handled seamlessly by the command router.
 
-## [Command Parser](xref:OneImlx.Terminal.Commands.Parsers.CommandParser)
+### [Command Parser](xref:OneImlx.Terminal.Commands.Parsers.CommandParser)
 The command parser in the `OneImlx.Terminal` framework is the default implementation responsible for interpreting raw command routes. It utilizes an @OneImlx.Terminal.Commands.Parsers.ICommandRouteParser to parse routes asynchronously, generating a @OneImlx.Terminal.Commands.Parsers.CommandParserResult containing the parsed command information. This default behavior ensures reliable and consistent command parsing within the framework. Developers have the option to customize the parsing logic to suit their specific needs, enabling them to extend or modify the parsing process for their terminal applications.
 
-## [Command Handler](xref:OneImlx.Terminal.Commands.Handlers.CommandHandler)
+### [Command Handler](xref:OneImlx.Terminal.Commands.Handlers.CommandHandler)
 The command handler manages the validation and execution of commands within a terminal application. It oversees essential tasks such as license verification, command checking, command execution, and event management, ensuring efficient processing of commands. With customizable configurations and built-in mechanisms for command validation and execution, the command handler empowers developers to seamlessly integrate command-driven functionalities into their applications.
 
-## [Command Checker](xref:OneImlx.Terminal.Commands.Checkers.CommandChecker)
+### [Command Checker](xref:OneImlx.Terminal.Commands.Checkers.CommandChecker)
 The command checker in the `OneImlx.Terminal` framework ensures that commands are valid before they're executed. It checks things like whether required arguments and options are provided, ensuring commands follow the defined rules. This helps make command processing more reliable and error-free.
 
 The default @OneImlx.Terminal.Commands.Checkers.CommandChecker provided by the framework handles basic checks such as verifying the presence of required arguments and options, detecting obsolete attributes, and ensuring disabled elements are not used. Developers have the option to implement custom command checkers either for the entire terminal application or for individual commands, allowing for tailored validation logic to suit specific requirements.
 
-## [Command Runner](xref:OneImlx.Terminal.Commands.Runners.CommandRunner`1)
+### [Command Runner](xref:OneImlx.Terminal.Commands.Runners.CommandRunner`1)
 The command runner is where developers implement how commands are executed. It operates asynchronously to handle commands that might take a while to process. The framework routes each parsed command to its specific runner, helping to organize and manage the command execution logic within your application.

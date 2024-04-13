@@ -25,7 +25,9 @@ If you are using an online license then you will need to register the HttpClient
 collection.AddHttpClient("demo-http");
 ```
 
-The `demo-http` is the name of the HTTP client instance. You can use any name you like. The HTTP client registration is required only if you are using an online license.
+The `demo-http` is the name of the HTTP client instance. You can use any name you like. 
+
+> INFO: The HTTP client registration is required only if you are using an online license.
 
 ## Integrate Framework
 Integrating the `OneImlx.Terminal` framework into a .NET application is straightforward with two standard methods designed for most use cases. These methods facilitate the registration of terminal services within your application's Dependency Injection (DI) service collection. For advanced scenarios, the framework also allows for more granular control by using individual services. 
@@ -84,7 +86,7 @@ private static void RegisterCommands(ITerminalBuilder terminalBuilder)
 ```
 
 
->Note: In the explicit syntax for command registration, the `Add()` method is necessary for finalizing and registering commands, arguments or options. It commits an element definition and adds the command descriptor to the service collection.
+>NOTE: In the explicit syntax for command registration, the `Add()` method is necessary for finalizing and registering commands, arguments or options. It commits an element definition and adds the command descriptor to the service collection.
 
 ### Declarative Syntax
 Alternatively, descriptors can also be defined directly on command runners using [declarative attributes](xref:OneImlx.Terminal.Commands.Declarative).
@@ -94,9 +96,8 @@ Alternatively, descriptors can also be defined directly on command runners using
 [OptionDescriptor("version", nameof(String), "Test version description", Commands.OptionFlags.None, "v")]
 [CommandChecker(typeof(CommandChecker))]
 public class TestRunner : CommandRunner<CommandRunnerResult>, IDeclarativeRunner
-    {
-        ...
-    }
+{
+
 }
 ```
 
@@ -107,7 +108,7 @@ The framework automatically discovers and registers these command descriptors th
 terminalBuilder.AddDeclarativeAssembly<TestRunner>();
 ```
 
-> Note: For declarative syntax it is necessrary to implement @OneImlx.Terminal.Commands.IDeclarativeRunner interface in the command runner class.
+> NOTE: For declarative syntax it is necessrary to implement @OneImlx.Terminal.Commands.IDeclarativeRunner interface in the command runner class.
 
 ## Complete Integration Example
 Below is an example showing the `AddTerminalConsole` method in action, configuring the terminal framework for a console application with an online demo license.

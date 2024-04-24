@@ -2,7 +2,7 @@
 The `OneImx.Terminal` framework uses routers to direct commands from users or services. This article summarizes the terminal routers designed to abstract and simplify the integration of various communication protocols within .NET for `OneImx.Terminal` applications.
 
 ## Terminal Console Router
-The framework supports xref:OneImlx.Terminal.Runtime.TerminalConsoleRouter that allows end-users to manually enter commands into your terminal application. It ensures that commands entered by the user are routed to the appropriate command runners for execution.
+The framework supports @OneImlx.Terminal.Runtime.TerminalConsoleRouter that allows end-users to manually enter commands into your terminal application. It ensures that commands entered by the user are routed to the appropriate command runners for execution.
 
 **Note:** In this context, `console` refers to an abstraction of console routing, meaning the console can be a standard system console, a desktop application, or a web-based console.
 
@@ -41,7 +41,7 @@ graph LR;
 ```
 
 ## Terminal TCP Router
-The framework supports xref:OneImlx.Terminal.Runtime.TerminalTcpRouter that allows terminal applications to function as servers, capable of receiving commands over TCP/IP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners, enabling effective command processing and response handling back to clients."
+The framework supports @OneImlx.Terminal.Runtime.TerminalTcpRouter that allows terminal applications to function as servers, capable of receiving commands over TCP/IP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners, enabling effective command processing and response handling back to clients."
 
 ```csharp
 // Setup the terminal context and run the router as a TCP server indefinitely
@@ -82,13 +82,13 @@ graph LR;
 ```
 
 ## Terminal UDP Router
-The framework supports xref:OneImlx.Terminal.Runtime.TerminalUdpRouter that allows terminal applications to function as servers, capable of receiving commands over UDP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners.
+The framework supports @OneImlx.Terminal.Runtime.TerminalUdpRouter that allows terminal applications to function as servers, capable of receiving commands over UDP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners.
 
 ```csharp
 // Setup the terminal context and run the router as a UDP server indefinitely
-TerminalStartContext terminalStartContext = new(TerminalStartMode.Tcp, terminalTokenSource.Token, commandTokenSource.Token);
+TerminalStartContext terminalStartContext = new(TerminalStartMode.Udp, terminalTokenSource.Token, commandTokenSource.Token);
 TerminalConsoleRouterContext consoleRouterContext = new(terminalStartContext);
-await host.RunTerminalRouterAsync<TerminalTcpRouter, TerminalTcpRouterContext>(consoleRouterContext);
+await host.RunTerminalRouterAsync<TerminalUdpRouter, TerminalUdpRouterContext>(consoleRouterContext);
 ```
 
 The standard [.NET UDP classes](https://learn.microsoft.com/en-us/dotnet/framework/network-programming/using-udp-services) provide the infrastructure for datagram-based communications that do not require a connection before data is sent. This makes it suitable for applications that require lightweight, low-latency communication, such as real-time data feeds or multimedia streaming.
@@ -123,7 +123,7 @@ graph LR;
 ```
 
 ## Terminal Custom Router
-The `OneImx.Terminal` framework also supports custom routers via xref:OneImlx.Terminal.Runtime.TerminalCustomRouter, allowing for specialized routing logic that may not be covered by standard TCP, UDP, or console routers. This flexibility supports unique application-specific routing needs that require customized behavior beyond standard protocol handling.
+The `OneImx.Terminal` framework also supports custom routers via @OneImlx.Terminal.Runtime.TerminalCustomRouter, allowing for specialized routing logic that may not be covered by standard TCP, UDP, or console routers. This flexibility supports unique application-specific routing needs that require customized behavior beyond standard protocol handling.
 
 ```csharp
 // Setup the terminal context and run a custom router based on specific requirements

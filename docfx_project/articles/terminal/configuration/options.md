@@ -9,7 +9,7 @@ Furthermore, options offer a method for validating configuration data, ensuring 
 ## Configurability
 The framework enhances flexibility through `Command Options` and `Configuration Options`, empowering developers to tailor applications to specific requirements.
 
-### [Command Options](../concepts/options.md)
+### [Command Options](options.md)
 `Command Options` are flags or key-value pairs within command strings that modify command behavior. Defined in the command descriptor and processed at runtime, these options allow for the customization of commands. For instance, `update profile --username=johndoe --email=johndoe@example.com` demonstrates how `--username` and `--email` define the `profile` command.
 
 ### [Configuration Options](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)

@@ -203,11 +203,11 @@ This property sets the timeout duration for command routing in milliseconds, wit
 
 The `MaxRemoteClients` property defines the maximum number of active remote client connections that the router can accept, with a default value of 5. This is particularly useful for managing resource usage and ensuring optimal performance.
 
-### [MaxMessageLength](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.MaxMessageLength)
+### [RemoteMessageMaxLength](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.RemoteMessageMaxLength)
 
 This property specifies the maximum length of a single message, with a default limit of 1024 characters. It helps in managing the data flow and ensuring that the messages are within an acceptable size range.
 
-### [MessageDelimiter](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.MessageDelimiter)
+### [RemoteMessageDelimiter](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.RemoteMessageDelimiter)
 
 The `MessageDelimiter` is used to identify the end of a complete message, especially while streaming a long command string from a remote source, such as a network stream. The default delimiter is `$EOM$`.
 

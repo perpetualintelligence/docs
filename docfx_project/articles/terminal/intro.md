@@ -1,13 +1,13 @@
 # Terminal Framework
 `OneImlx.Terminal` is a cross-platform, adaptable framework designed for developing modern and secured terminal applications. It simplifies terminal infrastructure complexity, enabling developers to focus on building enterprise-grade terminal applications with Unicode support and extensive command hierarchies.
 
-- Utilize microservices architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.
+- Utilize micro services architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.
 - Access built-in features or develop custom solutions for terminal UX, runtime, parsing, routing, error handling, command validation, and storage.
 - Choose in-memory command storage or integrate with your custom storage solutions.
 - Create platform and deployment agnostic terminals, servers, and custom applications for on-premise, cloud, hybrid, highly-secured OSAT, or factory environments.
 - Integrate with OAuth and OpenID Connect (OIDC) authentication providers
 - Engage with our team on GitHub for support and feature enhancements.
-- Quickly onboard with our [demo license](https://docs.perpetualintelligence.com/articles/pi-demo/intro.html) and GitHub samples, no payment required.
+- Quickly on-board with our [demo license](gs/demo.md) and GitHub samples, no payment required.
 
 > ***Easily transform any .NET ecosystem feature into a modern Unicode terminal app.***
 
@@ -22,10 +22,17 @@ Our DevOps builds the framework with [hosted runners](https://docs.github.com/en
 ![ubuntu](https://img.shields.io/badge/ubuntu-grey?style=flat-square&logo=ubuntu)
 ![windows](https://img.shields.io/badge/windows-grey?style=flat-square&logo=windows)
 
-Access licensed packages via Nuget:
+Access licensed packages via NuGet:
 
 ![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal?label=OneImlx.Terminal)
 ![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal.Authentication?label=OneImlx.Terminal.Authentication)
+
+## Samples
+Browse our [GitHub samples](https://github.com/perpetualintelligence/terminal/tree/main/apps) to explore various applications build using the `OneImlx.Terminal` framework.
+- Standalone terminal application
+- Modern command-line interfaces (CLI) similar to `dotnet CLI`, `GitHub CLI`, `Stripe CLI`, etc.
+- Server-based terminal applications for managing service-to-service communications, enhancing connectivity and functionality between different services
+- IoT Terminal Applications for managing and communicating with IoT devices
 
 ## Integration
 The `OneImlx.Terminal` framework separates the terminal's backend logic from the frontend, making it ideal for building terminal applications, servers, and command-line interfaces.

@@ -67,15 +67,14 @@
             "_appLogoPath": "images/logo.ico",
             "_appFaviconPath": "images/favicon.ico",
             "_enableSearch": true,
-            "pdf": false,
+            "pdf": true,
             "pdfTocPage": true,
             "pdfCoverPage": "pdf/cover.html"
         },
         "fileMetadataFiles": [],
         "template": [
             "default",
-            "modern",
-            "templates/material"
+            "modern"
         ],
         "postProcessors": [],
         "markdownEngineName": "markdig",

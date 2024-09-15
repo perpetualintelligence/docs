@@ -24,8 +24,8 @@ Our DevOps builds the framework with [hosted runners](https://docs.github.com/en
 
 Access licensed packages via NuGet:
 
-![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal?label=OneImlx.Terminal)
-![NuGet](https://img.shields.io/nuget/v/OneImlx.Terminal.Authentication?label=OneImlx.Terminal.Authentication)
+[![NuGet](https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal)](https://www.nuget.org/packages/OneImlx.Terminal)
+[![NuGet](https://img.shields.io/nuget/vpre/OneImlx.Terminal.Authentication?label=OneImlx.Terminal.Authentication)](https://www.nuget.org/packages/OneImlx.Terminal.Authentication)
 
 ## Samples
 Browse our [GitHub samples](https://github.com/perpetualintelligence/terminal/tree/main/apps) to explore various applications build using the `OneImlx.Terminal` framework.

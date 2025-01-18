@@ -35,7 +35,7 @@ For issues and support, please visit our [GitHub Issues (https://github.com/perp
 
 ---
 
-*Copyright &copy; 2023 Perpetual Intelligence&reg; L.L.C. All Rights Reserved.*
+*Copyright &copy; 2019-2025 Perpetual Intelligence&reg; L.L.C. All Rights Reserved.*
 
 [Terms](https://terms.perpetualintelligence.com/articles/intro.html) | [Website](https://www.perpetualintelligence.com/) | [Consumer Portal](https://www.consumer.perpetualintelligence.com/) | [GitHub](https://github.com/perpetualintelligence/terminal)
 

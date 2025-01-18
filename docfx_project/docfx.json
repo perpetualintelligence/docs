@@ -63,12 +63,13 @@
         ],
         "dest": "_site",
         "globalMetadata": {
-            "_appFooter": "Copyright &copy; Perpetual Intelligence&reg; L.L.C. All Rights Reserved",
+            "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
             "_appLogoPath": "images/logo.ico",
             "_appFaviconPath": "images/favicon.ico",
             "_enableSearch": true,
-            "pdf": true,
+            "pdf": false,
             "pdfTocPage": true,
+            "pdfFileName": "oneimlx.pdf",
             "pdfCoverPage": "pdf/cover.html"
         },
         "fileMetadataFiles": [],
@@ -81,7 +82,8 @@
         "noLangKeyword": false,
         "keepFileLink": false,
         "cleanupCacheHistory": true,
-        "disableGitFeatures": false
+        "disableGitFeatures": false,
+        "exportViewModel": true
     },
     "pdf": {
         "noStdin": true,

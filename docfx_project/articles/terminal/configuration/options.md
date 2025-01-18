@@ -72,10 +72,10 @@ If any of these validations fail, the command will not execute.
 Reserved for future use, the `DriverOptions` provide configuration settings for operating the terminal as a native driver program.
 
 ### [Enabled](xref:OneImlx.Terminal.Configuration.Options.DriverOptions.Enabled)
-Determines if the terminal functions as a native driver program, allowing execution of commands directly from a native command prompt. This option is a nullable boolean (`bool?`).
+Determines if the terminal functions as a native driver program, allowing execution of commands directly from a native command prompt. This option is a `bool`.
 
-### [Name](xref:OneImlx.Terminal.Configuration.Options.DriverOptions.Name)
-Specifies the name of the terminal driver program. This option is of type `string?`.
+### [RootId](xref:OneImlx.Terminal.Configuration.Options.DriverOptions.RootId)
+Specifies the root identifier of the terminal driver program. This option is of type `string?`.
 
 > **Note:** These configuration options are reserved for future development and enhancements of the terminal framework.
 
@@ -117,9 +117,6 @@ The deployment value indicating whether the terminal is deployed in a secured, o
 
 ## [ParserOptions](xref:OneImlx.Terminal.Configuration.Options.ParserOptions)
 Configuration options for parsing command and argument strings.
-
-### [OptionAliasPrefix](xref:OneImlx.Terminal.Configuration.Options.ParserOptions.OptionAliasPrefix)
-Specifies the prefix for option aliases, defaulting to `-`. It cannot be `null` or whitespace.
 
 ```csharp
 // Example
@@ -174,19 +171,6 @@ dotnet publish --runtime linux-x64
 
 The spaces between the command and options are the separators.
 
-### [ParseHierarchy](xref:OneImlx.Terminal.Configuration.Options.ParserOptions.ParseHierarchy)
-Indicates whether to parse the command hierarchy, which is optional and defaults to null. A command hierarchy includes the command route from root to executing command, through any nested groups.
-
-```csharp
-// Example
-options.Parser.ParseHierarchy = true;
-dotnet publish --configuration Release --runtime linux-x64
-```
-
-In this example, if ParseHierarchy is enabled, the parser will parse the entire command hierarchy.
-
-> **Note**: Parsing the command hierarchy is generally not required for production use cases.
-
 ## [RouterOptions](xref:OneImlx.Terminal.Configuration.Options.RouterOptions)
 
 `RouterOptions` provides a range of settings that determine how command routing is handled within the terminal application.
@@ -199,19 +183,13 @@ The `Caret` property allows you to set the terminal caret that is displayed in t
 
 This property sets the timeout duration for command routing in milliseconds, with a default value of 25 seconds. Setting this to `Timeout.Infinite` will result in no timeout. A command route handles everything for a command: parsing it, making sure it's valid, and then running it.
 
-### [MaxRemoteClients](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.MaxRemoteClients)
+### [MaxClients](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.MaxClients)
 
-The `MaxRemoteClients` property defines the maximum number of active remote client connections that the router can accept, with a default value of 5. This is particularly useful for managing resource usage and ensuring optimal performance.
+The `MaxClients` property defines the maximum number of active remote client connections that the router can accept, with a default value of 5. This is particularly useful for managing resource usage and ensuring optimal performance.
 
-### [RemoteMessageMaxLength](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.RemoteMessageMaxLength)
+### [MaxLength](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.MaxLength)
 
 This property specifies the maximum length of a single message, with a default limit of 1024 characters. It helps in managing the data flow and ensuring that the messages are within an acceptable size range.
-
-### [RemoteMessageDelimiter](xref:OneImlx.Terminal.Configuration.Options.RouterOptions.RemoteMessageDelimiter)
-
-The `MessageDelimiter` is used to identify the end of a complete message, especially while streaming a long command string from a remote source, such as a network stream. The default delimiter is `$EOM$`.
-
-These options collectively provide a comprehensive way to configure how commands are routed and handled within the terminal, offering flexibility and control to the developers.
 
 # References
 - [Options pattern in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/options)

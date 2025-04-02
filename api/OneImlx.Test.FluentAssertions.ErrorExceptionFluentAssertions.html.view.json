@@ -1,0 +1,2973 @@
+{
+  "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Test.FluentAssertions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithErrorCode<TException>(ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithErrorCode(Of TException)(ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithErrorCode<TException>(ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithErrorCode(Of TException)(ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode<TException>(FluentAssertions.Specialized.ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode(Of TException)(FluentAssertions.Specialized.ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])\" text=\"WithErrorCode&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, string, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])\" text=\"WithErrorCode&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, string, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ExceptionAssertions<TException> WithErrorCode<TException>(this ExceptionAssertions<TException> assertions, string expectedErrorCode, string because = \"\", params object[] becauseArgs) where TException : Exception"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithErrorCode(Of TException As Exception)(assertions As ExceptionAssertions(Of TException), expectedErrorCode As String, because As String = \"\", ParamArray becauseArgs As Object()) As ExceptionAssertions(Of TException)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "assertions",
+                "type": {
+                  "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                  "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The Fluent Assertions object which holds the exception.</p>\n"
+              },
+              {
+                "id": "expectedErrorCode",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error code that the exception should contain.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase as a reason for the expected error code. This\nparameter can be used to provide a more detailed explanation of the assertion, improving\nthe readability and maintainability of test code.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">An array of objects to format the <code class=\"paramref\">because</code> phrase.\nThis allows for dynamic messages in the assertion failure output, making it clearer why the\nassertion failed.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The type of the exception that is expected to be thrown.\nThis must be <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> or a derived class.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The original <xref href=\"FluentAssertions.Specialized.ExceptionAssertions%601\" data-throw-if-not-resolved=\"false\"></xref> object, allowing for\nmethod chaining with other assertions.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithErrorCode",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 35,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "WithErrorCode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithErrorCode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*\" text=\"WithErrorCode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*\" text=\"WithErrorCode\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> contains a specific error code.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode__1_FluentAssertions_Specialized_ExceptionAssertions___0__System_String_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode%60%601(FluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%2CSystem.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L36",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode__1_FluentAssertions_Specialized_ExceptionAssertions___0__System_String_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithErrorCode<TException>(Task<ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithErrorCode(Of TException)(Task(Of ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithErrorCode<TException>(Task<ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithErrorCode(Of TException)(Task(Of ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode<TException>(System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode(Of TException)(System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])\" text=\"WithErrorCode&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, string, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])\" text=\"WithErrorCode&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, string, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task<ExceptionAssertions<TException>> WithErrorCode<TException>(this Task<ExceptionAssertions<TException>> task, string expectedErrorCode, string because = \"\", params object[] becauseArgs) where TException : ErrorException"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithErrorCode(Of TException As ErrorException)(task As Task(Of ExceptionAssertions(Of TException)), expectedErrorCode As String, because As String = \"\", ParamArray becauseArgs As Object()) As Task(Of ExceptionAssertions(Of TException))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "task",
+                "type": {
+                  "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                  "definition": "System.Threading.Tasks.Task`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The task resulting from the asynchronous operation.</p>\n"
+              },
+              {
+                "id": "expectedErrorCode",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error code.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase explaining why the assertion should be satisfied.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Zero or more values to use for filling in any gaps in the <code class=\"paramref\">because</code> phrase.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A continuation object for method chaining.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithErrorCode",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 124,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "WithErrorCode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithErrorCode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*\" text=\"WithErrorCode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode*\" text=\"WithErrorCode\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> has a specific error code.\nThis method should be used after an asynchronous operation that is expected to throw an exception.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___System_String_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorCode%60%601(System.Threading.Tasks.Task%7BFluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%7D%2CSystem.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L125",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorCode__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___System_String_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithErrorDescription<TException>(ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithErrorDescription(Of TException)(ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithErrorDescription<TException>(ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithErrorDescription(Of TException)(ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription<TException>(FluentAssertions.Specialized.ExceptionAssertions<TException>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription(Of TException)(FluentAssertions.Specialized.ExceptionAssertions(Of TException), String, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])\" text=\"WithErrorDescription&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, string, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(FluentAssertions.Specialized.ExceptionAssertions{``0},System.String,System.String,System.Object[])\" text=\"WithErrorDescription&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, string, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ExceptionAssertions<TException> WithErrorDescription<TException>(this ExceptionAssertions<TException> assertions, string expectedErrorDescription, string because = \"\", params object[] becauseArgs) where TException : ErrorException"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithErrorDescription(Of TException As ErrorException)(assertions As ExceptionAssertions(Of TException), expectedErrorDescription As String, because As String = \"\", ParamArray becauseArgs As Object()) As ExceptionAssertions(Of TException)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "assertions",
+                "type": {
+                  "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                  "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The Fluent Assertions object which holds the exception.</p>\n"
+              },
+              {
+                "id": "expectedErrorDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error code that the exception should contain.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase as a reason for the expected error code. This\nparameter can be used to provide a more detailed explanation of the assertion, improving\nthe readability and maintainability of test code.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">An array of objects to format the <code class=\"paramref\">because</code> phrase.\nThis allows for dynamic messages in the assertion failure output, making it clearer why the\nassertion failed.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The type of the exception that is expected to be thrown.\nThis must be <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> or a derived class.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The original <xref href=\"FluentAssertions.Specialized.ExceptionAssertions%601\" data-throw-if-not-resolved=\"false\"></xref> object, allowing for\nmethod chaining with other assertions.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithErrorDescription",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 70,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "WithErrorDescription"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithErrorDescription"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*\" text=\"WithErrorDescription\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*\" text=\"WithErrorDescription\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> contains a specific error description.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription__1_FluentAssertions_Specialized_ExceptionAssertions___0__System_String_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription%60%601(FluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%2CSystem.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L71",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription__1_FluentAssertions_Specialized_ExceptionAssertions___0__System_String_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithErrorDescription<TException>(Task<ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithErrorDescription(Of TException)(Task(Of ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithErrorDescription<TException>(Task<ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithErrorDescription(Of TException)(Task(Of ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription<TException>(System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>, string, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription(Of TException)(System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException)), String, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])\" text=\"WithErrorDescription&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, string, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},System.String,System.String,System.Object[])\" text=\"WithErrorDescription&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, string, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task<ExceptionAssertions<TException>> WithErrorDescription<TException>(this Task<ExceptionAssertions<TException>> task, string expectedErrorDescription, string because = \"\", params object[] becauseArgs) where TException : ErrorException"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithErrorDescription(Of TException As ErrorException)(task As Task(Of ExceptionAssertions(Of TException)), expectedErrorDescription As String, because As String = \"\", ParamArray becauseArgs As Object()) As Task(Of ExceptionAssertions(Of TException))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "task",
+                "type": {
+                  "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                  "definition": "System.Threading.Tasks.Task`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The task resulting from the asynchronous operation.</p>\n"
+              },
+              {
+                "id": "expectedErrorDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error description.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase explaining why the assertion should be satisfied.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Zero or more values to use for filling in any gaps in the <code class=\"paramref\">because</code> phrase.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A continuation object for method chaining.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithErrorDescription",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 147,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "WithErrorDescription"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithErrorDescription"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*\" text=\"WithErrorDescription\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription*\" text=\"WithErrorDescription\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> has a specific error description.\nThis method should be used after an asynchronous operation that is expected to throw an exception.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___System_String_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithErrorDescription%60%601(System.Threading.Tasks.Task%7BFluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%7D%2CSystem.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L148",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithErrorDescription__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___System_String_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(FluentAssertions.Specialized.ExceptionAssertions{``0},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithError<TException>(ExceptionAssertions<TException>, Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithError(Of TException)(ExceptionAssertions(Of TException), Error, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithError<TException>(ExceptionAssertions<TException>, Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithError(Of TException)(ExceptionAssertions(Of TException), Error, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError<TException>(FluentAssertions.Specialized.ExceptionAssertions<TException>, OneImlx.Shared.Infrastructure.Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError(Of TException)(FluentAssertions.Specialized.ExceptionAssertions(Of TException), OneImlx.Shared.Infrastructure.Error, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(FluentAssertions.Specialized.ExceptionAssertions{``0},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])\" text=\"WithError&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, Error, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(FluentAssertions.Specialized.ExceptionAssertions{``0},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])\" text=\"WithError&lt;TException&gt;(ExceptionAssertions&lt;TException&gt;, Error, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ExceptionAssertions<TException> WithError<TException>(this ExceptionAssertions<TException> exceptionAssertions, Error expectedError, string because = \"\", params object[] becauseArgs) where TException : ErrorException"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithError(Of TException As ErrorException)(exceptionAssertions As ExceptionAssertions(Of TException), expectedError As [Error], because As String = \"\", ParamArray becauseArgs As Object()) As ExceptionAssertions(Of TException)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "exceptionAssertions",
+                "type": {
+                  "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                  "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The task operation.</p>\n"
+              },
+              {
+                "id": "expectedError",
+                "type": {
+                  "uid": "OneImlx.Shared.Infrastructure.Error",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase explaining why the assertion should be satisfied.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Zero or more values to use for filling in any gaps in the <code class=\"paramref\">because</code> phrase.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "FluentAssertions.Specialized.ExceptionAssertions{{TException}}",
+                "definition": "FluentAssertions.Specialized.ExceptionAssertions`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions<TException>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "FluentAssertions.Specialized.ExceptionAssertions(Of TException)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A continuation object for method chaining.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithError",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 100,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "WithError"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithError"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*\" text=\"WithError\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*\" text=\"WithError\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> has a specific error description.\nThis method should be used after an asynchronous operation that is expected to throw an exception.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError__1_FluentAssertions_Specialized_ExceptionAssertions___0__OneImlx_Shared_Infrastructure_Error_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError%60%601(FluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%2COneImlx.Shared.Infrastructure.Error%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L101",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError__1_FluentAssertions_Specialized_ExceptionAssertions___0__OneImlx_Shared_Infrastructure_Error_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WithError<TException>(Task<ExceptionAssertions<TException>>, Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "WithError(Of TException)(Task(Of ExceptionAssertions(Of TException)), Error, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ErrorExceptionFluentAssertions.WithError<TException>(Task<ExceptionAssertions<TException>>, Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ErrorExceptionFluentAssertions.WithError(Of TException)(Task(Of ExceptionAssertions(Of TException)), Error, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError<TException>(System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>, OneImlx.Shared.Infrastructure.Error, string, params object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError(Of TException)(System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException)), OneImlx.Shared.Infrastructure.Error, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])\" text=\"WithError&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, Error, string, params object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError``1(System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{``0}},OneImlx.Shared.Infrastructure.Error,System.String,System.Object[])\" text=\"WithError&lt;TException&gt;(Task&lt;ExceptionAssertions&lt;TException&gt;&gt;, Error, string, params object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task<ExceptionAssertions<TException>> WithError<TException>(this Task<ExceptionAssertions<TException>> task, Error expectedError, string because = \"\", params object[] becauseArgs) where TException : ErrorException"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function WithError(Of TException As ErrorException)(task As Task(Of ExceptionAssertions(Of TException)), expectedError As [Error], because As String = \"\", ParamArray becauseArgs As Object()) As Task(Of ExceptionAssertions(Of TException))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "task",
+                "type": {
+                  "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                  "definition": "System.Threading.Tasks.Task`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Task<ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Task(Of ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The task resulting from the asynchronous operation.</p>\n"
+              },
+              {
+                "id": "expectedError",
+                "type": {
+                  "uid": "OneImlx.Shared.Infrastructure.Error",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected error.</p>\n"
+              },
+              {
+                "id": "because",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A formatted phrase explaining why the assertion should be satisfied.</p>\n"
+              },
+              {
+                "id": "becauseArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Zero or more values to use for filling in any gaps in the <code class=\"paramref\">because</code> phrase.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TException",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{FluentAssertions.Specialized.ExceptionAssertions{{TException}}}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<FluentAssertions.Specialized.ExceptionAssertions<TException>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of FluentAssertions.Specialized.ExceptionAssertions(Of TException))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>&lt;TException&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/ExceptionAssertions.cs\">ExceptionAssertions</a>(Of TException))"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">A continuation object for method chaining.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "WithError",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+            "startLine": 170,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "WithError"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ErrorExceptionFluentAssertions.WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "ErrorExceptionFluentAssertions.WithError"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*\" text=\"WithError\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError*\" text=\"WithError\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that a thrown <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> has a specific error description.\nThis method should be used after an asynchronous operation that is expected to throw an exception.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___OneImlx_Shared_Infrastructure_Error_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.WithError%60%601(System.Threading.Tasks.Task%7BFluentAssertions.Specialized.ExceptionAssertions%7B%60%600%7D%7D%2COneImlx.Shared.Infrastructure.Error%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L171",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions_WithError__1_System_Threading_Tasks_Task_FluentAssertions_Specialized_ExceptionAssertions___0___OneImlx_Shared_Infrastructure_Error_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ErrorExceptionFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "ErrorExceptionFluentAssertions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ErrorExceptionFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "ErrorExceptionFluentAssertions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "ErrorExceptionFluentAssertions",
+    "path": "../../shared/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs",
+    "startLine": 18,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Test"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Test.FluentAssertions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Extension methods for asserting expected properties on <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class ErrorExceptionFluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module ErrorExceptionFluentAssertions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/ErrorExceptionFluentAssertions.cs/#L19",
+  "description": "Extension methods for asserting expected properties on  instances.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Test_FluentAssertions_ErrorExceptionFluentAssertions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

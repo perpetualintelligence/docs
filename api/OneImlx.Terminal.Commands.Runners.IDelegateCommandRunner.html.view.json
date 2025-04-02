@@ -1,0 +1,913 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext,OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDelegateCommandRunner.DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "IDelegateCommandRunner.DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext, OneImlx.Terminal.Runtime.ITerminalHelpProvider, Microsoft.Extensions.Logging.ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext, OneImlx.Terminal.Runtime.ITerminalHelpProvider, Microsoft.Extensions.Logging.ILogger)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext,OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger)\" text=\"DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext,OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger)\" text=\"DelegateHelpAsync(CommandContext, ITerminalHelpProvider, ILogger?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<CommandRunnerResult> DelegateHelpAsync(CommandContext context, ITerminalHelpProvider helpProvider, ILogger? logger = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function DelegateHelpAsync(context As CommandContext, helpProvider As ITerminalHelpProvider, logger As ILogger = Nothing) As Task(Of CommandRunnerResult)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The runner context.</p>\n"
+              },
+              {
+                "id": "helpProvider",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalHelpProvider",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalHelpProvider"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalHelpProvider"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" text=\"ITerminalHelpProvider\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" text=\"ITerminalHelpProvider\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The help provider.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Extensions.Logging.ILogger\" text=\"ILogger\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Extensions.Logging.ILogger\" text=\"ILogger\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The logger.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Commands.Runners.CommandRunnerResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandRunnerResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandRunnerResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Commands.Runners.CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Commands.Runners.CommandRunnerResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html\">CommandRunnerResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html\">CommandRunnerResult</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The runner result.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DelegateHelpAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+            "startLine": 29,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Runners",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DelegateHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "DelegateHelpAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IDelegateCommandRunner.DelegateHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "IDelegateCommandRunner.DelegateHelpAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync*\" text=\"DelegateHelpAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync*\" text=\"DelegateHelpAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateHelpAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">Delegates to <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601.RunHelpAsync(OneImlx.Terminal.Commands.CommandContext)\" data-throw-if-not-resolved=\"false\"></xref> asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateHelpAsync_OneImlx_Terminal_Commands_CommandContext_OneImlx_Terminal_Runtime_ITerminalHelpProvider_Microsoft_Extensions_Logging_ILogger_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateHelpAsync(OneImlx.Terminal.Commands.CommandContext%2COneImlx.Terminal.Runtime.ITerminalHelpProvider%2CMicrosoft.Extensions.Logging.ILogger)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs/#L30",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateHelpAsync_OneImlx_Terminal_Commands_CommandContext_OneImlx_Terminal_Runtime_ITerminalHelpProvider_Microsoft_Extensions_Logging_ILogger_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext,Microsoft.Extensions.Logging.ILogger)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DelegateRunAsync(CommandContext, ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DelegateRunAsync(CommandContext, ILogger)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDelegateCommandRunner.DelegateRunAsync(CommandContext, ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "IDelegateCommandRunner.DelegateRunAsync(CommandContext, ILogger)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext, Microsoft.Extensions.Logging.ILogger?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext, Microsoft.Extensions.Logging.ILogger)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext,Microsoft.Extensions.Logging.ILogger)\" text=\"DelegateRunAsync(CommandContext, ILogger?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext,Microsoft.Extensions.Logging.ILogger)\" text=\"DelegateRunAsync(CommandContext, ILogger?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<CommandRunnerResult> DelegateRunAsync(CommandContext context, ILogger? logger = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function DelegateRunAsync(context As CommandContext, logger As ILogger = Nothing) As Task(Of CommandRunnerResult)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The runner context.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Extensions.Logging.ILogger\" text=\"ILogger\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Extensions.Logging.ILogger\" text=\"ILogger\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The logger.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Commands.Runners.CommandRunnerResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandRunnerResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandRunnerResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Commands.Runners.CommandRunnerResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Commands.Runners.CommandRunnerResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html\">CommandRunnerResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html\">CommandRunnerResult</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The runner result.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DelegateRunAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+            "startLine": 37,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Runners",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DelegateRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "DelegateRunAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IDelegateCommandRunner.DelegateRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "IDelegateCommandRunner.DelegateRunAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync*\" text=\"DelegateRunAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync*\" text=\"DelegateRunAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateRunAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">Delegates to <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601.RunCommandAsync(OneImlx.Terminal.Commands.CommandContext)\" data-throw-if-not-resolved=\"false\"></xref> asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateRunAsync_OneImlx_Terminal_Commands_CommandContext_Microsoft_Extensions_Logging_ILogger_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.DelegateRunAsync(OneImlx.Terminal.Commands.CommandContext%2CMicrosoft.Extensions.Logging.ILogger)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs/#L38",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner_DelegateRunAsync_OneImlx_Terminal_Commands_CommandContext_Microsoft_Extensions_Logging_ILogger_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IDelegateCommandRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "IDelegateCommandRunner"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IDelegateCommandRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "IDelegateCommandRunner"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "IDelegateCommandRunner",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs",
+    "startLine": 20,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands.Runners",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Runners"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.html\">Runners</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.html\">Runners</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">An abstraction to delegate to <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner\" data-throw-if-not-resolved=\"false\"></xref> enables the use of generics with <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref>.\nAll implementations must delegate by calling <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref> without any business logic.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IDelegateCommandRunner"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IDelegateCommandRunner"
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Runners/IDelegateCommandRunner.cs/#L21",
+  "description": "An abstraction to delegate to .",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

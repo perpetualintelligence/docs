@@ -1,0 +1,3836 @@
+{
+  "uid": "OneImlx.Terminal.Licensing.LicenseQuota",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Authentications"
+            },
+            {
+              "lang": "vb",
+              "value": "Authentications"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Authentications"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Authentications"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Authentications\" text=\"Authentications\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Authentications\" text=\"Authentications\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyList<string> Authentications { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Authentications As IReadOnlyList(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyList{System.String}",
+                "definition": "System.Collections.Generic.IReadOnlyList`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyList(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Authentications",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Authentications"
+              },
+              {
+                "lang": "vb",
+                "value": "Authentications"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Authentications"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Authentications"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Authentications"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Authentications*\" text=\"Authentications\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Authentications*\" text=\"Authentications\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Authentications_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The authentication methods.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Authentications.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Authentications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Authentications",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandLimit"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.CommandLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.CommandLimit"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit\" text=\"CommandLimit\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit\" text=\"CommandLimit\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int? CommandLimit { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property CommandLimit As Integer?"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Nullable{System.Int32}",
+                "definition": "System.Nullable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CommandLimit",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CommandLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "CommandLimit"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.CommandLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.CommandLimit"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit*\" text=\"CommandLimit\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit*\" text=\"CommandLimit\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_CommandLimit_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The maximum commands. Returns <code>null</code> for no limit.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_CommandLimit.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.CommandLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_CommandLimit",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.DataType",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DataType"
+            },
+            {
+              "lang": "vb",
+              "value": "DataType"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.DataType"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.DataType"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.DataType"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.DataType"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.DataType\" text=\"DataType\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.DataType\" text=\"DataType\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool DataType { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property DataType As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DataType",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 32,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.DataType*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DataType"
+              },
+              {
+                "lang": "vb",
+                "value": "DataType"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.DataType"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.DataType"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.DataType"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.DataType"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.DataType*\" text=\"DataType\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.DataType*\" text=\"DataType\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_DataType_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The strict date type. Returns <code>false</code> if not supported.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_DataType.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.DataType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L33",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_DataType",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Deployments"
+            },
+            {
+              "lang": "vb",
+              "value": "Deployments"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Deployments"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Deployments"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Deployments\" text=\"Deployments\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Deployments\" text=\"Deployments\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyList<string> Deployments { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Deployments As IReadOnlyList(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyList{System.String}",
+                "definition": "System.Collections.Generic.IReadOnlyList`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyList(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Deployments",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 37,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Deployments"
+              },
+              {
+                "lang": "vb",
+                "value": "Deployments"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Deployments"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Deployments"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Deployments"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Deployments*\" text=\"Deployments\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Deployments*\" text=\"Deployments\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Deployments_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The deployment methods.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Deployments.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Deployments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L38",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Deployments",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Driver",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Driver"
+            },
+            {
+              "lang": "vb",
+              "value": "Driver"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Driver"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Driver"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Driver"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Driver"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Driver\" text=\"Driver\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Driver\" text=\"Driver\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool Driver { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Driver As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Driver",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 42,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Driver*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Driver"
+              },
+              {
+                "lang": "vb",
+                "value": "Driver"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Driver"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Driver"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Driver"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Driver"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Driver*\" text=\"Driver\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Driver*\" text=\"Driver\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Driver_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The terminal driver mode. Returns <code>false</code> if not supported.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Driver.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Driver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L43",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Driver",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Dynamics"
+            },
+            {
+              "lang": "vb",
+              "value": "Dynamics"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Dynamics"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Dynamics"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Dynamics\" text=\"Dynamics\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Dynamics\" text=\"Dynamics\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool Dynamics { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Dynamics As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Dynamics",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 47,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Dynamics"
+              },
+              {
+                "lang": "vb",
+                "value": "Dynamics"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Dynamics"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Dynamics"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Dynamics"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Dynamics*\" text=\"Dynamics\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Dynamics*\" text=\"Dynamics\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Dynamics_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The terminal dynamics command mode. Defaults to <code>false</code> or not supported.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Dynamics.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Dynamics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L48",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Dynamics",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Encodings"
+            },
+            {
+              "lang": "vb",
+              "value": "Encodings"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Encodings"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Encodings"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Encodings\" text=\"Encodings\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Encodings\" text=\"Encodings\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyList<string> Encodings { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Encodings As IReadOnlyList(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyList{System.String}",
+                "definition": "System.Collections.Generic.IReadOnlyList`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyList(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Encodings",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 52,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Encodings"
+              },
+              {
+                "lang": "vb",
+                "value": "Encodings"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Encodings"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Encodings"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Encodings"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Encodings*\" text=\"Encodings\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Encodings*\" text=\"Encodings\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Encodings_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The text encoding.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Encodings.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Encodings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L53",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Encodings",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Features",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Features"
+            },
+            {
+              "lang": "vb",
+              "value": "Features"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Features"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Features"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Features"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Features"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Features\" text=\"Features\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Features\" text=\"Features\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyDictionary<string, string[]> Features { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Features As IReadOnlyDictionary(Of String, String())"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.String[]}",
+                "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, string[]>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, String())"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, string[]>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, String())"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary<string, string[]>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, String())"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>())"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Features",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Features*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Features"
+              },
+              {
+                "lang": "vb",
+                "value": "Features"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Features"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Features"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Features"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Features"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Features*\" text=\"Features\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Features*\" text=\"Features\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Features_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The licensed features.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Features.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Features%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Features",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "InputLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "InputLimit"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.InputLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.InputLimit"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.InputLimit\" text=\"InputLimit\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.InputLimit\" text=\"InputLimit\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int? InputLimit { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property InputLimit As Integer?"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Nullable{System.Int32}",
+                "definition": "System.Nullable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "InputLimit",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 62,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "InputLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "InputLimit"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.InputLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.InputLimit"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.InputLimit"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.InputLimit*\" text=\"InputLimit\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.InputLimit*\" text=\"InputLimit\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_InputLimit_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The maximum arguments and options combined.Returns <code>null</code> for no limit.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_InputLimit.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.InputLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L63",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_InputLimit",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Limits",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Limits"
+            },
+            {
+              "lang": "vb",
+              "value": "Limits"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Limits"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Limits"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Limits"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Limits"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Limits\" text=\"Limits\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Limits\" text=\"Limits\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyDictionary<string, object?> Limits { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Limits As IReadOnlyDictionary(Of String, Object)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object}",
+                "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, Object)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, Object)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, Object)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Limits",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 67,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Limits*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Limits"
+              },
+              {
+                "lang": "vb",
+                "value": "Limits"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Limits"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Limits"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Limits"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Limits"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Limits*\" text=\"Limits\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Limits*\" text=\"Limits\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Limits_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The maximum quota. Defaults to <code>null</code> or no limit.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Limits.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Limits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L68",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Limits",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Plan",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Plan"
+            },
+            {
+              "lang": "vb",
+              "value": "Plan"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Plan"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Plan"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Plan"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Plan"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Plan\" text=\"Plan\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Plan\" text=\"Plan\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public string? Plan { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Plan As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Plan",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 72,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Plan*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Plan"
+              },
+              {
+                "lang": "vb",
+                "value": "Plan"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Plan"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Plan"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Plan"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Plan"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Plan*\" text=\"Plan\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Plan*\" text=\"Plan\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Plan_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The license plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Plan.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Plan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L73",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Plan",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RedistributionLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "RedistributionLimit"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.RedistributionLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.RedistributionLimit"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit\" text=\"RedistributionLimit\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit\" text=\"RedistributionLimit\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public long? RedistributionLimit { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property RedistributionLimit As Long?"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Nullable{System.Int64}",
+                "definition": "System.Nullable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "long?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Long?"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "long?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Long?"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "long?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Long?"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">long</a>?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int64\">Long</a>?"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RedistributionLimit",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 77,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RedistributionLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "RedistributionLimit"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.RedistributionLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.RedistributionLimit"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit*\" text=\"RedistributionLimit\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit*\" text=\"RedistributionLimit\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_RedistributionLimit_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The maximum redistributions. Defaults to <code>null</code> or no redistribution limit.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_RedistributionLimit.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.RedistributionLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L78",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_RedistributionLimit",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Routers",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Routers"
+            },
+            {
+              "lang": "vb",
+              "value": "Routers"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Routers"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Routers"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Routers"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Routers"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Routers\" text=\"Routers\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Routers\" text=\"Routers\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyList<string> Routers { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Routers As IReadOnlyList(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyList{System.String}",
+                "definition": "System.Collections.Generic.IReadOnlyList`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyList(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Routers",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 82,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Routers*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Routers"
+              },
+              {
+                "lang": "vb",
+                "value": "Routers"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Routers"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Routers"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Routers"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Routers"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Routers*\" text=\"Routers\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Routers*\" text=\"Routers\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Routers_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The terminal routing methods.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Routers.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Routers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L83",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Routers",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Stores",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Stores"
+            },
+            {
+              "lang": "vb",
+              "value": "Stores"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Stores"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Stores"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Stores"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Stores"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Stores\" text=\"Stores\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Stores\" text=\"Stores\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyList<string> Stores { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Stores As IReadOnlyList(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyList{System.String}",
+                "definition": "System.Collections.Generic.IReadOnlyList`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyList(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyList<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyList(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1\">IReadOnlyList</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Stores",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 87,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Stores*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Stores"
+              },
+              {
+                "lang": "vb",
+                "value": "Stores"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Stores"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Stores"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Stores"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Stores"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Stores*\" text=\"Stores\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Stores*\" text=\"Stores\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Stores_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The terminal command stores.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Stores.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Stores%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L88",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Stores",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Switches",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Switches"
+            },
+            {
+              "lang": "vb",
+              "value": "Switches"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Switches"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Switches"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Switches"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Switches"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Switches\" text=\"Switches\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Switches\" text=\"Switches\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyDictionary<string, bool> Switches { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Switches As IReadOnlyDictionary(Of String, Boolean)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,System.Boolean}",
+                "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, Boolean)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyDictionary<string, bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyDictionary(Of String, Boolean)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary<string, bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, Boolean)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Switches",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 92,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Switches*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Switches"
+              },
+              {
+                "lang": "vb",
+                "value": "Switches"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Switches"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Switches"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Switches"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Switches"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Switches*\" text=\"Switches\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Switches*\" text=\"Switches\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Switches_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The licensed switches.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Switches.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Switches%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L93",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Switches",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLimit"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.TerminalLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.TerminalLimit"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit\" text=\"TerminalLimit\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit\" text=\"TerminalLimit\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int? TerminalLimit { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property TerminalLimit As Integer?"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Nullable{System.Int32}",
+                "definition": "System.Nullable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer?"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>?"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>?"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TerminalLimit",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 97,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalLimit"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.TerminalLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.TerminalLimit"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit*\" text=\"TerminalLimit\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit*\" text=\"TerminalLimit\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_TerminalLimit_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The maximum terminals. Defaults to <code>null</code> or no limit.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_TerminalLimit.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.TerminalLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L98",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_TerminalLimit",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Create(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.LicenseQuota",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Create(string, IDictionary<string, object>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "Create(String, IDictionary(Of String, Object))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseQuota.Create(string, IDictionary<string, object>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseQuota.Create(String, IDictionary(Of String, Object))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Create(string, System.Collections.Generic.IDictionary<string, object>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.LicenseQuota.Create(String, System.Collections.Generic.IDictionary(Of String, Object))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Create(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})\" text=\"Create(string, IDictionary&lt;string, object&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Create(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})\" text=\"Create(string, IDictionary&lt;string, object&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static LicenseQuota Create(string licensePlan, IDictionary<string, object>? customClaims = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Create(licensePlan As String, customClaims As IDictionary(Of String, Object) = Nothing) As LicenseQuota"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "licensePlan",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The license plan.</p>\n"
+              },
+              {
+                "id": "customClaims",
+                "type": {
+                  "uid": "System.Collections.Generic.IDictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.IDictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">The custom claims. Only used if SaaS plan is custom.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Licensing.LicenseQuota",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "LicenseQuota"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "LicenseQuota"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "LicenseQuota"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "LicenseQuota"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Licensing.LicenseQuota"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Licensing.LicenseQuota"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota\" text=\"LicenseQuota\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota\" text=\"LicenseQuota\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Create",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+            "startLine": 104,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.LicenseQuota.Create*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Create"
+              },
+              {
+                "lang": "vb",
+                "value": "Create"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseQuota.Create"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseQuota.Create"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Create"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.LicenseQuota.Create"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Create*\" text=\"Create\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.LicenseQuota.Create*\" text=\"Create\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_LicenseQuota_Create_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">Creates a new instance of <xref href=\"OneImlx.Terminal.Licensing.LicenseQuota\" data-throw-if-not-resolved=\"false\"></xref> based on the specified SaaS plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota_Create_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota.Create(System.String%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L105",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_LicenseQuota_Create_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "LicenseQuota"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseQuota"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "LicenseQuota"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseQuota"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Licensing.LicenseQuota"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Licensing.LicenseQuota"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "LicenseQuota",
+    "path": "../../terminal/src/OneImlx.Terminal/Licensing/LicenseQuota.cs",
+    "startLine": 17,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">Defines the licensing quota based on the <xref href=\"OneImlx.Shared.Licensing.TerminalLicensePlans\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class LicenseQuota"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class LicenseQuota"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Licensing.LicenseQuota.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Licensing.LicenseQuota.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_LicenseQuota.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.LicenseQuota%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/LicenseQuota.cs/#L18",
+  "description": "Defines the licensing quota based on the .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Licensing_LicenseQuota",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

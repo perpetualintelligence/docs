@@ -1,0 +1,4324 @@
+{
+  "uid": "OneImlx.Shared.Licensing.LicenseClaims",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.#ctor",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims()"
+            },
+            {
+              "lang": "vb",
+              "value": "New()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.LicenseClaims()"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.New()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.LicenseClaims()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.New()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.#ctor\" text=\"LicenseClaims()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.#ctor\" text=\"LicenseClaims()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public LicenseClaims()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New()"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": ".ctor",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 24,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.LicenseClaims"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.LicenseClaims"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.#ctor*\" text=\"LicenseClaims\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.#ctor*\" text=\"LicenseClaims\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">Initialize a new instance. This constructor is part of the internal infrastructure. Please do not use it\ndirectly in the application code. To create a new instance from claims please use <xref href=\"OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary%7bSystem.String%2cSystem.Object%7d)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims__ctor.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L25",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims__ctor",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AcrValues"
+            },
+            {
+              "lang": "vb",
+              "value": "AcrValues"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.AcrValues"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.AcrValues"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AcrValues\" text=\"AcrValues\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AcrValues\" text=\"AcrValues\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"acr_values\")]\npublic string AcrValues { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"acr_values\")>\nPublic Property AcrValues As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "AcrValues",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 31,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AcrValues"
+              },
+              {
+                "lang": "vb",
+                "value": "AcrValues"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.AcrValues"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.AcrValues"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.AcrValues"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AcrValues*\" text=\"AcrValues\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AcrValues*\" text=\"AcrValues\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_AcrValues_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "acr_values"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>acr</code> claim values.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_AcrValues.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.AcrValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L32",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_AcrValues",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Applications",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Applications"
+            },
+            {
+              "lang": "vb",
+              "value": "Applications"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Applications"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Applications"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Applications"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Applications"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Applications\" text=\"Applications\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Applications\" text=\"Applications\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"applications\")]\npublic string Applications { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"applications\")>\nPublic Property Applications As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Applications",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 43,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Applications*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Applications"
+              },
+              {
+                "lang": "vb",
+                "value": "Applications"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Applications"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Applications"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Applications"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Applications"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Applications*\" text=\"Applications\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Applications*\" text=\"Applications\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Applications_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "applications"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>apps</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Applications.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Applications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L44",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Applications",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Audience",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Audience"
+            },
+            {
+              "lang": "vb",
+              "value": "Audience"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Audience"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Audience"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Audience"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Audience"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Audience\" text=\"Audience\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Audience\" text=\"Audience\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"audience\")]\npublic string Audience { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"audience\")>\nPublic Property Audience As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Audience",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 37,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Audience*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Audience"
+              },
+              {
+                "lang": "vb",
+                "value": "Audience"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Audience"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Audience"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Audience"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Audience"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Audience*\" text=\"Audience\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Audience*\" text=\"Audience\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Audience_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "audience"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>aud</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Audience.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Audience%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L38",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Audience",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AuthorizedParty"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthorizedParty"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.AuthorizedParty"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.AuthorizedParty"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty\" text=\"AuthorizedParty\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty\" text=\"AuthorizedParty\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"authorized_party\")]\npublic string AuthorizedParty { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"authorized_party\")>\nPublic Property AuthorizedParty As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "AuthorizedParty",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 49,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AuthorizedParty"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthorizedParty"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.AuthorizedParty"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.AuthorizedParty"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty*\" text=\"AuthorizedParty\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty*\" text=\"AuthorizedParty\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_AuthorizedParty_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "authorized_party"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>azp</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_AuthorizedParty.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.AuthorizedParty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L50",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_AuthorizedParty",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Custom",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "Custom"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Custom"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Custom"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Custom\" text=\"Custom\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Custom\" text=\"Custom\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"custom\")]\n[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]\n[JsonConverter(typeof(DictionaryStringObjectPrimitiveJsonConverter))]\npublic Dictionary<string, object>? Custom { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"custom\")>\n<JsonIgnore(Condition:=JsonIgnoreCondition.WhenWritingNull)>\n<JsonConverter(GetType(DictionaryStringObjectPrimitiveJsonConverter))>\nPublic Property Custom As Dictionary(Of String, Object)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                "definition": "System.Collections.Generic.Dictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Custom",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 55,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Custom*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Custom"
+              },
+              {
+                "lang": "vb",
+                "value": "Custom"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Custom"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Custom"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Custom"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Custom"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Custom*\" text=\"Custom\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Custom*\" text=\"Custom\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Custom_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "custom"
+                }
+              ]
+            },
+            {
+              "type": "System.Text.Json.Serialization.JsonIgnoreAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonIgnoreAttribute.#ctor",
+              "arguments": [],
+              "namedArguments": [
+                {
+                  "name": "Condition",
+                  "type": "System.Text.Json.Serialization.JsonIgnoreCondition",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "System.Text.Json.Serialization.JsonConverterAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)",
+              "arguments": [
+                {
+                  "type": "System.Type",
+                  "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The custom claims.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Custom.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Custom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L56",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Custom",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Deployment",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Deployment"
+            },
+            {
+              "lang": "vb",
+              "value": "Deployment"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Deployment"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Deployment"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Deployment"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Deployment"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Deployment\" text=\"Deployment\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Deployment\" text=\"Deployment\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"deployment\")]\npublic string? Deployment { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"deployment\")>\nPublic Property Deployment As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Deployment",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 129,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Deployment*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Deployment"
+              },
+              {
+                "lang": "vb",
+                "value": "Deployment"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Deployment"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Deployment"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Deployment"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Deployment"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Deployment*\" text=\"Deployment\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Deployment*\" text=\"Deployment\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Deployment_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "deployment"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>deployment</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Deployment.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Deployment%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L130",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Deployment",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ExpiryAt"
+            },
+            {
+              "lang": "vb",
+              "value": "ExpiryAt"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.ExpiryAt"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.ExpiryAt"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt\" text=\"ExpiryAt\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt\" text=\"ExpiryAt\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"expiry_at\")]\npublic DateTimeOffset ExpiryAt { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"expiry_at\")>\nPublic Property ExpiryAt As DateTimeOffset"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.DateTimeOffset",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.DateTimeOffset"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "ExpiryAt",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 63,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ExpiryAt"
+              },
+              {
+                "lang": "vb",
+                "value": "ExpiryAt"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.ExpiryAt"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.ExpiryAt"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt*\" text=\"ExpiryAt\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt*\" text=\"ExpiryAt\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_ExpiryAt_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "expiry_at"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>exp</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_ExpiryAt.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.ExpiryAt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L64",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_ExpiryAt",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Id",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Id"
+            },
+            {
+              "lang": "vb",
+              "value": "Id"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Id"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Id"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Id"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Id"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Id\" text=\"Id\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Id\" text=\"Id\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"id\")]\npublic string Id { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"id\")>\nPublic Property Id As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Id",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 117,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Id*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Id"
+              },
+              {
+                "lang": "vb",
+                "value": "Id"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Id"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Id"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Id"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Id"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Id*\" text=\"Id\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Id*\" text=\"Id\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Id_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "id"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>oid</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Id.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L118",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Id",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IssuedAt"
+            },
+            {
+              "lang": "vb",
+              "value": "IssuedAt"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.IssuedAt"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.IssuedAt"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.IssuedAt\" text=\"IssuedAt\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.IssuedAt\" text=\"IssuedAt\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"issued_at\")]\npublic DateTimeOffset IssuedAt { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"issued_at\")>\nPublic Property IssuedAt As DateTimeOffset"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.DateTimeOffset",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.DateTimeOffset"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IssuedAt",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 69,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IssuedAt"
+              },
+              {
+                "lang": "vb",
+                "value": "IssuedAt"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.IssuedAt"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.IssuedAt"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.IssuedAt"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.IssuedAt*\" text=\"IssuedAt\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.IssuedAt*\" text=\"IssuedAt\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_IssuedAt_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "issued_at"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>iat</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_IssuedAt.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.IssuedAt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L70",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_IssuedAt",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Issuer",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Issuer"
+            },
+            {
+              "lang": "vb",
+              "value": "Issuer"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Issuer"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Issuer"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Issuer"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Issuer"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Issuer\" text=\"Issuer\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Issuer\" text=\"Issuer\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"issuer\")]\npublic string Issuer { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"issuer\")>\nPublic Property Issuer As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Issuer",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 75,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Issuer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Issuer"
+              },
+              {
+                "lang": "vb",
+                "value": "Issuer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Issuer"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Issuer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Issuer"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Issuer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Issuer*\" text=\"Issuer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Issuer*\" text=\"Issuer\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Issuer_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "issuer"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>iss</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Issuer.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Issuer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L76",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Issuer",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Jti",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Jti"
+            },
+            {
+              "lang": "vb",
+              "value": "Jti"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Jti"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Jti"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Jti"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Jti"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Jti\" text=\"Jti\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Jti\" text=\"Jti\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"jti\")]\npublic string Jti { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"jti\")>\nPublic Property Jti As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Jti",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 81,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Jti*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Jti"
+              },
+              {
+                "lang": "vb",
+                "value": "Jti"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Jti"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Jti"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Jti"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Jti"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Jti*\" text=\"Jti\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Jti*\" text=\"Jti\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Jti_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "jti"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>jti</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Jti.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Jti%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L82",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Jti",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Mode",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Mode"
+            },
+            {
+              "lang": "vb",
+              "value": "Mode"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Mode"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Mode"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Mode"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Mode"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Mode\" text=\"Mode\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Mode\" text=\"Mode\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"mode\")]\npublic string Mode { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"mode\")>\nPublic Property Mode As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Mode",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 123,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Mode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Mode"
+              },
+              {
+                "lang": "vb",
+                "value": "Mode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Mode"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Mode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Mode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Mode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Mode*\" text=\"Mode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Mode*\" text=\"Mode\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Mode_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "mode"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>mode</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Mode.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L124",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Mode",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NotBefore"
+            },
+            {
+              "lang": "vb",
+              "value": "NotBefore"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.NotBefore"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.NotBefore"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.NotBefore\" text=\"NotBefore\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.NotBefore\" text=\"NotBefore\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"not_before\")]\npublic DateTimeOffset NotBefore { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"not_before\")>\nPublic Property NotBefore As DateTimeOffset"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.DateTimeOffset",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DateTimeOffset"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.DateTimeOffset"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.DateTimeOffset"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.DateTimeOffset\" text=\"DateTimeOffset\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "NotBefore",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 93,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotBefore"
+              },
+              {
+                "lang": "vb",
+                "value": "NotBefore"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.NotBefore"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.NotBefore"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.NotBefore"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.NotBefore*\" text=\"NotBefore\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.NotBefore*\" text=\"NotBefore\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_NotBefore_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "not_before"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>nbf</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_NotBefore.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.NotBefore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L94",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_NotBefore",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Subject",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Subject"
+            },
+            {
+              "lang": "vb",
+              "value": "Subject"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Subject"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Subject"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Subject"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Subject"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Subject\" text=\"Subject\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Subject\" text=\"Subject\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"subject\")]\npublic string Subject { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"subject\")>\nPublic Property Subject As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Subject",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 99,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Subject*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Subject"
+              },
+              {
+                "lang": "vb",
+                "value": "Subject"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Subject"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Subject"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Subject"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Subject"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Subject*\" text=\"Subject\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Subject*\" text=\"Subject\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Subject_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "subject"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>sub</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Subject.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Subject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L100",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Subject",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TenantCountry"
+            },
+            {
+              "lang": "vb",
+              "value": "TenantCountry"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.TenantCountry"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.TenantCountry"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantCountry\" text=\"TenantCountry\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantCountry\" text=\"TenantCountry\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"tenant_country\")]\npublic string TenantCountry { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"tenant_country\")>\nPublic Property TenantCountry As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "TenantCountry",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 105,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TenantCountry"
+              },
+              {
+                "lang": "vb",
+                "value": "TenantCountry"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.TenantCountry"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.TenantCountry"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantCountry"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantCountry*\" text=\"TenantCountry\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantCountry*\" text=\"TenantCountry\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantCountry_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "tenant_country"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>country</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_TenantCountry.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.TenantCountry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L106",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantCountry",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantId",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TenantId"
+            },
+            {
+              "lang": "vb",
+              "value": "TenantId"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.TenantId"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.TenantId"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantId"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantId"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantId\" text=\"TenantId\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantId\" text=\"TenantId\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"tenant_id\")]\npublic string TenantId { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"tenant_id\")>\nPublic Property TenantId As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "TenantId",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 111,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantId*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TenantId"
+              },
+              {
+                "lang": "vb",
+                "value": "TenantId"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.TenantId"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.TenantId"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantId"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantId"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantId*\" text=\"TenantId\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantId*\" text=\"TenantId\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantId_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "tenant_id"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>tid</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_TenantId.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.TenantId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L112",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantId",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantName",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "TenantName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.TenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.TenantName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantName\" text=\"TenantName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantName\" text=\"TenantName\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"tenant_name\")]\npublic string TenantName { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"tenant_name\")>\nPublic Property TenantName As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "TenantName",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 87,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.TenantName*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TenantName"
+              },
+              {
+                "lang": "vb",
+                "value": "TenantName"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.TenantName"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.TenantName"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantName"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.TenantName"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantName*\" text=\"TenantName\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.TenantName*\" text=\"TenantName\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantName_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "tenant_name"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The <code>name</code> claim.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_TenantName.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.TenantName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L88",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_TenantName",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary{System.String,System.Object})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseClaims",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Create(IDictionary<string, object>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Create(IDictionary(Of String, Object))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseClaims.Create(IDictionary<string, object>)"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseClaims.Create(IDictionary(Of String, Object))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary<string, object>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary(Of String, Object))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary{System.String,System.Object})\" text=\"Create(IDictionary&lt;string, object&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary{System.String,System.Object})\" text=\"Create(IDictionary&lt;string, object&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static LicenseClaims Create(IDictionary<string, object> claims)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Create(claims As IDictionary(Of String, Object)) As LicenseClaims"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "claims",
+                "type": {
+                  "uid": "System.Collections.Generic.IDictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.IDictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IDictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IDictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The source claims.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Shared.Licensing.LicenseClaims",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "LicenseClaims"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "LicenseClaims"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "LicenseClaims"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "LicenseClaims"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Shared.Licensing.LicenseClaims"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Shared.Licensing.LicenseClaims"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims\" text=\"LicenseClaims\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims\" text=\"LicenseClaims\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Create",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+            "startLine": 136,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseClaims.Create*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Create"
+              },
+              {
+                "lang": "vb",
+                "value": "Create"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseClaims.Create"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseClaims.Create"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Create"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseClaims.Create"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Create*\" text=\"Create\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseClaims.Create*\" text=\"Create\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseClaims_Create_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">Creates a new instance of <xref href=\"OneImlx.Shared.Licensing.LicenseClaims\" data-throw-if-not-resolved=\"false\"></xref> based on the specified claims dictionary.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims_Create_System_Collections_Generic_IDictionary_System_String_System_Object__.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims.Create(System.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L137",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseClaims_Create_System_Collections_Generic_IDictionary_System_String_System_Object__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "LicenseClaims"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseClaims"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "LicenseClaims"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseClaims"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Licensing.LicenseClaims"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Licensing.LicenseClaims"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "LicenseClaims",
+    "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseClaims.cs",
+    "startLine": 18,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The generic license claims.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class LicenseClaims"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class LicenseClaims"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Licensing.LicenseClaims.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Licensing.LicenseClaims.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseClaims.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseClaims%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseClaims.cs/#L19",
+  "description": "The generic license claims.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Licensing_LicenseClaims",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

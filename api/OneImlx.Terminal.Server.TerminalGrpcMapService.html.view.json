@@ -1,0 +1,1363 @@
+{
+  "uid": "OneImlx.Terminal.Server.TerminalGrpcMapService",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Server",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalGrpcRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalGrpcMapService})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Server.TerminalGrpcMapService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalGrpcMapService(ITerminalRouter<TerminalGrpcRouterContext>, ITerminalProcessor, ILogger<TerminalGrpcMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ITerminalRouter(Of TerminalGrpcRouterContext), ITerminalProcessor, ILogger(Of TerminalGrpcMapService))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalGrpcMapService.TerminalGrpcMapService(ITerminalRouter<TerminalGrpcRouterContext>, ITerminalProcessor, ILogger<TerminalGrpcMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalGrpcMapService.New(ITerminalRouter(Of TerminalGrpcRouterContext), ITerminalProcessor, ILogger(Of TerminalGrpcMapService))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.TerminalGrpcMapService(OneImlx.Terminal.Runtime.ITerminalRouter<OneImlx.Terminal.Runtime.TerminalGrpcRouterContext>, OneImlx.Terminal.Runtime.ITerminalProcessor, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Server.TerminalGrpcMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.New(OneImlx.Terminal.Runtime.ITerminalRouter(Of OneImlx.Terminal.Runtime.TerminalGrpcRouterContext), OneImlx.Terminal.Runtime.ITerminalProcessor, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Server.TerminalGrpcMapService))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalGrpcRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalGrpcMapService})\" text=\"TerminalGrpcMapService(ITerminalRouter&lt;TerminalGrpcRouterContext&gt;, ITerminalProcessor, ILogger&lt;TerminalGrpcMapService&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalGrpcRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalGrpcMapService})\" text=\"TerminalGrpcMapService(ITerminalRouter&lt;TerminalGrpcRouterContext&gt;, ITerminalProcessor, ILogger&lt;TerminalGrpcMapService&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalGrpcMapService(ITerminalRouter<TerminalGrpcRouterContext> terminalRouter, ITerminalProcessor terminalProcessor, ILogger<TerminalGrpcMapService> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(terminalRouter As ITerminalRouter(Of TerminalGrpcRouterContext), terminalProcessor As ITerminalProcessor, logger As ILogger(Of TerminalGrpcMapService))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalRouter",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalGrpcRouterContext}",
+                  "definition": "OneImlx.Terminal.Runtime.ITerminalRouter`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalRouter<TerminalGrpcRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalRouter(Of TerminalGrpcRouterContext)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalRouter<TerminalGrpcRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalRouter(Of TerminalGrpcRouterContext)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalRouter<OneImlx.Terminal.Runtime.TerminalGrpcRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalRouter(Of OneImlx.Terminal.Runtime.TerminalGrpcRouterContext)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalRouter-1.html\">ITerminalRouter</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalGrpcRouterContext.html\">TerminalGrpcRouterContext</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalRouter-1.html\">ITerminalRouter</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalGrpcRouterContext.html\">TerminalGrpcRouterContext</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">The terminal router instance for routing commands.</p>\n"
+              },
+              {
+                "id": "terminalProcessor",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalProcessor"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalProcessor"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">The terminal processor.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalGrpcMapService}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalGrpcMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalGrpcMapService)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalGrpcMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalGrpcMapService)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Server.TerminalGrpcMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Server.TerminalGrpcMapService)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcMapService.html\">TerminalGrpcMapService</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcMapService.html\">TerminalGrpcMapService</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">The logger instance for logging router events and errors.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Server"
+          ],
+          "namespace": "OneImlx.Terminal.Server",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalGrpcMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalGrpcMapService.TerminalGrpcMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalGrpcMapService.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.TerminalGrpcMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor*\" text=\"TerminalGrpcMapService\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.#ctor*\" text=\"TerminalGrpcMapService\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Server_TerminalGrpcMapService__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Server.TerminalGrpcMapService\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalGrpcMapService__ctor_OneImlx_Terminal_Runtime_ITerminalRouter_OneImlx_Terminal_Runtime_TerminalGrpcRouterContext__OneImlx_Terminal_Runtime_ITerminalProcessor_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Server_TerminalGrpcMapService__.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalGrpcMapService.%23ctor(OneImlx.Terminal.Runtime.ITerminalRouter%7BOneImlx.Terminal.Runtime.TerminalGrpcRouterContext%7D%2COneImlx.Terminal.Runtime.ITerminalProcessor%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Server.TerminalGrpcMapService%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Server_TerminalGrpcMapService__ctor_OneImlx_Terminal_Runtime_ITerminalRouter_OneImlx_Terminal_Runtime_TerminalGrpcRouterContext__OneImlx_Terminal_Runtime_ITerminalProcessor_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Server_TerminalGrpcMapService__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput,Grpc.Core.ServerCallContext)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Server.TerminalGrpcMapService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalGrpcMapService.RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalGrpcMapService.RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput, Grpc.Core.ServerCallContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput, Grpc.Core.ServerCallContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput,Grpc.Core.ServerCallContext)\" text=\"RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput,Grpc.Core.ServerCallContext)\" text=\"RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override Task<TerminalGrpcRouterProtoOutput> RouteCommand(TerminalGrpcRouterProtoInput protoInput, ServerCallContext context)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function RouteCommand(protoInput As TerminalGrpcRouterProtoInput, context As ServerCallContext) As Task(Of TerminalGrpcRouterProtoOutput)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "protoInput",
+                "type": {
+                  "uid": "OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalGrpcRouterProtoInput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalGrpcRouterProtoInput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalGrpcRouterProtoInput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalGrpcRouterProtoInput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput\" text=\"TerminalGrpcRouterProtoInput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput\" text=\"TerminalGrpcRouterProtoInput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">The gRPC input containing the <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "context",
+                "type": {
+                  "uid": "Grpc.Core.ServerCallContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ServerCallContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ServerCallContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ServerCallContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ServerCallContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Grpc.Core.ServerCallContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Grpc.Core.ServerCallContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Grpc.Core.ServerCallContext\" text=\"ServerCallContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Grpc.Core.ServerCallContext\" text=\"ServerCallContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">The gRPC server call context.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput.html\">TerminalGrpcRouterProtoOutput</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput.html\">TerminalGrpcRouterProtoOutput</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation, including the <xref href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RouteCommand",
+            "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+            "startLine": 48,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Server"
+          ],
+          "namespace": "OneImlx.Terminal.Server",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Application code should not call this method directly. Instead, use the client NuGet package to send the\ncommand to the gRPC terminal server.</p>\n",
+          "example": [],
+          "overridden": {
+            "uid": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput,Grpc.Core.ServerCallContext)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.RouteCommand(TerminalGrpcRouterProtoInput, ServerCallContext)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput, Grpc.Core.ServerCallContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput, Grpc.Core.ServerCallContext)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.html#OneImlx_Terminal_Server_TerminalGrpcRouterProto_TerminalGrpcRouterProtoBase_RouteCommand_OneImlx_Terminal_Server_TerminalGrpcRouterProtoInput_Grpc_Core_ServerCallContext_\">RouteCommand</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput.html\">TerminalGrpcRouterProtoInput</a>, <a class=\"xref\" href=\"https://github.com/grpc/grpc-dotnet/blob/main/src/Grpc.Core.Api/ServerCallContext.cs\">ServerCallContext</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.html#OneImlx_Terminal_Server_TerminalGrpcRouterProto_TerminalGrpcRouterProtoBase_RouteCommand_OneImlx_Terminal_Server_TerminalGrpcRouterProtoInput_Grpc_Core_ServerCallContext_\">RouteCommand</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput.html\">TerminalGrpcRouterProtoInput</a>, <a class=\"xref\" href=\"https://github.com/grpc/grpc-dotnet/blob/main/src/Grpc.Core.Api/ServerCallContext.cs\">ServerCallContext</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RouteCommand"
+              },
+              {
+                "lang": "vb",
+                "value": "RouteCommand"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalGrpcMapService.RouteCommand"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalGrpcMapService.RouteCommand"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand*\" text=\"RouteCommand\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand*\" text=\"RouteCommand\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Server_TerminalGrpcMapService_RouteCommand_"
+          },
+          "exceptions": [
+            {
+              "type": {
+                "uid": "OneImlx.Terminal.Shared.TerminalException",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Thrown when the terminal gRPC router is not running.</p>\n"
+            }
+          ],
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Routes the <xref href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput\" data-throw-if-not-resolved=\"false\"></xref> to the appropriate command runner.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalGrpcMapService_RouteCommand_OneImlx_Terminal_Server_TerminalGrpcRouterProtoInput_Grpc_Core_ServerCallContext_.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalGrpcMapService.RouteCommand(OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput%2CGrpc.Core.ServerCallContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs/#L49",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Server_TerminalGrpcMapService_RouteCommand_OneImlx_Terminal_Server_TerminalGrpcRouterProtoInput_Grpc_Core_ServerCallContext_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalGrpcMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalGrpcMapService"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalGrpcMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalGrpcMapService"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Server.TerminalGrpcMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Server.TerminalGrpcMapService"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalGrpcMapService",
+    "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Server"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Server",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Represents the gRPC service responsible for managing gRPC communication in the <code>OneImlx</code> terminal framework.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalGrpcMapService : TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalGrpcMapService Inherits TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Server",
+      "href": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        },
+        {
+          "lang": "vb",
+          "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.html\">TerminalGrpcRouterProto</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.html\">TerminalGrpcRouterProtoBase</a>"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.html\">TerminalGrpcRouterProto</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.html\">TerminalGrpcRouterProtoBase</a>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Server.TerminalGrpcMapService.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalGrpcMapService.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalGrpcMapService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalGrpcMapService.cs/#L20",
+  "description": "Represents the gRPC service responsible for managing gRPC communication in the OneImlx terminal framework.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Server_TerminalGrpcMapService",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

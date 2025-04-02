@@ -1,0 +1,1841 @@
+{
+  "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Corporate"
+            },
+            {
+              "lang": "vb",
+              "value": "Corporate"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Corporate"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Corporate"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate\" text=\"Corporate\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate\" text=\"Corporate\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Corporate = \"urn:oneimlx:terminal:plan:corporate\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Corporate As String = \"urn:oneimlx:terminal:plan:corporate\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Corporate",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 42,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The corporate license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Corporate.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Corporate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L43",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Corporate",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Custom",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "Custom"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Custom"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Custom"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Custom"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Custom\" text=\"Custom\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Custom\" text=\"Custom\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Custom = \"urn:oneimlx:terminal:plan:custom\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Custom As String = \"urn:oneimlx:terminal:plan:custom\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Custom",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 47,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The custom license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Custom.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Custom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L48",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Custom",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Demo",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Demo"
+            },
+            {
+              "lang": "vb",
+              "value": "Demo"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Demo"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Demo"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Demo"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Demo"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Demo\" text=\"Demo\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Demo\" text=\"Demo\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Demo = \"urn:oneimlx:terminal:plan:demo\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Demo As String = \"urn:oneimlx:terminal:plan:demo\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Demo",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 52,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The demo license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Demo.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Demo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L53",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Demo",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Enterprise"
+            },
+            {
+              "lang": "vb",
+              "value": "Enterprise"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Enterprise"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Enterprise"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise\" text=\"Enterprise\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise\" text=\"Enterprise\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Enterprise = \"urn:oneimlx:terminal:plan:enterprise\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Enterprise As String = \"urn:oneimlx:terminal:plan:enterprise\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Enterprise",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The enterprise license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Enterprise.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Enterprise%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Enterprise",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Micro",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Micro"
+            },
+            {
+              "lang": "vb",
+              "value": "Micro"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Micro"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Micro"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Micro"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Micro"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Micro\" text=\"Micro\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Micro\" text=\"Micro\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Micro = \"urn:oneimlx:terminal:plan:micro\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Micro As String = \"urn:oneimlx:terminal:plan:micro\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Micro",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 62,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The micro license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Micro.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Micro%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L63",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Micro",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Smb",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Smb"
+            },
+            {
+              "lang": "vb",
+              "value": "Smb"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Smb"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Smb"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Smb"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Smb"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Smb\" text=\"Smb\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Smb\" text=\"Smb\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Smb = \"urn:oneimlx:terminal:plan:smb\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Smb As String = \"urn:oneimlx:terminal:plan:smb\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Smb",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 67,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The SMB license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Smb.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Smb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L68",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Smb",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.Solo",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Solo"
+            },
+            {
+              "lang": "vb",
+              "value": "Solo"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.Solo"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.Solo"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Solo"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.Solo"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Solo\" text=\"Solo\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.Solo\" text=\"Solo\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string Solo = \"urn:oneimlx:terminal:plan:solo\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const Solo As String = \"urn:oneimlx:terminal:plan:solo\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Solo",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 72,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The solo license pricing plan.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_Solo.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.Solo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L73",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_Solo",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsValidPlan(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "IsValidPlan(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalLicensePlans.IsValidPlan(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalLicensePlans.IsValidPlan(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(System.String)\" text=\"IsValidPlan(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(System.String)\" text=\"IsValidPlan(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool IsValidPlan(string plan)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function IsValidPlan(plan As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "plan",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\"><code>true</code> if the plan is valid; otherwise, <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IsValidPlan",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+            "startLine": 18,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsValidPlan"
+              },
+              {
+                "lang": "vb",
+                "value": "IsValidPlan"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalLicensePlans.IsValidPlan"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalLicensePlans.IsValidPlan"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan*\" text=\"IsValidPlan\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan*\" text=\"IsValidPlan\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_IsValidPlan_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">Determines if the plan is valid for <code>terminal</code>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans_IsValidPlan_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans.IsValidPlan(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L19",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_TerminalLicensePlans_IsValidPlan_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalLicensePlans"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalLicensePlans"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalLicensePlans"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalLicensePlans"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Licensing.TerminalLicensePlans"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Licensing.TerminalLicensePlans"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "TerminalLicensePlans",
+    "path": "../../shared/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The terminal framework license plans.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalLicensePlans"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalLicensePlans"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_TerminalLicensePlans.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.TerminalLicensePlans%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/TerminalLicensePlans.cs/#L13",
+  "description": "The terminal framework license plans.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Licensing_TerminalLicensePlans",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

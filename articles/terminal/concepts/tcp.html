@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>TCP/IP Router </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="TCP/IP Router ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/tcp.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<p><img src="https://img.shields.io/badge/status-under--review-yellow" alt="in-progress"></p>
+<h1 id="tcpip-router">TCP/IP Router</h1>
+<p>The <code>TerminalTcpRouter</code> provides a streamlined approach to building TCP/IP server applications in .NET. This component abstracts the complexities of network programming, allowing developers to focus on application logic rather than the nuances of network communication.</p>
+<h2 id="why-use-terminaltcprouter">Why Use TerminalTcpRouter?</h2>
+<p>TCP/IP communications are foundational for networked applications but can be complex to implement directly using sockets and low-level protocols. The <code>TerminalTcpRouter</code> simplifies this by offering:</p>
+<ul>
+<li><strong>Abstraction over TCP/IP Sockets</strong>: Encapsulates the details of socket management, connection handling, and data transmission.</li>
+<li><strong>Built-In Concurrency and Scalability</strong>: Automatically manages multiple client connections efficiently, leveraging .NET's asynchronous programming model.</li>
+<li><strong>Integration with .NET Ecosystem</strong>: Seamlessly works within the .NET ecosystem, allowing for easy integration with other .NET services and applications.</li>
+</ul>
+<h2 id="key-concepts">Key Concepts</h2>
+<h3 id="tcp-server-creation">TCP Server Creation</h3>
+<p>The router enables the creation of a TCP server that listens on a specified port for incoming connections. It abstracts the setup, binding, and listening phases, reducing the setup to a few configuration parameters.</p>
+<h3 id="connection-management">Connection Management</h3>
+<p>Manages client connections, including accepting new connections, reading data, and sending responses. It handles these tasks asynchronously, optimizing resource use and supporting high volumes of concurrent connections.</p>
+<h3 id="command-processing">Command Processing</h3>
+<p>At its core, the router is designed to process commands or requests sent over TCP connections. Developers can define custom logic to interpret and respond to these commands, facilitating a wide range of TCP-based applications.</p>
+<h3 id="graceful-shutdown">Graceful Shutdown</h3>
+<p>Supports clean and orderly shutdown of the server, ensuring that all active connections are properly closed and resources are released, minimizing the risk of data loss or corruption.</p>
+<h2 id="use-cases">Use Cases</h2>
+<ul>
+<li><strong>Microservices Architecture</strong>: Ideal for microservices that communicate over TCP, providing a reliable and scalable communication channel.</li>
+<li><strong>Real-Time Data Streaming</strong>: Can be used to build applications that require real-time data streaming or processing, such as financial tickers or live monitoring systems.</li>
+<li><strong>IoT Device Communication</strong>: Suitable for backend systems that need to manage connections with multiple IoT devices, allowing for efficient data collection and device control.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>To start using the <code>TerminalTcpRouter</code>, define your TCP server's configuration, including the port to listen on and any specific command processing logic. Initiate the router with these configurations and start listening for incoming connections. The router takes care of the rest, from managing client connections to executing your custom command processing logic.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The <code>TerminalTcpRouter</code> is a powerful tool for .NET developers, simplifying the creation and management of TCP server applications. By abstracting the complexities of direct network programming, it allows developers to focus on what matters most: building the logic and features of their applications.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/tcp.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

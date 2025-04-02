@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Terminal Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Terminal Framework ">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/intro.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="terminal-framework">Terminal Framework</h1>
+
+<p><code>OneImlx.Terminal</code> is a cross-platform, adaptable framework designed for developing modern and secured terminal applications. It simplifies terminal infrastructure complexity, enabling developers to focus on building enterprise-grade terminal applications with Unicode support and extensive command hierarchies.</p>
+<ul>
+<li>Utilize micro services architecture, Dependency Injection (DI), and options pattern to design and configure your terminal apps.</li>
+<li>Access built-in features or develop custom solutions for terminal UX, runtime, parsing, routing, error handling, command validation, and storage.</li>
+<li>Choose in-memory command storage or integrate with your custom storage solutions.</li>
+<li>Create platform and deployment agnostic terminals, servers, and custom applications for on-premise, cloud, hybrid, highly-secured OSAT, or factory environments.</li>
+<li>Integrate with OAuth and OpenID Connect (OIDC) authentication providers</li>
+<li>Engage with our team on GitHub for support and feature enhancements.</li>
+<li>Quickly on-board with our <a href="gs/demo.html">demo license</a> and GitHub samples, no payment required.</li>
+</ul>
+<blockquote>
+<p><em><strong>Easily transform any .NET ecosystem feature into a modern Unicode terminal app.</strong></em></p>
+</blockquote>
+<h2 id="open-source">Open Source</h2>
+<p>The terminal framework is open-source hosted on <a href="https://github.com/perpetualintelligence/terminal">GitHub</a>, encouraging community collaboration and feedback.</p>
+<p><img src="../../images/terminal/framework/repo.png" alt="repo"></p>
+<p>Our DevOps builds the framework with <a href="https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners">hosted runners</a> for various OS platforms, supporting platforms compatible with .NET.</p>
+<p><img src="https://img.shields.io/badge/macOS-grey?style=flat-square&amp;logo=macos" alt="macOS">
+<img src="https://img.shields.io/badge/ubuntu-grey?style=flat-square&amp;logo=ubuntu" alt="ubuntu">
+<img src="https://img.shields.io/badge/windows-grey?style=flat-square&amp;logo=windows" alt="windows"></p>
+<p>Access licensed packages via NuGet:</p>
+<p><a href="https://www.nuget.org/packages/OneImlx.Terminal"><img src="https://img.shields.io/nuget/vpre/OneImlx.Terminal?label=OneImlx.Terminal" alt="NuGet"></a>
+<a href="https://www.nuget.org/packages/OneImlx.Terminal.Authentication"><img src="https://img.shields.io/nuget/vpre/OneImlx.Terminal.Authentication?label=OneImlx.Terminal.Authentication" alt="NuGet"></a></p>
+<h2 id="samples">Samples</h2>
+<p>Browse our <a href="https://github.com/perpetualintelligence/terminal/tree/main/apps">GitHub samples</a> to explore various applications build using the <code>OneImlx.Terminal</code> framework.</p>
+<ul>
+<li>Standalone terminal application</li>
+<li>Modern command-line interfaces (CLI) similar to <code>dotnet CLI</code>, <code>GitHub CLI</code>, <code>Stripe CLI</code>, etc.</li>
+<li>Server-based terminal applications for managing service-to-service communications, enhancing connectivity and functionality between different services</li>
+<li>IoT Terminal Applications for managing and communicating with IoT devices</li>
+</ul>
+<h2 id="integration">Integration</h2>
+<p>The <code>OneImlx.Terminal</code> framework separates the terminal's backend logic from the frontend, making it ideal for building terminal applications, servers, and command-line interfaces.</p>
+<h3 id="enhanced-integration-with-net-ecosystem">Enhanced Integration with .NET Ecosystem</h3>
+<p><code>OneImlx.Terminal</code> ensures seamless integration with the .NET stack, streamlining the development and deployment.</p>
+<h4 id="console">Console</h4>
+<p>Enhance console applications with advanced command routing and execution capabilities by integrating the <code>OneImlx.Terminal</code> framework.</p>
+<h4 id="custom-ux">Custom UX</h4>
+<p>Utilize ASP.NET Core, Blazor, and Blazor WebAssembly (WASM) with <code>OneImlx.Terminal</code> to craft custom, responsive terminal user interfaces.</p>
+<p>The framework, acting as a comprehensive terminal parsing and execution engine, allows developers to create dynamic UX for server-side and client-side terminal applications. It handles complex command executions efficiently and adapts to various .NET frameworks, supporting flexible command execution syntax for sophisticated, secure terminal applications.</p>
+<h4 id="backend">Backend</h4>
+<p>Use the <code>OneImlx.Terminal</code> framework to develop server applications capable of managing complex client-server and service-to-service communications using TCP, UDP, or custom routers. This setup enables robust and scalable communication solutions tailored to your specific infrastructure needs.</p>
+<p>It also enables developers and product owners to expose complex APIs as simple command strings with arguments and options, facilitating the creation of products as CLI apps, diagnostic tools, and administrative interfaces.</p>
+<h4 id="on-premise">On-Premise</h4>
+<p><code>OneImlx.Terminal</code> excels in on-premise server applications, aligning with internal policies and infrastructure. It offers tools and flexibility for managing and deploying terminal applications in secure, zero-trust, and controlled environments.</p>
+<h3 id="other-integrations">Other Integrations</h3>
+<p>Develop various frontend terminal applications using technologies like React, Vue.js, Electron, or MAUI, communicating with a .NET-based terminal server for command processing and execution.</p>
+<h4 id="web-and-cloud-native">Web and Cloud Native</h4>
+<p>Create web and cloud native terminal applications using JavaScript frameworks, interacting with a .NET-based terminal server for command execution.</p>
+<h4 id="other-languages">Other Languages</h4>
+<p>Build terminal applications in Python, Java, or other languages, integrating with the .NET-based terminal server for robust command execution.</p>
+<blockquote>
+<p><strong>Note:</strong> <code>OneImlx.Terminal</code> currently supports TCP/IP, UDP, and custom routers. Future plans include adding support for gRPC and HTTP.</p>
+</blockquote>
+<h2 id="deployment">Deployment</h2>
+<p>Deploy the terminal server and apps as needed:</p>
+<ul>
+<li><strong>On-Premise</strong>: Maintain full control and comply with internal policies.</li>
+<li><strong>Cloud</strong>: Leverage cloud infrastructure.</li>
+<li><strong>Containerized Environments</strong>: Simplify deployment and scaling.</li>
+</ul>
+<h2 id="feedback">Feedback</h2>
+<p>Submit <a href="https://github.com/perpetualintelligence/terminal/issues">issues or feature requests</a> directly on GitHub.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://github.com/dotnet/docs/tree/main/docs/architecture/microservices">Microservices Architecture</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/">.NET Application Architecture</a>.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/intro.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

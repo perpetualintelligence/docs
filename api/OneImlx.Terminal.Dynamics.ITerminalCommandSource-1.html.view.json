@@ -1,0 +1,549 @@
+{
+  "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSource`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Dynamics",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync(`0)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Dynamics.ITerminalCommandSource`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LoadCommandSourceAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "LoadCommandSourceAsync(TContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalCommandSource<TContext>.LoadCommandSourceAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalCommandSource(Of TContext).LoadCommandSourceAsync(TContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource<TContext>.LoadCommandSourceAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource(Of TContext).LoadCommandSourceAsync(TContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync(`0)\" text=\"LoadCommandSourceAsync(TContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync(`0)\" text=\"LoadCommandSourceAsync(TContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task LoadCommandSourceAsync(TContext context)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function LoadCommandSourceAsync(context As TContext) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "{TContext}",
+                  "definition": "TContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">The terminal source context.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">This interface allows for different sources of terminal commands, either from local or remote origins.\nIt supports customization via the <code class=\"typeparamref\">TContext</code> parameter, which can be tailored\nto specific loading contexts (e.g., configurations, authentication). Implementers can define how commands\nare loaded, catering to various application needs.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "LoadCommandSourceAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs",
+            "startLine": 29,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Dynamics",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "LoadCommandSourceAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "LoadCommandSourceAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalCommandSource<TContext>.LoadCommandSourceAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalCommandSource(Of TContext).LoadCommandSourceAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource<TContext>.LoadCommandSourceAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource(Of TContext).LoadCommandSourceAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync*\" text=\"LoadCommandSourceAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource`1.LoadCommandSourceAsync*\" text=\"LoadCommandSourceAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSource_1_LoadCommandSourceAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">Loads the terminal command source asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Dynamics_ITerminalCommandSource_1_LoadCommandSourceAsync__0_.md&value=---%0Auid%3A%20OneImlx.Terminal.Dynamics.ITerminalCommandSource%601.LoadCommandSourceAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs/#L30",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSource_1_LoadCommandSourceAsync__0_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandSource<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandSource(Of TContext)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandSource<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandSource(Of TContext)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSource(Of TContext)"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalCommandSource",
+    "path": "../../terminal/src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs",
+    "startLine": 17,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Dynamics",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">An abstraction of a terminal command source.</p>\n",
+  "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">A command source is a provider of terminal commands. It can be a local or remote source.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalCommandSource<TContext> where TContext : class"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalCommandSource(Of TContext As Class)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "TContext",
+        "description": ""
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Dynamics_ITerminalCommandSource_1.md&value=---%0Auid%3A%20OneImlx.Terminal.Dynamics.ITerminalCommandSource%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Dynamics/ITerminalCommandSource.cs/#L18",
+  "description": "An abstraction of a terminal command source.",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSource_1",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

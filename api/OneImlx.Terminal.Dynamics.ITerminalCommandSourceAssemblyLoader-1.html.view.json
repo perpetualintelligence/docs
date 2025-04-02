@@ -1,0 +1,549 @@
+{
+  "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Dynamics",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync(`0)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LoadAssembliesAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "LoadAssembliesAsync(TContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalCommandSourceAssemblyLoader<TContext>.LoadAssembliesAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalCommandSourceAssemblyLoader(Of TContext).LoadAssembliesAsync(TContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader<TContext>.LoadAssembliesAsync(TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader(Of TContext).LoadAssembliesAsync(TContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync(`0)\" text=\"LoadAssembliesAsync(TContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync(`0)\" text=\"LoadAssembliesAsync(TContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<IEnumerable<Assembly>> LoadAssembliesAsync(TContext context)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function LoadAssembliesAsync(context As TContext) As Task(Of IEnumerable(Of Assembly))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "{TContext}",
+                  "definition": "TContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml\" sourcestartlinenumber=\"1\">The assembly load context.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{System.Reflection.Assembly}}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<IEnumerable<Assembly>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of IEnumerable(Of Assembly))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<IEnumerable<Assembly>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of IEnumerable(Of Assembly))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<System.Reflection.Assembly>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of System.Reflection.Assembly))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "LoadAssembliesAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Dynamics",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "LoadAssembliesAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "LoadAssembliesAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalCommandSourceAssemblyLoader<TContext>.LoadAssembliesAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalCommandSourceAssemblyLoader(Of TContext).LoadAssembliesAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader<TContext>.LoadAssembliesAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader(Of TContext).LoadAssembliesAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync*\" text=\"LoadAssembliesAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader`1.LoadAssembliesAsync*\" text=\"LoadAssembliesAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSourceAssemblyLoader_1_LoadAssembliesAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml\" sourcestartlinenumber=\"1\">Loads the assemblies asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Dynamics_ITerminalCommandSourceAssemblyLoader_1_LoadAssembliesAsync__0_.md&value=---%0Auid%3A%20OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader%601.LoadAssembliesAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSourceAssemblyLoader_1_LoadAssembliesAsync__0_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandSourceAssemblyLoader<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandSourceAssemblyLoader(Of TContext)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandSourceAssemblyLoader<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandSourceAssemblyLoader(Of TContext)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader<TContext>"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader(Of TContext)"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalCommandSourceAssemblyLoader",
+    "path": "../../terminal/src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Dynamics",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Dynamics"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Dynamics"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Dynamics.html\">Dynamics</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml\" sourcestartlinenumber=\"1\">An abstraction to load assemblies that are command source within your terminal.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalCommandSourceAssemblyLoader<TContext>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalCommandSourceAssemblyLoader(Of TContext)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "TContext",
+        "description": ""
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Dynamics_ITerminalCommandSourceAssemblyLoader_1.md&value=---%0Auid%3A%20OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Dynamics/ITerminalCommandSourceAssemblyLoader.cs/#L17",
+  "description": "An abstraction to load assemblies that are command source within your terminal.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Dynamics_ITerminalCommandSourceAssemblyLoader_1",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

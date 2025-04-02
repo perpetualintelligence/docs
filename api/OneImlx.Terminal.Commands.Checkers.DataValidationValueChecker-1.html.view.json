@@ -1,0 +1,2748 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor(System.ComponentModel.DataAnnotations.ValidationAttribute)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker(ValidationAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ValidationAttribute)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.DataValidationValueChecker(ValidationAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).New(ValidationAttribute)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.DataValidationValueChecker(System.ComponentModel.DataAnnotations.ValidationAttribute)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).New(System.ComponentModel.DataAnnotations.ValidationAttribute)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor(System.ComponentModel.DataAnnotations.ValidationAttribute)\" text=\"DataValidationValueChecker(ValidationAttribute)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor(System.ComponentModel.DataAnnotations.ValidationAttribute)\" text=\"DataValidationValueChecker(ValidationAttribute)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public DataValidationValueChecker(ValidationAttribute validationAttribute)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(validationAttribute As ValidationAttribute)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "validationAttribute",
+                "type": {
+                  "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ValidationAttribute"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ValidationAttribute"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ValidationAttribute"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ValidationAttribute"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">The validation attribute.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.DataValidationValueChecker"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.DataValidationValueChecker"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor*\" text=\"DataValidationValueChecker\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.#ctor*\" text=\"DataValidationValueChecker\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1__ctor_System_ComponentModel_DataAnnotations_ValidationAttribute_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.%23ctor(System.ComponentModel.DataAnnotations.ValidationAttribute)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1__ctor_System_ComponentModel_DataAnnotations_ValidationAttribute_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "ValidationAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.ValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).ValidationAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.ValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).ValidationAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ValidationAttribute ValidationAttribute { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property ValidationAttribute As ValidationAttribute"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValidationAttribute"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValidationAttribute"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValidationAttribute"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValidationAttribute"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ValidationAttribute",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 30,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ValidationAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "ValidationAttribute"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.ValidationAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).ValidationAttribute"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.ValidationAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).ValidationAttribute"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute*\" text=\"ValidationAttribute\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.ValidationAttribute*\" text=\"ValidationAttribute\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_ValidationAttribute_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">The validation attribute.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_ValidationAttribute.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.ValidationAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L31",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_ValidationAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync(`0)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CheckValueAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "CheckValueAsync(TValue)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.CheckValueAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).CheckValueAsync(TValue)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.CheckValueAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).CheckValueAsync(TValue)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync(`0)\" text=\"CheckValueAsync(TValue)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync(`0)\" text=\"CheckValueAsync(TValue)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task CheckValueAsync(TValue value)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function CheckValueAsync(value As TValue) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "value",
+                "type": {
+                  "uid": "{TValue}",
+                  "definition": "TValue",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">The entity to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CheckValueAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "CheckValueAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).CheckValueAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).CheckValueAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync*\" text=\"CheckValueAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.CheckValueAsync*\" text=\"CheckValueAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_CheckValueAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker{{TValue}}.CheckValueAsync({TValue})",
+              "definition": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync(`0)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CheckValueAsync(TValue)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CheckValueAsync(TValue)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IValueChecker<TValue>.CheckValueAsync(TValue)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IValueChecker(Of TValue).CheckValueAsync(TValue)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<TValue>.CheckValueAsync(TValue)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of TValue).CheckValueAsync(TValue)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_IValueChecker_1_CheckValueAsync__0_\">CheckValueAsync</a>(TValue)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_IValueChecker_1_CheckValueAsync__0_\">CheckValueAsync</a>(TValue)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">Checks the option value.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_CheckValueAsync__0_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.CheckValueAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_CheckValueAsync__0_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Equals(DataValidationValueChecker<TValue>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Equals(DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.Equals(DataValidationValueChecker<TValue>)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).Equals(DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"Equals(DataValidationValueChecker&lt;TValue&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"Equals(DataValidationValueChecker&lt;TValue&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool Equals(DataValidationValueChecker<TValue> other)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function Equals(other As DataValidationValueChecker(Of TValue)) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "other",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>&lt;TValue&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>(Of TValue)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Equals",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 54,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).Equals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).Equals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*\" text=\"Equals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*\" text=\"Equals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.Equals(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L55",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(System.Object)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "Equals(Object)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).Equals(Object)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).Equals(Object)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(System.Object)\" text=\"Equals(object?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals(System.Object)\" text=\"Equals(object?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override bool Equals(object? obj)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function Equals(obj As Object) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "obj",
+                "type": {
+                  "uid": "System.Object",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Equals",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 41,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overridden": {
+            "uid": "System.Object.Equals(System.Object)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals(Object)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object.Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.Equals(Object)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object.Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.Equals(Object)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).Equals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).Equals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*\" text=\"Equals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.Equals*\" text=\"Equals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_System_Object_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L42",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_Equals_System_Object_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetHashCode()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).GetHashCode()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).GetHashCode()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode\" text=\"GetHashCode()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode\" text=\"GetHashCode()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override int GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function GetHashCode() As Integer"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetHashCode",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overridden": {
+            "uid": "System.Object.GetHashCode",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "GetHashCode()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object.GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.GetHashCode()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object.GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.GetHashCode()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "GetHashCode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).GetHashCode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).GetHashCode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode*\" text=\"GetHashCode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetHashCode*\" text=\"GetHashCode\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetHashCode_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetHashCode.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetHashCode",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetRawType()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).GetRawType()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).GetRawType()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType\" text=\"GetRawType()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType\" text=\"GetRawType()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Type GetRawType()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetRawType() As Type"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Type",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Type"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Type"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Type"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetRawType",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 66,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "GetRawType"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).GetRawType"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).GetRawType"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType*\" text=\"GetRawType\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.GetRawType*\" text=\"GetRawType\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetRawType_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker{{TValue}}.GetRawType",
+              "definition": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "GetRawType()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "GetRawType()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IValueChecker<TValue>.GetRawType()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IValueChecker(Of TValue).GetRawType()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<TValue>.GetRawType()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of TValue).GetRawType()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_IValueChecker_1_GetRawType\">GetRawType</a>()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_IValueChecker_1_GetRawType\">GetRawType</a>()"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">Returns the underlying checker raw type.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetRawType.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.GetRawType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L67",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_GetRawType",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inOperator": true,
+      "typePropertyName": "inOperator",
+      "id": "operators",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Equality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "operator ==(DataValidationValueChecker<TValue>?, DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "=(DataValidationValueChecker(Of TValue), DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.operator ==(DataValidationValueChecker<TValue>?, DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).=(DataValidationValueChecker(Of TValue), DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.operator ==(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>?, OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).=(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue), OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Equality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"operator ==(DataValidationValueChecker&lt;TValue&gt;?, DataValidationValueChecker&lt;TValue&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Equality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"operator ==(DataValidationValueChecker&lt;TValue&gt;?, DataValidationValueChecker&lt;TValue&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool operator ==(DataValidationValueChecker<TValue>? left, DataValidationValueChecker<TValue>? right)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Operator =(left As DataValidationValueChecker(Of TValue), right As DataValidationValueChecker(Of TValue)) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "left",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>&lt;TValue&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>(Of TValue)"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "right",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>&lt;TValue&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>(Of TValue)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "op_Equality",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 72,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Equality*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "="
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).="
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).="
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "operator <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Equality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__\">==</a>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Equality_"
+          },
+          "level": 0,
+          "type": "operator",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Equality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.op_Equality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%7B%600%7D%2COneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L73",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Equality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Inequality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "operator !=(DataValidationValueChecker<TValue>?, DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "<>(DataValidationValueChecker(Of TValue), DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DataValidationValueChecker<TValue>.operator !=(DataValidationValueChecker<TValue>?, DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DataValidationValueChecker(Of TValue).<>(DataValidationValueChecker(Of TValue), DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.operator !=(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>?, OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).<>(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue), OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Inequality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"operator !=(DataValidationValueChecker&lt;TValue&gt;?, DataValidationValueChecker&lt;TValue&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Inequality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0},OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker{`0})\" text=\"operator !=(DataValidationValueChecker&lt;TValue&gt;?, DataValidationValueChecker&lt;TValue&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool operator !=(DataValidationValueChecker<TValue>? left, DataValidationValueChecker<TValue>? right)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Operator <>(left As DataValidationValueChecker(Of TValue), right As DataValidationValueChecker(Of TValue)) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "left",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>&lt;TValue&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>(Of TValue)"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "right",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>&lt;TValue&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html\">DataValidationValueChecker</a>(Of TValue)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "op_Inequality",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+            "startLine": 78,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker`1.op_Inequality*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "<>"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DataValidationValueChecker<TValue>.operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "DataValidationValueChecker(Of TValue).<>"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>.operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue).<>"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "operator <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html#OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Inequality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__\">!=</a>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Inequality_"
+          },
+          "level": 0,
+          "type": "operator",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Inequality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601.op_Inequality(OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%7B%600%7D%2COneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L79",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1_op_Inequality_OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker__0__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DataValidationValueChecker<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "DataValidationValueChecker(Of TValue)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DataValidationValueChecker<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "DataValidationValueChecker(Of TValue)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker(Of TValue)"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "DataValidationValueChecker",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker%601\" data-throw-if-not-resolved=\"false\"></xref> that uses <xref href=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" data-throw-if-not-resolved=\"false\"></xref> to check an option value.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class DataValidationValueChecker<TValue> : IValueChecker<TValue> where TValue : ICommandValue"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class DataValidationValueChecker(Of TValue As ICommandValue) Implements IValueChecker(Of TValue)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "TValue",
+        "description": ""
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker{{TValue}}",
+      "definition": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IValueChecker<TValue>"
+        },
+        {
+          "lang": "vb",
+          "value": "IValueChecker(Of TValue)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IValueChecker<TValue>"
+        },
+        {
+          "lang": "vb",
+          "value": "IValueChecker(Of TValue)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<TValue>"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of TValue)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html\">IValueChecker</a>&lt;TValue&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html\">IValueChecker</a>(Of TValue)"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/DataValidationValueChecker.cs/#L17",
+  "description": "The default  that uses  to check an option value.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Checkers_DataValidationValueChecker_1",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

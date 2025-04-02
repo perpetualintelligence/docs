@@ -1,0 +1,1045 @@
+{
+  "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Stores",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Stores.html\">Stores</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Stores.html\">Stores</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Stores.ITerminalCommandStore",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "AllAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalCommandStore.AllAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalCommandStore.AllAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync\" text=\"AllAsync()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync\" text=\"AllAsync()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<CommandDescriptors> AllAsync()"
+              },
+              {
+                "lang": "vb",
+                "value": "Function AllAsync() As Task(Of CommandDescriptors)"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Commands.CommandDescriptors}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandDescriptors>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandDescriptors)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<CommandDescriptors>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of CommandDescriptors)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Commands.CommandDescriptors>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Commands.CommandDescriptors)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptors.html\">CommandDescriptors</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptors.html\">CommandDescriptors</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Collections.Generic.Dictionary%602\" data-throw-if-not-resolved=\"false\"></xref> of command descriptors.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AllAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+            "startLine": 40,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Stores",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AllAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalCommandStore.AllAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalCommandStore.AllAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync*\" text=\"AllAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync*\" text=\"AllAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_AllAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">Returns all <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Stores_ITerminalCommandStore_AllAsync.md&value=---%0Auid%3A%20OneImlx.Terminal.Stores.ITerminalCommandStore.AllAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs/#L41",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_AllAsync",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Stores.ITerminalCommandStore",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TryAddAsync(string, CommandDescriptor)"
+            },
+            {
+              "lang": "vb",
+              "value": "TryAddAsync(String, CommandDescriptor)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalCommandStore.TryAddAsync(string, CommandDescriptor)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalCommandStore.TryAddAsync(String, CommandDescriptor)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(string, OneImlx.Terminal.Commands.CommandDescriptor)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(String, OneImlx.Terminal.Commands.CommandDescriptor)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor)\" text=\"TryAddAsync(string, CommandDescriptor)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor)\" text=\"TryAddAsync(string, CommandDescriptor)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<bool> TryAddAsync(string id, CommandDescriptor commandDescriptor)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function TryAddAsync(id As String, commandDescriptor As CommandDescriptor) As Task(Of Boolean)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">The command id.</p>\n"
+              },
+              {
+                "id": "commandDescriptor",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandDescriptor",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandDescriptor"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandDescriptor"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandDescriptor"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptor\" text=\"CommandDescriptor\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptor\" text=\"CommandDescriptor\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">The command descriptor to add.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Boolean}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of Boolean)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\"><code>true</code> if added, <code>false</code> otherwise.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TryAddAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+            "startLine": 24,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Stores",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TryAddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TryAddAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalCommandStore.TryAddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalCommandStore.TryAddAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync*\" text=\"TryAddAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync*\" text=\"TryAddAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_TryAddAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">Adds a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> to the store.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Stores_ITerminalCommandStore_TryAddAsync_System_String_OneImlx_Terminal_Commands_CommandDescriptor_.md&value=---%0Auid%3A%20OneImlx.Terminal.Stores.ITerminalCommandStore.TryAddAsync(System.String%2COneImlx.Terminal.Commands.CommandDescriptor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs/#L25",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_TryAddAsync_System_String_OneImlx_Terminal_Commands_CommandDescriptor_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor@)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Stores.ITerminalCommandStore",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TryFindByIdAsync(string, out CommandDescriptor?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TryFindByIdAsync(String, CommandDescriptor)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalCommandStore.TryFindByIdAsync(string, out CommandDescriptor?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalCommandStore.TryFindByIdAsync(String, CommandDescriptor)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(string, out OneImlx.Terminal.Commands.CommandDescriptor?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(String, OneImlx.Terminal.Commands.CommandDescriptor)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor@)\" text=\"TryFindByIdAsync(string, out CommandDescriptor?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(System.String,OneImlx.Terminal.Commands.CommandDescriptor@)\" text=\"TryFindByIdAsync(string, out CommandDescriptor?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<bool> TryFindByIdAsync(string id, out CommandDescriptor? commandDescriptor)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function TryFindByIdAsync(id As String, commandDescriptor As CommandDescriptor) As Task(Of Boolean)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">The command id.</p>\n"
+              },
+              {
+                "id": "commandDescriptor",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandDescriptor",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandDescriptor"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandDescriptor"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandDescriptor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandDescriptor"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptor\" text=\"CommandDescriptor\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptor\" text=\"CommandDescriptor\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> if found, otherwise <code>null</code></p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Boolean}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of Boolean)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TryFindByIdAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+            "startLine": 34,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Stores",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">This method should never throw an exception. If the command is not found then return <code>false</code>.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TryFindByIdAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TryFindByIdAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalCommandStore.TryFindByIdAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalCommandStore.TryFindByIdAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync*\" text=\"TryFindByIdAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync*\" text=\"TryFindByIdAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_TryFindByIdAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">Attempts to finds a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> by its id asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Stores_ITerminalCommandStore_TryFindByIdAsync_System_String_OneImlx_Terminal_Commands_CommandDescriptor__.md&value=---%0Auid%3A%20OneImlx.Terminal.Stores.ITerminalCommandStore.TryFindByIdAsync(System.String%2COneImlx.Terminal.Commands.CommandDescriptor%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs/#L35",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Stores_ITerminalCommandStore_TryFindByIdAsync_System_String_OneImlx_Terminal_Commands_CommandDescriptor__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandStore"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandStore"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalCommandStore"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalCommandStore"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Stores.ITerminalCommandStore"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Stores.ITerminalCommandStore"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalCommandStore",
+    "path": "../../terminal/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Stores",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Stores"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Stores"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Stores.html\">Stores</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Stores.html\">Stores</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">A store of <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalCommandStore"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalCommandStore"
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Stores.ITerminalCommandStore.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Stores_ITerminalCommandStore.md&value=---%0Auid%3A%20OneImlx.Terminal.Stores.ITerminalCommandStore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Stores/ITerminalCommandStore.cs/#L17",
+  "description": "A store of .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Stores_ITerminalCommandStore",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

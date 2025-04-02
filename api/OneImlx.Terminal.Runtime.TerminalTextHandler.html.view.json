@@ -1,0 +1,2850 @@
+{
+  "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor(System.StringComparison,System.Text.Encoding)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler(StringComparison, Encoding)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(StringComparison, Encoding)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.TerminalTextHandler(StringComparison, Encoding)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.New(StringComparison, Encoding)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TerminalTextHandler(System.StringComparison, System.Text.Encoding)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.New(System.StringComparison, System.Text.Encoding)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor(System.StringComparison,System.Text.Encoding)\" text=\"TerminalTextHandler(StringComparison, Encoding)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor(System.StringComparison,System.Text.Encoding)\" text=\"TerminalTextHandler(StringComparison, Encoding)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalTextHandler(StringComparison comparison, Encoding encoding)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(comparison As StringComparison, encoding As Encoding)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "comparison",
+                "type": {
+                  "uid": "System.StringComparison",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.StringComparison"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The string comparison to use.</p>\n"
+              },
+              {
+                "id": "encoding",
+                "type": {
+                  "uid": "System.Text.Encoding",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Encoding"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Encoding"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Encoding"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Encoding"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Encoding"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Encoding"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The text encoding to use.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.TerminalTextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TerminalTextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor*\" text=\"TerminalTextHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.#ctor*\" text=\"TerminalTextHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Runtime.TerminalTextHandler\" data-throw-if-not-resolved=\"false\"></xref> class with specified comparison and encoding.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler__ctor_System_StringComparison_System_Text_Encoding_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.%23ctor(System.StringComparison%2CSystem.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler__ctor_System_StringComparison_System_Text_Encoding_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Comparison"
+            },
+            {
+              "lang": "vb",
+              "value": "Comparison"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.Comparison"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.Comparison"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison\" text=\"Comparison\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison\" text=\"Comparison\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public StringComparison Comparison { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Comparison As StringComparison"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.StringComparison",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "StringComparison"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "StringComparison"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "StringComparison"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "StringComparison"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.StringComparison"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.StringComparison"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Comparison",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 32,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Comparison"
+              },
+              {
+                "lang": "vb",
+                "value": "Comparison"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.Comparison"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.Comparison"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison*\" text=\"Comparison\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison*\" text=\"Comparison\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_Comparison_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Comparison"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Comparison"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.Comparison"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.Comparison"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison\" text=\"Comparison\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison\" text=\"Comparison\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The string comparison.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_Comparison.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L33",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_Comparison",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Encoding"
+            },
+            {
+              "lang": "vb",
+              "value": "Encoding"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.Encoding"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.Encoding"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding\" text=\"Encoding\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding\" text=\"Encoding\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Encoding Encoding { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Encoding As Encoding"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Text.Encoding",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Encoding"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Encoding"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Encoding"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Encoding"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Text.Encoding"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Text.Encoding"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Text.Encoding\" text=\"Encoding\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Encoding",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 37,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "Encoding"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.Encoding"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding*\" text=\"Encoding\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding*\" text=\"Encoding\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_Encoding_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Encoding",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Encoding"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Encoding"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.Encoding"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.Encoding"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Encoding"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.Encoding"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Encoding\" text=\"Encoding\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Encoding\" text=\"Encoding\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The text encoding.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_Encoding.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.Encoding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L38",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_Encoding",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(System.Nullable{System.Char},System.Nullable{System.Char})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CharEquals(char?, char?)"
+            },
+            {
+              "lang": "vb",
+              "value": "CharEquals(Char?, Char?)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.CharEquals(char?, char?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.CharEquals(Char?, Char?)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(char?, char?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(Char?, Char?)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(System.Nullable{System.Char},System.Nullable{System.Char})\" text=\"CharEquals(char?, char?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(System.Nullable{System.Char},System.Nullable{System.Char})\" text=\"CharEquals(char?, char?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool CharEquals(char? ch1, char? ch2)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function CharEquals(ch1 As Char?, ch2 As Char?) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "ch1",
+                "type": {
+                  "uid": "System.Nullable{System.Char}",
+                  "definition": "System.Nullable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The first char to compare.</p>\n"
+              },
+              {
+                "id": "ch2",
+                "type": {
+                  "uid": "System.Nullable{System.Char}",
+                  "definition": "System.Nullable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The second char to compare.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\"><code>true</code> if the characters are equal, <code>false</code> otherwise.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CharEquals",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 40,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CharEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "CharEquals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.CharEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.CharEquals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals*\" text=\"CharEquals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals*\" text=\"CharEquals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_CharEquals_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.CharEquals(System.Nullable{System.Char},System.Nullable{System.Char})",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "CharEquals(char?, char?)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "CharEquals(Char?, Char?)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.CharEquals(char?, char?)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.CharEquals(Char?, Char?)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.CharEquals(char?, char?)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.CharEquals(Char?, Char?)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_CharEquals_System_Nullable_System_Char__System_Nullable_System_Char__\">CharEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_CharEquals_System_Nullable_System_Char__System_Nullable_System_Char__\">CharEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Determines whether the two characters are equal using <xref href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_CharEquals_System_Nullable_System_Char__System_Nullable_System_Char__.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.CharEquals(System.Nullable%7BSystem.Char%7D%2CSystem.Nullable%7BSystem.Char%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L41",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_CharEquals_System_Nullable_System_Char__System_Nullable_System_Char__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EqualityComparer()"
+            },
+            {
+              "lang": "vb",
+              "value": "EqualityComparer()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.EqualityComparer()"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.EqualityComparer()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer\" text=\"EqualityComparer()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer\" text=\"EqualityComparer()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IEqualityComparer<string> EqualityComparer()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function EqualityComparer() As IEqualityComparer(Of String)"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.IEqualityComparer{System.String}",
+                "definition": "System.Collections.Generic.IEqualityComparer`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEqualityComparer<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEqualityComparer(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEqualityComparer<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEqualityComparer(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IEqualityComparer<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IEqualityComparer(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1\">IEqualityComparer</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1\">IEqualityComparer</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "EqualityComparer",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 48,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EqualityComparer"
+              },
+              {
+                "lang": "vb",
+                "value": "EqualityComparer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.EqualityComparer"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.EqualityComparer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer*\" text=\"EqualityComparer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer*\" text=\"EqualityComparer\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_EqualityComparer_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.EqualityComparer",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "EqualityComparer()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "EqualityComparer()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.EqualityComparer()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.EqualityComparer()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.EqualityComparer()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.EqualityComparer()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_EqualityComparer\">EqualityComparer</a>()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_EqualityComparer\">EqualityComparer</a>()"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Returns the <xref href=\"System.StringComparer.InvariantCultureIgnoreCase\" data-throw-if-not-resolved=\"false\"></xref> equality comparer.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_EqualityComparer.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.EqualityComparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L49",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_EqualityComparer",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(System.Nullable{System.Char},System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SingleEquals(char?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SingleEquals(Char?, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.SingleEquals(char?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.SingleEquals(Char?, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(char?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(Char?, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(System.Nullable{System.Char},System.String)\" text=\"SingleEquals(char?, string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(System.Nullable{System.Char},System.String)\" text=\"SingleEquals(char?, string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool SingleEquals(char? ch1, string? s2)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function SingleEquals(ch1 As Char?, s2 As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "ch1",
+                "type": {
+                  "uid": "System.Nullable{System.Char}",
+                  "definition": "System.Nullable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "char?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Char?"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The first char to compare.</p>\n"
+              },
+              {
+                "id": "s2",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The second text to compare.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\"><code>true</code> if the texts are equal, <code>false</code> otherwise.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SingleEquals",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 54,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SingleEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "SingleEquals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.SingleEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.SingleEquals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals*\" text=\"SingleEquals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals*\" text=\"SingleEquals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_SingleEquals_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.SingleEquals(System.Nullable{System.Char},System.String)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "SingleEquals(char?, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "SingleEquals(Char?, String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.SingleEquals(char?, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.SingleEquals(Char?, String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.SingleEquals(char?, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.SingleEquals(Char?, String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_SingleEquals_System_Nullable_System_Char__System_String_\">SingleEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">char</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_SingleEquals_System_Nullable_System_Char__System_String_\">SingleEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.char\">Char</a>?, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Determines whether a characters and text are equal using <xref href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.Comparison\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_SingleEquals_System_Nullable_System_Char__System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.SingleEquals(System.Nullable%7BSystem.Char%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L55",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_SingleEquals_System_Nullable_System_Char__System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextEquals(string?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TextEquals(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.TextEquals(string?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.TextEquals(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(string?, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(System.String,System.String)\" text=\"TextEquals(string?, string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(System.String,System.String)\" text=\"TextEquals(string?, string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool TextEquals(string? s1, string? s2)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function TextEquals(s1 As String, s2 As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "s1",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The first text to compare.</p>\n"
+              },
+              {
+                "id": "s2",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The second text to compare.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\"><code>true</code> if the texts are equal, <code>false</code> otherwise.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextEquals",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 75,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "TextEquals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.TextEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.TextEquals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals*\" text=\"TextEquals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals*\" text=\"TextEquals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_TextEquals_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextEquals(System.String,System.String)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TextEquals(string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TextEquals(String, String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.TextEquals(string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.TextEquals(String, String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextEquals(string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextEquals(String, String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_TextEquals_System_String_System_String_\">TextEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_TextEquals_System_String_System_String_\">TextEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Determines whether the two ASCII texts are equal using <xref href=\"OneImlx.Terminal.Runtime.TerminalTextHandler.Comparison\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_TextEquals_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.TextEquals(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L76",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_TextEquals_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextLength(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TextLength(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalTextHandler.TextLength(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalTextHandler.TextLength(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(System.String)\" text=\"TextLength(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(System.String)\" text=\"TextLength(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int TextLength(string? s1)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function TextLength(s1 As String) As Integer"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "s1",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextLength",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+            "startLine": 83,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextLength"
+              },
+              {
+                "lang": "vb",
+                "value": "TextLength"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalTextHandler.TextLength"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalTextHandler.TextLength"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength*\" text=\"TextLength\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength*\" text=\"TextLength\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_TextLength_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextLength(System.String)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TextLength(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TextLength(String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalTextHandler.TextLength(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalTextHandler.TextLength(String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextLength(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler.TextLength(String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_TextLength_System_String_\">TextLength</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler.html#OneImlx_Terminal_Runtime_ITerminalTextHandler_TextLength_System_String_\">TextLength</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">Returns the ASCII text length.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler_TextLength_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler.TextLength(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L84",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalTextHandler_TextLength_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalTextHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalTextHandler"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalTextHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalTextHandler"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Runtime.TerminalTextHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Runtime.TerminalTextHandler"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalTextHandler",
+    "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalTextHandler : ITerminalTextHandler"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalTextHandler Implements ITerminalTextHandler"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalTextHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalTextHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalTextHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalTextHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Runtime.TerminalTextHandler.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalTextHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalTextHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalTextHandler.cs/#L17",
+  "description": "The default .",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Runtime_TerminalTextHandler",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

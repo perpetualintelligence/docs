@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Terminal Routers </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Terminal Routers ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/routers.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="terminal-routers">Terminal Routers</h1>
+
+<p>The <code>OneImx.Terminal</code> framework uses routers to direct commands from users or services. This article summarizes the terminal routers designed to abstract and simplify the integration of various communication protocols within .NET for <code>OneImx.Terminal</code> applications.</p>
+<h2 id="terminal-console-router">Terminal Console Router</h2>
+<p>The framework supports <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.html">TerminalConsoleRouter</a> that allows end-users to manually enter commands into your terminal application. It ensures that commands entered by the user are routed to the appropriate command runners for execution.</p>
+<p><strong>Note:</strong> In this context, <code>console</code> refers to an abstraction of console routing, meaning the console can be a standard system console, a desktop application, or a web-based console.</p>
+<pre><code class="lang-csharp">// Setup the terminal context and run the router indefinitely as a console.
+TerminalStartContext terminalStartContext = new(TerminalStartMode.Console, terminalTokenSource.Token, commandTokenSource.Token);
+TerminalConsoleRouterContext consoleRouterContext = new(terminalStartContext);
+await host.RunTerminalRouterAsync&lt;TerminalConsoleRouter, TerminalConsoleRouterContext&gt;(consoleRouterContext);
+</code></pre>
+<p>Console-based routing is particularly useful in environments where manual input and immediate command execution are necessary, offering a direct interface for administrators or users to interact with the system.</p>
+<pre><code class="lang-mermaid">graph LR;
+    user(User) -- Manual --&gt; server(Terminal Server)
+    server --&gt; router(Terminal Router)
+    router --&gt; crouter(Command Router)
+    crouter --&gt; crunner1(Runner 1)
+    crouter --&gt; crunner2(Runner 2)
+    crouter --&gt; crunnerN(Runner N)
+    
+    %% Adding a note to the Terminal Server
+    oneimlxnote[OneImx.Terminal Framework] --&gt; server
+
+    classDef user fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef server fill:#bbf,stroke:#333,stroke-width:4px;
+    classDef router fill:#fbb,stroke:#333,stroke-width:2px;
+    classDef service fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef note fill:#ffffcc,stroke:#333,stroke-width:1px,stroke-dasharray: 5, 5;
+
+    class user user;
+    class server server;
+    class router,crouter router;
+    class crunner1,crunner2,crunnerN service;
+    class oneimlxnote note;
+</code></pre>
+<h2 id="terminal-tcp-router">Terminal TCP Router</h2>
+<p>The framework supports <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalTcpRouter.html">TerminalTcpRouter</a> that allows terminal applications to function as servers, capable of receiving commands over TCP/IP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners, enabling effective command processing and response handling back to clients.&quot;</p>
+<pre><code class="lang-csharp">// Setup the terminal context and run the router as a TCP server indefinitely
+TerminalStartContext terminalStartContext = new(TerminalStartMode.Tcp, terminalTokenSource.Token, commandTokenSource.Token);
+TerminalConsoleRouterContext consoleRouterContext = new(terminalStartContext);
+await host.RunTerminalRouterAsync&lt;TerminalTcpRouter, TerminalTcpRouterContext&gt;(consoleRouterContext);
+</code></pre>
+<p>The standard <a href="https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes">.NET TCP/IP classes</a> provide the infrastructure for reliable delivery of streams of data between applications. This makes it suitable for applications that require robust communication capabilities, such as those involving hardware interfaces, client-server or service-service architectures.</p>
+<pre><code class="lang-mermaid">graph LR;
+    client1(Client 1) -- TCP/IP --&gt; server(Terminal Server)
+    client2(Client 2) -- TCP/IP --&gt; server
+    client3(Client 3) -- TCP/IP --&gt; server
+    client4(Client N) -- TCP/IP --&gt; server
+
+    server --&gt; router(Terminal Router)
+    router --&gt; crouter(Command Router)
+    crouter --&gt; crunner1(Runner 1)
+    crouter --&gt; crunner2(Runner 2)
+    crouter --&gt; crunnerN(Runner N)
+
+    %% Adding a note to the Terminal Server
+    oneimlxnote[OneImx.Terminal Framework] --&gt; server
+    
+    classDef client fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef server fill:#bbf,stroke:#333,stroke-width:4px;
+    classDef router fill:#fbb,stroke:#333,stroke-width:2px;
+    classDef service fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef note fill:#ffffcc,stroke:#333,stroke-width:1px,stroke-dasharray: 5, 5;
+
+    class client1,client2,client3,client4 client;
+    class server server;
+    class router,crouter router;
+    class crunner1,crunner2,crunnerN service;
+    class oneimlxnote note;
+</code></pre>
+<h2 id="terminal-udp-router">Terminal UDP Router</h2>
+<p>The framework supports <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalUdpRouter.html">TerminalUdpRouter</a> that allows terminal applications to function as servers, capable of receiving commands over UDP from multiple clients concurrently. It ensures that commands are efficiently routed to the appropriate terminal runners.</p>
+<pre><code class="lang-csharp">// Setup the terminal context and run the router as a UDP server indefinitely
+TerminalStartContext terminalStartContext = new(TerminalStartMode.Udp, terminalTokenSource.Token, commandTokenSource.Token);
+TerminalConsoleRouterContext consoleRouterContext = new(terminalStartContext);
+await host.RunTerminalRouterAsync&lt;TerminalUdpRouter, TerminalUdpRouterContext&gt;(consoleRouterContext);
+</code></pre>
+<p>The standard <a href="https://learn.microsoft.com/en-us/dotnet/framework/network-programming/using-udp-services">.NET UDP classes</a> provide the infrastructure for datagram-based communications that do not require a connection before data is sent. This makes it suitable for applications that require lightweight, low-latency communication, such as real-time data feeds or multimedia streaming.</p>
+<pre><code class="lang-mermaid">graph LR;
+    client1(Client 1) -- UDP --&gt; server(Terminal Server)
+    client2(Client 2) -- UDP --&gt; server
+    client3(Client 3) -- UDP --&gt; server
+    client4(Client N) -- UDP --&gt; server
+
+    server --&gt; router(Terminal Router)
+    router --&gt; crouter(Command Router)
+    crouter --&gt; crunner1(Runner 1)
+    crouter --&gt; crunner2(Runner 2)
+    crouter --&gt; crunnerN(Runner N)
+
+    %% Adding a note to the Terminal Server
+    oneimlxnote[OneImx.Terminal Framework] --&gt; server
+    
+    classDef client fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef server fill:#bbf,stroke:#333,stroke-width:4px;
+    classDef router fill:#fbb,stroke:#333,stroke-width:2px;
+    classDef service fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef note fill:#ffffcc,stroke:#333,stroke-width:1px,stroke-dasharray: 5, 5;
+
+    class client1,client2,client3,client4 client;
+    class server server;
+    class router,crouter router;
+    class crunner1,crunner2,crunnerN service;
+    class oneimlxnote note;
+</code></pre>
+<h2 id="terminal-custom-router">Terminal Custom Router</h2>
+<p>The <code>OneImx.Terminal</code> framework also supports custom routers via <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalCustomRouter.html">TerminalCustomRouter</a>, allowing for specialized routing logic that may not be covered by standard TCP, UDP, or console routers. This flexibility supports unique application-specific routing needs that require customized behavior beyond standard protocol handling.</p>
+<pre><code class="lang-csharp">// Setup the terminal context and run a custom router based on specific requirements
+TerminalStartContext terminalStartContext = new(TerminalStartMode.Custom, terminalTokenSource.Token, commandTokenSource.Token);
+TerminalCustomRouterContext customRouterContext = new(terminalStartContext);
+await host.RunTerminalRouterAsync&lt;MyTerminalCustomRouter, MyTerminalCustomRouterContext&gt;(customRouterContext);
+</code></pre>
+<h2 id="mixed-mode-terminal-router">Mixed Mode Terminal Router</h2>
+<p>The framework support a mixed mode terminal router that allows developers to create terminals with multiple operational modes. Using startup arguments, terminals can be configured to operate in console mode for user interactions, as a TCP/UDP server for handling network commands, or a custom router tailored to specific needs.</p>
+<p>Developers can pass the desired operational mode using startup arguments during the application launch. The <code>Main</code> method of the terminal application then processes these arguments to initiate the appropriate mode.</p>
+<p>For instance, a terminal application can be configured to start in console mode directly by a user to execute commands manually. Alternatively, when started in TCP or UDP mode, it enables the application to accept commands remotely from other services or networked clients, effectively serving as a backend server.</p>
+<blockquote>
+<p><strong>Important:</strong> Once the terminal router is configured at startup, it cannot be changed during runtime.</p>
+</blockquote>
+<pre><code class="lang-mermaid">graph TD;
+    A[Start Terminal] --&gt; B{Check Mode}
+    B --&gt;|Console| C[Console Router]
+    B --&gt;|TCP| D[TCP Router]
+    B --&gt;|UDP| E[UDP Router]
+    B --&gt;|Custom| F[Custom Router]
+
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef user fill:#ffc,stroke:#333,stroke-width:2px;
+    classDef server fill:#bbf,stroke:#333,stroke-width:4px;
+    classDef router fill:#fbb,stroke:#333,stroke-width:2px;
+    classDef service fill:#dfd,stroke:#333,stroke-width:2px;
+
+    class A user;
+    class B server;
+    class C,D,E,F router;
+</code></pre>
+<h2 id="selecting-a-router">Selecting a Router</h2>
+<p>Choosing the right router depends on your application's specific communication needs, including factors such as reliability, speed, bidirectional communication, and message brokering capabilities. Each router in the <code>OneImx.Terminal</code> framework abstracts the underlying protocol complexities, providing a simplified interface for developers to integrate network communication features seamlessly into their applications.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/routers.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

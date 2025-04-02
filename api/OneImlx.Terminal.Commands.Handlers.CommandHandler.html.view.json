@@ -1,0 +1,1352 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Handlers.CommandHandler",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands.Handlers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.html\">Handlers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.html\">Handlers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor(OneImlx.Terminal.Commands.Handlers.ICommandResolver,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Commands.Handlers.CommandHandler},OneImlx.Terminal.Events.ITerminalEventHandler)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Handlers.CommandHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandHandler(ICommandResolver, IOptions<TerminalOptions>, ITerminalHelpProvider, ILogger<CommandHandler>, ITerminalEventHandler?)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ICommandResolver, IOptions(Of TerminalOptions), ITerminalHelpProvider, ILogger(Of CommandHandler), ITerminalEventHandler)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandHandler.CommandHandler(ICommandResolver, IOptions<TerminalOptions>, ITerminalHelpProvider, ILogger<CommandHandler>, ITerminalEventHandler?)"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandHandler.New(ICommandResolver, IOptions(Of TerminalOptions), ITerminalHelpProvider, ILogger(Of CommandHandler), ITerminalEventHandler)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.CommandHandler(OneImlx.Terminal.Commands.Handlers.ICommandResolver, Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>, OneImlx.Terminal.Runtime.ITerminalHelpProvider, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Commands.Handlers.CommandHandler>, OneImlx.Terminal.Events.ITerminalEventHandler?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.New(OneImlx.Terminal.Commands.Handlers.ICommandResolver, Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions), OneImlx.Terminal.Runtime.ITerminalHelpProvider, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Commands.Handlers.CommandHandler), OneImlx.Terminal.Events.ITerminalEventHandler)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor(OneImlx.Terminal.Commands.Handlers.ICommandResolver,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Commands.Handlers.CommandHandler},OneImlx.Terminal.Events.ITerminalEventHandler)\" text=\"CommandHandler(ICommandResolver, IOptions&lt;TerminalOptions&gt;, ITerminalHelpProvider, ILogger&lt;CommandHandler&gt;, ITerminalEventHandler?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor(OneImlx.Terminal.Commands.Handlers.ICommandResolver,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalHelpProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Commands.Handlers.CommandHandler},OneImlx.Terminal.Events.ITerminalEventHandler)\" text=\"CommandHandler(ICommandResolver, IOptions&lt;TerminalOptions&gt;, ITerminalHelpProvider, ILogger&lt;CommandHandler&gt;, ITerminalEventHandler?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CommandHandler(ICommandResolver commandResolver, IOptions<TerminalOptions> options, ITerminalHelpProvider terminalHelpProvider, ILogger<CommandHandler> logger, ITerminalEventHandler? terminalEventHandler = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(commandResolver As ICommandResolver, options As IOptions(Of TerminalOptions), terminalHelpProvider As ITerminalHelpProvider, logger As ILogger(Of CommandHandler), terminalEventHandler As ITerminalEventHandler = Nothing)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "commandResolver",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Handlers.ICommandResolver",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandResolver"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandResolver"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandResolver"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandResolver"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Handlers.ICommandResolver"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Handlers.ICommandResolver"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.ICommandResolver\" text=\"ICommandResolver\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.ICommandResolver\" text=\"ICommandResolver\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "options",
+                "type": {
+                  "uid": "Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions}",
+                  "definition": "Microsoft.Extensions.Options.IOptions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>)"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "terminalHelpProvider",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalHelpProvider",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalHelpProvider"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalHelpProvider"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" text=\"ITerminalHelpProvider\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" text=\"ITerminalHelpProvider\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Commands.Handlers.CommandHandler}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<CommandHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of CommandHandler)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<CommandHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of CommandHandler)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Commands.Handlers.CommandHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Commands.Handlers.CommandHandler)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.html\">CommandHandler</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.html\">CommandHandler</a>)"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "terminalEventHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Events.ITerminalEventHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalEventHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalEventHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalEventHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalEventHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Events.ITerminalEventHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Events.ITerminalEventHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler\" text=\"ITerminalEventHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler\" text=\"ITerminalEventHandler\"/>"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Handlers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CommandHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CommandHandler.CommandHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "CommandHandler.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.CommandHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor*\" text=\"CommandHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.#ctor*\" text=\"CommandHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Handlers_CommandHandler__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">Initialize a news instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Handlers_CommandHandler__ctor_OneImlx_Terminal_Commands_Handlers_ICommandResolver_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalHelpProvider_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Commands_Handlers_CommandHandler__OneImlx_Terminal_Events_ITerminalEventHandler_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Handlers.CommandHandler.%23ctor(OneImlx.Terminal.Commands.Handlers.ICommandResolver%2CMicrosoft.Extensions.Options.IOptions%7BOneImlx.Terminal.Configuration.Options.TerminalOptions%7D%2COneImlx.Terminal.Runtime.ITerminalHelpProvider%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Commands.Handlers.CommandHandler%7D%2COneImlx.Terminal.Events.ITerminalEventHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Handlers_CommandHandler__ctor_OneImlx_Terminal_Commands_Handlers_ICommandResolver_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalHelpProvider_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Commands_Handlers_CommandHandler__OneImlx_Terminal_Events_ITerminalEventHandler_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Handlers.CommandHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "HandleCommandAsync(CommandContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "HandleCommandAsync(CommandContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandHandler.HandleCommandAsync(CommandContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandHandler.HandleCommandAsync(CommandContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)\" text=\"HandleCommandAsync(CommandContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)\" text=\"HandleCommandAsync(CommandContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task HandleCommandAsync(CommandContext context)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function HandleCommandAsync(context As CommandContext) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandContext\" text=\"CommandContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">The handler context.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">The handler result.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "HandleCommandAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+            "startLine": 44,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Handlers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "HandleCommandAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "HandleCommandAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CommandHandler.HandleCommandAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "CommandHandler.HandleCommandAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync*\" text=\"HandleCommandAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync*\" text=\"HandleCommandAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Handlers_CommandHandler_HandleCommandAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Commands.Handlers.ICommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "HandleCommandAsync(CommandContext)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "HandleCommandAsync(CommandContext)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ICommandHandler.HandleCommandAsync(CommandContext)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ICommandHandler.HandleCommandAsync(CommandContext)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Commands.Handlers.ICommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Commands.Handlers.ICommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler.html#OneImlx_Terminal_Commands_Handlers_ICommandHandler_HandleCommandAsync_OneImlx_Terminal_Commands_CommandContext_\">HandleCommandAsync</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandContext.html\">CommandContext</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler.html#OneImlx_Terminal_Commands_Handlers_ICommandHandler_HandleCommandAsync_OneImlx_Terminal_Commands_CommandContext_\">HandleCommandAsync</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandContext.html\">CommandContext</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">Handles the command request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Handlers_CommandHandler_HandleCommandAsync_OneImlx_Terminal_Commands_CommandContext_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Handlers.CommandHandler.HandleCommandAsync(OneImlx.Terminal.Commands.CommandContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs/#L45",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Handlers_CommandHandler_HandleCommandAsync_OneImlx_Terminal_Commands_CommandContext_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "CommandHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandHandler"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "CommandHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandHandler"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Handlers.CommandHandler"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "CommandHandler",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs",
+    "startLine": 22,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands.Handlers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Handlers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.html\">Handlers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Handlers.html\">Handlers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">The default handler to handle a command request routed from a <xref href=\"OneImlx.Terminal.Commands.CommandRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class CommandHandler : ICommandHandler"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class CommandHandler Implements ICommandHandler"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "OneImlx.Terminal.Commands.Handlers.ICommandHandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ICommandHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "ICommandHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ICommandHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "ICommandHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Commands.Handlers.ICommandHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Commands.Handlers.ICommandHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" text=\"ICommandHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" text=\"ICommandHandler\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Handlers_CommandHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Handlers.CommandHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Handlers/CommandHandler.cs/#L23",
+  "description": "The default handler to handle a command request routed from a .",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Handlers_CommandHandler",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

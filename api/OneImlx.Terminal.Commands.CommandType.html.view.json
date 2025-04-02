@@ -1,0 +1,855 @@
+{
+  "uid": "OneImlx.Terminal.Commands.CommandType",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandType.GroupCommand",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GroupCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "GroupCommand"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandType.GroupCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandType.GroupCommand"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandType.GroupCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandType.GroupCommand"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.GroupCommand\" text=\"GroupCommand\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.GroupCommand\" text=\"GroupCommand\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "GroupCommand = 2"
+              },
+              {
+                "lang": "vb",
+                "value": "GroupCommand = 2"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.CommandType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandType.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GroupCommand",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandType.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">The command represents a group of sub-commands within a root.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandType_GroupCommand.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandType.GroupCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandType.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandType_GroupCommand",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandType.NativeCommand",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NativeCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "NativeCommand"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandType.NativeCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandType.NativeCommand"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandType.NativeCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandType.NativeCommand"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.NativeCommand\" text=\"NativeCommand\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.NativeCommand\" text=\"NativeCommand\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "NativeCommand = 4"
+              },
+              {
+                "lang": "vb",
+                "value": "NativeCommand = 4"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.CommandType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandType.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "NativeCommand",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandType.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">The command represents a native command to the terminal. For example <code>cls</code> that clears the terminal, or\n<code>run</code> command that executes a native OS command.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandType_NativeCommand.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandType.NativeCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandType.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandType_NativeCommand",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandType.RootCommand",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RootCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "RootCommand"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandType.RootCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandType.RootCommand"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandType.RootCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandType.RootCommand"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.RootCommand\" text=\"RootCommand\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.RootCommand\" text=\"RootCommand\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "RootCommand = 1"
+              },
+              {
+                "lang": "vb",
+                "value": "RootCommand = 1"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.CommandType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandType.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RootCommand",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandType.cs",
+            "startLine": 17,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">The command represents the root command.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandType_RootCommand.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandType.RootCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandType.cs/#L18",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandType_RootCommand",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandType.SubCommand",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SubCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "SubCommand"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandType.SubCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandType.SubCommand"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandType.SubCommand"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandType.SubCommand"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.SubCommand\" text=\"SubCommand\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType.SubCommand\" text=\"SubCommand\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "SubCommand = 3"
+              },
+              {
+                "lang": "vb",
+                "value": "SubCommand = 3"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.CommandType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CommandType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.CommandType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandType\" text=\"CommandType\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandType.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SubCommand",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandType.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">The command represents a sub-command within a group.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandType_SubCommand.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandType.SubCommand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandType.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandType_SubCommand",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "CommandType"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandType"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "CommandType"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandType"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.CommandType"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.CommandType"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/CommandType.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "CommandType",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandType.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">Defines the command type.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum CommandType"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum CommandType"
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.CommandType.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.CommandType.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandType.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandType.cs/#L13",
+  "description": "Defines the command type.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_CommandType",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inEnum": true,
+  "isEnum": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

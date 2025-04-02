@@ -1,0 +1,1223 @@
+{
+  "uid": "OneImlx.Terminal.Server.TerminalHttpMapService",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Server",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Server.TerminalHttpMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalHttpRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalHttpMapService})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Server.TerminalHttpMapService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHttpMapService(ITerminalRouter<TerminalHttpRouterContext>, ITerminalProcessor, ILogger<TerminalHttpMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ITerminalRouter(Of TerminalHttpRouterContext), ITerminalProcessor, ILogger(Of TerminalHttpMapService))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHttpMapService.TerminalHttpMapService(ITerminalRouter<TerminalHttpRouterContext>, ITerminalProcessor, ILogger<TerminalHttpMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHttpMapService.New(ITerminalRouter(Of TerminalHttpRouterContext), ITerminalProcessor, ILogger(Of TerminalHttpMapService))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Server.TerminalHttpMapService.TerminalHttpMapService(OneImlx.Terminal.Runtime.ITerminalRouter<OneImlx.Terminal.Runtime.TerminalHttpRouterContext>, OneImlx.Terminal.Runtime.ITerminalProcessor, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Server.TerminalHttpMapService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Server.TerminalHttpMapService.New(OneImlx.Terminal.Runtime.ITerminalRouter(Of OneImlx.Terminal.Runtime.TerminalHttpRouterContext), OneImlx.Terminal.Runtime.ITerminalProcessor, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Server.TerminalHttpMapService))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalHttpRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalHttpMapService})\" text=\"TerminalHttpMapService(ITerminalRouter&lt;TerminalHttpRouterContext&gt;, ITerminalProcessor, ILogger&lt;TerminalHttpMapService&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.#ctor(OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalHttpRouterContext},OneImlx.Terminal.Runtime.ITerminalProcessor,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalHttpMapService})\" text=\"TerminalHttpMapService(ITerminalRouter&lt;TerminalHttpRouterContext&gt;, ITerminalProcessor, ILogger&lt;TerminalHttpMapService&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalHttpMapService(ITerminalRouter<TerminalHttpRouterContext> terminalRouter, ITerminalProcessor terminalProcessor, ILogger<TerminalHttpMapService> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(terminalRouter As ITerminalRouter(Of TerminalHttpRouterContext), terminalProcessor As ITerminalProcessor, logger As ILogger(Of TerminalHttpMapService))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalRouter",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalRouter{OneImlx.Terminal.Runtime.TerminalHttpRouterContext}",
+                  "definition": "OneImlx.Terminal.Runtime.ITerminalRouter`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalRouter<TerminalHttpRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalRouter(Of TerminalHttpRouterContext)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalRouter<TerminalHttpRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalRouter(Of TerminalHttpRouterContext)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalRouter<OneImlx.Terminal.Runtime.TerminalHttpRouterContext>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalRouter(Of OneImlx.Terminal.Runtime.TerminalHttpRouterContext)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalRouter-1.html\">ITerminalRouter</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalHttpRouterContext.html\">TerminalHttpRouterContext</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalRouter-1.html\">ITerminalRouter</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalHttpRouterContext.html\">TerminalHttpRouterContext</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">The terminal router.</p>\n"
+              },
+              {
+                "id": "terminalProcessor",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalProcessor"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalProcessor"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">The terminal processor.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Server.TerminalHttpMapService}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalHttpMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalHttpMapService)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalHttpMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalHttpMapService)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Server.TerminalHttpMapService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Server.TerminalHttpMapService)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalHttpMapService.html\">TerminalHttpMapService</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Server.TerminalHttpMapService.html\">TerminalHttpMapService</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">The logger instance for logging router events and errors.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Server"
+          ],
+          "namespace": "OneImlx.Terminal.Server",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Server.TerminalHttpMapService.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHttpMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHttpMapService.TerminalHttpMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHttpMapService.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Server.TerminalHttpMapService.TerminalHttpMapService"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Server.TerminalHttpMapService.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.#ctor*\" text=\"TerminalHttpMapService\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.#ctor*\" text=\"TerminalHttpMapService\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Server_TerminalHttpMapService__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Server.TerminalHttpMapService\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalHttpMapService__ctor_OneImlx_Terminal_Runtime_ITerminalRouter_OneImlx_Terminal_Runtime_TerminalHttpRouterContext__OneImlx_Terminal_Runtime_ITerminalProcessor_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Server_TerminalHttpMapService__.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalHttpMapService.%23ctor(OneImlx.Terminal.Runtime.ITerminalRouter%7BOneImlx.Terminal.Runtime.TerminalHttpRouterContext%7D%2COneImlx.Terminal.Runtime.ITerminalProcessor%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Server.TerminalHttpMapService%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Server_TerminalHttpMapService__ctor_OneImlx_Terminal_Runtime_ITerminalRouter_OneImlx_Terminal_Runtime_TerminalHttpRouterContext__OneImlx_Terminal_Runtime_ITerminalProcessor_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Server_TerminalHttpMapService__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Server.TerminalHttpMapService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RouteAsync(HttpContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "RouteAsync(HttpContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHttpMapService.RouteAsync(HttpContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHttpMapService.RouteAsync(HttpContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)\" text=\"RouteAsync(HttpContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)\" text=\"RouteAsync(HttpContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task RouteAsync(HttpContext httpContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function RouteAsync(httpContext As HttpContext) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "httpContext",
+                "type": {
+                  "uid": "Microsoft.AspNetCore.Http.HttpContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.AspNetCore.Http.HttpContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.AspNetCore.Http.HttpContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.AspNetCore.Http.HttpContext\" text=\"HttpContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.AspNetCore.Http.HttpContext\" text=\"HttpContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">The HTTP context containing the request.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RouteAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+            "startLine": 55,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Server"
+          ],
+          "namespace": "OneImlx.Terminal.Server",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">This method is designed to enqueue commands for processing by the terminal router's command queue. It\nexpects a valid HTTP request containing a JSON body with the command string. The method extracts the command\nfrom the request body and adds it to the queue, associating it with the client information from the HTTP context.</p>\n<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"5\">The method assumes that the terminal router is running and its command queue is initialized. If the queue is\nnot active, a <xref href=\"OneImlx.Terminal.Shared.TerminalException\" data-throw-if-not-resolved=\"false\"></xref> is thrown to indicate that the router is not ready to process\ncommands. Ensure the terminal router is correctly started before invoking this method.</p>\n<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"9\">This method is primarily intended to be called by HTTP clients. It should not be invoked directly from\nwithin the application without proper context, as it depends on HTTP infrastructure and client context information.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "RouteAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHttpMapService.RouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHttpMapService.RouteAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync*\" text=\"RouteAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync*\" text=\"RouteAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Server_TerminalHttpMapService_RouteAsync_"
+          },
+          "exceptions": [
+            {
+              "type": {
+                "uid": "OneImlx.Terminal.Shared.TerminalException",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">Thrown when the terminal HTTP router is not running.</p>\n"
+            }
+          ],
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">Routes the <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> via HTTP.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalHttpMapService_RouteAsync_Microsoft_AspNetCore_Http_HttpContext_.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalHttpMapService.RouteAsync(Microsoft.AspNetCore.Http.HttpContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs/#L56",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Server_TerminalHttpMapService_RouteAsync_Microsoft_AspNetCore_Http_HttpContext_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalHttpMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalHttpMapService"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalHttpMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalHttpMapService"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Server.TerminalHttpMapService"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Server.TerminalHttpMapService"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalHttpMapService",
+    "path": "../../terminal/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Server"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Server",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Server"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Server"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Server.html\">Server</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">Represents the HTTP service responsible for managing HTTP communication in the <code>OneImlx</code> terminal\nframework. This router handles incoming HTTP commands and routes them to the appropriate command runners.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalHttpMapService"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalHttpMapService"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Server.TerminalHttpMapService.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Server.TerminalHttpMapService.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Server_TerminalHttpMapService.md&value=---%0Auid%3A%20OneImlx.Terminal.Server.TerminalHttpMapService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Server/TerminalHttpMapService.cs/#L20",
+  "description": "Represents the HTTP service responsible for managing HTTP communication in the OneImlx terminal framework. This router handles incoming HTTP commands and routes them to the appropriate command runners.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Server_TerminalHttpMapService",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

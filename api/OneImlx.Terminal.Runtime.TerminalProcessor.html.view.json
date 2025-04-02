@@ -1,0 +1,3850 @@
+{
+  "uid": "OneImlx.Terminal.Runtime.TerminalProcessor",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.#ctor(OneImlx.Terminal.Commands.ICommandRouter,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalTextHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Runtime.TerminalProcessor})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor(ICommandRouter, ITerminalExceptionHandler, IOptions<TerminalOptions>, ITerminalTextHandler, ILogger<TerminalProcessor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ICommandRouter, ITerminalExceptionHandler, IOptions(Of TerminalOptions), ITerminalTextHandler, ILogger(Of TerminalProcessor))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.TerminalProcessor(ICommandRouter, ITerminalExceptionHandler, IOptions<TerminalOptions>, ITerminalTextHandler, ILogger<TerminalProcessor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.New(ICommandRouter, ITerminalExceptionHandler, IOptions(Of TerminalOptions), ITerminalTextHandler, ILogger(Of TerminalProcessor))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.TerminalProcessor(OneImlx.Terminal.Commands.ICommandRouter, OneImlx.Terminal.Runtime.ITerminalExceptionHandler, Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>, OneImlx.Terminal.Runtime.ITerminalTextHandler, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Runtime.TerminalProcessor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.New(OneImlx.Terminal.Commands.ICommandRouter, OneImlx.Terminal.Runtime.ITerminalExceptionHandler, Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions), OneImlx.Terminal.Runtime.ITerminalTextHandler, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Runtime.TerminalProcessor))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.#ctor(OneImlx.Terminal.Commands.ICommandRouter,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalTextHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Runtime.TerminalProcessor})\" text=\"TerminalProcessor(ICommandRouter, ITerminalExceptionHandler, IOptions&lt;TerminalOptions&gt;, ITerminalTextHandler, ILogger&lt;TerminalProcessor&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.#ctor(OneImlx.Terminal.Commands.ICommandRouter,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalTextHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Runtime.TerminalProcessor})\" text=\"TerminalProcessor(ICommandRouter, ITerminalExceptionHandler, IOptions&lt;TerminalOptions&gt;, ITerminalTextHandler, ILogger&lt;TerminalProcessor&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalProcessor(ICommandRouter commandRouter, ITerminalExceptionHandler terminalExceptionHandler, IOptions<TerminalOptions> terminalOptions, ITerminalTextHandler textHandler, ILogger<TerminalProcessor> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(commandRouter As ICommandRouter, terminalExceptionHandler As ITerminalExceptionHandler, terminalOptions As IOptions(Of TerminalOptions), textHandler As ITerminalTextHandler, logger As ILogger(Of TerminalProcessor))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "commandRouter",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.ICommandRouter",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandRouter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandRouter"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandRouter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandRouter"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.ICommandRouter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.ICommandRouter"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.ICommandRouter\" text=\"ICommandRouter\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.ICommandRouter\" text=\"ICommandRouter\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The command router to process commands.</p>\n"
+              },
+              {
+                "id": "terminalExceptionHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalExceptionHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalExceptionHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" text=\"ITerminalExceptionHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" text=\"ITerminalExceptionHandler\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The handler for exceptions thrown during command processing.</p>\n"
+              },
+              {
+                "id": "terminalOptions",
+                "type": {
+                  "uid": "Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions}",
+                  "definition": "Microsoft.Extensions.Options.IOptions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Configuration options for the terminal.</p>\n"
+              },
+              {
+                "id": "textHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The terminal text handler.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Runtime.TerminalProcessor}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalProcessor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalProcessor)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalProcessor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalProcessor)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Runtime.TerminalProcessor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Runtime.TerminalProcessor)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalProcessor.html\">TerminalProcessor</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalProcessor.html\">TerminalProcessor</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Logger for logging operations within the queue.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 43,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.TerminalProcessor"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.TerminalProcessor"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.#ctor*\" text=\"TerminalProcessor\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.#ctor*\" text=\"TerminalProcessor\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Runtime.TerminalProcessor\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor__ctor_OneImlx_Terminal_Commands_ICommandRouter_OneImlx_Terminal_Runtime_ITerminalExceptionHandler_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalTextHandler_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Runtime_TerminalProcessor__.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.%23ctor(OneImlx.Terminal.Commands.ICommandRouter%2COneImlx.Terminal.Runtime.ITerminalExceptionHandler%2CMicrosoft.Extensions.Options.IOptions%7BOneImlx.Terminal.Configuration.Options.TerminalOptions%7D%2COneImlx.Terminal.Runtime.ITerminalTextHandler%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Runtime.TerminalProcessor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L44",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor__ctor_OneImlx_Terminal_Commands_ICommandRouter_OneImlx_Terminal_Runtime_ITerminalExceptionHandler_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalTextHandler_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Runtime_TerminalProcessor__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsBackground"
+            },
+            {
+              "lang": "vb",
+              "value": "IsBackground"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.IsBackground"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.IsBackground"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground\" text=\"IsBackground\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground\" text=\"IsBackground\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool IsBackground { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property IsBackground As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "IsBackground",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 67,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsBackground"
+              },
+              {
+                "lang": "vb",
+                "value": "IsBackground"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.IsBackground"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.IsBackground"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground*\" text=\"IsBackground\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground*\" text=\"IsBackground\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_IsBackground_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsBackground",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IsBackground"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IsBackground"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.IsBackground"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.IsBackground"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsBackground"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsBackground"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.IsBackground\" text=\"IsBackground\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.IsBackground\" text=\"IsBackground\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Gets a value indicating whether the processor is running in the background.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_IsBackground.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.IsBackground%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L68",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_IsBackground",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsProcessing"
+            },
+            {
+              "lang": "vb",
+              "value": "IsProcessing"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.IsProcessing"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.IsProcessing"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing\" text=\"IsProcessing\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing\" text=\"IsProcessing\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool IsProcessing { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property IsProcessing As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "IsProcessing",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 70,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "IsProcessing"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.IsProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.IsProcessing"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing*\" text=\"IsProcessing\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing*\" text=\"IsProcessing\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_IsProcessing_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsProcessing",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "IsProcessing"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IsProcessing"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.IsProcessing"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.IsProcessing"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsProcessing"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.IsProcessing"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.IsProcessing\" text=\"IsProcessing\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.IsProcessing\" text=\"IsProcessing\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Gets a value indicating whether the processor is actively handling requests.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_IsProcessing.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.IsProcessing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L71",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_IsProcessing",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UnprocessedIOs"
+            },
+            {
+              "lang": "vb",
+              "value": "UnprocessedIOs"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.UnprocessedIOs"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.UnprocessedIOs"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs\" text=\"UnprocessedIOs\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs\" text=\"UnprocessedIOs\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IReadOnlyCollection<TerminalInputOutput> UnprocessedIOs { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property UnprocessedIOs As IReadOnlyCollection(Of TerminalInputOutput)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IReadOnlyCollection{OneImlx.Terminal.Shared.TerminalInputOutput}",
+                "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyCollection<TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyCollection(Of TerminalInputOutput)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IReadOnlyCollection<TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IReadOnlyCollection(Of TerminalInputOutput)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IReadOnlyCollection<OneImlx.Terminal.Shared.TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IReadOnlyCollection(Of OneImlx.Terminal.Shared.TerminalInputOutput)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "UnprocessedIOs",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 73,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The returned collection represents the state of unprocessed inputs at the time of retrieval. The actual\nstate may change by the time the caller processes it.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "UnprocessedIOs"
+              },
+              {
+                "lang": "vb",
+                "value": "UnprocessedIOs"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.UnprocessedIOs"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.UnprocessedIOs"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs*\" text=\"UnprocessedIOs\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs*\" text=\"UnprocessedIOs\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_UnprocessedIOs_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.UnprocessedIOs",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "UnprocessedIOs"
+                },
+                {
+                  "lang": "vb",
+                  "value": "UnprocessedIOs"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.UnprocessedIOs"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.UnprocessedIOs"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.UnprocessedIOs"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.UnprocessedIOs"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.UnprocessedIOs\" text=\"UnprocessedIOs\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor.UnprocessedIOs\" text=\"UnprocessedIOs\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Retrieves a snapshot of inputs that are pending processing.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_UnprocessedIOs.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.UnprocessedIOs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L74",
+          "description": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_UnprocessedIOs",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AddAsync(TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "AddAsync(TerminalInputOutput)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.AddAsync(TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.AddAsync(TerminalInputOutput)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" text=\"AddAsync(TerminalInputOutput)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" text=\"AddAsync(TerminalInputOutput)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task AddAsync(TerminalInputOutput terminalIO)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function AddAsync(terminalIO As TerminalInputOutput) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalIO",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The input to add.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AddAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 83,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AddAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.AddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.AddAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync*\" text=\"AddAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync*\" text=\"AddAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_AddAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "AddAsync(TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "AddAsync(TerminalInputOutput)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.AddAsync(TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.AddAsync(TerminalInputOutput)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_AddAsync_OneImlx_Terminal_Shared_TerminalInputOutput_\">AddAsync</a>(<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_AddAsync_OneImlx_Terminal_Shared_TerminalInputOutput_\">AddAsync</a>(<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Asynchronously adds a <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> for processing.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_AddAsync_OneImlx_Terminal_Shared_TerminalInputOutput_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L84",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_AddAsync_OneImlx_Terminal_Shared_TerminalInputOutput_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "DisposeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.DisposeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync\" text=\"DisposeAsync()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync\" text=\"DisposeAsync()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ValueTask DisposeAsync()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function DisposeAsync() As ValueTask"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.ValueTask",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValueTask"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValueTask"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValueTask"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValueTask"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.ValueTask"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.ValueTask"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.ValueTask\" text=\"ValueTask\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DisposeAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 107,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DisposeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "DisposeAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.DisposeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.DisposeAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync*\" text=\"DisposeAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync*\" text=\"DisposeAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_DisposeAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.IAsyncDisposable.DisposeAsync",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "DisposeAsync()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "DisposeAsync()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IAsyncDisposable.DisposeAsync()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IAsyncDisposable.DisposeAsync()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.IAsyncDisposable.DisposeAsync()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.IAsyncDisposable.DisposeAsync()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iasyncdisposable.disposeasync\">DisposeAsync</a>()"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Performs application-defined tasks associated with freeing, releasing, or\nresetting unmanaged resources asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_DisposeAsync.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L108",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_DisposeAsync",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ExecuteAsync(TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "ExecuteAsync(TerminalInputOutput)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.ExecuteAsync(TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.ExecuteAsync(TerminalInputOutput)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" text=\"ExecuteAsync(TerminalInputOutput)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" text=\"ExecuteAsync(TerminalInputOutput)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task ExecuteAsync(TerminalInputOutput terminalIO)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function ExecuteAsync(terminalIO As TerminalInputOutput) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalIO",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The input to execute.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ExecuteAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 115,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" data-throw-if-not-resolved=\"false\"></xref> method processes the input immediately and returns the output. For background\nprocessing, use <xref href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.AddAsync(OneImlx.Terminal.Shared.TerminalInputOutput)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ExecuteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ExecuteAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.ExecuteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.ExecuteAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync*\" text=\"ExecuteAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync*\" text=\"ExecuteAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_ExecuteAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ExecuteAsync(TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ExecuteAsync(TerminalInputOutput)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.ExecuteAsync(TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.ExecuteAsync(TerminalInputOutput)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_ExecuteAsync_OneImlx_Terminal_Shared_TerminalInputOutput_\">ExecuteAsync</a>(<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_ExecuteAsync_OneImlx_Terminal_Shared_TerminalInputOutput_\">ExecuteAsync</a>(<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Asynchronously executes the input and populates the output.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_ExecuteAsync_OneImlx_Terminal_Shared_TerminalInputOutput_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.ExecuteAsync(OneImlx.Terminal.Shared.TerminalInputOutput)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L116",
+          "description": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_ExecuteAsync_OneImlx_Terminal_Shared_TerminalInputOutput_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext,System.Boolean,System.Func{OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.Tasks.Task})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StartProcessing(TerminalRouterContext, bool, Func<TerminalInputOutput, Task>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StartProcessing(TerminalRouterContext, Boolean, Func(Of TerminalInputOutput, Task))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.StartProcessing(TerminalRouterContext, bool, Func<TerminalInputOutput, Task>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.StartProcessing(TerminalRouterContext, Boolean, Func(Of TerminalInputOutput, Task))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext, bool, System.Func<OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext, Boolean, System.Func(Of OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext,System.Boolean,System.Func{OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.Tasks.Task})\" text=\"StartProcessing(TerminalRouterContext, bool, Func&lt;TerminalInputOutput, Task&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext,System.Boolean,System.Func{OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.Tasks.Task})\" text=\"StartProcessing(TerminalRouterContext, bool, Func&lt;TerminalInputOutput, Task&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public void StartProcessing(TerminalRouterContext terminalRouterContext, bool background, Func<TerminalInputOutput, Task>? responseHandler = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub StartProcessing(terminalRouterContext As TerminalRouterContext, background As Boolean, responseHandler As Func(Of TerminalInputOutput, Task) = Nothing)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalRouterContext",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRouterContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRouterContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRouterContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRouterContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.TerminalRouterContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.TerminalRouterContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext\" text=\"TerminalRouterContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext\" text=\"TerminalRouterContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The context for the terminal router.</p>\n"
+              },
+              {
+                "id": "background",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">If <code>true</code>, the processor operates in the background, handling multiple requests asynchronously. If\n<code>false</code>, it processes individual requests and sends responses asynchronously.</p>\n"
+              },
+              {
+                "id": "responseHandler",
+                "type": {
+                  "uid": "System.Func{OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.Tasks.Task}",
+                  "definition": "System.Func`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Func<TerminalInputOutput, Task>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Func(Of TerminalInputOutput, Task)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Func<TerminalInputOutput, Task>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Func(Of TerminalInputOutput, Task)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Func<OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Func(Of OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>&lt;<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>(Of <xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">An optional handler for processing responses.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StartProcessing",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 131,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StartProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "StartProcessing"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.StartProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.StartProcessing"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing*\" text=\"StartProcessing\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing*\" text=\"StartProcessing\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StartProcessing_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext,System.Boolean,System.Func{OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.Tasks.Task})",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "StartProcessing(TerminalRouterContext, bool, Func<TerminalInputOutput, Task>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "StartProcessing(TerminalRouterContext, Boolean, Func(Of TerminalInputOutput, Task))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.StartProcessing(TerminalRouterContext, bool, Func<TerminalInputOutput, Task>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.StartProcessing(TerminalRouterContext, Boolean, Func(Of TerminalInputOutput, Task))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext, bool, System.Func<OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext, Boolean, System.Func(Of OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.Tasks.Task))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StartProcessing_OneImlx_Terminal_Runtime_TerminalRouterContext_System_Boolean_System_Func_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_Tasks_Task__\">StartProcessing</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalRouterContext.html\">TerminalRouterContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>&lt;<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>&gt;)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StartProcessing_OneImlx_Terminal_Runtime_TerminalRouterContext_System_Boolean_System_Func_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_Tasks_Task__\">StartProcessing</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.TerminalRouterContext.html\">TerminalRouterContext</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.func-2\">Func</a>(Of <xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\">Task</a>))"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Starts processing terminal inputs with the specified context and configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_StartProcessing_OneImlx_Terminal_Runtime_TerminalRouterContext_System_Boolean_System_Func_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_Tasks_Task__.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.StartProcessing(OneImlx.Terminal.Runtime.TerminalRouterContext%2CSystem.Boolean%2CSystem.Func%7BOneImlx.Terminal.Shared.TerminalInputOutput%2CSystem.Threading.Tasks.Task%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L132",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StartProcessing_OneImlx_Terminal_Runtime_TerminalRouterContext_System_Boolean_System_Func_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_Tasks_Task__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StopProcessingAsync(int)"
+            },
+            {
+              "lang": "vb",
+              "value": "StopProcessingAsync(Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.StopProcessingAsync(int)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.StopProcessingAsync(Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(int)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(System.Int32)\" text=\"StopProcessingAsync(int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(System.Int32)\" text=\"StopProcessingAsync(int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task<bool> StopProcessingAsync(int timeout)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function StopProcessingAsync(timeout As Integer) As Task(Of Boolean)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "timeout",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The timeout duration in milliseconds.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Boolean}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of Boolean)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<bool>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of Boolean)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation, returning <code>true</code> if processing stopped within the\ntimeout; otherwise, <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StopProcessingAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 147,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StopProcessingAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "StopProcessingAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.StopProcessingAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.StopProcessingAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync*\" text=\"StopProcessingAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync*\" text=\"StopProcessingAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StopProcessingAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.StopProcessingAsync(System.Int32)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "StopProcessingAsync(int)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "StopProcessingAsync(Integer)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.StopProcessingAsync(int)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.StopProcessingAsync(Integer)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StopProcessingAsync(int)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StopProcessingAsync(Integer)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StopProcessingAsync_System_Int32_\">StopProcessingAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StopProcessingAsync_System_Int32_\">StopProcessingAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Attempts to stop background processing within a specified timeout period.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_StopProcessingAsync_System_Int32_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.StopProcessingAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L148",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StopProcessingAsync_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(System.Byte[],System.Int32,System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StreamAsync(byte[], int, string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StreamAsync(Byte(), Integer, String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.StreamAsync(byte[], int, string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.StreamAsync(Byte(), Integer, String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(byte[], int, string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(Byte(), Integer, String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(System.Byte[],System.Int32,System.String,System.String)\" text=\"StreamAsync(byte[], int, string, string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(System.Byte[],System.Int32,System.String,System.String)\" text=\"StreamAsync(byte[], int, string, string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task StreamAsync(byte[] bytes, int bytesLength, string senderId, string? senderEndpoint)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function StreamAsync(bytes As Byte(), bytesLength As Integer, senderId As String, senderEndpoint As String) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "bytes",
+                "type": {
+                  "uid": "System.Byte[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">byte</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">Byte</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The data to stream.</p>\n"
+              },
+              {
+                "id": "bytesLength",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The length of the data to process. Use the total length to process all bytes.</p>\n"
+              },
+              {
+                "id": "senderId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The identifier of the sender.</p>\n"
+              },
+              {
+                "id": "senderEndpoint",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">An optional endpoint of the sender.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StreamAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 170,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.StreamAsync(System.Byte%5b%5d%2cSystem.Int32%2cSystem.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> method is optimized for handling continuous\nstreams of data. The <code class=\"paramref\">bytesLength</code> parameter specifies the portion of the input to process,\navoiding unnecessary duplication of data.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StreamAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "StreamAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.StreamAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.StreamAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync*\" text=\"StreamAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync*\" text=\"StreamAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StreamAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.StreamAsync(System.Byte[],System.Int32,System.String,System.String)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "StreamAsync(byte[], int, string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "StreamAsync(Byte(), Integer, String, String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.StreamAsync(byte[], int, string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.StreamAsync(Byte(), Integer, String, String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StreamAsync(byte[], int, string, string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.StreamAsync(Byte(), Integer, String, String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StreamAsync_System_Byte___System_Int32_System_String_System_String_\">StreamAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">byte</a>[], <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_StreamAsync_System_Byte___System_Int32_System_String_System_String_\">StreamAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.byte\">Byte</a>(), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Asynchronously streams a continuous flow of <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> as a byte array.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_StreamAsync_System_Byte___System_Int32_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.StreamAsync(System.Byte%5B%5D%2CSystem.Int32%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L171",
+          "description": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_StreamAsync_System_Byte___System_Int32_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalProcessor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "WaitUntilCanceledAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "WaitUntilCanceledAsync(CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalProcessor.WaitUntilCanceledAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalProcessor.WaitUntilCanceledAsync(CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)\" text=\"WaitUntilCanceledAsync(CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)\" text=\"WaitUntilCanceledAsync(CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task WaitUntilCanceledAsync(CancellationToken cancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function WaitUntilCanceledAsync(cancellationToken As CancellationToken) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The cancellation token to trigger termination.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "WaitUntilCanceledAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+            "startLine": 227,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "WaitUntilCanceledAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "WaitUntilCanceledAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalProcessor.WaitUntilCanceledAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalProcessor.WaitUntilCanceledAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync*\" text=\"WaitUntilCanceledAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync*\" text=\"WaitUntilCanceledAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalProcessor_WaitUntilCanceledAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "WaitUntilCanceledAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "WaitUntilCanceledAsync(CancellationToken)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "ITerminalProcessor.WaitUntilCanceledAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ITerminalProcessor.WaitUntilCanceledAsync(CancellationToken)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Runtime.ITerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_WaitUntilCanceledAsync_System_Threading_CancellationToken_\">WaitUntilCanceledAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.ITerminalProcessor.html#OneImlx_Terminal_Runtime_ITerminalProcessor_WaitUntilCanceledAsync_System_Threading_CancellationToken_\">WaitUntilCanceledAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">Initiates a task that delays indefinitely until cancellation is requested.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor_WaitUntilCanceledAsync_System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor.WaitUntilCanceledAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L228",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalProcessor_WaitUntilCanceledAsync_System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalProcessor"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalProcessor"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalProcessor"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalProcessor"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Runtime.TerminalProcessor"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Runtime.TerminalProcessor"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalProcessor",
+    "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs",
+    "startLine": 33,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The default implementation of <xref href=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" data-throw-if-not-resolved=\"false\"></xref> for processing inputs in a terminal environment.</p>\n",
+  "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.TerminalProcessor\" data-throw-if-not-resolved=\"false\"></xref> manages a queue of <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> that are processed\nasynchronously in the background. It routes individual requests to the <xref href=\"OneImlx.Terminal.Commands.ICommandRouter\" data-throw-if-not-resolved=\"false\"></xref> for\nexecution. The processor supports handling both single requests and batches of requests, as well as partial\nstreams sent by clients.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalProcessor : ITerminalProcessor, IAsyncDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalProcessor Implements ITerminalProcessor, IAsyncDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "OneImlx.Terminal.Runtime.ITerminalProcessor",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalProcessor"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalProcessor"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalProcessor"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalProcessor"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Runtime.ITerminalProcessor"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" text=\"ITerminalProcessor\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.IAsyncDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IAsyncDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IAsyncDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IAsyncDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IAsyncDisposable\" text=\"IAsyncDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Runtime.TerminalProcessor.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Runtime.TerminalProcessor.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalProcessor.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalProcessor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalProcessor.cs/#L34",
+  "description": "The default implementation of  for processing inputs in a terminal environment.",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Runtime_TerminalProcessor",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

@@ -1,0 +1,3636 @@
+{
+  "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Attributes.Validation",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.html\">Attributes</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.Validation.html\">Validation</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.html\">Attributes</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.Validation.html\">Validation</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor(System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Attributes.Validation.OneOfAttribute",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OneOfAttribute(params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OneOfAttribute.OneOfAttribute(params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneOfAttribute.New(ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.OneOfAttribute(params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.New(ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor(System.Object[])\" text=\"OneOfAttribute(params object?[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor(System.Object[])\" text=\"OneOfAttribute(params object?[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public OneOfAttribute(params object?[] allowedValues)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(ParamArray allowedValues As Object())"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "allowedValues",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">Allowed values</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": ".ctor",
+            "path": "../../shared/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Attributes.Validation",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "OneOfAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OneOfAttribute.OneOfAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "OneOfAttribute.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.OneOfAttribute"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor*\" text=\"OneOfAttribute\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.#ctor*\" text=\"OneOfAttribute\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">Initializes a new instance with the specified allowed values.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Attributes_Validation_OneOfAttribute__ctor_System_Object___.md&value=---%0Auid%3A%20OneImlx.Shared.Attributes.Validation.OneOfAttribute.%23ctor(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute__ctor_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Attributes.Validation.OneOfAttribute",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowedValues"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowedValues"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OneOfAttribute.AllowedValues"
+            },
+            {
+              "lang": "vb",
+              "value": "OneOfAttribute.AllowedValues"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues\" text=\"AllowedValues\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues\" text=\"AllowedValues\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public object?[] AllowedValues { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property AllowedValues As Object()"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Object[]",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "object[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object()"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "object[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object()"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "object[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object()"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "AllowedValues",
+            "path": "../../shared/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+            "startLine": 31,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Attributes.Validation",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowedValues"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowedValues"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OneOfAttribute.AllowedValues"
+              },
+              {
+                "lang": "vb",
+                "value": "OneOfAttribute.AllowedValues"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues*\" text=\"AllowedValues\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues*\" text=\"AllowedValues\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute_AllowedValues_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">The allowed values.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Attributes_Validation_OneOfAttribute_AllowedValues.md&value=---%0Auid%3A%20OneImlx.Shared.Attributes.Validation.OneOfAttribute.AllowedValues%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs/#L32",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute_AllowedValues",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Attributes.Validation.OneOfAttribute",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsValid(object?, ValidationContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "IsValid(Object, ValidationContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OneOfAttribute.IsValid(object?, ValidationContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneOfAttribute.IsValid(Object, ValidationContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(object?, System.ComponentModel.DataAnnotations.ValidationContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)\" text=\"IsValid(object?, ValidationContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)\" text=\"IsValid(object?, ValidationContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Overrides Function IsValid(value As Object, validationContext As ValidationContext) As ValidationResult"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "value",
+                "type": {
+                  "uid": "System.Object",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">The value to validate.</p>\n"
+              },
+              {
+                "id": "validationContext",
+                "type": {
+                  "uid": "System.ComponentModel.DataAnnotations.ValidationContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ValidationContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ValidationContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ValidationContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ValidationContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.ComponentModel.DataAnnotations.ValidationContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.ComponentModel.DataAnnotations.ValidationContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationContext\" text=\"ValidationContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationContext\" text=\"ValidationContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">The context information about the validation operation.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.ComponentModel.DataAnnotations.ValidationResult",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValidationResult"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValidationResult"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ValidationResult"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ValidationResult"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.ComponentModel.DataAnnotations.ValidationResult"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.ComponentModel.DataAnnotations.ValidationResult"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationResult\" text=\"ValidationResult\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationResult\" text=\"ValidationResult\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">An instance of the <xref href=\"System.ComponentModel.DataAnnotations.ValidationResult\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IsValid",
+            "path": "../../shared/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+            "startLine": 39,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Attributes.Validation",
+          "example": [],
+          "overridden": {
+            "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsValid(object, ValidationContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "IsValid(Object, ValidationContext)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ValidationAttribute.IsValid(object, ValidationContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "ValidationAttribute.IsValid(Object, ValidationContext)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(object, System.ComponentModel.DataAnnotations.ValidationContext)"
+              },
+              {
+                "lang": "vb",
+                "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object, System.ComponentModel.DataAnnotations.ValidationContext)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object-system-componentmodel-dataannotations-validationcontext)\">IsValid</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object-system-componentmodel-dataannotations-validationcontext)\">IsValid</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsValid"
+              },
+              {
+                "lang": "vb",
+                "value": "IsValid"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OneOfAttribute.IsValid"
+              },
+              {
+                "lang": "vb",
+                "value": "OneOfAttribute.IsValid"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid*\" text=\"IsValid\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid*\" text=\"IsValid\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute_IsValid_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">Validates the specified value with respect to the current validation attribute.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Attributes_Validation_OneOfAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_.md&value=---%0Auid%3A%20OneImlx.Shared.Attributes.Validation.OneOfAttribute.IsValid(System.Object%2CSystem.ComponentModel.DataAnnotations.ValidationContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs/#L40",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute_IsValid_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "OneOfAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "OneOfAttribute"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "OneOfAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "OneOfAttribute"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Attributes.Validation.OneOfAttribute"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "OneOfAttribute",
+    "path": "../../shared/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Attributes.Validation",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Attributes.Validation"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.html\">Attributes</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.Validation.html\">Validation</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.html\">Attributes</a>.<a class=\"xref\" href=\"OneImlx.Shared.Attributes.Validation.html\">Validation</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">Specifies the allowed values for a property or a field.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "[AttributeUsage(AttributeTargets.Property|AttributeTargets.Field, AllowMultiple = false, Inherited = false)]\npublic sealed class OneOfAttribute : ValidationAttribute"
+      },
+      {
+        "lang": "vb",
+        "value": "<AttributeUsage(AttributeTargets.PropertyOrAttributeTargets.Field, AllowMultiple:=False, Inherited:=False)>\nPublic NotInheritable Class OneOfAttribute Inherits ValidationAttribute"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.Attribute",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Attribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Attribute\" text=\"Attribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Attribute\" text=\"Attribute\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" text=\"ValidationAttribute\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "inheritedMembers": [
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.formaterrormessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "FormatErrorMessage(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "FormatErrorMessage(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.FormatErrorMessage(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.FormatErrorMessage(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.formaterrormessage\">FormatErrorMessage</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.formaterrormessage\">FormatErrorMessage</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.getvalidationresult",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetValidationResult(object, ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetValidationResult(Object, ValidationContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.GetValidationResult(object, ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.GetValidationResult(Object, ValidationContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(object, System.ComponentModel.DataAnnotations.ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object, System.ComponentModel.DataAnnotations.ValidationContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.getvalidationresult\">GetValidationResult</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.getvalidationresult\">GetValidationResult</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsValid(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsValid(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.IsValid(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.IsValid(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object)\">IsValid</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.isvalid#system-componentmodel-dataannotations-validationattribute-isvalid(system-object)\">IsValid</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-componentmodel-dataannotations-validationcontext)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Validate(object, ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Validate(Object, ValidationContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.Validate(object, ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.Validate(Object, ValidationContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(object, System.ComponentModel.DataAnnotations.ValidationContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(Object, System.ComponentModel.DataAnnotations.ValidationContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-componentmodel-dataannotations-validationcontext)\">Validate</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-componentmodel-dataannotations-validationcontext)\">Validate</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationcontext\">ValidationContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(System.Object,System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-string)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Validate(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Validate(Object, String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.Validate(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.Validate(Object, String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(object, string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.Validate(Object, String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-string)\">Validate</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.validate#system-componentmodel-dataannotations-validationattribute-validate(system-object-system-string)\">Validate</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessage",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.errormessage",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessage"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.ErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.ErrorMessage"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessage"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessage"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessage\" text=\"ErrorMessage\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessage\" text=\"ErrorMessage\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceName",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.errormessageresourcename",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageResourceName"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageResourceName"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.ErrorMessageResourceName"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.ErrorMessageResourceName"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceName"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceName"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceName\" text=\"ErrorMessageResourceName\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceName\" text=\"ErrorMessageResourceName\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.errormessageresourcetype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ErrorMessageResourceType"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorMessageResourceType"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.ErrorMessageResourceType"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.ErrorMessageResourceType"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceType"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceType"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceType\" text=\"ErrorMessageResourceType\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.ErrorMessageResourceType\" text=\"ErrorMessageResourceType\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.ComponentModel.DataAnnotations.ValidationAttribute.RequiresValidationContext",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.ComponentModel.DataAnnotations.ValidationAttribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.validationattribute.requiresvalidationcontext",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "RequiresValidationContext"
+        },
+        {
+          "lang": "vb",
+          "value": "RequiresValidationContext"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ValidationAttribute.RequiresValidationContext"
+        },
+        {
+          "lang": "vb",
+          "value": "ValidationAttribute.RequiresValidationContext"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.RequiresValidationContext"
+        },
+        {
+          "lang": "vb",
+          "value": "System.ComponentModel.DataAnnotations.ValidationAttribute.RequiresValidationContext"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.RequiresValidationContext\" text=\"RequiresValidationContext\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.ComponentModel.DataAnnotations.ValidationAttribute.RequiresValidationContext\" text=\"RequiresValidationContext\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.equals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.equals\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.equals\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(Assembly, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(Assembly, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(Assembly, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(Assembly, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(MemberInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(MemberInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(Module, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(Module, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(Module, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(Module, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(ParameterInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(ParameterInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttribute(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttribute(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttribute(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttribute(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)\">GetCustomAttribute</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Assembly)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Assembly)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Assembly, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Assembly, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Assembly, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Assembly, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Assembly, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Assembly, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Assembly, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Assembly, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(MemberInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(MemberInfo)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(MemberInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(MemberInfo)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(MemberInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(MemberInfo, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(MemberInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Module)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Module)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Module)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Module)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Module)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Module, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Module, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Module, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Module, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Module, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Module, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(Module, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(Module, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(ParameterInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(ParameterInfo)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(ParameterInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(ParameterInfo, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(ParameterInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetCustomAttributes(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetCustomAttributes(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetCustomAttributes(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)\">GetCustomAttributes</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefaultAttribute",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefaultAttribute()"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefaultAttribute()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefaultAttribute()"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefaultAttribute()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefaultAttribute()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefaultAttribute()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute\">IsDefaultAttribute</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute\">IsDefaultAttribute</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(Assembly, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(Assembly, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(Assembly, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(Assembly, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(Assembly, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(Assembly, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(MemberInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(MemberInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(MemberInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(MemberInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(MemberInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo\">MemberInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.Module,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(Module, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(Module, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(Module, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.Module, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.Module, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(Module, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(Module, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(Module, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.Module, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.Module, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.module\">Module</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(ParameterInfo, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(ParameterInfo, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(ParameterInfo, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IsDefined(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "IsDefined(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.IsDefined(ParameterInfo, Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.IsDefined(ParameterInfo, Type, Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)\">IsDefined</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo\">ParameterInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.Match(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.match",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Match(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Match(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.Match(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.Match(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.Match(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.Match(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.match\">Match</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.attribute.match\">Match</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Attribute.TypeId",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Attribute",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.attribute.typeid",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TypeId"
+        },
+        {
+          "lang": "vb",
+          "value": "TypeId"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Attribute.TypeId"
+        },
+        {
+          "lang": "vb",
+          "value": "Attribute.TypeId"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Attribute.TypeId"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Attribute.TypeId"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Attribute.TypeId\" text=\"TypeId\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Attribute.TypeId\" text=\"TypeId\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "attributes": [
+    {
+      "type": "System.AttributeUsageAttribute",
+      "ctor": "System.AttributeUsageAttribute.#ctor(System.AttributeTargets)",
+      "arguments": [
+        {
+          "type": "System.AttributeTargets",
+          "value": 384
+        }
+      ],
+      "namedArguments": [
+        {
+          "name": "AllowMultiple",
+          "type": "System.Boolean",
+          "value": false
+        },
+        {
+          "name": "Inherited",
+          "type": "System.Boolean",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Attributes_Validation_OneOfAttribute.md&value=---%0Auid%3A%20OneImlx.Shared.Attributes.Validation.OneOfAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Attributes/Validation/OneOfAttribute.cs/#L17",
+  "description": "Specifies the allowed values for a property or a field.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Attributes_Validation_OneOfAttribute",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

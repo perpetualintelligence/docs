@@ -1,0 +1,1705 @@
+{
+  "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Hosting",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.ITerminalBuilder",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Services"
+            },
+            {
+              "lang": "vb",
+              "value": "Services"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalBuilder.Services"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalBuilder.Services"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.Services\" text=\"Services\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.Services\" text=\"Services\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "IServiceCollection Services { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "ReadOnly Property Services As IServiceCollection"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "Microsoft.Extensions.DependencyInjection.IServiceCollection",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IServiceCollection"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IServiceCollection"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IServiceCollection"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IServiceCollection"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "Microsoft.Extensions.DependencyInjection.IServiceCollection"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Microsoft.Extensions.DependencyInjection.IServiceCollection"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"Microsoft.Extensions.DependencyInjection.IServiceCollection\" text=\"IServiceCollection\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"Microsoft.Extensions.DependencyInjection.IServiceCollection\" text=\"IServiceCollection\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Services",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+            "startLine": 20,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Services"
+              },
+              {
+                "lang": "vb",
+                "value": "Services"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalBuilder.Services"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalBuilder.Services"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.Services"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.Services*\" text=\"Services\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.Services*\" text=\"Services\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_ITerminalBuilder_Services_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml\" sourcestartlinenumber=\"1\">The host service collection.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_ITerminalBuilder_Services.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.ITerminalBuilder.Services%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs/#L21",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_ITerminalBuilder_Services",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.ITerminalBuilder",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "TextHandler"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalBuilder.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalBuilder.TextHandler"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler\" text=\"TextHandler\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler\" text=\"TextHandler\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalTextHandler TextHandler { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "ReadOnly Property TextHandler As ITerminalTextHandler"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextHandler",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+            "startLine": 25,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "TextHandler"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalBuilder.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalBuilder.TextHandler"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler*\" text=\"TextHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler*\" text=\"TextHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_ITerminalBuilder_TextHandler_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_ITerminalBuilder_TextHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.ITerminalBuilder.TextHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs/#L26",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_ITerminalBuilder_TextHandler",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalBuilder"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalBuilder"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalBuilder"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalBuilder"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Hosting.ITerminalBuilder"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Hosting.ITerminalBuilder"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalBuilder",
+    "path": "../../terminal/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs",
+    "startLine": 15,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Hosting",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml\" sourcestartlinenumber=\"1\">An abstraction of service builder.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalBuilder"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalBuilder"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddArgumentChecker``2",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddArgumentChecker``2(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddArgumentChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddArgumentChecker<TMapper, TChecker>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddArgumentChecker(Of TMapper, TChecker)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddArgumentChecker<TMapper, TChecker>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddArgumentChecker(Of TMapper, TChecker)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddArgumentChecker<TMapper, TChecker>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddArgumentChecker(Of TMapper, TChecker)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddArgumentChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddArgumentChecker</a>&lt;TMapper, TChecker&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddArgumentChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddArgumentChecker</a>(Of TMapper, TChecker)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandParser``2",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandParser``2(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandParser__2_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddCommandParser<TCommand, TRequest>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddCommandParser(Of TCommand, TRequest)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddCommandParser<TCommand, TRequest>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddCommandParser(Of TCommand, TRequest)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandParser<TCommand, TRequest>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandParser(Of TCommand, TRequest)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandParser__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandParser</a>&lt;TCommand, TRequest&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandParser__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandParser</a>(Of TCommand, TRequest)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandRouter``3",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandRouter``3(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandRouter__3_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddCommandRouter<TRouter, THandler, TResolver>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddCommandRouter(Of TRouter, THandler, TResolver)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddCommandRouter<TRouter, THandler, TResolver>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddCommandRouter(Of TRouter, THandler, TResolver)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandRouter<TRouter, THandler, TResolver>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandRouter(Of TRouter, THandler, TResolver)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandRouter__3_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandRouter</a>&lt;TRouter, THandler, TResolver&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandRouter__3_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandRouter</a>(Of TRouter, THandler, TResolver)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandStore``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandStore``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandStore__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddCommandStore<TStore>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddCommandStore(Of TStore)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddCommandStore<TStore>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddCommandStore(Of TStore)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandStore<TStore>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddCommandStore(Of TStore)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandStore__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandStore</a>&lt;TStore&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddCommandStore__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddCommandStore</a>(Of TStore)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConfigurationOptions",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConfigurationOptions(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConfigurationOptions_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddConfigurationOptions(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddConfigurationOptions(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddConfigurationOptions(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddConfigurationOptions(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConfigurationOptions(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConfigurationOptions(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConfigurationOptions_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddConfigurationOptions</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConfigurationOptions_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddConfigurationOptions</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConsole``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConsole``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConsole__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddConsole<TConsole>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddConsole(Of TConsole)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddConsole<TConsole>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddConsole(Of TConsole)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConsole<TConsole>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddConsole(Of TConsole)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConsole__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddConsole</a>&lt;TConsole&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddConsole__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddConsole</a>(Of TConsole)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(System.Reflection.Assembly)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder,System.Reflection.Assembly)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Reflection_Assembly_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddDeclarativeAssembly(ITerminalBuilder, Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddDeclarativeAssembly(ITerminalBuilder, Assembly)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly(ITerminalBuilder, Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly(ITerminalBuilder, Assembly)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder, System.Reflection.Assembly)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder, System.Reflection.Assembly)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Reflection_Assembly_\">AddDeclarativeAssembly</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Reflection_Assembly_\">AddDeclarativeAssembly</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.reflection.assembly\">Assembly</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder,System.Type)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Type_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddDeclarativeAssembly(ITerminalBuilder, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddDeclarativeAssembly(ITerminalBuilder, Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly(ITerminalBuilder, Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly(ITerminalBuilder, Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder, System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(OneImlx.Terminal.Hosting.ITerminalBuilder, System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Type_\">AddDeclarativeAssembly</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly_OneImlx_Terminal_Hosting_ITerminalBuilder_System_Type_\">AddDeclarativeAssembly</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddDeclarativeAssembly<TType>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddDeclarativeAssembly(Of TType)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly<TType>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeAssembly(Of TType)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly<TType>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeAssembly(Of TType)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDeclarativeAssembly</a>&lt;TType&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeAssembly__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDeclarativeAssembly</a>(Of TType)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeRunner``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeRunner``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeRunner__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddDeclarativeRunner<TDeclarativeRunner>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddDeclarativeRunner(Of TDeclarativeRunner)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeRunner<TDeclarativeRunner>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddDeclarativeRunner(Of TDeclarativeRunner)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeRunner<TDeclarativeRunner>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDeclarativeRunner(Of TDeclarativeRunner)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeRunner__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDeclarativeRunner</a>&lt;TDeclarativeRunner&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDeclarativeRunner__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDeclarativeRunner</a>(Of TDeclarativeRunner)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDynamics``4",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDynamics``4(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDynamics__4_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddDynamics<TContext, TSource, TChecker, TLoader>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddDynamics(Of TContext, TSource, TChecker, TLoader)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddDynamics<TContext, TSource, TChecker, TLoader>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddDynamics(Of TContext, TSource, TChecker, TLoader)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDynamics<TContext, TSource, TChecker, TLoader>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddDynamics(Of TContext, TSource, TChecker, TLoader)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDynamics__4_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDynamics</a>&lt;TContext, TSource, TChecker, TLoader&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddDynamics__4_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddDynamics</a>(Of TContext, TSource, TChecker, TLoader)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddEventHandler``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddEventHandler``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddEventHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddEventHandler<TEventHandler>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddEventHandler(Of TEventHandler)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddEventHandler<TEventHandler>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddEventHandler(Of TEventHandler)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddEventHandler<TEventHandler>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddEventHandler(Of TEventHandler)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddEventHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddEventHandler</a>&lt;TEventHandler&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddEventHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddEventHandler</a>(Of TEventHandler)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddExceptionHandler``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddExceptionHandler``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddExceptionHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddExceptionHandler<THandler>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddExceptionHandler(Of THandler)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddExceptionHandler<THandler>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddExceptionHandler(Of THandler)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddExceptionHandler<THandler>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddExceptionHandler(Of THandler)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddExceptionHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddExceptionHandler</a>&lt;THandler&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddExceptionHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddExceptionHandler</a>(Of THandler)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddHelpProvider``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddHelpProvider``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddHelpProvider__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddHelpProvider<THelpProvider>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddHelpProvider(Of THelpProvider)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddHelpProvider<THelpProvider>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddHelpProvider(Of THelpProvider)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddHelpProvider<THelpProvider>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddHelpProvider(Of THelpProvider)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddHelpProvider__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddHelpProvider</a>&lt;THelpProvider&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddHelpProvider__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddHelpProvider</a>(Of THelpProvider)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddLicensing",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddLicensing(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddLicensing_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddLicensing(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddLicensing(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddLicensing(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddLicensing(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddLicensing(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddLicensing(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddLicensing_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddLicensing</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddLicensing_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddLicensing</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddOptionChecker``2",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddOptionChecker``2(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddOptionChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddOptionChecker<TMapper, TChecker>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddOptionChecker(Of TMapper, TChecker)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddOptionChecker<TMapper, TChecker>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddOptionChecker(Of TMapper, TChecker)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddOptionChecker<TMapper, TChecker>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddOptionChecker(Of TMapper, TChecker)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddOptionChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddOptionChecker</a>&lt;TMapper, TChecker&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddOptionChecker__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddOptionChecker</a>(Of TMapper, TChecker)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddProcessor``1",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddProcessor``1(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddProcessor__1_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddProcessor<TTerminalProcessor>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddProcessor(Of TTerminalProcessor)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddProcessor<TTerminalProcessor>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddProcessor(Of TTerminalProcessor)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddProcessor<TTerminalProcessor>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddProcessor(Of TTerminalProcessor)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddProcessor__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddProcessor</a>&lt;TTerminalProcessor&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddProcessor__1_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddProcessor</a>(Of TTerminalProcessor)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouterContext``1({TContext})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouterContext``1(OneImlx.Terminal.Hosting.ITerminalBuilder,``0)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouterContext__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddTerminalRouterContext<TContext>(ITerminalBuilder, TContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddTerminalRouterContext(Of TContext)(ITerminalBuilder, TContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddTerminalRouterContext<TContext>(ITerminalBuilder, TContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddTerminalRouterContext(Of TContext)(ITerminalBuilder, TContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouterContext<TContext>(OneImlx.Terminal.Hosting.ITerminalBuilder, TContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouterContext(Of TContext)(OneImlx.Terminal.Hosting.ITerminalBuilder, TContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouterContext__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_\">AddTerminalRouterContext</a>&lt;TContext&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, TContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouterContext__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_\">AddTerminalRouterContext</a>(Of TContext)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, TContext)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouter``2",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouter``2(OneImlx.Terminal.Hosting.ITerminalBuilder)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouter__2_OneImlx_Terminal_Hosting_ITerminalBuilder_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddTerminalRouter<TRouter, TContext>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddTerminalRouter(Of TRouter, TContext)(ITerminalBuilder)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddTerminalRouter<TRouter, TContext>(ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddTerminalRouter(Of TRouter, TContext)(ITerminalBuilder)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouter<TRouter, TContext>(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTerminalRouter(Of TRouter, TContext)(OneImlx.Terminal.Hosting.ITerminalBuilder)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouter__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddTerminalRouter</a>&lt;TRouter, TContext&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTerminalRouter__2_OneImlx_Terminal_Hosting_ITerminalBuilder_\">AddTerminalRouter</a>(Of TRouter, TContext)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTextHandler``1({TTextHandler})",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTextHandler``1(OneImlx.Terminal.Hosting.ITerminalBuilder,``0)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTextHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "AddTextHandler<TTextHandler>(ITerminalBuilder, TTextHandler)"
+        },
+        {
+          "lang": "vb",
+          "value": "AddTextHandler(Of TTextHandler)(ITerminalBuilder, TTextHandler)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.AddTextHandler<TTextHandler>(ITerminalBuilder, TTextHandler)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.AddTextHandler(Of TTextHandler)(ITerminalBuilder, TTextHandler)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTextHandler<TTextHandler>(OneImlx.Terminal.Hosting.ITerminalBuilder, TTextHandler)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.AddTextHandler(Of TTextHandler)(OneImlx.Terminal.Hosting.ITerminalBuilder, TTextHandler)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTextHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_\">AddTextHandler</a>&lt;TTextHandler&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, TTextHandler)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_AddTextHandler__1_OneImlx_Terminal_Hosting_ITerminalBuilder___0_\">AddTextHandler</a>(Of TTextHandler)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, TTextHandler)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "OneImlx.Terminal.Hosting.ITerminalBuilder.OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.DefineCommand``1(System.String,System.String,System.String,OneImlx.Terminal.Commands.CommandType,OneImlx.Terminal.Commands.CommandFlags)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "definition": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.DefineCommand``1(OneImlx.Terminal.Hosting.ITerminalBuilder,System.String,System.String,System.String,OneImlx.Terminal.Commands.CommandType,OneImlx.Terminal.Commands.CommandFlags)",
+      "href": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_DefineCommand__1_OneImlx_Terminal_Hosting_ITerminalBuilder_System_String_System_String_System_String_OneImlx_Terminal_Commands_CommandType_OneImlx_Terminal_Commands_CommandFlags_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DefineCommand<TRunner>(ITerminalBuilder, string, string, string, CommandType, CommandFlags)"
+        },
+        {
+          "lang": "vb",
+          "value": "DefineCommand(Of TRunner)(ITerminalBuilder, String, String, String, CommandType, CommandFlags)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ITerminalBuilderExtensions.DefineCommand<TRunner>(ITerminalBuilder, string, string, string, CommandType, CommandFlags)"
+        },
+        {
+          "lang": "vb",
+          "value": "ITerminalBuilderExtensions.DefineCommand(Of TRunner)(ITerminalBuilder, String, String, String, CommandType, CommandFlags)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.DefineCommand<TRunner>(OneImlx.Terminal.Hosting.ITerminalBuilder, string, string, string, OneImlx.Terminal.Commands.CommandType, OneImlx.Terminal.Commands.CommandFlags)"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.DefineCommand(Of TRunner)(OneImlx.Terminal.Hosting.ITerminalBuilder, String, String, String, OneImlx.Terminal.Commands.CommandType, OneImlx.Terminal.Commands.CommandFlags)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_DefineCommand__1_OneImlx_Terminal_Hosting_ITerminalBuilder_System_String_System_String_System_String_OneImlx_Terminal_Commands_CommandType_OneImlx_Terminal_Commands_CommandFlags_\">DefineCommand</a>&lt;TRunner&gt;(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandType.html\">CommandType</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandFlags.html\">CommandFlags</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html#OneImlx_Terminal_Extensions_ITerminalBuilderExtensions_DefineCommand__1_OneImlx_Terminal_Hosting_ITerminalBuilder_System_String_System_String_System_String_OneImlx_Terminal_Commands_CommandType_OneImlx_Terminal_Commands_CommandFlags_\">DefineCommand</a>(Of TRunner)(<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.ITerminalBuilder.html\">ITerminalBuilder</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandType.html\">CommandType</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandFlags.html\">CommandFlags</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_ITerminalBuilder.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.ITerminalBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/ITerminalBuilder.cs/#L16",
+  "description": "An abstraction of service builder.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Hosting_ITerminalBuilder",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

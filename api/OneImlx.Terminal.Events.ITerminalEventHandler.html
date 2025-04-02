@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ITerminalEventHandler </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ITerminalEventHandler ">
+      
+      <meta name="description" content="The terminal event handler.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler.md&amp;value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OneImlx.Terminal.Events.ITerminalEventHandler">
+
+
+
+  <h1 id="OneImlx_Terminal_Events_ITerminalEventHandler" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler" class="text-break">
+Interface ITerminalEventHandler  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OneImlx.html">OneImlx</a>.<a class="xref" href="OneImlx.Terminal.html">Terminal</a>.<a class="xref" href="OneImlx.Terminal.Events.html">Events</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OneImlx.Terminal.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The terminal event handler.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITerminalEventHandler</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Checkers_CommandCheckerResult_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)">
+  AfterCommandCheckAsync(Command, CommandCheckerResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation after <a class="xref" href="OneImlx.Terminal.Commands.Handlers.ICommandHandler.html">ICommandHandler</a> ends a command check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AfterCommandCheckAsync(Command command, CommandCheckerResult result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="OneImlx.Terminal.Commands.Command.html">Command</a></dt>
+    <dd><p>The command object.</p>
+</dd>
+    <dt><code>result</code> <a class="xref" href="OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.html">CommandCheckerResult</a></dt>
+    <dd><p>The command run result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Checkers_CommandCheckerResult__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The framework will not call <a class="xref" href="OneImlx.Terminal.Events.ITerminalEventHandler.html#OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Checkers_CommandCheckerResult_">AfterCommandCheckAsync(Command, CommandCheckerResult)</a> if there is an error during the command check.</p>
+</div>
+
+
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_CommandResult_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.CommandResult)">
+  AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation after <a class="xref" href="OneImlx.Terminal.Commands.ICommandRouter.html">ICommandRouter</a> ends a command request and process the command result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AfterCommandRouteAsync(TerminalRequest request, Command? command, CommandResult? result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="OneImlx.Terminal.Shared.TerminalRequest.html">TerminalRequest</a></dt>
+    <dd><p>The command request.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="OneImlx.Terminal.Commands.Command.html">Command</a></dt>
+    <dd><p>The command object. May be <code>null</code>.</p>
+</dd>
+    <dt><code>result</code> <a class="xref" href="OneImlx.Terminal.Commands.CommandResult.html">CommandResult</a></dt>
+    <dd><p>The command router result. May be <code>null</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_CommandResult__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The framework will call <a class="xref" href="OneImlx.Terminal.Events.ITerminalEventHandler.html#OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_CommandResult_">AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)</a> even if there is an error during command routing.
+The <code>command</code> and <code>result</code> parameters may be <code>null</code>. The router constructs a <code>command</code> object if the parser, handler, and checker pass
+and routes a command to run.</p>
+</div>
+
+
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Runners_CommandRunnerResult_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Runners.CommandRunnerResult)">
+  AfterCommandRunAsync(Command, CommandRunnerResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation after <a class="xref" href="OneImlx.Terminal.Commands.Handlers.ICommandHandler.html">ICommandHandler</a> ends a command run and process the command result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AfterCommandRunAsync(Command command, CommandRunnerResult result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="OneImlx.Terminal.Commands.Command.html">Command</a></dt>
+    <dd><p>The command object.</p>
+</dd>
+    <dt><code>result</code> <a class="xref" href="OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html">CommandRunnerResult</a></dt>
+    <dd><p>The command run result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Runners_CommandRunnerResult__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The framework will not call <a class="xref" href="OneImlx.Terminal.Events.ITerminalEventHandler.html#OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Runners_CommandRunnerResult_">AfterCommandRunAsync(Command, CommandRunnerResult)</a> if there is an error during the command run.</p>
+</div>
+
+
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandCheckAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandCheckAsync_OneImlx_Terminal_Commands_Command_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)">
+  BeforeCommandCheckAsync(Command)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation before <a class="xref" href="OneImlx.Terminal.Commands.Handlers.ICommandHandler.html">ICommandHandler</a> starts a command check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BeforeCommandCheckAsync(Command command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="OneImlx.Terminal.Commands.Command.html">Command</a></dt>
+    <dd><p>The command object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRouteAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)">
+  BeforeCommandRouteAsync(TerminalRequest)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation before <a class="xref" href="OneImlx.Terminal.Commands.ICommandRouter.html">ICommandRouter</a> starts a command request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BeforeCommandRouteAsync(TerminalRequest request)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="OneImlx.Terminal.Shared.TerminalRequest.html">TerminalRequest</a></dt>
+    <dd><p>The command request.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRunAsync_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRunAsync_OneImlx_Terminal_Commands_Command_" data-uid="OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)">
+  BeforeCommandRunAsync(Command)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method if you will perform an asynchronous operation before <a class="xref" href="OneImlx.Terminal.Commands.Handlers.ICommandHandler.html">ICommandHandler</a> starts a command run.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BeforeCommandRunAsync(Command command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="OneImlx.Terminal.Commands.Command.html">Command</a></dt>
+    <dd><p>The command object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,683 @@
+{
+  "uid": "OneImlx.Terminal.Runtime.ITerminalHelpProvider",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.ITerminalHelpProvider",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ProvideHelpAsync(TerminalHelpProviderContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "ProvideHelpAsync(TerminalHelpProviderContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalHelpProvider.ProvideHelpAsync(TerminalHelpProviderContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalHelpProvider.ProvideHelpAsync(TerminalHelpProviderContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)\" text=\"ProvideHelpAsync(TerminalHelpProviderContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)\" text=\"ProvideHelpAsync(TerminalHelpProviderContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task ProvideHelpAsync(TerminalHelpProviderContext context)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function ProvideHelpAsync(context As TerminalHelpProviderContext) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "context",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.TerminalHelpProviderContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalHelpProviderContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalHelpProviderContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalHelpProviderContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalHelpProviderContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.TerminalHelpProviderContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.TerminalHelpProviderContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalHelpProviderContext\" text=\"TerminalHelpProviderContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalHelpProviderContext\" text=\"TerminalHelpProviderContext\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ProvideHelpAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs",
+            "startLine": 28,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ProvideHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ProvideHelpAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalHelpProvider.ProvideHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalHelpProvider.ProvideHelpAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync*\" text=\"ProvideHelpAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync*\" text=\"ProvideHelpAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_ITerminalHelpProvider_ProvideHelpAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml\" sourcestartlinenumber=\"1\">Provides help asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_ITerminalHelpProvider_ProvideHelpAsync_OneImlx_Terminal_Runtime_TerminalHelpProviderContext_.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.ITerminalHelpProvider.ProvideHelpAsync(OneImlx.Terminal.Runtime.TerminalHelpProviderContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs/#L29",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_ITerminalHelpProvider_ProvideHelpAsync_OneImlx_Terminal_Runtime_TerminalHelpProviderContext_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalHelpProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalHelpProvider"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalHelpProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalHelpProvider"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Runtime.ITerminalHelpProvider"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalHelpProvider",
+    "path": "../../terminal/src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs",
+    "startLine": 22,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml\" sourcestartlinenumber=\"1\">An abstraction to provide help for commands.</p>\n",
+  "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml\" sourcestartlinenumber=\"1\">Use <xref href=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" data-throw-if-not-resolved=\"false\"></xref> to provide a common implementation for all your commands. To provide\nhelp for each command individually override <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalHelpProvider"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalHelpProvider"
+      }
+    ]
+  },
+  "seealso": [
+    {
+      "linkType": "cRef",
+      "type": {
+        "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "IDelegateCommandRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "IDelegateCommandRunner"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "IDelegateCommandRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "IDelegateCommandRunner"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+          },
+          {
+            "lang": "vb",
+            "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner\" text=\"IDelegateCommandRunner\"/>"
+          },
+          {
+            "lang": "vb",
+            "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner\" text=\"IDelegateCommandRunner\"/>"
+          }
+        ]
+      },
+      "isCref": true
+    },
+    {
+      "linkType": "cRef",
+      "type": {
+        "uid": "OneImlx.Terminal.Commands.Runners.ICommandRunner`1",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "ICommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "ICommandRunner(Of TResult)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "ICommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "ICommandRunner(Of TResult)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "OneImlx.Terminal.Commands.Runners.ICommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "OneImlx.Terminal.Commands.Runners.ICommandRunner(Of TResult)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html\">ICommandRunner</a>&lt;TResult&gt;"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html\">ICommandRunner</a>(Of TResult)"
+          }
+        ]
+      },
+      "isCref": true
+    },
+    {
+      "linkType": "cRef",
+      "type": {
+        "uid": "OneImlx.Terminal.Commands.Runners.CommandRunner`1",
+        "name": [
+          {
+            "lang": "csharp",
+            "value": "CommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "CommandRunner(Of TResult)"
+          }
+        ],
+        "nameWithType": [
+          {
+            "lang": "csharp",
+            "value": "CommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "CommandRunner(Of TResult)"
+          }
+        ],
+        "fullName": [
+          {
+            "lang": "csharp",
+            "value": "OneImlx.Terminal.Commands.Runners.CommandRunner<TResult>"
+          },
+          {
+            "lang": "vb",
+            "value": "OneImlx.Terminal.Commands.Runners.CommandRunner(Of TResult)"
+          }
+        ],
+        "specName": [
+          {
+            "lang": "csharp",
+            "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunner-1.html\">CommandRunner</a>&lt;TResult&gt;"
+          },
+          {
+            "lang": "vb",
+            "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunner-1.html\">CommandRunner</a>(Of TResult)"
+          }
+        ]
+      },
+      "isCref": true
+    }
+  ],
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_ITerminalHelpProvider.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.ITerminalHelpProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/ITerminalHelpProvider.cs/#L23",
+  "description": "An abstraction to provide help for commands.",
+  "conceptual": "",
+  "implements": "",
+  "id": "OneImlx_Terminal_Runtime_ITerminalHelpProvider",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

@@ -1,0 +1,1814 @@
+{
+  "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor(OneImlx.Terminal.Runtime.TerminalStartMode,System.Collections.Generic.Dictionary{System.String,System.Object},System.String[])",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext(TerminalStartMode, Dictionary<string, object>?, string[]?)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(TerminalStartMode, Dictionary(Of String, Object), String())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext.TerminalRouterContext(TerminalStartMode, Dictionary<string, object>?, string[]?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRouterContext.New(TerminalStartMode, Dictionary(Of String, Object), String())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalRouterContext(OneImlx.Terminal.Runtime.TerminalStartMode, System.Collections.Generic.Dictionary<string, object>?, string[]?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.New(OneImlx.Terminal.Runtime.TerminalStartMode, System.Collections.Generic.Dictionary(Of String, Object), String())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor(OneImlx.Terminal.Runtime.TerminalStartMode,System.Collections.Generic.Dictionary{System.String,System.Object},System.String[])\" text=\"TerminalRouterContext(TerminalStartMode, Dictionary&lt;string, object&gt;?, string[]?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor(OneImlx.Terminal.Runtime.TerminalStartMode,System.Collections.Generic.Dictionary{System.String,System.Object},System.String[])\" text=\"TerminalRouterContext(TerminalStartMode, Dictionary&lt;string, object&gt;?, string[]?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected TerminalRouterContext(TerminalStartMode startMode, Dictionary<string, object>? customProperties = null, string[]? arguments = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Sub New(startMode As TerminalStartMode, customProperties As Dictionary(Of String, Object) = Nothing, arguments As String() = Nothing)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "startMode",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.TerminalStartMode",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalStartMode"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalStartMode"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalStartMode"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalStartMode"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.TerminalStartMode"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.TerminalStartMode"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalStartMode\" text=\"TerminalStartMode\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalStartMode\" text=\"TerminalStartMode\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The terminal start mode.</p>\n"
+              },
+              {
+                "id": "customProperties",
+                "type": {
+                  "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.Dictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The custom properties.</p>\n"
+              },
+              {
+                "id": "arguments",
+                "type": {
+                  "uid": "System.String[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The command line arguments.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+            "startLine": 62,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext.TerminalRouterContext"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRouterContext.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalRouterContext"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor*\" text=\"TerminalRouterContext\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.#ctor*\" text=\"TerminalRouterContext\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalRouterContext__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">Initializes a new <xref href=\"OneImlx.Terminal.Runtime.TerminalRouterContext\" data-throw-if-not-resolved=\"false\"></xref> instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext__ctor_OneImlx_Terminal_Runtime_TerminalStartMode_System_Collections_Generic_Dictionary_System_String_System_Object__System_String___.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext.%23ctor(OneImlx.Terminal.Runtime.TerminalStartMode%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L63",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalRouterContext__ctor_OneImlx_Terminal_Runtime_TerminalStartMode_System_Collections_Generic_Dictionary_System_String_System_Object__System_String___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Arguments"
+            },
+            {
+              "lang": "vb",
+              "value": "Arguments"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext.Arguments"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRouterContext.Arguments"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments\" text=\"Arguments\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments\" text=\"Arguments\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public string[]? Arguments { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Arguments As String()"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String[]",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Arguments",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+            "startLine": 28,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">These arguments are the command line inputs provided at the application's main entry point when starting a\nterminal session via a driver or via <xref href=\"System.Diagnostics.Process\" data-throw-if-not-resolved=\"false\"></xref>. This allows for dynamic and flexible terminal\nsession configuration, adapting to different operational parameters and user-defined settings. It's\nparticularly useful for modifying startup behaviors and handling various runtime environments, ensuring the\nterminal adapts to specific needs and contexts.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Arguments"
+              },
+              {
+                "lang": "vb",
+                "value": "Arguments"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext.Arguments"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRouterContext.Arguments"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments*\" text=\"Arguments\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments*\" text=\"Arguments\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_Arguments_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The terminal driver arguments or command line arguments.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext_Arguments.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext.Arguments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L29",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_Arguments",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomProperties"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomProperties"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext.CustomProperties"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRouterContext.CustomProperties"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties\" text=\"CustomProperties\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties\" text=\"CustomProperties\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Dictionary<string, object>? CustomProperties { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property CustomProperties As Dictionary(Of String, Object)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                "definition": "System.Collections.Generic.Dictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CustomProperties",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+            "startLine": 38,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">A collection of key-value pairs that can be used to pass additional information or configuration settings to\nthe terminal session. These properties offer a way to extend the functionality and behavior of the terminal\nwithout modifying the core implementation.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CustomProperties"
+              },
+              {
+                "lang": "vb",
+                "value": "CustomProperties"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext.CustomProperties"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRouterContext.CustomProperties"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties*\" text=\"CustomProperties\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties*\" text=\"CustomProperties\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_CustomProperties_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The custom properties.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext_CustomProperties.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext.CustomProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L39",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_CustomProperties",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StartMode"
+            },
+            {
+              "lang": "vb",
+              "value": "StartMode"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext.StartMode"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRouterContext.StartMode"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode\" text=\"StartMode\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode\" text=\"StartMode\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalStartMode StartMode { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property StartMode As TerminalStartMode"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.TerminalStartMode",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalStartMode"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalStartMode"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalStartMode"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalStartMode"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.TerminalStartMode"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.TerminalStartMode"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalStartMode\" text=\"TerminalStartMode\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalStartMode\" text=\"TerminalStartMode\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StartMode",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+            "startLine": 43,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StartMode"
+              },
+              {
+                "lang": "vb",
+                "value": "StartMode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext.StartMode"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRouterContext.StartMode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode*\" text=\"StartMode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode*\" text=\"StartMode\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_StartMode_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The terminal start mode.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext_StartMode.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext.StartMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L44",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_StartMode",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalCancellationToken"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalCancellationToken"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRouterContext.TerminalCancellationToken"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRouterContext.TerminalCancellationToken"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken\" text=\"TerminalCancellationToken\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken\" text=\"TerminalCancellationToken\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CancellationToken TerminalCancellationToken { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property TerminalCancellationToken As CancellationToken"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Threading.CancellationToken",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "CancellationToken"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CancellationToken"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "CancellationToken"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "CancellationToken"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.CancellationToken"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.CancellationToken"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TerminalCancellationToken",
+            "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+            "startLine": 54,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Runtime",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">This cancellation token is used for global control over the entire terminal routing. When triggered, it\ncancels the entire terminal routing, effectively stopping the routing any further commands. This is\nparticularly useful in scenarios where a complete shutdown of the terminal's operational context is\nrequired, such as during application termination or critical error handling.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalCancellationToken"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalCancellationToken"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRouterContext.TerminalCancellationToken"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRouterContext.TerminalCancellationToken"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken*\" text=\"TerminalCancellationToken\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken*\" text=\"TerminalCancellationToken\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_TerminalCancellationToken_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The cancellation token to cancel the global terminal routing.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext_TerminalCancellationToken.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext.TerminalCancellationToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L55",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Runtime_TerminalRouterContext_TerminalCancellationToken",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalRouterContext"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalRouterContext"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalRouterContext"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalRouterContext"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Runtime.TerminalRouterContext"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Runtime.TerminalRouterContext"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalRouterContext",
+    "path": "../../terminal/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Runtime",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Runtime"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Runtime"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Runtime.html\">Runtime</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> context.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public abstract class TerminalRouterContext"
+      },
+      {
+        "lang": "vb",
+        "value": "Public MustInherit Class TerminalRouterContext"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "derivedClasses": [
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalConsoleRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalConsoleRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalCustomRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalCustomRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalGrpcRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalGrpcRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalHttpRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalHttpRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTcpRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalTcpRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    },
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalUdpRouterContext\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Runtime.TerminalUdpRouterContext\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalRouterContext.md&value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalRouterContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalRouterContext.cs/#L17",
+  "description": "The  context.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Runtime_TerminalRouterContext",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

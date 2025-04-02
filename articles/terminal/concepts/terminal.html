@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/terminal.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="terminal"><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.Terminal.html">Terminal</a></h2>
+<p>In <code>OneImlx.Terminal</code> framework, a terminal is a Unicode text-based construct designed for executing commands, automating workflows, and processing scripts. Each terminal session is uniquely identified, allowing for clear differentiation and management of multiple instances.</p>
+<p>A terminal is not just a console; it's a logical construct designed to execute commands and automate tasks. It can be implemented as a console, server, browser-based interface, or any other UX format, making it adaptable for various development environments.</p>
+<h2 id="hosting"><a class="xref" href="../../../api/OneImlx.Terminal.Hosting.html">Hosting</a></h2>
+<p>The <code>OneImlx.Terminal</code> framework uses extension methods like <code>&lt;AddTerminal*&gt;</code> or <code>&lt;Add*&gt;</code> for easy setup and terminal customization. It deploys dependency injection at its core to setup and run the terminal host. Developers can utilize the <code>TerminalHostedService</code> to configure services, customize terminal behavior, and ensure smooth execution throughout the terminal's lifecycle. For details refer <a href="../configuration/services.html">services</a>.</p>
+<h2 id="configuration"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html">Configuration</a></h2>
+<p>The <code>OneImlx.Terminal</code> supports flexible configuration via Dependency Injection and the options pattern, enabling customization of terminal behaviors and settings through code, or configuration files. For comprehensive setup instructions, see the <a href="../configuration/intro.html">configuration documentation</a>.</p>
+<h2 id="router"><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalRouter-1.html">Router</a></h2>
+<p>Terminal router orchestrates the execution within the application context. It starts the host and runs indefinitely until the application stops or a cancellation token is received. Developers can implement the <code>ITerminalRouting&lt;TContext&gt;</code> interface and define the <code>RunAsync</code> method to establish the custom routing logic.</p>
+<p>The framework provides the following ready-to-use router implementations:</p>
+<ul>
+<li><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.html">TerminalConsoleRouter</a>: Suitable for standalone terminal or CLI applications.</li>
+<li><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalTcpRouter.html">TerminalTcpRouter</a>: Designed for server terminals managing commands from multiple clients concurrently over TCP/IP.</li>
+<li><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalUdpRouter.html">TerminalUdpRouter</a>: Designed for server terminals managing commands from multiple clients concurrently over UDP.</li>
+<li><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalCustomRouter.html">TerminalCustomRouter</a>: Allows for custom router strategies.</li>
+</ul>
+<p><strong>Note:</strong> Future versions of the framework will introduce <code>gRPC</code>, <code>HTTP</code> and <code>Apache Pulsar</code> terminal routers.</p>
+<h2 id="driver"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.DriverOptions.html">Driver</a></h2>
+<p>In native console environments, a terminal may act as a driver, allowing for direct command execution, similar to <code>dotnet.exe</code> in the .NET CLI.</p>
+<p>Consider executing the command <code>dotnet build test.csproj --configuration Release</code> directly from the native command prompt:</p>
+<ol>
+<li>Identify Executable and Root Command: The framework recognizes <code>dotnet.exe</code> as the driver and <code>dotnet</code> as the root command.</li>
+<li>Pass Command Line Arguments: The entire string <code>build test.csproj --configuration Release</code> is passed as command line arguments.</li>
+<li>Parse Arguments and Options: The framework parses these arguments and options.</li>
+<li>Execute Command: Ultimately, the <code>build</code> command is executed with the specified project file and configuration.</li>
+</ol>
+<p>To enable this functionality, configure the <a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.DriverOptions.html">DriverOptions</a> in your terminal settings. Utilize the <code>Enabled</code> property to toggle the driver functionality on or off.</p>
+<blockquote>
+<p><strong>Note</strong>: This feature is an enhancement and being tracked by <a href="https://github.com/perpetualintelligence/terminal/issues/107">github issue</a>.</p>
+</blockquote>
+<h2 id="events"><a class="xref" href="../../../api/OneImlx.Terminal.Events.ITerminalEventHandler.html">Events</a></h2>
+<p>Events play an important role in extending and customizing the behavior of the terminal to meet specific application requirements. Events are hooks that allow developers to inject custom logic and asynchronous operations at various stages of command routing.</p>
+<ul>
+<li><code>BeforeCommandRouteAsync</code>: Called before the command routing process begins.</li>
+<li><code>AfterCommandRouteAsync</code>: Called after the command routing process completes.</li>
+<li><code>BeforeCommandRunAsync</code>: Called before a command starts execution.</li>
+<li><code>AfterCommandRunAsync</code>: Called after a command finishes execution.</li>
+<li><code>BeforeCommandCheckAsync</code>: Called before a command's integrity check.</li>
+<li><code>AfterCommandCheckAsync</code>: Called after a command's integrity check completes.</li>
+</ul>
+<h2 id="integration"><a href="xref:OneImlx.Terminal.Integration">Integration</a></h2>
+<p>The <code>OneImlx.Terminal</code> framework enables developers to seamlessly integrate both first-party and third-party command sources. A command source is a provider of terminal commands. It can be a local or remote source. By default, the framework supports assembly loader command source that dynamically loads DLLs containing command runners.</p>
+<h2 id="stores"><a class="xref" href="../../../api/OneImlx.Terminal.Stores.html">Stores</a></h2>
+<p>The <code>OneImlx.Terminal</code> framework manages <a class="xref" href="../../../api/OneImlx.Terminal.Commands.CommandDescriptor.html">CommandDescriptor</a> instances through stores. The <a class="xref" href="../../../api/OneImlx.Terminal.Stores.ITerminalCommandStore.html">ITerminalCommandStore</a> interface provides methods for adding, finding, and retrieving command descriptors asynchronously.</p>
+<p>Developers can use the default <a class="xref" href="../../../api/OneImlx.Terminal.Stores.TerminalInMemoryCommandStore.html">TerminalInMemoryCommandStore</a> or create custom store implementations to meet specific requirements.</p>
+<h2 id="internationalization"><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalTextHandler.html">Internationalization</a></h2>
+<p>The <code>OneImlx.Terminal</code> framework supports internationalization with <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalTextHandler.html">ITerminalTextHandler</a>, offering Unicode and ASCII encoding options. This interface handles text comparisons and encoding, simplifying the development of applications that require multilingual support. See the @OneImlx.Terminal.Runtime.TerminalUnicodeTextHandler and @OneImlx.Terminal.Runtime.TerminalAsciiTextHandler for more details.</p>
+<h2 id="exception-handling"><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalExceptionHandler.html">Exception Handling</a></h2>
+<p>The <code>OneImlx.Terminal</code> provides exception handling through the <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalExceptionHandler.html">ITerminalExceptionHandler</a>. The default implementation @OneImlx.Terminal.Runtime.TerminalExceptionHandler logs the exception based on severity.</p>
+<p>Developers can implement the interface to create custom exception handlers, enabling tailored error management and logging in their applications.</p>
+<h2 id="console-abstraction"><a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalConsole.html">Console Abstraction</a></h2>
+<p>The <code>OneImlx.Terminal</code> framework provides console abstraction <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.ITerminalConsole.html">ITerminalConsole</a>. It enables developers to create custom console implementations such as web-based or multi-platform consoles.</p>
+<p>The framework offers default implementations <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalSystemConsole.html">TerminalSystemConsole</a> for standard .NET System Console, and <a class="xref" href="../../../api/OneImlx.Terminal.Runtime.TerminalNoConsole.html">TerminalNoConsole</a> for non-interactive console.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/terminal.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

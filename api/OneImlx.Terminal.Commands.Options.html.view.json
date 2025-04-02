@@ -1,0 +1,3257 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Options",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.Option})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Options(ITerminalTextHandler, IEnumerable<Option>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ITerminalTextHandler, IEnumerable(Of Option))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.Options(ITerminalTextHandler, IEnumerable<Option>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.New(ITerminalTextHandler, IEnumerable(Of Option))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.Options(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.Option>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.New(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.Option))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.Option})\" text=\"Options(ITerminalTextHandler, IEnumerable&lt;Option&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.Option})\" text=\"Options(ITerminalTextHandler, IEnumerable&lt;Option&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Options(ITerminalTextHandler textHandler, IEnumerable<Option>? options = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(textHandler As ITerminalTextHandler, options As IEnumerable(Of [Option]) = Nothing)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "textHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n"
+              },
+              {
+                "id": "options",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.Option}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<Option>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of Option)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<Option>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of Option)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.Option>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.Option)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The options.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Options"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.Options"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.Options"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.#ctor*\" text=\"Options\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.#ctor*\" text=\"Options\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_Option__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.%23ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler%2CSystem.Collections.Generic.IEnumerable%7BOneImlx.Terminal.Commands.Option%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_Option__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.Count",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Count"
+            },
+            {
+              "lang": "vb",
+              "value": "Count"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.Count"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.Count"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.Count"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.Count"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Count\" text=\"Count\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Count\" text=\"Count\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int Count { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Count As Integer"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Count",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 63,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.Count*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Count"
+              },
+              {
+                "lang": "vb",
+                "value": "Count"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.Count"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.Count"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.Count"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.Count"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Count*\" text=\"Count\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Count*\" text=\"Count\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_Count_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}.Count",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1.Count",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Count"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<KeyValuePair<string, Option>>.Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of KeyValuePair(Of String, Option)).Count"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.Option>>.Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.Option)).Count"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}.Count\" text=\"Count\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}.Count\" text=\"Count\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_Count.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L64",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_Count",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.Item(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "this[](String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.this[](String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.this[](String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Item(System.String)\" text=\"this[string]\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Item(System.String)\" text=\"this[string]\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Option this[string key] { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Default Property this[](key As String) As [Option]"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "key",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.Option",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Option"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Option"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Option"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Option"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.Option"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.Option"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.Option\" text=\"Option\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.Option\" text=\"Option\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "this[]",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 49,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.Item*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "this"
+              },
+              {
+                "lang": "vb",
+                "value": "this[]"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.this"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.this[]"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.this"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.this[]"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Item*\" text=\"this\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Item*\" text=\"this\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_Item_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Item(System.String)",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "this[string]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "this[](String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, Option>.this[string]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Option).this[](String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>.this[string]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option).this[](String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "this[<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>]"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.item\">this[]</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_Item_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L50",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_Item_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.Keys",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Keys"
+            },
+            {
+              "lang": "vb",
+              "value": "Keys"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.Keys"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.Keys"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.Keys"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.Keys"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Keys\" text=\"Keys\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Keys\" text=\"Keys\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IEnumerable<string> Keys { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Keys As IEnumerable(Of String)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                "definition": "System.Collections.Generic.IEnumerable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerable<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerable(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerable<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerable(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IEnumerable<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IEnumerable(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Keys",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.Keys*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Keys"
+              },
+              {
+                "lang": "vb",
+                "value": "Keys"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.Keys"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.Keys"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.Keys"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.Keys"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Keys*\" text=\"Keys\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Keys*\" text=\"Keys\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_Keys_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Keys",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2.Keys",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Keys"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Keys"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, Option>.Keys"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Option).Keys"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>.Keys"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option).Keys"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Keys\" text=\"Keys\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Keys\" text=\"Keys\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_Keys.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.Keys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_Keys",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.TextHandler",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "TextHandler"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.TextHandler"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.TextHandler"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TextHandler\" text=\"TextHandler\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TextHandler\" text=\"TextHandler\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ITerminalTextHandler TextHandler { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property TextHandler As ITerminalTextHandler"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextHandler",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 54,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.TextHandler*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "TextHandler"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.TextHandler"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.TextHandler"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TextHandler*\" text=\"TextHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TextHandler*\" text=\"TextHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_TextHandler_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_TextHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.TextHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L55",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_TextHandler",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.Values",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Values"
+            },
+            {
+              "lang": "vb",
+              "value": "Values"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.Values"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.Values"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.Values"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.Values"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Values\" text=\"Values\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Values\" text=\"Values\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IEnumerable<Option> Values { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Values As IEnumerable(Of [Option])"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.Option}",
+                "definition": "System.Collections.Generic.IEnumerable`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerable<Option>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerable(Of Option)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerable<Option>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerable(Of Option)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.Option>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.Option)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Values",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.Values*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Values"
+              },
+              {
+                "lang": "vb",
+                "value": "Values"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.Values"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.Values"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.Values"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.Values"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Values*\" text=\"Values\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.Values*\" text=\"Values\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_Values_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Values",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2.Values",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Values"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Values"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, Option>.Values"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Option).Values"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>.Values"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option).Values"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Values\" text=\"Values\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.Values\" text=\"Values\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_Values.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.Values%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_Values",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.ContainsKey(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ContainsKey(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "ContainsKey(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.ContainsKey(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.ContainsKey(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.ContainsKey(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.ContainsKey(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.ContainsKey(System.String)\" text=\"ContainsKey(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.ContainsKey(System.String)\" text=\"ContainsKey(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool ContainsKey(string key)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function ContainsKey(key As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "key",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ContainsKey",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 93,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.ContainsKey*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ContainsKey"
+              },
+              {
+                "lang": "vb",
+                "value": "ContainsKey"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.ContainsKey"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.ContainsKey"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.ContainsKey"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.ContainsKey"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.ContainsKey*\" text=\"ContainsKey\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.ContainsKey*\" text=\"ContainsKey\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_ContainsKey_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.ContainsKey(System.String)",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "ContainsKey(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "ContainsKey(String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, Option>.ContainsKey(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Option).ContainsKey(String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>.ContainsKey(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option).ContainsKey(String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey\">ContainsKey</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey\">ContainsKey</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_ContainsKey_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.ContainsKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L94",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_ContainsKey_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.GetEnumerator",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetEnumerator()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.GetEnumerator()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.GetEnumerator()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetEnumerator\" text=\"GetEnumerator()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetEnumerator\" text=\"GetEnumerator()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IEnumerator<KeyValuePair<string, Option>> GetEnumerator()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of String, [Option]))"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}",
+                "definition": "System.Collections.Generic.IEnumerator`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator<KeyValuePair<string, Option>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator(Of KeyValuePair(Of String, Option))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator<KeyValuePair<string, Option>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator(Of KeyValuePair(Of String, Option))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.Option>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.Option))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetEnumerator",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 66,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.GetEnumerator*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "GetEnumerator"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.GetEnumerator"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.GetEnumerator"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetEnumerator*\" text=\"GetEnumerator\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetEnumerator*\" text=\"GetEnumerator\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_GetEnumerator_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}.GetEnumerator",
+              "definition": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "GetEnumerator()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<KeyValuePair<string, Option>>.GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of KeyValuePair(Of String, Option)).GetEnumerator()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.Option>>.GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.Option)).GetEnumerator()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_GetEnumerator.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L67",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_GetEnumerator",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.GetOptionValue``1(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetOptionValue<TValue>(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetOptionValue(Of TValue)(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.GetOptionValue<TValue>(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.GetOptionValue(Of TValue)(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.GetOptionValue<TValue>(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.GetOptionValue(Of TValue)(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetOptionValue``1(System.String)\" text=\"GetOptionValue&lt;TValue&gt;(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetOptionValue``1(System.String)\" text=\"GetOptionValue&lt;TValue&gt;(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TValue GetOptionValue<TValue>(string optId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetOptionValue(Of TValue)(optId As String) As TValue"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "optId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The option identifier or the alias.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TValue",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "{TValue}",
+                "definition": "TValue",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TValue"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TValue"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TValue"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TValue"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "TValue"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TValue"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetOptionValue",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 75,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.GetOptionValue*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetOptionValue"
+              },
+              {
+                "lang": "vb",
+                "value": "GetOptionValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.GetOptionValue"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.GetOptionValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.GetOptionValue"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.GetOptionValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetOptionValue*\" text=\"GetOptionValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.GetOptionValue*\" text=\"GetOptionValue\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_GetOptionValue_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">Gets the option value by its id.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_GetOptionValue__1_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.GetOptionValue%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L76",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_GetOptionValue__1_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Options.TryGetValue(System.String,OneImlx.Terminal.Commands.Option@)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Options",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TryGetValue(string, out Option)"
+            },
+            {
+              "lang": "vb",
+              "value": "TryGetValue(String, Option)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Options.TryGetValue(string, out Option)"
+            },
+            {
+              "lang": "vb",
+              "value": "Options.TryGetValue(String, Option)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Options.TryGetValue(string, out OneImlx.Terminal.Commands.Option)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Options.TryGetValue(String, OneImlx.Terminal.Commands.Option)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TryGetValue(System.String,OneImlx.Terminal.Commands.Option@)\" text=\"TryGetValue(string, out Option)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TryGetValue(System.String,OneImlx.Terminal.Commands.Option@)\" text=\"TryGetValue(string, out Option)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool TryGetValue(string key, out Option value)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function TryGetValue(key As String, value As [Option]) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "key",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "value",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Option",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Option"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Option"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Option"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Option"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Option"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Option"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Option\" text=\"Option\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Option\" text=\"Option\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Options.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TryGetValue",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+            "startLine": 81,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Options.TryGetValue*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TryGetValue"
+              },
+              {
+                "lang": "vb",
+                "value": "TryGetValue"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Options.TryGetValue"
+              },
+              {
+                "lang": "vb",
+                "value": "Options.TryGetValue"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Options.TryGetValue"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Options.TryGetValue"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TryGetValue*\" text=\"TryGetValue\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Options.TryGetValue*\" text=\"TryGetValue\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Options_TryGetValue_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}.TryGetValue(System.String,OneImlx.Terminal.Commands.Option@)",
+              "definition": "System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "TryGetValue(string, out Option)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "TryGetValue(String, Option)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyDictionary<string, Option>.TryGetValue(string, out Option)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyDictionary(Of String, Option).TryGetValue(String, Option)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>.TryGetValue(string, out OneImlx.Terminal.Commands.Option)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option).TryGetValue(String, OneImlx.Terminal.Commands.Option)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue\">TryGetValue</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, out <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue\">TryGetValue</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options_TryGetValue_System_String_OneImlx_Terminal_Commands_Option__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options.TryGetValue(System.String%2COneImlx.Terminal.Commands.Option%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L82",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Options_TryGetValue_System_String_OneImlx_Terminal_Commands_Option__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Options"
+    },
+    {
+      "lang": "vb",
+      "value": "Options"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Options"
+    },
+    {
+      "lang": "vb",
+      "value": "Options"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Options"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Options"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Options.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "Options",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Options.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The ordered <xref href=\"OneImlx.Terminal.Commands.Option\" data-throw-if-not-resolved=\"false\"></xref> keyed collection.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class Options : IReadOnlyDictionary<string, Option>, IReadOnlyCollection<KeyValuePair<string, Option>>, IEnumerable<KeyValuePair<string, Option>>, IEnumerable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class Options Implements IReadOnlyDictionary(Of String, Option), IReadOnlyCollection(Of KeyValuePair(Of String, Option)), IEnumerable(Of KeyValuePair(Of String, Option)), IEnumerable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.Option}",
+      "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyDictionary<string, Option>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyDictionary(Of String, Option)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyDictionary<string, Option>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyDictionary(Of String, Option)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.Option>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.Option)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}",
+      "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<KeyValuePair<string, Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of KeyValuePair(Of String, Option))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<KeyValuePair<string, Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of KeyValuePair(Of String, Option))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.Option))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>))"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.Option}}",
+      "definition": "System.Collections.Generic.IEnumerable`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<KeyValuePair<string, Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of KeyValuePair(Of String, Option))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<KeyValuePair<string, Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of KeyValuePair(Of String, Option))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.Option>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.Option))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Option.html\">Option</a>))"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.IEnumerable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.IEnumerable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Options.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Options.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Options.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Options%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Options.cs/#L17",
+  "description": "The ordered  keyed collection.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Options",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

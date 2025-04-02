@@ -1,0 +1,1832 @@
+{
+  "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalAuthenticationProviderDelegatingHandler(IAuthenticationProvider, ILogger<MsalAuthenticationProviderDelegatingHandler>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(IAuthenticationProvider, ILogger(Of MsalAuthenticationProviderDelegatingHandler))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalAuthenticationProviderDelegatingHandler.MsalAuthenticationProviderDelegatingHandler(IAuthenticationProvider, ILogger<MsalAuthenticationProviderDelegatingHandler>)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalAuthenticationProviderDelegatingHandler.New(IAuthenticationProvider, ILogger(Of MsalAuthenticationProviderDelegatingHandler))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.MsalAuthenticationProviderDelegatingHandler(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.New(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler})\" text=\"MsalAuthenticationProviderDelegatingHandler(IAuthenticationProvider, ILogger&lt;MsalAuthenticationProviderDelegatingHandler&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler})\" text=\"MsalAuthenticationProviderDelegatingHandler(IAuthenticationProvider, ILogger&lt;MsalAuthenticationProviderDelegatingHandler&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public MsalAuthenticationProviderDelegatingHandler(IAuthenticationProvider authenticationProvider, ILogger<MsalAuthenticationProviderDelegatingHandler> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(authenticationProvider As IAuthenticationProvider, logger As ILogger(Of MsalAuthenticationProviderDelegatingHandler))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "authenticationProvider",
+                "type": {
+                  "uid": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IAuthenticationProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IAuthenticationProvider"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IAuthenticationProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IAuthenticationProvider"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" text=\"IAuthenticationProvider\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" text=\"IAuthenticationProvider\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">The authentication provider.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalAuthenticationProviderDelegatingHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalAuthenticationProviderDelegatingHandler)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalAuthenticationProviderDelegatingHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalAuthenticationProviderDelegatingHandler)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.html\">MsalAuthenticationProviderDelegatingHandler</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.html\">MsalAuthenticationProviderDelegatingHandler</a>)"
+                    }
+                  ]
+                },
+                "description": ""
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+            "startLine": 31,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalAuthenticationProviderDelegatingHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalAuthenticationProviderDelegatingHandler.MsalAuthenticationProviderDelegatingHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalAuthenticationProviderDelegatingHandler.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.MsalAuthenticationProviderDelegatingHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor*\" text=\"MsalAuthenticationProviderDelegatingHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.#ctor*\" text=\"MsalAuthenticationProviderDelegatingHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler__ctor_Microsoft_Kiota_Abstractions_Authentication_IAuthenticationProvider_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler__.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.%23ctor(Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs/#L32",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler__ctor_Microsoft_Kiota_Abstractions_Authentication_IAuthenticationProvider_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PreflightAsync(HttpRequestMessage, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "PreflightAsync(HttpRequestMessage, CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalAuthenticationProviderDelegatingHandler.PreflightAsync(HttpRequestMessage, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalAuthenticationProviderDelegatingHandler.PreflightAsync(HttpRequestMessage, CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)\" text=\"PreflightAsync(HttpRequestMessage, CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)\" text=\"PreflightAsync(HttpRequestMessage, CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected virtual Task PreflightAsync(HttpRequestMessage request, CancellationToken cancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Overridable Function PreflightAsync(request As HttpRequestMessage, cancellationToken As CancellationToken) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "request",
+                "type": {
+                  "uid": "System.Net.Http.HttpRequestMessage",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpRequestMessage"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpRequestMessage"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.Http.HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.Http.HttpRequestMessage"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.Http.HttpRequestMessage\" text=\"HttpRequestMessage\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.Http.HttpRequestMessage\" text=\"HttpRequestMessage\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">The HTTP request message to be processed.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">A cancellation token to cancel the operation.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "PreflightAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+            "startLine": 46,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">This method can be overridden in a derived class to perform custom pre-processing on the request before it\nis sent. The default implementation does nothing.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PreflightAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "PreflightAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalAuthenticationProviderDelegatingHandler.PreflightAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalAuthenticationProviderDelegatingHandler.PreflightAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync*\" text=\"PreflightAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync*\" text=\"PreflightAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_PreflightAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Performs preflight processing on the HTTP request message.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_PreflightAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.PreflightAsync(System.Net.Http.HttpRequestMessage%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs/#L47",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_PreflightAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SendAsync(HttpRequestMessage, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "SendAsync(HttpRequestMessage, CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalAuthenticationProviderDelegatingHandler.SendAsync(HttpRequestMessage, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalAuthenticationProviderDelegatingHandler.SendAsync(HttpRequestMessage, CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)\" text=\"SendAsync(HttpRequestMessage, CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)\" text=\"SendAsync(HttpRequestMessage, CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Overrides Function SendAsync(request As HttpRequestMessage, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "request",
+                "type": {
+                  "uid": "System.Net.Http.HttpRequestMessage",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpRequestMessage"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpRequestMessage"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.Http.HttpRequestMessage"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.Http.HttpRequestMessage"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.Http.HttpRequestMessage\" text=\"HttpRequestMessage\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.Http.HttpRequestMessage\" text=\"HttpRequestMessage\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">The HTTP request message to send to the server.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">A cancellation token to cancel the operation.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<HttpResponseMessage>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of HttpResponseMessage)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<HttpResponseMessage>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of HttpResponseMessage)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage\">HttpResponseMessage</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage\">HttpResponseMessage</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Threading.Tasks.Task%601\" data-throw-if-not-resolved=\"false\"></xref> that represents the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SendAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overridden": {
+            "uid": "System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendAsync(HttpRequestMessage, CancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "SendAsync(HttpRequestMessage, CancellationToken)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DelegatingHandler.SendAsync(HttpRequestMessage, CancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "DelegatingHandler.SendAsync(HttpRequestMessage, CancellationToken)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Net.Http.DelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.sendasync\">SendAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage\">HttpRequestMessage</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.sendasync\">SendAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage\">HttpRequestMessage</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "SendAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalAuthenticationProviderDelegatingHandler.SendAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalAuthenticationProviderDelegatingHandler.SendAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync*\" text=\"SendAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync*\" text=\"SendAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_SendAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Sends an HTTP request to the inner handler to send to the server as an asynchronous operation.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.SendAsync(System.Net.Http.HttpRequestMessage%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "MsalAuthenticationProviderDelegatingHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalAuthenticationProviderDelegatingHandler"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "MsalAuthenticationProviderDelegatingHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalAuthenticationProviderDelegatingHandler"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "MsalAuthenticationProviderDelegatingHandler",
+    "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs",
+    "startLine": 24,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Authentication"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Delegating handler that authenticates an HTTP request using an <xref href=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class MsalAuthenticationProviderDelegatingHandler : DelegatingHandler, IDisposable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class MsalAuthenticationProviderDelegatingHandler Inherits DelegatingHandler Implements IDisposable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.Net.Http.HttpMessageHandler",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Net.Http",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HttpMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "HttpMessageHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "HttpMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "HttpMessageHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Net.Http.HttpMessageHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Net.Http.HttpMessageHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Net.Http.HttpMessageHandler\" text=\"HttpMessageHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Net.Http.HttpMessageHandler\" text=\"HttpMessageHandler\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "System.Net.Http.DelegatingHandler",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Net.Http",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Net.Http.DelegatingHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Net.Http.DelegatingHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Net.Http.DelegatingHandler\" text=\"DelegatingHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Net.Http.DelegatingHandler\" text=\"DelegatingHandler\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "implements": [
+    {
+      "uid": "System.IDisposable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "IDisposable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IDisposable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IDisposable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.IDisposable\" text=\"IDisposable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Net.Http.DelegatingHandler.Dispose(System.Boolean)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Net.Http.DelegatingHandler",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose(Boolean)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingHandler.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingHandler.Dispose(Boolean)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Net.Http.DelegatingHandler.Dispose(bool)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Net.Http.DelegatingHandler.Dispose(Boolean)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.dispose\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">bool</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.dispose\">Dispose</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.boolean\">Boolean</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Net.Http.DelegatingHandler.InnerHandler",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Net.Http.DelegatingHandler",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler.innerhandler",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InnerHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "InnerHandler"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "DelegatingHandler.InnerHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "DelegatingHandler.InnerHandler"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Net.Http.DelegatingHandler.InnerHandler"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Net.Http.DelegatingHandler.InnerHandler"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Net.Http.DelegatingHandler.InnerHandler\" text=\"InnerHandler\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Net.Http.DelegatingHandler.InnerHandler\" text=\"InnerHandler\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Net.Http.HttpMessageHandler.Dispose",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Net.Http.HttpMessageHandler",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler.dispose#system-net-http-httpmessagehandler-dispose",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dispose()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "HttpMessageHandler.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "HttpMessageHandler.Dispose()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Net.Http.HttpMessageHandler.Dispose()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Net.Http.HttpMessageHandler.Dispose()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler.dispose#system-net-http-httpmessagehandler-dispose\">Dispose</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.net.http.httpmessagehandler.dispose#system-net-http-httpmessagehandler-dispose\">Dispose</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalAuthenticationProviderDelegatingHandler.cs/#L25",
+  "description": "Delegating handler that authenticates an HTTP request using an .",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Authentication_Msal_MsalAuthenticationProviderDelegatingHandler",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

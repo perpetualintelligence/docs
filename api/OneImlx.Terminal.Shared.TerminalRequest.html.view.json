@@ -1,0 +1,3103 @@
+{
+  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Shared",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.#ctor(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.TerminalRequest(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.New(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.TerminalRequest(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.New(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.#ctor(System.String,System.String)\" text=\"TerminalRequest(string, string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.#ctor(System.String,System.String)\" text=\"TerminalRequest(string, string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonConstructor]\npublic TerminalRequest(string id, string raw)"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonConstructor>\nPublic Sub New(id As String, raw As String)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">The unique identifier for the command item.</p>\n"
+              },
+              {
+                "id": "raw",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">The raw command string to be processed.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.TerminalRequest"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.TerminalRequest"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.#ctor*\" text=\"TerminalRequest\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.#ctor*\" text=\"TerminalRequest\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest__ctor_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonConstructorAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonConstructorAttribute.#ctor",
+              "arguments": []
+            }
+          ],
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the <xref href=\"OneImlx.Terminal.Shared.TerminalRequest\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest__ctor_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest__ctor_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.Id",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Id"
+            },
+            {
+              "lang": "vb",
+              "value": "Id"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.Id"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.Id"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Id"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Id"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Id\" text=\"Id\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Id\" text=\"Id\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"id\")]\npublic string Id { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"id\")>\nPublic ReadOnly Property Id As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Id",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 38,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.Id*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Id"
+              },
+              {
+                "lang": "vb",
+                "value": "Id"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.Id"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.Id"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Id"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Id"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Id*\" text=\"Id\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Id*\" text=\"Id\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_Id_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "id"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">Gets the unique identifier for the command item.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_Id.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L39",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_Id",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.IsError",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsError"
+            },
+            {
+              "lang": "vb",
+              "value": "IsError"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.IsError"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.IsError"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.IsError"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.IsError"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.IsError\" text=\"IsError\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.IsError\" text=\"IsError\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"is_error\")]\npublic bool IsError { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"is_error\")>\nPublic Property IsError As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "IsError",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 44,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.IsError*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsError"
+              },
+              {
+                "lang": "vb",
+                "value": "IsError"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.IsError"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.IsError"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.IsError"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.IsError"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.IsError*\" text=\"IsError\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.IsError*\" text=\"IsError\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_IsError_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "is_error"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">Gets a value indicating whether the result is an <xref href=\"OneImlx.Shared.Infrastructure.Error\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_IsError.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.IsError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L45",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_IsError",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.Raw",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Raw"
+            },
+            {
+              "lang": "vb",
+              "value": "Raw"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.Raw"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.Raw"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Raw"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Raw"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Raw\" text=\"Raw\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Raw\" text=\"Raw\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"raw\")]\npublic string Raw { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"raw\")>\nPublic ReadOnly Property Raw As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Raw",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 50,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.Raw*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Raw"
+              },
+              {
+                "lang": "vb",
+                "value": "Raw"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.Raw"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.Raw"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Raw"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Raw"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Raw*\" text=\"Raw\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Raw*\" text=\"Raw\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_Raw_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "raw"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">The raw command or a batch that needs to be processed.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_Raw.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.Raw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L51",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_Raw",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.Result",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Result"
+            },
+            {
+              "lang": "vb",
+              "value": "Result"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.Result"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.Result"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Result"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Result"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Result\" text=\"Result\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Result\" text=\"Result\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[JsonPropertyName(\"result\")]\npublic object? Result { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "<JsonPropertyName(\"result\")>\nPublic Property Result As Object"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Object",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "object"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "object"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "object"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Object"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Result",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 56,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.Result*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Result"
+              },
+              {
+                "lang": "vb",
+                "value": "Result"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.Result"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.Result"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Result"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Result"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Result*\" text=\"Result\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Result*\" text=\"Result\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_Result_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "System.Text.Json.Serialization.JsonPropertyNameAttribute",
+              "ctor": "System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)",
+              "arguments": [
+                {
+                  "type": "System.String",
+                  "value": "result"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">The result of the command or batch processing.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_Result.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.Result%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L57",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_Result",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Equals(TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "Equals(TerminalRequest)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.Equals(TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.Equals(TerminalRequest)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest)\" text=\"Equals(TerminalRequest?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest)\" text=\"Equals(TerminalRequest?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool Equals(TerminalRequest? other)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function Equals(other As TerminalRequest) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "other",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Equals",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 83,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.Equals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.Equals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals*\" text=\"Equals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals*\" text=\"Equals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_Equals_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.IEquatable{OneImlx.Terminal.Shared.TerminalRequest}.Equals(OneImlx.Terminal.Shared.TerminalRequest)",
+              "definition": "System.IEquatable`1.Equals(`0)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Equals(TerminalRequest)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Equals(TerminalRequest)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEquatable<TerminalRequest>.Equals(TerminalRequest)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEquatable(Of TerminalRequest).Equals(TerminalRequest)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.IEquatable<OneImlx.Terminal.Shared.TerminalRequest>.Equals(OneImlx.Terminal.Shared.TerminalRequest)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.IEquatable(Of OneImlx.Terminal.Shared.TerminalRequest).Equals(OneImlx.Terminal.Shared.TerminalRequest)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals\">Equals</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html\">TerminalRequest</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals\">Equals</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html\">TerminalRequest</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_Equals_OneImlx_Terminal_Shared_TerminalRequest_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.Equals(OneImlx.Terminal.Shared.TerminalRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L84",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_Equals_OneImlx_Terminal_Shared_TerminalRequest_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.Equals(System.Object)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "Equals(Object)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.Equals(Object)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals(object?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals(Object)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals(System.Object)\" text=\"Equals(object?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals(System.Object)\" text=\"Equals(object?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override bool Equals(object? obj)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function Equals(obj As Object) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "obj",
+                "type": {
+                  "uid": "System.Object",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Equals",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 77,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overridden": {
+            "uid": "System.Object.Equals(System.Object)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals(Object)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object.Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.Equals(Object)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object.Equals(object)"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.Equals(Object)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.Equals*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "Equals"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.Equals"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.Equals"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals*\" text=\"Equals\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.Equals*\" text=\"Equals\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_Equals_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_Equals_System_Object_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L78",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_Equals_System_Object_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetHashCode()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.GetHashCode()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.GetHashCode\" text=\"GetHashCode()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.GetHashCode\" text=\"GetHashCode()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override int GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function GetHashCode() As Integer"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetHashCode",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 90,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overridden": {
+            "uid": "System.Object.GetHashCode",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "GetHashCode()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object.GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.GetHashCode()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object.GetHashCode()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.GetHashCode()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "GetHashCode"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.GetHashCode"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.GetHashCode"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.GetHashCode*\" text=\"GetHashCode\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.GetHashCode*\" text=\"GetHashCode\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_GetHashCode_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_GetHashCode.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L91",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_GetHashCode",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.ToString",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ToString()"
+            },
+            {
+              "lang": "vb",
+              "value": "ToString()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.ToString()"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.ToString()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.ToString()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.ToString()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.ToString\" text=\"ToString()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.ToString\" text=\"ToString()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override string ToString()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function ToString() As String"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ToString",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 96,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overridden": {
+            "uid": "System.Object.ToString",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ToString()"
+              },
+              {
+                "lang": "vb",
+                "value": "ToString()"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "object.ToString()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.ToString()"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "object.ToString()"
+              },
+              {
+                "lang": "vb",
+                "value": "Object.ToString()"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.ToString*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ToString"
+              },
+              {
+                "lang": "vb",
+                "value": "ToString"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.ToString"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.ToString"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.ToString"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.ToString"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.ToString*\" text=\"ToString\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.ToString*\" text=\"ToString\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_ToString_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_ToString.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L97",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_ToString",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inOperator": true,
+      "typePropertyName": "inOperator",
+      "id": "operators",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.op_Equality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "operator ==(TerminalRequest?, TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "=(TerminalRequest, TerminalRequest)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.operator ==(TerminalRequest?, TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.=(TerminalRequest, TerminalRequest)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.operator ==(OneImlx.Terminal.Shared.TerminalRequest?, OneImlx.Terminal.Shared.TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.=(OneImlx.Terminal.Shared.TerminalRequest, OneImlx.Terminal.Shared.TerminalRequest)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.op_Equality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)\" text=\"operator ==(TerminalRequest?, TerminalRequest?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.op_Equality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)\" text=\"operator ==(TerminalRequest?, TerminalRequest?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool operator ==(TerminalRequest? left, TerminalRequest? right)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Operator =(left As TerminalRequest, right As TerminalRequest) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "left",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "right",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "op_Equality",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 66,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.op_Equality*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "="
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.="
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.operator =="
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.="
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "operator <a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html#OneImlx_Terminal_Shared_TerminalRequest_op_Equality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_\">==</a>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_op_Equality_"
+          },
+          "level": 0,
+          "type": "operator",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_op_Equality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.op_Equality(OneImlx.Terminal.Shared.TerminalRequest%2COneImlx.Terminal.Shared.TerminalRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L67",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_op_Equality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalRequest.op_Inequality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalRequest",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "operator !=(TerminalRequest?, TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "<>(TerminalRequest, TerminalRequest)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalRequest.operator !=(TerminalRequest?, TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalRequest.<>(TerminalRequest, TerminalRequest)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.operator !=(OneImlx.Terminal.Shared.TerminalRequest?, OneImlx.Terminal.Shared.TerminalRequest?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalRequest.<>(OneImlx.Terminal.Shared.TerminalRequest, OneImlx.Terminal.Shared.TerminalRequest)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.op_Inequality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)\" text=\"operator !=(TerminalRequest?, TerminalRequest?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest.op_Inequality(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Shared.TerminalRequest)\" text=\"operator !=(TerminalRequest?, TerminalRequest?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool operator !=(TerminalRequest? left, TerminalRequest? right)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Operator <>(left As TerminalRequest, right As TerminalRequest) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "left",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "right",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "op_Inequality",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalRequest.op_Inequality*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "<>"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalRequest.operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalRequest.<>"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.operator !="
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalRequest.<>"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "operator <a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html#OneImlx_Terminal_Shared_TerminalRequest_op_Inequality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_\">!=</a>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalRequest_op_Inequality_"
+          },
+          "level": 0,
+          "type": "operator",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest_op_Inequality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest.op_Inequality(OneImlx.Terminal.Shared.TerminalRequest%2COneImlx.Terminal.Shared.TerminalRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalRequest_op_Inequality_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Shared_TerminalRequest_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalRequest"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalRequest"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalRequest"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalRequest"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalRequest",
+    "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalRequest.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Shared",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">A terminal request with a unique identifier, raw input, result, and error status.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalRequest : IEquatable<TerminalRequest?>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalRequest Implements IEquatable(Of TerminalRequest)"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "System.IEquatable{OneImlx.Terminal.Shared.TerminalRequest}",
+      "definition": "System.IEquatable`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEquatable<TerminalRequest>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEquatable(Of TerminalRequest)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEquatable<TerminalRequest>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEquatable(Of TerminalRequest)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.IEquatable<OneImlx.Terminal.Shared.TerminalRequest>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.IEquatable(Of OneImlx.Terminal.Shared.TerminalRequest)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iequatable-1\">IEquatable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html\">TerminalRequest</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.iequatable-1\">IEquatable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Shared.TerminalRequest.html\">TerminalRequest</a>)"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Shared.TerminalRequest.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Shared.TerminalRequest.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalRequest.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalRequest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalRequest.cs/#L17",
+  "description": "A terminal request with a unique identifier, raw input, result, and error status.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Shared_TerminalRequest",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

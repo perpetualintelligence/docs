@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Integration </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Integration ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/integration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="integration">Integration</h1>
+
+<p>The <code>OneImlx.Terminal</code> framework is designed to support the integration of command sources that can be either local or remote, enabling dynamic loading of commands at runtime. This facilitates the update and expansion of terminal capabilities without restarting the application, providing operational flexibility and adaptability.</p>
+<pre><code class="lang-mermaid">graph LR;
+    source1(Local Command Source) -- Commands --&gt; server(Terminal Server)
+    source2(Remote Command Source) -- Commands --&gt; server
+    sourceN(Custom Command Source) -- Commands --&gt; server
+
+    server --&gt; loader(Published Assembly Loader)
+    loader --&gt; checker(Command Source Checker)
+    checker --&gt; terminal(Terminal Router)
+    
+    terminal --&gt; runner1(Command Runner 1)
+    terminal --&gt; runner2(Command Runner 2)
+    terminal --&gt; runnerN(Command Runner N)
+
+    %% Adding a note to the Terminal Server
+    oneimlxnote[OneImlx.Terminal Framework] --&gt; server
+    
+    classDef source fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef server fill:#bbf,stroke:#333,stroke-width:4px;
+    classDef utility fill:#fbb,stroke:#333,stroke-width:2px;
+    classDef runner fill:#dfd,stroke:#333,stroke-width:2px;
+    classDef note fill:#ffffcc,stroke:#333,stroke-width:1px,stroke-dasharray: 5, 5;
+
+    class source1,source2,sourceN source;
+    class server server;
+    class loader,checker,terminal utility;
+    class runner1,runner2,runnerN runner;
+    class oneimlxnote note;
+</code></pre>
+<h2 id="terminal-command-source">Terminal Command Source</h2>
+<p>The @OneImlx.Terminal.Integration.ITerminalCommandSource`1 is a local or remote provider of terminal commands. The framework includes an assembly loader command source by default, which dynamically loads assemblies containing command runners. This integration allows seamless addition of both first-party and third-party command sources, significantly enhancing the terminal's responsiveness to new operational demands.</p>
+<h2 id="terminal-command-source-checker">Terminal Command Source Checker</h2>
+<p>The @OneImlx.Terminal.Integration.ITerminalCommandSourceChecker`1  checks the integrity and authenticity of the command source before loading. Developers must implement robust checking mechanisms to mitigate risks such as code injection or execution of untrusted code.</p>
+<h2 id="published-command-source">Published Command Source</h2>
+<p>The default @OneImlx.Terminal.Integration.PublishedCommandSource loads terminal commands from assemblies located in published directories. This method handles both local and network-based locations. This setup allows updates or extensions to terminal commands without altering the core application.</p>
+<blockquote>
+<p>Note: Only trusted sources should provide dynamically loaded assemblies.</p>
+</blockquote>
+<h2 id="published-assembly-loader">Published Assembly Loader</h2>
+<p>The defualt @OneImlx.Terminal.Integration.PublishedAssemblyLoader simplifies the process of loading command source assemblies from specific contexts. It ensures each assembly is loaded only once, preventing duplication and reducing potential conflicts between different versions of the same assembly or its dependencies. However, this basic implementation does not address complex scenarios such as managing version conflicts or dependencies across different dependency trees. For applications with more sophisticated needs in conflict resolution and dependency management, developers are encouraged to design a custom loader that better fits their specific requirements.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/integration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

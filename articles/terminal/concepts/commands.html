@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/commands.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="command"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Command.html">Command</a></h2>
+<p>A command in the <code>OneImlx.Terminal</code> framework represents a specific action or set of actions performed by your application. Immutable for consistency and stability, commands can range from simple method invocations to complex operations across networks. They are central to any operation within your application or service.</p>
+<h2 id="command-descriptor"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.CommandDescriptor.html">Command Descriptor</a></h2>
+<p>The command descriptor defines a command's identity, including its arguments and options. It can be a root, group, sub-command, or a native command. This structure helps developers organize commands in a clear and intuitive way.</p>
+<h3 id="root-command">Root Command</h3>
+<p>A root command is the top terminal command. It can represent your organization, a product, or a service.</p>
+<p>For instance,</p>
+<ul>
+<li>GitHub CLI <a href="https://cli.github.com/manual/gh">gh</a> is an example of an organization root command.</li>
+<li>Microsoft however, uses <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet">dotnet</a> as a driver application for the .NET CLI.</li>
+</ul>
+<h4 id="grouped-command">Grouped Command</h4>
+<p>A grouped command provides a context for a set of related sub-commands.</p>
+<p>For instance,</p>
+<ul>
+<li>Github CLI <a href="https://cli.github.com/manual/gh_auth">gh auth</a>, <code>auth</code> is an example of a grouped command to authenticate gh and git with GitHub.</li>
+</ul>
+<h4 id="sub-command">Sub Command</h4>
+<p>A subcommand is an individual executable command that performs a specific action.</p>
+<p>For instance,</p>
+<ul>
+<li>Github CLI <a href="https://cli.github.com/manual/gh_auth_login">gh auth login</a>, <code>login</code> is an example of a subcommand that authenticates with GitHub host.</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build">dotnet build</a>, <code>build</code> is a sub-command that builds a project and all of its dependencies.</li>
+</ul>
+<h4 id="native-command">Native Command</h4>
+<p>A native command is an individual executable command that performs a specific native action and it is not bound by the command hierarchy</p>
+<p>For instance,</p>
+<ul>
+<li>run &quot;mkdir hello&quot;, runs the native OS command and creates a directory.</li>
+<li>clear, clears the terminal screen.</li>
+</ul>
+<h2 id="argument"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Argument.html">Argument</a></h2>
+<p>Arguments within the raw command string are provided directly as values, following a specific sequence when the command supports multiple arguments. Unlike options, which are defined as key-value pairs, arguments are enumerated plainly without keys.</p>
+<p>Example:</p>
+<pre><code>copy &quot;/path/to/source&quot; &quot;/path/to/destination&quot;
+</code></pre>
+<p>In this example for a <code>copy</code> command, <em>the</em> source and destination paths are the arguments provided directly in the required order.</p>
+<h2 id="option"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Option.html">Option</a></h2>
+<p>Options within the raw command string are specified as key-value pairs and are order-independent, providing flexibility in how commands are structured. Each option is identified by its key, and can also be referred to by its alias, if one is defined.</p>
+<p>Example:</p>
+<pre><code>copy &quot;/path/to/source&quot; &quot;/path/to/destination&quot; --recursive -o &quot;/path/to/log&quot;
+</code></pre>
+<h2 id="raw"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Raw</a></h2>
+<p>The raw command string represents the full command as entered by the user or passed by an application.</p>
+<p>Example:</p>
+<pre><code>gh issue list
+ 
+gh issue create --label bug
+ 
+dotnet build --runtime ubuntu.18.04-x64
+</code></pre>
+<h2 id="parsed-command"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.html">Parsed Command</a></h2>
+<p>The parsed command encapsulates the parsed command, and optionally, the command hierarchy.</p>
+<h2 id="data-mapper"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Checkers.DataTypeMapper-1.html">Data Mapper</a></h2>
+<p>The framework provides a data type mapping interface for converting configuration options into their correct data types, crucial for executing commands. The default <code>DataTypeMapper&lt;TValue&gt;</code> supports common data types such as integers, strings, and dates. Developers can also create custom mappers to handle specific or complex data types, enhancing the framework's flexibility and command processing precision.</p>
+<h2 id="parsing--routing">Parsing &amp; Routing</h2>
+<pre><code class="lang-mermaid">    stateDiagram
+        direction LR
+        state &quot;Command Parsing &amp; Routing&quot; as CommandRouting
+        [*] --&gt; CommandRouting
+        state CommandRouting {
+          direction LR
+          Router --&gt; Parser
+          Parser --&gt; Handler
+          Handler --&gt; Checker
+          Checker --&gt; Runner
+        }
+        CommandRouting --&gt; [*]
+</code></pre>
+<h3 id="command-router"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.CommandRouter.html">Command Router</a></h3>
+<p>The command router orchestrates the workflow of command processing. It routes raw command string through several steps such as parsing the command string to understand its structure, extracting any arguments and options provided, checking for licensing requirements, and validating the integrity of the command. Once these steps are completed, the command router then automatically invokes the corresponding command runner to execute the command. This entire process is handled seamlessly by the command router.</p>
+<h3 id="command-parser"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Parsers.CommandParser.html">Command Parser</a></h3>
+<p>The command parser in the <code>OneImlx.Terminal</code> framework is the default implementation responsible for interpreting raw command routes. It utilizes an @OneImlx.Terminal.Commands.Parsers.ICommandRouteParser to parse routes asynchronously, generating a @OneImlx.Terminal.Commands.Parsers.CommandParserResult containing the parsed command information. This default behavior ensures reliable and consistent command parsing within the framework. Developers have the option to customize the parsing logic to suit their specific needs, enabling them to extend or modify the parsing process for their terminal applications.</p>
+<h3 id="command-handler"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Handlers.CommandHandler.html">Command Handler</a></h3>
+<p>The command handler manages the validation and execution of commands within a terminal application. It oversees essential tasks such as license verification, command checking, command execution, and event management, ensuring efficient processing of commands. With customizable configurations and built-in mechanisms for command validation and execution, the command handler empowers developers to seamlessly integrate command-driven functionalities into their applications.</p>
+<h3 id="command-checker"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Checkers.CommandChecker.html">Command Checker</a></h3>
+<p>The command checker in the <code>OneImlx.Terminal</code> framework ensures that commands are valid before they're executed. It checks things like whether required arguments and options are provided, ensuring commands follow the defined rules. This helps make command processing more reliable and error-free.</p>
+<p>The default <a class="xref" href="../../../api/OneImlx.Terminal.Commands.Checkers.CommandChecker.html">CommandChecker</a> provided by the framework handles basic checks such as verifying the presence of required arguments and options, detecting obsolete attributes, and ensuring disabled elements are not used. Developers have the option to implement custom command checkers either for the entire terminal application or for individual commands, allowing for tailored validation logic to suit specific requirements.</p>
+<h3 id="command-runner"><a class="xref" href="../../../api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.html">Command Runner</a></h3>
+<p>The command runner is where developers implement how commands are executed. It operates asynchronously to handle commands that might take a while to process. The framework routes each parsed command to its specific runner, helping to organize and manage the command execution logic within your application.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/commands.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

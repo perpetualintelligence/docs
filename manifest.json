@@ -1,0 +1,4175 @@
+{
+  "sitemap": {
+    "baseUrl": "https://docs.perpetualintelligence.com/",
+    "changefreq": "weekly",
+    "priority": 0.1
+  },
+  "source_base_path": "D:/a/docs/docs/main/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "about.md",
+      "output": {
+        ".html": {
+          "relative_path": "about.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ActionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ActionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.ActionAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.ActionAttribute.yml\" sourcestartlinenumber=\"1\">An actionable attribute.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ArchitectureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ArchitectureAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.ArchitectureAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.ArchitectureAttribute.yml\" sourcestartlinenumber=\"1\">Specifies that the target has an architectural comment that may be resolved in future releases. Applications can\nuse the target element, but the design may change in future releases including breaking changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.ConceptAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.ConceptAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.ConceptAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.ConceptAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target element represents a concept.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.FutureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.FutureAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.FutureAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.FutureAttribute.yml\" sourcestartlinenumber=\"1\">Indicates a future capability or a feature request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.InternalInfrastructureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.InternalInfrastructureAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.InternalInfrastructureAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.InternalInfrastructureAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target is part of the internal infrastructure. Application should not use the target directly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.PerformanceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.PerformanceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.PerformanceAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.PerformanceAttribute.yml\" sourcestartlinenumber=\"1\">Specifies that the target has a performance comment that may be resolved in future releases. Applications can\nuse the target element, but the design may change in future releases including breaking changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.RefactorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.RefactorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.RefactorAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.RefactorAttribute.yml\" sourcestartlinenumber=\"1\">Specifies that the target should be re-factored. Applications can use the target element, but the design may\nchange in future releases including breaking changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.EmailListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.EmailListAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation.EmailListAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.EmailListAttribute.yml\" sourcestartlinenumber=\"1\">Specifies that a data field value is a list of well formed emails.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation.OneOfAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.OneOfAttribute.yml\" sourcestartlinenumber=\"1\">Specifies the allowed values for a property or a field.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.SelectItemAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.SelectItemAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation.SelectItemAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.SelectItemAttribute.yml\" sourcestartlinenumber=\"1\">Specifies the allowed string values on the property.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.StringLengthListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.StringLengthListAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation.StringLengthListAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.StringLengthListAttribute.yml\" sourcestartlinenumber=\"1\">Specifies the minimum and maximum length of characters that are allowed in each data field of a list.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.UrlListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.UrlListAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation.UrlListAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.Validation.UrlListAttribute.yml\" sourcestartlinenumber=\"1\">Specifies that a data field value is a list of well formed URL.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.Validation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.Validation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteApiAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteApiAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.WriteApiAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.WriteApiAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target element should add the relevant back-end API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteDocumentationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteDocumentationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.WriteDocumentationAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.WriteDocumentationAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target element requires documentation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteIntegrationTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteIntegrationTestAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.WriteIntegrationTestAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.WriteIntegrationTestAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target element should have integration tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.WriteUnitTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.WriteUnitTestAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes.WriteUnitTestAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Attributes.WriteUnitTestAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the target element should have unit tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Authorization.AuthEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Authorization.AuthEndpoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Authorization.AuthEndpoints",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL</code> authorization endpoints.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Authorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Authorization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Authorization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Constants",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Constants.yml\" sourcestartlinenumber=\"1\">The Perpetual Intelligence L.L.C. well known constants.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Extensions.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Extensions.StringExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Infrastructure.Error",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.Error.yml\" sourcestartlinenumber=\"1\">The generic error.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.ErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.ErrorException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Infrastructure.ErrorException",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.ErrorException.yml\" sourcestartlinenumber=\"1\">The exception that represents an error.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.MultiErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.MultiErrorException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Infrastructure.MultiErrorException",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.MultiErrorException.yml\" sourcestartlinenumber=\"1\">The exception that represents multiple errors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.TryResultOrError-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.TryResultOrError-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Infrastructure.TryResultOrError<T>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.TryResultOrError-1.yml\" sourcestartlinenumber=\"1\">The generic result of a trying method. The trying method must return an error or a valid result. Both\n<xref href=\"OneImlx.Shared.Infrastructure.TryResultOrError%601.Error\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"OneImlx.Shared.Infrastructure.TryResultOrError%601.Result\" data-throw-if-not-resolved=\"false\"></xref> cannot be null.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Infrastructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Infrastructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.Serialization.JsonConverter%601\" data-throw-if-not-resolved=\"false\"></xref> for dictionary of <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref>.\nThe value must be primitive, <code>null</code>, <code>string</code> or <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Json.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Json",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseCheck.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.LicenseCheck",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseCheck.yml\" sourcestartlinenumber=\"1\">The license check.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseClaims.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseClaims.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.LicenseClaims",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseClaims.yml\" sourcestartlinenumber=\"1\">The generic license claims.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.LicenseFile",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseFile.yml\" sourcestartlinenumber=\"1\">The generic license file.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseUsage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.LicenseUsage",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseUsage.yml\" sourcestartlinenumber=\"1\">The standard license usage.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.LicenseX509Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.LicenseX509Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.LicenseX509Service",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The licensing services around <xref href=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.TerminalLicensePlans.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing.TerminalLicensePlans",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.TerminalLicensePlans.yml\" sourcestartlinenumber=\"1\">The terminal framework license plans.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Licensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Licensing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Licensing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Security.Certificates.X509Store.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Security.Certificates.X509Store.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Security.Certificates.X509Store",
+      "Summary": "<p sourcefile=\"api/OneImlx.Shared.Security.Certificates.X509Store.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" data-throw-if-not-resolved=\"false\"></xref> store for OAuth and OpenID Connect protocols.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.Security.Certificates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.Security.Certificates.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared.Security.Certificates",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Shared",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Extensions.ITerminalBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Extensions.ITerminalBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Extensions.ITerminalBuilderExtensions",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.yml\" sourcestartlinenumber=\"1\">An abstraction to acquire tokens using MSAL.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAccessTokenProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Delegating handler that adds an access token to the request headers using an <xref href=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalAuthenticationProviderDelegatingHandler.yml\" sourcestartlinenumber=\"1\">Delegating handler that authenticates an HTTP request using an <xref href=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The <code>OneImlx</code> terminal <code>Kiota</code> authentication and authorization provider for <code>MSAL</code> identity platform.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" data-throw-if-not-resolved=\"false\"></xref> implementation using the <xref href=\"Microsoft.Identity.Client.IPublicClientApplication\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Authentication.Msal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Authentication.Msal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Authentication.Msal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.Extensions.ClientExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for interacting with terminal server over various network protocols.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.OneimlxTerminalReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.OneimlxTerminalReflection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.OneimlxTerminalReflection",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.OneimlxTerminalReflection.yml\" sourcestartlinenumber=\"1\">Holder for reflection information generated from Protos/oneimlx_terminal.proto</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient.yml\" sourcestartlinenumber=\"1\">Client for TerminalGrpcRouterProto</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.TerminalGrpcRouterProto",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.TerminalGrpcRouterProto.yml\" sourcestartlinenumber=\"1\">The OneImlx terminal router command service to request the command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.TerminalGrpcRouterProtoInput",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoInput.yml\" sourcestartlinenumber=\"1\">The terminal router command request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput.yml\" sourcestartlinenumber=\"1\">The terminal router command request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Argument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Argument",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Argument.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.Argument\" data-throw-if-not-resolved=\"false\"></xref> class is a runtime validated representation of an actual command argument and its\nvalue passed by a user or an application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.ArgumentDescriptor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" data-throw-if-not-resolved=\"false\"></xref> class defines the command argument identity, data type, and data validation\nbehavior. We also refer to arguments as command arguments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The readonly <xref href=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" data-throw-if-not-resolved=\"false\"></xref> keyed collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ArgumentFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ArgumentFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.ArgumentFlags",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentFlags.yml\" sourcestartlinenumber=\"1\">Defines special argument flags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Arguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Arguments.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Arguments",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Arguments.yml\" sourcestartlinenumber=\"1\">The readonly <xref href=\"OneImlx.Terminal.Commands.Argument\" data-throw-if-not-resolved=\"false\"></xref> keyed collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.ArgumentChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.ArgumentChecker.yml\" sourcestartlinenumber=\"1\">The default argument checker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.ArgumentCheckerResult.yml\" sourcestartlinenumber=\"1\">The argument checker result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.CommandChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.CommandChecker.yml\" sourcestartlinenumber=\"1\">The default command checker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.CommandCheckerResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.CommandCheckerResult.yml\" sourcestartlinenumber=\"1\">The command checker result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.ConfigurationOptionsChecker.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataTypeMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataTypeMapper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.DataTypeMapper<TValue>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">The default option data type mapper.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult.yml\" sourcestartlinenumber=\"1\">The option data-type mapper result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker<TValue>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.DataValidationValueChecker-1.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.Checkers.IValueChecker%601\" data-throw-if-not-resolved=\"false\"></xref> that uses <xref href=\"System.ComponentModel.DataAnnotations.ValidationAttribute\" data-throw-if-not-resolved=\"false\"></xref> to check an option value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IArgumentChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IArgumentChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.IArgumentChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IArgumentChecker.yml\" sourcestartlinenumber=\"1\">An abstraction to check an <xref href=\"OneImlx.Terminal.Commands.Argument\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.ICommandChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.ICommandChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.ICommandChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.ICommandChecker.yml\" sourcestartlinenumber=\"1\">An abstraction to check a <xref href=\"OneImlx.Terminal.Commands.Command\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IConfigurationOptionsChecker.yml\" sourcestartlinenumber=\"1\">An abstraction of <xref href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions\" data-throw-if-not-resolved=\"false\"></xref> checker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper<TValue>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">An abstraction to map an <xref href=\"OneImlx.Terminal.Commands.Option.DataType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IOptionChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IOptionChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.IOptionChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IOptionChecker.yml\" sourcestartlinenumber=\"1\">An abstraction to check an <xref href=\"OneImlx.Terminal.Commands.Option\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml\" sourcestartlinenumber=\"1\">An abstraction to check a <xref href=\"OneImlx.Terminal.Commands.ICommandValue\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.OptionChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.OptionChecker.yml\" sourcestartlinenumber=\"1\">The default option checker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.OptionCheckerResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers.OptionCheckerResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.OptionCheckerResult.yml\" sourcestartlinenumber=\"1\">The option checker result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Checkers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Checkers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Checkers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Command.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Command",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Command.yml\" sourcestartlinenumber=\"1\">An immutable command. A command is a specific action or a set of actions that a user or an application requests\nthe underlying system to perform. It can be a simple action such as invoking a system method or an OS command or\nrepresenting a complex operation that calls a set of protected APIs over the internal or external network. A\ncommand can virtually do anything in the context of your application or service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandContext.yml\" sourcestartlinenumber=\"1\">The generic command router context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandDescriptor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> defines the command identity and its supported options that an end-user or\nan application can use. You can also describe the command behavior, such as whether the command is a root,\ngrouped, or subcommand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandDescriptors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandDescriptors",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">The optimized <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandFlags",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandFlags.yml\" sourcestartlinenumber=\"1\">Defines special command flags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandResult.yml\" sourcestartlinenumber=\"1\">Represents the result of a command router.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandRouter.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.ICommandRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.CommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.CommandType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.CommandType",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandType.yml\" sourcestartlinenumber=\"1\">Defines the command type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" data-throw-if-not-resolved=\"false\"></xref> validation attribute.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.yml\" sourcestartlinenumber=\"1\">Declares a command checker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.yml\" sourcestartlinenumber=\"1\">Declares a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> custom property.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.yml\" sourcestartlinenumber=\"1\">Declares a command owners. A command owner is a group or a root.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.yml\" sourcestartlinenumber=\"1\">Declares the command tags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner.yml\" sourcestartlinenumber=\"1\">Specifies a runner that provides declarative command and option descriptors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> validation attribute.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Declarative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Declarative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Declarative",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Handlers.CommandHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandHandler.yml\" sourcestartlinenumber=\"1\">The default handler to handle a command request routed from a <xref href=\"OneImlx.Terminal.Commands.CommandRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.CommandResolver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Handlers.CommandResolver",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.CommandResolver.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.Handlers.ICommandResolver\" data-throw-if-not-resolved=\"false\"></xref> using\n<xref href=\"Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(System.IServiceProvider%2cSystem.Type%2cSystem.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>, managing the resolution of\ncommand checkers and runners.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Handlers.ICommandHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.ICommandHandler.yml\" sourcestartlinenumber=\"1\">An abstraction to handle a command request routed from a <xref href=\"OneImlx.Terminal.Commands.ICommandRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.ICommandResolver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Handlers.ICommandResolver",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Handlers.ICommandResolver.yml\" sourcestartlinenumber=\"1\">An abstraction for resolving command runtime. It is responsible for resolving the appropriate command checker\nand runner for a given command descriptor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Handlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Handlers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Handlers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ICommandRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ICommandRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.ICommandRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ICommandRouter.yml\" sourcestartlinenumber=\"1\">An abstraction of a command router.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.ICommandValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.ICommandValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.ICommandValue",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ICommandValue.yml\" sourcestartlinenumber=\"1\">As abstraction of a command value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.IKeyAsId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.IKeyAsId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.IKeyAsId",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.IKeyAsId.yml\" sourcestartlinenumber=\"1\">An abstraction of an entity with a key as an identifier.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.KeyAsIdCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.KeyAsIdCollection-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.KeyAsIdCollection<TItem>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.KeyAsIdCollection-1.yml\" sourcestartlinenumber=\"1\">A keyed collection by id.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Option.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Option",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Option.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.Option\" data-throw-if-not-resolved=\"false\"></xref> class is a runtime validated representation of an actual command option and its value\npassed by a user or an application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.OptionDescriptor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.OptionDescriptor.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> class defines the command option identity, data type, and data validation\nbehavior. We also refer to options as command options or command flags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionDescriptors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.OptionDescriptors",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.OptionDescriptors.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OptionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OptionFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.OptionFlags",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.OptionFlags.yml\" sourcestartlinenumber=\"1\">Defines special option flags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Options.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Options",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Options.yml\" sourcestartlinenumber=\"1\">The ordered <xref href=\"OneImlx.Terminal.Commands.Option\" data-throw-if-not-resolved=\"false\"></xref> keyed collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.OwnerIdCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.OwnerIdCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.OwnerIdCollection",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.OwnerIdCollection.yml\" sourcestartlinenumber=\"1\">Defines a collection of owners for a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.CommandParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Parsers.CommandParser",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Parsers.CommandParser.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Commands.Parsers.ICommandParser\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ICommandParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Parsers.ICommandParser",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Parsers.ICommandParser.yml\" sourcestartlinenumber=\"1\">An abstraction to parse the raw command string and extract <xref href=\"OneImlx.Terminal.Commands.Command\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Parsers.ParsedCommand",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Parsers.ParsedCommand.yml\" sourcestartlinenumber=\"1\">Represents a parsed command from a command request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Parsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Parsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners.CommandRunner<TResult>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.yml\" sourcestartlinenumber=\"1\">The command runner is where developers implement how commands are executed. It operates asynchronously to handle\ncommands that might take a while to process. The framework routes each parsed command to its specific runner,\nhelping to organize and manage the command execution logic within your application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.yml\" sourcestartlinenumber=\"1\">Represents the result of a command runner.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners.ICommandRunner<TResult>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.yml\" sourcestartlinenumber=\"1\">An abstraction of a command runner.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">An abstraction to delegate to <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners.LicenseInfoRunner",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.yml\" sourcestartlinenumber=\"1\">The default license info runner that outputs the current licensing information to the <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.Runners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.Runners.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.Runners",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.TagIdCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.TagIdCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands.TagIdCollection",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.TagIdCollection.yml\" sourcestartlinenumber=\"1\">Defines a collection of tags for a command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Commands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Commands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.AuthenticationOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.yml\" sourcestartlinenumber=\"1\">The authentication configuration options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.CheckerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.CheckerOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.CheckerOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.CheckerOptions.yml\" sourcestartlinenumber=\"1\">The command, argument, and option checker configuration options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.DriverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.DriverOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.DriverOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.DriverOptions.yml\" sourcestartlinenumber=\"1\">The driver configuration options. Reserved for future use.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.DynamicsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.DynamicsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.DynamicsOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.DynamicsOptions.yml\" sourcestartlinenumber=\"1\">The dynamics configuration options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.HelpOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.HelpOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.HelpOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.HelpOptions.yml\" sourcestartlinenumber=\"1\">The help options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.LicensingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.LicensingOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.LicensingOptions.yml\" sourcestartlinenumber=\"1\">The licensing configuration options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.ParserOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.ParserOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.ParserOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.ParserOptions.yml\" sourcestartlinenumber=\"1\">Represents the terminal parser options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.RouterOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.RouterOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.RouterOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.RouterOptions.yml\" sourcestartlinenumber=\"1\">The command router options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.TerminalOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options.TerminalOptions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Configuration.Options.TerminalOptions.yml\" sourcestartlinenumber=\"1\">The terminal configuration options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Configuration.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Configuration.Options.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Configuration.Options",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.ITerminalCommandSource<TContext>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSource-1.yml\" sourcestartlinenumber=\"1\">An abstraction of a terminal command source.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader<TContext>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader-1.yml\" sourcestartlinenumber=\"1\">An abstraction to load assemblies that are command source within your terminal.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceChecker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceChecker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.ITerminalCommandSourceChecker<TContext>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.ITerminalCommandSourceChecker-1.yml\" sourcestartlinenumber=\"1\">An abstraction to checks the <xref href=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.PublishedAssemblyLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.PublishedAssemblyLoader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.PublishedAssemblyLoader",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.PublishedAssemblyLoader.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"System.Runtime.Loader.AssemblyLoadContext\" data-throw-if-not-resolved=\"false\"></xref> based <xref href=\"OneImlx.Terminal.Dynamics.ITerminalCommandSourceAssemblyLoader%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.PublishedCommandSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.PublishedCommandSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.PublishedCommandSource",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.PublishedCommandSource.yml\" sourcestartlinenumber=\"1\">The default implementation of <xref href=\"OneImlx.Terminal.Dynamics.ITerminalCommandSource%601\" data-throw-if-not-resolved=\"false\"></xref> that loads terminal commands from\nassemblies in a published location.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.PublishedCommandSourceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.PublishedCommandSourceContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics.PublishedCommandSourceContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Dynamics.PublishedCommandSourceContext.yml\" sourcestartlinenumber=\"1\">The context for <xref href=\"OneImlx.Terminal.Dynamics.PublishedCommandSource\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Dynamics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Dynamics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Dynamics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Events.ITerminalEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Events.ITerminalEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Events.ITerminalEventHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The terminal event handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.ByteArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.ByteArrayExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.ByteArrayExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ByteArrayExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for <xref href=\"System.Byte\" data-throw-if-not-resolved=\"false\"></xref> arrays.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IArgumentBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IArgumentBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.IArgumentBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IArgumentBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.IHostBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"Microsoft.Extensions.Hosting.IHostBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IHostExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IHostExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.IHostExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"Microsoft.Extensions.Hosting.IHost\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.IOptionBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IOptionBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.IOptionBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.IServiceCollectionExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IServiceCollectionExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods to register <code>OneImlx.Terminal</code> services with an <xref href=\"Microsoft.Extensions.DependencyInjection.IServiceCollection\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions.ITerminalBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ITerminalBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ITerminalBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ArgumentBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.ArgumentBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ArgumentBuilder.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.CommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.CommandBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.CommandBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.CommandBuilder.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.IArgumentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.IArgumentBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.IArgumentBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.IArgumentBuilder.yml\" sourcestartlinenumber=\"1\">An abstraction of argument builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ICommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ICommandBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.ICommandBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ICommandBuilder.yml\" sourcestartlinenumber=\"1\">An abstraction of command builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.IOptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.IOptionBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.IOptionBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.IOptionBuilder.yml\" sourcestartlinenumber=\"1\">An abstraction of option builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.ITerminalBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.ITerminalBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.ITerminalBuilder.yml\" sourcestartlinenumber=\"1\">An abstraction of service builder.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.OptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.OptionBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.OptionBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.OptionBuilder.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Hosting.IOptionBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.TerminalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.TerminalBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.TerminalBuilder",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalBuilder.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Hosting.ITerminalBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.TerminalHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.TerminalHostedService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting.TerminalHostedService",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The hosted service to manage the application lifetime and terminal customization.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Hosting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Hosting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.ILicenseChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseChecker.yml\" sourcestartlinenumber=\"1\">An abstraction to check the <xref href=\"OneImlx.Terminal.Licensing.License\" data-throw-if-not-resolved=\"false\"></xref> object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseDebugger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.ILicenseDebugger",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseDebugger.yml\" sourcestartlinenumber=\"1\">An abstraction of a license debugger.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.ILicenseExtractor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml\" sourcestartlinenumber=\"1\">An abstraction to extract the software <xref href=\"OneImlx.Terminal.Licensing.License\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.License.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.License.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.License",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.License.yml\" sourcestartlinenumber=\"1\">A terminal framework license.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseChecker",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseChecker.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Licensing.ILicenseChecker\" data-throw-if-not-resolved=\"false\"></xref> for all features.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseCheckerResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseCheckerResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseCheckerResult.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Licensing.ILicenseChecker\" data-throw-if-not-resolved=\"false\"></xref> result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseDebugger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseDebugger",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseDebugger.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Licensing.ILicenseDebugger\" data-throw-if-not-resolved=\"false\"></xref> that uses <xref href=\"System.Diagnostics.Debugger\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseExtractor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseExtractor.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Licensing.ILicenseExtractor\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseExtractorResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseExtractorResult",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseExtractorResult.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Licensing.ILicenseChecker\" data-throw-if-not-resolved=\"false\"></xref> result.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.LicenseQuota.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.LicenseQuota.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing.LicenseQuota",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.LicenseQuota.yml\" sourcestartlinenumber=\"1\">Defines the licensing quota based on the <xref href=\"OneImlx.Shared.Licensing.TerminalLicensePlans\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Licensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Licensing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Licensing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalConsole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalConsole",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalConsole.yml\" sourcestartlinenumber=\"1\">An abstraction of a console for terminal framework.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalExceptionHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalExceptionHandler.yml\" sourcestartlinenumber=\"1\">An abstraction to handle <xref href=\"System.Exception\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalHelpProvider",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalHelpProvider.yml\" sourcestartlinenumber=\"1\">An abstraction to provide help for commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalProcessor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalProcessor.yml\" sourcestartlinenumber=\"1\">An abstraction for processing the <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> individually or in batches, with optional\nasynchronous handling of responses in the background.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRequestParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRequestParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalRequestParser",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalRequestParser.yml\" sourcestartlinenumber=\"1\">An abstraction to parse a <xref href=\"OneImlx.Terminal.Shared.TerminalRequest\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRouter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalRouter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalRouter<TContext>",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalRouter-1.yml\" sourcestartlinenumber=\"1\">An abstraction of a context aware terminal router.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.ITerminalTextHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.ITerminalTextHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.ITerminalTextHandler.yml\" sourcestartlinenumber=\"1\">An abstraction of a terminal text handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.Terminal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.Terminal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.Terminal",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.Terminal.yml\" sourcestartlinenumber=\"1\">Terminals, also known as command lines, consoles, or CLI applications, allow organizations and users to\naccomplish and automate tasks on a computer without using a graphical user interface. If a CLI terminal supports\nuser interaction, the UX is the terminal.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleExceptionHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalConsoleExceptionHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalConsoleExceptionHandler.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" data-throw-if-not-resolved=\"false\"></xref> to handle an <xref href=\"System.Exception\" data-throw-if-not-resolved=\"false\"></xref> and log the error\nmessage to <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleHelpProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleHelpProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalConsoleHelpProvider",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalConsoleHelpProvider.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" data-throw-if-not-resolved=\"false\"></xref> that logs the command help using <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalConsoleRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalConsoleRouter.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> for console based terminals.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalConsoleRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalConsoleRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalConsoleRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.TerminalRouterContext\" data-throw-if-not-resolved=\"false\"></xref> for <xref href=\"OneImlx.Terminal.Runtime.TerminalConsoleRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalCustomRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalCustomRouter.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> for custom routing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalCustomRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalCustomRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalCustomRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.TerminalRouterContext\" data-throw-if-not-resolved=\"false\"></xref> for <xref href=\"OneImlx.Terminal.Runtime.TerminalCustomRouter\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalExceptionHandlerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalExceptionHandlerContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalExceptionHandlerContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalExceptionHandlerContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" data-throw-if-not-resolved=\"false\"></xref> context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalGrpcRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalGrpcRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalGrpcRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalGrpcRouter.yml\" sourcestartlinenumber=\"1\">Represents the gRPC router responsible for managing gRPC communication in the terminal. This router handles\nincoming gRPC commands and routes them to the appropriate command runners.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalGrpcRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalGrpcRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalGrpcRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalGrpcRouterContext.yml\" sourcestartlinenumber=\"1\">Represents the context for configuring and managing the gRPC router in the terminal.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalHelpProviderContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalHelpProviderContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalHelpProviderContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalHelpProviderContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" data-throw-if-not-resolved=\"false\"></xref> context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalHttpRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalHttpRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalHttpRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalHttpRouter.yml\" sourcestartlinenumber=\"1\">Represents the HTTP router responsible for managing HTTP communication in the terminal. This router handles\nincoming HTTP commands and routes them to the appropriate command runners.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalHttpRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalHttpRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalHttpRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalHttpRouterContext.yml\" sourcestartlinenumber=\"1\">Represents the context for the terminal router when running in HTTP mode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalLoggerExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalLoggerExceptionHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalLoggerExceptionHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalLoggerExceptionHandler.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" data-throw-if-not-resolved=\"false\"></xref> to handle an <xref href=\"System.Exception\" data-throw-if-not-resolved=\"false\"></xref> and log the error\nmessage to <xref href=\"Microsoft.Extensions.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalLoggerHelpProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalLoggerHelpProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalLoggerHelpProvider",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalLoggerHelpProvider.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalHelpProvider\" data-throw-if-not-resolved=\"false\"></xref> that logs the command help using <xref href=\"Microsoft.Extensions.Logging.ILogger\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalNoConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalNoConsole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalNoConsole",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalNoConsole.yml\" sourcestartlinenumber=\"1\">A no-operation console implementation for the <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref> interface. This implementation does\nnot perform any actual console input/output operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalParsedRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalParsedRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalParsedRequest",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalParsedRequest.yml\" sourcestartlinenumber=\"1\">The raw representation of a parsed <xref href=\"OneImlx.Terminal.Shared.TerminalRequest\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalProcessor",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalProcessor.yml\" sourcestartlinenumber=\"1\">The default implementation of <xref href=\"OneImlx.Terminal.Runtime.ITerminalProcessor\" data-throw-if-not-resolved=\"false\"></xref> for processing inputs in a terminal environment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalRequestQueueParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalRequestQueueParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalRequestQueueParser",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRequestQueueParser.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalRequestParser\" data-throw-if-not-resolved=\"false\"></xref> that uses a queue to parse the terminal request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalStartMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalStartMode",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalStartMode.yml\" sourcestartlinenumber=\"1\">The terminal start mode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalSystemConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalSystemConsole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalSystemConsole",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalSystemConsole.yml\" sourcestartlinenumber=\"1\">The default implementation of <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref> that uses the system <xref href=\"System.Console\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalTcpRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTcpRouter.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> for TCP client-server communication.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalTcpRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalTcpRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTcpRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.TerminalTcpRouter\" data-throw-if-not-resolved=\"false\"></xref> connection context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalTextHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalTextHandler",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalTextHandler.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalUdpRouter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalUdpRouter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalUdpRouter",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalUdpRouter.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> for UDP server communication.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.TerminalUdpRouterContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.TerminalUdpRouterContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime.TerminalUdpRouterContext",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Runtime.TerminalUdpRouterContext.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Runtime.TerminalUdpRouter\" data-throw-if-not-resolved=\"false\"></xref> connection context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Runtime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Runtime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.Extensions.EndpointRouteBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.Extensions.EndpointRouteBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.Extensions.EndpointRouteBuilderExtensions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.Extensions.EndpointRouteBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"Microsoft.AspNetCore.Routing.IEndpointRouteBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.OneimlxTerminalReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.OneimlxTerminalReflection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.OneimlxTerminalReflection",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.OneimlxTerminalReflection.yml\" sourcestartlinenumber=\"1\">Holder for reflection information generated from Protos/oneimlx_terminal.proto</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcMapService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalGrpcMapService",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcMapService.yml\" sourcestartlinenumber=\"1\">Represents the gRPC service responsible for managing gRPC communication in the <code>OneImlx</code> terminal framework.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.TerminalGrpcRouterProtoBase.yml\" sourcestartlinenumber=\"1\">Base class for server-side implementations of TerminalGrpcRouterProto</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalGrpcRouterProto",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcRouterProto.yml\" sourcestartlinenumber=\"1\">The OneImlx terminal router command service to request the command.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoInput.yml\" sourcestartlinenumber=\"1\">The terminal router command request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalGrpcRouterProtoOutput.yml\" sourcestartlinenumber=\"1\">The terminal router command request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.TerminalHttpMapService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.TerminalHttpMapService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server.TerminalHttpMapService",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Server.TerminalHttpMapService.yml\" sourcestartlinenumber=\"1\">Represents the HTTP service responsible for managing HTTP communication in the <code>OneImlx</code> terminal\nframework. This router handles incoming HTTP commands and routes them to the appropriate command runners.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Server",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalErrors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalErrors",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalErrors.yml\" sourcestartlinenumber=\"1\">The errors for the terminal framework.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalException",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The exception that represents a terminal error.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalIdentifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalIdentifiers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalIdentifiers",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalIdentifiers.yml\" sourcestartlinenumber=\"1\">The standard terminal identifiers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalInputOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalInputOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalInputOutput",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalInputOutput.yml\" sourcestartlinenumber=\"1\">Represents the terminal IO class that is sent to the terminal server as an ordered collection of <xref href=\"OneImlx.Terminal.Shared.TerminalRequest\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalRequest",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalRequest.yml\" sourcestartlinenumber=\"1\">A terminal request with a unique identifier, raw input, result, and error status.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.TerminalServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.TerminalServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared.TerminalServices",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalServices.yml\" sourcestartlinenumber=\"1\">Provides common terminal services.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Shared.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Shared",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.ITerminalCommandStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Stores.ITerminalCommandStore",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.ITerminalCommandStore.yml\" sourcestartlinenumber=\"1\">A store of <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.TerminalInMemoryCommandStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.TerminalInMemoryCommandStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Stores.TerminalInMemoryCommandStore",
+      "Summary": "<p sourcefile=\"api/OneImlx.Terminal.Stores.TerminalInMemoryCommandStore.yml\" sourcestartlinenumber=\"1\">The default in-memory <xref href=\"OneImlx.Terminal.Stores.ITerminalCommandStore\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Terminal.Stores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Terminal.Stores.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Terminal.Stores",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">The fluent assertions for <xref href=\"System.Reflection.Assembly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.ErrorExceptionFluentAssertions.yml\" sourcestartlinenumber=\"1\">Extension methods for asserting expected properties on <xref href=\"OneImlx.Shared.Infrastructure.ErrorException\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.TypeFluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.TypeFluentAssertions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Test.FluentAssertions.TypeFluentAssertions",
+      "Summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.TypeFluentAssertions.yml\" sourcestartlinenumber=\"1\">The fluent assertion extension methods for <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OneImlx.Test.FluentAssertions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OneImlx.Test.FluentAssertions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "OneImlx.Test.FluentAssertions",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/announcements.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/announcements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/buyonmsappsource.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/buyonmsappsource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/buyonmsazure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/buyonmsazure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/buying/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/buying/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/buying/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/buying/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/marketplace/architectural_flow.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/architectural_flow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/marketplace/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/marketplace/microsoftmarketpacesupportingdoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/microsoftmarketpacesupportingdoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/marketplace/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/marketplace/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/marketplace/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/authentication.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/authentication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/checkers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/checkers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/commands.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/grpc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/grpc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/http.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/integration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/pulsar.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/pulsar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/routers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/routers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/tcp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/tcp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/terminal.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/terminal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/concepts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/concepts/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/concepts/udp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/concepts/udp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configuration/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configuration/limits.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/limits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configuration/logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configuration/options.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/configuration/services.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/configuration/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/configuration/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/configuration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/apps.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/apps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/gs/setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/gs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/gs/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/gs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "articles/terminal/licensing/faqs.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/faqs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/featurecomparison.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/featurecomparison.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/licensemgmt.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/licensemgmt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/licensing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/licensing/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/licensing/usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/licensing/usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/repo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/repo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/terminal/runtime/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/runtime/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/runtime/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/runtime/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/runtime/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/terminal/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/terminal/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/terminal/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/dotnet-original.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/dotnet-original.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/dotnet_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/dotnet_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/github_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/github_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/pi_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/pi_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/brands/stripe_64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/brands/stripe_64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/activate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/activate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/download-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/download-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/generate-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/generate-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/listing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/listing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msappsource/review.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msappsource/review.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/activate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/activate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/download-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/download-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/generate-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/generate-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/listing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/listing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/buying/msazure/review.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/buying/msazure/review.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/dotnetfoundation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/dotnetfoundation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/microsoft.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/microsoft.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/siemens.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/siemens.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/customers/stripe.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/customers/stripe.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/demo/download.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/demo/download.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/demo/filldetails.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/demo/filldetails.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/demo/licenses.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/demo/licenses.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/apps/add-hosted-service.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/apps/add-hosted-service.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/apps/runners.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/apps/runners.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/apps/start-router.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/apps/start-router.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/dotnet_cli_root_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/dotnet_cli_root_command.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/framework/repo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/framework/repo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/gh_cli_root_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/gh_cli_root_command.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/add-commercial.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/add-commercial.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/add-demo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/add-demo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/licenses.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/licenses.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/terminal/licensing/select-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/terminal/licensing/select-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

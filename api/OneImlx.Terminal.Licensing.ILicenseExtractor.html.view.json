@@ -1,0 +1,673 @@
+{
+  "uid": "OneImlx.Terminal.Licensing.ILicenseExtractor",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.ILicenseExtractor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ExtractLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "ExtractLicenseAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ILicenseExtractor.ExtractLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "ILicenseExtractor.ExtractLicenseAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync\" text=\"ExtractLicenseAsync()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync\" text=\"ExtractLicenseAsync()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<LicenseExtractorResult> ExtractLicenseAsync()"
+              },
+              {
+                "lang": "vb",
+                "value": "Function ExtractLicenseAsync() As Task(Of LicenseExtractorResult)"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Licensing.LicenseExtractorResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<LicenseExtractorResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of LicenseExtractorResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<LicenseExtractorResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of LicenseExtractorResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Licensing.LicenseExtractorResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Licensing.LicenseExtractorResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.LicenseExtractorResult.html\">LicenseExtractorResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Licensing.LicenseExtractorResult.html\">LicenseExtractorResult</a>)"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ExtractLicenseAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+            "startLine": 20,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ExtractLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ExtractLicenseAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ILicenseExtractor.ExtractLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ILicenseExtractor.ExtractLicenseAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync*\" text=\"ExtractLicenseAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync*\" text=\"ExtractLicenseAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_ILicenseExtractor_ExtractLicenseAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml\" sourcestartlinenumber=\"1\">Extracts the <xref href=\"OneImlx.Terminal.Licensing.License\" data-throw-if-not-resolved=\"false\"></xref> asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_ILicenseExtractor_ExtractLicenseAsync.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.ILicenseExtractor.ExtractLicenseAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs/#L21",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_ILicenseExtractor_ExtractLicenseAsync",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Licensing.ILicenseExtractor",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetLicenseAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ILicenseExtractor.GetLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "ILicenseExtractor.GetLicenseAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync\" text=\"GetLicenseAsync()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync\" text=\"GetLicenseAsync()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<License?> GetLicenseAsync()"
+              },
+              {
+                "lang": "vb",
+                "value": "Function GetLicenseAsync() As Task(Of License)"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Licensing.License}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<License>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of License)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<License>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of License)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Licensing.License>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Licensing.License)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.License.html\">License</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Licensing.License.html\">License</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetLicenseAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+            "startLine": 25,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "GetLicenseAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ILicenseExtractor.GetLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ILicenseExtractor.GetLicenseAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync*\" text=\"GetLicenseAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync*\" text=\"GetLicenseAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Licensing_ILicenseExtractor_GetLicenseAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml\" sourcestartlinenumber=\"1\">Gets the extracted license asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_ILicenseExtractor_GetLicenseAsync.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.ILicenseExtractor.GetLicenseAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs/#L26",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Licensing_ILicenseExtractor_GetLicenseAsync",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ILicenseExtractor"
+    },
+    {
+      "lang": "vb",
+      "value": "ILicenseExtractor"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ILicenseExtractor"
+    },
+    {
+      "lang": "vb",
+      "value": "ILicenseExtractor"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Licensing.ILicenseExtractor"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Licensing.ILicenseExtractor"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ILicenseExtractor",
+    "path": "../../terminal/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml\" sourcestartlinenumber=\"1\">An abstraction to extract the software <xref href=\"OneImlx.Terminal.Licensing.License\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ILicenseExtractor"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ILicenseExtractor"
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Licensing.ILicenseExtractor.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Licensing_ILicenseExtractor.md&value=---%0Auid%3A%20OneImlx.Terminal.Licensing.ILicenseExtractor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Licensing/ILicenseExtractor.cs/#L15",
+  "description": "An abstraction to extract the software .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Licensing_ILicenseExtractor",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

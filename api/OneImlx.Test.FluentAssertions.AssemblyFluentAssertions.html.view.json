@@ -1,0 +1,1262 @@
+{
+  "uid": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Test.FluentAssertions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions,System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "HaveTypesInRootNamespace(AssemblyAssertions, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "HaveTypesInRootNamespace(AssemblyAssertions, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AssemblyFluentAssertions.HaveTypesInRootNamespace(AssemblyAssertions, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AssemblyFluentAssertions.HaveTypesInRootNamespace(AssemblyAssertions, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions,System.String)\" text=\"HaveTypesInRootNamespace(AssemblyAssertions, string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions,System.String)\" text=\"HaveTypesInRootNamespace(AssemblyAssertions, string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static AndConstraint<AssemblyAssertions> HaveTypesInRootNamespace(this AssemblyAssertions assertions, string rootNamespace)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function HaveTypesInRootNamespace(assertions As AssemblyAssertions, rootNamespace As String) As AndConstraint(Of AssemblyAssertions)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "assertions",
+                "type": {
+                  "uid": "FluentAssertions.Reflection.AssemblyAssertions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "AssemblyAssertions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "AssemblyAssertions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "FluentAssertions.Reflection.AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "FluentAssertions.Reflection.AssemblyAssertions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"FluentAssertions.Reflection.AssemblyAssertions\" text=\"AssemblyAssertions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"FluentAssertions.Reflection.AssemblyAssertions\" text=\"AssemblyAssertions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">Fluent Assertions wrapper for the assembly.</p>\n"
+              },
+              {
+                "id": "rootNamespace",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">The expected root namespace.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "FluentAssertions.AndConstraint{FluentAssertions.Reflection.AssemblyAssertions}",
+                "definition": "FluentAssertions.AndConstraint`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AndConstraint<AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AndConstraint(Of AssemblyAssertions)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AndConstraint<AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AndConstraint(Of AssemblyAssertions)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "FluentAssertions.AndConstraint<FluentAssertions.Reflection.AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "FluentAssertions.AndConstraint(Of FluentAssertions.Reflection.AssemblyAssertions)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/AndConstraint.cs\">AndConstraint</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/AssemblyAssertions.cs\">AssemblyAssertions</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/AndConstraint.cs\">AndConstraint</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/AssemblyAssertions.cs\">AssemblyAssertions</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "HaveTypesInRootNamespace",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+            "startLine": 30,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "HaveTypesInRootNamespace"
+              },
+              {
+                "lang": "vb",
+                "value": "HaveTypesInRootNamespace"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AssemblyFluentAssertions.HaveTypesInRootNamespace"
+              },
+              {
+                "lang": "vb",
+                "value": "AssemblyFluentAssertions.HaveTypesInRootNamespace"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace*\" text=\"HaveTypesInRootNamespace\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace*\" text=\"HaveTypesInRootNamespace\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInRootNamespace_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that the assembly has a valid namespace based on its name.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInRootNamespace_FluentAssertions_Reflection_AssemblyAssertions_System_String_.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInRootNamespace(FluentAssertions.Reflection.AssemblyAssertions%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs/#L31",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInRootNamespace_FluentAssertions_Reflection_AssemblyAssertions_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions,System.Collections.Generic.IEnumerable{System.Type})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "HaveTypesInValidLocations(AssemblyAssertions, IEnumerable<Type>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "HaveTypesInValidLocations(AssemblyAssertions, IEnumerable(Of Type))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AssemblyFluentAssertions.HaveTypesInValidLocations(AssemblyAssertions, IEnumerable<Type>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "AssemblyFluentAssertions.HaveTypesInValidLocations(AssemblyAssertions, IEnumerable(Of Type))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions, System.Collections.Generic.IEnumerable<System.Type>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions, System.Collections.Generic.IEnumerable(Of System.Type))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions,System.Collections.Generic.IEnumerable{System.Type})\" text=\"HaveTypesInValidLocations(AssemblyAssertions, IEnumerable&lt;Type&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions,System.Collections.Generic.IEnumerable{System.Type})\" text=\"HaveTypesInValidLocations(AssemblyAssertions, IEnumerable&lt;Type&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static AndConstraint<AssemblyAssertions> HaveTypesInValidLocations(this AssemblyAssertions assertions, IEnumerable<Type>? excludeTypes = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function HaveTypesInValidLocations(assertions As AssemblyAssertions, excludeTypes As IEnumerable(Of Type) = Nothing) As AndConstraint(Of AssemblyAssertions)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "assertions",
+                "type": {
+                  "uid": "FluentAssertions.Reflection.AssemblyAssertions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "AssemblyAssertions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "AssemblyAssertions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "FluentAssertions.Reflection.AssemblyAssertions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "FluentAssertions.Reflection.AssemblyAssertions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"FluentAssertions.Reflection.AssemblyAssertions\" text=\"AssemblyAssertions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"FluentAssertions.Reflection.AssemblyAssertions\" text=\"AssemblyAssertions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">Fluent Assertions wrapper for the assembly.</p>\n"
+              },
+              {
+                "id": "excludeTypes",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.Type}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<Type>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of Type)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<Type>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of Type)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<System.Type>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of System.Type)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">The types to exclude checks.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "FluentAssertions.AndConstraint{FluentAssertions.Reflection.AssemblyAssertions}",
+                "definition": "FluentAssertions.AndConstraint`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AndConstraint<AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AndConstraint(Of AssemblyAssertions)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AndConstraint<AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AndConstraint(Of AssemblyAssertions)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "FluentAssertions.AndConstraint<FluentAssertions.Reflection.AssemblyAssertions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "FluentAssertions.AndConstraint(Of FluentAssertions.Reflection.AssemblyAssertions)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/AndConstraint.cs\">AndConstraint</a>&lt;<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/AssemblyAssertions.cs\">AssemblyAssertions</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/AndConstraint.cs\">AndConstraint</a>(Of <a class=\"xref\" href=\"https://github.com/fluentassertions/fluentassertions/blob/main/Src/FluentAssertions/Specialized/AssemblyAssertions.cs\">AssemblyAssertions</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "HaveTypesInValidLocations",
+            "path": "../../shared/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+            "startLine": 72,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Test"
+          ],
+          "namespace": "OneImlx.Test.FluentAssertions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "HaveTypesInValidLocations"
+              },
+              {
+                "lang": "vb",
+                "value": "HaveTypesInValidLocations"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AssemblyFluentAssertions.HaveTypesInValidLocations"
+              },
+              {
+                "lang": "vb",
+                "value": "AssemblyFluentAssertions.HaveTypesInValidLocations"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations*\" text=\"HaveTypesInValidLocations\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations*\" text=\"HaveTypesInValidLocations\"/>"
+              }
+            ],
+            "id": "OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInValidLocations_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">Asserts that the assembly has all types in the valid files or locations.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInValidLocations_FluentAssertions_Reflection_AssemblyAssertions_System_Collections_Generic_IEnumerable_System_Type__.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.HaveTypesInValidLocations(FluentAssertions.Reflection.AssemblyAssertions%2CSystem.Collections.Generic.IEnumerable%7BSystem.Type%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs/#L73",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Test_FluentAssertions_AssemblyFluentAssertions_HaveTypesInValidLocations_FluentAssertions_Reflection_AssemblyAssertions_System_Collections_Generic_IEnumerable_System_Type__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "AssemblyFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "AssemblyFluentAssertions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "AssemblyFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "AssemblyFluentAssertions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Test.FluentAssertions.AssemblyFluentAssertions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "AssemblyFluentAssertions",
+    "path": "../../shared/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs",
+    "startLine": 23,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Test"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Test.FluentAssertions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Test.FluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Test.FluentAssertions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Test.html\">Test</a>.<a class=\"xref\" href=\"OneImlx.Test.FluentAssertions.html\">FluentAssertions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml\" sourcestartlinenumber=\"1\">The fluent assertions for <xref href=\"System.Reflection.Assembly\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class AssemblyFluentAssertions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module AssemblyFluentAssertions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Test.FluentAssertions.AssemblyFluentAssertions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Test_FluentAssertions_AssemblyFluentAssertions.md&value=---%0Auid%3A%20OneImlx.Test.FluentAssertions.AssemblyFluentAssertions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Test/FluentAssertions/AssemblyFluentAssertions.cs/#L24",
+  "description": "The fluent assertions for .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Test_FluentAssertions_AssemblyFluentAssertions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

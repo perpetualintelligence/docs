@@ -1,0 +1,2251 @@
+{
+  "uid": "OneImlx.Terminal.Commands.CommandDescriptors",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.CommandDescriptor})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandDescriptors(ITerminalTextHandler, IEnumerable<CommandDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ITerminalTextHandler, IEnumerable(Of CommandDescriptor))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandDescriptors.CommandDescriptors(ITerminalTextHandler, IEnumerable<CommandDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandDescriptors.New(ITerminalTextHandler, IEnumerable(Of CommandDescriptor))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandDescriptors.CommandDescriptors(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.CommandDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandDescriptors.New(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.CommandDescriptor))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.CommandDescriptor})\" text=\"CommandDescriptors(ITerminalTextHandler, IEnumerable&lt;CommandDescriptor&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.CommandDescriptor})\" text=\"CommandDescriptors(ITerminalTextHandler, IEnumerable&lt;CommandDescriptor&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CommandDescriptors(ITerminalTextHandler textHandler, IEnumerable<CommandDescriptor> collection)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(textHandler As ITerminalTextHandler, collection As IEnumerable(Of CommandDescriptor))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "textHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n"
+              },
+              {
+                "id": "collection",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.CommandDescriptor}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<CommandDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of CommandDescriptor)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<CommandDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of CommandDescriptor)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.CommandDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.CommandDescriptor)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">The command descriptors.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.CommandDescriptors.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CommandDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CommandDescriptors.CommandDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "CommandDescriptors.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.CommandDescriptors.CommandDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.CommandDescriptors.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.#ctor*\" text=\"CommandDescriptors\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.#ctor*\" text=\"CommandDescriptors\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_CommandDescriptors__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">Initializes a new instance with the specified command descriptors.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandDescriptors__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_CommandDescriptor__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandDescriptors.%23ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler%2CSystem.Collections.Generic.IEnumerable%7BOneImlx.Terminal.Commands.CommandDescriptor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandDescriptors.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandDescriptors__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_CommandDescriptor__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.CommandDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "TextHandler"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandDescriptors.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandDescriptors.TextHandler"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.TextHandler\" text=\"TextHandler\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.TextHandler\" text=\"TextHandler\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ITerminalTextHandler TextHandler { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property TextHandler As ITerminalTextHandler"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextHandler",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+            "startLine": 34,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "TextHandler"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "CommandDescriptors.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "CommandDescriptors.TextHandler"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.CommandDescriptors.TextHandler"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.TextHandler*\" text=\"TextHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandDescriptors.TextHandler*\" text=\"TextHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_CommandDescriptors_TextHandler_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandDescriptors_TextHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandDescriptors.TextHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandDescriptors.cs/#L35",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_CommandDescriptors_TextHandler",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "CommandDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandDescriptors"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "CommandDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "CommandDescriptors"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.CommandDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.CommandDescriptors"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "CommandDescriptors",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/CommandDescriptors.cs",
+    "startLine": 15,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.CommandDescriptors.yml\" sourcestartlinenumber=\"1\">The optimized <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> collection.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class CommandDescriptors : Dictionary<string, CommandDescriptor>, IDictionary<string, CommandDescriptor>, ICollection<KeyValuePair<string, CommandDescriptor>>, IReadOnlyDictionary<string, CommandDescriptor>, IReadOnlyCollection<KeyValuePair<string, CommandDescriptor>>, IEnumerable<KeyValuePair<string, CommandDescriptor>>, IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class CommandDescriptors Inherits Dictionary(Of String, CommandDescriptor) Implements IDictionary(Of String, CommandDescriptor), ICollection(Of KeyValuePair(Of String, CommandDescriptor)), IReadOnlyDictionary(Of String, CommandDescriptor), IReadOnlyCollection(Of KeyValuePair(Of String, CommandDescriptor)), IEnumerable(Of KeyValuePair(Of String, CommandDescriptor)), IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic",
+      "definition": "System.Collections.Generic.Dictionary`2",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 2,
+  "implements": [
+    {
+      "uid": "System.Collections.Generic.IDictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.IDictionary`2",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IDictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IDictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IDictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IDictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2\">IDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.CommandDescriptor}}",
+      "definition": "System.Collections.Generic.ICollection`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ICollection<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollection(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ICollection<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollection(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.CommandDescriptor))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1\">ICollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1\">ICollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>))"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IReadOnlyDictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.IReadOnlyDictionary`2",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyDictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyDictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyDictionary<string, CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyDictionary(Of String, CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IReadOnlyDictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IReadOnlyDictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2\">IReadOnlyDictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.CommandDescriptor}}",
+      "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.CommandDescriptor))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>))"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,OneImlx.Terminal.Commands.CommandDescriptor}}",
+      "definition": "System.Collections.Generic.IEnumerable`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<KeyValuePair<string, CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of KeyValuePair(Of String, CommandDescriptor))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, OneImlx.Terminal.Commands.CommandDescriptor>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, OneImlx.Terminal.Commands.CommandDescriptor))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2\">KeyValuePair</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>))"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.IDictionary",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDictionary"
+        },
+        {
+          "lang": "vb",
+          "value": "IDictionary"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDictionary"
+        },
+        {
+          "lang": "vb",
+          "value": "IDictionary"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.IDictionary"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.IDictionary"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.IDictionary\" text=\"IDictionary\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.IDictionary\" text=\"IDictionary\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.ICollection",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ICollection"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollection"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ICollection"
+        },
+        {
+          "lang": "vb",
+          "value": "ICollection"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.ICollection"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.ICollection"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.ICollection\" text=\"ICollection\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.ICollection\" text=\"ICollection\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.IEnumerable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.IEnumerable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.Runtime.Serialization.IDeserializationCallback",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IDeserializationCallback"
+        },
+        {
+          "lang": "vb",
+          "value": "IDeserializationCallback"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IDeserializationCallback"
+        },
+        {
+          "lang": "vb",
+          "value": "IDeserializationCallback"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Runtime.Serialization.IDeserializationCallback"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Runtime.Serialization.IDeserializationCallback"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Runtime.Serialization.IDeserializationCallback\" text=\"IDeserializationCallback\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Runtime.Serialization.IDeserializationCallback\" text=\"IDeserializationCallback\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "System.Runtime.Serialization.ISerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "ISerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "ISerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Runtime.Serialization.ISerializable\" text=\"ISerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Runtime.Serialization.ISerializable\" text=\"ISerializable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Add(System.String,OneImlx.Terminal.Commands.CommandDescriptor)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Add(`0,`1)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.add",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Add(string, CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "Add(String, CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Add(string, CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Add(String, CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Add(string, OneImlx.Terminal.Commands.CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Add(String, OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.add\">Add</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.add\">Add</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Clear",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Clear",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.clear",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "Clear()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Clear()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Clear()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Clear()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.clear\">Clear</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.clear\">Clear</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.ContainsKey(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.ContainsKey(`0)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containskey",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ContainsKey(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "ContainsKey(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.ContainsKey(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).ContainsKey(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.ContainsKey(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).ContainsKey(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containskey\">ContainsKey</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containskey\">ContainsKey</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.ContainsValue(OneImlx.Terminal.Commands.CommandDescriptor)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.ContainsValue(`1)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containsvalue",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ContainsValue(CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "ContainsValue(CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.ContainsValue(CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).ContainsValue(CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.ContainsValue(OneImlx.Terminal.Commands.CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).ContainsValue(OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containsvalue\">ContainsValue</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.containsvalue\">ContainsValue</a>(<a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.GetEnumerator",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.GetEnumerator",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetEnumerator()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).GetEnumerator()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.GetEnumerator()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).GetEnumerator()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator\">GetEnumerator</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getenumerator\">GetEnumerator</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetObjectData(SerializationInfo, StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetObjectData(SerializationInfo, StreamingContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.GetObjectData(SerializationInfo, StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).GetObjectData(SerializationInfo, StreamingContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata\">GetObjectData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo\">SerializationInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext\">StreamingContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.getobjectdata\">GetObjectData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo\">SerializationInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext\">StreamingContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.OnDeserialization(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.ondeserialization",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "OnDeserialization(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "OnDeserialization(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.OnDeserialization(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).OnDeserialization(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.OnDeserialization(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).OnDeserialization(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.ondeserialization\">OnDeserialization</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.ondeserialization\">OnDeserialization</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Remove(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Remove(`0)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.remove",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Remove(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Remove(String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Remove(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Remove(String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Remove(string)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Remove(String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.remove\">Remove</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.remove\">Remove</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.TryGetValue(System.String,OneImlx.Terminal.Commands.CommandDescriptor@)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.TryGetValue(`0,`1@)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetvalue",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TryGetValue(string, out CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "TryGetValue(String, CommandDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.TryGetValue(string, out CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).TryGetValue(String, CommandDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.TryGetValue(string, out OneImlx.Terminal.Commands.CommandDescriptor)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).TryGetValue(String, OneImlx.Terminal.Commands.CommandDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetvalue\">TryGetValue</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, out <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.trygetvalue\">TryGetValue</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"OneImlx.Terminal.Commands.CommandDescriptor.html\">CommandDescriptor</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Comparer",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Comparer",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.comparer",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Comparer"
+        },
+        {
+          "lang": "vb",
+          "value": "Comparer"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Comparer"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Comparer"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Comparer"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Comparer"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Comparer\" text=\"Comparer\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Comparer\" text=\"Comparer\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Count",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Count",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.count",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Count"
+        },
+        {
+          "lang": "vb",
+          "value": "Count"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Count"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Count"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Count"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Count"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Count\" text=\"Count\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Count\" text=\"Count\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Item(System.String)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Item(`0)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.string",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "this[string]"
+        },
+        {
+          "lang": "vb",
+          "value": "this[](String)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.this[string]"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).this[](String)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.this[string]"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).this[](String)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "this[<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>]"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.item\">this[]</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Keys",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Keys",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.keys",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Keys"
+        },
+        {
+          "lang": "vb",
+          "value": "Keys"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Keys"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Keys"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Keys"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Keys"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Keys\" text=\"Keys\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Keys\" text=\"Keys\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Values",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}",
+      "definition": "System.Collections.Generic.Dictionary`2.Values",
+      "href": "https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2.values",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Values"
+        },
+        {
+          "lang": "vb",
+          "value": "Values"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Dictionary<string, CommandDescriptor>.Values"
+        },
+        {
+          "lang": "vb",
+          "value": "Dictionary(Of String, CommandDescriptor).Values"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.Dictionary<string, OneImlx.Terminal.Commands.CommandDescriptor>.Values"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.Dictionary(Of String, OneImlx.Terminal.Commands.CommandDescriptor).Values"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Values\" text=\"Values\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.Generic.Dictionary{System.String,OneImlx.Terminal.Commands.CommandDescriptor}.Values\" text=\"Values\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.CommandDescriptors.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.CommandDescriptors.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_CommandDescriptors.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.CommandDescriptors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/CommandDescriptors.cs/#L16",
+  "description": "The optimized  collection.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_CommandDescriptors",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

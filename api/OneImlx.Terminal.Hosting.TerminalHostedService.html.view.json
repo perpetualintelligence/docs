@@ -1,0 +1,2402 @@
+{
+  "uid": "OneImlx.Terminal.Hosting.TerminalHostedService",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Hosting",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalConsole,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Hosting.TerminalHostedService})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService(IServiceProvider, IOptions<TerminalOptions>, ITerminalConsole, ITerminalExceptionHandler, ILogger<TerminalHostedService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(IServiceProvider, IOptions(Of TerminalOptions), ITerminalConsole, ITerminalExceptionHandler, ILogger(Of TerminalHostedService))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.TerminalHostedService(IServiceProvider, IOptions<TerminalOptions>, ITerminalConsole, ITerminalExceptionHandler, ILogger<TerminalHostedService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.New(IServiceProvider, IOptions(Of TerminalOptions), ITerminalConsole, ITerminalExceptionHandler, ILogger(Of TerminalHostedService))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalHostedService(System.IServiceProvider, Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>, OneImlx.Terminal.Runtime.ITerminalConsole, OneImlx.Terminal.Runtime.ITerminalExceptionHandler, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Hosting.TerminalHostedService>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.New(System.IServiceProvider, Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions), OneImlx.Terminal.Runtime.ITerminalConsole, OneImlx.Terminal.Runtime.ITerminalExceptionHandler, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Hosting.TerminalHostedService))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalConsole,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Hosting.TerminalHostedService})\" text=\"TerminalHostedService(IServiceProvider, IOptions&lt;TerminalOptions&gt;, ITerminalConsole, ITerminalExceptionHandler, ILogger&lt;TerminalHostedService&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.#ctor(System.IServiceProvider,Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions},OneImlx.Terminal.Runtime.ITerminalConsole,OneImlx.Terminal.Runtime.ITerminalExceptionHandler,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Hosting.TerminalHostedService})\" text=\"TerminalHostedService(IServiceProvider, IOptions&lt;TerminalOptions&gt;, ITerminalConsole, ITerminalExceptionHandler, ILogger&lt;TerminalHostedService&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalHostedService(IServiceProvider serviceProvider, IOptions<TerminalOptions> terminalOptions, ITerminalConsole terminalConsole, ITerminalExceptionHandler terminalExceptionHandler, ILogger<TerminalHostedService> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(serviceProvider As IServiceProvider, terminalOptions As IOptions(Of TerminalOptions), terminalConsole As ITerminalConsole, terminalExceptionHandler As ITerminalExceptionHandler, logger As ILogger(Of TerminalHostedService))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "serviceProvider",
+                "type": {
+                  "uid": "System.IServiceProvider",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IServiceProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IServiceProvider"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IServiceProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IServiceProvider"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.IServiceProvider"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.IServiceProvider"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.IServiceProvider\" text=\"IServiceProvider\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.IServiceProvider\" text=\"IServiceProvider\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The service provider.</p>\n"
+              },
+              {
+                "id": "terminalOptions",
+                "type": {
+                  "uid": "Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions}",
+                  "definition": "Microsoft.Extensions.Options.IOptions`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IOptions<TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IOptions(Of TerminalOptions)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The configuration options.</p>\n"
+              },
+              {
+                "id": "terminalConsole",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalConsole",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalConsole"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalConsole"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalConsole"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalConsole"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalConsole"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalConsole"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalConsole\" text=\"ITerminalConsole\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalConsole\" text=\"ITerminalConsole\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The terminal console.</p>\n"
+              },
+              {
+                "id": "terminalExceptionHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalExceptionHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalExceptionHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalExceptionHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" text=\"ITerminalExceptionHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalExceptionHandler\" text=\"ITerminalExceptionHandler\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The exception handler.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Hosting.TerminalHostedService}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalHostedService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalHostedService)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<TerminalHostedService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of TerminalHostedService)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Hosting.TerminalHostedService>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Hosting.TerminalHostedService)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.TerminalHostedService.html\">TerminalHostedService</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Hosting.TerminalHostedService.html\">TerminalHostedService</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The logger.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 38,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.TerminalHostedService"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalHostedService"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.#ctor*\" text=\"TerminalHostedService\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.#ctor*\" text=\"TerminalHostedService\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService__ctor_System_IServiceProvider_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalConsole_OneImlx_Terminal_Runtime_ITerminalExceptionHandler_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Hosting_TerminalHostedService__.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.%23ctor(System.IServiceProvider%2CMicrosoft.Extensions.Options.IOptions%7BOneImlx.Terminal.Configuration.Options.TerminalOptions%7D%2COneImlx.Terminal.Runtime.ITerminalConsole%2COneImlx.Terminal.Runtime.ITerminalExceptionHandler%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Hosting.TerminalHostedService%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L39",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService__ctor_System_IServiceProvider_Microsoft_Extensions_Options_IOptions_OneImlx_Terminal_Configuration_Options_TerminalOptions__OneImlx_Terminal_Runtime_ITerminalConsole_OneImlx_Terminal_Runtime_ITerminalExceptionHandler_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Hosting_TerminalHostedService__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.Options",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Options"
+            },
+            {
+              "lang": "vb",
+              "value": "Options"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.Options"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.Options"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.Options"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.Options"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.Options\" text=\"Options\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.Options\" text=\"Options\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected IOptions<TerminalOptions> Options { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Property Options As IOptions(Of TerminalOptions)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "Microsoft.Extensions.Options.IOptions{OneImlx.Terminal.Configuration.Options.TerminalOptions}",
+                "definition": "Microsoft.Extensions.Options.IOptions`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IOptions<TerminalOptions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IOptions(Of TerminalOptions)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IOptions<TerminalOptions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IOptions(Of TerminalOptions)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "Microsoft.Extensions.Options.IOptions<OneImlx.Terminal.Configuration.Options.TerminalOptions>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Microsoft.Extensions.Options.IOptions(Of OneImlx.Terminal.Configuration.Options.TerminalOptions)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1\">IOptions</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Configuration.Options.TerminalOptions.html\">TerminalOptions</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Options",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 104,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.Options*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Options"
+              },
+              {
+                "lang": "vb",
+                "value": "Options"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.Options"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.Options"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.Options"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.Options"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.Options*\" text=\"Options\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.Options*\" text=\"Options\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_Options_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The terminal configuration options.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_Options.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.Options%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L105",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_Options",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ServiceProvider"
+            },
+            {
+              "lang": "vb",
+              "value": "ServiceProvider"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.ServiceProvider"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.ServiceProvider"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider\" text=\"ServiceProvider\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider\" text=\"ServiceProvider\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected IServiceProvider ServiceProvider { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected Property ServiceProvider As IServiceProvider"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.IServiceProvider",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IServiceProvider"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IServiceProvider"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IServiceProvider"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IServiceProvider"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.IServiceProvider"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.IServiceProvider"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.IServiceProvider\" text=\"IServiceProvider\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.IServiceProvider\" text=\"IServiceProvider\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ServiceProvider",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 109,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ServiceProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "ServiceProvider"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.ServiceProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.ServiceProvider"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider*\" text=\"ServiceProvider\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider*\" text=\"ServiceProvider\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_ServiceProvider_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The service provider.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_ServiceProvider.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.ServiceProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L110",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_ServiceProvider",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalConsole"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalConsole"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.TerminalConsole"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.TerminalConsole"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole\" text=\"TerminalConsole\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole\" text=\"TerminalConsole\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected ITerminalConsole TerminalConsole { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected ReadOnly Property TerminalConsole As ITerminalConsole"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.ITerminalConsole",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalConsole"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalConsole"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalConsole"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalConsole"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalConsole"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalConsole"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalConsole\" text=\"ITerminalConsole\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalConsole\" text=\"ITerminalConsole\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TerminalConsole",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 114,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalConsole"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalConsole"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.TerminalConsole"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.TerminalConsole"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole*\" text=\"TerminalConsole\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole*\" text=\"TerminalConsole\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_TerminalConsole_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The terminal console.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_TerminalConsole.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.TerminalConsole%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L115",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_TerminalConsole",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ConfigureLifetimeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "ConfigureLifetimeAsync()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.ConfigureLifetimeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.ConfigureLifetimeAsync()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync\" text=\"ConfigureLifetimeAsync()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync\" text=\"ConfigureLifetimeAsync()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "protected abstract Task ConfigureLifetimeAsync()"
+              },
+              {
+                "lang": "vb",
+                "value": "Protected MustOverride Function ConfigureLifetimeAsync() As Task"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "ConfigureLifetimeAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 119,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ConfigureLifetimeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ConfigureLifetimeAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.ConfigureLifetimeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.ConfigureLifetimeAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync*\" text=\"ConfigureLifetimeAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync*\" text=\"ConfigureLifetimeAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_ConfigureLifetimeAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">Configures the application's lifetime with <xref href=\"Microsoft.Extensions.Hosting.IHostApplicationLifetime\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_ConfigureLifetimeAsync.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.ConfigureLifetimeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L120",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_ConfigureLifetimeAsync",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StartAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "StartAsync(CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.StartAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.StartAsync(CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)\" text=\"StartAsync(CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)\" text=\"StartAsync(CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task StartAsync(CancellationToken cancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function StartAsync(cancellationToken As CancellationToken) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The cancellation token.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StartAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 56,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StartAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "StartAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.StartAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.StartAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync*\" text=\"StartAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync*\" text=\"StartAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_StartAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "StartAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "StartAsync(CancellationToken)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IHostedService.StartAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IHostedService.StartAsync(CancellationToken)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Microsoft.Extensions.Hosting.IHostedService.StartAsync(System.Threading.CancellationToken)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.startasync\">StartAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.startasync\">StartAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">Starts the hosted service asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_StartAsync_System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.StartAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L57",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_StartAsync_System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Hosting.TerminalHostedService",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "StopAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "StopAsync(CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalHostedService.StopAsync(CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalHostedService.StopAsync(CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)\" text=\"StopAsync(CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)\" text=\"StopAsync(CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task StopAsync(CancellationToken cancellationToken)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function StopAsync(cancellationToken As CancellationToken) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The cancellation token.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "StopAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+            "startLine": 96,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Hosting",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "StopAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "StopAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalHostedService.StopAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalHostedService.StopAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync*\" text=\"StopAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync*\" text=\"StopAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Hosting_TerminalHostedService_StopAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "StopAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "StopAsync(CancellationToken)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IHostedService.StopAsync(CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IHostedService.StopAsync(CancellationToken)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Microsoft.Extensions.Hosting.IHostedService.StopAsync(System.Threading.CancellationToken)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.stopasync\">StopAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice.stopasync\">StopAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">Stops the hosted service asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService_StopAsync_System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService.StopAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L97",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Hosting_TerminalHostedService_StopAsync_System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalHostedService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalHostedService"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalHostedService"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalHostedService"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Hosting.TerminalHostedService"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Hosting.TerminalHostedService"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalHostedService",
+    "path": "../../terminal/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs",
+    "startLine": 28,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Hosting",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Hosting"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Hosting"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Hosting.html\">Hosting</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Hosting.TerminalHostedService.yml\" sourcestartlinenumber=\"1\">The hosted service to manage the application lifetime and terminal customization.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public abstract class TerminalHostedService : IHostedService"
+      },
+      {
+        "lang": "vb",
+        "value": "Public MustInherit Class TerminalHostedService Implements IHostedService"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Microsoft.Extensions.Hosting.IHostedService",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IHostedService"
+        },
+        {
+          "lang": "vb",
+          "value": "IHostedService"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IHostedService"
+        },
+        {
+          "lang": "vb",
+          "value": "IHostedService"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Microsoft.Extensions.Hosting.IHostedService"
+        },
+        {
+          "lang": "vb",
+          "value": "Microsoft.Extensions.Hosting.IHostedService"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostedService\" text=\"IHostedService\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostedService\" text=\"IHostedService\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Hosting.TerminalHostedService.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Hosting.TerminalHostedService.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Hosting_TerminalHostedService.md&value=---%0Auid%3A%20OneImlx.Terminal.Hosting.TerminalHostedService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Hosting/TerminalHostedService.cs/#L29",
+  "description": "The hosted service to manage the application lifetime and terminal customization.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Hosting_TerminalHostedService",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

@@ -1,0 +1,550 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync(`0)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MapToTypeAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "MapToTypeAsync(TValue)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDataTypeMapper<TValue>.MapToTypeAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "IDataTypeMapper(Of TValue).MapToTypeAsync(TValue)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper<TValue>.MapToTypeAsync(TValue)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper(Of TValue).MapToTypeAsync(TValue)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync(`0)\" text=\"MapToTypeAsync(TValue)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync(`0)\" text=\"MapToTypeAsync(TValue)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task<DataTypeMapperResult> MapToTypeAsync(TValue value)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function MapToTypeAsync(value As TValue) As Task(Of DataTypeMapperResult)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "value",
+                "type": {
+                  "uid": "{TValue}",
+                  "definition": "TValue",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TValue"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TValue"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TValue}\" text=\"TValue\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">The value to map.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<DataTypeMapperResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of DataTypeMapperResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<DataTypeMapperResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of DataTypeMapperResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult.html\">DataTypeMapperResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.DataTypeMapperResult.html\">DataTypeMapperResult</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">The</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "MapToTypeAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs",
+            "startLine": 21,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MapToTypeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MapToTypeAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IDataTypeMapper<TValue>.MapToTypeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "IDataTypeMapper(Of TValue).MapToTypeAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper<TValue>.MapToTypeAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper(Of TValue).MapToTypeAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync*\" text=\"MapToTypeAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IDataTypeMapper`1.MapToTypeAsync*\" text=\"MapToTypeAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_IDataTypeMapper_1_MapToTypeAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">Maps a data type to <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref> asynchronously.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_IDataTypeMapper_1_MapToTypeAsync__0_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.IDataTypeMapper%601.MapToTypeAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs/#L22",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_IDataTypeMapper_1_MapToTypeAsync__0_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IDataTypeMapper<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "IDataTypeMapper(Of TValue)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IDataTypeMapper<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "IDataTypeMapper(Of TValue)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper<TValue>"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Checkers.IDataTypeMapper(Of TValue)"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "IDataTypeMapper",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml\" sourcestartlinenumber=\"1\">An abstraction to map an <xref href=\"OneImlx.Terminal.Commands.Option.DataType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IDataTypeMapper<TValue> where TValue : ICommandValue"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IDataTypeMapper(Of TValue As ICommandValue)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "TValue",
+        "description": ""
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Checkers.IDataTypeMapper-1.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_IDataTypeMapper_1.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.IDataTypeMapper%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/IDataTypeMapper.cs/#L15",
+  "description": "An abstraction to map an  to .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Checkers_IDataTypeMapper_1",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

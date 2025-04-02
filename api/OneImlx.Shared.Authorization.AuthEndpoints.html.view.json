@@ -1,0 +1,2779 @@
+{
+  "uid": "OneImlx.Shared.Authorization.AuthEndpoints",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Authorization",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Authorization.html\">Authorization</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Authorization.html\">Authorization</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalIssuer"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalIssuer"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalIssuer"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalIssuer"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer\" text=\"MsalIssuer\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer\" text=\"MsalIssuer\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string MsalIssuer = \"https://login.microsoftonline.com/{0}/v2.0\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const MsalIssuer As String = \"https://login.microsoftonline.com/{0}/v2.0\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalIssuer",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 68,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL</code> V2 Issuer.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalIssuer.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L69",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalIssuer",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalIssuerB2C"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalIssuerB2C"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C\" text=\"MsalIssuerB2C\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C\" text=\"MsalIssuerB2C\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string MsalIssuerB2C = \"https://{0}.b2clogin.com/{1}/v2.0/\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const MsalIssuerB2C As String = \"https://{0}.b2clogin.com/{1}/v2.0/\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalIssuerB2C",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 73,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL</code> B2C V2 authority.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalIssuerB2C.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalIssuerB2C%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L74",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalIssuerB2C",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalOpenIdConfiguration"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalOpenIdConfiguration"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalOpenIdConfiguration"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalOpenIdConfiguration"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration\" text=\"MsalOpenIdConfiguration\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration\" text=\"MsalOpenIdConfiguration\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string MsalOpenIdConfiguration = \"https://login.microsoftonline.com/{0}/v2.0/.well-known/openid-configuration\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const MsalOpenIdConfiguration As String = \"https://login.microsoftonline.com/{0}/v2.0/.well-known/openid-configuration\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalOpenIdConfiguration",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 78,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL</code> V2 Open ID Connect configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalOpenIdConfiguration.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfiguration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L79",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalOpenIdConfiguration",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalOpenIdConfigurationB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalOpenIdConfigurationB2C"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalOpenIdConfigurationB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalOpenIdConfigurationB2C"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C\" text=\"MsalOpenIdConfigurationB2C\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C\" text=\"MsalOpenIdConfigurationB2C\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string MsalOpenIdConfigurationB2C = \"https://{0}.b2clogin.com/{0}.onmicrosoft.com/{1}/v2.0/.well-known/openid-configuration\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const MsalOpenIdConfigurationB2C As String = \"https://{0}.b2clogin.com/{0}.onmicrosoft.com/{1}/v2.0/.well-known/openid-configuration\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalOpenIdConfigurationB2C",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 83,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL B2C</code> V2 Open ID Connect configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalOpenIdConfigurationB2C.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalOpenIdConfigurationB2C%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L84",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalOpenIdConfigurationB2C",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PiB2CTenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "PiB2CTenantName"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.PiB2CTenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.PiB2CTenantName"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName\" text=\"PiB2CTenantName\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName\" text=\"PiB2CTenantName\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string PiB2CTenantName = \"perpetualintelligenceb2c\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const PiB2CTenantName As String = \"perpetualintelligenceb2c\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "PiB2CTenantName",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 88,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>Perpetual Intelligence</code> B2C Tenant name.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_PiB2CTenantName.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.PiB2CTenantName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L89",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_PiB2CTenantName",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PiIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "PiIssuerB2C"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.PiIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.PiIssuerB2C"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C\" text=\"PiIssuerB2C\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C\" text=\"PiIssuerB2C\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public const string PiIssuerB2C = \"https://login.perpetualintelligence.com/{0}/v2.0\""
+              },
+              {
+                "lang": "vb",
+                "value": "Public Const PiIssuerB2C As String = \"https://login.perpetualintelligence.com/{0}/v2.0\""
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "PiIssuerB2C",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 93,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "level": 0,
+          "type": "field",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>Perpetual Intelligence</code> V2 Open ID Connect configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_PiIssuerB2C.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.PiIssuerB2C%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L94",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_PiIssuerB2C",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalB2CIssuer(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalB2CIssuer(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalB2CIssuer(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalB2CIssuer(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(System.String,System.String)\" text=\"MsalB2CIssuer(string, string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(System.String,System.String)\" text=\"MsalB2CIssuer(string, string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string MsalB2CIssuer(string tenantName, string tenantId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function MsalB2CIssuer(tenantName As String, tenantId As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tenantName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The B2C tenant name.</p>\n"
+              },
+              {
+                "id": "tenantId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The B2C tenant id.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalB2CIssuer",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalB2CIssuer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AuthEndpoints.MsalB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthEndpoints.MsalB2CIssuer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer*\" text=\"MsalB2CIssuer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer*\" text=\"MsalB2CIssuer\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalB2CIssuer_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">Returns the <code>MSAL B2C</code> based issuer.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalB2CIssuer_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalB2CIssuer(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalB2CIssuer_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalB2COpenIdConfiguration(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalB2COpenIdConfiguration(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalB2COpenIdConfiguration(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalB2COpenIdConfiguration(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(System.String,System.String)\" text=\"MsalB2COpenIdConfiguration(string, string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(System.String,System.String)\" text=\"MsalB2COpenIdConfiguration(string, string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string MsalB2COpenIdConfiguration(string tenantName, string policy)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function MsalB2COpenIdConfiguration(tenantName As String, policy As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tenantName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The B2C tenant name.</p>\n"
+              },
+              {
+                "id": "policy",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The B2C policy.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalB2COpenIdConfiguration",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalB2COpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalB2COpenIdConfiguration"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AuthEndpoints.MsalB2COpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthEndpoints.MsalB2COpenIdConfiguration"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration*\" text=\"MsalB2COpenIdConfiguration\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration*\" text=\"MsalB2COpenIdConfiguration\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalB2COpenIdConfiguration_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">Returns the <code>MSAL B2C</code> based OpenID Connect configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalB2COpenIdConfiguration_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalB2COpenIdConfiguration(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalB2COpenIdConfiguration_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalTenantIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalTenantIssuer(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalTenantIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalTenantIssuer(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(System.String)\" text=\"MsalTenantIssuer(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(System.String)\" text=\"MsalTenantIssuer(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string MsalTenantIssuer(string tenantId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function MsalTenantIssuer(tenantId As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tenantId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The tenant id.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalTenantIssuer",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 42,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalTenantIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalTenantIssuer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AuthEndpoints.MsalTenantIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthEndpoints.MsalTenantIssuer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer*\" text=\"MsalTenantIssuer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer*\" text=\"MsalTenantIssuer\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantIssuer_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">Returns the <code>MSAL</code> tenant based issuer.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantIssuer_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantIssuer(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L43",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantIssuer_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalTenantOpenIdConfiguration(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalTenantOpenIdConfiguration(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.MsalTenantOpenIdConfiguration(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.MsalTenantOpenIdConfiguration(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(System.String)\" text=\"MsalTenantOpenIdConfiguration(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(System.String)\" text=\"MsalTenantOpenIdConfiguration(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string MsalTenantOpenIdConfiguration(string tenantId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function MsalTenantOpenIdConfiguration(tenantId As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tenantId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The tenant id.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "MsalTenantOpenIdConfiguration",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 51,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalTenantOpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalTenantOpenIdConfiguration"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AuthEndpoints.MsalTenantOpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthEndpoints.MsalTenantOpenIdConfiguration"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration*\" text=\"MsalTenantOpenIdConfiguration\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration*\" text=\"MsalTenantOpenIdConfiguration\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantOpenIdConfiguration_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">Returns the <code>MSAL</code> tenant based OpenID Connect configuration.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantOpenIdConfiguration_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.MsalTenantOpenIdConfiguration(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L52",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_MsalTenantOpenIdConfiguration_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Authorization.AuthEndpoints",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PiB2CIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "PiB2CIssuer(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AuthEndpoints.PiB2CIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthEndpoints.PiB2CIssuer(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(System.String)\" text=\"PiB2CIssuer(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(System.String)\" text=\"PiB2CIssuer(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string PiB2CIssuer(string tenantId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function PiB2CIssuer(tenantId As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tenantId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The B2C tenant id.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "PiB2CIssuer",
+            "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Authorization",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PiB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "PiB2CIssuer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "AuthEndpoints.PiB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthEndpoints.PiB2CIssuer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer*\" text=\"PiB2CIssuer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer*\" text=\"PiB2CIssuer\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Authorization_AuthEndpoints_PiB2CIssuer_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">Returns the <code>Perpetual Intelligence B2C</code> based issuer.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints_PiB2CIssuer_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints.PiB2CIssuer(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Authorization_AuthEndpoints_PiB2CIssuer_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "AuthEndpoints"
+    },
+    {
+      "lang": "vb",
+      "value": "AuthEndpoints"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "AuthEndpoints"
+    },
+    {
+      "lang": "vb",
+      "value": "AuthEndpoints"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Authorization.AuthEndpoints"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Authorization.AuthEndpoints"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "AuthEndpoints",
+    "path": "../../shared/src/OneImlx.Shared/Authorization/AuthEndpoints.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Authorization",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Authorization"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Authorization"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Authorization.html\">Authorization</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Authorization.html\">Authorization</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Authorization.AuthEndpoints.yml\" sourcestartlinenumber=\"1\">The <code>MSAL</code> authorization endpoints.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "[Architecture(\"Remove this and move it to Marketplace and Terminal framework.\")]\n[InternalInfrastructure(\"This is an internal infrastructure.\")]\npublic static class AuthEndpoints"
+      },
+      {
+        "lang": "vb",
+        "value": "<Architecture(\"Remove this and move it to Marketplace and Terminal framework.\")>\n<InternalInfrastructure(\"This is an internal infrastructure.\")>\nPublic Module AuthEndpoints"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "attributes": [
+    {
+      "type": "OneImlx.Shared.Attributes.ArchitectureAttribute",
+      "ctor": "OneImlx.Shared.Attributes.ArchitectureAttribute.#ctor(System.String)",
+      "arguments": [
+        {
+          "type": "System.String",
+          "value": "Remove this and move it to Marketplace and Terminal framework."
+        }
+      ]
+    },
+    {
+      "type": "OneImlx.Shared.Attributes.InternalInfrastructureAttribute",
+      "ctor": "OneImlx.Shared.Attributes.InternalInfrastructureAttribute.#ctor(System.String)",
+      "arguments": [
+        {
+          "type": "System.String",
+          "value": "This is an internal infrastructure."
+        }
+      ]
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Authorization.AuthEndpoints.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Authorization.AuthEndpoints.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Authorization_AuthEndpoints.md&value=---%0Auid%3A%20OneImlx.Shared.Authorization.AuthEndpoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Authorization/AuthEndpoints.cs/#L15",
+  "description": "The MSAL authorization endpoints.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Authorization_AuthEndpoints",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

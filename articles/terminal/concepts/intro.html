@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Concepts </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Concepts ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/intro.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="concepts">Concepts</h1>
+
+<p>This document introduces all the technical concepts within the <code>OneImlx.Terminal</code> terminal framework. It covers fundamental components and their roles in command parsing, routing and execution.</p>
+<pre><code class="lang-mermaid">stateDiagram
+    classDef Movement font-style:italic;
+    classDef Event fill:#f9f9f9,stroke:#333,stroke-width:1px,font-style:italic,fill:#e6e6e6
+
+    Terminal : Terminal Application
+    HostedService : Terminal Hosted Service
+    TerminalRouter : Terminal Router
+    CommandRouter : Command Router
+    PreRouteEvent : Pre-Route
+    CommandParser : Command Parser
+    RouteParser : Parse Route
+    CommandHandler : Command Handler
+    CheckLicense : Check License Limits
+    CommandChecker : Command Checker
+    PreCheckEvent : Pre-Check
+    CheckCommand : Check Command
+    PostCheckEvent : Post-Check
+    CommandRunner : Command Runner
+    PreRunEvent : Pre-Run
+    RunCommand : Run Command
+    ProcessResult : Process Run Result
+    PostRunEvent : Post-Run
+    PostRouteEvent : Post-Route
+    Cancelled : Terminal Router Cancelled ?
+
+    [*] --&gt; Terminal
+    Terminal --&gt; HostedService 
+    HostedService --&gt; TerminalRouter
+    TerminalRouter --&gt; CommandRouter
+    state CommandRouter {
+        PreRouteEvent --&gt; CommandParser
+
+        state CommandParser {
+            RouteParser
+        }
+        
+        CommandParser --&gt; CommandHandler
+        state CommandHandler {
+            CheckLicense --&gt; CommandChecker
+            state CommandChecker{
+                PreCheckEvent --&gt; CheckCommand
+                CheckCommand --&gt; PostCheckEvent
+            }
+            CommandChecker --&gt; CommandRunner
+            state CommandRunner {
+                PreRunEvent --&gt; RunCommand
+                RunCommand --&gt; ProcessResult
+                ProcessResult --&gt; PostRunEvent
+            }
+        }
+        CommandHandler --&gt; PostRouteEvent
+    }
+    CommandRouter --&gt; Cancelled
+    Cancelled --&gt; TerminalRouter : NO
+    Cancelled --&gt; [*]
+</code></pre>
+<p>The flow initiates at the <code>Terminal</code>, representing the entry point of the application.
+Commands are then passed to the HostedService, which handles the hosting of the application, and subsequently to the TerminalRouter. This router is crucial in directing commands to their respective destinations. The CommandRouter then takes over, triggering the Pre-Route Event before parsing the command through CommandParser. Here, the RouteParser breaks down the command route into actionable segments.</p>
+<p>Within the CommandRouter, the CommandHandler manages the execution logic. It involves steps like CheckLicense for verifying command's compliance with licensing requirements, and CommandChecker, where events like Pre-Check and Post-Check ensure command integrity. Once verified, CommandRunner executes the command, encapsulating stages from Pre-Run to Post-Run, processing the command result. Eventually, the flow reaches Post-Route Event, signifying the end of the command's journey, unless the router is Cancelled, in which case, it loops back to the TerminalRouter or ends the process.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/intro.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

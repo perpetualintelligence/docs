@@ -1,0 +1,4139 @@
+{
+  "uid": "OneImlx.Shared.Extensions.StringExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EmptyIfNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "EmptyIfNull(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.EmptyIfNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.EmptyIfNull(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(System.String)\" text=\"EmptyIfNull(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(System.String)\" text=\"EmptyIfNull(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string EmptyIfNull(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function EmptyIfNull(self As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><code>true</code> if string is not null or white space, otherwise <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "EmptyIfNull",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EmptyIfNull"
+              },
+              {
+                "lang": "vb",
+                "value": "EmptyIfNull"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.EmptyIfNull"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.EmptyIfNull"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull*\" text=\"EmptyIfNull\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull*\" text=\"EmptyIfNull\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_EmptyIfNull_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Returns an empty string if this string is null.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_EmptyIfNull_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.EmptyIfNull(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_EmptyIfNull_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsNotNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "IsNotNullOrWhiteSpace(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.IsNotNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.IsNotNullOrWhiteSpace(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(System.String)\" text=\"IsNotNullOrWhiteSpace(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(System.String)\" text=\"IsNotNullOrWhiteSpace(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool IsNotNullOrWhiteSpace(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function IsNotNullOrWhiteSpace(self As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><code>true</code> if string is not null or white space, otherwise <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IsNotNullOrWhiteSpace",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNotNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNotNullOrWhiteSpace"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.IsNotNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.IsNotNullOrWhiteSpace"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace*\" text=\"IsNotNullOrWhiteSpace\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace*\" text=\"IsNotNullOrWhiteSpace\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_IsNotNullOrWhiteSpace_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Determines if the string is not null or white space.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_IsNotNullOrWhiteSpace_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.IsNotNullOrWhiteSpace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_IsNotNullOrWhiteSpace_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsNullOrEmpty(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "IsNullOrEmpty(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.IsNullOrEmpty(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.IsNullOrEmpty(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(System.String)\" text=\"IsNullOrEmpty(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(System.String)\" text=\"IsNullOrEmpty(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool IsNullOrEmpty(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function IsNullOrEmpty(self As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><code>true</code> if string is null or empty, otherwise <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IsNullOrEmpty",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 43,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNullOrEmpty"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNullOrEmpty"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.IsNullOrEmpty"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.IsNullOrEmpty"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty*\" text=\"IsNullOrEmpty\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty*\" text=\"IsNullOrEmpty\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_IsNullOrEmpty_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Determines if the string is null or empty.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_IsNullOrEmpty_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.IsNullOrEmpty(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L44",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_IsNullOrEmpty_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IsNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "IsNullOrWhiteSpace(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.IsNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.IsNullOrWhiteSpace(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(System.String)\" text=\"IsNullOrWhiteSpace(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(System.String)\" text=\"IsNullOrWhiteSpace(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool IsNullOrWhiteSpace(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function IsNullOrWhiteSpace(self As String) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><code>true</code> if string is null or empty, otherwise <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "IsNullOrWhiteSpace",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 53,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "IsNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "IsNullOrWhiteSpace"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.IsNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.IsNullOrWhiteSpace"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace*\" text=\"IsNullOrWhiteSpace\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace*\" text=\"IsNullOrWhiteSpace\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_IsNullOrWhiteSpace_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Determines if the string is null or white space.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_IsNullOrWhiteSpace_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.IsNullOrWhiteSpace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L54",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_IsNullOrWhiteSpace_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable{System.String})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "JoinByComma(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "JoinByComma(IEnumerable(Of String))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.JoinByComma(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.JoinByComma(IEnumerable(Of String))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable(Of String))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinByComma(IEnumerable&lt;string&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinByComma(IEnumerable&lt;string&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string JoinByComma(this IEnumerable<string>? list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function JoinByComma(list As IEnumerable(Of String)) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of String)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A collection of string to join.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A joined string.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "JoinByComma",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 63,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "JoinByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "JoinByComma"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.JoinByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.JoinByComma"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByComma"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByComma*\" text=\"JoinByComma\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByComma*\" text=\"JoinByComma\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_JoinByComma_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Joins the string collection with a <code>,</code> separator.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_JoinByComma_System_Collections_Generic_IEnumerable_System_String__.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.JoinByComma(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L64",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_JoinByComma_System_Collections_Generic_IEnumerable_System_String__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable{System.String})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "JoinByNewline(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "JoinByNewline(IEnumerable(Of String))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.JoinByNewline(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.JoinByNewline(IEnumerable(Of String))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable(Of String))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinByNewline(IEnumerable&lt;string&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinByNewline(IEnumerable&lt;string&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string JoinByNewline(this IEnumerable<string>? list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function JoinByNewline(list As IEnumerable(Of String)) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of String)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A collection of string to join.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A joined string.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "JoinByNewline",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 78,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "JoinByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "JoinByNewline"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.JoinByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.JoinByNewline"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinByNewline"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByNewline*\" text=\"JoinByNewline\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinByNewline*\" text=\"JoinByNewline\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_JoinByNewline_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Joins the string collection with a <xref href=\"System.Environment.NewLine\" data-throw-if-not-resolved=\"false\"></xref> separator.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_JoinByNewline_System_Collections_Generic_IEnumerable_System_String__.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.JoinByNewline(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L79",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_JoinByNewline_System_Collections_Generic_IEnumerable_System_String__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable{System.String})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "JoinBySpace(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "JoinBySpace(IEnumerable(Of String))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.JoinBySpace(IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.JoinBySpace(IEnumerable(Of String))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable<string>?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable(Of String))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinBySpace(IEnumerable&lt;string&gt;?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable{System.String})\" text=\"JoinBySpace(IEnumerable&lt;string&gt;?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string JoinBySpace(this IEnumerable<string>? list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function JoinBySpace(list As IEnumerable(Of String)) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of String)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A collection of string to join.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">A joined string.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "JoinBySpace",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 93,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "JoinBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "JoinBySpace"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.JoinBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.JoinBySpace"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.JoinBySpace"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinBySpace*\" text=\"JoinBySpace\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.JoinBySpace*\" text=\"JoinBySpace\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_JoinBySpace_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Joins the string collection with a space separator.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_JoinBySpace_System_Collections_Generic_IEnumerable_System_String__.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.JoinBySpace(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L94",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_JoinBySpace_System_Collections_Generic_IEnumerable_System_String__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.NotNull(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NotNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "NotNull(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.NotNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.NotNull(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.NotNull(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.NotNull(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.NotNull(System.String)\" text=\"NotNull(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.NotNull(System.String)\" text=\"NotNull(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string NotNull(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function NotNull(self As String) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><code>true</code> if string is not null or white space, otherwise <code>false</code>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "NotNull",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 108,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.NotNull*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NotNull"
+              },
+              {
+                "lang": "vb",
+                "value": "NotNull"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.NotNull"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.NotNull"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.NotNull"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.NotNull"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.NotNull*\" text=\"NotNull\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.NotNull*\" text=\"NotNull\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_NotNull_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Returns a non null string.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_NotNull_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.NotNull(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L109",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_NotNull_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.Repeat(System.String,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Repeat(string, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "Repeat(String, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.Repeat(string, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.Repeat(String, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.Repeat(string, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.Repeat(String, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.Repeat(System.String,System.Int32)\" text=\"Repeat(string, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.Repeat(System.String,System.Int32)\" text=\"Repeat(string, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string Repeat(this string value, int count)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Repeat(value As String, count As Integer) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "value",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The value to repeat.</p>\n"
+              },
+              {
+                "id": "count",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The count.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">New repeated string.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Repeat",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 119,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.Repeat*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "Repeat"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.Repeat"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.Repeat"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.Repeat*\" text=\"Repeat\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.Repeat*\" text=\"Repeat\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_Repeat_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Repeats the string for the specified times.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_Repeat_System_String_System_Int32_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.Repeat(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L120",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_Repeat_System_String_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SplitByComma(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SplitByComma(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.SplitByComma(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.SplitByComma(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByComma(System.String)\" text=\"SplitByComma(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByComma(System.String)\" text=\"SplitByComma(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string[] SplitByComma(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SplitByComma(self As String) As String()"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to split.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String[]",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">An array of string split by , separator.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "SplitByComma",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 130,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SplitByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "SplitByComma"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.SplitByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.SplitByComma"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByComma"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByComma*\" text=\"SplitByComma\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByComma*\" text=\"SplitByComma\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_SplitByComma_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Splits the string with a <code>,</code> separator.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_SplitByComma_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.SplitByComma(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L131",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_SplitByComma_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SplitByNewline(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SplitByNewline(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.SplitByNewline(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.SplitByNewline(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(System.String)\" text=\"SplitByNewline(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(System.String)\" text=\"SplitByNewline(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string[] SplitByNewline(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SplitByNewline(self As String) As String()"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to split.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String[]",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">An array of string split by newline separator.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "SplitByNewline",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 145,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SplitByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "SplitByNewline"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.SplitByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.SplitByNewline"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitByNewline"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByNewline*\" text=\"SplitByNewline\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitByNewline*\" text=\"SplitByNewline\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_SplitByNewline_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Splits the string with a <xref href=\"System.Environment.NewLine\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_SplitByNewline_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.SplitByNewline(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L146",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_SplitByNewline_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SplitBySpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SplitBySpace(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.SplitBySpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.SplitBySpace(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(System.String)\" text=\"SplitBySpace(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(System.String)\" text=\"SplitBySpace(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string[] SplitBySpace(this string? self)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SplitBySpace(self As String) As String()"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to split.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String[]",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String()"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>[]"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>()"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">An array of string split by space separator.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "SplitBySpace",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 160,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SplitBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "SplitBySpace"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.SplitBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.SplitBySpace"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.SplitBySpace"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitBySpace*\" text=\"SplitBySpace\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.SplitBySpace*\" text=\"SplitBySpace\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_SplitBySpace_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Splits the string with a space separator.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_SplitBySpace_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.SplitBySpace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L161",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_SplitBySpace_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd(System.String,System.String,System.StringComparison)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TrimEnd(string, string?, StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "TrimEnd(String, String, StringComparison)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.TrimEnd(string, string?, StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.TrimEnd(String, String, StringComparison)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd(string, string?, System.StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd(String, String, System.StringComparison)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimEnd(System.String,System.String,System.StringComparison)\" text=\"TrimEnd(string, string?, StringComparison)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimEnd(System.String,System.String,System.StringComparison)\" text=\"TrimEnd(string, string?, StringComparison)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string TrimEnd(this string self, string? trim, StringComparison stringComparison)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function TrimEnd(self As String, trim As String, stringComparison As StringComparison) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to trim.</p>\n"
+              },
+              {
+                "id": "trim",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to trim from start.</p>\n"
+              },
+              {
+                "id": "stringComparison",
+                "type": {
+                  "uid": "System.StringComparison",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.StringComparison"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string comparison.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "TrimEnd",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 176,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TrimEnd"
+              },
+              {
+                "lang": "vb",
+                "value": "TrimEnd"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.TrimEnd"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.TrimEnd"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.TrimEnd"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimEnd*\" text=\"TrimEnd\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimEnd*\" text=\"TrimEnd\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_TrimEnd_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Removes the trailing occurrence of a string recursively.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_TrimEnd_System_String_System_String_System_StringComparison_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.TrimEnd(System.String%2CSystem.String%2CSystem.StringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L177",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_TrimEnd_System_String_System_String_System_StringComparison_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Extensions.StringExtensions.TrimStart(System.String,System.String,System.StringComparison)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Shared.Extensions.StringExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TrimStart(string, string?, StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "TrimStart(String, String, StringComparison)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "StringExtensions.TrimStart(string, string?, StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "StringExtensions.TrimStart(String, String, StringComparison)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.TrimStart(string, string?, System.StringComparison)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Extensions.StringExtensions.TrimStart(String, String, System.StringComparison)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimStart(System.String,System.String,System.StringComparison)\" text=\"TrimStart(string, string?, StringComparison)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimStart(System.String,System.String,System.StringComparison)\" text=\"TrimStart(string, string?, StringComparison)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string TrimStart(this string self, string? trim, StringComparison stringComparison)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function TrimStart(self As String, trim As String, stringComparison As StringComparison) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "self",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to trim.</p>\n"
+              },
+              {
+                "id": "trim",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string to trim from start.</p>\n"
+              },
+              {
+                "id": "stringComparison",
+                "type": {
+                  "uid": "System.StringComparison",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "StringComparison"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.StringComparison"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.StringComparison"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.StringComparison\" text=\"StringComparison\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">The string comparison.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "TrimStart",
+            "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+            "startLine": 198,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Extensions.StringExtensions.TrimStart*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TrimStart"
+              },
+              {
+                "lang": "vb",
+                "value": "TrimStart"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "StringExtensions.TrimStart"
+              },
+              {
+                "lang": "vb",
+                "value": "StringExtensions.TrimStart"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.TrimStart"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Extensions.StringExtensions.TrimStart"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimStart*\" text=\"TrimStart\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Extensions.StringExtensions.TrimStart*\" text=\"TrimStart\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Extensions_StringExtensions_TrimStart_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Removes the leading occurrence of a string recursively.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions_TrimStart_System_String_System_String_System_StringComparison_.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions.TrimStart(System.String%2CSystem.String%2CSystem.StringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L199",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Extensions_StringExtensions_TrimStart_System_String_System_String_System_StringComparison_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "StringExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "StringExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "StringExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "StringExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Extensions.StringExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Extensions.StringExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Extensions/StringExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "StringExtensions",
+    "path": "../../shared/src/OneImlx.Shared/Extensions/StringExtensions.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\"><xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class StringExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module StringExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Extensions.StringExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Extensions.StringExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Extensions_StringExtensions.md&value=---%0Auid%3A%20OneImlx.Shared.Extensions.StringExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Extensions/StringExtensions.cs/#L17",
+  "description": "extension methods.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Extensions_StringExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

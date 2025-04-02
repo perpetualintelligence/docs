@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TerminalSystemConsole </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TerminalSystemConsole ">
+      
+      <meta name="description" content="The default implementation of  that uses the system .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Runtime_TerminalSystemConsole.md&amp;value=---%0Auid%3A%20OneImlx.Terminal.Runtime.TerminalSystemConsole%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole">
+
+
+
+  <h1 id="OneImlx_Terminal_Runtime_TerminalSystemConsole" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole" class="text-break">
+Class TerminalSystemConsole  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="OneImlx.html">OneImlx</a>.<a class="xref" href="OneImlx.Terminal.html">Terminal</a>.<a class="xref" href="OneImlx.Terminal.Runtime.html">Runtime</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>OneImlx.Terminal.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The default implementation of <a class="xref" href="OneImlx.Terminal.Runtime.ITerminalConsole.html">ITerminalConsole</a> that uses the system <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.console">Console</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TerminalSystemConsole : ITerminalConsole</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TerminalSystemConsole</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="OneImlx.Terminal.Runtime.ITerminalConsole.html">ITerminalConsole</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The <a class="xref" href="OneImlx.Terminal.Runtime.TerminalSystemConsole.html">TerminalSystemConsole</a> is thread safe and allows multiple tasks to write to the console concurrently.</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole__ctor_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.#ctor*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole__ctor" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.#ctor">
+  TerminalSystemConsole()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="OneImlx.Terminal.Runtime.TerminalSystemConsole.html">TerminalSystemConsole</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerminalSystemConsole()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_BackgroundColor_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.BackgroundColor*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_BackgroundColor" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.BackgroundColor">
+  BackgroundColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the background color of the console.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor BackgroundColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ForegroundColor_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ForegroundColor*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ForegroundColor" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ForegroundColor">
+  ForegroundColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the foreground color of the console.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor ForegroundColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ClearAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ClearAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ClearAsync" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ClearAsync">
+  ClearAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the console buffer and display information asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ClearAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_Ignore_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.Ignore*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_Ignore_System_String_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.Ignore(System.String)">
+  Ignore(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified string value should be ignored by the <a class="xref" href="OneImlx.Terminal.Runtime.ITerminalConsole.html">ITerminalConsole</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Ignore(string? value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the value is null, empty, or whitespace; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ReadAnswerAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ReadAnswerAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ReadAnswerAsync_System_String_System_String___" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ReadAnswerAsync(System.String,System.String[])">
+  ReadAnswerAsync(string, params string[]?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prints a question to the console and waits for an answer asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; ReadAnswerAsync(string question, params string[]? answers)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>question</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The question to print. A <code>?</code> will be appended at the end.</p>
+</dd>
+    <dt><code>answers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The allowed answers, or <code>null</code> if all answers are allowed. If specified, this method prints the answers
+in the format <code>{question} ({answer1}/{answer2}/{answer3})?</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The user's answer, or <code>null</code> if canceled.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ReadLineAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ReadLineAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_ReadLineAsync" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.ReadLineAsync">
+  ReadLineAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reads the next line of input from the console asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string?&gt; ReadLineAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The next line of input, or <code>null</code> if no more lines are available.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteAsync_System_String_System_Object___" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteAsync(System.String,System.Object[])">
+  WriteAsync(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a formatted string to the console asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteAsync(string value, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to write.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>The format arguments.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteColorAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteColorAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteColorAsync_System_ConsoleColor_System_String_System_Object___" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteColorAsync(System.ConsoleColor,System.String,System.Object[])">
+  WriteColorAsync(ConsoleColor, string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a formatted string to the console in the specified foreground color asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteColorAsync(ConsoleColor foregroundColor, string value, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>foregroundColor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd><p>The foreground color.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to write.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>The format arguments.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineAsync" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineAsync">
+  WriteLineAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a newline to the console asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteLineAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineAsync_System_String_System_Object___" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineAsync(System.String,System.Object[])">
+  WriteLineAsync(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a formatted string followed by a newline to the console asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteLineAsync(string value, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to write.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>The format arguments.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineColorAsync_" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineColorAsync*"></a>
+
+  <h3 id="OneImlx_Terminal_Runtime_TerminalSystemConsole_WriteLineColorAsync_System_ConsoleColor_System_String_System_Object___" data-uid="OneImlx.Terminal.Runtime.TerminalSystemConsole.WriteLineColorAsync(System.ConsoleColor,System.String,System.Object[])">
+  WriteLineColorAsync(ConsoleColor, string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes a formatted string followed by a newline in the specified foreground color to the console asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task WriteLineColorAsync(ConsoleColor foregroundColor, string value, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>foregroundColor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd><p>The foreground color.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string to write.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>The format arguments.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Runtime/TerminalSystemConsole.cs/#L20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

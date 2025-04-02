@@ -1,0 +1,824 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Declarative",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptorAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptorAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute\" text=\"ArgumentDescriptorAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute\" text=\"ArgumentDescriptorAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.ArgumentDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_ArgumentDescriptorAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentValidationAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentValidationAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute\" text=\"ArgumentValidationAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute\" text=\"ArgumentValidationAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.ArgumentValidationAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" data-throw-if-not-resolved=\"false\"></xref> validation attribute.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_ArgumentValidationAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandCheckerAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandCheckerAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandCheckerAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandCheckerAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute\" text=\"CommandCheckerAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute\" text=\"CommandCheckerAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandCheckerAttribute.yml\" sourcestartlinenumber=\"1\">Declares a command checker.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_CommandCheckerAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandCustomPropertyAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandCustomPropertyAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandCustomPropertyAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandCustomPropertyAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute\" text=\"CommandCustomPropertyAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute\" text=\"CommandCustomPropertyAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandCustomPropertyAttribute.yml\" sourcestartlinenumber=\"1\">Declares a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> custom property.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_CommandCustomPropertyAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandDescriptorAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandDescriptorAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute\" text=\"CommandDescriptorAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute\" text=\"CommandDescriptorAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares a <xref href=\"OneImlx.Terminal.Commands.CommandDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_CommandDescriptorAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandOwnersAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandOwnersAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandOwnersAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandOwnersAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute\" text=\"CommandOwnersAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute\" text=\"CommandOwnersAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandOwnersAttribute.yml\" sourcestartlinenumber=\"1\">Declares a command owners. A command owner is a group or a root.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_CommandOwnersAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandTagsAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandTagsAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandTagsAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandTagsAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute\" text=\"CommandTagsAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute\" text=\"CommandTagsAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.CommandTagsAttribute.yml\" sourcestartlinenumber=\"1\">Declares the command tags.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_CommandTagsAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OptionDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OptionDescriptorAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OptionDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OptionDescriptorAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute\" text=\"OptionDescriptorAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute\" text=\"OptionDescriptorAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.OptionDescriptorAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> for a command.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_OptionDescriptorAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OptionValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OptionValidationAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OptionValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OptionValidationAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute\" text=\"OptionValidationAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute\" text=\"OptionValidationAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.OptionValidationAttribute.yml\" sourcestartlinenumber=\"1\">Declares an <xref href=\"OneImlx.Terminal.Commands.OptionDescriptor\" data-throw-if-not-resolved=\"false\"></xref> validation attribute.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_OptionValidationAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inInterface": true,
+      "typePropertyName": "inInterface",
+      "id": "interfaces",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IDeclarativeRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "IDeclarativeRunner"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDeclarativeRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "IDeclarativeRunner"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner\" text=\"IDeclarativeRunner\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner\" text=\"IDeclarativeRunner\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Declarative.IDeclarativeRunner.yml\" sourcestartlinenumber=\"1\">Specifies a runner that provides declarative command and option descriptors.</p>\n",
+          "type": "interface",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Declarative_IDeclarativeRunner",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Declarative"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Declarative.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Declarative.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Declarative",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

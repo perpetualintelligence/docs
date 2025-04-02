@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>HTTP Router </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="HTTP Router ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/http.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<p><img src="https://img.shields.io/badge/status-under--review-yellow" alt="in-progress"></p>
+<h1 id="http-router">HTTP Router</h1>
+<p>The <code>TerminalHttpRouter</code> is designed to facilitate HTTP-based communication within .NET applications, offering a simplified abstraction for handling HTTP requests and responses. This router abstracts the complexities of HTTP server setup and request routing, enabling developers to focus on business logic and application functionality.</p>
+<h2 id="why-terminalhttprouter">Why TerminalHttpRouter?</h2>
+<p>HTTP is the backbone of web and network communication, enabling structured request-response messaging. While powerful, setting up and managing HTTP communications can be complex, involving detailed request parsing, connection management, and response formatting. The <code>TerminalHttpRouter</code> simplifies this by providing:</p>
+<ul>
+<li><strong>Streamlined HTTP Server Management</strong>: Automates the configuration and management of the HTTP server, allowing immediate handling of HTTP requests with minimal setup.</li>
+<li><strong>Request Routing</strong>: Empowers developers to define routing logic for incoming HTTP requests, directing them to appropriate handlers based on URL paths, query parameters, or other request attributes.</li>
+<li><strong>Asynchronous Processing</strong>: Integrates with .NET's asynchronous programming model to handle requests efficiently, improving scalability and performance for high-traffic applications.</li>
+<li><strong>Middleware Integration</strong>: Supports the inclusion of middleware components to handle cross-cutting concerns such as authentication, logging, and error handling, enhancing modularity and reusability.</li>
+</ul>
+<h2 id="key-concepts">Key Concepts</h2>
+<h3 id="http-request-handling">HTTP Request Handling</h3>
+<p>The router provides a high-level interface for processing incoming HTTP requests, encapsulating the parsing of request data and the generation of HTTP responses.</p>
+<h3 id="application-routing-logic">Application Routing Logic</h3>
+<p>Developers can easily configure application-specific routing logic, defining how different paths or types of requests are processed, simplifying the development of RESTful APIs or web services.</p>
+<h3 id="scalable-and-responsive">Scalable and Responsive</h3>
+<p>Designed to handle a high volume of concurrent HTTP requests, ensuring that applications remain responsive and scalable, capable of growing with user demand.</p>
+<h3 id="extensible-architecture">Extensible Architecture</h3>
+<p>The architecture of the <code>TerminalHttpRouter</code> allows for easy extension with custom functionality, whether by integrating existing middleware or developing application-specific processing logic.</p>
+<h2 id="use-cases">Use Cases</h2>
+<ul>
+<li><strong>Web APIs</strong>: Ideal for building RESTful APIs that serve as the backend for web applications, mobile apps, or other services requiring HTTP endpoints.</li>
+<li><strong>Microservices</strong>: Facilitates the development of microservices architectures, with each microservice exposing its functionality over HTTP.</li>
+<li><strong>Application Backends</strong>: Serves as the communication layer for application backends, handling requests from web clients, external systems, or other networked services.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>Integrating the <code>TerminalHttpRouter</code> into your .NET application involves defining the router's configuration, such as port numbers and SSL certificates if needed, and implementing request handlers or controllers that contain the business logic for processing various types of HTTP requests.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>By abstracting the complexities of HTTP communication and providing a structured approach to request handling and response generation, the <code>TerminalHttpRouter</code> enables developers to rapidly develop and deploy HTTP-based services and applications, with an emphasis on clean architecture, maintainability, and scalability.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/http.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

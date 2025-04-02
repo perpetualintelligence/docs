@@ -1,0 +1,2123 @@
+{
+  "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors(ITerminalTextHandler, IEnumerable<ArgumentDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(ITerminalTextHandler, IEnumerable(Of ArgumentDescriptor))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.ArgumentDescriptors(ITerminalTextHandler, IEnumerable<ArgumentDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.New(ITerminalTextHandler, IEnumerable(Of ArgumentDescriptor))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.ArgumentDescriptors(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.ArgumentDescriptor>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.New(OneImlx.Terminal.Runtime.ITerminalTextHandler, System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.ArgumentDescriptor))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor})\" text=\"ArgumentDescriptors(ITerminalTextHandler, IEnumerable&lt;ArgumentDescriptor&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler,System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor})\" text=\"ArgumentDescriptors(ITerminalTextHandler, IEnumerable&lt;ArgumentDescriptor&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ArgumentDescriptors(ITerminalTextHandler textHandler, IEnumerable<ArgumentDescriptor> arguments)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(textHandler As ITerminalTextHandler, arguments As IEnumerable(Of ArgumentDescriptor))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "textHandler",
+                "type": {
+                  "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ITerminalTextHandler"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "arguments",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<ArgumentDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of ArgumentDescriptor)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<ArgumentDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of ArgumentDescriptor)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.ArgumentDescriptor>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.ArgumentDescriptor)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>)"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 21,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.ArgumentDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.ArgumentDescriptors"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor*\" text=\"ArgumentDescriptors\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.#ctor*\" text=\"ArgumentDescriptors\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_ArgumentDescriptor__.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.%23ctor(OneImlx.Terminal.Runtime.ITerminalTextHandler%2CSystem.Collections.Generic.IEnumerable%7BOneImlx.Terminal.Commands.ArgumentDescriptor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L22",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors__ctor_OneImlx_Terminal_Runtime_ITerminalTextHandler_System_Collections_Generic_IEnumerable_OneImlx_Terminal_Commands_ArgumentDescriptor__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Count"
+            },
+            {
+              "lang": "vb",
+              "value": "Count"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.Count"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.Count"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Count\" text=\"Count\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Count\" text=\"Count\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int Count { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property Count As Integer"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Count",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 40,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Count"
+              },
+              {
+                "lang": "vb",
+                "value": "Count"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.Count"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.Count"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.Count"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Count*\" text=\"Count\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Count*\" text=\"Count\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Count_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IReadOnlyCollection{OneImlx.Terminal.Commands.ArgumentDescriptor}.Count",
+              "definition": "System.Collections.Generic.IReadOnlyCollection`1.Count",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Count"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IReadOnlyCollection<ArgumentDescriptor>.Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IReadOnlyCollection(Of ArgumentDescriptor).Count"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IReadOnlyCollection<OneImlx.Terminal.Commands.ArgumentDescriptor>.Count"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IReadOnlyCollection(Of OneImlx.Terminal.Commands.ArgumentDescriptor).Count"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyCollection{OneImlx.Terminal.Commands.ArgumentDescriptor}.Count\" text=\"Count\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"System.Collections.Generic.IReadOnlyCollection{OneImlx.Terminal.Commands.ArgumentDescriptor}.Count\" text=\"Count\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The argument descriptor count.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors_Count.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L41",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Count",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "this[int]"
+            },
+            {
+              "lang": "vb",
+              "value": "this[](Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.this[int]"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.this[](Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[int]"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[](Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.Int32)\" text=\"this[int]\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.Int32)\" text=\"this[int]\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ArgumentDescriptor this[int index] { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Default Property this[](index As Integer) As ArgumentDescriptor"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "index",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The argument index.</p>\n"
+              }
+            ],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.ArgumentDescriptor",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ArgumentDescriptor"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ArgumentDescriptor"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.ArgumentDescriptor"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" text=\"ArgumentDescriptor\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" text=\"ArgumentDescriptor\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "this[]",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 62,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Item*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "this"
+              },
+              {
+                "lang": "vb",
+                "value": "this[]"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.this"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.this[]"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[]"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item*\" text=\"this\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item*\" text=\"this\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Item_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">Gets the argument descriptor by its index.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors_Item_System_Int32_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L63",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Item_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "this[](String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.this[](String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[string]"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[](String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.String)\" text=\"this[string]\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.String)\" text=\"this[string]\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ArgumentDescriptor this[string id] { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Default Property this[](id As String) As ArgumentDescriptor"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The argument descriptor identifier.</p>\n"
+              }
+            ],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Commands.ArgumentDescriptor",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ArgumentDescriptor"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ArgumentDescriptor"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Commands.ArgumentDescriptor"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Commands.ArgumentDescriptor"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" text=\"ArgumentDescriptor\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" text=\"ArgumentDescriptor\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "this[]",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 48,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.Item*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "this"
+              },
+              {
+                "lang": "vb",
+                "value": "this[]"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.this"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.this[]"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.this[]"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item*\" text=\"this\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.Item*\" text=\"this\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Item_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">Gets the argument descriptor by its id.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors_Item_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.Item(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L49",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_Item_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "TextHandler"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.TextHandler"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler\" text=\"TextHandler\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler\" text=\"TextHandler\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public ITerminalTextHandler TextHandler { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property TextHandler As ITerminalTextHandler"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "OneImlx.Terminal.Runtime.ITerminalTextHandler",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ITerminalTextHandler"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Runtime.ITerminalTextHandler"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Runtime.ITerminalTextHandler\" text=\"ITerminalTextHandler\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "TextHandler",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 35,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "TextHandler"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.TextHandler"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler*\" text=\"TextHandler\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler*\" text=\"TextHandler\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_TextHandler_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The text handler.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors_TextHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.TextHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L36",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_TextHandler",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.ArgumentDescriptors",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetEnumerator()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ArgumentDescriptors.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "ArgumentDescriptors.GetEnumerator()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator\" text=\"GetEnumerator()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator\" text=\"GetEnumerator()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public IEnumerator<ArgumentDescriptor> GetEnumerator()"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetEnumerator() As IEnumerator(Of ArgumentDescriptor)"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.IEnumerator{OneImlx.Terminal.Commands.ArgumentDescriptor}",
+                "definition": "System.Collections.Generic.IEnumerator`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator<ArgumentDescriptor>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator(Of ArgumentDescriptor)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator<ArgumentDescriptor>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator(Of ArgumentDescriptor)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.IEnumerator<OneImlx.Terminal.Commands.ArgumentDescriptor>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.IEnumerator(Of OneImlx.Terminal.Commands.ArgumentDescriptor)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1\">IEnumerator</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetEnumerator",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+            "startLine": 71,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "GetEnumerator"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ArgumentDescriptors.GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "ArgumentDescriptors.GetEnumerator"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator*\" text=\"GetEnumerator\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator*\" text=\"GetEnumerator\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_GetEnumerator_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor}.GetEnumerator",
+              "definition": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "GetEnumerator()"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IEnumerable<ArgumentDescriptor>.GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IEnumerable(Of ArgumentDescriptor).GetEnumerator()"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.ArgumentDescriptor>.GetEnumerator()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.ArgumentDescriptor).GetEnumerator()"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator\">GetEnumerator</a>()"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors_GetEnumerator.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L72",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_ArgumentDescriptors_GetEnumerator",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ArgumentDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "ArgumentDescriptors"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ArgumentDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "ArgumentDescriptors"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.ArgumentDescriptors"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.ArgumentDescriptors"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ArgumentDescriptors",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml\" sourcestartlinenumber=\"1\">The readonly <xref href=\"OneImlx.Terminal.Commands.ArgumentDescriptor\" data-throw-if-not-resolved=\"false\"></xref> keyed collection.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class ArgumentDescriptors : IReadOnlyCollection<ArgumentDescriptor>, IEnumerable<ArgumentDescriptor>, IEnumerable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class ArgumentDescriptors Implements IReadOnlyCollection(Of ArgumentDescriptor), IEnumerable(Of ArgumentDescriptor), IEnumerable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "System.Collections.Generic.IReadOnlyCollection{OneImlx.Terminal.Commands.ArgumentDescriptor}",
+      "definition": "System.Collections.Generic.IReadOnlyCollection`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of ArgumentDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IReadOnlyCollection<ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IReadOnlyCollection(Of ArgumentDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IReadOnlyCollection<OneImlx.Terminal.Commands.ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IReadOnlyCollection(Of OneImlx.Terminal.Commands.ArgumentDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1\">IReadOnlyCollection</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.Generic.IEnumerable{OneImlx.Terminal.Commands.ArgumentDescriptor}",
+      "definition": "System.Collections.Generic.IEnumerable`1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of ArgumentDescriptor)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable<ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable(Of ArgumentDescriptor)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.Generic.IEnumerable<OneImlx.Terminal.Commands.ArgumentDescriptor>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.Generic.IEnumerable(Of OneImlx.Terminal.Commands.ArgumentDescriptor)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Commands.ArgumentDescriptor.html\">ArgumentDescriptor</a>)"
+        }
+      ]
+    },
+    {
+      "uid": "System.Collections.IEnumerable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "IEnumerable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Collections.IEnumerable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Collections.IEnumerable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Collections.IEnumerable\" text=\"IEnumerable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.ArgumentDescriptors.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_ArgumentDescriptors.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.ArgumentDescriptors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/ArgumentDescriptors.cs/#L17",
+  "description": "The readonly  keyed collection.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_ArgumentDescriptors",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

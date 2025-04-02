@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>gRPC Router </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="gRPC Router ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/grpc.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<p><img src="https://img.shields.io/badge/status-under--review-yellow" alt="in-progress"></p>
+<h1 id="grpc-router">gRPC Router</h1>
+<p>The <code>TerminalGrpcRouter</code> enhances .NET applications by integrating gRPC, a modern open source high performance Remote Procedure Call (RPC) framework, that enables client and server applications to communicate transparently, and simplifies the building of connected systems.</p>
+<h2 id="introduction-to-grpc-in-net">Introduction to gRPC in .NET</h2>
+<p>gRPC is a language-agnostic, high-performance RPC framework, which leverages HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features like authentication, load-balancing, and bidirectional streaming.</p>
+<h2 id="why-terminalgrpcrouter">Why TerminalGrpcRouter?</h2>
+<p>While gRPC inherently simplifies network communication through its protocol, setting up and managing gRPC services in .NET applications requires boilerplate code and setup. The <code>TerminalGrpcRouter</code> aims to abstract these complexities, providing:</p>
+<ul>
+<li><strong>Simplified Service Definition and Routing</strong>: Streamlines the process of defining gRPC services and methods, allowing developers to focus on implementing business logic.</li>
+<li><strong>Integrated Server Management</strong>: Automates the configuration and lifecycle management of the gRPC server, reducing manual setup and configuration efforts.</li>
+<li><strong>Enhanced Scalability and Performance</strong>: Utilizes gRPC's underlying HTTP/2 protocol for improved performance and supports the development of scalable microservices architectures.</li>
+<li><strong>Unified Error Handling</strong>: Offers a centralized approach to manage exceptions and errors that occur during RPC execution, ensuring consistent error responses to clients.</li>
+</ul>
+<h2 id="key-concepts">Key Concepts</h2>
+<h3 id="grpc-service-hosting">gRPC Service Hosting</h3>
+<p>Leverages ASP.NET Core's built-in support for gRPC, enabling seamless hosting of gRPC services within the familiar .NET ecosystem, including support for Kestrel and IIS.</p>
+<h3 id="bidirectional-streaming">Bidirectional Streaming</h3>
+<p>Supports gRPC's streaming capabilities, including server streaming, client streaming, and bidirectional streaming, allowing for the development of highly interactive services.</p>
+<h3 id="middleware-integration">Middleware Integration</h3>
+<p>Integrates with ASP.NET Core middleware, providing the ability to add cross-cutting functionality such as logging, authentication, and monitoring to gRPC services.</p>
+<h3 id="cross-language-compatibility">Cross-Language Compatibility</h3>
+<p>Facilitates the creation of services that can be consumed by clients written in different programming languages, promoting interoperability in diverse technology environments.</p>
+<h2 id="use-cases">Use Cases</h2>
+<ul>
+<li><strong>Microservices Architecture</strong>: Ideal for building microservices that communicate over lightweight, efficient RPC, supporting polyglot programming environments.</li>
+<li><strong>Real-Time Data Services</strong>: Suitable for services requiring real-time data exchange, such as live updates or streaming data feeds, leveraging gRPC's streaming capabilities.</li>
+<li><strong>High-Performance APIs</strong>: Optimizes API performance for scenarios demanding low-latency and high-throughput communication, such as gaming backends or financial trading platforms.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>To utilize the <code>TerminalGrpcRouter</code>, define your gRPC services using Protocol Buffers, implement service methods with your business logic, and configure the router to manage service routing and server lifecycle. The router simplifies the exposure of these services over the network, abstracting the intricacies of server setup and request handling.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>By abstracting the complexities of gRPC integration, the <code>TerminalGrpcRouter</code> empowers developers to leverage the full capabilities of gRPC in their .NET</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/concepts/grpc.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

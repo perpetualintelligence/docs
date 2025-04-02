@@ -1,0 +1,2330 @@
+{
+  "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Client.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.html\">Client</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.html\">Client</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SendToTerminalAsync(TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SendToTerminalAsync(TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ClientExtensions.SendToTerminalAsync(TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ClientExtensions.SendToTerminalAsync(TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient, OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient, OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(TerminalGrpcRouterProtoClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task<TerminalGrpcRouterProtoOutput> SendToTerminalAsync(this TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient grpcClient, TerminalInputOutput input, CancellationToken cancellationToken, JsonSerializerOptions? serializeOptions = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SendToTerminalAsync(grpcClient As TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient, input As TerminalInputOutput, cancellationToken As CancellationToken, serializeOptions As JsonSerializerOptions = Nothing) As Task(Of TerminalGrpcRouterProtoOutput)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "grpcClient",
+                "type": {
+                  "uid": "OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProto.html\">TerminalGrpcRouterProto</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient.html\">TerminalGrpcRouterProtoClient</a>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProto.html\">TerminalGrpcRouterProto</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient.html\">TerminalGrpcRouterProtoClient</a>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The gRPC client instance used to send the request.</p>\n"
+              },
+              {
+                "id": "input",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> to be sent.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Threading.CancellationToken\" data-throw-if-not-resolved=\"false\"></xref> to observe while awaiting completion.</p>\n"
+              },
+              {
+                "id": "serializeOptions",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref> used to serialize the input. Defaults to <code>null</code>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput.html\">TerminalGrpcRouterProtoOutput</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput.html\">TerminalGrpcRouterProtoOutput</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation. The task result contains the\n<xref href=\"OneImlx.Terminal.Client.TerminalGrpcRouterProtoOutput\" data-throw-if-not-resolved=\"false\"></xref> from the server.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SendToTerminalAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+            "startLine": 121,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Client"
+          ],
+          "namespace": "OneImlx.Terminal.Client.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "SendToTerminalAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Sends a <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> object to a terminal server via a gRPC request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_OneImlx_Terminal_Client_TerminalGrpcRouterProto_TerminalGrpcRouterProtoClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(OneImlx.Terminal.Client.TerminalGrpcRouterProto.TerminalGrpcRouterProtoClient%2COneImlx.Terminal.Shared.TerminalInputOutput%2CSystem.Threading.CancellationToken%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs/#L122",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_OneImlx_Terminal_Client_TerminalGrpcRouterProto_TerminalGrpcRouterProtoClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ClientExtensions.SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ClientExtensions.SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient, OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient, OneImlx.Terminal.Shared.TerminalInputOutput, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(HttpClient, TerminalInputOutput, CancellationToken, JsonSerializerOptions?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task<TerminalInputOutput?> SendToTerminalAsync(this HttpClient httpClient, TerminalInputOutput input, CancellationToken cancellationToken, JsonSerializerOptions? serializeOptions = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SendToTerminalAsync(httpClient As HttpClient, input As TerminalInputOutput, cancellationToken As CancellationToken, serializeOptions As JsonSerializerOptions = Nothing) As Task(Of TerminalInputOutput)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "httpClient",
+                "type": {
+                  "uid": "System.Net.Http.HttpClient",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpClient"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "HttpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "HttpClient"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.Http.HttpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.Http.HttpClient"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.Http.HttpClient\" text=\"HttpClient\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.Http.HttpClient\" text=\"HttpClient\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Net.Http.HttpClient\" data-throw-if-not-resolved=\"false\"></xref> instance used to send the request.</p>\n"
+              },
+              {
+                "id": "input",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> to be sent.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Threading.CancellationToken\" data-throw-if-not-resolved=\"false\"></xref> to observe while awaiting completion.</p>\n"
+              },
+              {
+                "id": "serializeOptions",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref> used to serialize the input. Defaults to <code>null</code>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{OneImlx.Terminal.Shared.TerminalInputOutput}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalInputOutput)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of TerminalInputOutput)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<OneImlx.Terminal.Shared.TerminalInputOutput>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of OneImlx.Terminal.Shared.TerminalInputOutput)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SendToTerminalAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+            "startLine": 35,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Client"
+          ],
+          "namespace": "OneImlx.Terminal.Client.Extensions",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The HTTP POST request is sent to the endpoint <code>oneimlx/terminal/httprouter</code> on the server.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "SendToTerminalAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Sends a <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> object to a terminal server as an HTTP POST request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Http_HttpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Http.HttpClient%2COneImlx.Terminal.Shared.TerminalInputOutput%2CSystem.Threading.CancellationToken%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs/#L36",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Http_HttpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SendToTerminalAsync(TcpClient, TerminalInputOutput, byte, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SendToTerminalAsync(TcpClient, TerminalInputOutput, Byte, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ClientExtensions.SendToTerminalAsync(TcpClient, TerminalInputOutput, byte, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ClientExtensions.SendToTerminalAsync(TcpClient, TerminalInputOutput, Byte, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient, OneImlx.Terminal.Shared.TerminalInputOutput, byte, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient, OneImlx.Terminal.Shared.TerminalInputOutput, Byte, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(TcpClient, TerminalInputOutput, byte, CancellationToken, JsonSerializerOptions?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(TcpClient, TerminalInputOutput, byte, CancellationToken, JsonSerializerOptions?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task SendToTerminalAsync(this TcpClient tcpClient, TerminalInputOutput input, byte inputDelimiter, CancellationToken cancellationToken, JsonSerializerOptions? serializeOptions = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SendToTerminalAsync(tcpClient As TcpClient, input As TerminalInputOutput, inputDelimiter As Byte, cancellationToken As CancellationToken, serializeOptions As JsonSerializerOptions = Nothing) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "tcpClient",
+                "type": {
+                  "uid": "System.Net.Sockets.TcpClient",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TcpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TcpClient"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TcpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TcpClient"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.Sockets.TcpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.Sockets.TcpClient"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.Sockets.TcpClient\" text=\"TcpClient\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.Sockets.TcpClient\" text=\"TcpClient\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Net.Sockets.TcpClient\" data-throw-if-not-resolved=\"false\"></xref> instance used to send the message.</p>\n"
+              },
+              {
+                "id": "input",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> to be sent.</p>\n"
+              },
+              {
+                "id": "inputDelimiter",
+                "type": {
+                  "uid": "System.Byte",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Byte\" text=\"byte\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Byte\" text=\"byte\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The stream delimiter.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Threading.CancellationToken\" data-throw-if-not-resolved=\"false\"></xref> to observe while awaiting completion.</p>\n"
+              },
+              {
+                "id": "serializeOptions",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref> used to serialize the input. Defaults to <code>null</code>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SendToTerminalAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+            "startLine": 85,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Client"
+          ],
+          "namespace": "OneImlx.Terminal.Client.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "SendToTerminalAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Sends a <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> object to a terminal server via a TCP connection.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Sockets_TcpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Byte_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.TcpClient%2COneImlx.Terminal.Shared.TerminalInputOutput%2CSystem.Byte%2CSystem.Threading.CancellationToken%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs/#L86",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Sockets_TcpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Byte_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Net.IPEndPoint,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Client.Extensions.ClientExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SendToTerminalAsync(UdpClient, TerminalInputOutput, byte, IPEndPoint, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "SendToTerminalAsync(UdpClient, TerminalInputOutput, Byte, IPEndPoint, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ClientExtensions.SendToTerminalAsync(UdpClient, TerminalInputOutput, byte, IPEndPoint, CancellationToken, JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ClientExtensions.SendToTerminalAsync(UdpClient, TerminalInputOutput, Byte, IPEndPoint, CancellationToken, JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient, OneImlx.Terminal.Shared.TerminalInputOutput, byte, System.Net.IPEndPoint, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient, OneImlx.Terminal.Shared.TerminalInputOutput, Byte, System.Net.IPEndPoint, System.Threading.CancellationToken, System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Net.IPEndPoint,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(UdpClient, TerminalInputOutput, byte, IPEndPoint, CancellationToken, JsonSerializerOptions?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient,OneImlx.Terminal.Shared.TerminalInputOutput,System.Byte,System.Net.IPEndPoint,System.Threading.CancellationToken,System.Text.Json.JsonSerializerOptions)\" text=\"SendToTerminalAsync(UdpClient, TerminalInputOutput, byte, IPEndPoint, CancellationToken, JsonSerializerOptions?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task SendToTerminalAsync(this UdpClient udpClient, TerminalInputOutput input, byte inputDelimiter, IPEndPoint remoteEndPoint, CancellationToken cancellationToken, JsonSerializerOptions? serializeOptions = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function SendToTerminalAsync(udpClient As UdpClient, input As TerminalInputOutput, inputDelimiter As Byte, remoteEndPoint As IPEndPoint, cancellationToken As CancellationToken, serializeOptions As JsonSerializerOptions = Nothing) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "udpClient",
+                "type": {
+                  "uid": "System.Net.Sockets.UdpClient",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "UdpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UdpClient"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "UdpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UdpClient"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.Sockets.UdpClient"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.Sockets.UdpClient"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.Sockets.UdpClient\" text=\"UdpClient\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.Sockets.UdpClient\" text=\"UdpClient\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Net.Sockets.UdpClient\" data-throw-if-not-resolved=\"false\"></xref> instance used to send the message.</p>\n"
+              },
+              {
+                "id": "input",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalInputOutput",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalInputOutput"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalInputOutput"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalInputOutput\" text=\"TerminalInputOutput\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> to be sent.</p>\n"
+              },
+              {
+                "id": "inputDelimiter",
+                "type": {
+                  "uid": "System.Byte",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "byte"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Byte"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Byte\" text=\"byte\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Byte\" text=\"byte\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The stream delimiter.</p>\n"
+              },
+              {
+                "id": "remoteEndPoint",
+                "type": {
+                  "uid": "System.Net.IPEndPoint",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IPEndPoint"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IPEndPoint"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IPEndPoint"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IPEndPoint"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Net.IPEndPoint"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Net.IPEndPoint"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Net.IPEndPoint\" text=\"IPEndPoint\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Net.IPEndPoint\" text=\"IPEndPoint\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Net.IPEndPoint\" data-throw-if-not-resolved=\"false\"></xref> representing the remote server endpoint.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A <xref href=\"System.Threading.CancellationToken\" data-throw-if-not-resolved=\"false\"></xref> to observe while awaiting completion.</p>\n"
+              },
+              {
+                "id": "serializeOptions",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.JsonSerializerOptions\" data-throw-if-not-resolved=\"false\"></xref> used to serialize the input. Defaults to <code>null</code>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "SendToTerminalAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Client"
+          ],
+          "namespace": "OneImlx.Terminal.Client.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "SendToTerminalAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync*\" text=\"SendToTerminalAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Sends a <xref href=\"OneImlx.Terminal.Shared.TerminalInputOutput\" data-throw-if-not-resolved=\"false\"></xref> object to a terminal server via a UDP message.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Sockets_UdpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Byte_System_Net_IPEndPoint_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Terminal.Client.Extensions.ClientExtensions.SendToTerminalAsync(System.Net.Sockets.UdpClient%2COneImlx.Terminal.Shared.TerminalInputOutput%2CSystem.Byte%2CSystem.Net.IPEndPoint%2CSystem.Threading.CancellationToken%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions_SendToTerminalAsync_System_Net_Sockets_UdpClient_OneImlx_Terminal_Shared_TerminalInputOutput_System_Byte_System_Net_IPEndPoint_System_Threading_CancellationToken_System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ClientExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ClientExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ClientExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ClientExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Client.Extensions.ClientExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ClientExtensions",
+    "path": "../../terminal/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs",
+    "startLine": 22,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Client"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Client.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Client.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.html\">Client</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.html\">Client</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Client.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for interacting with terminal server over various network protocols.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class ClientExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module ClientExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Client.Extensions.ClientExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Client.Extensions.ClientExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Client_Extensions_ClientExtensions.md&value=---%0Auid%3A%20OneImlx.Terminal.Client.Extensions.ClientExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Client/Extensions/ClientExtensions.cs/#L23",
+  "description": "Provides extension methods for interacting with terminal server over various network protocols.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Client_Extensions_ClientExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

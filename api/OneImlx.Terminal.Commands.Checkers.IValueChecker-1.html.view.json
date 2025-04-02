@@ -1,0 +1,728 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync(`0)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CheckValueAsync(T)"
+            },
+            {
+              "lang": "vb",
+              "value": "CheckValueAsync(T)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IValueChecker<T>.CheckValueAsync(T)"
+            },
+            {
+              "lang": "vb",
+              "value": "IValueChecker(Of T).CheckValueAsync(T)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>.CheckValueAsync(T)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of T).CheckValueAsync(T)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync(`0)\" text=\"CheckValueAsync(T)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync(`0)\" text=\"CheckValueAsync(T)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task CheckValueAsync(T value)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function CheckValueAsync(value As T) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "value",
+                "type": {
+                  "uid": "{T}",
+                  "definition": "T",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml\" sourcestartlinenumber=\"1\">The entity to check.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CheckValueAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "CheckValueAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IValueChecker<T>.CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "IValueChecker(Of T).CheckValueAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>.CheckValueAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of T).CheckValueAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync*\" text=\"CheckValueAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.CheckValueAsync*\" text=\"CheckValueAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_IValueChecker_1_CheckValueAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml\" sourcestartlinenumber=\"1\">Checks the option value.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_IValueChecker_1_CheckValueAsync__0_.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.IValueChecker%601.CheckValueAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_IValueChecker_1_CheckValueAsync__0_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "GetRawType()"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IValueChecker<T>.GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "IValueChecker(Of T).GetRawType()"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>.GetRawType()"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of T).GetRawType()"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType\" text=\"GetRawType()\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType\" text=\"GetRawType()\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Type GetRawType()"
+              },
+              {
+                "lang": "vb",
+                "value": "Function GetRawType() As Type"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Type",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Type"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Type"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Type"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Type"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetRawType",
+            "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+            "startLine": 28,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Commands.Checkers",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "GetRawType"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IValueChecker<T>.GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "IValueChecker(Of T).GetRawType"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>.GetRawType"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of T).GetRawType"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType*\" text=\"GetRawType\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.IValueChecker`1.GetRawType*\" text=\"GetRawType\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Commands_Checkers_IValueChecker_1_GetRawType_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml\" sourcestartlinenumber=\"1\">Returns the underlying checker raw type.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_IValueChecker_1_GetRawType.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.IValueChecker%601.GetRawType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs/#L29",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Checkers_IValueChecker_1_GetRawType",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IValueChecker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "IValueChecker(Of T)"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IValueChecker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "IValueChecker(Of T)"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker<T>"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Checkers.IValueChecker(Of T)"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "IValueChecker",
+    "path": "../../terminal/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs",
+    "startLine": 15,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Commands.Checkers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Commands.Checkers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.html\">Commands</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Checkers.html\">Checkers</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml\" sourcestartlinenumber=\"1\">An abstraction to check a <xref href=\"OneImlx.Terminal.Commands.ICommandValue\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IValueChecker<T> where T : ICommandValue"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IValueChecker(Of T As ICommandValue)"
+      }
+    ],
+    "typeParameters": [
+      {
+        "id": "T",
+        "description": ""
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Checkers.IValueChecker-1.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Commands_Checkers_IValueChecker_1.md&value=---%0Auid%3A%20OneImlx.Terminal.Commands.Checkers.IValueChecker%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Commands/Checkers/IValueChecker.cs/#L16",
+  "description": "An abstraction to check a .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Checkers_IValueChecker_1",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

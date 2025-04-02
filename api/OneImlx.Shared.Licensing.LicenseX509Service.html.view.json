@@ -1,0 +1,1485 @@
+{
+  "uid": "OneImlx.Shared.Licensing.LicenseX509Service",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(System.String,System.Security.Cryptography.X509Certificates.X509Certificate2@)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseX509Service",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "FromJwtValidationKey(string, out X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "FromJwtValidationKey(String, X509Certificate2)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseX509Service.FromJwtValidationKey(string, out X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseX509Service.FromJwtValidationKey(String, X509Certificate2)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(string, out System.Security.Cryptography.X509Certificates.X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(String, System.Security.Cryptography.X509Certificates.X509Certificate2)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(System.String,System.Security.Cryptography.X509Certificates.X509Certificate2@)\" text=\"FromJwtValidationKey(string, out X509Certificate2)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(System.String,System.Security.Cryptography.X509Certificates.X509Certificate2@)\" text=\"FromJwtValidationKey(string, out X509Certificate2)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string FromJwtValidationKey(string jwtVKey, out X509Certificate2 x509Certificate)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function FromJwtValidationKey(jwtVKey As String, x509Certificate As X509Certificate2) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "jwtVKey",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The JWT from which the public validation key is extracted.</p>\n"
+              },
+              {
+                "id": "x509Certificate",
+                "type": {
+                  "uid": "System.Security.Cryptography.X509Certificates.X509Certificate2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "X509Certificate2"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "X509Certificate2"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">Outputs the X509Certificate2 created from the extracted public key.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The extracted public validation key.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "FromJwtValidationKey",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+            "startLine": 66,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FromJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "FromJwtValidationKey"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseX509Service.FromJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseX509Service.FromJwtValidationKey"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey*\" text=\"FromJwtValidationKey\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey*\" text=\"FromJwtValidationKey\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseX509Service_FromJwtValidationKey_"
+          },
+          "exceptions": [
+            {
+              "type": {
+                "uid": "OneImlx.Shared.Infrastructure.ErrorException",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ErrorException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ErrorException"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ErrorException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ErrorException"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Shared.Infrastructure.ErrorException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Shared.Infrastructure.ErrorException"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException\" text=\"ErrorException\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException\" text=\"ErrorException\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">Thrown if the JWT does not contain a <code>pkey</code> claim indicating the public validation key, or if the generated\ncertificate inadvertently contains a private key, indicating unauthorized access.</p>\n"
+            }
+          ],
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">Returns the public validation key and certificate from a JWT token.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseX509Service_FromJwtValidationKey_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseX509Service.FromJwtValidationKey(System.String%2CSystem.Security.Cryptography.X509Certificates.X509Certificate2%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseX509Service.cs/#L67",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseX509Service_FromJwtValidationKey_System_String_System_Security_Cryptography_X509Certificates_X509Certificate2__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseX509Service",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ToJwtValidationKey(X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "ToJwtValidationKey(X509Certificate2)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseX509Service.ToJwtValidationKey(X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseX509Service.ToJwtValidationKey(X509Certificate2)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)\" text=\"ToJwtValidationKey(X509Certificate2)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)\" text=\"ToJwtValidationKey(X509Certificate2)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static string ToJwtValidationKey(X509Certificate2 certificate)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function ToJwtValidationKey(certificate As X509Certificate2) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "certificate",
+                "type": {
+                  "uid": "System.Security.Cryptography.X509Certificates.X509Certificate2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "X509Certificate2"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "X509Certificate2"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The certificate containing the public key to be distributed.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">An unsigned JWT token with the public key in the payload.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "ToJwtValidationKey",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+            "startLine": 34,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "remarks": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The method exports the public key from the provided <xref href=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" data-throw-if-not-resolved=\"false\"></xref> object,\nencodes it in Base64, and constructs an unsigned JWT token with the public key included\nin the payload under the <code>pkey</code> claim. This JWT token does not contain a signature or expiration,\nmaking it suitable for public distribution.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ToJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "ToJwtValidationKey"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseX509Service.ToJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseX509Service.ToJwtValidationKey"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey*\" text=\"ToJwtValidationKey\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey*\" text=\"ToJwtValidationKey\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseX509Service_ToJwtValidationKey_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">Returns an unsigned <code>JWT</code> token containing the public key of a given certificate.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseX509Service_ToJwtValidationKey_System_Security_Cryptography_X509Certificates_X509Certificate2_.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseX509Service.ToJwtValidationKey(System.Security.Cryptography.X509Certificates.X509Certificate2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseX509Service.cs/#L35",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseX509Service_ToJwtValidationKey_System_Security_Cryptography_X509Certificates_X509Certificate2_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Licensing.LicenseX509Service",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ToSigningCertificate(string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ToSigningCertificate(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseX509Service.ToSigningCertificate(string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseX509Service.ToSigningCertificate(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(string, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(System.String,System.String)\" text=\"ToSigningCertificate(string, string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(System.String,System.String)\" text=\"ToSigningCertificate(string, string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static X509Certificate2 ToSigningCertificate(string cert, string? pwd = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function ToSigningCertificate(cert As String, pwd As String = Nothing) As X509Certificate2"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cert",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "pwd",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Security.Cryptography.X509Certificates.X509Certificate2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "X509Certificate2"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "X509Certificate2"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "X509Certificate2"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "X509Certificate2"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Security.Cryptography.X509Certificates.X509Certificate2"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" text=\"X509Certificate2\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "ToSigningCertificate",
+            "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+            "startLine": 100,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Licensing",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ToSigningCertificate"
+              },
+              {
+                "lang": "vb",
+                "value": "ToSigningCertificate"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "LicenseX509Service.ToSigningCertificate"
+              },
+              {
+                "lang": "vb",
+                "value": "LicenseX509Service.ToSigningCertificate"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate*\" text=\"ToSigningCertificate\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate*\" text=\"ToSigningCertificate\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Licensing_LicenseX509Service_ToSigningCertificate_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">Returns the signing certificate.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseX509Service_ToSigningCertificate_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseX509Service.ToSigningCertificate(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseX509Service.cs/#L101",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Licensing_LicenseX509Service_ToSigningCertificate_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "LicenseX509Service"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseX509Service"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "LicenseX509Service"
+    },
+    {
+      "lang": "vb",
+      "value": "LicenseX509Service"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Licensing.LicenseX509Service"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Licensing.LicenseX509Service"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "LicenseX509Service",
+    "path": "../../shared/src/OneImlx.Shared/Licensing/LicenseX509Service.cs",
+    "startLine": 21,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Licensing",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Licensing"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Licensing"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Licensing.html\">Licensing</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Licensing.LicenseX509Service.yml\" sourcestartlinenumber=\"1\">The licensing services around <xref href=\"System.Security.Cryptography.X509Certificates.X509Certificate2\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class LicenseX509Service"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class LicenseX509Service"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Licensing.LicenseX509Service.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Licensing.LicenseX509Service.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Licensing_LicenseX509Service.md&value=---%0Auid%3A%20OneImlx.Shared.Licensing.LicenseX509Service%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Licensing/LicenseX509Service.cs/#L22",
+  "description": "The licensing services around .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Shared_Licensing_LicenseX509Service",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

@@ -1,0 +1,1945 @@
+{
+  "uid": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Shared.Json",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Json.html\">Json</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Json.html\">Json</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DictionaryStringObjectPrimitiveJsonConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "DictionaryStringObjectPrimitiveJsonConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)\" text=\"Read(ref Utf8JsonReader, Type, JsonSerializerOptions)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)\" text=\"Read(ref Utf8JsonReader, Type, JsonSerializerOptions)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override Dictionary<string, object?> Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Function Read(reader As Utf8JsonReader, typeToConvert As Type, options As JsonSerializerOptions) As Dictionary(Of String, Object)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "reader",
+                "type": {
+                  "uid": "System.Text.Json.Utf8JsonReader",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Utf8JsonReader"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Utf8JsonReader"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Utf8JsonReader"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Utf8JsonReader"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.Utf8JsonReader"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.Utf8JsonReader"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.Utf8JsonReader\" text=\"Utf8JsonReader\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.Utf8JsonReader\" text=\"Utf8JsonReader\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The reader.</p>\n"
+              },
+              {
+                "id": "typeToConvert",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The type to convert.</p>\n"
+              },
+              {
+                "id": "options",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">An object that specifies serialization options to use.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                "definition": "System.Collections.Generic.Dictionary`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Dictionary(Of String, Object)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.Dictionary<string, object>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The converted value.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Read",
+            "path": "../../shared/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Json",
+          "example": [],
+          "overridden": {
+            "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+            "definition": "System.Text.Json.Serialization.JsonConverter`1.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "JsonConverter<Dictionary<string, object>>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "JsonConverter(Of Dictionary(Of String, Object)).Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read\">Read</a>(ref <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read\">Read</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Read"
+              },
+              {
+                "lang": "vb",
+                "value": "Read"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DictionaryStringObjectPrimitiveJsonConverter.Read"
+              },
+              {
+                "lang": "vb",
+                "value": "DictionaryStringObjectPrimitiveJsonConverter.Read"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read*\" text=\"Read\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read*\" text=\"Read\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Read_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">Reads and converts the JSON to type <xref href=\"System.Collections.Generic.Dictionary%7bSystem.String%2cSystem.Object%7d\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Read(System.Text.Json.Utf8JsonReader%40%2CSystem.Type%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Write(Utf8JsonWriter, Dictionary<string, object?>, JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DictionaryStringObjectPrimitiveJsonConverter.Write(Utf8JsonWriter, Dictionary<string, object?>, JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "DictionaryStringObjectPrimitiveJsonConverter.Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary<string, object?>, System.Text.Json.JsonSerializerOptions)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary(Of String, Object), System.Text.Json.JsonSerializerOptions)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)\" text=\"Write(Utf8JsonWriter, Dictionary&lt;string, object?&gt;, JsonSerializerOptions)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)\" text=\"Write(Utf8JsonWriter, Dictionary&lt;string, object?&gt;, JsonSerializerOptions)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public override void Write(Utf8JsonWriter writer, Dictionary<string, object?> value, JsonSerializerOptions options)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Overrides Sub Write(writer As Utf8JsonWriter, value As Dictionary(Of String, Object), options As JsonSerializerOptions)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "writer",
+                "type": {
+                  "uid": "System.Text.Json.Utf8JsonWriter",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Utf8JsonWriter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Utf8JsonWriter"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Utf8JsonWriter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Utf8JsonWriter"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.Utf8JsonWriter"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.Utf8JsonWriter"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.Utf8JsonWriter\" text=\"Utf8JsonWriter\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.Utf8JsonWriter\" text=\"Utf8JsonWriter\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The writer to write to.</p>\n"
+              },
+              {
+                "id": "value",
+                "type": {
+                  "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.Dictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The value to convert to JSON.</p>\n"
+              },
+              {
+                "id": "options",
+                "type": {
+                  "uid": "System.Text.Json.JsonSerializerOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "JsonSerializerOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Text.Json.JsonSerializerOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Text.Json.JsonSerializerOptions\" text=\"JsonSerializerOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">An object that specifies serialization options to use.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/shared"
+            },
+            "id": "Write",
+            "path": "../../shared/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+            "startLine": 61,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Shared"
+          ],
+          "namespace": "OneImlx.Shared.Json",
+          "example": [],
+          "overridden": {
+            "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)",
+            "definition": "System.Text.Json.Serialization.JsonConverter`1.Write(System.Text.Json.Utf8JsonWriter,`0,System.Text.Json.JsonSerializerOptions)",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Write(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "JsonConverter<Dictionary<string, object>>.Write(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "JsonConverter(Of Dictionary(Of String, Object)).Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary<string, object>, System.Text.Json.JsonSerializerOptions)"
+              },
+              {
+                "lang": "vb",
+                "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary(Of String, Object), System.Text.Json.JsonSerializerOptions)"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+              },
+              {
+                "lang": "vb",
+                "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+              }
+            ]
+          },
+          "overload": {
+            "uid": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Write"
+              },
+              {
+                "lang": "vb",
+                "value": "Write"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "DictionaryStringObjectPrimitiveJsonConverter.Write"
+              },
+              {
+                "lang": "vb",
+                "value": "DictionaryStringObjectPrimitiveJsonConverter.Write"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write*\" text=\"Write\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write*\" text=\"Write\"/>"
+              }
+            ],
+            "id": "OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Write_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">Writes a specified value as JSON.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_Collections_Generic_Dictionary_System_String_System_Object__System_Text_Json_JsonSerializerOptions_.md&value=---%0Auid%3A%20OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.Write(System.Text.Json.Utf8JsonWriter%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs/#L62",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_Collections_Generic_Dictionary_System_String_System_Object__System_Text_Json_JsonSerializerOptions_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "DictionaryStringObjectPrimitiveJsonConverter"
+    },
+    {
+      "lang": "vb",
+      "value": "DictionaryStringObjectPrimitiveJsonConverter"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "DictionaryStringObjectPrimitiveJsonConverter"
+    },
+    {
+      "lang": "vb",
+      "value": "DictionaryStringObjectPrimitiveJsonConverter"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/shared"
+    },
+    "id": "DictionaryStringObjectPrimitiveJsonConverter",
+    "path": "../../shared/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Shared.Json",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Shared.Json"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Shared.Json"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Json.html\">Json</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Shared.html\">Shared</a>.<a class=\"xref\" href=\"OneImlx.Shared.Json.html\">Json</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Text.Json.Serialization.JsonConverter%601\" data-throw-if-not-resolved=\"false\"></xref> for dictionary of <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Object\" data-throw-if-not-resolved=\"false\"></xref>.\nThe value must be primitive, <code>null</code>, <code>string</code> or <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class DictionaryStringObjectPrimitiveJsonConverter : JsonConverter<Dictionary<string, object?>>"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class DictionaryStringObjectPrimitiveJsonConverter Inherits JsonConverter(Of Dictionary(Of String, Object))"
+      }
+    ]
+  },
+  "seealso": [
+    {
+      "linkType": "hRef",
+      "url": "<span><a href=\"https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-converters-how-to?pivots=dotnet-6-0#sample-factory-pattern-converter\">https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-converters-how-to?pivots=dotnet-6-0#sample-factory-pattern-converter</a></span>"
+    }
+  ],
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter\" text=\"JsonConverter\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter\" text=\"JsonConverter\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object))"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object))"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object))"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1\">JsonConverter</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;&gt;"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1\">JsonConverter</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>))"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "inheritedMembers": [
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.CanConvert(System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.CanConvert(System.Type)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.canconvert",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CanConvert(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "CanConvert(Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.CanConvert(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).CanConvert(Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.CanConvert(System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).CanConvert(System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.canconvert\">CanConvert</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.canconvert\">CanConvert</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).Read(Utf8JsonReader, Type, JsonSerializerOptions)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read\">Read</a>(ref <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read\">Read</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Write(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.Write(System.Text.Json.Utf8JsonWriter,`0,System.Text.Json.JsonSerializerOptions)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Write(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.Write(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).Write(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary<string, object>, System.Text.Json.JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).Write(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary(Of String, Object), System.Text.Json.JsonSerializerOptions)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write\">Write</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.ReadAsPropertyName(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.ReadAsPropertyName(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.readaspropertyname",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReadAsPropertyName(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReadAsPropertyName(Utf8JsonReader, Type, JsonSerializerOptions)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.ReadAsPropertyName(ref Utf8JsonReader, Type, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).ReadAsPropertyName(Utf8JsonReader, Type, JsonSerializerOptions)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.ReadAsPropertyName(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).ReadAsPropertyName(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.readaspropertyname\">ReadAsPropertyName</a>(ref <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.readaspropertyname\">ReadAsPropertyName</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonreader\">Utf8JsonReader</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.WriteAsPropertyName(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.Dictionary{System.String,System.Object},System.Text.Json.JsonSerializerOptions)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.WriteAsPropertyName(System.Text.Json.Utf8JsonWriter,`0,System.Text.Json.JsonSerializerOptions)",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.writeaspropertyname",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "WriteAsPropertyName(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "WriteAsPropertyName(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.WriteAsPropertyName(Utf8JsonWriter, Dictionary<string, object>, JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).WriteAsPropertyName(Utf8JsonWriter, Dictionary(Of String, Object), JsonSerializerOptions)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.WriteAsPropertyName(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary<string, object>, System.Text.Json.JsonSerializerOptions)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).WriteAsPropertyName(System.Text.Json.Utf8JsonWriter, System.Collections.Generic.Dictionary(Of String, Object), System.Text.Json.JsonSerializerOptions)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.writeaspropertyname\">WriteAsPropertyName</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.writeaspropertyname\">WriteAsPropertyName</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter\">Utf8JsonWriter</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions\">JsonSerializerOptions</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.HandleNull",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.HandleNull",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.handlenull",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HandleNull"
+        },
+        {
+          "lang": "vb",
+          "value": "HandleNull"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.HandleNull"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).HandleNull"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.HandleNull"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).HandleNull"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.HandleNull\" text=\"HandleNull\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.HandleNull\" text=\"HandleNull\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Type",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}",
+      "definition": "System.Text.Json.Serialization.JsonConverter`1.Type",
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.type",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Type"
+        },
+        {
+          "lang": "vb",
+          "value": "Type"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter<Dictionary<string, object>>.Type"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter(Of Dictionary(Of String, Object)).Type"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter<System.Collections.Generic.Dictionary<string, object>>.Type"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter(Of System.Collections.Generic.Dictionary(Of String, Object)).Type"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Type\" text=\"Type\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter{System.Collections.Generic.Dictionary{System.String,System.Object}}.Type\" text=\"Type\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter.canconvert",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "CanConvert(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "CanConvert(Type)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter.CanConvert(Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter.CanConvert(Type)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter.canconvert\">CanConvert</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter.canconvert\">CanConvert</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.type\">Type</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Text.Json.Serialization.JsonConverter.Type",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Text.Json.Serialization.JsonConverter",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter.type",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Type"
+        },
+        {
+          "lang": "vb",
+          "value": "Type"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "JsonConverter.Type"
+        },
+        {
+          "lang": "vb",
+          "value": "JsonConverter.Type"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Text.Json.Serialization.JsonConverter.Type"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Text.Json.Serialization.JsonConverter.Type"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter.Type\" text=\"Type\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Text.Json.Serialization.JsonConverter.Type\" text=\"Type\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/shared/new/main/apiSpec/new?filename=OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter.md&value=---%0Auid%3A%20OneImlx.Shared.Json.DictionaryStringObjectPrimitiveJsonConverter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/shared/blob/main/src/OneImlx.Shared/Json/DictionaryStringObjectPrimitiveJsonConverter.cs/#L20",
+  "description": "The  for dictionary of  and . The value must be primitive, null, string or .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "id": "OneImlx_Shared_Json_DictionaryStringObjectPrimitiveJsonConverter",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

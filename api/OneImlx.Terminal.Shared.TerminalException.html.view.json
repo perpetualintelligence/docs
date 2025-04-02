@@ -1,0 +1,2035 @@
+{
+  "uid": "OneImlx.Terminal.Shared.TerminalException",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Shared",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor(OneImlx.Shared.Infrastructure.Error)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalException",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException(Error)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(Error)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException.TerminalException(Error)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalException.New(Error)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException(OneImlx.Shared.Infrastructure.Error)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalException.New(OneImlx.Shared.Infrastructure.Error)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(OneImlx.Shared.Infrastructure.Error)\" text=\"TerminalException(Error)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(OneImlx.Shared.Infrastructure.Error)\" text=\"TerminalException(Error)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalException(Error error)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New([error] As [Error])"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "error",
+                "type": {
+                  "uid": "OneImlx.Shared.Infrastructure.Error",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Error"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Shared.Infrastructure.Error"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Shared.Infrastructure.Error\" text=\"Error\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalException.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalException.cs",
+            "startLine": 29,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalException.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalException.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalException__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalException__ctor_OneImlx_Shared_Infrastructure_Error_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalException.%23ctor(OneImlx.Shared.Infrastructure.Error)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalException.cs/#L30",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalException__ctor_OneImlx_Shared_Infrastructure_Error_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalException",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException.TerminalException(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalException.New(String, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException(string, string)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalException.New(String, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String)\" text=\"TerminalException(string, string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String)\" text=\"TerminalException(string, string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalException(string error, string errorDescription)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New([error] As String, errorDescription As String)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "error",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error code.</p>\n"
+              },
+              {
+                "id": "errorDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error description.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalException.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalException.cs",
+            "startLine": 21,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalException.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalException.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalException__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalException__ctor_System_String_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalException.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalException.cs/#L22",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalException__ctor_System_String_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Shared.TerminalException",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException(string, string, params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String, ParamArray Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TerminalException.TerminalException(string, string, params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "TerminalException.New(String, String, ParamArray Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException(string, string, params object?[])"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Shared.TerminalException.New(String, String, ParamArray Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String,System.Object[])\" text=\"TerminalException(string, string, params object?[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor(System.String,System.String,System.Object[])\" text=\"TerminalException(string, string, params object?[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public TerminalException(string error, string errorDescription, params object?[] args)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New([error] As String, errorDescription As String, ParamArray args As Object())"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "error",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error code.</p>\n"
+              },
+              {
+                "id": "errorDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error description.</p>\n"
+              },
+              {
+                "id": "args",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The error description format arguments.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Shared/TerminalException.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalException.cs",
+            "startLine": 39,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Shared"
+          ],
+          "namespace": "OneImlx.Terminal.Shared",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Shared.TerminalException.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "TerminalException.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Shared.TerminalException.TerminalException"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Shared.TerminalException.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException.#ctor*\" text=\"TerminalException\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Shared_TerminalException__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalException__ctor_System_String_System_String_System_Object___.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalException.%23ctor(System.String%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalException.cs/#L40",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Shared_TerminalException__ctor_System_String_System_String_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "TerminalException"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalException"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "TerminalException"
+    },
+    {
+      "lang": "vb",
+      "value": "TerminalException"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Shared.TerminalException"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Shared.TerminalException"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Shared/TerminalException.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "TerminalException",
+    "path": "../../terminal/src/OneImlx.Terminal.Shared/TerminalException.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Shared"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Shared",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Shared"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Shared"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Shared.html\">Shared</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Shared.TerminalException.yml\" sourcestartlinenumber=\"1\">The exception that represents a terminal error.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class TerminalException : ErrorException, ISerializable"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class TerminalException Inherits ErrorException Implements ISerializable"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    },
+    {
+      "uid": "System.Exception",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception\" text=\"Exception\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception\" text=\"Exception\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    },
+    {
+      "uid": "OneImlx.Shared.Infrastructure.ErrorException",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Shared.Infrastructure",
+      "href": "OneImlx.Shared.Infrastructure.ErrorException.html",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ErrorException"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorException"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorException"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorException"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException\" text=\"ErrorException\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException\" text=\"ErrorException\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 2
+    }
+  ],
+  "level": 3,
+  "implements": [
+    {
+      "uid": "System.Runtime.Serialization.ISerializable",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "ISerializable"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "ISerializable"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Runtime.Serialization.ISerializable"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Runtime.Serialization.ISerializable"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Runtime.Serialization.ISerializable\" text=\"ISerializable\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Runtime.Serialization.ISerializable\" text=\"ISerializable\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "OneImlx.Shared.Infrastructure.ErrorException.Error",
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Shared.Infrastructure.ErrorException",
+      "isExternal": true,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Error"
+        },
+        {
+          "lang": "vb",
+          "value": "Error"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorException.Error"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorException.Error"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException.Error"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException.Error"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException.Error\" text=\"Error\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException.Error\" text=\"Error\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.ErrorException.yml\" sourcestartlinenumber=\"1\">The error.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "OneImlx.Shared.Infrastructure.ErrorException.Message",
+      "isExtensionMethod": false,
+      "parent": "OneImlx.Shared.Infrastructure.ErrorException",
+      "isExternal": true,
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Message"
+        },
+        {
+          "lang": "vb",
+          "value": "Message"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ErrorException.Message"
+        },
+        {
+          "lang": "vb",
+          "value": "ErrorException.Message"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException.Message"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Shared.Infrastructure.ErrorException.Message"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException.Message\" text=\"Message\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Shared.Infrastructure.ErrorException.Message\" text=\"Message\"/>"
+        }
+      ],
+      "level": 0,
+      "summary": "<p sourcefile=\"api/OneImlx.Shared.Infrastructure.ErrorException.yml\" sourcestartlinenumber=\"1\">The exception message.</p>\n",
+      "type": "property",
+      "platform": null,
+      "isEii": false
+    },
+    {
+      "uid": "System.Exception.GetBaseException",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetBaseException()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetBaseException()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.GetBaseException()"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.GetBaseException()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.GetBaseException()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.GetBaseException()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception\">GetBaseException</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception\">GetBaseException</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetObjectData(SerializationInfo, StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "GetObjectData(SerializationInfo, StreamingContext)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.GetObjectData(SerializationInfo, StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.GetObjectData(SerializationInfo, StreamingContext)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata\">GetObjectData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo\">SerializationInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext\">StreamingContext</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.getobjectdata\">GetObjectData</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo\">SerializationInfo</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext\">StreamingContext</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.exception.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.Data",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.data",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Data"
+        },
+        {
+          "lang": "vb",
+          "value": "Data"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.Data"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.Data"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.Data"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.Data"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.Data\" text=\"Data\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.Data\" text=\"Data\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.HelpLink",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.helplink",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HelpLink"
+        },
+        {
+          "lang": "vb",
+          "value": "HelpLink"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.HelpLink"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.HelpLink"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.HelpLink"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.HelpLink"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.HelpLink\" text=\"HelpLink\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.HelpLink\" text=\"HelpLink\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.HResult",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.hresult",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "HResult"
+        },
+        {
+          "lang": "vb",
+          "value": "HResult"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.HResult"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.HResult"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.HResult"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.HResult"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.HResult\" text=\"HResult\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.HResult\" text=\"HResult\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.InnerException",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.innerexception",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "InnerException"
+        },
+        {
+          "lang": "vb",
+          "value": "InnerException"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.InnerException"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.InnerException"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.InnerException"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.InnerException"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.InnerException\" text=\"InnerException\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.InnerException\" text=\"InnerException\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.Source",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.source",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Source"
+        },
+        {
+          "lang": "vb",
+          "value": "Source"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.Source"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.Source"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.Source"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.Source"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.Source\" text=\"Source\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.Source\" text=\"Source\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.StackTrace",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.stacktrace",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "StackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "StackTrace"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.StackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.StackTrace"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.StackTrace"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.StackTrace"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.StackTrace\" text=\"StackTrace\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.StackTrace\" text=\"StackTrace\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Exception.TargetSite",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Exception",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.exception.targetsite",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "TargetSite"
+        },
+        {
+          "lang": "vb",
+          "value": "TargetSite"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "Exception.TargetSite"
+        },
+        {
+          "lang": "vb",
+          "value": "Exception.TargetSite"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "System.Exception.TargetSite"
+        },
+        {
+          "lang": "vb",
+          "value": "System.Exception.TargetSite"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Exception.TargetSite\" text=\"TargetSite\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Exception.TargetSite\" text=\"TargetSite\"/>"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Shared.TerminalException.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Shared.TerminalException.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Shared_TerminalException.md&value=---%0Auid%3A%20OneImlx.Terminal.Shared.TerminalException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Shared/TerminalException.cs/#L15",
+  "description": "The exception that represents a terminal error.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Shared_TerminalException",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

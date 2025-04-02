@@ -1,0 +1,516 @@
+{
+  "uid": "OneImlx.Terminal.Commands.Runners",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult",
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Runners",
+          "href": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandRunnerResult"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandRunnerResult"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandRunnerResult"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandRunnerResult"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult\" text=\"CommandRunnerResult\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult\" text=\"CommandRunnerResult\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.CommandRunnerResult.yml\" sourcestartlinenumber=\"1\">Represents the result of a command runner.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_CommandRunnerResult",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.CommandRunner`1",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Runners.CommandRunner-1.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandRunner(Of TResult)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "CommandRunner(Of TResult)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.CommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.CommandRunner(Of TResult)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunner-1.html\">CommandRunner</a>&lt;TResult&gt;"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.CommandRunner-1.html\">CommandRunner</a>(Of TResult)"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.CommandRunner-1.yml\" sourcestartlinenumber=\"1\">The command runner is where developers implement how commands are executed. It operates asynchronously to handle\ncommands that might take a while to process. The framework routes each parsed command to its specific runner,\nhelping to organize and manage the command execution logic within your application.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_CommandRunner_1",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.LicenseInfoRunner",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LicenseInfoRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseInfoRunner"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LicenseInfoRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "LicenseInfoRunner"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.LicenseInfoRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.LicenseInfoRunner"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.LicenseInfoRunner\" text=\"LicenseInfoRunner\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.LicenseInfoRunner\" text=\"LicenseInfoRunner\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.LicenseInfoRunner.yml\" sourcestartlinenumber=\"1\">The default license info runner that outputs the current licensing information to the <xref href=\"OneImlx.Terminal.Runtime.ITerminalConsole\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_LicenseInfoRunner",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inInterface": true,
+      "typePropertyName": "inInterface",
+      "id": "interfaces",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.ICommandRunner`1",
+          "isExtensionMethod": false,
+          "href": "OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ICommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandRunner(Of TResult)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandRunner(Of TResult)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.ICommandRunner<TResult>"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.ICommandRunner(Of TResult)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html\">ICommandRunner</a>&lt;TResult&gt;"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner-1.html\">ICommandRunner</a>(Of TResult)"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.ICommandRunner-1.yml\" sourcestartlinenumber=\"1\">An abstraction of a command runner.</p>\n",
+          "type": "interface",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_ICommandRunner_1",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner",
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Commands.Runners",
+          "href": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IDelegateCommandRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "IDelegateCommandRunner"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IDelegateCommandRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "IDelegateCommandRunner"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner\" text=\"IDelegateCommandRunner\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner\" text=\"IDelegateCommandRunner\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Commands.Runners.IDelegateCommandRunner.yml\" sourcestartlinenumber=\"1\">An abstraction to delegate to <xref href=\"OneImlx.Terminal.Commands.Runners.ICommandRunner%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "type": "interface",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Commands_Runners_IDelegateCommandRunner",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Commands.Runners"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Commands.Runners.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Commands.Runners.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Commands_Runners",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

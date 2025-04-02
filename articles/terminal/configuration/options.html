@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Configuration Options </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Configuration Options ">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/configuration/options.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.ico" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="configuration-options">Configuration Options</h1>
+
+<p>The <code>OneImlx.Terminal</code> framework utilizes the options pattern, facilitating strongly typed access to groups of related settings. By isolating configuration settings into separate classes based on scenarios, the host CLI or terminal app upholds two fundamental software engineering principles:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#encapsulation">Interface Segregation Principle (ISP) or Encapsulation</a>: Classes dependent on configuration settings are only reliant on the settings they actually use, promoting clean and maintainable code.</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#separation-of-concerns">Separation of Concerns</a>: Settings for different components of the application are isolated from each other, ensuring that changes in one area do not affect the others.</li>
+</ul>
+<p>Furthermore, options offer a method for validating configuration data, ensuring that your application runs smoothly with correct and valid configurations.</p>
+<h2 id="configurability">Configurability</h2>
+<p>The framework enhances flexibility through <code>Command Options</code> and <code>Configuration Options</code>, empowering developers to tailor applications to specific requirements.</p>
+<h3 id="command-options"><a href="options.html">Command Options</a></h3>
+<p><code>Command Options</code> are flags or key-value pairs within command strings that modify command behavior. Defined in the command descriptor and processed at runtime, these options allow for the customization of commands. For instance, <code>update profile --username=johndoe --email=johndoe@example.com</code> demonstrates how <code>--username</code> and <code>--email</code> define the <code>profile</code> command.</p>
+<h3 id="configuration-options-1"><a href="https://learn.microsoft.com/en-us/dotnet/core/extensions/options">Configuration Options</a></h3>
+<p><code>Configuration Options</code> set the application's overall behavior, as defined by the <a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/options">Options Design Pattern</a> in .NET. Typically specified in <code>appsettings.json</code> or via environment variables, these options are loaded at startup. This structure provides a systematic approach to managing application settings, enhancing control over multiple commands or the entire application's behavior.</p>
+<h2 id="terminaloptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html">TerminalOptions</a></h2>
+<p>This <code>TerminalOptions</code> outlines all the configuration options supported by the terminal framework, providing you with the information you need to effectively configure and optimize your application.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Reserved for Future</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Id"><code>Id</code></a></td>
+<td>A unique identifier for the terminal instance.</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Authentication"><code>Authentication</code></a></td>
+<td>Configuration options for authentication.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Checker"><code>Checker</code></a></td>
+<td>Configuration options for command, argument, and option validation.</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Driver"><code>Driver</code></a></td>
+<td>Configuration options for the terminal's driver.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Help"><code>Help</code></a></td>
+<td>Configuration options related to the help system.</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Licensing"><code>Licensing</code></a></td>
+<td>Configuration options for licensing.</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Parser"><code>Parser</code></a></td>
+<td>Configuration options for extracting command arguments and options from input.</td>
+<td></td>
+</tr>
+<tr>
+<td><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.TerminalOptions.html#OneImlx_Terminal_Configuration_Options_TerminalOptions_Router"><code>Router</code></a></td>
+<td>Configuration options for the command router.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="authenticationoptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.AuthenticationOptions.html">AuthenticationOptions</a></h2>
+<blockquote>
+<p>Planned for next major release.</p>
+</blockquote>
+<h2 id="checkeroptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.CheckerOptions.html">CheckerOptions</a></h2>
+<p>The command, argument, and option checker configuration options. The checker options are not filters. The command execution is blocked if any check fails.</p>
+<h3 id="allowobsolete"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.CheckerOptions.html#OneImlx_Terminal_Configuration_Options_CheckerOptions_AllowObsolete">AllowObsolete</a></h3>
+<p>This setting determines the checker's behavior when a command is executed with obsolete arguments or options.</p>
+<ul>
+<li><strong>Runtime Check</strong>: The obsolete check triggers at runtime, specifically when a user or an application runs a command with an obsolete argument or option.</li>
+<li><strong>Conditional Effect</strong>: The setting is inactive if an obsolete argument is supported by the command but not provided in the command string at runtime.</li>
+</ul>
+<h3 id="strictvaluetype"><a href="xref:OneImlx.Terminal.Configuration.Options.CheckerOptions.StrictValueType">StrictValueType</a></h3>
+<p>This setting determines if the checker verifies the data type of argument or option value. When enabled, the checker attempts to match each value to its designated .NET data type, and if any mismatch occurs, it prevents the command from running.</p>
+<p><strong>Example Command</strong>:</p>
+<pre><code class="lang-plaintext">pi lic gen --lic-edition community --expiry 365 --nbf &quot;26-Apr-2022 14:36:11&quot; --test
+</code></pre>
+<p>In the example above, the <code>pi lic gen</code> command includes four options:</p>
+<ul>
+<li><code>lic-edition</code> (string)</li>
+<li><code>expiry</code> (int)</li>
+<li><code>nbf</code> (date and time)</li>
+<li><code>test</code> (boolean)</li>
+</ul>
+<p>With <code>StrictValueType</code> enabled, the checker conducts automatic type validation to ensure:</p>
+<ul>
+<li><code>lic-edition</code> is a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">System.String</a></li>
+<li><code>expiry</code> is a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">System.Int32</a></li>
+<li><code>nbf</code> is a valid <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">System.DateTime</a></li>
+<li><code>test</code> is a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">System.Boolean</a></li>
+</ul>
+<p>If any of these validations fail, the command will not execute.</p>
+<blockquote>
+<p><strong>Note:</strong> Disabling this configuration option results in the checker interpreting all values as strings.</p>
+</blockquote>
+<h2 id="driveroptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.DriverOptions.html">DriverOptions</a></h2>
+<p>Reserved for future use, the <code>DriverOptions</code> provide configuration settings for operating the terminal as a native driver program.</p>
+<h3 id="enabled"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.DriverOptions.html#OneImlx_Terminal_Configuration_Options_DriverOptions_Enabled">Enabled</a></h3>
+<p>Determines if the terminal functions as a native driver program, allowing execution of commands directly from a native command prompt. This option is a <code>bool</code>.</p>
+<h3 id="rootid"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.DriverOptions.html#OneImlx_Terminal_Configuration_Options_DriverOptions_RootId">RootId</a></h3>
+<p>Specifies the root identifier of the terminal driver program. This option is of type <code>string?</code>.</p>
+<blockquote>
+<p><strong>Note:</strong> These configuration options are reserved for future development and enhancements of the terminal framework.</p>
+</blockquote>
+<h2 id="helpoptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.HelpOptions.html">HelpOptions</a></h2>
+<p><code>HelpOptions</code> configures the help functionality within a terminal application, allowing customization of how help information is presented and accessible to users.</p>
+<h3 id="disabled"><a href="xref:OneImlx.Terminal.Configuration.Options.HelpOptions.Disabled">Disabled</a></h3>
+<p>This property determines whether the global help functionality is active. When set to <code>true</code>, the help functionality is disabled across the application.</p>
+<h3 id="optionid"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.HelpOptions.html#OneImlx_Terminal_Configuration_Options_HelpOptions_OptionId">OptionId</a></h3>
+<p><code>OptionId</code> provides a unique identifier for the help option, defaulting to <code>help</code>. It is crucial to ensure that this identifier is unique across all commands and options within the application.</p>
+<h3 id="optiondescription"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.HelpOptions.html#OneImlx_Terminal_Configuration_Options_HelpOptions_OptionDescription">OptionDescription</a></h3>
+<p>This property defines a description for the help option, with a default setting of &quot;The command help&quot;. This description can be modified to better align with the application's context.</p>
+<h3 id="optionalias"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.HelpOptions.html#OneImlx_Terminal_Configuration_Options_HelpOptions_OptionAlias">OptionAlias</a></h3>
+<p><code>OptionAlias</code> sets a shorthand alias for the help option, defaulting to <code>h</code>. It is important to maintain the uniqueness of this alias across all options and commands to ensure clarity for the end-users.</p>
+<h2 id="licensingoptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html">LicensingOptions</a></h2>
+<p><code>LicensingOptions</code> helps to configure licensing-related settings in your terminal application, ensuring that your usage complies with the licensing terms. For more details on generating license keys and accessing your identifiers, please visit <a href="../licensing/intro.html">licensing</a>.</p>
+<h3 id="licensefile"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html#OneImlx_Terminal_Configuration_Options_LicensingOptions_LicenseFile">LicenseFile</a></h3>
+<p>The path to the file containing the license key.</p>
+<h3 id="licenseplan"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html#OneImlx_Terminal_Configuration_Options_LicensingOptions_LicensePlan">LicensePlan</a></h3>
+<p>The license plan for the terminal, defaulting to the <a class="xref" href="../../../api/OneImlx.Shared.Licensing.TerminalLicensePlans.html#OneImlx_Shared_Licensing_TerminalLicensePlans_Demo">Demo</a> plan. The value should be one of the options provided by <a class="xref" href="../../../api/OneImlx.Shared.Licensing.TerminalLicensePlans.html">TerminalLicensePlans</a>.</p>
+<h3 id="deployment"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.LicensingOptions.html#OneImlx_Terminal_Configuration_Options_LicensingOptions_Deployment">Deployment</a></h3>
+<p>The deployment value indicating whether the terminal is deployed in a secured, offline environment. If set to <code>true</code>, the <code>ILicenseExtractor</code> will bypass the license checking. This option is crucial for hardware-centric or factory environments where software configurations are locked down. Ensure you have a valid active license plan to comply with licensing terms.</p>
+<h2 id="parseroptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.ParserOptions.html">ParserOptions</a></h2>
+<p>Configuration options for parsing command and argument strings.</p>
+<pre><code class="lang-csharp">// Example
+options.Parser.OptionAliasPrefix = &quot;-&quot;;
+dotnet build -c Release
+</code></pre>
+<p>In the example above, -c is recognized as an option alias.</p>
+<h3 id="optionprefix"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.ParserOptions.html#OneImlx_Terminal_Configuration_Options_ParserOptions_OptionPrefix">OptionPrefix</a></h3>
+<p>Defines the prefix for options, with a default of <code>--</code>. Like <code>OptionAliasPrefix</code>, it cannot be null or whitespace.</p>
+<pre><code class="lang-csharp">// Example
+options.Parser.OptionPrefix = &quot;--&quot;;
+dotnet run --configuration Debug
+</code></pre>
+<p>In the example above, <code>--configuration</code> is recognized as an option.</p>
+<h3 id="optionvalueseparator"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.ParserOptions.html#OneImlx_Terminal_Configuration_Options_ParserOptions_OptionValueSeparator">OptionValueSeparator</a></h3>
+<p>Sets the separator between an option and its value, defaulting to a space <code> </code>. It must be a single Unicode character but can be whitespace.</p>
+<pre><code class="lang-csharp">// Example
+options.Parser.OptionValueSeparator = &quot; &quot;;
+dotnet run --framework netcoreapp3.1
+</code></pre>
+<p>In this case, the space between <code>--framework</code> and <code>netcoreapp3.1</code> is the option value separator.</p>
+<h3 id="valuedelimiter"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.ParserOptions.html#OneImlx_Terminal_Configuration_Options_ParserOptions_ValueDelimiter">ValueDelimiter</a></h3>
+<p>Specifies a delimiter for enclosing argument or option values, with a default of <code>&quot;</code>.</p>
+<pre><code class="lang-csharp">// Example
+options.Parser.ValueDelimiter = &quot;\&quot;&quot;;
+dotnet run --project &quot;My Project&quot;
+</code></pre>
+<p>The quotes around My Project are the value delimiters..</p>
+<h3 id="separator"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.ParserOptions.html#OneImlx_Terminal_Configuration_Options_ParserOptions_Separator">Separator</a></h3>
+<p>Determines the separator for the command string, defaulting to a single space <code> </code>. It must be a single Unicode character and can be whitespace.</p>
+<pre><code class="lang-csharp">// Example
+options.Parser.Separator = &quot; &quot;;
+dotnet publish --runtime linux-x64
+</code></pre>
+<p>The spaces between the command and options are the separators.</p>
+<h2 id="routeroptions"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.RouterOptions.html">RouterOptions</a></h2>
+<p><code>RouterOptions</code> provides a range of settings that determine how command routing is handled within the terminal application.</p>
+<h3 id="caret"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.RouterOptions.html#OneImlx_Terminal_Configuration_Options_RouterOptions_Caret">Caret</a></h3>
+<p>The <code>Caret</code> property allows you to set the terminal caret that is displayed in the console, helping users to identify where they can input their commands. The default caret is <code>&gt;</code>.</p>
+<h3 id="timeout"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.RouterOptions.html#OneImlx_Terminal_Configuration_Options_RouterOptions_Timeout">Timeout</a></h3>
+<p>This property sets the timeout duration for command routing in milliseconds, with a default value of 25 seconds. Setting this to <code>Timeout.Infinite</code> will result in no timeout. A command route handles everything for a command: parsing it, making sure it's valid, and then running it.</p>
+<h3 id="maxclients"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.RouterOptions.html#OneImlx_Terminal_Configuration_Options_RouterOptions_MaxClients">MaxClients</a></h3>
+<p>The <code>MaxClients</code> property defines the maximum number of active remote client connections that the router can accept, with a default value of 5. This is particularly useful for managing resource usage and ensuring optimal performance.</p>
+<h3 id="maxlength"><a class="xref" href="../../../api/OneImlx.Terminal.Configuration.Options.RouterOptions.html#OneImlx_Terminal_Configuration_Options_RouterOptions_MaxLength">MaxLength</a></h3>
+<p>This property specifies the maximum length of a single message, with a default limit of 1024 characters. It helps in managing the data flow and ensuring that the messages are within an acceptable size range.</p>
+<h1 id="references">References</h1>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/options">Options pattern in .NET</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles">Architectural principles</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/perpetualintelligence/docs/blob/main/docfx_project/articles/terminal/configuration/options.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

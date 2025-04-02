@@ -1,0 +1,2743 @@
+{
+  "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker``1(OneImlx.Terminal.Hosting.ICommandBuilder)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Checker<TChecker>(ICommandBuilder)"
+            },
+            {
+              "lang": "vb",
+              "value": "Checker(Of TChecker)(ICommandBuilder)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.Checker<TChecker>(ICommandBuilder)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.Checker(Of TChecker)(ICommandBuilder)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker<TChecker>(OneImlx.Terminal.Hosting.ICommandBuilder)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker(Of TChecker)(OneImlx.Terminal.Hosting.ICommandBuilder)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker``1(OneImlx.Terminal.Hosting.ICommandBuilder)\" text=\"Checker&lt;TChecker&gt;(ICommandBuilder)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker``1(OneImlx.Terminal.Hosting.ICommandBuilder)\" text=\"Checker&lt;TChecker&gt;(ICommandBuilder)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ICommandBuilder Checker<TChecker>(this ICommandBuilder builder) where TChecker : ICommandChecker"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Checker(Of TChecker As ICommandChecker)(builder As ICommandBuilder) As ICommandBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TChecker",
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The checker type.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Checker",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 110,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Checker"
+              },
+              {
+                "lang": "vb",
+                "value": "Checker"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.Checker"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.Checker"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker*\" text=\"Checker\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker*\" text=\"Checker\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Checker_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Updates the checker for the registered command descriptor.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Checker__1_OneImlx_Terminal_Hosting_ICommandBuilder_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Checker%60%601(OneImlx.Terminal.Hosting.ICommandBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L111",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Checker__1_OneImlx_Terminal_Hosting_ICommandBuilder_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.Object)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomProperty(ICommandBuilder, string, object)"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomProperty(ICommandBuilder, String, Object)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.CustomProperty(ICommandBuilder, string, object)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.CustomProperty(ICommandBuilder, String, Object)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder, string, object)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder, String, Object)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.Object)\" text=\"CustomProperty(ICommandBuilder, string, object)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.Object)\" text=\"CustomProperty(ICommandBuilder, string, object)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ICommandBuilder CustomProperty(this ICommandBuilder builder, string key, object value)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function CustomProperty(builder As ICommandBuilder, key As String, value As Object) As ICommandBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "key",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The custom property key.</p>\n"
+              },
+              {
+                "id": "value",
+                "type": {
+                  "uid": "System.Object",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The custom property value.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "CustomProperty",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 45,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CustomProperty"
+              },
+              {
+                "lang": "vb",
+                "value": "CustomProperty"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.CustomProperty"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.CustomProperty"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty*\" text=\"CustomProperty\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty*\" text=\"CustomProperty\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_CustomProperty_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Adds a command custom property to the <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_CustomProperty_OneImlx_Terminal_Hosting_ICommandBuilder_System_String_System_Object_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.CustomProperty(OneImlx.Terminal.Hosting.ICommandBuilder%2CSystem.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L46",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_CustomProperty_OneImlx_Terminal_Hosting_ICommandBuilder_System_String_System_Object_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder,System.Int32,System.String,System.String,System.String,OneImlx.Terminal.Commands.ArgumentFlags)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DefineArgument(ICommandBuilder, int, string, string, string, ArgumentFlags)"
+            },
+            {
+              "lang": "vb",
+              "value": "DefineArgument(ICommandBuilder, Integer, String, String, String, ArgumentFlags)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.DefineArgument(ICommandBuilder, int, string, string, string, ArgumentFlags)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.DefineArgument(ICommandBuilder, Integer, String, String, String, ArgumentFlags)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder, int, string, string, string, OneImlx.Terminal.Commands.ArgumentFlags)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder, Integer, String, String, String, OneImlx.Terminal.Commands.ArgumentFlags)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder,System.Int32,System.String,System.String,System.String,OneImlx.Terminal.Commands.ArgumentFlags)\" text=\"DefineArgument(ICommandBuilder, int, string, string, string, ArgumentFlags)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder,System.Int32,System.String,System.String,System.String,OneImlx.Terminal.Commands.ArgumentFlags)\" text=\"DefineArgument(ICommandBuilder, int, string, string, string, ArgumentFlags)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static IArgumentBuilder DefineArgument(this ICommandBuilder builder, int order, string id, string dataType, string description, ArgumentFlags flags)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function DefineArgument(builder As ICommandBuilder, order As Integer, id As String, dataType As String, description As String, flags As ArgumentFlags) As IArgumentBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "order",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The argument order.</p>\n"
+              },
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The argument id.</p>\n"
+              },
+              {
+                "id": "dataType",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The argument data type.</p>\n"
+              },
+              {
+                "id": "description",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The argument description.</p>\n"
+              },
+              {
+                "id": "flags",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.ArgumentFlags",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ArgumentFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ArgumentFlags"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ArgumentFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ArgumentFlags"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.ArgumentFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.ArgumentFlags"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentFlags\" text=\"ArgumentFlags\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.ArgumentFlags\" text=\"ArgumentFlags\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The argument flags.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.IArgumentBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IArgumentBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IArgumentBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IArgumentBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IArgumentBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.IArgumentBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.IArgumentBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" text=\"IArgumentBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" text=\"IArgumentBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DefineArgument",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 79,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DefineArgument"
+              },
+              {
+                "lang": "vb",
+                "value": "DefineArgument"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.DefineArgument"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.DefineArgument"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument*\" text=\"DefineArgument\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument*\" text=\"DefineArgument\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineArgument_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Starts a new <xref href=\"OneImlx.Terminal.Hosting.IArgumentBuilder\" data-throw-if-not-resolved=\"false\"></xref> definition.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineArgument_OneImlx_Terminal_Hosting_ICommandBuilder_System_Int32_System_String_System_String_System_String_OneImlx_Terminal_Commands_ArgumentFlags_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineArgument(OneImlx.Terminal.Hosting.ICommandBuilder%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.String%2COneImlx.Terminal.Commands.ArgumentFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L80",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineArgument_OneImlx_Terminal_Hosting_ICommandBuilder_System_Int32_System_String_System_String_System_String_OneImlx_Terminal_Commands_ArgumentFlags_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.String,System.String,OneImlx.Terminal.Commands.OptionFlags,System.String)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DefineOption(ICommandBuilder, string, string, string, OptionFlags, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "DefineOption(ICommandBuilder, String, String, String, OptionFlags, String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.DefineOption(ICommandBuilder, string, string, string, OptionFlags, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.DefineOption(ICommandBuilder, String, String, String, OptionFlags, String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder, string, string, string, OneImlx.Terminal.Commands.OptionFlags, string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder, String, String, String, OneImlx.Terminal.Commands.OptionFlags, String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.String,System.String,OneImlx.Terminal.Commands.OptionFlags,System.String)\" text=\"DefineOption(ICommandBuilder, string, string, string, OptionFlags, string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder,System.String,System.String,System.String,OneImlx.Terminal.Commands.OptionFlags,System.String)\" text=\"DefineOption(ICommandBuilder, string, string, string, OptionFlags, string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static IOptionBuilder DefineOption(this ICommandBuilder builder, string id, string dataType, string description, OptionFlags flags, string? alias = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function DefineOption(builder As ICommandBuilder, id As String, dataType As String, description As String, flags As OptionFlags, [alias] As String = Nothing) As IOptionBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "id",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The option id.</p>\n"
+              },
+              {
+                "id": "dataType",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The option data type.</p>\n"
+              },
+              {
+                "id": "description",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The option description.</p>\n"
+              },
+              {
+                "id": "flags",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.OptionFlags",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "OptionFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OptionFlags"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "OptionFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OptionFlags"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.OptionFlags"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.OptionFlags"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.OptionFlags\" text=\"OptionFlags\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.OptionFlags\" text=\"OptionFlags\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The option flags.</p>\n"
+              },
+              {
+                "id": "alias",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The option alias.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.IOptionBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IOptionBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IOptionBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IOptionBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IOptionBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.IOptionBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.IOptionBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.IOptionBuilder\" text=\"IOptionBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.IOptionBuilder\" text=\"IOptionBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.IOptionBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "DefineOption",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 61,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DefineOption"
+              },
+              {
+                "lang": "vb",
+                "value": "DefineOption"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.DefineOption"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.DefineOption"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption*\" text=\"DefineOption\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption*\" text=\"DefineOption\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineOption_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Starts a new <xref href=\"OneImlx.Terminal.Hosting.IOptionBuilder\" data-throw-if-not-resolved=\"false\"></xref> definition.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineOption_OneImlx_Terminal_Hosting_ICommandBuilder_System_String_System_String_System_String_OneImlx_Terminal_Commands_OptionFlags_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.DefineOption(OneImlx.Terminal.Hosting.ICommandBuilder%2CSystem.String%2CSystem.String%2CSystem.String%2COneImlx.Terminal.Commands.OptionFlags%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L62",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_DefineOption_OneImlx_Terminal_Hosting_ICommandBuilder_System_String_System_String_System_String_OneImlx_Terminal_Commands_OptionFlags_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.OwnerIdCollection)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Owners(ICommandBuilder, OwnerIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "Owners(ICommandBuilder, OwnerIdCollection)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.Owners(ICommandBuilder, OwnerIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.Owners(ICommandBuilder, OwnerIdCollection)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder, OneImlx.Terminal.Commands.OwnerIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder, OneImlx.Terminal.Commands.OwnerIdCollection)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.OwnerIdCollection)\" text=\"Owners(ICommandBuilder, OwnerIdCollection)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.OwnerIdCollection)\" text=\"Owners(ICommandBuilder, OwnerIdCollection)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ICommandBuilder Owners(this ICommandBuilder builder, OwnerIdCollection owners)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Owners(builder As ICommandBuilder, owners As OwnerIdCollection) As ICommandBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "owners",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.OwnerIdCollection",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "OwnerIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OwnerIdCollection"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "OwnerIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OwnerIdCollection"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.OwnerIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.OwnerIdCollection"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.OwnerIdCollection\" text=\"OwnerIdCollection\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.OwnerIdCollection\" text=\"OwnerIdCollection\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The owner identifiers.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Owners",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Owners"
+              },
+              {
+                "lang": "vb",
+                "value": "Owners"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.Owners"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.Owners"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners*\" text=\"Owners\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners*\" text=\"Owners\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Owners_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Adds a command owners to the <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Owners_OneImlx_Terminal_Hosting_ICommandBuilder_OneImlx_Terminal_Commands_OwnerIdCollection_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Owners(OneImlx.Terminal.Hosting.ICommandBuilder%2COneImlx.Terminal.Commands.OwnerIdCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Owners_OneImlx_Terminal_Hosting_ICommandBuilder_OneImlx_Terminal_Commands_OwnerIdCollection_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.TagIdCollection)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Tags(ICommandBuilder, TagIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "Tags(ICommandBuilder, TagIdCollection)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICommandBuilderExtensions.Tags(ICommandBuilder, TagIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "ICommandBuilderExtensions.Tags(ICommandBuilder, TagIdCollection)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder, OneImlx.Terminal.Commands.TagIdCollection)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder, OneImlx.Terminal.Commands.TagIdCollection)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.TagIdCollection)\" text=\"Tags(ICommandBuilder, TagIdCollection)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder,OneImlx.Terminal.Commands.TagIdCollection)\" text=\"Tags(ICommandBuilder, TagIdCollection)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ICommandBuilder Tags(this ICommandBuilder builder, TagIdCollection tagIds)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Tags(builder As ICommandBuilder, tagIds As TagIdCollection) As ICommandBuilder"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "builder",
+                "type": {
+                  "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ICommandBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              },
+              {
+                "id": "tagIds",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.TagIdCollection",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TagIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TagIdCollection"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TagIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TagIdCollection"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.TagIdCollection"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.TagIdCollection"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.TagIdCollection\" text=\"TagIdCollection\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.TagIdCollection\" text=\"TagIdCollection\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The tag identifiers.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "OneImlx.Terminal.Hosting.ICommandBuilder",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ICommandBuilder"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Hosting.ICommandBuilder"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Hosting.ICommandBuilder\" text=\"ICommandBuilder\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The configured <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "Tags",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+            "startLine": 93,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Tags"
+              },
+              {
+                "lang": "vb",
+                "value": "Tags"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ICommandBuilderExtensions.Tags"
+              },
+              {
+                "lang": "vb",
+                "value": "ICommandBuilderExtensions.Tags"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags*\" text=\"Tags\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags*\" text=\"Tags\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Tags_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Adds command tags to the <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Tags_OneImlx_Terminal_Hosting_ICommandBuilder_OneImlx_Terminal_Commands_TagIdCollection_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions.Tags(OneImlx.Terminal.Hosting.ICommandBuilder%2COneImlx.Terminal.Commands.TagIdCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L94",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions_Tags_OneImlx_Terminal_Hosting_ICommandBuilder_OneImlx_Terminal_Commands_TagIdCollection_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ICommandBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ICommandBuilderExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ICommandBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ICommandBuilderExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Extensions.ICommandBuilderExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ICommandBuilderExtensions",
+    "path": "../../terminal/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"OneImlx.Terminal.Hosting.ICommandBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class ICommandBuilderExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module ICommandBuilderExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Extensions.ICommandBuilderExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_ICommandBuilderExtensions.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.ICommandBuilderExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/ICommandBuilderExtensions.cs/#L20",
+  "description": "The  extension methods.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Extensions_ICommandBuilderExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

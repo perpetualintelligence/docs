@@ -1,0 +1,1236 @@
+{
+  "uid": "OneImlx.Terminal.Extensions.IHostBuilderExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.IHostBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RunTerminalRouterAsync<TRouter, TContext>(IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "RunTerminalRouterAsync(Of TRouter, TContext)(IHostBuilder, TContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IHostBuilderExtensions.RunTerminalRouterAsync<TRouter, TContext>(IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "IHostBuilderExtensions.RunTerminalRouterAsync(Of TRouter, TContext)(IHostBuilder, TContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync<TRouter, TContext>(Microsoft.Extensions.Hosting.IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync(Of TRouter, TContext)(Microsoft.Extensions.Hosting.IHostBuilder, TContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)\" text=\"RunTerminalRouterAsync&lt;TRouter, TContext&gt;(IHostBuilder, TContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)\" text=\"RunTerminalRouterAsync&lt;TRouter, TContext&gt;(IHostBuilder, TContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Task RunTerminalRouterAsync<TRouter, TContext>(this IHostBuilder hostBuilder, TContext context) where TRouter : class, ITerminalRouter<TContext> where TContext : TerminalRouterContext"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function RunTerminalRouterAsync(Of TRouter As {Class, ITerminalRouter(Of TContext)}, TContext As TerminalRouterContext)(hostBuilder As IHostBuilder, context As TContext) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "hostBuilder",
+                "type": {
+                  "uid": "Microsoft.Extensions.Hosting.IHostBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IHostBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IHostBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Hosting.IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Hosting.IHostBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostBuilder\" text=\"IHostBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostBuilder\" text=\"IHostBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The host builder.</p>\n"
+              },
+              {
+                "id": "context",
+                "type": {
+                  "uid": "{TContext}",
+                  "definition": "TContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The routing context for terminal console routing.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TRouter",
+                "description": ""
+              },
+              {
+                "id": "TContext",
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RunTerminalRouterAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+            "startLine": 36,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RunTerminalRouterAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "RunTerminalRouterAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IHostBuilderExtensions.RunTerminalRouterAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "IHostBuilderExtensions.RunTerminalRouterAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync*\" text=\"RunTerminalRouterAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync*\" text=\"RunTerminalRouterAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouterAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Starts the <xref href=\"Microsoft.Extensions.Hosting.IHost\" data-throw-if-not-resolved=\"false\"></xref> and runs the <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> asynchronously, blocking\nthe calling thread until a cancellation request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouterAsync__2_Microsoft_Extensions_Hosting_IHostBuilder___1_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouterAsync%60%602(Microsoft.Extensions.Hosting.IHostBuilder%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs/#L37",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouterAsync__2_Microsoft_Extensions_Hosting_IHostBuilder___1_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "OneImlx.Terminal.Extensions.IHostBuilderExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RunTerminalRouter<TRouter, TContext>(IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "RunTerminalRouter(Of TRouter, TContext)(IHostBuilder, TContext)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IHostBuilderExtensions.RunTerminalRouter<TRouter, TContext>(IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "IHostBuilderExtensions.RunTerminalRouter(Of TRouter, TContext)(IHostBuilder, TContext)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter<TRouter, TContext>(Microsoft.Extensions.Hosting.IHostBuilder, TContext)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter(Of TRouter, TContext)(Microsoft.Extensions.Hosting.IHostBuilder, TContext)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)\" text=\"RunTerminalRouter&lt;TRouter, TContext&gt;(IHostBuilder, TContext)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter``2(Microsoft.Extensions.Hosting.IHostBuilder,``1)\" text=\"RunTerminalRouter&lt;TRouter, TContext&gt;(IHostBuilder, TContext)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static void RunTerminalRouter<TRouter, TContext>(this IHostBuilder hostBuilder, TContext context) where TRouter : class, ITerminalRouter<TContext> where TContext : TerminalRouterContext"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Sub RunTerminalRouter(Of TRouter As {Class, ITerminalRouter(Of TContext)}, TContext As TerminalRouterContext)(hostBuilder As IHostBuilder, context As TContext)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "hostBuilder",
+                "type": {
+                  "uid": "Microsoft.Extensions.Hosting.IHostBuilder",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IHostBuilder"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IHostBuilder"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Hosting.IHostBuilder"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Hosting.IHostBuilder"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostBuilder\" text=\"IHostBuilder\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Extensions.Hosting.IHostBuilder\" text=\"IHostBuilder\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The host builder.</p>\n"
+              },
+              {
+                "id": "context",
+                "type": {
+                  "uid": "{TContext}",
+                  "definition": "TContext",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "TContext"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TContext"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{TContext}\" text=\"TContext\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The routing context for terminal console routing.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "TRouter",
+                "description": ""
+              },
+              {
+                "id": "TContext",
+                "description": ""
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "RunTerminalRouter",
+            "path": "../../terminal/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+            "startLine": 24,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RunTerminalRouter"
+              },
+              {
+                "lang": "vb",
+                "value": "RunTerminalRouter"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IHostBuilderExtensions.RunTerminalRouter"
+              },
+              {
+                "lang": "vb",
+                "value": "IHostBuilderExtensions.RunTerminalRouter"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter*\" text=\"RunTerminalRouter\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter*\" text=\"RunTerminalRouter\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouter_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">Starts the <xref href=\"Microsoft.Extensions.Hosting.IHost\" data-throw-if-not-resolved=\"false\"></xref> and runs the <xref href=\"OneImlx.Terminal.Runtime.ITerminalRouter%601\" data-throw-if-not-resolved=\"false\"></xref> synchronously, blocking\nthe calling thread until a cancellation request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouter__2_Microsoft_Extensions_Hosting_IHostBuilder___1_.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.IHostBuilderExtensions.RunTerminalRouter%60%602(Microsoft.Extensions.Hosting.IHostBuilder%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs/#L25",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Extensions_IHostBuilderExtensions_RunTerminalRouter__2_Microsoft_Extensions_Hosting_IHostBuilder___1_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IHostBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "IHostBuilderExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IHostBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "IHostBuilderExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Extensions.IHostBuilderExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "IHostBuilderExtensions",
+    "path": "../../terminal/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs",
+    "startLine": 16,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Extensions.html\">Extensions</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"Microsoft.Extensions.Hosting.IHostBuilder\" data-throw-if-not-resolved=\"false\"></xref> extension methods.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class IHostBuilderExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module IHostBuilderExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Extensions.IHostBuilderExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Extensions_IHostBuilderExtensions.md&value=---%0Auid%3A%20OneImlx.Terminal.Extensions.IHostBuilderExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Extensions/IHostBuilderExtensions.cs/#L17",
+  "description": "The  extension methods.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Extensions_IHostBuilderExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

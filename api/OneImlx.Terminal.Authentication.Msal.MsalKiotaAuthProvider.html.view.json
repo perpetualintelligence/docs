@@ -1,0 +1,2094 @@
+{
+  "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor(OneImlx.Terminal.Configuration.Options.TerminalOptions,OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalKiotaAuthProvider(TerminalOptions, IMsalTokenAcquisition, ILogger<MsalKiotaAuthProvider>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(TerminalOptions, IMsalTokenAcquisition, ILogger(Of MsalKiotaAuthProvider))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalKiotaAuthProvider.MsalKiotaAuthProvider(TerminalOptions, IMsalTokenAcquisition, ILogger<MsalKiotaAuthProvider>)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalKiotaAuthProvider.New(TerminalOptions, IMsalTokenAcquisition, ILogger(Of MsalKiotaAuthProvider))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.MsalKiotaAuthProvider(OneImlx.Terminal.Configuration.Options.TerminalOptions, OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.New(OneImlx.Terminal.Configuration.Options.TerminalOptions, OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor(OneImlx.Terminal.Configuration.Options.TerminalOptions,OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider})\" text=\"MsalKiotaAuthProvider(TerminalOptions, IMsalTokenAcquisition, ILogger&lt;MsalKiotaAuthProvider&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor(OneImlx.Terminal.Configuration.Options.TerminalOptions,OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider})\" text=\"MsalKiotaAuthProvider(TerminalOptions, IMsalTokenAcquisition, ILogger&lt;MsalKiotaAuthProvider&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public MsalKiotaAuthProvider(TerminalOptions terminalOptions, IMsalTokenAcquisition msalTokenAcquisition, ILogger<MsalKiotaAuthProvider> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(terminalOptions As TerminalOptions, msalTokenAcquisition As IMsalTokenAcquisition, logger As ILogger(Of MsalKiotaAuthProvider))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "terminalOptions",
+                "type": {
+                  "uid": "OneImlx.Terminal.Configuration.Options.TerminalOptions",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalOptions"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalOptions"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Configuration.Options.TerminalOptions"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Configuration.Options.TerminalOptions"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Configuration.Options.TerminalOptions\" text=\"TerminalOptions\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Configuration.Options.TerminalOptions\" text=\"TerminalOptions\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The terminal options.</p>\n"
+              },
+              {
+                "id": "msalTokenAcquisition",
+                "type": {
+                  "uid": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IMsalTokenAcquisition"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IMsalTokenAcquisition"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IMsalTokenAcquisition"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IMsalTokenAcquisition"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" text=\"IMsalTokenAcquisition\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" text=\"IMsalTokenAcquisition\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The MSAL token acquisition.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalKiotaAuthProvider>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalKiotaAuthProvider)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalKiotaAuthProvider>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalKiotaAuthProvider)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.html\">MsalKiotaAuthProvider</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.html\">MsalKiotaAuthProvider</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The logger.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalKiotaAuthProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalKiotaAuthProvider.MsalKiotaAuthProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalKiotaAuthProvider.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.MsalKiotaAuthProvider"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor*\" text=\"MsalKiotaAuthProvider\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.#ctor*\" text=\"MsalKiotaAuthProvider\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Initializes a new instance.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider__ctor_OneImlx_Terminal_Configuration_Options_TerminalOptions_OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider__.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.%23ctor(OneImlx.Terminal.Configuration.Options.TerminalOptions%2COneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider__ctor_OneImlx_Terminal_Configuration_Options_TerminalOptions_OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowedHostsValidator"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowedHostsValidator"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalKiotaAuthProvider.AllowedHostsValidator"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalKiotaAuthProvider.AllowedHostsValidator"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public AllowedHostsValidator AllowedHostsValidator { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public ReadOnly Property AllowedHostsValidator As AllowedHostsValidator"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AllowedHostsValidator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AllowedHostsValidator"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AllowedHostsValidator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AllowedHostsValidator"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AllowedHostsValidator",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+            "startLine": 46,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowedHostsValidator"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowedHostsValidator"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalKiotaAuthProvider.AllowedHostsValidator"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalKiotaAuthProvider.AllowedHostsValidator"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator*\" text=\"AllowedHostsValidator\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator*\" text=\"AllowedHostsValidator\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AllowedHostsValidator_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.AllowedHostsValidator",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "AllowedHostsValidator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "AllowedHostsValidator"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IAccessTokenProvider.AllowedHostsValidator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IAccessTokenProvider.AllowedHostsValidator"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.AllowedHostsValidator"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.AllowedHostsValidator"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.AllowedHostsValidator\" text=\"AllowedHostsValidator\"/>"
+                }
+              ]
+            }
+          ],
+          "type": "property",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Gets the validator that ensures the authorization request is for an allowed host.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AllowedHostsValidator.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AllowedHostsValidator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs/#L47",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AllowedHostsValidator",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AuthenticateRequestAsync(RequestInformation, Dictionary<string, object>?, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "AuthenticateRequestAsync(RequestInformation, Dictionary(Of String, Object), CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalKiotaAuthProvider.AuthenticateRequestAsync(RequestInformation, Dictionary<string, object>?, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalKiotaAuthProvider.AuthenticateRequestAsync(RequestInformation, Dictionary(Of String, Object), CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation, System.Collections.Generic.Dictionary<string, object>?, System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation, System.Collections.Generic.Dictionary(Of String, Object), System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"AuthenticateRequestAsync(RequestInformation, Dictionary&lt;string, object&gt;?, CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"AuthenticateRequestAsync(RequestInformation, Dictionary&lt;string, object&gt;?, CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task AuthenticateRequestAsync(RequestInformation request, Dictionary<string, object>? additionalAuthenticationContext = null, CancellationToken cancellationToken = default)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function AuthenticateRequestAsync(request As RequestInformation, additionalAuthenticationContext As Dictionary(Of String, Object) = Nothing, cancellationToken As CancellationToken = Nothing) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "request",
+                "type": {
+                  "uid": "Microsoft.Kiota.Abstractions.RequestInformation",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "RequestInformation"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "RequestInformation"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "RequestInformation"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "RequestInformation"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Kiota.Abstractions.RequestInformation"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Kiota.Abstractions.RequestInformation"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Kiota.Abstractions.RequestInformation\" text=\"RequestInformation\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Kiota.Abstractions.RequestInformation\" text=\"RequestInformation\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The HTTP request to authenticate.</p>\n"
+              },
+              {
+                "id": "additionalAuthenticationContext",
+                "type": {
+                  "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.Dictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Optional. Additional authentication context that may contain extra scopes or other information.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Optional. The cancellation token to cancel the asynchronous operation.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AuthenticateRequestAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+            "startLine": 70,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">This method supports additional scopes provided either as an <xref href=\"System.Collections.Generic.IEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref> or a single string\nwith scopes separated by spaces. The scopes are expected to be provided in the\nadditionalAuthenticationContext dictionary with the key <code>scopes</code>.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AuthenticateRequestAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AuthenticateRequestAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalKiotaAuthProvider.AuthenticateRequestAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalKiotaAuthProvider.AuthenticateRequestAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync*\" text=\"AuthenticateRequestAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync*\" text=\"AuthenticateRequestAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AuthenticateRequestAsync_"
+          },
+          "exceptions": [
+            {
+              "type": {
+                "uid": "OneImlx.Terminal.Shared.TerminalException",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Thrown if the URI is not allowed by the AllowedHostsValidator or if token acquisition fails.</p>\n"
+            }
+          ],
+          "level": 0,
+          "implements": [
+            {
+              "uid": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "AuthenticateRequestAsync(RequestInformation, Dictionary<string, object>, CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "AuthenticateRequestAsync(RequestInformation, Dictionary(Of String, Object), CancellationToken)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IAuthenticationProvider.AuthenticateRequestAsync(RequestInformation, Dictionary<string, object>, CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IAuthenticationProvider.AuthenticateRequestAsync(RequestInformation, Dictionary(Of String, Object), CancellationToken)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation, System.Collections.Generic.Dictionary<string, object>, System.Threading.CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation, System.Collections.Generic.Dictionary(Of String, Object), System.Threading.CancellationToken)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"AuthenticateRequestAsync\"/>(<xref uid=\"Microsoft.Kiota.Abstractions.RequestInformation\" text=\"RequestInformation\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"AuthenticateRequestAsync\"/>(<xref uid=\"Microsoft.Kiota.Abstractions.RequestInformation\" text=\"RequestInformation\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Authenticates an HTTP request by acquiring an access token and setting it in the request's Authorization header.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AuthenticateRequestAsync_Microsoft_Kiota_Abstractions_RequestInformation_System_Collections_Generic_Dictionary_System_String_System_Object__System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.AuthenticateRequestAsync(Microsoft.Kiota.Abstractions.RequestInformation%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs/#L71",
+          "description": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_AuthenticateRequestAsync_Microsoft_Kiota_Abstractions_RequestInformation_System_Collections_Generic_Dictionary_System_String_System_Object__System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetAuthorizationTokenAsync(Uri, Dictionary<string, object>?, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalKiotaAuthProvider.GetAuthorizationTokenAsync(Uri, Dictionary<string, object>?, CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalKiotaAuthProvider.GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary<string, object>?, System.Threading.CancellationToken)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary(Of String, Object), System.Threading.CancellationToken)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"GetAuthorizationTokenAsync(Uri, Dictionary&lt;string, object&gt;?, CancellationToken)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"GetAuthorizationTokenAsync(Uri, Dictionary&lt;string, object&gt;?, CancellationToken)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task<string> GetAuthorizationTokenAsync(Uri uri, Dictionary<string, object>? additionalAuthenticationContext = null, CancellationToken cancellationToken = default)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetAuthorizationTokenAsync(uri As Uri, additionalAuthenticationContext As Dictionary(Of String, Object) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of String)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "uri",
+                "type": {
+                  "uid": "System.Uri",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Uri"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Uri"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Uri"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Uri"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Uri"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Uri"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Uri\" text=\"Uri\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Uri\" text=\"Uri\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The URI for which the authorization token is required.</p>\n"
+              },
+              {
+                "id": "additionalAuthenticationContext",
+                "type": {
+                  "uid": "System.Collections.Generic.Dictionary{System.String,System.Object}",
+                  "definition": "System.Collections.Generic.Dictionary`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.Dictionary<string, object>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.Dictionary(Of String, Object)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Optional. Additional authentication context that may contain extra scopes or other information.</p>\n"
+              },
+              {
+                "id": "cancellationToken",
+                "type": {
+                  "uid": "System.Threading.CancellationToken",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CancellationToken"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Threading.CancellationToken"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Threading.CancellationToken"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Threading.CancellationToken\" text=\"CancellationToken\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Optional. The cancellation token to cancel the asynchronous operation.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.String}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of String)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of String)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<string>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of String)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">A task that represents the asynchronous operation, containing the authorization token.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetAuthorizationTokenAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+            "startLine": 92,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">This method supports additional scopes provided either as an <xref href=\"System.Collections.Generic.IEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref> or a single string\nwith scopes separated by spaces. The scopes are expected to be provided in the\nadditionalAuthenticationContext dictionary with the key <code>scopes</code>.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetAuthorizationTokenAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "GetAuthorizationTokenAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalKiotaAuthProvider.GetAuthorizationTokenAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalKiotaAuthProvider.GetAuthorizationTokenAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync*\" text=\"GetAuthorizationTokenAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync*\" text=\"GetAuthorizationTokenAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_GetAuthorizationTokenAsync_"
+          },
+          "exceptions": [
+            {
+              "type": {
+                "uid": "OneImlx.Terminal.Shared.TerminalException",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "TerminalException"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OneImlx.Terminal.Shared.TerminalException"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalException\" text=\"TerminalException\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Thrown if the URI is not allowed by the AllowedHostsValidator.</p>\n"
+            }
+          ],
+          "level": 0,
+          "implements": [
+            {
+              "uid": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "GetAuthorizationTokenAsync(Uri, Dictionary<string, object>, CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IAccessTokenProvider.GetAuthorizationTokenAsync(Uri, Dictionary<string, object>, CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IAccessTokenProvider.GetAuthorizationTokenAsync(Uri, Dictionary(Of String, Object), CancellationToken)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary<string, object>, System.Threading.CancellationToken)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.GetAuthorizationTokenAsync(System.Uri, System.Collections.Generic.Dictionary(Of String, Object), System.Threading.CancellationToken)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"GetAuthorizationTokenAsync\"/>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uri\">Uri</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)\" text=\"GetAuthorizationTokenAsync\"/>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.uri\">Uri</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2\">Dictionary</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken\">CancellationToken</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">Asynchronously gets an authorization token for the specified URI.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_GetAuthorizationTokenAsync_System_Uri_System_Collections_Generic_Dictionary_System_String_System_Object__System_Threading_CancellationToken_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.GetAuthorizationTokenAsync(System.Uri%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs/#L93",
+          "description": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider_GetAuthorizationTokenAsync_System_Uri_System_Collections_Generic_Dictionary_System_String_System_Object__System_Threading_CancellationToken_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "MsalKiotaAuthProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalKiotaAuthProvider"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "MsalKiotaAuthProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalKiotaAuthProvider"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "MsalKiotaAuthProvider",
+    "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs",
+    "startLine": 25,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Authentication"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml\" sourcestartlinenumber=\"1\">The <code>OneImlx</code> terminal <code>Kiota</code> authentication and authorization provider for <code>MSAL</code> identity platform.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public sealed class MsalKiotaAuthProvider : IAuthenticationProvider, IAccessTokenProvider"
+      },
+      {
+        "lang": "vb",
+        "value": "Public NotInheritable Class MsalKiotaAuthProvider Implements IAuthenticationProvider, IAccessTokenProvider"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAuthenticationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "IAuthenticationProvider"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAuthenticationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "IAuthenticationProvider"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" text=\"IAuthenticationProvider\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAuthenticationProvider\" text=\"IAuthenticationProvider\"/>"
+        }
+      ]
+    },
+    {
+      "uid": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IAccessTokenProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "IAccessTokenProvider"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IAccessTokenProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "IAccessTokenProvider"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider"
+        },
+        {
+          "lang": "vb",
+          "value": "Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider\" text=\"IAccessTokenProvider\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"Microsoft.Kiota.Abstractions.Authentication.IAccessTokenProvider\" text=\"IAccessTokenProvider\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalKiotaAuthProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalKiotaAuthProvider.cs/#L26",
+  "description": "The OneImlx terminal Kiota authentication and authorization provider for MSAL identity platform.",
+  "remarks": "",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Authentication_Msal_MsalKiotaAuthProvider",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

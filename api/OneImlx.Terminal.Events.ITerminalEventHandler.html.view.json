@@ -1,0 +1,1864 @@
+{
+  "uid": "OneImlx.Terminal.Events.ITerminalEventHandler",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Events",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Events.html\">Events</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Events.html\">Events</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AfterCommandCheckAsync(Command, CommandCheckerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "AfterCommandCheckAsync(Command, CommandCheckerResult)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.AfterCommandCheckAsync(Command, CommandCheckerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.AfterCommandCheckAsync(Command, CommandCheckerResult)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command, OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command, OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)\" text=\"AfterCommandCheckAsync(Command, CommandCheckerResult)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Checkers.CommandCheckerResult)\" text=\"AfterCommandCheckAsync(Command, CommandCheckerResult)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task AfterCommandCheckAsync(Command command, CommandCheckerResult result)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function AfterCommandCheckAsync(command As Command, result As CommandCheckerResult) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "command",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Command",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command object.</p>\n"
+              },
+              {
+                "id": "result",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Checkers.CommandCheckerResult",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandCheckerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandCheckerResult"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandCheckerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandCheckerResult"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Checkers.CommandCheckerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Checkers.CommandCheckerResult"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.CommandCheckerResult\" text=\"CommandCheckerResult\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Checkers.CommandCheckerResult\" text=\"CommandCheckerResult\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command run result.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AfterCommandCheckAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 70,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The framework will not call <xref href=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command%2cOneImlx.Terminal.Commands.Checkers.CommandCheckerResult)\" data-throw-if-not-resolved=\"false\"></xref> if there is an error during the command check.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AfterCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AfterCommandCheckAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.AfterCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.AfterCommandCheckAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync*\" text=\"AfterCommandCheckAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync*\" text=\"AfterCommandCheckAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation after <xref href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" data-throw-if-not-resolved=\"false\"></xref> ends a command check.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Checkers_CommandCheckerResult_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandCheckAsync(OneImlx.Terminal.Commands.Command%2COneImlx.Terminal.Commands.Checkers.CommandCheckerResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L71",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandCheckAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Checkers_CommandCheckerResult_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.CommandResult)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)"
+            },
+            {
+              "lang": "vb",
+              "value": "AfterCommandRouteAsync(TerminalRequest, Command, CommandResult)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.AfterCommandRouteAsync(TerminalRequest, Command, CommandResult)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest, OneImlx.Terminal.Commands.Command?, OneImlx.Terminal.Commands.CommandResult?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest, OneImlx.Terminal.Commands.Command, OneImlx.Terminal.Commands.CommandResult)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.CommandResult)\" text=\"AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest,OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.CommandResult)\" text=\"AfterCommandRouteAsync(TerminalRequest, Command?, CommandResult?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task AfterCommandRouteAsync(TerminalRequest request, Command? command, CommandResult? result)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function AfterCommandRouteAsync(request As TerminalRequest, command As Command, result As CommandResult) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "request",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command request.</p>\n"
+              },
+              {
+                "id": "command",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Command",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command object. May be <code>null</code>.</p>\n"
+              },
+              {
+                "id": "result",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.CommandResult",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandResult"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandResult"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.CommandResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.CommandResult"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandResult\" text=\"CommandResult\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.CommandResult\" text=\"CommandResult\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command router result. May be <code>null</code>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AfterCommandRouteAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 38,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The framework will call <xref href=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest%2cOneImlx.Terminal.Commands.Command%2cOneImlx.Terminal.Commands.CommandResult)\" data-throw-if-not-resolved=\"false\"></xref> even if there is an error during command routing.\nThe <code>command</code> and <code>result</code> parameters may be <code>null</code>. The router constructs a <code>command</code> object if the parser, handler, and checker pass\nand routes a command to run.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AfterCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AfterCommandRouteAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.AfterCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.AfterCommandRouteAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync*\" text=\"AfterCommandRouteAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync*\" text=\"AfterCommandRouteAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation after <xref href=\"OneImlx.Terminal.Commands.ICommandRouter\" data-throw-if-not-resolved=\"false\"></xref> ends a command request and process the command result.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_CommandResult_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest%2COneImlx.Terminal.Commands.Command%2COneImlx.Terminal.Commands.CommandResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L39",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_CommandResult_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Runners.CommandRunnerResult)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AfterCommandRunAsync(Command, CommandRunnerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "AfterCommandRunAsync(Command, CommandRunnerResult)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.AfterCommandRunAsync(Command, CommandRunnerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.AfterCommandRunAsync(Command, CommandRunnerResult)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command, OneImlx.Terminal.Commands.Runners.CommandRunnerResult)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command, OneImlx.Terminal.Commands.Runners.CommandRunnerResult)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Runners.CommandRunnerResult)\" text=\"AfterCommandRunAsync(Command, CommandRunnerResult)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command,OneImlx.Terminal.Commands.Runners.CommandRunnerResult)\" text=\"AfterCommandRunAsync(Command, CommandRunnerResult)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task AfterCommandRunAsync(Command command, CommandRunnerResult result)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function AfterCommandRunAsync(command As Command, result As CommandRunnerResult) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "command",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Command",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command object.</p>\n"
+              },
+              {
+                "id": "result",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandRunnerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandRunnerResult"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CommandRunnerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CommandRunnerResult"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Runners.CommandRunnerResult"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult\" text=\"CommandRunnerResult\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Runners.CommandRunnerResult\" text=\"CommandRunnerResult\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command run result.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AfterCommandRunAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 54,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The framework will not call <xref href=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command%2cOneImlx.Terminal.Commands.Runners.CommandRunnerResult)\" data-throw-if-not-resolved=\"false\"></xref> if there is an error during the command run.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AfterCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AfterCommandRunAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.AfterCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.AfterCommandRunAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync*\" text=\"AfterCommandRunAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync*\" text=\"AfterCommandRunAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation after <xref href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" data-throw-if-not-resolved=\"false\"></xref> ends a command run and process the command result.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Runners_CommandRunnerResult_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.AfterCommandRunAsync(OneImlx.Terminal.Commands.Command%2COneImlx.Terminal.Commands.Runners.CommandRunnerResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L55",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_AfterCommandRunAsync_OneImlx_Terminal_Commands_Command_OneImlx_Terminal_Commands_Runners_CommandRunnerResult_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BeforeCommandCheckAsync(Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "BeforeCommandCheckAsync(Command)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.BeforeCommandCheckAsync(Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.BeforeCommandCheckAsync(Command)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)\" text=\"BeforeCommandCheckAsync(Command)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)\" text=\"BeforeCommandCheckAsync(Command)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task BeforeCommandCheckAsync(Command command)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function BeforeCommandCheckAsync(command As Command) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "command",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Command",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command object.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "BeforeCommandCheckAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 60,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "BeforeCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "BeforeCommandCheckAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.BeforeCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.BeforeCommandCheckAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync*\" text=\"BeforeCommandCheckAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync*\" text=\"BeforeCommandCheckAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandCheckAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation before <xref href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" data-throw-if-not-resolved=\"false\"></xref> starts a command check.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandCheckAsync_OneImlx_Terminal_Commands_Command_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandCheckAsync(OneImlx.Terminal.Commands.Command)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L61",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandCheckAsync_OneImlx_Terminal_Commands_Command_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BeforeCommandRouteAsync(TerminalRequest)"
+            },
+            {
+              "lang": "vb",
+              "value": "BeforeCommandRouteAsync(TerminalRequest)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.BeforeCommandRouteAsync(TerminalRequest)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.BeforeCommandRouteAsync(TerminalRequest)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)\" text=\"BeforeCommandRouteAsync(TerminalRequest)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)\" text=\"BeforeCommandRouteAsync(TerminalRequest)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task BeforeCommandRouteAsync(TerminalRequest request)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function BeforeCommandRouteAsync(request As TerminalRequest) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "request",
+                "type": {
+                  "uid": "OneImlx.Terminal.Shared.TerminalRequest",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "TerminalRequest"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Shared.TerminalRequest"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Shared.TerminalRequest\" text=\"TerminalRequest\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command request.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "BeforeCommandRouteAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 25,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "BeforeCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "BeforeCommandRouteAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.BeforeCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.BeforeCommandRouteAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync*\" text=\"BeforeCommandRouteAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync*\" text=\"BeforeCommandRouteAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRouteAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation before <xref href=\"OneImlx.Terminal.Commands.ICommandRouter\" data-throw-if-not-resolved=\"false\"></xref> starts a command request.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRouteAsync(OneImlx.Terminal.Shared.TerminalRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L26",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRouteAsync_OneImlx_Terminal_Shared_TerminalRequest_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Events.ITerminalEventHandler",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BeforeCommandRunAsync(Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "BeforeCommandRunAsync(Command)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ITerminalEventHandler.BeforeCommandRunAsync(Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "ITerminalEventHandler.BeforeCommandRunAsync(Command)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)\" text=\"BeforeCommandRunAsync(Command)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)\" text=\"BeforeCommandRunAsync(Command)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Task BeforeCommandRunAsync(Command command)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function BeforeCommandRunAsync(command As Command) As Task"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "command",
+                "type": {
+                  "uid": "OneImlx.Terminal.Commands.Command",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Command"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "OneImlx.Terminal.Commands.Command"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"OneImlx.Terminal.Commands.Command\" text=\"Command\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The command object.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Threading.Tasks.Task\" text=\"Task\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "BeforeCommandRunAsync",
+            "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+            "startLine": 44,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal"
+          ],
+          "namespace": "OneImlx.Terminal.Events",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "BeforeCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "BeforeCommandRunAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ITerminalEventHandler.BeforeCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "ITerminalEventHandler.BeforeCommandRunAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync*\" text=\"BeforeCommandRunAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync*\" text=\"BeforeCommandRunAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRunAsync_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">Override this method if you will perform an asynchronous operation before <xref href=\"OneImlx.Terminal.Commands.Handlers.ICommandHandler\" data-throw-if-not-resolved=\"false\"></xref> starts a command run.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRunAsync_OneImlx_Terminal_Commands_Command_.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler.BeforeCommandRunAsync(OneImlx.Terminal.Commands.Command)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L45",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Events_ITerminalEventHandler_BeforeCommandRunAsync_OneImlx_Terminal_Commands_Command_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalEventHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalEventHandler"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ITerminalEventHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "ITerminalEventHandler"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Events.ITerminalEventHandler"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Events.ITerminalEventHandler"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "ITerminalEventHandler",
+    "path": "../../terminal/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs",
+    "startLine": 19,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Events",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Events"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Events"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Events.html\">Events</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Events.html\">Events</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Events.ITerminalEventHandler.yml\" sourcestartlinenumber=\"1\">The terminal event handler.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface ITerminalEventHandler"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface ITerminalEventHandler"
+      }
+    ]
+  },
+  "level": 0,
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Events.ITerminalEventHandler.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Events.ITerminalEventHandler.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Events_ITerminalEventHandler.md&value=---%0Auid%3A%20OneImlx.Terminal.Events.ITerminalEventHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal/Events/ITerminalEventHandler.cs/#L20",
+  "description": "The terminal event handler.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Events_ITerminalEventHandler",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

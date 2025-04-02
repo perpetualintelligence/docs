@@ -1,0 +1,1858 @@
+{
+  "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor(Microsoft.Identity.Client.IPublicClientApplication,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MsalPublicClientTokenAcquisition(IPublicClientApplication, ILogger<MsalPublicClientTokenAcquisition>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(IPublicClientApplication, ILogger(Of MsalPublicClientTokenAcquisition))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalPublicClientTokenAcquisition.MsalPublicClientTokenAcquisition(IPublicClientApplication, ILogger<MsalPublicClientTokenAcquisition>)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalPublicClientTokenAcquisition.New(IPublicClientApplication, ILogger(Of MsalPublicClientTokenAcquisition))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.MsalPublicClientTokenAcquisition(Microsoft.Identity.Client.IPublicClientApplication, Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.New(Microsoft.Identity.Client.IPublicClientApplication, Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor(Microsoft.Identity.Client.IPublicClientApplication,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition})\" text=\"MsalPublicClientTokenAcquisition(IPublicClientApplication, ILogger&lt;MsalPublicClientTokenAcquisition&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor(Microsoft.Identity.Client.IPublicClientApplication,Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition})\" text=\"MsalPublicClientTokenAcquisition(IPublicClientApplication, ILogger&lt;MsalPublicClientTokenAcquisition&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public MsalPublicClientTokenAcquisition(IPublicClientApplication publicClientApplication, ILogger<MsalPublicClientTokenAcquisition> logger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(publicClientApplication As IPublicClientApplication, logger As ILogger(Of MsalPublicClientTokenAcquisition))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "publicClientApplication",
+                "type": {
+                  "uid": "Microsoft.Identity.Client.IPublicClientApplication",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IPublicClientApplication"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IPublicClientApplication"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IPublicClientApplication"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IPublicClientApplication"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Identity.Client.IPublicClientApplication"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Identity.Client.IPublicClientApplication"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Identity.Client.IPublicClientApplication\" text=\"IPublicClientApplication\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Identity.Client.IPublicClientApplication\" text=\"IPublicClientApplication\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The MSAL public client application instance.</p>\n"
+              },
+              {
+                "id": "logger",
+                "type": {
+                  "uid": "Microsoft.Extensions.Logging.ILogger{OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition}",
+                  "definition": "Microsoft.Extensions.Logging.ILogger`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalPublicClientTokenAcquisition>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalPublicClientTokenAcquisition)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ILogger<MsalPublicClientTokenAcquisition>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ILogger(Of MsalPublicClientTokenAcquisition)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Extensions.Logging.ILogger<OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Extensions.Logging.ILogger(Of OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>&lt;<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.html\">MsalPublicClientTokenAcquisition</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1\">ILogger</a>(Of <a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.html\">MsalPublicClientTokenAcquisition</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The logger to use for logging information and errors.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": ".ctor",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+            "startLine": 33,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MsalPublicClientTokenAcquisition"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalPublicClientTokenAcquisition.MsalPublicClientTokenAcquisition"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalPublicClientTokenAcquisition.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.MsalPublicClientTokenAcquisition"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor*\" text=\"MsalPublicClientTokenAcquisition\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.#ctor*\" text=\"MsalPublicClientTokenAcquisition\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">Initializes a new instance of the MsalPublicClientTokenAcquisition class.\nRequires an instance of IPublicClientApplication, which is the entry point for using MSAL,\nand a logger for logging activities and errors.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition__ctor_Microsoft_Identity_Client_IPublicClientApplication_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition__.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.%23ctor(Microsoft.Identity.Client.IPublicClientApplication%2CMicrosoft.Extensions.Logging.ILogger%7BOneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs/#L34",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition__ctor_Microsoft_Identity_Client_IPublicClientApplication_Microsoft_Extensions_Logging_ILogger_OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable{System.String})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AcquireTokenInteractiveAsync(IEnumerable<string>)"
+            },
+            {
+              "lang": "vb",
+              "value": "AcquireTokenInteractiveAsync(IEnumerable(Of String))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(IEnumerable<string>)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(IEnumerable(Of String))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable<string>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable(Of String))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable{System.String})\" text=\"AcquireTokenInteractiveAsync(IEnumerable&lt;string&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable{System.String})\" text=\"AcquireTokenInteractiveAsync(IEnumerable&lt;string&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task<AuthenticationResult> AcquireTokenInteractiveAsync(IEnumerable<string> scopes)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function AcquireTokenInteractiveAsync(scopes As IEnumerable(Of String)) As Task(Of AuthenticationResult)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "scopes",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of String)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The scopes for which the token is requested.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{Microsoft.Identity.Client.AuthenticationResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of AuthenticationResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of AuthenticationResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<Microsoft.Identity.Client.AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of Microsoft.Identity.Client.AuthenticationResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult\">AuthenticationResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult\">AuthenticationResult</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation and returning the authentication result.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AcquireTokenInteractiveAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+            "startLine": 55,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AcquireTokenInteractiveAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AcquireTokenInteractiveAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync*\" text=\"AcquireTokenInteractiveAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync*\" text=\"AcquireTokenInteractiveAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenInteractiveAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable{System.String})",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "AcquireTokenInteractiveAsync(IEnumerable<string>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "AcquireTokenInteractiveAsync(IEnumerable(Of String))"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMsalTokenAcquisition.AcquireTokenInteractiveAsync(IEnumerable<string>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMsalTokenAcquisition.AcquireTokenInteractiveAsync(IEnumerable(Of String))"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable<string>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable(Of String))"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_AcquireTokenInteractiveAsync_System_Collections_Generic_IEnumerable_System_String__\">AcquireTokenInteractiveAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_AcquireTokenInteractiveAsync_System_Collections_Generic_IEnumerable_System_String__\">AcquireTokenInteractiveAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>))"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">Attempts to acquire a token interactively for the specified scopes.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenInteractiveAsync_System_Collections_Generic_IEnumerable_System_String__.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenInteractiveAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs/#L56",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenInteractiveAsync_System_Collections_Generic_IEnumerable_System_String__",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.Identity.Client.IAccount)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AcquireTokenSilentAsync(IEnumerable<string>, IAccount)"
+            },
+            {
+              "lang": "vb",
+              "value": "AcquireTokenSilentAsync(IEnumerable(Of String), IAccount)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(IEnumerable<string>, IAccount)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(IEnumerable(Of String), IAccount)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable<string>, Microsoft.Identity.Client.IAccount)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable(Of String), Microsoft.Identity.Client.IAccount)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.Identity.Client.IAccount)\" text=\"AcquireTokenSilentAsync(IEnumerable&lt;string&gt;, IAccount)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.Identity.Client.IAccount)\" text=\"AcquireTokenSilentAsync(IEnumerable&lt;string&gt;, IAccount)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task<AuthenticationResult> AcquireTokenSilentAsync(IEnumerable<string> scopes, IAccount account)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function AcquireTokenSilentAsync(scopes As IEnumerable(Of String), account As IAccount) As Task(Of AuthenticationResult)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "scopes",
+                "type": {
+                  "uid": "System.Collections.Generic.IEnumerable{System.String}",
+                  "definition": "System.Collections.Generic.IEnumerable`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IEnumerable(Of String)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.IEnumerable<string>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.IEnumerable(Of String)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The scopes for which the token is requested.</p>\n"
+              },
+              {
+                "id": "account",
+                "type": {
+                  "uid": "Microsoft.Identity.Client.IAccount",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "IAccount"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IAccount"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "IAccount"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "IAccount"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "Microsoft.Identity.Client.IAccount"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Microsoft.Identity.Client.IAccount"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"Microsoft.Identity.Client.IAccount\" text=\"IAccount\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"Microsoft.Identity.Client.IAccount\" text=\"IAccount\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The account for which the token is requested.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{Microsoft.Identity.Client.AuthenticationResult}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of AuthenticationResult)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of AuthenticationResult)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<Microsoft.Identity.Client.AuthenticationResult>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of Microsoft.Identity.Client.AuthenticationResult)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult\">AuthenticationResult</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.authenticationresult\">AuthenticationResult</a>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">A task representing the asynchronous operation and returning the authentication result.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "AcquireTokenSilentAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+            "startLine": 45,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AcquireTokenSilentAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "AcquireTokenSilentAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync*\" text=\"AcquireTokenSilentAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync*\" text=\"AcquireTokenSilentAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenSilentAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable{System.String},Microsoft.Identity.Client.IAccount)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "AcquireTokenSilentAsync(IEnumerable<string>, IAccount)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "AcquireTokenSilentAsync(IEnumerable(Of String), IAccount)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMsalTokenAcquisition.AcquireTokenSilentAsync(IEnumerable<string>, IAccount)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMsalTokenAcquisition.AcquireTokenSilentAsync(IEnumerable(Of String), IAccount)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable<string>, Microsoft.Identity.Client.IAccount)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable(Of String), Microsoft.Identity.Client.IAccount)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_AcquireTokenSilentAsync_System_Collections_Generic_IEnumerable_System_String__Microsoft_Identity_Client_IAccount_\">AcquireTokenSilentAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>&gt;, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.iaccount\">IAccount</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_AcquireTokenSilentAsync_System_Collections_Generic_IEnumerable_System_String__Microsoft_Identity_Client_IAccount_\">AcquireTokenSilentAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>), <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.iaccount\">IAccount</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">Attempts to acquire a token silently for the specified scopes and account.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenSilentAsync_System_Collections_Generic_IEnumerable_System_String__Microsoft_Identity_Client_IAccount_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.AcquireTokenSilentAsync(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CMicrosoft.Identity.Client.IAccount)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs/#L46",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_AcquireTokenSilentAsync_System_Collections_Generic_IEnumerable_System_String__Microsoft_Identity_Client_IAccount_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        },
+        {
+          "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetAccountsAsync(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetAccountsAsync(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MsalPublicClientTokenAcquisition.GetAccountsAsync(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "MsalPublicClientTokenAcquisition.GetAccountsAsync(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(string?)"
+            },
+            {
+              "lang": "vb",
+              "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(System.String)\" text=\"GetAccountsAsync(string?)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(System.String)\" text=\"GetAccountsAsync(string?)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Task<IEnumerable<IAccount>> GetAccountsAsync(string? userFlow = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Function GetAccountsAsync(userFlow As String = Nothing) As Task(Of IEnumerable(Of IAccount))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "userFlow",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{Microsoft.Identity.Client.IAccount}}",
+                "definition": "System.Threading.Tasks.Task`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<IEnumerable<IAccount>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of IEnumerable(Of IAccount))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Task<IEnumerable<IAccount>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Task(Of IEnumerable(Of IAccount))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<Microsoft.Identity.Client.IAccount>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of Microsoft.Identity.Client.IAccount))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>&lt;<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.iaccount\">IAccount</a>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1\">Task</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1\">IEnumerable</a>(Of <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/microsoft.identity.client.iaccount\">IAccount</a>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+              "branch": "main",
+              "repo": "https://github.com/perpetualintelligence/terminal"
+            },
+            "id": "GetAccountsAsync",
+            "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+            "startLine": 69,
+            "endLine": 0
+          },
+          "assemblies": [
+            "OneImlx.Terminal.Authentication"
+          ],
+          "namespace": "OneImlx.Terminal.Authentication.Msal",
+          "example": [],
+          "overload": {
+            "uid": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetAccountsAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "GetAccountsAsync"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "MsalPublicClientTokenAcquisition.GetAccountsAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "MsalPublicClientTokenAcquisition.GetAccountsAsync"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync"
+              },
+              {
+                "lang": "vb",
+                "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync*\" text=\"GetAccountsAsync\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync*\" text=\"GetAccountsAsync\"/>"
+              }
+            ],
+            "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_GetAccountsAsync_"
+          },
+          "level": 0,
+          "implements": [
+            {
+              "uid": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.GetAccountsAsync(System.String)",
+              "name": [
+                {
+                  "lang": "csharp",
+                  "value": "GetAccountsAsync(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "GetAccountsAsync(String)"
+                }
+              ],
+              "nameWithType": [
+                {
+                  "lang": "csharp",
+                  "value": "IMsalTokenAcquisition.GetAccountsAsync(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "IMsalTokenAcquisition.GetAccountsAsync(String)"
+                }
+              ],
+              "fullName": [
+                {
+                  "lang": "csharp",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.GetAccountsAsync(string)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.GetAccountsAsync(String)"
+                }
+              ],
+              "specName": [
+                {
+                  "lang": "csharp",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_GetAccountsAsync_System_String_\">GetAccountsAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">string</a>)"
+                },
+                {
+                  "lang": "vb",
+                  "value": "<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition.html#OneImlx_Terminal_Authentication_Msal_IMsalTokenAcquisition_GetAccountsAsync_System_String_\">GetAccountsAsync</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.string\">String</a>)"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">Returns all the available accounts in the user token cache for the application.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_GetAccountsAsync_System_String_.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.GetAccountsAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs/#L70",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "seealso": [],
+          "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition_GetAccountsAsync_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "MsalPublicClientTokenAcquisition"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalPublicClientTokenAcquisition"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "MsalPublicClientTokenAcquisition"
+    },
+    {
+      "lang": "vb",
+      "value": "MsalPublicClientTokenAcquisition"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition"
+    },
+    {
+      "lang": "vb",
+      "value": "OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+      "branch": "main",
+      "repo": "https://github.com/perpetualintelligence/terminal"
+    },
+    "id": "MsalPublicClientTokenAcquisition",
+    "path": "../../terminal/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs",
+    "startLine": 21,
+    "endLine": 0
+  },
+  "assemblies": [
+    "OneImlx.Terminal.Authentication"
+  ],
+  "namespace": {
+    "uid": "OneImlx.Terminal.Authentication.Msal",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "href": "OneImlx.html",
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      },
+      {
+        "lang": "vb",
+        "value": "OneImlx.Terminal.Authentication.Msal"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      },
+      {
+        "lang": "vb",
+        "value": "<a class=\"xref\" href=\"OneImlx.html\">OneImlx</a>.<a class=\"xref\" href=\"OneImlx.Terminal.html\">Terminal</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.html\">Authentication</a>.<a class=\"xref\" href=\"OneImlx.Terminal.Authentication.Msal.html\">Msal</a>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\">The default <xref href=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" data-throw-if-not-resolved=\"false\"></xref> implementation using the <xref href=\"Microsoft.Identity.Client.IPublicClientApplication\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "remarks": "<p sourcefile=\"api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml\" sourcestartlinenumber=\"1\"><xref href=\"OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition\" data-throw-if-not-resolved=\"false\"></xref> is responsible for handling token acquisition from the Microsoft Identity platform.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class MsalPublicClientTokenAcquisition : IMsalTokenAcquisition"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class MsalPublicClientTokenAcquisition Implements IMsalTokenAcquisition"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "implements": [
+    {
+      "uid": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "IMsalTokenAcquisition"
+        },
+        {
+          "lang": "vb",
+          "value": "IMsalTokenAcquisition"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "IMsalTokenAcquisition"
+        },
+        {
+          "lang": "vb",
+          "value": "IMsalTokenAcquisition"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition"
+        },
+        {
+          "lang": "vb",
+          "value": "OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" text=\"IMsalTokenAcquisition\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"OneImlx.Terminal.Authentication.Msal.IMsalTokenAcquisition\" text=\"IMsalTokenAcquisition\"/>"
+        }
+      ]
+    }
+  ],
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appFaviconPath": "images/favicon.ico",
+  "_appFooter": "Copyright &copy; 2019-2025. Perpetual Intelligence&reg; L.L.C. All Rights Reserved.",
+  "_appLogoPath": "images/logo.ico",
+  "_enableSearch": true,
+  "pdf": false,
+  "pdfCoverPage": "pdf/cover.html",
+  "pdfFileName": "oneimlx.pdf",
+  "pdfTocPage": true,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/perpetualintelligence/terminal/new/main/apiSpec/new?filename=OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition.md&value=---%0Auid%3A%20OneImlx.Terminal.Authentication.Msal.MsalPublicClientTokenAcquisition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/perpetualintelligence/terminal/blob/main/src/OneImlx.Terminal.Authentication/Msal/MsalPublicClientTokenAcquisition.cs/#L22",
+  "description": "The default  implementation using the .",
+  "conceptual": "",
+  "seealso": [],
+  "id": "OneImlx_Terminal_Authentication_Msal_MsalPublicClientTokenAcquisition",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true
+}

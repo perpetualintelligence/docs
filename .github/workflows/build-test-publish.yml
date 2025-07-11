@@ -11,7 +11,7 @@ on:
 jobs:
   # chocolatey is only available on windows
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 20
 
     env:
@@ -23,7 +23,7 @@ jobs:
       - name: Checkout Docs
         uses: actions/checkout@v3
         with:
-          path: main
+          path: docs
                     
       # protocols repo
       - name: Checkout Shared
@@ -54,12 +54,12 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.203'
+          global-json-file: docs/global.json
       
       # Restore dependencies
       # Restore using specified nuget.config
       - name: Restore
-        run: dotnet restore main/docfx_project/src/Documentation.Solution.sln --configfile main/nuget.config
+        run: dotnet restore docs/docfx_project/src/Documentation.Solution.sln --configfile docs/nuget.config
 
       # Install docfx
       - name: Setup docfc
@@ -68,13 +68,17 @@ jobs:
   
       # Build docfx_project
       - name: Build
-        run: docfx main/docfx_project/docfx.json
+        run: docfx docs/docfx_project/docfx.json
         continue-on-error: false
 
-      # Push the docs/_site to the GitHub /docs dir 
-      - name: Push
-        uses: peaceiris/actions-gh-pages@v3
+      # Build docfx and upload
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: main/docfx_project/_site
-          force_orphan: true
+          # Upload entire repository
+          path: docs/docfx_project/_site
+
+      # Deploy to GitHub Pages
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

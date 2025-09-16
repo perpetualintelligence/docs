@@ -1,65 +1,43 @@
-# Concepts
-This document introduces all the technical concepts within the `OneImlx.Terminal` terminal framework. It covers fundamental components and their roles in command parsing, routing and execution.
+# Introduction
+
+The `OneImlx.Terminal` aka `OneTerminal` framework introduces the following packages.
+
+| Package | Description | Usage |
+|---------|-------------|-------|
+| [`OneImlx.Terminal.Shared`](https://www.nuget.org/packages/OneImlx.Terminal.Shared) | The cross-platform shared library for the `OneImlx.Terminal` framework. | Referenced by all terminal packages as a base dependency, do not use in your application code directly. |
+| [`OneImlx.Terminal`](https://www.nuget.org/packages/OneImlx.Terminal) | The cross-platform framework for building modern and secured terminal apps, servers, and AI agents. | Build full end-to-end terminal applications with command processing and execution. |
+| [`OneImlx.Terminal.Authentication`](https://www.nuget.org/packages/OneImlx.Terminal.Authentication) | A cross-platform authentication package for securing `OneImlx.Terminal` applications. | Build an authentication layer using MSAL for the terminal applications. |
+| [`OneImlx.Terminal.Server`](https://www.nuget.org/packages/OneImlx.Terminal.Server) | A cross-platform hosting framework for `OneImlx.Terminal` server apps and AI agents, with ASP.NET Core hosting. | Build terminal apps, servers, and AI agents that support TCP, UDP, gRPC, HTTP routers for service-to-service or agent-to-agent communications. |
+| [`OneImlx.Terminal.Client`](https://www.nuget.org/packages/OneImlx.Terminal.Client) | The cross-platform client library for the `OneImlx.Terminal` framework. | Build terminal client apps or an AI agent that talks to terminal servers. |
+
+The diagram below outlines the high-level phases of command routing in the framework:
 
 ```mermaid
 stateDiagram
-    classDef Movement font-style:italic;
-    classDef Event fill:#f9f9f9,stroke:#333,stroke-width:1px,font-style:italic,fill:#e6e6e6
-
-    Terminal : Terminal Application
-    HostedService : Terminal Hosted Service
-    TerminalRouter : Terminal Router
-    CommandRouter : Command Router
-    PreRouteEvent : Pre-Route
-    CommandParser : Command Parser
-    RouteParser : Parse Route
-    CommandHandler : Command Handler
-    CheckLicense : Check License Limits
-    CommandChecker : Command Checker
-    PreCheckEvent : Pre-Check
-    CheckCommand : Check Command
-    PostCheckEvent : Post-Check
-    CommandRunner : Command Runner
-    PreRunEvent : Pre-Run
-    RunCommand : Run Command
-    ProcessResult : Process Run Result
-    PostRunEvent : Post-Run
-    PostRouteEvent : Post-Route
-    Cancelled : Terminal Router Cancelled ?
-
+    direction LR
     [*] --> Terminal
-    Terminal --> HostedService 
-    HostedService --> TerminalRouter
-    TerminalRouter --> CommandRouter
-    state CommandRouter {
-        PreRouteEvent --> CommandParser
-
-        state CommandParser {
-            RouteParser
-        }
-        
-        CommandParser --> CommandHandler
-        state CommandHandler {
-            CheckLicense --> CommandChecker
-            state CommandChecker{
-                PreCheckEvent --> CheckCommand
-                CheckCommand --> PostCheckEvent
-            }
-            CommandChecker --> CommandRunner
-            state CommandRunner {
-                PreRunEvent --> RunCommand
-                RunCommand --> ProcessResult
-                ProcessResult --> PostRunEvent
-            }
-        }
-        CommandHandler --> PostRouteEvent
-    }
-    CommandRouter --> Cancelled
-    Cancelled --> TerminalRouter : NO
-    Cancelled --> [*]
+    Terminal --> Routing
+    Routing --> Parsing
+    Parsing --> Checking
+    Checking --> Execution
+    Execution --> Cancelled
+    Cancelled --> Routing : NO
+    Cancelled --> Completed : YES
+    Completed --> [*]
 ```
 
-The flow initiates at the `Terminal`, representing the entry point of the application. 
-Commands are then passed to the HostedService, which handles the hosting of the application, and subsequently to the TerminalRouter. This router is crucial in directing commands to their respective destinations. The CommandRouter then takes over, triggering the Pre-Route Event before parsing the command through CommandParser. Here, the RouteParser breaks down the command route into actionable segments.
+## Supported Flows
 
-Within the CommandRouter, the CommandHandler manages the execution logic. It involves steps like CheckLicense for verifying command's compliance with licensing requirements, and CommandChecker, where events like Pre-Check and Post-Check ensure command integrity. Once verified, CommandRunner executes the command, encapsulating stages from Pre-Run to Post-Run, processing the command result. Eventually, the flow reaches Post-Route Event, signifying the end of the command's journey, unless the router is Cancelled, in which case, it loops back to the TerminalRouter or ends the process.
+The framework supports a range of communication and execution flows:
+
+- **Manual Interactive Flow**  
+  A user interacts directly with a terminal application via a command-line interface (CLI). Commands are typed and executed interactively.
+
+- **Client-to-Server Flow**  
+  A terminal client sends commands to a terminal server over supported protocols such as TCP, HTTP, gRPC, or UDP. Useful for remote execution or centralized processing.
+
+- **Service-to-Service Flow**  
+  One backend service communicates with another terminal-enabled service using the terminal protocol. Common in distributed systems and microservice architectures.
+
+- **Agent-to-Agent Flow**  
+  Autonomous agents issue commands to each other using the terminal as the execution layer. This enables collaborative, task-driven behavior between AI agents.

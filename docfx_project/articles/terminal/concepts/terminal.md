@@ -1,5 +1,5 @@
 ## [Terminal](xref:OneImlx.Terminal.Runtime.Terminal)
-In `OneImlx.Terminal` framework, a terminal is a Unicode text-based construct designed for executing commands, automating workflows, and processing scripts. Each terminal session is uniquely identified, allowing for clear differentiation and management of multiple instances.
+A terminal is a Unicode text-based logical construct designed for executing commands, automating workflows, and processing scripts. Each terminal is uniquely identified, allowing for clear differentiation and management of multiple instances.
 
 A terminal is not just a console; it's a logical construct designed to execute commands and automate tasks. It can be implemented as a console, server, browser-based interface, or any other UX format, making it adaptable for various development environments.
 
